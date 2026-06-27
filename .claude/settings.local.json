@@ -23,7 +23,9 @@
       "PowerShell(& \"C:\\\\Users\\\\idrop\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python3.exe\" --version 2>&1)",
       "PowerShell($locations = @\\(\"C:\\\\Program Files\\\\nodejs\\\\node.exe\",\"C:\\\\Program Files \\(x86\\)\\\\nodejs\\\\node.exe\",\"$env:APPDATA\\\\npm\\\\node.exe\",\"$env:LOCALAPPDATA\\\\Programs\\\\node\\\\node.exe\",\"C:\\\\tools\\\\node\\\\node.exe\"\\); foreach \\($l in $locations\\) { if \\(Test-Path $l\\) { Write-Host \"Found: $l\" } })",
       "mcp__Claude_in_Chrome__navigate",
-      "mcp__Claude_in_Chrome__list_connected_browsers"
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "PowerShell(gh repo delete B9Vernon/back-nine-landing --yes 2>&1)",
+      "PowerShell(gh auth refresh -h github.com -s delete_repo 2>&1)"
     ]
   }
 }
