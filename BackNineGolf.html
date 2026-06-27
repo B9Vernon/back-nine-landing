@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Back Nine Indoor Golf — Vernon, BC</title>
+<meta name="description" content="Premium indoor golf simulator in Vernon, BC. 24/7 access, 100+ world-class courses, memberships from $149/month.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ── RESET ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+img,video{display:block;max-width:100%}
+a{text-decoration:none;color:inherit}
+ul{list-style:none}
+
+/* ── TOKENS ── */
+:root{
+  --bg:#07090d;
+  --bg2:#0d1520;
+  --green:#97c93d;
+  --white:#fff;
+  --muted:rgba(255,255,255,.5);
+  --line:rgba(255,255,255,.08);
+  --serif:'Cormorant Garamond',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+
+/* ── BASE ── */
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{
+  background:var(--bg);
+  color:var(--white);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.6;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ── SCROLL PROGRESS ── */
+#prog{
+  position:fixed;top:0;left:0;
+  height:2px;width:0%;
+  background:var(--green);
+  z-index:300;pointer-events:none;
+  transition:width .05s linear;
+}
+
+/* ── HEADER ── */
+header{
+  position:fixed;inset:0 0 auto 0;
+  z-index:100;height:80px;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 3.5rem;
+  transition:background .5s var(--ease),border-color .5s;
+  border-bottom:1px solid transparent;
+}
+header.on{
+  background:rgba(7,9,13,.93);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  border-color:var(--line);
+}
+.logo img{height:38px;width:auto;filter:brightness(0) invert(1)}
+nav{display:flex;align-items:center;gap:2.5rem}
+.nav-links{display:flex;gap:2.5rem;align-items:center}
+.nav-links a{
+  font-size:.75rem;font-weight:500;
+  letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(255,255,255,.6);transition:color .2s;
+}
+.nav-links a:hover{color:var(--white)}
+.nav-cta{
+  background:var(--green)!important;color:#07090d!important;
+  padding:.65rem 1.5rem;border-radius:2px;
+  font-size:.75rem!important;font-weight:600!important;letter-spacing:.08em!important;
+  text-transform:uppercase!important;transition:opacity .2s!important;
+}
+.nav-cta:hover{opacity:.82!important}
+
+/* ── HERO ── */
+.hero{
+  position:relative;height:100svh;min-height:600px;
+  display:flex;align-items:center;justify-content:center;
+  text-align:center;overflow:hidden;
+}
+.hero-vid{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:center;
+  z-index:0;pointer-events:none;
+}
+.hero-fallback{
+  position:absolute;inset:0;
+  background:url('assets/take-the-stage.png') center/cover no-repeat;
+  z-index:0;
+}
+.hero-veil{
+  position:absolute;inset:0;z-index:1;
+  background:linear-gradient(
+    135deg,
+    rgba(7,9,13,.75) 0%,
+    rgba(7,9,13,.4)  40%,
+    rgba(7,9,13,.6)  70%,
+    rgba(7,9,13,.95) 100%
+  );
+}
+.hero-body{
+  position:relative;z-index:2;
+  max-width:820px;padding:0 2rem;
+}
+.eyebrow{
+  display:inline-block;
+  font-size:.7rem;font-weight:600;
+  letter-spacing:.22em;text-transform:uppercase;
+  color:var(--green);margin-bottom:1.5rem;
+}
+.hero-h1{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(4rem,10vw,8.5rem);
+  line-height:.9;letter-spacing:-.03em;
+  margin-bottom:1.8rem;
+}
+.hero-h1 em{font-style:italic}
+.hero-sub{
+  font-size:clamp(.95rem,2vw,1.1rem);font-weight:300;
+  color:rgba(255,255,255,.68);
+  max-width:480px;margin:0 auto 2.6rem;line-height:1.8;
+}
+.ctas{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:.55rem;
+  font-size:.78rem;font-weight:600;
+  letter-spacing:.09em;text-transform:uppercase;
+  padding:.95rem 2.1rem;border-radius:2px;
+  transition:opacity .2s,transform .25s var(--ease);
+}
+.btn:hover{opacity:.85;transform:translateY(-2px)}
+.btn-solid{background:var(--green);color:#07090d}
+.btn-outline{
+  border:1px solid rgba(255,255,255,.3);color:var(--white);
+  transition:border-color .2s,background .2s,transform .25s var(--ease),opacity .2s;
+}
+.btn-outline:hover{border-color:rgba(255,255,255,.65);background:rgba(255,255,255,.06)}
+.hero-scroll{
+  position:absolute;bottom:2.5rem;left:50%;
+  transform:translateX(-50%);z-index:2;
+  display:flex;flex-direction:column;align-items:center;gap:.5rem;
+}
+.scroll-bar{
+  width:1px;height:44px;
+  background:linear-gradient(to bottom,rgba(255,255,255,.5),transparent);
+  animation:spulse 2.2s ease-in-out infinite;
+}
+@keyframes spulse{0%,100%{opacity:.9;transform:scaleY(1)}50%{opacity:.25;transform:scaleY(.55)}}
+.scroll-label{font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.3)}
+
+/* ── STATS ── */
+.stats{
+  background:var(--bg2);
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:4.5rem 2rem;text-align:center;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat-num{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(3rem,5.5vw,5.5rem);
+  line-height:1;color:var(--green);display:block;
+}
+.stat-lbl{
+  display:block;font-size:.7rem;font-weight:500;
+  letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);margin-top:.8rem;
+}
+
+/* ── FULL IMAGE SECTION (TAKE THE STAGE) ── */
+.stage{
+  position:relative;height:100svh;min-height:600px;overflow:hidden;
+}
+.stage-img{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:center;
+  transition:transform 8s ease;
+}
+.stage:hover .stage-img{transform:scale(1.03)}
+.stage-veil{
+  position:absolute;inset:0;
+  background:linear-gradient(
+    to right,
+    rgba(7,9,13,.85) 0%,
+    rgba(7,9,13,.5)  45%,
+    rgba(7,9,13,.15) 100%
+  );
+}
+.stage-body{
+  position:relative;z-index:2;height:100%;
+  display:flex;flex-direction:column;justify-content:center;
+  padding:0 5rem;max-width:620px;
+}
+.stage-body .eyebrow{margin-bottom:1rem}
+.stage-h2{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(3rem,7vw,6rem);
+  line-height:.92;letter-spacing:-.02em;
+  margin-bottom:1.6rem;
+}
+.stage-h2 em{font-style:italic}
+.rule{width:48px;height:2px;background:var(--green);margin:0 0 2rem}
+.stage-copy{
+  font-size:1rem;font-weight:300;
+  color:rgba(255,255,255,.65);
+  line-height:1.85;max-width:420px;margin-bottom:2.5rem;
+}
+
+/* ── INSIDE / OUTSIDE FULL BLEED ── */
+.inout{
+  position:relative;height:90svh;min-height:500px;overflow:hidden;
+}
+.inout-img{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:center 25%;
+}
+.inout-veil{
+  position:absolute;inset:0;
+  background:linear-gradient(
+    to top,
+    rgba(7,9,13,.9) 0%,
+    rgba(7,9,13,.5) 40%,
+    rgba(7,9,13,.15) 100%
+  );
+}
+.inout-body{
+  position:relative;z-index:2;height:100%;
+  display:flex;flex-direction:column;
+  justify-content:flex-end;align-items:center;
+  text-align:center;padding:0 2rem 5rem;
+}
+.inout-h2{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(2.5rem,6vw,5rem);
+  line-height:.95;letter-spacing:-.02em;
+  margin-bottom:1.25rem;
+}
+.inout-h2 em{font-style:italic}
+.inout-sub{
+  font-size:1rem;font-weight:300;
+  color:rgba(255,255,255,.62);
+  max-width:500px;line-height:1.8;
+  margin-bottom:2rem;
+}
+
+/* ── DATA / TECH SPLIT ── */
+.data{
+  display:grid;grid-template-columns:1fr 1fr;
+  min-height:80vh;
+}
+.data-copy{
+  background:var(--bg2);
+  display:flex;align-items:center;
+  padding:6rem 5rem;
+  border-right:1px solid var(--line);
+}
+.data-inner{max-width:480px}
+.lbl{
+  display:inline-block;font-size:.7rem;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;
+  color:var(--green);margin-bottom:1.1rem;
+}
+.h2{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(2.2rem,4.5vw,3.8rem);
+  line-height:1.08;letter-spacing:-.015em;
+}
+.h2 em{font-style:italic}
+.data-rule{width:48px;height:2px;background:var(--green);margin:1.6rem 0 2rem}
+.body-copy{
+  font-size:.95rem;font-weight:300;
+  color:rgba(255,255,255,.6);line-height:1.85;
+  margin-bottom:2.5rem;
+}
+.specs{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem 2rem}
+.spec{padding-left:1rem;border-left:2px solid var(--green)}
+.spec-val{font-family:var(--serif);font-size:1.5rem;font-weight:400;line-height:1.1}
+.spec-key{
+  font-size:.68rem;font-weight:500;
+  letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);margin-top:.3rem;
+}
+.data-photo{position:relative;overflow:hidden}
+.data-photo img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+
+/* ── PUTTER FEATURE ── */
+.putter{
+  display:grid;grid-template-columns:1fr 1fr;
+  border-top:1px solid var(--line);
+}
+.putter-visual{
+  position:relative;overflow:hidden;
+  background:#f5f5f5;
+}
+.putter-visual img{
+  width:100%;height:100%;
+  object-fit:cover;object-position:center;
+  display:block;aspect-ratio:1/1;
+}
+.putter-copy{
+  background:var(--bg);
+  display:flex;align-items:center;
+  padding:6rem 5rem;
+  border-left:1px solid var(--line);
+}
+.putter-inner{max-width:480px}
+.putter-rule{width:48px;height:2px;background:var(--green);margin:1.6rem 0 2rem}
+
+/* ── MEMBERSHIPS ── */
+.mems{
+  padding:9rem 3.5rem;
+  max-width:1240px;margin:0 auto;
+}
+.sec-hd{text-align:center;margin-bottom:4rem}
+.sec-hd .h2{font-size:clamp(2rem,4.5vw,3.5rem)}
+.cx-rule{width:48px;height:2px;background:var(--green);margin:1.4rem auto 2rem}
+.sec-sub{
+  font-size:.95rem;font-weight:300;
+  color:rgba(255,255,255,.55);max-width:480px;
+  margin:0 auto;line-height:1.8;
+}
+.mem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.mc{
+  background:var(--bg2);border:1px solid var(--line);
+  border-radius:3px;padding:3rem 2.5rem;
+  display:flex;flex-direction:column;position:relative;
+  transition:transform .35s var(--ease),border-color .3s;
+}
+.mc:hover{transform:translateY(-8px)}
+.mc.hot{border-color:var(--green);background:rgba(151,201,61,.04)}
+.mc-badge{
+  position:absolute;top:-1px;right:2.2rem;
+  background:var(--green);color:#07090d;
+  font-size:.62rem;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;
+  padding:.35rem 1rem;border-radius:0 0 3px 3px;
+}
+.mc-tier{
+  font-size:.68rem;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;
+  color:var(--green);margin-bottom:.6rem;
+}
+.mc-name{
+  font-family:var(--serif);font-size:2.4rem;
+  font-weight:300;line-height:1;margin-bottom:.6rem;
+}
+.mc-blurb{
+  font-size:.82rem;font-weight:300;
+  color:rgba(255,255,255,.4);line-height:1.65;margin-bottom:2rem;
+}
+.mc-price{
+  display:flex;align-items:baseline;gap:.4rem;
+  padding-bottom:2rem;margin-bottom:2rem;
+  border-bottom:1px solid var(--line);
+}
+.mc-amount{
+  font-family:var(--serif);font-size:4rem;
+  font-weight:300;line-height:1;
+}
+.mc-per{font-size:.8rem;color:rgba(255,255,255,.35)}
+.mc-feats{
+  display:flex;flex-direction:column;gap:.9rem;
+  flex:1;margin-bottom:2.5rem;
+}
+.mc-feat{
+  display:flex;gap:.75rem;
+  font-size:.86rem;font-weight:300;
+  color:rgba(255,255,255,.68);line-height:1.4;
+}
+.mc-check{color:var(--green);flex-shrink:0}
+.mc-btn{
+  display:block;text-align:center;
+  padding:.9rem 1.5rem;border-radius:2px;
+  font-size:.78rem;font-weight:600;
+  letter-spacing:.09em;text-transform:uppercase;
+  border:1px solid rgba(255,255,255,.18);
+  color:rgba(255,255,255,.7);
+  transition:all .25s;
+}
+.mc-btn:hover{border-color:var(--white);color:var(--white);background:rgba(255,255,255,.06)}
+.mc.hot .mc-btn{background:var(--green);border-color:var(--green);color:#07090d}
+.mc.hot .mc-btn:hover{opacity:.85}
+.mems-note{text-align:center;margin-top:2.5rem;font-size:.82rem;color:rgba(255,255,255,.3)}
+.mems-note a{color:var(--green)}
+
+/* ── EVENTS ── */
+.events{
+  background:var(--bg2);border-top:1px solid var(--line);
+  padding:9rem 3.5rem;
+}
+.events-inner{max-width:1240px;margin:0 auto}
+.ev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:4rem}
+.ev-card{
+  position:relative;border-radius:3px;
+  overflow:hidden;aspect-ratio:3/4;
+}
+.ev-img{
+  width:100%;height:100%;
+  object-fit:cover;display:block;
+  transition:transform .65s var(--ease);
+}
+.ev-card:hover .ev-img{transform:scale(1.06)}
+.ev-veil{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(7,9,13,.9) 0%,rgba(7,9,13,.2) 55%,transparent 100%);
+}
+.ev-body{position:absolute;bottom:0;left:0;right:0;padding:2rem}
+.ev-type{
+  font-size:.65rem;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;
+  color:var(--green);margin-bottom:.5rem;
+}
+.ev-name{
+  font-family:var(--serif);font-size:1.7rem;
+  font-weight:300;line-height:1.2;margin-bottom:1rem;
+}
+.ev-link{
+  font-size:.72rem;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(255,255,255,.5);
+  display:inline-flex;align-items:center;gap:.45rem;
+  transition:color .2s;
+}
+.ev-arrow{display:inline-block;transition:transform .2s}
+.ev-card:hover .ev-link{color:var(--white)}
+.ev-card:hover .ev-arrow{transform:translateX(5px)}
+
+/* ── CTA SECTION ── */
+.cta-sec{
+  position:relative;min-height:72vh;
+  display:flex;align-items:center;justify-content:center;
+  text-align:center;overflow:hidden;
+  border-top:1px solid var(--line);
+}
+.cta-bg{
+  position:absolute;inset:0;
+  background:url('assets/nib-swing.png') center/cover no-repeat;
+  filter:brightness(.28);transform:scale(1.02);
+}
+.cta-body{
+  position:relative;z-index:2;
+  padding:6rem 2rem;max-width:700px;
+}
+.cta-body .lbl{margin-bottom:1rem}
+.cta-h2{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(3rem,7.5vw,6rem);
+  line-height:.92;letter-spacing:-.02em;
+  margin-bottom:1.4rem;
+}
+.cta-h2 em{font-style:italic}
+.cta-rule{width:48px;height:2px;background:var(--green);margin:0 auto 1.8rem}
+.cta-sub{
+  font-size:1rem;font-weight:300;
+  color:rgba(255,255,255,.62);
+  max-width:480px;margin:0 auto 2.6rem;line-height:1.8;
+}
+
+/* ── FAQ ── */
+.faq{padding:9rem 3.5rem;max-width:860px;margin:0 auto}
+.faq .sec-hd{margin-bottom:3.5rem}
+.fi{border-bottom:1px solid var(--line)}
+.fi-q{
+  display:flex;align-items:center;justify-content:space-between;gap:1.5rem;
+  padding:1.75rem 0;cursor:pointer;
+  font-family:var(--serif);font-size:1.2rem;font-weight:400;
+  user-select:none;transition:color .2s;
+}
+.fi-q:hover{color:rgba(255,255,255,.8)}
+.fi-icon{
+  width:30px;height:30px;border-radius:50%;
+  border:1px solid var(--line);flex-shrink:0;
+  position:relative;transition:border-color .25s,transform .35s var(--ease);
+}
+.fi-icon::before,.fi-icon::after{
+  content:'';position:absolute;
+  top:50%;left:50%;
+  background:rgba(255,255,255,.6);
+  transform:translate(-50%,-50%);
+  transition:background .25s;
+}
+.fi-icon::before{width:11px;height:1px}
+.fi-icon::after{width:1px;height:11px}
+.fi.open .fi-icon{border-color:var(--green);transform:rotate(45deg)}
+.fi.open .fi-icon::before,.fi.open .fi-icon::after{background:var(--green)}
+.fi-a{overflow:hidden;height:0}
+.fi-a-inner{
+  padding-bottom:1.75rem;
+  font-size:.9rem;font-weight:300;
+  line-height:1.85;color:rgba(255,255,255,.55);
+}
+
+/* ── FOOTER ── */
+footer{background:var(--bg2);border-top:1px solid var(--line)}
+.foot-top{
+  max-width:1240px;margin:0 auto;
+  padding:5rem 3.5rem 4rem;
+  display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;
+}
+.foot-brand .logo{margin-bottom:1.4rem}
+.foot-tagline{
+  font-size:.85rem;font-weight:300;
+  color:rgba(255,255,255,.38);
+  line-height:1.75;max-width:230px;
+}
+.foot-col-title{
+  font-size:.66rem;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;
+  color:rgba(255,255,255,.28);margin-bottom:1.3rem;
+}
+.foot-links{display:flex;flex-direction:column;gap:.7rem}
+.foot-links a{
+  font-size:.85rem;font-weight:300;
+  color:rgba(255,255,255,.5);transition:color .2s;
+}
+.foot-links a:hover{color:var(--white)}
+.foot-info{display:flex;flex-direction:column;gap:.75rem}
+.foot-info span,.foot-info a{
+  font-size:.85rem;font-weight:300;
+  color:rgba(255,255,255,.5);line-height:1.5;
+  transition:color .2s;
+}
+.foot-info a:hover{color:var(--white)}
+.foot-bottom{
+  border-top:1px solid var(--line);
+  padding:1.5rem 3.5rem;max-width:1240px;margin:0 auto;
+  display:flex;align-items:center;justify-content:space-between;
+  font-size:.75rem;color:rgba(255,255,255,.25);
+}
+.foot-green{color:var(--green)}
+
+/* ── FLOAT CTA ── */
+#fcta{
+  position:fixed;bottom:2rem;right:2rem;
+  z-index:90;opacity:0;transform:translateY(14px);
+  pointer-events:none;
+  transition:opacity .4s var(--ease),transform .4s var(--ease);
+}
+#fcta.on{opacity:1;transform:translateY(0);pointer-events:all}
+#fcta a{
+  display:flex;align-items:center;gap:.75rem;
+  background:var(--green);color:#07090d;
+  font-size:.75rem;font-weight:700;
+  letter-spacing:.09em;text-transform:uppercase;
+  padding:.95rem 1.6rem;border-radius:3px;
+  box-shadow:0 8px 36px rgba(0,0,0,.5);
+  transition:opacity .2s;
+}
+#fcta a:hover{opacity:.85}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1100px){
+  .data{grid-template-columns:1fr}
+  .data-copy{padding:5rem 3.5rem}
+  .data-photo img{aspect-ratio:16/9}
+  .putter{grid-template-columns:1fr}
+  .putter-visual img{aspect-ratio:4/3}
+  .putter-copy{padding:4rem 3.5rem;border-left:0;border-top:1px solid var(--line)}
+  .foot-top{grid-template-columns:1fr 1fr;gap:2.5rem;padding:4rem 2rem}
+}
+@media(max-width:760px){
+  header{padding:0 1.5rem}
+  .nav-links{display:none}
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .stat:nth-child(2){border-right:0}
+  .stage-body{padding:0 2rem;max-width:100%}
+  .mem-grid{grid-template-columns:1fr}
+  .ev-grid{grid-template-columns:1fr}
+  .mems{padding:6rem 1.5rem}
+  .events{padding:6rem 1.5rem}
+  .faq{padding:6rem 1.5rem}
+  .foot-top{grid-template-columns:1fr;padding:3.5rem 1.5rem}
+  .foot-bottom{flex-direction:column;gap:.5rem;padding:1.5rem;text-align:center}
+}
+@media(max-width:500px){
+  .ctas{flex-direction:column;align-items:center}
+  .btn{justify-content:center}
+  .specs{grid-template-columns:1fr}
+  .data-copy{padding:4rem 1.5rem}
+  .putter-copy{padding:3.5rem 1.5rem}
+}
+
+/* ── PRE-ANIMATION HIDDEN ── */
+.hero-body>*,.hero-scroll,header{opacity:0}
+</style>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SportsActivityLocation","name":"Back Nine Indoor Golf — Vernon","url":"https://backninegolf.ca/local/vernonbc/","telephone":"+12363617888","email":"vernon@thebackninegolf.com","address":{"@type":"PostalAddress","streetAddress":"3201 45 Ave","addressLocality":"Vernon","addressRegion":"BC","postalCode":"V1T 5B9","addressCountry":"CA"},"priceRange":"$$","openingHours":"Mo-Su 00:00-24:00"}
+</script>
+</head>
+<body>
+
+<!-- Scroll Progress -->
+<div id="prog"></div>
+
+<!-- Header -->
+<header id="hdr">
+  <a href="#" class="logo">
+    <img src="assets/logo.png" alt="Back Nine Golf" onerror="this.src='https://backninegolf.ca/assets/img/b9-banner-logo.svg';this.onerror=null">
+  </a>
+  <nav>
+    <div class="nav-links">
+      <a href="#experience">Experience</a>
+      <a href="#memberships">Memberships</a>
+      <a href="#events">Events</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="https://backninegolf.ca/local/vernonbc/bookings/" class="nav-cta" target="_blank">Book a Bay</a>
+  </nav>
+</header>
+
+<!-- ─── HERO: Video Background ─── -->
+<section class="hero" id="top">
+  <video class="hero-vid" autoplay muted loop playsinline poster="assets/take-the-stage.png">
+    <source src="assets/hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero-fallback" aria-hidden="true"></div>
+  <div class="hero-veil"></div>
+  <div class="hero-body">
+    <span class="eyebrow">Indoor Golf &middot; Vernon, BC</span>
+    <h1 class="hero-h1">Take The<br><em>Stage.</em></h1>
+    <p class="hero-sub">Premium simulator golf with 24/7 access and 100+ world-class courses — all in Vernon, BC.</p>
+    <div class="ctas">
+      <a href="https://backninegolf.ca/local/vernonbc/bookings/" class="btn btn-solid" target="_blank">
+        Book a Bay
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#memberships" class="btn btn-outline">View Memberships</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-bar"></div>
+    <span class="scroll-label">Scroll</span>
+  </div>
+</section>
+
+<!-- ─── STATS ─── -->
+<section class="stats">
+  <div class="stats-grid">
+    <div class="stat">
+      <span class="stat-num" data-count="100" data-suf="+">0</span>
+      <span class="stat-lbl">World-Class Courses</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="60" data-suf="+">0</span>
+      <span class="stat-lbl">Games &amp; Challenges</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="3" data-suf="">0</span>
+      <span class="stat-lbl">Private Simulator Bays</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">24/7</span>
+      <span class="stat-lbl">Member Access</span>
+    </div>
+  </div>
+</section>
+
+<!-- ─── TAKE THE STAGE: Full Image Section ─── -->
+<section class="stage" id="experience">
+  <img class="stage-img" src="assets/take-the-stage.png" alt="Back Nine Indoor Golf arena" loading="lazy">
+  <div class="stage-veil"></div>
+  <div class="stage-body reveal">
+    <span class="eyebrow">Beyond the Grass</span>
+    <h2 class="stage-h2">Indoor Golf,<br><em>Made to Matter.</em></h2>
+    <div class="rule"></div>
+    <p class="stage-copy">Compete, connect, and level up your game in Vernon's most immersive golf experience. Every shot counts. Every round means something.</p>
+    <div class="ctas" style="justify-content:flex-start">
+      <a href="https://backninegolf.ca/local/vernonbc/bookings/" class="btn btn-solid" target="_blank">Book a Bay</a>
+      <a href="https://backninegolf.ca/local/vernonbc/demo/" class="btn btn-outline" target="_blank">Free Demo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── INSIDE / OUTSIDE ─── -->
+<section class="inout">
+  <img class="inout-img" src="assets/inside-outside.png" alt="Outdoor golf meets indoor simulator" loading="lazy">
+  <div class="inout-veil"></div>
+  <div class="inout-body reveal">
+    <h2 class="inout-h2">Rain or Shine.<br><em>The Game Never Stops.</em></h2>
+    <p class="inout-sub">Step from the course straight into the simulator — the same swing, the same ball, the same game. Just no weather.</p>
+    <a href="https://backninegolf.ca/local/vernonbc/bookings/" class="btn btn-solid" target="_blank">
+      Play Now &mdash; $60/hr
+    </a>
+  </div>
+</section>
+
+<!-- ─── DATA / TECH ─── -->
+<section class="data" id="simulator">
+  <div class="data-copy">
+    <div class="data-inner reveal">
+      <span class="lbl">Powered By</span>
+      <h2 class="h2">Your Swing.<br><em>Your Data.</em></h2>
+      <div class="data-rule"></div>
+      <p class="body-copy">The Full Swing Pro Series tracks every ball metric in real-time — carry distance, ball speed, launch angle, spin rates, and more. The same tech used by Tiger Woods, Jon Rahm, and Jordan Spieth.</p>
+      <div class="specs stagger">
+        <div class="spec">
+          <div class="spec-val">ION3</div>
+          <div class="spec-key">Overhead Tracking</div>
+        </div>
+        <div class="spec">
+          <div class="spec-val">4K HyperClear</div>
+          <div class="spec-key">Dual Displays</div>
+        </div>
+        <div class="spec">
+          <div class="spec-val">IR + LED</div>
+          <div class="spec-key">Ball Detection</div>
+        </div>
+        <div class="spec">
+          <div class="spec-val">Real-Time</div>
+          <div class="spec-key">Shot Analytics</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="data-photo imgrev">
+    <img src="assets/vernon-data.png" alt="Back Nine Vernon swing data analytics" loading="lazy">
+  </div>
+</section>
+
+<!-- ─── NIB PUTTER / BRAND FEATURE ─── -->
+<section class="putter" style="border-top:1px solid var(--line)">
+  <div class="putter-visual imgrev">
+    <img src="assets/nib-putter.png" alt="Back Nine N.I.B. Custom Putter" loading="lazy">
+  </div>
+  <div class="putter-copy">
+    <div class="putter-inner reveal">
+      <span class="lbl">The Details</span>
+      <h2 class="h2">Where Craft<br><em>Meets Course.</em></h2>
+      <div class="putter-rule"></div>
+      <p class="body-copy" style="margin-bottom:2rem">From custom-milled putters to world-class simulators — Back Nine is built for golfers who care about every detail of their game. This is indoor golf the way it was meant to be played.</p>
+      <a href="https://backninegolf.ca/local/vernonbc/memberships/" class="btn btn-solid" target="_blank">
+        Become a Member
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── MEMBERSHIPS ─── -->
+<section id="memberships" style="border-top:1px solid var(--line)">
+  <div class="mems">
+    <div class="sec-hd reveal">
+      <span class="lbl">Unlimited Access</span>
+      <h2 class="h2" style="font-size:clamp(2.2rem,4.5vw,3.8rem)">Choose Your Membership</h2>
+      <div class="cx-rule"></div>
+      <p class="sec-sub">One flat monthly rate. Unlimited play. No hourly fees. The Okanagan's finest indoor golf experience, yours to keep.</p>
+    </div>
+    <div class="mem-grid stagger">
+      <div class="mc">
+        <div class="mc-tier">Owl</div>
+        <div class="mc-name">Night Owl</div>
+        <div class="mc-blurb">Late nights, quiet bays, your own pace.</div>
+        <div class="mc-price"><span class="mc-amount">$149</span><span class="mc-per">/month</span></div>
+        <ul class="mc-feats">
+          <li class="mc-feat"><span class="mc-check">✓</span> 11pm – 6am facility access</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> 2-hour tee times</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> 1 complimentary guest</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> All 100+ courses included</li>
+        </ul>
+        <a href="https://backninegolf.ca/local/vernonbc/memberships/" class="mc-btn" target="_blank">Get Started</a>
+      </div>
+      <div class="mc hot">
+        <div class="mc-badge">Most Popular</div>
+        <div class="mc-tier">Birdie</div>
+        <div class="mc-name">Birdie</div>
+        <div class="mc-blurb">24/7 access. Priority booking. The full experience.</div>
+        <div class="mc-price"><span class="mc-amount">$299</span><span class="mc-per">/month</span></div>
+        <ul class="mc-feats">
+          <li class="mc-feat"><span class="mc-check">✓</span> 24/7 access to bays 2 &amp; 3</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> 2-hour tee times</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> 2 complimentary guests</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> Priority booking window</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> League &amp; tournament access</li>
+        </ul>
+        <a href="https://backninegolf.ca/local/vernonbc/memberships/" class="mc-btn" target="_blank">Become a Member</a>
+      </div>
+      <div class="mc">
+        <div class="mc-tier">Eagle</div>
+        <div class="mc-name">Eagle</div>
+        <div class="mc-blurb">Maximum access, guests, and exclusive perks.</div>
+        <div class="mc-price"><span class="mc-amount">$349</span><span class="mc-per">/month</span></div>
+        <ul class="mc-feats">
+          <li class="mc-feat"><span class="mc-check">✓</span> 24/7 access to all 3 bays</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> 3-hour tee times</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> 3 complimentary guests</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> Maximum booking priority</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> Conference room &amp; massage chair</li>
+          <li class="mc-feat"><span class="mc-check">✓</span> 2 simultaneous bookings</li>
+        </ul>
+        <a href="https://backninegolf.ca/local/vernonbc/memberships/" class="mc-btn" target="_blank">Get Started</a>
+      </div>
+    </div>
+    <p class="mems-note">
+      Also available: <a href="https://backninegolf.ca/local/vernonbc/memberships/" target="_blank">5-Month Prepaid Birdie ($999)</a> &nbsp;&middot;&nbsp;
+      <a href="https://backninegolf.ca/local/vernonbc/memberships/" target="_blank">Corporate Memberships</a>
+    </p>
+  </div>
+</section>
+
+<!-- ─── EVENTS ─── -->
+<section class="events" id="events">
+  <div class="events-inner">
+    <div class="sec-hd reveal">
+      <span class="lbl">Group Experiences</span>
+      <h2 class="h2" style="font-size:clamp(2.2rem,4.5vw,3.8rem)">Host Your Next Event</h2>
+      <div class="cx-rule"></div>
+    </div>
+    <div class="ev-grid stagger">
+      <div class="ev-card">
+        <img class="ev-img" src="https://backninegolf.ca/assets/img/views/main/components/golf_events/events-widget-corp.jpg" alt="Corporate Events" loading="lazy">
+        <div class="ev-veil"></div>
+        <div class="ev-body">
+          <div class="ev-type">Corporate</div>
+          <div class="ev-name">Corporate Events</div>
+          <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="ev-link" target="_blank">Inquire Now <span class="ev-arrow">→</span></a>
+        </div>
+      </div>
+      <div class="ev-card">
+        <img class="ev-img" src="https://backninegolf.ca/assets/img/views/main/components/golf_events/tournaments-widget-corp.jpg" alt="Tournaments" loading="lazy">
+        <div class="ev-veil"></div>
+        <div class="ev-body">
+          <div class="ev-type">Compete</div>
+          <div class="ev-name">Tournaments &amp; Leagues</div>
+          <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="ev-link" target="_blank">Learn More <span class="ev-arrow">→</span></a>
+        </div>
+      </div>
+      <div class="ev-card">
+        <img class="ev-img" src="https://backninegolf.ca/assets/img/views/main/components/golf_events/camps-widget-corp.jpg" alt="Golf Camps" loading="lazy">
+        <div class="ev-veil"></div>
+        <div class="ev-body">
+          <div class="ev-type">Skill Up</div>
+          <div class="ev-name">Camps &amp; Clinics</div>
+          <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="ev-link" target="_blank">Register <span class="ev-arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CTA SECTION ─── -->
+<section class="cta-sec" id="book">
+  <div class="cta-bg"></div>
+  <div class="cta-body reveal">
+    <span class="lbl">Ready to Play?</span>
+    <h2 class="cta-h2">Tee It Up<br><em>Today.</em></h2>
+    <div class="cta-rule"></div>
+    <p class="cta-sub">$60/hour. 3 guests included. 100+ courses. No tee time BS — just walk in and play.</p>
+    <div class="ctas">
+      <a href="https://backninegolf.ca/local/vernonbc/bookings/" class="btn btn-solid" target="_blank">Book a Bay Now</a>
+      <a href="https://backninegolf.ca/local/vernonbc/demo/" class="btn btn-outline" target="_blank">Book a Free Demo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FAQ ─── -->
+<section class="faq" id="faq">
+  <div class="sec-hd reveal">
+    <span class="lbl">Got Questions?</span>
+    <h2 class="h2" style="font-size:clamp(2.2rem,4.5vw,3.5rem)">Frequently Asked</h2>
+    <div class="cx-rule"></div>
+  </div>
+  <div>
+    <div class="fi">
+      <div class="fi-q">How much does it cost to play? <span class="fi-icon"></span></div>
+      <div class="fi-a"><div class="fi-a-inner">Bay rentals are $60/hour plus 5% tax. Up to 3 guests are included — no extra charge. All courses and games are included in the hourly rate.</div></div>
+    </div>
+    <div class="fi">
+      <div class="fi-q">Do I need to be an experienced golfer? <span class="fi-icon"></span></div>
+      <div class="fi-a"><div class="fi-a-inner">Not at all. Back Nine is designed for all skill levels — from complete beginners to competitive players. We have beginner-friendly modes, short course options, and games everyone can enjoy.</div></div>
+    </div>
+    <div class="fi">
+      <div class="fi-q">How long does a round of 18 holes take? <span class="fi-icon"></span></div>
+      <div class="fi-a"><div class="fi-a-inner">On average, 18 holes takes 45 minutes to an hour solo. For groups, expect 1–2 hours depending on the number of players. You can also play 9 holes or do practice sessions within your booked time.</div></div>
+    </div>
+    <div class="fi">
+      <div class="fi-q">What is a membership and how does it work? <span class="fi-icon"></span></div>
+      <div class="fi-a"><div class="fi-a-inner">Members pay a flat monthly fee for unlimited access during their membership hours. No hourly charges, no booking fees — just show up and play. Members also get priority booking and complimentary guest access.</div></div>
+    </div>
+    <div class="fi">
+      <div class="fi-q">Can I host a corporate event or private party? <span class="fi-icon"></span></div>
+      <div class="fi-a"><div class="fi-a-inner">Absolutely. We host corporate events, team-building sessions, tournaments, birthday parties, and more. Fill out our event inquiry form or call us at 236-361-7888 for a custom quote.</div></div>
+    </div>
+    <div class="fi">
+      <div class="fi-q">Do I need to bring my own clubs? <span class="fi-icon"></span></div>
+      <div class="fi-a"><div class="fi-a-inner">You're welcome to bring your own clubs but it's not required. Loaner clubs are available — just let us know when you book.</div></div>
+    </div>
+    <div class="fi">
+      <div class="fi-q">Where are you located? <span class="fi-icon"></span></div>
+      <div class="fi-a"><div class="fi-a-inner">3201 45 Ave, Vernon, BC V1T 5B9. Call 236-361-7888 or email vernon@thebackninegolf.com for directions.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="foot-top">
+    <div class="foot-brand">
+      <div class="logo" style="margin-bottom:1.4rem">
+        <img src="assets/logo.png" alt="Back Nine Golf" style="height:34px" onerror="this.src='https://backninegolf.ca/assets/img/b9-banner-logo.svg';this.onerror=null">
+      </div>
+      <p class="foot-tagline">Premium indoor golf in Vernon, BC. 24/7 access for members.</p>
+    </div>
+    <div>
+      <div class="foot-col-title">Play</div>
+      <div class="foot-links">
+        <a href="https://backninegolf.ca/local/vernonbc/bookings/" target="_blank">Book a Bay</a>
+        <a href="https://backninegolf.ca/local/vernonbc/memberships/" target="_blank">Memberships</a>
+        <a href="https://backninegolf.ca/local/vernonbc/demo/" target="_blank">Free Demo</a>
+        <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" target="_blank">Host an Event</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Memberships</div>
+      <div class="foot-links">
+        <a href="https://backninegolf.ca/local/vernonbc/memberships/" target="_blank">Owl &mdash; $149/mo</a>
+        <a href="https://backninegolf.ca/local/vernonbc/memberships/" target="_blank">Birdie &mdash; $299/mo</a>
+        <a href="https://backninegolf.ca/local/vernonbc/memberships/" target="_blank">Eagle &mdash; $349/mo</a>
+        <a href="https://backninegolf.ca/local/vernonbc/memberships/" target="_blank">Corporate</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Contact</div>
+      <div class="foot-info">
+        <span>3201 45 Ave<br>Vernon, BC V1T 5B9</span>
+        <a href="tel:+12363617888">236-361-7888</a>
+        <a href="mailto:vernon@thebackninegolf.com">vernon@thebackninegolf.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; 2025 Back Nine Indoor Golf. All rights reserved.</span>
+    <span>Made for <span class="foot-green">Vernon, BC</span></span>
+  </div>
+</footer>
+
+<!-- Float CTA -->
+<div id="fcta">
+  <a href="https://backninegolf.ca/local/vernonbc/bookings/" target="_blank">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="5.5" stroke="currentColor" stroke-width="1.5"/><path d="M7 4.5v2.5l1.5 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    Book a Bay
+  </a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(function(){
+  gsap.registerPlugin(ScrollTrigger);
+
+  /* ── Scroll & header ── */
+  const prog = document.getElementById('prog');
+  const hdr  = document.getElementById('hdr');
+  const fcta = document.getElementById('fcta');
+  window.addEventListener('scroll', () => {
+    const pct = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight) * 100;
+    prog.style.width = pct + '%';
+    hdr.classList.toggle('on',   window.scrollY > 60);
+    fcta.classList.toggle('on',  window.scrollY > 600);
+  }, { passive: true });
+
+  /* ── Hero entrance ── */
+  const kids = [...document.querySelectorAll('.hero-body > *'), document.querySelector('.hero-scroll')];
+  gsap.set([...kids, 'header'], { opacity: 0 });
+
+  const tl = gsap.timeline({ delay: 0.2 });
+  tl.to('header',       { opacity:1, y:0, duration:.8, ease:'power2.out' }, 0)
+    .fromTo('.eyebrow',  { y:18 }, { y:0, opacity:1, duration:.65, ease:'power2.out' }, 0.35)
+    .fromTo('.hero-h1',  { y:55 }, { y:0, opacity:1, duration:1.1, ease:'power3.out' }, 0.5)
+    .fromTo('.hero-sub', { y:30 }, { y:0, opacity:1, duration:.85, ease:'power2.out' }, 0.8)
+    .fromTo('.ctas',     { y:20 }, { y:0, opacity:1, duration:.7,  ease:'power2.out' }, 1.0)
+    .to('.hero-scroll',  { opacity:1, duration:.7, ease:'power2.out' }, 1.15);
+
+  /* ── Stat count-up ── */
+  document.querySelectorAll('[data-count]').forEach(el => {
+    const target = parseInt(el.dataset.count);
+    const suf    = el.dataset.suf || '';
+    ScrollTrigger.create({
+      trigger: el, start:'top 88%', once:true,
+      onEnter() {
+        const obj = { n: 0 };
+        gsap.to(obj, {
+          n: target, duration: 2.5, ease:'power2.out',
+          onUpdate() { el.textContent = Math.round(obj.n) + suf; }
+        });
+      }
+    });
+  });
+
+  /* ── Generic reveal ── */
+  document.querySelectorAll('.reveal').forEach(el => {
+    gsap.fromTo(el,
+      { y:50, opacity:0 },
+      { y:0, opacity:1, duration:1.05, ease:'power3.out',
+        scrollTrigger:{ trigger:el, start:'top 88%', once:true } }
+    );
+  });
+
+  /* ── Stagger children ── */
+  document.querySelectorAll('.stagger').forEach(parent => {
+    gsap.fromTo(Array.from(parent.children),
+      { y:44, opacity:0 },
+      { y:0, opacity:1, duration:.88, ease:'power2.out', stagger:.14,
+        scrollTrigger:{ trigger:parent, start:'top 86%', once:true } }
+    );
+  });
+
+  /* ── Image scale reveal ── */
+  document.querySelectorAll('.imgrev').forEach(el => {
+    gsap.fromTo(el,
+      { scale:1.05, opacity:0 },
+      { scale:1, opacity:1, duration:1.3, ease:'power2.out',
+        scrollTrigger:{ trigger:el, start:'top 85%', once:true } }
+    );
+  });
+
+  /* ── Data section: left slides in, right fades in ── */
+  gsap.fromTo('.data-copy',
+    { x:-55, opacity:0 },
+    { x:0, opacity:1, duration:1.2, ease:'power3.out',
+      scrollTrigger:{ trigger:'.data', start:'top 80%', once:true } }
+  );
+
+  /* ── Putter: visual from left ── */
+  gsap.fromTo('.putter-visual',
+    { x:-50, opacity:0 },
+    { x:0, opacity:1, duration:1.2, ease:'power3.out',
+      scrollTrigger:{ trigger:'.putter', start:'top 80%', once:true } }
+  );
+  gsap.fromTo('.putter-copy .putter-inner > *',
+    { x:45, opacity:0 },
+    { x:0, opacity:1, duration:.88, ease:'power2.out', stagger:.1,
+      scrollTrigger:{ trigger:'.putter', start:'top 76%', once:true } }
+  );
+
+  /* ── FAQ ── */
+  document.querySelectorAll('.fi').forEach(item => {
+    const a = item.querySelector('.fi-a');
+    gsap.set(a, { height:0 });
+    item.querySelector('.fi-q').addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.fi.open').forEach(i => {
+        i.classList.remove('open');
+        gsap.to(i.querySelector('.fi-a'), { height:0, duration:.36, ease:'power2.inOut' });
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        gsap.set(a, { height:'auto' });
+        const h = a.getBoundingClientRect().height;
+        gsap.from(a, { height:0, duration:.42, ease:'power2.out' });
+      }
+    });
+  });
+
+  /* ── Smooth anchor scroll ── */
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', e => {
+      const id = link.getAttribute('href').slice(1);
+      const t  = document.getElementById(id);
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior:'smooth' }); }
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
