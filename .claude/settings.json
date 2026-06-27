@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "mcp__computer-use__screenshot",
+      "mcp__computer-use__open_application",
+      "mcp__computer-use__switch_display",
+      "mcp__Claude_Preview__preview_start",
+      "mcp__Claude_Preview__preview_list",
+      "mcp__Claude_Preview__preview_screenshot",
+      "mcp__ccd_session__mark_chapter",
+      "mcp__ccd_session__spawn_task"
+    ]
+  }
+}

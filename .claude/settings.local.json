@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\idrop\\\\Downloads\" | Where-Object { $_.Extension -match '\\\\.\\(jpg|jpeg|png|webp\\)' } | Sort-Object LastWriteTime -Descending | Select-Object -First 20 Name, LastWriteTime)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\idrop\\\\Downloads\" | Where-Object { $_.Name -match \"trackman|golfer|bay|premium|b9|back nine\" -and $_.Extension -match '\\\\.\\(jpg|jpeg|png\\)'} | Select-Object Name)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\idrop\\\\Downloads\" | Where-Object { $_.Extension -match '\\\\.\\(jpg|jpeg|png\\)'} | Sort-Object LastWriteTime -Descending | Select-Object Name, LastWriteTime | Select-Object -First 30)",
+      "PowerShell(gh repo list B9Vernon --limit 20)",
+      "Bash(gh repo *)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.github.com)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "WebFetch(domain:backninegolf.ca)",
+      "WebFetch(domain:www.beyondthegrass.com)",
+      "WebFetch(domain:www.fullswinggolf.com)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\idrop\\\\OneDrive\\\\Desktop\\\\ClaudeDeskTop\\\\.claude\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where npx *)",
+      "Bash(where node *)",
+      "Bash(where python *)",
+      "Bash(where python3 *)",
+      "PowerShell(Get-Command node, npm, npx, python3, py -ErrorAction SilentlyContinue)",
+      "PowerShell(& \"C:\\\\Users\\\\idrop\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python3.exe\" --version 2>&1)",
+      "PowerShell($locations = @\\(\"C:\\\\Program Files\\\\nodejs\\\\node.exe\",\"C:\\\\Program Files \\(x86\\)\\\\nodejs\\\\node.exe\",\"$env:APPDATA\\\\npm\\\\node.exe\",\"$env:LOCALAPPDATA\\\\Programs\\\\node\\\\node.exe\",\"C:\\\\tools\\\\node\\\\node.exe\"\\); foreach \\($l in $locations\\) { if \\(Test-Path $l\\) { Write-Host \"Found: $l\" } })",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__list_connected_browsers"
+    ]
+  }
+}
