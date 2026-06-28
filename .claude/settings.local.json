@@ -25,7 +25,11 @@
       "mcp__Claude_in_Chrome__navigate",
       "mcp__Claude_in_Chrome__list_connected_browsers",
       "PowerShell(gh repo delete B9Vernon/back-nine-landing --yes 2>&1)",
-      "PowerShell(gh auth refresh -h github.com -s delete_repo 2>&1)"
+      "PowerShell(gh auth refresh -h github.com -s delete_repo 2>&1)",
+      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\Users\\\\idrop\\\\OneDrive\\\\Desktop\\\\ClaudeDeskTop\\\\landing-page-files\" -Force)",
+      "PowerShell(Move-Item \"C:\\\\Users\\\\idrop\\\\OneDrive\\\\Desktop\\\\ClaudeDeskTop\\\\index.html\" \"C:\\\\Users\\\\idrop\\\\OneDrive\\\\Desktop\\\\ClaudeDeskTop\\\\landing-page-files\\\\\" -Force)",
+      "PowerShell(Move-Item \"C:\\\\Users\\\\idrop\\\\OneDrive\\\\Desktop\\\\ClaudeDeskTop\\\\BackNineGolf.html\" \"C:\\\\Users\\\\idrop\\\\OneDrive\\\\Desktop\\\\ClaudeDeskTop\\\\landing-page-files\\\\\" -Force)",
+      "PowerShell(Move-Item \"C:\\\\Users\\\\idrop\\\\OneDrive\\\\Desktop\\\\ClaudeDeskTop\\\\assets\" \"C:\\\\Users\\\\idrop\\\\OneDrive\\\\Desktop\\\\ClaudeDeskTop\\\\landing-page-files\\\\\" -Force)"
     ]
   }
 }
