@@ -1285,6 +1285,15 @@ footer{background:var(--bg2);border-top:1px solid var(--line)}
     }
   }
 
+  /* ── Failsafe: the above-the-fold hero must NEVER stay invisible, even if the
+     animation engine stalls (background tab, throttled rAF, GSAP ticker hiccup).
+     If the entrance hasn't resolved shortly after load, snap the hero visible. ── */
+  setTimeout(function(){
+    document.querySelectorAll('.hero .pre-hide').forEach(function(el){
+      if (parseFloat(getComputedStyle(el).opacity) < 0.99){ el.style.opacity = 1; el.style.transform = 'none'; }
+    });
+  }, 2400);
+
   /* ════════ USE-CASE TABS (data-driven) ════════ */
   (function(){
     var tabs = Array.prototype.slice.call(document.querySelectorAll('.uc-tab'));
