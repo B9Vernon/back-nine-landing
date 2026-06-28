@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Corporate Events &amp; Group Bookings — Back Nine Indoor Golf, Vernon BC</title>
+<meta name="description" content="Host clients, reward your team, and make it memorable. Back Nine Vernon is the premium indoor golf venue for corporate events, team building, and private group bookings — private bays, pro-level Full Swing simulators, and a modern lounge. Year-round in Vernon, BC.">
+<meta name="theme-color" content="#07090d">
+<link rel="canonical" href="https://backninegolf.ca/local/vernonbc/corporate/">
+
+<!-- ── Open Graph / Twitter ── -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Back Nine Indoor Golf — Vernon">
+<meta property="og:title" content="Corporate Events at Back Nine Vernon — Connect. Engage. Elevate.">
+<meta property="og:description" content="The premium indoor golf venue for Vernon businesses and groups. Private bays, Full Swing simulators, and a modern lounge built for connection — year-round.">
+<meta property="og:image" content="assets/swing-b9wall.jpg">
+<meta property="og:url" content="https://backninegolf.ca/local/vernonbc/corporate/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Corporate Events at Back Nine Vernon">
+<meta name="twitter:description" content="Host clients. Reward your team. Make it memorable. Premium indoor golf events in Vernon, BC.">
+<meta name="twitter:image" content="assets/swing-b9wall.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Closest premium substitutes for the Back Nine brand system (matches the main site index.html).
+     Swap Cormorant Garamond → exact Back Nine display serif and Inter → exact brand sans when font files are available. -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ════════════════ RESET ════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+img,video{display:block;max-width:100%}
+a{text-decoration:none;color:inherit}
+ul{list-style:none}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+input,textarea,select{font:inherit;color:inherit}
+
+/* ════════════════ TOKENS ════════════════ */
+:root{
+  --bg:#07090d;
+  --bg2:#0d1520;
+  --bg3:#101a26;
+  --green:#97c93d;          /* Back Nine brand lime */
+  --green-d:#7eae2c;
+  --gold:#e0a857;           /* warm brass / dusk accent (Beyond the Grass inspired) */
+  --ember:#e07b3c;          /* sunset ember accent */
+  --white:#fff;
+  --muted:rgba(255,255,255,.5);
+  --faint:rgba(255,255,255,.38);
+  --line:rgba(255,255,255,.08);
+  --line2:rgba(255,255,255,.14);
+  --serif:'Cormorant Garamond',Georgia,serif;     /* TODO: swap for exact Back Nine display serif */
+  --sans:'Inter',system-ui,-apple-system,sans-serif; /* TODO: swap for exact Back Nine sans */
+  --ease:cubic-bezier(.22,1,.36,1);
+  --sunset:linear-gradient(115deg,#f0b15e 0%,#e07b3c 52%,#c8533a 100%);
+  --maxw:1280px;
+}
+
+/* ════════════════ BASE ════════════════ */
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{
+  background:var(--bg);color:var(--white);
+  font-family:var(--sans);font-size:16px;line-height:1.6;
+  overflow-x:hidden;-webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--green);color:#07090d}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 3.5rem}
+
+/* Shared display type */
+.serif{font-family:var(--serif)}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.7rem;
+  font-size:.7rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--green);
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--green);opacity:.7}
+.eyebrow.center::after{content:"";width:26px;height:1px;background:var(--green);opacity:.7}
+.eyebrow.center{justify-content:center}
+.sec-index{
+  font-family:var(--serif);font-size:.95rem;font-style:italic;
+  color:var(--faint);letter-spacing:.05em;
+}
+h2.disp{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(2.4rem,5.2vw,4.6rem);line-height:1.02;letter-spacing:-.02em;
+}
+h2.disp em{font-style:italic;color:var(--gold)}
+.rule{width:50px;height:2px;background:var(--green);margin:1.5rem 0}
+.rule.center{margin-left:auto;margin-right:auto}
+.lead{font-size:1.02rem;font-weight:300;color:rgba(255,255,255,.62);line-height:1.85;max-width:54ch}
+
+/* ════════════════ BUTTONS ════════════════ */
+.btn{
+  display:inline-flex;align-items:center;gap:.6rem;
+  font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+  padding:1rem 2rem;border-radius:3px;
+  transition:transform .3s var(--ease),opacity .25s,background .25s,border-color .25s,box-shadow .3s;
+  will-change:transform;
+}
+.btn svg{transition:transform .3s var(--ease)}
+.btn:hover{transform:translateY(-3px)}
+.btn:hover svg{transform:translateX(4px)}
+.btn:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.btn-solid{background:var(--green);color:#07090d;box-shadow:0 6px 28px rgba(151,201,61,.18)}
+.btn-solid:hover{box-shadow:0 12px 38px rgba(151,201,61,.32)}
+.btn-gold{background:var(--gold);color:#1a1206;box-shadow:0 6px 28px rgba(224,168,87,.2)}
+.btn-gold:hover{box-shadow:0 12px 38px rgba(224,168,87,.34)}
+.btn-outline{border:1px solid var(--line2);color:var(--white)}
+.btn-outline:hover{border-color:rgba(255,255,255,.6);background:rgba(255,255,255,.05)}
+.btn-ghost{color:rgba(255,255,255,.78);padding-left:.2rem;padding-right:.2rem}
+.btn-ghost:hover{color:var(--white)}
+.btn-sm{padding:.7rem 1.3rem;font-size:.72rem}
+.cta-row{display:flex;gap:1rem;flex-wrap:wrap}
+.cta-row.center{justify-content:center}
+.arrow{width:13px;height:13px}
+
+/* ════════════════ SCROLL PROGRESS ════════════════ */
+#prog{position:fixed;top:0;left:0;height:2px;width:0;z-index:300;pointer-events:none;
+  background:linear-gradient(90deg,var(--green),var(--gold));}
+
+/* ════════════════ HEADER ════════════════ */
+header{
+  position:fixed;inset:0 0 auto 0;z-index:120;height:88px;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 3.5rem;transition:background .5s var(--ease),border-color .5s,height .4s var(--ease);
+  border-bottom:1px solid transparent;
+}
+header.on{background:rgba(7,9,13,.9);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);
+  border-color:var(--line);height:72px;}
+.logo{display:flex;align-items:center;gap:.7rem}
+.logo img{height:38px;width:auto;filter:brightness(0) invert(1);transition:height .4s var(--ease)}
+header.on .logo img{height:32px}
+.logo-tag{font-size:.6rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);
+  padding-left:.7rem;border-left:1px solid var(--line2)}
+nav{display:flex;align-items:center;gap:2.4rem}
+.nav-links{display:flex;gap:2.2rem;align-items:center}
+.nav-links a{font-size:.74rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(255,255,255,.62);transition:color .2s;position:relative}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:1px;background:var(--green);transition:width .3s var(--ease)}
+.nav-links a:hover{color:var(--white)}
+.nav-links a:hover::after{width:100%}
+.nav-cta{background:var(--green);color:#07090d;padding:.7rem 1.5rem;border-radius:3px;
+  font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;transition:transform .25s var(--ease),box-shadow .3s}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(151,201,61,.3)}
+.burger{display:none;width:30px;height:20px;position:relative}
+.burger span{position:absolute;left:0;width:100%;height:2px;background:#fff;transition:transform .35s var(--ease),opacity .25s}
+.burger span:nth-child(1){top:0}.burger span:nth-child(2){top:9px}.burger span:nth-child(3){top:18px}
+body.menu-open .burger span:nth-child(1){transform:translateY(9px) rotate(45deg)}
+body.menu-open .burger span:nth-child(2){opacity:0}
+body.menu-open .burger span:nth-child(3){transform:translateY(-9px) rotate(-45deg)}
+
+/* Mobile drawer */
+.drawer{position:fixed;inset:0;z-index:115;background:rgba(7,9,13,.98);backdrop-filter:blur(10px);
+  display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1.6rem;
+  opacity:0;pointer-events:none;transition:opacity .4s var(--ease)}
+body.menu-open .drawer{opacity:1;pointer-events:all}
+.drawer a{font-family:var(--serif);font-size:1.9rem;font-weight:300;color:rgba(255,255,255,.8)}
+.drawer a.dr-cta{font-family:var(--sans);font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  background:var(--green);color:#07090d;padding:1rem 2.2rem;border-radius:3px;margin-top:1rem}
+
+/* ════════════════ HERO ════════════════ */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden}
+.hero-media{position:absolute;inset:0;z-index:0}
+.hero-vid,.hero-fallback{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-fallback{background:url('assets/swing-hero.jpg') center/cover no-repeat}
+.hero-veil{position:absolute;inset:0;z-index:1;background:
+  linear-gradient(115deg,rgba(7,9,13,.92) 0%,rgba(7,9,13,.55) 42%,rgba(7,9,13,.35) 70%,rgba(7,9,13,.9) 100%),
+  linear-gradient(to top,rgba(7,9,13,.95) 0%,transparent 40%)}
+.hero-glow{position:absolute;z-index:1;width:60vw;height:60vw;border-radius:50%;
+  background:radial-gradient(circle,rgba(224,123,60,.16),transparent 62%);
+  top:-18vw;right:-12vw;filter:blur(20px);pointer-events:none}
+.hero-inner{position:relative;z-index:2;width:100%;max-width:var(--maxw);margin:0 auto;padding:0 3.5rem}
+.hero-body{max-width:760px}
+.hero h1{font-family:var(--serif);font-weight:300;font-size:clamp(3.2rem,8.5vw,7.4rem);
+  line-height:.94;letter-spacing:-.03em;margin:1.6rem 0}
+.hero h1 em{font-style:italic;background:var(--sunset);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero-sub{font-size:clamp(1rem,1.6vw,1.15rem);font-weight:300;color:rgba(255,255,255,.72);
+  max-width:560px;line-height:1.8;margin-bottom:2.6rem}
+.hero .cta-row{align-items:center}
+.hero-trust{display:flex;flex-wrap:wrap;gap:1.6rem 2.4rem;margin-top:3rem;padding-top:2rem;border-top:1px solid var(--line)}
+.hero-trust-item{display:flex;align-items:center;gap:.6rem;font-size:.78rem;color:rgba(255,255,255,.6);font-weight:300}
+.hero-trust-item b{color:var(--white);font-weight:600}
+.htick{color:var(--green);flex-shrink:0}
+.hero-scroll{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);z-index:2;
+  display:flex;flex-direction:column;align-items:center;gap:.5rem}
+.scroll-bar{width:1px;height:46px;background:linear-gradient(to bottom,rgba(255,255,255,.5),transparent);
+  animation:spulse 2.2s ease-in-out infinite}
+@keyframes spulse{0%,100%{opacity:.9;transform:scaleY(1)}50%{opacity:.25;transform:scaleY(.55)}}
+.scroll-label{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.32)}
+
+/* ════════════════ MARQUEE ════════════════ */
+.marquee{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  overflow:hidden;padding:1.4rem 0;position:relative}
+.marquee-track{display:flex;gap:3rem;white-space:nowrap;width:max-content;animation:scrollx 32s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.marquee-item{display:inline-flex;align-items:center;gap:3rem;font-family:var(--serif);font-style:italic;
+  font-size:1.5rem;font-weight:300;color:rgba(255,255,255,.55)}
+.marquee-item span.dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+@keyframes scrollx{to{transform:translateX(-50%)}}
+
+/* ════════════════ SECTION SHELL ════════════════ */
+section{position:relative}
+.sec{padding:8rem 0}
+.sec-hd{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;margin-bottom:4rem}
+.sec-hd .hd-left{max-width:680px}
+.sec-hd .eyebrow{margin-bottom:1.4rem}
+.sec-hd.center{flex-direction:column;align-items:center;text-align:center}
+
+/* ════════════════ STATS ════════════════ */
+.stats{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:4.2rem 2rem;text-align:center;border-right:1px solid var(--line);position:relative}
+.stat:last-child{border-right:0}
+.stat-num{font-family:var(--serif);font-weight:300;font-size:clamp(2.8rem,5vw,4.8rem);line-height:1;
+  color:var(--green);display:block}
+.stat-lbl{display:block;font-size:.7rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);margin-top:.9rem}
+.stat-sub{display:block;font-size:.74rem;font-weight:300;color:var(--faint);margin-top:.5rem}
+
+/* ════════════════ WHY (value pillars) ════════════════ */
+.why{background:var(--bg)}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
+.pillar{background:var(--bg2);border:1px solid var(--line);border-radius:4px;padding:2.6rem 2.2rem;
+  position:relative;overflow:hidden;transition:transform .4s var(--ease),border-color .35s,background .35s}
+.pillar::before{content:"";position:absolute;inset:0;background:radial-gradient(120% 120% at 0 0,rgba(151,201,61,.06),transparent 50%);
+  opacity:0;transition:opacity .4s}
+.pillar:hover{transform:translateY(-7px);border-color:var(--line2);background:var(--bg3)}
+.pillar:hover::before{opacity:1}
+.pillar-ic{width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+  background:rgba(151,201,61,.1);color:var(--green);margin-bottom:1.5rem}
+.pillar-ic svg{width:24px;height:24px}
+.pillar h3{font-family:var(--serif);font-weight:400;font-size:1.5rem;line-height:1.2;margin-bottom:.7rem}
+.pillar p{font-size:.9rem;font-weight:300;color:rgba(255,255,255,.58);line-height:1.7}
+
+/* ════════════════ USE CASES (tabs) ════════════════ */
+.uc{background:var(--bg2);border-top:1px solid var(--line)}
+.uc-tabs{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:2.5rem}
+.uc-tab{display:inline-flex;align-items:center;gap:.55rem;padding:.7rem 1.2rem;border-radius:40px;
+  border:1px solid var(--line2);font-size:.76rem;font-weight:500;letter-spacing:.04em;
+  color:rgba(255,255,255,.62);transition:all .25s var(--ease)}
+.uc-tab .uc-num{font-family:var(--serif);font-style:italic;font-size:.85rem;color:var(--faint)}
+.uc-tab:hover{border-color:rgba(255,255,255,.4);color:var(--white)}
+.uc-tab[aria-selected="true"]{background:var(--green);border-color:var(--green);color:#07090d}
+.uc-tab[aria-selected="true"] .uc-num{color:rgba(7,9,13,.6)}
+.uc-tab:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.uc-panel{display:grid;grid-template-columns:1.05fr 1fr;gap:0;border:1px solid var(--line);border-radius:6px;
+  overflow:hidden;background:var(--bg3);min-height:480px}
+.uc-visual{position:relative;overflow:hidden}
+.uc-visual img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.uc-visual .uc-vveil{position:absolute;inset:0;background:linear-gradient(60deg,rgba(7,9,13,.55),transparent 60%)}
+.uc-content{padding:3.4rem 3.2rem;display:flex;flex-direction:column;justify-content:center}
+.uc-kicker{font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}
+.uc-content h3{font-family:var(--serif);font-weight:300;font-size:clamp(1.9rem,3.2vw,2.8rem);line-height:1.05;margin-bottom:1.1rem}
+.uc-content p{font-size:.96rem;font-weight:300;color:rgba(255,255,255,.65);line-height:1.8;margin-bottom:1.7rem;max-width:46ch}
+.uc-feats{display:flex;flex-direction:column;gap:.8rem;margin-bottom:2rem}
+.uc-feat{display:flex;gap:.7rem;font-size:.9rem;font-weight:300;color:rgba(255,255,255,.72)}
+.uc-feat svg{color:var(--green);flex-shrink:0;margin-top:.15rem}
+.uc-fade{transition:opacity .35s var(--ease),transform .35s var(--ease)}
+.uc-fade.swapping{opacity:0;transform:translateY(10px)}
+
+/* ════════════════ HOW IT WORKS (timeline) ════════════════ */
+.how{background:var(--bg)}
+.how-wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:4rem}
+.how-sticky{position:sticky;top:120px;align-self:start}
+.how-steps{position:relative;padding-left:3rem}
+.how-line{position:absolute;left:11px;top:6px;bottom:6px;width:2px;background:var(--line2);overflow:hidden}
+.how-line-fill{position:absolute;inset:0;background:linear-gradient(to bottom,var(--green),var(--gold));
+  transform:scaleY(0);transform-origin:top}
+.step{position:relative;padding:0 0 3.4rem}
+.step:last-child{padding-bottom:0}
+.step-dot{position:absolute;left:-3rem;top:2px;width:24px;height:24px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--line2);display:flex;align-items:center;justify-content:center;
+  transition:border-color .4s,background .4s}
+.step-dot::after{content:"";width:8px;height:8px;border-radius:50%;background:transparent;transition:background .4s}
+.step.active .step-dot{border-color:var(--green)}
+.step.active .step-dot::after{background:var(--green)}
+.step-n{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--gold);margin-bottom:.5rem}
+.step h3{font-family:var(--serif);font-weight:400;font-size:1.7rem;line-height:1.15;margin-bottom:.7rem}
+.step p{font-size:.92rem;font-weight:300;color:rgba(255,255,255,.6);line-height:1.75;max-width:48ch}
+.step-cta{margin-top:1rem}
+
+/* ════════════════ EXPERIENCE (cinematic) ════════════════ */
+.exp{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden}
+.exp-media{position:absolute;inset:0;z-index:0}
+.exp-media img{width:100%;height:120%;object-fit:cover;object-position:center;will-change:transform}
+.exp-veil{position:absolute;inset:0;z-index:1;background:
+  linear-gradient(to top,rgba(7,9,13,.96) 2%,rgba(7,9,13,.45) 45%,rgba(7,9,13,.2) 75%),
+  linear-gradient(100deg,rgba(7,9,13,.6),transparent 55%)}
+.exp-inner{position:relative;z-index:2;width:100%;max-width:var(--maxw);margin:0 auto;padding:0 3.5rem 7rem}
+.exp-body{max-width:680px}
+.exp h2{font-family:var(--serif);font-weight:300;font-size:clamp(2.4rem,6vw,5.2rem);line-height:1.0;letter-spacing:-.02em;margin:1.2rem 0}
+.exp h2 em{font-style:italic;color:var(--gold)}
+.exp-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:1.8rem;margin-top:2.6rem;max-width:760px}
+.exp-col h4{font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:.6rem}
+.exp-col p{font-size:.86rem;font-weight:300;color:rgba(255,255,255,.62);line-height:1.65}
+
+/* ════════════════ FULL SWING TECH ════════════════ */
+.tech{background:var(--bg2);border-top:1px solid var(--line)}
+.tech-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:3.5rem;align-items:start}
+.tech-visual{position:sticky;top:110px}
+.tech-figure{position:relative;border-radius:8px;overflow:hidden;border:1px solid var(--line2)}
+.tech-figure img{width:100%;display:block}
+.tech-fig-cap{position:absolute;left:0;bottom:0;right:0;padding:1.4rem 1.6rem;
+  background:linear-gradient(to top,rgba(7,9,13,.92),transparent);
+  font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+.tech-fig-cap b{color:var(--green)}
+.metric-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:.7rem;margin-top:1rem}
+.metric{background:var(--bg3);border:1px solid var(--line);border-radius:5px;padding:1rem .9rem;text-align:center}
+.metric-v{font-family:var(--serif);font-size:1.5rem;font-weight:400;color:var(--white);line-height:1}
+.metric-k{font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-top:.4rem}
+.tech-tabs{display:flex;flex-direction:column;gap:.7rem;margin:2rem 0}
+.tech-tab{text-align:left;border:1px solid var(--line);border-radius:6px;padding:1.3rem 1.5rem;
+  transition:border-color .3s,background .3s;display:flex;gap:1.1rem;align-items:flex-start}
+.tech-tab:hover{border-color:var(--line2);background:var(--bg3)}
+.tech-tab[aria-expanded="true"]{border-color:var(--green);background:rgba(151,201,61,.05)}
+.tech-tab-ic{width:42px;height:42px;border-radius:9px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
+  background:rgba(151,201,61,.1);color:var(--green)}
+.tech-tab-ic svg{width:22px;height:22px}
+.tech-tab-main{flex:1}
+.tech-tab-top{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.tech-tab h3{font-family:var(--serif);font-weight:400;font-size:1.3rem;line-height:1.1}
+.tech-tab .tt-toggle{width:24px;height:24px;border-radius:50%;border:1px solid var(--line2);flex-shrink:0;position:relative;transition:border-color .3s,transform .35s var(--ease)}
+.tech-tab .tt-toggle::before,.tech-tab .tt-toggle::after{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(255,255,255,.6);transition:background .25s}
+.tech-tab .tt-toggle::before{width:10px;height:1px}.tech-tab .tt-toggle::after{width:1px;height:10px}
+.tech-tab[aria-expanded="true"] .tt-toggle{border-color:var(--green);transform:rotate(45deg)}
+.tech-tab[aria-expanded="true"] .tt-toggle::before,.tech-tab[aria-expanded="true"] .tt-toggle::after{background:var(--green)}
+.tech-tab-body{overflow:hidden;height:0}
+.tech-tab-body p{font-size:.9rem;font-weight:300;color:rgba(255,255,255,.62);line-height:1.75;padding-top:1rem;max-width:52ch}
+.tech-tab .tt-tag{display:inline-block;margin-top:.5rem;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.tech-cta{margin-top:1.6rem}
+.tech-pros{margin-top:2rem;font-size:.82rem;font-weight:300;color:var(--faint);line-height:1.7}
+.tech-pros b{color:rgba(255,255,255,.7);font-weight:500}
+
+/* ════════════════ FORMATS ════════════════ */
+.fmt{background:var(--bg)}
+.fmt-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
+.fmt-card{position:relative;border:1px solid var(--line);border-radius:6px;padding:2.4rem 2rem;overflow:hidden;
+  display:flex;flex-direction:column;min-height:280px;transition:transform .4s var(--ease),border-color .35s,background .35s}
+.fmt-card:hover{transform:translateY(-7px);border-color:var(--line2);background:var(--bg2)}
+.fmt-tag{font-size:.66rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--green);margin-bottom:1rem}
+.fmt-card h3{font-family:var(--serif);font-weight:400;font-size:1.7rem;line-height:1.12;margin-bottom:.8rem}
+.fmt-card p{font-size:.88rem;font-weight:300;color:rgba(255,255,255,.58);line-height:1.7;flex:1}
+.fmt-link{margin-top:1.5rem;font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(255,255,255,.55);display:inline-flex;align-items:center;gap:.5rem;transition:color .2s}
+.fmt-link svg{transition:transform .25s}
+.fmt-card:hover .fmt-link{color:var(--white)}
+.fmt-card:hover .fmt-link svg{transform:translateX(4px)}
+.fmt-note{text-align:center;margin-top:2.5rem;font-size:.85rem;font-weight:300;color:var(--faint)}
+.fmt-note a{color:var(--green)}
+
+/* ════════════════ MEMBERSHIP / PLANNING ════════════════ */
+.plan{background:var(--bg2);border-top:1px solid var(--line)}
+.plan-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:center}
+.plan-card{background:var(--bg3);border:1px solid var(--line2);border-radius:8px;padding:3rem 2.8rem;position:relative;overflow:hidden}
+.plan-card::before{content:"";position:absolute;top:-40%;right:-20%;width:60%;height:120%;
+  background:radial-gradient(circle,rgba(224,168,87,.12),transparent 65%);pointer-events:none}
+.plan-badge{display:inline-block;font-size:.62rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold);border:1px solid rgba(224,168,87,.4);border-radius:40px;padding:.4rem 1rem;margin-bottom:1.4rem}
+.plan-card h3{font-family:var(--serif);font-weight:300;font-size:2.2rem;line-height:1.1;margin-bottom:.6rem}
+.plan-card>p{font-size:.92rem;font-weight:300;color:rgba(255,255,255,.6);line-height:1.7;margin-bottom:1.8rem}
+.perks{display:grid;grid-template-columns:1fr 1fr;gap:.85rem 1.4rem;margin-bottom:2rem}
+.perk{display:flex;gap:.6rem;font-size:.84rem;font-weight:300;color:rgba(255,255,255,.7);line-height:1.4}
+.perk svg{color:var(--green);flex-shrink:0;margin-top:.15rem}
+.plan-copy .eyebrow{margin-bottom:1.4rem}
+.plan-copy h2{margin-bottom:1.4rem}
+.plan-copy .lead{margin-bottom:2rem}
+
+/* ════════════════ FAQ ════════════════ */
+.faq{background:var(--bg)}
+.faq-wrap{max-width:880px;margin:0 auto}
+.fi{border-bottom:1px solid var(--line)}
+.fi:first-child{border-top:1px solid var(--line)}
+.fi-q{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;width:100%;text-align:left;
+  padding:1.7rem 0;font-family:var(--serif);font-size:1.25rem;font-weight:400;transition:color .2s}
+.fi-q:hover{color:rgba(255,255,255,.82)}
+.fi-q:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.fi-icon{width:30px;height:30px;border-radius:50%;border:1px solid var(--line2);flex-shrink:0;position:relative;
+  transition:border-color .25s,transform .35s var(--ease)}
+.fi-icon::before,.fi-icon::after{content:"";position:absolute;top:50%;left:50%;background:rgba(255,255,255,.6);
+  transform:translate(-50%,-50%);transition:background .25s}
+.fi-icon::before{width:11px;height:1px}.fi-icon::after{width:1px;height:11px}
+.fi.open .fi-icon{border-color:var(--green);transform:rotate(45deg)}
+.fi.open .fi-icon::before,.fi.open .fi-icon::after{background:var(--green)}
+.fi-a{overflow:hidden;height:0}
+.fi-a-inner{padding-bottom:1.7rem;font-size:.94rem;font-weight:300;line-height:1.85;color:rgba(255,255,255,.58);max-width:70ch}
+.fi-a-inner a{color:var(--green)}
+
+/* ════════════════ INQUIRY / CONVERSION ════════════════ */
+.inq{position:relative;overflow:hidden;border-top:1px solid var(--line);background:var(--bg2)}
+.inq-glow{position:absolute;z-index:0;width:55vw;height:55vw;border-radius:50%;
+  background:radial-gradient(circle,rgba(151,201,61,.1),transparent 62%);bottom:-25vw;left:-10vw;pointer-events:none}
+.inq-grid{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1.05fr;gap:4rem;align-items:start}
+.inq-copy h2{margin-bottom:1.4rem}
+.inq-copy .lead{margin-bottom:2.2rem}
+.inq-contacts{display:flex;flex-direction:column;gap:1.2rem;margin-top:2.4rem;padding-top:2.2rem;border-top:1px solid var(--line)}
+.inq-c{display:flex;gap:1rem;align-items:center}
+.inq-c-ic{width:44px;height:44px;border-radius:10px;background:rgba(151,201,61,.1);color:var(--green);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.inq-c-ic svg{width:20px;height:20px}
+.inq-c-l{font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.inq-c-v{font-size:1rem;font-weight:400;color:var(--white)}
+.inq-c-v:hover{color:var(--green)}
+/* form */
+.form-card{background:var(--bg3);border:1px solid var(--line2);border-radius:10px;padding:2.6rem 2.4rem}
+.form-card h3{font-family:var(--serif);font-weight:400;font-size:1.5rem;margin-bottom:.4rem}
+.form-card .fc-sub{font-size:.85rem;font-weight:300;color:var(--faint);margin-bottom:1.8rem}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+.f-field{display:flex;flex-direction:column;gap:.45rem;margin-bottom:1rem}
+.f-field.full{grid-column:1/-1}
+.f-field label{font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.f-field label .req{color:var(--green)}
+.f-field input,.f-field select,.f-field textarea{
+  background:var(--bg);border:1px solid var(--line2);border-radius:5px;padding:.85rem 1rem;
+  font-size:.9rem;color:var(--white);transition:border-color .25s,background .25s;width:100%}
+.f-field textarea{resize:vertical;min-height:96px}
+.f-field input::placeholder,.f-field textarea::placeholder{color:rgba(255,255,255,.3)}
+.f-field input:focus,.f-field select:focus,.f-field textarea:focus{outline:none;border-color:var(--green);background:#0a0e14}
+.f-field select{appearance:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' stroke='%2397c93d' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat:no-repeat;background-position:right 1rem center;padding-right:2.4rem}
+.f-field select option{background:#0d1520}
+.form-submit{width:100%;justify-content:center;margin-top:.6rem}
+.form-alt{text-align:center;margin-top:1.1rem;font-size:.78rem;font-weight:300;color:var(--faint)}
+.form-alt a{color:var(--green)}
+.form-note{margin-top:1rem;font-size:.72rem;font-weight:300;color:var(--faint);line-height:1.6;text-align:center}
+
+/* ════════════════ FOOTER ════════════════ */
+footer{background:var(--bg2);border-top:1px solid var(--line)}
+.foot-cta{text-align:center;padding:5rem 3.5rem 0;max-width:var(--maxw);margin:0 auto}
+.foot-cta h2{font-family:var(--serif);font-weight:300;font-size:clamp(2rem,5vw,3.6rem);line-height:1.05;margin-bottom:1.6rem}
+.foot-cta h2 em{font-style:italic;color:var(--gold)}
+.foot-top{max-width:var(--maxw);margin:0 auto;padding:5rem 3.5rem 4rem;
+  display:grid;grid-template-columns:2fr 1fr 1fr 1.3fr;gap:3rem}
+.foot-brand .logo{margin-bottom:1.4rem}
+.foot-tagline{font-size:.86rem;font-weight:300;color:rgba(255,255,255,.4);line-height:1.75;max-width:260px}
+.foot-social{display:flex;gap:.8rem;margin-top:1.6rem}
+.foot-social a{width:38px;height:38px;border-radius:50%;border:1px solid var(--line2);display:flex;align-items:center;justify-content:center;
+  color:rgba(255,255,255,.6);transition:all .25s}
+.foot-social a:hover{border-color:var(--green);color:var(--green)}
+.foot-col-title{font-size:.66rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:1.3rem}
+.foot-links{display:flex;flex-direction:column;gap:.75rem}
+.foot-links a{font-size:.86rem;font-weight:300;color:rgba(255,255,255,.5);transition:color .2s}
+.foot-links a:hover{color:var(--white)}
+.foot-info{display:flex;flex-direction:column;gap:.8rem}
+.foot-info span,.foot-info a{font-size:.86rem;font-weight:300;color:rgba(255,255,255,.5);line-height:1.5;transition:color .2s}
+.foot-info a:hover{color:var(--white)}
+.foot-bottom{border-top:1px solid var(--line);max-width:var(--maxw);margin:0 auto;padding:1.6rem 3.5rem;
+  display:flex;align-items:center;justify-content:space-between;font-size:.74rem;color:rgba(255,255,255,.28)}
+.foot-green{color:var(--green)}
+
+/* ════════════════ FLOATING + MOBILE CTA ════════════════ */
+#fcta{position:fixed;bottom:2rem;right:2rem;z-index:90;opacity:0;transform:translateY(14px);pointer-events:none;
+  transition:opacity .4s var(--ease),transform .4s var(--ease)}
+#fcta.on{opacity:1;transform:translateY(0);pointer-events:all}
+#fcta a{display:flex;align-items:center;gap:.7rem;background:var(--green);color:#07090d;font-size:.74rem;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;padding:1rem 1.6rem;border-radius:4px;box-shadow:0 10px 40px rgba(0,0,0,.5);transition:transform .25s var(--ease)}
+#fcta a:hover{transform:translateY(-3px)}
+.mbar{position:fixed;bottom:0;left:0;right:0;z-index:95;display:none;grid-template-columns:1fr 1.4fr;gap:.6rem;
+  padding:.7rem;background:rgba(7,9,13,.96);backdrop-filter:blur(16px);border-top:1px solid var(--line)}
+.mbar a{display:flex;align-items:center;justify-content:center;gap:.5rem;padding:.85rem;border-radius:5px;
+  font-size:.74rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.mbar .mb-call{border:1px solid var(--line2);color:var(--white)}
+.mbar .mb-host{background:var(--green);color:#07090d}
+
+/* ════════════════ REVEAL (pre-animation) ════════════════ */
+.no-js .reveal,.no-js .stagger>*,.no-js .imgrev,.no-js .pre-hide{opacity:1!important;transform:none!important}
+.js .pre-hide{opacity:0}
+
+/* ════════════════ RESPONSIVE ════════════════ */
+@media(max-width:1080px){
+  .wrap,.hero-inner,.exp-inner,.foot-top,.foot-bottom,.foot-cta{padding-left:2.2rem;padding-right:2.2rem}
+  header{padding:0 2.2rem}
+  .why-grid,.fmt-grid{grid-template-columns:repeat(2,1fr)}
+  .uc-panel{grid-template-columns:1fr}
+  .uc-visual{min-height:280px;position:relative}
+  .uc-visual img{position:absolute}
+  .how-wrap{grid-template-columns:1fr;gap:2.5rem}
+  .how-sticky{position:static}
+  .tech-grid{grid-template-columns:1fr;gap:2.5rem}
+  .tech-visual{position:static}
+  .plan-grid,.inq-grid{grid-template-columns:1fr;gap:2.5rem}
+  .foot-top{grid-template-columns:1fr 1fr;gap:2.5rem}
+  .exp-cols{grid-template-columns:1fr 1fr}
+}
+@media(max-width:760px){
+  .nav-links,.logo-tag{display:none}
+  .burger{display:block}
+  .sec{padding:5.5rem 0}
+  .sec-hd{flex-direction:column;align-items:flex-start}
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .stat{border-right:0}
+  .stat:nth-child(odd){border-right:1px solid var(--line)}
+  .stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--line)}
+  .why-grid,.fmt-grid{grid-template-columns:1fr}
+  .perks{grid-template-columns:1fr}
+  .exp-cols{grid-template-columns:1fr}
+  .metric-strip{grid-template-columns:1fr 1fr}
+  .f-row{grid-template-columns:1fr}
+  .foot-top{grid-template-columns:1fr}
+  .foot-bottom{flex-direction:column;gap:.5rem;text-align:center}
+  .uc-content{padding:2.4rem 1.8rem}
+  .mbar{display:grid}
+  #fcta{display:none}
+  body{padding-bottom:64px}
+  .hero-scroll{display:none}
+}
+@media(max-width:430px){
+  .wrap,.hero-inner,.exp-inner,.foot-top,.foot-cta{padding-left:1.4rem;padding-right:1.4rem}
+  header{padding:0 1.4rem}
+  .cta-row .btn{width:100%;justify-content:center}
+  .plan-card,.form-card{padding:2rem 1.5rem}
+}
+
+/* ════════════════ REDUCED MOTION ════════════════ */
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important}
+  .js .pre-hide{opacity:1!important}
+  .marquee-track{animation:none}
+  .hero-fallback,.exp-media img{transform:none!important}
+}
+</style>
+
+<!-- ── LocalBusiness + Event schema ── -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SportsActivityLocation","name":"Back Nine Indoor Golf — Vernon","description":"Premium indoor golf venue in Vernon, BC for corporate events, team building, client entertainment, and private group bookings. Private bays, Full Swing Pro simulators, and a modern lounge.","url":"https://backninegolf.ca/local/vernonbc/corporate/","telephone":"+12363617888","email":"vernon@thebackninegolf.com","image":"https://backninegolf.ca/local/vernonbc/assets/swing-b9wall.jpg","priceRange":"$$","address":{"@type":"PostalAddress","streetAddress":"3201 45 Ave","addressLocality":"Vernon","addressRegion":"BC","postalCode":"V1T 5B9","addressCountry":"CA"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Private simulator bays"},{"@type":"LocationFeatureSpecification","name":"Conference room"},{"@type":"LocationFeatureSpecification","name":"Modern lounge"},{"@type":"LocationFeatureSpecification","name":"24/7 access"}],"makesOffer":{"@type":"Offer","name":"Corporate & Group Event Hosting","url":"https://backninegolf.ca/local/vernonbc/forms/host-event/"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Does everyone in our group need to be a golfer?","acceptedAnswer":{"@type":"Answer","text":"Not at all. Back Nine is built for mixed-skill groups. Beginner-friendly modes, guided play, fun multiplayer games, and short formats mean non-golfers have just as much fun as avid players."}},
+{"@type":"Question","name":"Can non-members book a corporate event?","acceptedAnswer":{"@type":"Answer","text":"Yes. Membership is not required to host an event. Anyone can submit an event inquiry to plan a private group booking at Back Nine Vernon."}},
+{"@type":"Question","name":"Is the venue available year-round?","acceptedAnswer":{"@type":"Answer","text":"Yes. Back Nine Vernon is fully indoor with 24/7 access, so your event runs the same in January as it does in July — rain, snow, or shine."}},
+{"@type":"Question","name":"Can we tour the space or try it first?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Book a free 60-minute demo to experience the bays and the technology before you plan your event."}}
+]}
+</script>
+</head>
+<body>
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+
+<!-- Scroll progress -->
+<div id="prog"></div>
+
+<!-- ══════════ HEADER ══════════ -->
+<header id="hdr">
+  <a href="#top" class="logo" aria-label="Back Nine Indoor Golf — Vernon, home">
+    <img src="assets/logo.png" alt="Back Nine Golf" onerror="this.src='https://backninegolf.ca/assets/img/b9-banner-logo.svg';this.onerror=null">
+    <span class="logo-tag">Vernon · Corporate</span>
+  </a>
+  <nav aria-label="Primary">
+    <div class="nav-links">
+      <a href="#why">Why Back Nine</a>
+      <a href="#use-cases">Gatherings</a>
+      <a href="#how">How It Works</a>
+      <a href="#tech">The Technology</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="nav-cta" target="_blank" rel="noopener">Host an Event</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- Mobile drawer -->
+<div class="drawer" id="drawer">
+  <a href="#why">Why Back Nine</a>
+  <a href="#use-cases">Gatherings</a>
+  <a href="#how">How It Works</a>
+  <a href="#tech">The Technology</a>
+  <a href="#formats">Event Formats</a>
+  <a href="#faq">FAQ</a>
+  <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="dr-cta" target="_blank" rel="noopener">Host an Event</a>
+</div>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="top">
+  <div class="hero-media">
+    <video class="hero-vid pre-hide" autoplay muted loop playsinline poster="assets/swing-hero.jpg" aria-hidden="true">
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-fallback" aria-hidden="true"></div>
+  </div>
+  <div class="hero-veil" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-body">
+      <span class="eyebrow pre-hide">Corporate &amp; Group Events · Vernon, BC</span>
+      <h1 class="pre-hide">Corporate events,<br><em>reimagined.</em></h1>
+      <p class="hero-sub pre-hide">Host clients. Reward your team. Make it memorable. A premium indoor golf experience for Vernon businesses and groups — private bays, pro-level Full Swing simulators, and a modern lounge built for connection. Year-round. Effortless. Unforgettable.</p>
+      <div class="cta-row pre-hide">
+        <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="btn btn-solid" target="_blank" rel="noopener">
+          Host a Corporate Event
+          <svg class="arrow" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="https://backninegolf.ca/local/vernonbc/contact/" class="btn btn-outline" target="_blank" rel="noopener">Contact Our Team</a>
+        <a href="https://backninegolf.ca/local/vernonbc/demo/" class="btn btn-ghost" target="_blank" rel="noopener">
+          Book a Demo
+          <svg class="arrow" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="hero-trust pre-hide">
+        <div class="hero-trust-item"><svg class="htick" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>Private</b> simulator bays</span></div>
+        <div class="hero-trust-item"><svg class="htick" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>24/7</b> year-round venue</span></div>
+        <div class="hero-trust-item"><svg class="htick" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Golfers &amp; <b>non-golfers</b> welcome</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll pre-hide"><div class="scroll-bar"></div><span class="scroll-label">Scroll</span></div>
+</section>
+
+<!-- ══════════ MARQUEE ══════════ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <div class="marquee-item">Connect <span class="dot"></span> Engage <span class="dot"></span> Elevate <span class="dot"></span> Client Entertainment <span class="dot"></span> Team Building <span class="dot"></span> Leadership Outings <span class="dot"></span> Holiday Parties <span class="dot"></span></div>
+    <div class="marquee-item">Connect <span class="dot"></span> Engage <span class="dot"></span> Elevate <span class="dot"></span> Client Entertainment <span class="dot"></span> Team Building <span class="dot"></span> Leadership Outings <span class="dot"></span> Holiday Parties <span class="dot"></span></div>
+  </div>
+</div>
+
+<!-- ══════════ STATS ══════════ -->
+<section class="stats" aria-label="At a glance">
+  <div class="stats-grid">
+    <div class="stat reveal">
+      <span class="stat-num">24/7</span>
+      <span class="stat-lbl">Year-Round Access</span>
+      <span class="stat-sub">Book day, night, or weekend</span>
+    </div>
+    <div class="stat reveal">
+      <span class="stat-num" data-count="3">0</span>
+      <span class="stat-lbl">Private Bays</span>
+      <span class="stat-sub">Yours alone for the event</span>
+    </div>
+    <div class="stat reveal">
+      <span class="stat-num" data-count="50" data-suf="+">0</span>
+      <span class="stat-lbl">World-Class Courses</span>
+      <span class="stat-sub">Pebble Beach to St. Andrews</span>
+    </div>
+    <div class="stat reveal">
+      <span class="stat-num" data-count="30" data-suf="+">0</span>
+      <span class="stat-lbl">Games &amp; Challenges</span>
+      <span class="stat-sub">Fun for every skill level</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ WHY ══════════ -->
+<section class="sec why" id="why">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="hd-left reveal">
+        <span class="eyebrow">Why companies choose Back Nine</span>
+        <h2 class="disp" style="margin-top:1.4rem">A better way to<br><em>connect.</em></h2>
+        <div class="rule"></div>
+        <p class="lead">This isn't a boardroom or another dinner reservation. It's a private, premium room where conversation flows, competition is optional, and everyone leaves with a story. Polished enough for clients — relaxed enough for the whole team.</p>
+      </div>
+      <span class="sec-index reveal">01 / Six reasons</span>
+    </div>
+
+    <div class="why-grid stagger">
+      <article class="pillar">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg></div>
+        <h3>Private, high-end bays</h3>
+        <p>Your group, your bay, your music, your pace. No shared space, no interruptions — just a setting that feels reserved entirely for you.</p>
+      </article>
+      <article class="pillar">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>Year-round &amp; weatherproof</h3>
+        <p>Fully indoor with 24/7 availability. Schedule a January client night or a July team social — the experience never changes with the forecast.</p>
+      </article>
+      <article class="pillar">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c0-3 2.5-5 5.5-5s5.5 2 5.5 5"/><path d="M16 6.5a3 3 0 010 5.5M19.5 19c0-2.3-1.3-4-3.2-4.6"/></svg></div>
+        <h3>Golfers &amp; non-golfers alike</h3>
+        <p>Mixed-skill friendly by design. Beginners get guided modes and party games; avid players get tour-level realism. Everyone's in on the fun.</p>
+      </article>
+      <article class="pillar">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 14l5-5 4 4 7-7"/><path d="M20 6v4M20 6h-4"/><path d="M4 20h16"/></svg></div>
+        <h3>Pro-level Full Swing tech</h3>
+        <p>The same simulator technology trusted by Tiger Woods and Jon Rahm. Real ball flight and live data — instant credibility and a genuine wow factor.</p>
+      </article>
+      <article class="pillar">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l2.5 5 5.5.8-4 3.9.95 5.5L12 21l-4.9 2.6L8 18.7l-4-3.9 5.5-.8z"/></svg></div>
+        <h3>Flexible energy</h3>
+        <p>Dial it social, competitive, or polished. A relaxed networking night, a head-to-head mini-tournament, or a refined client evening — same room, your call.</p>
+      </article>
+      <article class="pillar">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.5-7-10a7 7 0 0114 0c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2.5"/></svg></div>
+        <h3>Effortless to plan</h3>
+        <p>One inquiry and we handle the rest — format, timing, and flow. You show up to a guided, premium experience that simply works.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ USE CASES (tabs) ══════════ -->
+<section class="sec uc" id="use-cases">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="hd-left reveal">
+        <span class="eyebrow">Perfect for every kind of gathering</span>
+        <h2 class="disp" style="margin-top:1.4rem">One venue.<br><em>Every occasion.</em></h2>
+        <div class="rule"></div>
+        <p class="lead">Whatever you're bringing people together for, there's a way to make it land here. Choose a gathering to see how Back Nine Vernon fits.</p>
+      </div>
+      <span class="sec-index reveal">02 / Eight ways</span>
+    </div>
+
+    <div class="reveal">
+      <div class="uc-tabs" role="tablist" aria-label="Types of gatherings">
+        <button class="uc-tab" role="tab" id="uctab-0" aria-controls="ucpanel" aria-selected="true"
+          data-kicker="Impress &amp; entertain" data-title="Client Entertainment" data-img="assets/escape-collage.jpg"
+          data-copy="Trade the steakhouse for something they'll actually remember. A private bay, a modern lounge with lake views, and a relaxed atmosphere where real conversations — and real relationships — happen."
+          data-feats="A premium, distraction-free private setting|Equal footing for golfers and non-golfers|Easy to host, easy to relax into"><span class="uc-num">01</span> Client Entertainment</button>
+
+        <button class="uc-tab" role="tab" id="uctab-1" aria-controls="ucpanel" aria-selected="false"
+          data-kicker="Bring the team together" data-title="Team Building" data-img="assets/swing-hero.jpg"
+          data-copy="No trust falls, no forced fun. Just an interactive, slightly competitive experience that gets people laughing, talking, and cheering — the kind of shared moment that actually builds culture."
+          data-feats="Multiplayer games everyone can play|Naturally levels the playing field|Memorable without being &lsquo;a workshop&rsquo;"><span class="uc-num">02</span> Team Building</button>
+
+        <button class="uc-tab" role="tab" id="uctab-2" aria-controls="ucpanel" aria-selected="false"
+          data-kicker="An elevated room" data-title="Leadership &amp; Executive" data-img="assets/swing-b9wall.jpg"
+          data-copy="A refined, private space for your leadership group or key partners. Pair the bays with the conference room for a focused session, then unwind over a round — substance and hospitality in one place."
+          data-feats="Private bays + conference room|Polished enough for senior stakeholders|Focused by day, social by night"><span class="uc-num">03</span> Leadership &amp; Executive</button>
+
+        <button class="uc-tab" role="tab" id="uctab-3" aria-controls="ucpanel" aria-selected="false"
+          data-kicker="Say thank you" data-title="Staff Appreciation" data-img="assets/escape-collage.jpg"
+          data-copy="Reward the people who make it happen with something that feels like a genuine treat. Relaxed, inclusive, and fun for every department — a night the whole team looks forward to."
+          data-feats="Inclusive for all skill levels|Relaxed, celebratory atmosphere|A perk people actually talk about"><span class="uc-num">04</span> Staff Appreciation</button>
+
+        <button class="uc-tab" role="tab" id="uctab-4" aria-controls="ucpanel" aria-selected="false"
+          data-kicker="Your best one yet" data-title="Holiday Parties" data-img="assets/swing-hero.jpg"
+          data-copy="Skip the cold parking lots and overbooked restaurants. A warm, private, weatherproof venue for the company holiday party — festive, easy, and a welcome change from last year's dinner."
+          data-feats="Indoor &amp; weatherproof all winter|Private space for the whole crew|Built-in entertainment, zero planning stress"><span class="uc-num">05</span> Holiday Parties</button>
+
+        <button class="uc-tab" role="tab" id="uctab-5" aria-controls="ucpanel" aria-selected="false"
+          data-kicker="Make connections" data-title="Networking Events" data-img="assets/escape-collage.jpg"
+          data-copy="Conversations that actually happen. The bay-and-lounge format keeps people mingling and at ease instead of stuck at a table — ideal for chambers, associations, and business mixers."
+          data-feats="Naturally social, low-pressure flow|Lounge space for mingling|A fresh setting that draws attendance"><span class="uc-num">06</span> Networking Events</button>
+
+        <button class="uc-tab" role="tab" id="uctab-6" aria-controls="ucpanel" aria-selected="false"
+          data-kicker="Put your brand on screen" data-title="Community &amp; Brand Events" data-img="assets/swing-data.jpg"
+          data-copy="Host a launch, a client appreciation day, or a community event — and put your brand front and centre. Corporate partners can tap on-screen advertising and bay sponsorship for real visibility."
+          data-feats="On-screen brand visibility options|Bay &amp; event sponsorship available|A standout setting for launches"><span class="uc-num">07</span> Community &amp; Brand Events</button>
+
+        <button class="uc-tab" role="tab" id="uctab-7" aria-controls="ucpanel" aria-selected="false"
+          data-kicker="Just get everyone together" data-title="Casual Group Bookings" data-img="assets/swing-b9wall.jpg"
+          data-copy="Sometimes the goal is simply a good time. Grab a few bays for the department, the project team, or the after-work crew — low-friction to book, easy to enjoy, always a win."
+          data-feats="Quick and simple to arrange|Great for small or large groups|Flexible timing, day or night"><span class="uc-num">08</span> Casual Group Bookings</button>
+      </div>
+
+      <div class="uc-panel" id="ucpanel" role="tabpanel" aria-labelledby="uctab-0" tabindex="0">
+        <div class="uc-visual">
+          <img id="uc-img" src="assets/escape-collage.jpg" alt="Back Nine Vernon premium lounge and private bays">
+          <div class="uc-vveil" aria-hidden="true"></div>
+        </div>
+        <div class="uc-content uc-fade" id="uc-content">
+          <span class="uc-kicker" id="uc-kicker">Impress &amp; entertain</span>
+          <h3 id="uc-title">Client Entertainment</h3>
+          <p id="uc-copy">Trade the steakhouse for something they'll actually remember. A private bay, a modern lounge with lake views, and a relaxed atmosphere where real conversations — and real relationships — happen.</p>
+          <ul class="uc-feats" id="uc-feats"></ul>
+          <div class="cta-row">
+            <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="btn btn-solid btn-sm" target="_blank" rel="noopener">Plan This Event
+              <svg class="arrow" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ HOW IT WORKS ══════════ -->
+<section class="sec how" id="how">
+  <div class="wrap">
+    <div class="how-wrap">
+      <div class="how-sticky reveal">
+        <span class="sec-index">03 / The process</span>
+        <h2 class="disp" style="margin:1.4rem 0">Planning made<br><em>effortless.</em></h2>
+        <div class="rule"></div>
+        <p class="lead">From first message to last putt, we keep it simple. You bring the people — we'll handle the experience.</p>
+        <div class="cta-row" style="margin-top:2rem">
+          <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="btn btn-solid" target="_blank" rel="noopener">Start Your Inquiry
+            <svg class="arrow" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+
+      <div class="how-steps" id="how-steps">
+        <div class="how-line"><div class="how-line-fill" id="how-fill"></div></div>
+        <div class="step reveal">
+          <div class="step-dot"></div>
+          <div class="step-n">Step 01</div>
+          <h3>Reach out</h3>
+          <p>Submit a quick event inquiry or give us a call. Tell us the occasion, a rough headcount, and your ideal date — that's all we need to start.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-dot"></div>
+          <div class="step-n">Step 02</div>
+          <h3>Plan your experience</h3>
+          <p>We'll tailor the details to your group — bays, timing, flow, and the right balance of social and competitive. Golfers and non-golfers both covered.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-dot"></div>
+          <div class="step-n">Step 03</div>
+          <h3>Choose your format</h3>
+          <p>Casual social, client hosting night, executive gathering, holiday celebration, or a friendly mini-tournament. Pick the energy that fits the occasion.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-dot"></div>
+          <div class="step-n">Step 04</div>
+          <h3>Arrive &amp; enjoy</h3>
+          <p>Walk into a private, guided, premium experience. Everything's set up and ready — you focus on your guests while we make it run beautifully.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ EXPERIENCE (cinematic) ══════════ -->
+<section class="exp" id="experience">
+  <div class="exp-media" aria-hidden="true">
+    <img src="assets/swing-b9wall.jpg" alt="" loading="lazy" id="exp-img">
+  </div>
+  <div class="exp-veil" aria-hidden="true"></div>
+  <div class="exp-inner">
+    <div class="exp-body reveal">
+      <span class="eyebrow">What the experience feels like</span>
+      <h2>Relaxed, but<br><em>unmistakably premium.</em></h2>
+      <p class="lead">Soft lighting, leather seating, floor-to-ceiling views of the Okanagan, and the quiet confidence of a space that's clearly been done right. It's social without being loud, polished without being stiff — the kind of room where good things happen naturally.</p>
+      <div class="exp-cols">
+        <div class="exp-col"><h4>Social</h4><p>Bays designed for groups to gather, cheer, and stay in the conversation.</p></div>
+        <div class="exp-col"><h4>Competitive</h4><p>Turn up the stakes with closest-to-pin, long-drive, and team formats.</p></div>
+        <div class="exp-col"><h4>Memorable</h4><p>A genuinely different night out that guests remember — and talk about.</p></div>
+      </div>
+      <div class="cta-row" style="margin-top:2.6rem">
+        <a href="https://backninegolf.ca/local/vernonbc/demo/" class="btn btn-gold" target="_blank" rel="noopener">Book a Free Demo
+          <svg class="arrow" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a href="https://backninegolf.ca/local/vernonbc/bookings/" class="btn btn-outline" target="_blank" rel="noopener">Book a Tee Time</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FULL SWING TECH ══════════ -->
+<section class="sec tech" id="tech">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="hd-left reveal">
+        <span class="eyebrow">The technology</span>
+        <h2 class="disp" style="margin-top:1.4rem">Tour-level tech.<br><em>Instant wow factor.</em></h2>
+        <div class="rule"></div>
+        <p class="lead">Back Nine Vernon runs on Full Swing Pro Series — the same simulator technology trusted by Tiger Woods, Jon Rahm, and Jordan Spieth. For your guests, that means real ball flight, live data on screen, and a genuine conversation-starter the moment they step in.</p>
+      </div>
+      <span class="sec-index reveal">04 / Full Swing Pro</span>
+    </div>
+
+    <div class="tech-grid">
+      <div class="tech-visual reveal">
+        <figure class="tech-figure">
+          <img src="assets/swing-data.jpg" alt="A Back Nine Vernon golfer mid-swing with live Full Swing shot data overlaid — carry, ball speed, smash factor and spin." loading="lazy">
+          <figcaption class="tech-fig-cap"><b>Live shot data</b> — captured and displayed instantly, in front of everyone</figcaption>
+        </figure>
+        <div class="metric-strip" aria-label="Example shot metrics">
+          <div class="metric"><div class="metric-v">200</div><div class="metric-k">Carry yds</div></div>
+          <div class="metric"><div class="metric-v">139.1</div><div class="metric-k">Ball mph</div></div>
+          <div class="metric"><div class="metric-v">1.46</div><div class="metric-k">Smash</div></div>
+          <div class="metric"><div class="metric-v">17.4°</div><div class="metric-k">Launch</div></div>
+        </div>
+      </div>
+
+      <div class="tech-side reveal">
+        <div class="tech-tabs">
+          <button class="tech-tab" aria-expanded="true">
+            <span class="tech-tab-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18h18"/><path d="M7 14l3-3 3 3 5-6"/></svg></span>
+            <div class="tech-tab-main">
+              <div class="tech-tab-top"><h3>ION3 overhead camera</h3><span class="tt-toggle" aria-hidden="true"></span></div>
+              <div class="tech-tab-body"><p>An overhead ION3 camera measures the ball precisely at the moment of impact — the foundation of the system's dual-tracking accuracy. Every strike is captured, so every shot counts.</p><span class="tt-tag">Impact measurement</span></div>
+            </div>
+          </button>
+          <button class="tech-tab" aria-expanded="false">
+            <span class="tech-tab-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></span>
+            <div class="tech-tab-main">
+              <div class="tech-tab-top"><h3>4× HyperClear cameras</h3><span class="tt-toggle" aria-hidden="true"></span></div>
+              <div class="tech-tab-body"><p>Four HyperClear cameras work alongside the impact system to track the ball in flight — reading speed, spin, and launch with the clarity that makes the simulation feel real.</p><span class="tt-tag">In-flight tracking</span></div>
+            </div>
+          </button>
+          <button class="tech-tab" aria-expanded="false">
+            <span class="tech-tab-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12c4-7 14-7 18 0-4 7-14 7-18 0z"/><circle cx="12" cy="12" r="2.5"/></svg></span>
+            <div class="tech-tab-main">
+              <div class="tech-tab-top"><h3>Infrared + high-speed LED</h3><span class="tt-toggle" aria-hidden="true"></span></div>
+              <div class="tech-tab-body"><p>Infrared and high-speed blue-light LED cameras capture the ball's true trajectory and project real ball flight with no delay — the ball enters the virtual world exactly where it leaves the screen. The most realistic ball flight on the market.</p><span class="tt-tag">Real ball flight</span></div>
+            </div>
+          </button>
+          <button class="tech-tab" aria-expanded="false">
+            <span class="tech-tab-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 20h8M12 17v3"/></svg></span>
+            <div class="tech-tab-main">
+              <div class="tech-tab-top"><h3>Cinema screen &amp; 50+ courses</h3><span class="tt-toggle" aria-hidden="true"></span></div>
+              <div class="tech-tab-body"><p>A cinema-quality projector and silver impact screen put Pebble Beach, TPC Sawgrass, and 50+ world-class courses on the wall in stunning detail — plus 30+ games and challenges, so non-golfers are entertained from the first swing.</p><span class="tt-tag">Play &amp; entertainment value</span></div>
+            </div>
+          </button>
+        </div>
+
+        <p class="tech-pros"><b>Trusted by the best.</b> The Full Swing Pro Series is the simulator of choice for Tiger Woods, Jon Rahm, Jordan Spieth, Jason Day, and more — credibility your golfers will notice instantly.</p>
+
+        <div class="cta-row tech-cta">
+          <a href="https://www.fullswinggolf.com/pro-series-simulator/" class="btn btn-outline" target="_blank" rel="noopener">Learn About Full Swing Pro 2.0
+            <svg class="arrow" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ EVENT FORMATS ══════════ -->
+<section class="sec fmt" id="formats">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="hd-left reveal">
+        <span class="eyebrow">Event formats</span>
+        <h2 class="disp" style="margin-top:1.4rem">Find your<br><em>format.</em></h2>
+        <div class="rule"></div>
+        <p class="lead">A few starting points to spark ideas. Every event is tailored to your group — tell us what you're imagining and we'll shape it with you.</p>
+      </div>
+      <span class="sec-index reveal">05 / Curated ideas</span>
+    </div>
+
+    <div class="fmt-grid stagger">
+      <article class="fmt-card">
+        <div class="fmt-tag">Relaxed</div>
+        <h3>Casual Team Social</h3>
+        <p>An easy after-work get-together. Friendly games, food and drinks in the lounge, zero pressure — just your people, unwinding together.</p>
+        <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="fmt-link" target="_blank" rel="noopener">Inquire <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </article>
+      <article class="fmt-card">
+        <div class="fmt-tag">Polished</div>
+        <h3>Client Hosting Night</h3>
+        <p>Impress key clients in a private, premium setting. Elevated hospitality, great conversation, and an experience that strengthens the relationship.</p>
+        <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="fmt-link" target="_blank" rel="noopener">Inquire <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </article>
+      <article class="fmt-card">
+        <div class="fmt-tag">Refined</div>
+        <h3>Executive Gathering</h3>
+        <p>A focused leadership session in the conference room, then a relaxed round in a private bay. Substance and hospitality, start to finish.</p>
+        <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="fmt-link" target="_blank" rel="noopener">Inquire <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </article>
+      <article class="fmt-card">
+        <div class="fmt-tag">Festive</div>
+        <h3>Holiday Celebration</h3>
+        <p>Your company holiday party, sorted. Warm, private, and weatherproof — built-in entertainment that beats another restaurant booking.</p>
+        <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="fmt-link" target="_blank" rel="noopener">Inquire <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </article>
+      <article class="fmt-card">
+        <div class="fmt-tag">Competitive</div>
+        <h3>Competitive Mini-Tournament</h3>
+        <p>Bracket it up. Team formats, leaderboards, and closest-to-pin drama — a friendly competition that gets the whole group fired up.</p>
+        <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="fmt-link" target="_blank" rel="noopener">Inquire <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </article>
+      <article class="fmt-card">
+        <div class="fmt-tag">Branded</div>
+        <h3>Branded Group Event</h3>
+        <p>Launches, appreciation days, and community events with your brand on screen. Bay sponsorship and on-screen visibility available for partners.</p>
+        <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="fmt-link" target="_blank" rel="noopener">Inquire <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </article>
+    </div>
+    <p class="fmt-note">Formats are starting points, not fixed packages. <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" target="_blank" rel="noopener">Tell us what you have in mind →</a></p>
+  </div>
+</section>
+
+<!-- ══════════ CORPORATE MEMBERSHIP / PLANNING ══════════ -->
+<section class="sec plan" id="membership">
+  <div class="wrap">
+    <div class="plan-grid">
+      <div class="plan-copy reveal">
+        <span class="eyebrow">For businesses who host often</span>
+        <h2 class="disp">Corporate<br><em>memberships.</em></h2>
+        <p class="lead">If hosting clients and rewarding your team is a regular thing — not a once-a-year event — a corporate membership turns Back Nine into your company's room. Every corporate membership is custom-built around how your business actually uses the space.</p>
+        <div class="cta-row">
+          <a href="https://backninegolf.ca/local/vernonbc/memberships/" class="btn btn-solid" target="_blank" rel="noopener">Become a Member
+            <svg class="arrow" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a href="https://backninegolf.ca/local/vernonbc/contact/" class="btn btn-outline" target="_blank" rel="noopener">Talk to Us</a>
+        </div>
+      </div>
+
+      <div class="plan-card reveal">
+        <span class="plan-badge">Custom-built for your business</span>
+        <h3>What's included</h3>
+        <p>A few of the ways a corporate membership works harder for your team:</p>
+        <div class="perks">
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> 24/7 access with multiple account holders</div>
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Personal use and client/business use</div>
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> 24/7 on-screen TV advertising</div>
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Event hosting capability</div>
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Discounted event, league &amp; tournament fees</div>
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Event &amp; bay sponsorship opportunities</div>
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Conference room access</div>
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Cross-play at Back Nine locations nationwide</div>
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Eligible as a business tax write-off</div>
+          <div class="perk"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Discounted merchandise</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FAQ ══════════ -->
+<section class="sec faq" id="faq">
+  <div class="wrap">
+    <div class="sec-hd center reveal">
+      <span class="eyebrow center">Corporate FAQs</span>
+      <h2 class="disp" style="margin-top:1.4rem">Good questions,<br><em>answered.</em></h2>
+      <div class="rule center"></div>
+    </div>
+    <div class="faq-wrap reveal">
+      <div class="fi">
+        <button class="fi-q" aria-expanded="false">Does everyone in our group need to be a golfer? <span class="fi-icon" aria-hidden="true"></span></button>
+        <div class="fi-a"><div class="fi-a-inner">Not at all. Back Nine is built for mixed-skill groups. Beginners get easy, guided modes and fun party games, while avid golfers get tour-level realism on 50+ world-class courses. Non-golfers consistently have just as much fun — it's the great equalizer.</div></div>
+      </div>
+      <div class="fi">
+        <button class="fi-q" aria-expanded="false">Can non-members book a corporate event? <span class="fi-icon" aria-hidden="true"></span></button>
+        <div class="fi-a"><div class="fi-a-inner">Yes. Membership is not required to host an event. Anyone can <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" target="_blank" rel="noopener">submit an event inquiry</a> to plan a private group booking. If your business hosts regularly, a corporate membership can add ongoing perks — but it's entirely optional.</div></div>
+      </div>
+      <div class="fi">
+        <button class="fi-q" aria-expanded="false">Is this actually good for team building? <span class="fi-icon" aria-hidden="true"></span></button>
+        <div class="fi-a"><div class="fi-a-inner">It's one of the best formats for it. The interactive, lightly competitive games get people talking, laughing, and cheering for each other — real connection, no forced icebreakers. And because it works for every skill level, the whole team is included.</div></div>
+      </div>
+      <div class="fi">
+        <button class="fi-q" aria-expanded="false">Can we host clients here? <span class="fi-icon" aria-hidden="true"></span></button>
+        <div class="fi-a"><div class="fi-a-inner">Absolutely — it's one of the most popular reasons businesses book. A private bay, a modern lounge with Okanagan views, and a relaxed-yet-premium atmosphere make it an ideal alternative to the usual client dinner.</div></div>
+      </div>
+      <div class="fi">
+        <button class="fi-q" aria-expanded="false">How do event inquiries work? <span class="fi-icon" aria-hidden="true"></span></button>
+        <div class="fi-a"><div class="fi-a-inner">Simple. <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" target="_blank" rel="noopener">Fill out the event form</a> with your name, contact details, an event date, and a short description — or call us at <a href="tel:+12363617888">236-361-7888</a>. We'll follow up to tailor the details and confirm everything.</div></div>
+      </div>
+      <div class="fi">
+        <button class="fi-q" aria-expanded="false">Can we plan a fully private group experience? <span class="fi-icon" aria-hidden="true"></span></button>
+        <div class="fi-a"><div class="fi-a-inner">Yes. Events are hosted in private bays so the space feels reserved for your group. For larger gatherings we can arrange multiple bays plus lounge and conference space — just let us know your headcount when you inquire.</div></div>
+      </div>
+      <div class="fi">
+        <button class="fi-q" aria-expanded="false">Is the venue available year-round? <span class="fi-icon" aria-hidden="true"></span></button>
+        <div class="fi-a"><div class="fi-a-inner">Always. Back Nine Vernon is fully indoor with 24/7 access, so your event runs the same in January as it does in July. No weather delays, no seasonal limits — book whenever suits your team.</div></div>
+      </div>
+      <div class="fi">
+        <button class="fi-q" aria-expanded="false">Can we tour the space or try it first? <span class="fi-icon" aria-hidden="true"></span></button>
+        <div class="fi-a"><div class="fi-a-inner">Of course. Book a <a href="https://backninegolf.ca/local/vernonbc/demo/" target="_blank" rel="noopener">free 60-minute demo</a> to experience the bays and technology firsthand before you plan your event. It's the easiest way to see why it works so well for groups.</div></div>
+      </div>
+      <div class="fi">
+        <button class="fi-q" aria-expanded="false">Where are you located? <span class="fi-icon" aria-hidden="true"></span></button>
+        <div class="fi-a"><div class="fi-a-inner">3201 45 Ave, Vernon, BC V1T 5B9. Call <a href="tel:+12363617888">236-361-7888</a> or email <a href="mailto:vernon@thebackninegolf.com">vernon@thebackninegolf.com</a> and we'll point you in the right direction.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ INQUIRY / CONVERSION ══════════ -->
+<section class="sec inq" id="inquire">
+  <div class="inq-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="inq-grid">
+      <div class="inq-copy reveal">
+        <span class="eyebrow">Start planning</span>
+        <h2 class="disp" style="margin-top:1.4rem">Let's make it<br><em>memorable.</em></h2>
+        <p class="lead">Tell us a little about your group and we'll take it from there. Prefer to talk it through? Call or email — a real person on the Vernon team will help you plan.</p>
+        <div class="inq-contacts">
+          <div class="inq-c">
+            <span class="inq-c-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-3 2a12 12 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg></span>
+            <div><div class="inq-c-l">Call the Vernon team</div><a class="inq-c-v" href="tel:+12363617888">236-361-7888</a></div>
+          </div>
+          <div class="inq-c">
+            <span class="inq-c-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></svg></span>
+            <div><div class="inq-c-l">Email</div><a class="inq-c-v" href="mailto:vernon@thebackninegolf.com">vernon@thebackninegolf.com</a></div>
+          </div>
+          <div class="inq-c">
+            <span class="inq-c-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.5-7-10a7 7 0 0114 0c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2.5"/></svg></span>
+            <div><div class="inq-c-l">Visit</div><span class="inq-c-v">3201 45 Ave, Vernon, BC</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <h3>Event inquiry</h3>
+        <p class="fc-sub">Takes about a minute. No obligation — just a starting point.</p>
+        <form id="inq-form" novalidate>
+          <div class="f-row">
+            <div class="f-field"><label for="f-first">First name <span class="req">*</span></label><input id="f-first" name="first" type="text" autocomplete="given-name" required placeholder="Jordan"></div>
+            <div class="f-field"><label for="f-last">Last name <span class="req">*</span></label><input id="f-last" name="last" type="text" autocomplete="family-name" required placeholder="Spieth"></div>
+          </div>
+          <div class="f-row">
+            <div class="f-field"><label for="f-email">Email <span class="req">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required placeholder="you@company.com"></div>
+            <div class="f-field"><label for="f-phone">Phone <span class="req">*</span></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required placeholder="(250) 000-0000"></div>
+          </div>
+          <div class="f-row">
+            <div class="f-field"><label for="f-company">Company</label><input id="f-company" name="company" type="text" autocomplete="organization" placeholder="Your business"></div>
+            <div class="f-field"><label for="f-type">Event type</label>
+              <select id="f-type" name="type">
+                <option value="">Select…</option>
+                <option>Client entertainment</option>
+                <option>Team building</option>
+                <option>Leadership / executive</option>
+                <option>Staff appreciation</option>
+                <option>Holiday party</option>
+                <option>Networking event</option>
+                <option>Community / brand event</option>
+                <option>Casual group booking</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="f-row">
+            <div class="f-field"><label for="f-size">Approx. group size</label><input id="f-size" name="size" type="text" inputmode="numeric" placeholder="e.g. 12"></div>
+            <div class="f-field"><label for="f-date">Preferred date</label><input id="f-date" name="date" type="date"></div>
+          </div>
+          <div class="f-field full"><label for="f-msg">Anything else?</label><textarea id="f-msg" name="message" placeholder="Tell us about the occasion, timing, or what you're hoping for…"></textarea></div>
+          <button type="submit" class="btn btn-solid form-submit">Send Event Inquiry
+            <svg class="arrow" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <p class="form-alt">Prefer the official form? <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" target="_blank" rel="noopener">Open the Back Nine event form →</a></p>
+          <p class="form-note">This opens a pre-filled email to our Vernon team so you can review and send. We'll reply to plan the details.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="foot-cta reveal">
+    <h2>Host clients. Reward your team.<br><em>Make it memorable.</em></h2>
+    <div class="cta-row center" style="margin-bottom:1rem">
+      <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" class="btn btn-solid" target="_blank" rel="noopener">Host a Corporate Event
+        <svg class="arrow" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a href="https://backninegolf.ca/local/vernonbc/demo/" class="btn btn-outline" target="_blank" rel="noopener">Book a Free Demo</a>
+    </div>
+  </div>
+
+  <div class="foot-top">
+    <div class="foot-brand">
+      <a href="#top" class="logo"><img src="assets/logo.png" alt="Back Nine Golf" style="height:34px" onerror="this.src='https://backninegolf.ca/assets/img/b9-banner-logo.svg';this.onerror=null"></a>
+      <p class="foot-tagline">Premium indoor golf in Vernon, BC. The elevated venue for corporate events, client hosting, and team gatherings — year-round.</p>
+      <div class="foot-social">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2 0-3 1.3-3 3.2V11H9v3h2v6h3v-6h2.3l.7-3H14V9.5c0-.4.2-.5.6-.5z"/></svg></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Events</div>
+      <div class="foot-links">
+        <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" target="_blank" rel="noopener">Host an Event</a>
+        <a href="#use-cases">Gatherings</a>
+        <a href="#formats">Event Formats</a>
+        <a href="#membership">Corporate Membership</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Visit &amp; Play</div>
+      <div class="foot-links">
+        <a href="https://backninegolf.ca/local/vernonbc/bookings/" target="_blank" rel="noopener">Book a Tee Time</a>
+        <a href="https://backninegolf.ca/local/vernonbc/demo/" target="_blank" rel="noopener">Book a Free Demo</a>
+        <a href="https://backninegolf.ca/local/vernonbc/memberships/" target="_blank" rel="noopener">Memberships</a>
+        <a href="https://backninegolf.ca/local/vernonbc/contact/" target="_blank" rel="noopener">Contact</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Back Nine Vernon</div>
+      <div class="foot-info">
+        <span>3201 45 Ave<br>Vernon, BC V1T 5B9</span>
+        <a href="tel:+12363617888">236-361-7888</a>
+        <a href="mailto:vernon@thebackninegolf.com">vernon@thebackninegolf.com</a>
+        <span style="color:var(--green)">Open 24/7 for members</span>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; 2026 Back Nine Indoor Golf. All rights reserved.</span>
+    <span>Corporate events in <span class="foot-green">Vernon, BC</span></span>
+  </div>
+</footer>
+
+<!-- Floating CTA (desktop) -->
+<div id="fcta">
+  <a href="https://backninegolf.ca/local/vernonbc/forms/host-event/" target="_blank" rel="noopener">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h9M7.5 3l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Host an Event
+  </a>
+</div>
+
+<!-- Mobile fixed CTA bar -->
+<div class="mbar">
+  <a class="mb-call" href="tel:+12363617888"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-3 2a12 12 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg> Call</a>
+  <a class="mb-host" href="https://backninegolf.ca/local/vernonbc/forms/host-event/" target="_blank" rel="noopener">Host an Event</a>
+</div>
+
+<!-- ══════════ SCRIPTS ══════════ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(function(){
+  "use strict";
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasGSAP = typeof gsap !== 'undefined';
+  if (hasGSAP) gsap.registerPlugin(ScrollTrigger);
+
+  /* ── Scroll progress + header + float CTA ── */
+  var prog = document.getElementById('prog');
+  var hdr  = document.getElementById('hdr');
+  var fcta = document.getElementById('fcta');
+  function onScroll(){
+    var max = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = max > 0 ? (window.scrollY / max) * 100 : 0;
+    prog.style.width = pct + '%';
+    hdr.classList.toggle('on', window.scrollY > 50);
+    fcta.classList.toggle('on', window.scrollY > 700);
+  }
+  window.addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+
+  /* ── Mobile menu ── */
+  var burger = document.getElementById('burger');
+  var drawer = document.getElementById('drawer');
+  function closeMenu(){ document.body.classList.remove('menu-open'); burger.setAttribute('aria-expanded','false'); }
+  burger.addEventListener('click', function(){
+    var open = document.body.classList.toggle('menu-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  drawer.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', closeMenu); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+
+  /* ── Reduced-motion / no-GSAP: reveal everything, skip animation ── */
+  function showAll(){
+    document.querySelectorAll('.pre-hide').forEach(function(el){ el.style.opacity=1; el.style.transform='none'; });
+    document.querySelectorAll('.reveal').forEach(function(el){ el.style.opacity=1; el.style.transform='none'; });
+    document.querySelectorAll('.stagger>*').forEach(function(el){ el.style.opacity=1; el.style.transform='none'; });
+  }
+
+  /* ── Stat count-up (works regardless of motion pref) ── */
+  function runCount(el){
+    var target = parseFloat(el.dataset.count);
+    var suf = el.dataset.suf || '';
+    if (reduce || !hasGSAP){ el.textContent = target + suf; return; }
+    var obj = { n:0 };
+    gsap.to(obj, { n:target, duration:2.2, ease:'power2.out',
+      onUpdate:function(){ el.textContent = Math.round(obj.n) + suf; } });
+  }
+
+  if (reduce || !hasGSAP){
+    showAll();
+    document.querySelectorAll('[data-count]').forEach(runCount);
+  } else {
+    /* Hero entrance */
+    var heroKids = document.querySelectorAll('.hero .pre-hide');
+    gsap.set(heroKids, { opacity:0 });
+    var tl = gsap.timeline({ delay:.15 });
+    tl.to('.hero .eyebrow', { opacity:1, y:0, duration:.7, ease:'power2.out' }, .1)
+      .fromTo('.hero h1', { y:50, opacity:0 }, { y:0, opacity:1, duration:1.1, ease:'power3.out' }, .25)
+      .fromTo('.hero-sub', { y:30, opacity:0 }, { y:0, opacity:1, duration:.85, ease:'power2.out' }, .55)
+      .fromTo('.hero .cta-row', { y:22, opacity:0 }, { y:0, opacity:1, duration:.7, ease:'power2.out' }, .75)
+      .fromTo('.hero-trust', { y:18, opacity:0 }, { y:0, opacity:1, duration:.7, ease:'power2.out' }, .9)
+      .to('.hero-scroll', { opacity:1, duration:.6 }, 1.0);
+
+    /* Generic reveal */
+    gsap.utils.toArray('.reveal').forEach(function(el){
+      gsap.fromTo(el, { y:46, opacity:0 },
+        { y:0, opacity:1, duration:1, ease:'power3.out',
+          scrollTrigger:{ trigger:el, start:'top 88%', once:true } });
+    });
+    /* Stagger children */
+    gsap.utils.toArray('.stagger').forEach(function(parent){
+      gsap.fromTo(Array.prototype.slice.call(parent.children), { y:42, opacity:0 },
+        { y:0, opacity:1, duration:.85, ease:'power2.out', stagger:.12,
+          scrollTrigger:{ trigger:parent, start:'top 86%', once:true } });
+    });
+    /* Count-up on scroll */
+    document.querySelectorAll('[data-count]').forEach(function(el){
+      ScrollTrigger.create({ trigger:el, start:'top 90%', once:true, onEnter:function(){ runCount(el); } });
+    });
+    /* Hero parallax (subtle zoom-out on the fallback layer) */
+    gsap.to('.hero-fallback', {
+      scale:1.12, ease:'none',
+      scrollTrigger:{ trigger:'.hero', start:'top top', end:'bottom top', scrub:true }
+    });
+    /* Experience image parallax pan */
+    gsap.fromTo('#exp-img', { yPercent:-8 }, { yPercent:8, ease:'none',
+      scrollTrigger:{ trigger:'.exp', start:'top bottom', end:'bottom top', scrub:true } });
+
+    /* How-it-works: progress line draw + active step dots */
+    var fill = document.getElementById('how-fill');
+    if (fill){
+      gsap.to(fill, { scaleY:1, ease:'none',
+        scrollTrigger:{ trigger:'#how-steps', start:'top 70%', end:'bottom 75%', scrub:true } });
+      gsap.utils.toArray('.step').forEach(function(step){
+        ScrollTrigger.create({ trigger:step, start:'top 70%', end:'bottom 70%',
+          onToggle:function(self){ step.classList.toggle('active', self.isActive); } });
+      });
+    }
+  }
+
+  /* ── Failsafe: the above-the-fold hero must NEVER stay invisible, even if the
+     animation engine stalls (background tab, throttled rAF, GSAP ticker hiccup).
+     If the entrance hasn't resolved shortly after load, snap the hero visible. ── */
+  setTimeout(function(){
+    document.querySelectorAll('.hero .pre-hide').forEach(function(el){
+      if (parseFloat(getComputedStyle(el).opacity) < 0.99){ el.style.opacity = 1; el.style.transform = 'none'; }
+    });
+  }, 2400);
+
+  /* ════════ USE-CASE TABS (data-driven) ════════ */
+  (function(){
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.uc-tab'));
+    var img = document.getElementById('uc-img');
+    var content = document.getElementById('uc-content');
+    var elKicker = document.getElementById('uc-kicker');
+    var elTitle = document.getElementById('uc-title');
+    var elCopy = document.getElementById('uc-copy');
+    var elFeats = document.getElementById('uc-feats');
+    var panel = document.getElementById('ucpanel');
+    if(!tabs.length) return;
+
+    function featHTML(str){
+      return str.split('|').map(function(f){
+        return '<li class="uc-feat"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 8l3.5 3.5L13 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>'+f+'</span></li>';
+      }).join('');
+    }
+    function render(tab){
+      var d = tab.dataset;
+      elKicker.innerHTML = d.kicker;
+      elTitle.innerHTML = d.title;
+      elCopy.innerHTML = d.copy;
+      elFeats.innerHTML = featHTML(d.feats);
+      img.src = d.img;
+      img.alt = d.title + ' at Back Nine Vernon';
+      panel.setAttribute('aria-labelledby', tab.id);
+    }
+    function select(tab, focus){
+      tabs.forEach(function(t){ t.setAttribute('aria-selected', t===tab ? 'true':'false'); });
+      if (reduce || !hasGSAP){ render(tab); }
+      else {
+        content.classList.add('swapping');
+        gsap.to(img, { opacity:.25, duration:.2, onComplete:function(){ /* swap below */ } });
+        setTimeout(function(){
+          render(tab);
+          content.classList.remove('swapping');
+          gsap.fromTo(img, { opacity:.25 }, { opacity:1, duration:.4 });
+        }, 200);
+      }
+      if (focus) tab.focus();
+    }
+    // first render (ensure feats list populated even without interaction)
+    render(tabs[0]);
+    tabs.forEach(function(tab, i){
+      tab.addEventListener('click', function(){ select(tab, false); });
+      tab.addEventListener('keydown', function(e){
+        var idx = i;
+        if (e.key==='ArrowRight' || e.key==='ArrowDown'){ e.preventDefault(); select(tabs[(idx+1)%tabs.length], true); }
+        else if (e.key==='ArrowLeft' || e.key==='ArrowUp'){ e.preventDefault(); select(tabs[(idx-1+tabs.length)%tabs.length], true); }
+        else if (e.key==='Home'){ e.preventDefault(); select(tabs[0], true); }
+        else if (e.key==='End'){ e.preventDefault(); select(tabs[tabs.length-1], true); }
+      });
+    });
+  })();
+
+  /* ════════ FULL SWING TABS (accordion-style, exclusive) ════════ */
+  (function(){
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.tech-tab'));
+    tabs.forEach(function(tab){
+      var body = tab.querySelector('.tech-tab-body');
+      // init open state
+      if (tab.getAttribute('aria-expanded')==='true'){ body.style.height = 'auto'; }
+      else { body.style.height = '0px'; }
+      tab.addEventListener('click', function(){
+        var isOpen = tab.getAttribute('aria-expanded')==='true';
+        // close all
+        tabs.forEach(function(t){
+          t.setAttribute('aria-expanded','false');
+          var b=t.querySelector('.tech-tab-body');
+          if (hasGSAP && !reduce){ gsap.to(b, { height:0, duration:.3, ease:'power2.inOut' }); }
+          else { b.style.height='0px'; }
+        });
+        if (!isOpen){
+          tab.setAttribute('aria-expanded','true');
+          if (hasGSAP && !reduce){
+            body.style.height='auto';
+            var h = body.getBoundingClientRect().height;
+            gsap.fromTo(body, { height:0 }, { height:h, duration:.36, ease:'power2.out',
+              onComplete:function(){ body.style.height='auto'; } });
+          } else { body.style.height='auto'; }
+        }
+      });
+    });
+  })();
+
+  /* ════════ FAQ accordion ════════ */
+  document.querySelectorAll('.fi').forEach(function(item){
+    var btn = item.querySelector('.fi-q');
+    var a = item.querySelector('.fi-a');
+    a.style.height = '0px';
+    btn.addEventListener('click', function(){
+      var isOpen = item.classList.contains('open');
+      document.querySelectorAll('.fi.open').forEach(function(i){
+        i.classList.remove('open');
+        i.querySelector('.fi-q').setAttribute('aria-expanded','false');
+        var ia=i.querySelector('.fi-a');
+        if (hasGSAP && !reduce){ gsap.to(ia, { height:0, duration:.32, ease:'power2.inOut' }); } else { ia.style.height='0px'; }
+      });
+      if (!isOpen){
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded','true');
+        if (hasGSAP && !reduce){
+          a.style.height='auto';
+          var h = a.getBoundingClientRect().height;
+          gsap.fromTo(a, { height:0 }, { height:h, duration:.4, ease:'power2.out',
+            onComplete:function(){ a.style.height='auto'; } });
+        } else { a.style.height='auto'; }
+      }
+    });
+  });
+
+  /* ════════ Smooth anchor scroll (in-page only) ════════ */
+  document.querySelectorAll('a[href^="#"]').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var id = link.getAttribute('href').slice(1);
+      if(!id) return;
+      var t = document.getElementById(id);
+      if (t){ e.preventDefault(); t.scrollIntoView({ behavior: reduce ? 'auto':'smooth' }); }
+    });
+  });
+
+  /* ════════ Inquiry form → pre-filled mailto (no backend required) ════════ */
+  var form = document.getElementById('inq-form');
+  if (form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      if (!form.checkValidity()){ form.reportValidity(); return; }
+      var g = function(id){ var el=document.getElementById(id); return el ? el.value.trim() : ''; };
+      var subject = 'Corporate Event Inquiry — ' + (g('f-company') || (g('f-first')+' '+g('f-last')));
+      var lines = [
+        'Name: ' + g('f-first') + ' ' + g('f-last'),
+        'Email: ' + g('f-email'),
+        'Phone: ' + g('f-phone'),
+        'Company: ' + (g('f-company') || '—'),
+        'Event type: ' + (g('f-type') || '—'),
+        'Approx. group size: ' + (g('f-size') || '—'),
+        'Preferred date: ' + (g('f-date') || '—'),
+        '',
+        'Details:',
+        g('f-msg') || '—',
+        '',
+        '— Sent from the Back Nine Vernon corporate events page'
+      ];
+      var href = 'mailto:vernon@thebackninegolf.com'
+        + '?subject=' + encodeURIComponent(subject)
+        + '&body=' + encodeURIComponent(lines.join('\n'));
+      window.location.href = href;
+    });
+  }
+
+  /* Refresh ScrollTrigger after load (images/fonts settle) */
+  window.addEventListener('load', function(){ if (hasGSAP) ScrollTrigger.refresh(); });
+})();
+</script>
+</body>
+</html>
