@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NIB2 — Command Deck</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <h1>NIB2</h1>
+      <span class="brand-sub">Operational Command System</span>
+    </div>
+    <div class="status-cluster">
+      <span id="voice-status" class="pill" title="Voice input status">Voice idle</span>
+      <span id="api-status" class="pill" title="API connection status">
+        <span id="api-dot" class="dot dot-unknown"></span>
+        <span id="api-status-text">Checking…</span>
+      </span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Chat column -->
+    <section class="chat-panel panel">
+      <div id="chat-log" class="chat-log" aria-live="polite"></div>
+
+      <div class="chat-controls">
+        <div class="control-row">
+          <button id="btn-ptt" class="btn btn-ghost" title="Push to talk (hold or click to toggle)">🎙 Talk</button>
+          <button id="btn-mute" class="btn btn-ghost" title="Toggle voice output">🔊 Voice on</button>
+          <button id="btn-clear" class="btn btn-ghost" title="Clear the conversation">🗑 Clear</button>
+          <button id="btn-export" class="btn btn-ghost" title="Summarize this session and save the handoff">📋 Handoff</button>
+        </div>
+        <div class="input-row">
+          <textarea id="chat-input" rows="2" placeholder="Type to NIB2… (Enter to send, Shift+Enter for newline)"></textarea>
+          <button id="btn-send" class="btn btn-primary">Send</button>
+        </div>
+        <div id="transcript-live" class="transcript-live" hidden></div>
+      </div>
+    </section>
+
+    <!-- Side column -->
+    <aside class="side-column">
+      <section class="panel">
+        <h2>Active Tasks <button id="btn-refresh-tasks" class="btn-mini" title="Refresh">↻</button></h2>
+        <ul id="task-list" class="task-list"><li class="muted">Loading…</li></ul>
+      </section>
+
+      <section class="panel">
+        <h2>Memory</h2>
+        <div id="memory-panel" class="memory-panel muted">Loading…</div>
+      </section>
+
+      <section class="panel">
+        <h2>Voice Settings</h2>
+        <div class="voice-settings">
+          <label>Voice
+            <select id="voice-select"></select>
+          </label>
+          <label>Rate <span id="rate-val">0.92</span>
+            <input type="range" id="voice-rate" min="0.5" max="1.5" step="0.01" value="0.92" />
+          </label>
+          <label>Pitch <span id="pitch-val">0.95</span>
+            <input type="range" id="voice-pitch" min="0.5" max="1.5" step="0.01" value="0.95" />
+          </label>
+          <label>Volume <span id="volume-val">1.0</span>
+            <input type="range" id="voice-volume" min="0" max="1" step="0.05" value="1" />
+          </label>
+          <div id="voice-note" class="voice-note"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Session Handoffs</h2>
+        <ul id="session-list" class="session-list"><li class="muted">None yet.</li></ul>
+      </section>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

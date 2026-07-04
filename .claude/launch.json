@@ -2,6 +2,12 @@
   "version": "0.0.1",
   "configurations": [
     {
+      "name": "nib2",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+      "runtimeArgs": ["NIB2/server.js"],
+      "port": 3900
+    },
+    {
       "name": "back-nine-preview",
       "runtimeExecutable": "powershell",
       "runtimeArgs": ["-ExecutionPolicy", "Bypass", "-File", ".claude/serve.ps1"],
