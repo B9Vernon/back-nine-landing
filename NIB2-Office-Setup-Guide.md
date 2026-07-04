@@ -22,8 +22,7 @@ Where: click the Tailscale icon in your Windows system tray (bottom-right corner
 near the clock — you may need to click the little "^" arrow to see hidden icons).
 Click on this computer's name in the list. It shows an address like `100.x.x.x`.
 
-    MY HOME COMPUTER'S TAILSCALE ADDRESS:  _______________________
-    (write it here once you have it)
+    MY HOME COMPUTER'S TAILSCALE ADDRESS:  100.93.171.20
 
 **Step 3 — Open the firewall (one time, needs admin)**
 Where: right-click PowerShell → "Run as Administrator" → paste this, press Enter:
@@ -53,9 +52,8 @@ Nothing else installs on this machine. No Node, no npm, no code, no git.
 Where: Chrome or Edge, office computer.
 Go to:
 ```
-http://100.x.x.x:3900
+http://100.93.171.20:3900
 ```
-(replace `100.x.x.x` with the address you wrote down in Step 2)
 
 You should see the same NIB2 dashboard — same tasks, same memory, same look — as
 the one on your home computer.
@@ -65,7 +63,7 @@ the one on your home computer.
 ## Every day after that
 
 - Home computer: keep it turned on, awake, and the `npm start` PowerShell window open.
-- Office computer: just go to `http://100.x.x.x:3900` in a browser. Nothing to install
+- Office computer: just go to `http://100.93.171.20:3900` in a browser. Nothing to install
   or reconnect — Tailscale stays connected in the background once it's set up.
 
 ## If the office computer can't connect
