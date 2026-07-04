@@ -238,11 +238,23 @@ function saveVoiceSettings() {
 }
 
 function pickDefaultVoice(list) {
-  // Preference order: en-CA → high-quality English → any English → first voice.
+  // Preference order: en-CA Natural/Online → en-CA any → best-quality English → any English → first voice.
+  // "Natural"/"Online" voices are cloud-quality (Microsoft/Google); legacy SAPI voices
+  // (plain "Microsoft David/Zira/Mark") are the robotic-sounding ones — ranked last.
+  const qualityRank = ["natural", "neural", "premium", "online", "google"];
+
+  const enCaQuality = list.find(
+    (v) => v.lang?.toLowerCase().startsWith("en-ca") && qualityRank.some((k) => new RegExp(k, "i").test(v.name))
+  );
+  if (enCaQuality) return enCaQuality;
+
   const enCa = list.find((v) => v.lang?.toLowerCase().startsWith("en-ca"));
   if (enCa) return enCa;
-  const quality = list.find((v) => /en/i.test(v.lang) && /(natural|neural|online|premium|google)/i.test(v.name));
-  if (quality) return quality;
+
+  for (const keyword of qualityRank) {
+    const match = list.find((v) => /^en/i.test(v.lang) && new RegExp(keyword, "i").test(v.name));
+    if (match) return match;
+  }
   return list.find((v) => /^en/i.test(v.lang)) || list[0] || null;
 }
 

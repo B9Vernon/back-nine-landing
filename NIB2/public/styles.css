@@ -1,17 +1,18 @@
-/* NIB2 — dark command-deck theme */
+/* NIB2 — Back Nine Vernon command-deck theme: charcoal, fresh green, gold */
 :root {
-  --bg: #0a0e14;
-  --bg-panel: #10151f;
-  --bg-raised: #171e2b;
-  --border: #1f2937;
-  --text: #d7dee9;
-  --text-dim: #7c8797;
-  --accent: #34e0c8;      /* teal neon */
-  --accent-dim: #1d8577;
-  --accent-2: #7aa2ff;    /* cool blue */
+  --bg: #0d0f0a;
+  --bg-panel: #15170f;
+  --bg-raised: #1d2116;
+  --border: #2b2f22;
+  --text: #e9e7da;
+  --text-dim: #8d9078;
+  --accent: #96cb39;       /* B9 fresh green — primary neon */
+  --accent-dim: #5f8a22;
+  --accent-2: #d4af57;     /* B9 gold — secondary accent / CTA */
+  --accent-2-dim: #a9873f;
   --danger: #ff6b6b;
-  --warn: #ffc857;
-  --ok: #4ade80;
+  --warn: #f0a57a;         /* B9 coral — warn/highlight */
+  --ok: #a9d66b;
   --radius: 10px;
   font-size: 15px;
 }
@@ -20,7 +21,7 @@
 
 body {
   margin: 0;
-  background: radial-gradient(1200px 600px at 70% -10%, #0e1a24 0%, var(--bg) 55%);
+  background: radial-gradient(1200px 600px at 70% -10%, #16200d 0%, var(--bg) 55%);
   color: var(--text);
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
   height: 100vh;
@@ -31,26 +32,37 @@ body {
 
 /* ---------- Top bar ---------- */
 .topbar {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 22px;
   border-bottom: 1px solid var(--border);
-  background: rgba(13, 18, 27, 0.9);
+  background: rgba(13, 15, 10, 0.92);
+}
+.topbar::after {
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: -1px; height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), var(--accent-2), transparent);
+  opacity: 0.55;
 }
 .brand { display: flex; align-items: baseline; gap: 12px; }
+@keyframes brand-pulse {
+  0%, 100% { box-shadow: 0 0 8px var(--accent), 0 0 2px var(--accent); opacity: 1; }
+  50% { box-shadow: 0 0 20px var(--accent), 0 0 6px var(--accent); opacity: 0.7; }
+}
 .brand-mark {
   width: 12px; height: 12px; border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 12px var(--accent);
   align-self: center;
+  animation: brand-pulse 2.4s ease-in-out infinite;
 }
 .brand h1 {
   margin: 0;
   font-size: 1.35rem;
   letter-spacing: 0.35em;
   color: var(--accent);
-  text-shadow: 0 0 18px rgba(52, 224, 200, 0.35);
+  text-shadow: 0 0 18px rgba(150, 203, 57, 0.4);
 }
 .brand-sub { color: var(--text-dim); font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; }
 
@@ -117,8 +129,8 @@ body {
 .msg { max-width: 82%; padding: 10px 14px; border-radius: var(--radius); line-height: 1.5; white-space: pre-wrap; overflow-wrap: break-word; }
 .msg.user {
   align-self: flex-end;
-  background: linear-gradient(135deg, #16324a, #143247);
-  border: 1px solid #1e4a63;
+  background: linear-gradient(135deg, #23301a, #1a2413);
+  border: 1px solid #3a4d26;
 }
 .msg.nib2 {
   align-self: flex-start;
@@ -158,16 +170,16 @@ body {
   font-size: 0.88rem;
   transition: border-color 0.15s, background 0.15s;
 }
-.btn:hover { border-color: var(--accent-dim); }
+.btn:hover { border-color: var(--accent-dim); box-shadow: 0 0 10px rgba(150, 203, 57, 0.2); }
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent-dim), #14655c);
-  border-color: var(--accent-dim);
-  color: #eafffb;
-  font-weight: 600;
+  background: linear-gradient(135deg, var(--accent-2), var(--accent-2-dim));
+  border-color: var(--accent-2-dim);
+  color: #1a1204;
+  font-weight: 700;
 }
-.btn-primary:hover { filter: brightness(1.15); }
+.btn-primary:hover { filter: brightness(1.1); box-shadow: 0 0 14px rgba(212, 175, 87, 0.35); }
 .btn:disabled { opacity: 0.45; cursor: not-allowed; }
-.btn-ghost.active { border-color: var(--accent); color: var(--accent); box-shadow: 0 0 10px rgba(52, 224, 200, 0.25); }
+.btn-ghost.active { border-color: var(--accent); color: var(--accent); box-shadow: 0 0 10px rgba(150, 203, 57, 0.25); }
 .btn-mini {
   background: none; border: none; color: var(--text-dim);
   cursor: pointer; font-size: 0.9rem;

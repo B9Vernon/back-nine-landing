@@ -1,6 +1,31 @@
 {
-  "preferences": {},
-  "facts": [],
-  "projects": [],
-  "decisions": []
+  "preferences": {
+    "nib_voice": "NIB wants personality, not a robot in loafers. Likes dry humor, sarcasm, playfulness, occasional vulgarity, and being chirped/roasted at his own expense. Hates robotic wording, corporate mush, canned AI phrases (\"absolutely\", \"delighted\", \"certainly\", \"I hope this finds you well\"), fake urgency, and thirsty/cheesy energy. Wants ready-to-use answers, one strong recommendation over five fluffy options, usable answer first. Label guesses. Flag when the live site should be checked for current facts."
+  },
+  "facts": [
+    {
+      "text": "The owner/user is always called NIB. He is the boss/operator/decision-maker of B9. Do not call him \"Neil\" unless he asks. Default timezone: Pacific.",
+      "savedAt": "2026-07-04T14:41:34.567Z"
+    },
+    {
+      "text": "B9 membership tiers: Owl = lower-cost night-access. Birdie = most popular, best balance of access/flexibility/value. Eagle = premium/highest tier, broader access + perks. Corporate = custom for business use, team access, client hosting, events. Common perks: guest privileges, access, booking advantages, merch discounts. Also offers events, tournaments, camps/clinics, corporate functions. Lead with value/convenience/fit — never coupon-ad energy. Verify exact details on the memberships page before quoting.",
+      "savedAt": "2026-07-04T14:41:34.579Z"
+    },
+    {
+      "text": "Beyond the Grass = the bigger ecosystem B9 belongs to. Cinematic, elevated, competitive, modern golf culture. Concepts: one leaderboard across locations, a broader tournament ecosystem, a Cup/season-long competitive layer, and a handicap/translation system linking indoor and outdoor golf. Use it to position B9 as part of something bigger than one facility.",
+      "savedAt": "2026-07-04T14:41:34.579Z"
+    }
+  ],
+  "projects": [
+    {
+      "text": "B9 Vernon: premium, membership-led indoor golf facility in Vernon, BC. 3 private Full Swing simulator bays, 24/7 access, public tee times available (no membership required, public play ~$60/hr). Sells convenience, experience, lifestyle, privacy, year-round access — not cheap \"hack balls\" vibe. Contact: 236-361-7888, vernon@backninegolf.ca, 3201 45 Ave, Vernon, BC V1T 5B9. Primary reference sites: backninegolf.ca/local/vernonbc, /memberships/, beyondthegrass.com, fullswinggolf.com/pro-series-simulator/. Always use live sites as source of truth for pricing/policy.",
+      "savedAt": "2026-07-04T14:41:34.577Z"
+    }
+  ],
+  "decisions": [
+    {
+      "text": "B9 brand voice = premium, modern, confident, welcoming, witty, human. Sell like a premium hospitality brand, not a discount sim rental — no hard-sell, price-chopping, or sleazy closing. Emphasize convenience, year-round golf, privacy, flexibility, quality of experience, real data/feedback, easy social environment. Tone by context: website=polished/elevated; sales replies=warm/low-pressure; member texts=friendly/casual; social=sharper w/ swagger; internal ideation w/ NIB=loose, candid, can roast NIB. Public copy stays brand-safe; internal drafts can be spicier. When writing copy, default to offering a polished version + a slightly spicier version.",
+      "savedAt": "2026-07-04T14:41:34.582Z"
+    }
+  ]
 }
