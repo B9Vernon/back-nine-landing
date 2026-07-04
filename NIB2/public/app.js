@@ -73,6 +73,13 @@ function addSystemNote(text) {
   chatLog.scrollTop = chatLog.scrollHeight;
 }
 
+// ---------- Processing state: the interface visibly "thinks" ----------
+// Speeds up the heartbeat strip + logo breathing and raises neural-field activity.
+function setProcessing(on) {
+  document.body.classList.toggle("processing", on);
+  window.NeuralBG?.setActivity(on ? 1 : 0);
+}
+
 // ---------- Sending ----------
 async function sendMessage(text) {
   const clean = String(text || "").trim();
@@ -83,6 +90,7 @@ async function sendMessage(text) {
   conversation.push({ role: "user", content: clean });
 
   btnSend.disabled = true;
+  setProcessing(true);
   const thinkingEl = addMessage("nib2", "…processing. Try to look busy.", {});
   thinkingEl.classList.add("thinking");
 
@@ -103,6 +111,7 @@ async function sendMessage(text) {
     thinkingEl.remove();
     addSystemNote(`⚠ ${err.message}`);
   } finally {
+    setProcessing(false);
     btnSend.disabled = false;
     chatInput.focus();
   }
@@ -131,6 +140,7 @@ btnExport.addEventListener("click", async () => {
     return;
   }
   btnExport.disabled = true;
+  setProcessing(true);
   addSystemNote("Writing session handoff…");
   try {
     const { session } = await api("/sessions/handoff", {
@@ -144,6 +154,7 @@ btnExport.addEventListener("click", async () => {
   } catch (err) {
     addSystemNote(`⚠ ${err.message}`);
   } finally {
+    setProcessing(false);
     btnExport.disabled = false;
   }
 });
