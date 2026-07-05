@@ -9,6 +9,8 @@ let recognition = null;
 let voices = [];
 let currentAudio = null;        // active ElevenLabs <audio> playback, if any
 let elevenLabsReady = false;    // does the server have ElevenLabs configured?
+let speechRunId = 0;            // increments to cancel stale chunk playback
+let lastSpeechResponse = null;  // prepared speech object for replay
 const voiceSettings = loadVoiceSettings();
 
 // ---------- Element handles ----------
@@ -17,6 +19,9 @@ const chatLog = el("chat-log");
 const chatInput = el("chat-input");
 const btnSend = el("btn-send");
 const btnPtt = el("btn-ptt");
+const btnStop = el("btn-stop");
+const btnReplay = el("btn-replay");
+const btnInterrupt = el("btn-interrupt");
 const btnMute = el("btn-mute");
 const btnClear = el("btn-clear");
 const btnExport = el("btn-export");
@@ -118,7 +123,7 @@ async function sendMessage(text) {
   thinkingEl.classList.add("thinking");
 
   try {
-    const { reply, actions } = await api("/chat", {
+    const { reply, actions, speech } = await api("/chat", {
       method: "POST",
       body: JSON.stringify({ messages: conversation }),
     });
@@ -126,7 +131,8 @@ async function sendMessage(text) {
     conversation.push({ role: "assistant", content: reply });
     addMessage("nib2", reply, { actions });
     window.NeuralBG?.pulse?.(); // a visible "thought" burst as the answer lands
-    speak(reply);
+    lastSpeechResponse = speech || { spokenText: reply, chunks: [reply] };
+    speak(lastSpeechResponse);
     if (actions?.length) {
       refreshTasks();
       refreshMemory();
@@ -416,10 +422,18 @@ if (window.speechSynthesis) {
 function setTalking(on) {
   document.body.classList.toggle("talking", on);
   window.NeuralBG?.setTalking?.(on);
+  if (on) {
+    voiceStatus.textContent = "Speaking";
+    stopWakeListening();
+  } else if (!listening) {
+    voiceStatus.textContent = wakeWordEnabled ? "👂 Wake standby" : "Voice idle";
+    if (wakeWordEnabled) startWakeListening();
+  }
 }
 
 // Stop any voice output — both the ElevenLabs audio element and browser TTS.
 function stopSpeaking() {
+  speechRunId++;
   if (currentAudio) {
     currentAudio.pause();
     currentAudio.src = "";
@@ -431,7 +445,7 @@ function stopSpeaking() {
 
 // Speak a reply. Prefers ElevenLabs (server-side, human voice); if that isn't
 // configured or fails, falls back to the browser's built-in speech synthesis.
-async function speak(text) {
+async function speakLegacy(text) {
   if (muted || !text) return;
   stopSpeaking();
 
@@ -459,6 +473,69 @@ async function speak(text) {
     }
   }
   speakBrowser(text);
+}
+
+function normalizeSpeechInput(input) {
+  if (typeof input === "string") return { spokenText: input, chunks: [input] };
+  const spokenText = input?.spokenText || input?.text || "";
+  const chunks = Array.isArray(input?.chunks) && input.chunks.length ? input.chunks : [spokenText];
+  return { spokenText, chunks: chunks.filter(Boolean) };
+}
+
+function playAudioElement(audio, runId) {
+  return new Promise((resolve, reject) => {
+    audio.onended = () => {
+      if (currentAudio === audio) currentAudio = null;
+      resolve();
+    };
+    audio.onpause = () => {
+      if (speechRunId !== runId) resolve();
+    };
+    audio.onerror = () => reject(new Error("Audio playback failed."));
+    audio.play().catch(reject);
+  });
+}
+
+async function playElevenLabsChunks(chunks, runId) {
+  for (let i = 0; i < chunks.length; i++) {
+    if (speechRunId !== runId) return;
+    const res = await fetch("/api/speak", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", ...authHeaders() },
+      body: JSON.stringify({
+        text: chunks[i],
+        previousText: chunks[i - 1] || "",
+        nextText: chunks[i + 1] || "",
+      }),
+    });
+    if (!res.ok) throw new Error("ElevenLabs unavailable.");
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    const audio = new Audio(url);
+    audio.volume = voiceSettings.volume;
+    currentAudio = audio;
+    setTalking(true);
+    await playAudioElement(audio, runId);
+    URL.revokeObjectURL(url);
+  }
+}
+
+async function speak(input) {
+  const prepared = normalizeSpeechInput(input);
+  if (muted || !prepared.spokenText) return;
+  stopSpeaking();
+  const runId = speechRunId;
+
+  if (elevenLabsReady) {
+    try {
+      await playElevenLabsChunks(prepared.chunks, runId);
+      setTalking(false);
+      return;
+    } catch {
+      setTalking(false);
+    }
+  }
+  speakBrowser(prepared.spokenText);
 }
 
 // Browser Speech Synthesis fallback.
@@ -492,7 +569,15 @@ btnMute.addEventListener("click", () => {
 
 // Stop voice button: NIB2 shuts up immediately. The Talk button also cuts the
 // voice off before it starts listening, so "interrupt and speak" is one press.
-el("btn-stop").addEventListener("click", stopSpeaking);
+btnStop.addEventListener("click", stopSpeaking);
+btnReplay.addEventListener("click", () => {
+  if (!lastSpeechResponse) return addSystemNote("Nothing to replay yet.");
+  speak(lastSpeechResponse);
+});
+btnInterrupt.addEventListener("click", () => {
+  stopSpeaking();
+  startDictation();
+});
 
 // Volume is the one knob that applies to BOTH ElevenLabs audio and the browser
 // fallback. (Rate/pitch sliders were removed — ElevenLabs audio is pre-rendered
