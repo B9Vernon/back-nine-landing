@@ -104,6 +104,7 @@ async function sendMessage(text) {
     thinkingEl.remove();
     conversation.push({ role: "assistant", content: reply });
     addMessage("nib2", reply, { actions });
+    window.NeuralBG?.pulse?.(); // a visible "thought" burst as the answer lands
     speak(reply);
     if (actions?.length) {
       refreshTasks();
