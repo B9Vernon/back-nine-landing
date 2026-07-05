@@ -3,3 +3,6 @@ node_modules/
 .env
 *.corrupt-*.bak
 npm-debug.log*
+
+# Gmail OAuth token — private, never commit
+data/gmail-token.json

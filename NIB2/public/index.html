@@ -24,6 +24,10 @@
     </div>
     <div class="status-cluster">
       <span id="voice-status" class="pill" title="Voice input status">Voice idle</span>
+      <span id="gmail-status" class="pill" title="Gmail connection">
+        <span id="gmail-dot" class="dot dot-unknown"></span>
+        <span id="gmail-status-text">Gmail…</span>
+      </span>
       <span id="api-status" class="pill" title="API connection status">
         <span id="api-dot" class="dot dot-unknown"></span>
         <span id="api-status-text">Checking…</span>
@@ -46,7 +50,7 @@
 
       <div class="chat-controls">
         <div class="control-row">
-          <button id="btn-ptt" class="btn btn-ghost" title="Push to talk (hold or click to toggle)">🎙 Talk</button>
+          <button id="btn-ptt" class="btn btn-ghost" title="Push to talk (click, or press Ctrl+Q)">🎙 Talk</button>
           <button id="btn-mute" class="btn btn-ghost" title="Toggle voice output">🔊 Voice on</button>
           <button id="btn-clear" class="btn btn-ghost" title="Clear the conversation">🗑 Clear</button>
           <button id="btn-export" class="btn btn-ghost" title="Summarize this session and save the handoff">📋 Handoff</button>
@@ -72,9 +76,15 @@
       </section>
 
       <section class="panel">
+        <h2>B9 Command Centre</h2>
+        <div id="b9-panel" class="b9-panel muted">Loading…</div>
+      </section>
+
+      <section class="panel">
         <h2>Voice Settings</h2>
         <div class="voice-settings">
-          <label>Voice
+          <div id="voice-engine" class="voice-engine">Voice engine: checking…</div>
+          <label>Browser voice (fallback)
             <select id="voice-select"></select>
           </label>
           <label>Rate <span id="rate-val">0.92</span>

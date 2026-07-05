@@ -7,6 +7,8 @@ let muted = false;
 let listening = false;
 let recognition = null;
 let voices = [];
+let currentAudio = null;        // active ElevenLabs <audio> playback, if any
+let elevenLabsReady = false;    // does the server have ElevenLabs configured?
 const voiceSettings = loadVoiceSettings();
 
 // ---------- Element handles ----------
@@ -175,7 +177,9 @@ function voiceInputAvailable() {
   return Boolean(SR) && (window.isSecureContext || location.hostname === "localhost");
 }
 
-if (voiceInputAvailable()) {
+const dictationSupported = voiceInputAvailable();
+
+if (dictationSupported) {
   recognition = new SR();
   recognition.lang = "en-CA";
   recognition.interimResults = true;
@@ -202,8 +206,8 @@ if (voiceInputAvailable()) {
   recognition.onerror = (e) => {
     setListening(false);
     liveTranscript.hidden = true;
-    if (e.error === "not-allowed") {
-      addSystemNote("Microphone access denied. Allow the mic in your browser settings if you want to talk to me.");
+    if (e.error === "not-allowed" || e.error === "service-not-allowed") {
+      addSystemNote("Microphone blocked. Click the 🔒/camera icon in the address bar → allow the microphone, then try again. (Text still works.)");
     } else if (e.error !== "aborted" && e.error !== "no-speech") {
       addSystemNote(`⚠ Voice input error: ${e.error}`);
     }
@@ -222,19 +226,44 @@ if (voiceInputAvailable()) {
 function setListening(on) {
   listening = on;
   btnPtt.classList.toggle("active", on);
+  btnPtt.textContent = on ? "● Listening…" : "🎙 Talk";
   voiceStatus.textContent = on ? "● Listening…" : "Voice idle";
   voiceStatus.classList.toggle("listening", on);
   if (!on) liveTranscript.hidden = true;
 }
 
-btnPtt.addEventListener("click", () => {
-  if (!recognition) return;
-  if (listening) recognition.stop();
-  else {
-    window.speechSynthesis?.cancel(); // don't transcribe NIB2's own voice
-    try { recognition.start(); } catch { /* already started */ }
+// Shared dictation flow used by BOTH the Talk button and the Ctrl+Q hotkey.
+function startDictation() {
+  if (!recognition) {
+    addSystemNote("Voice input isn't available here (see the note above). Type instead.");
+    return;
   }
-});
+  if (listening) return;
+  stopSpeaking();                 // don't transcribe NIB2's own voice
+  try { recognition.start(); }
+  catch { /* already starting — harmless */ }
+}
+function stopDictation() {
+  if (recognition && listening) recognition.stop();
+}
+function toggleDictation() {
+  if (listening) stopDictation();
+  else startDictation();
+}
+
+btnPtt.addEventListener("click", toggleDictation);
+
+// ---------- Ctrl+Q hotkey: toggle microphone dictation ----------
+// One module-level listener (never stacks). Ctrl+Q is free on Windows browsers
+// (the quit shortcut is Cmd+Q on macOS); we preventDefault to be safe. If a
+// browser ever claims it, the Talk button always works as the fallback.
+function onHotkey(e) {
+  if ((e.ctrlKey || e.metaKey) && (e.key === "q" || e.key === "Q")) {
+    e.preventDefault();
+    toggleDictation();
+  }
+}
+window.addEventListener("keydown", onHotkey);
 
 // ---------- Voice output (speech synthesis) ----------
 function loadVoiceSettings() {
@@ -307,10 +336,50 @@ if (window.speechSynthesis) {
   btnMute.disabled = true;
 }
 
-function speak(text) {
+// Stop any voice output — both the ElevenLabs audio element and browser TTS.
+function stopSpeaking() {
+  if (currentAudio) {
+    currentAudio.pause();
+    currentAudio.src = "";
+    currentAudio = null;
+  }
+  window.speechSynthesis?.cancel();
+}
+
+// Speak a reply. Prefers ElevenLabs (server-side, human voice); if that isn't
+// configured or fails, falls back to the browser's built-in speech synthesis.
+async function speak(text) {
+  if (muted || !text) return;
+  stopSpeaking();
+
+  if (elevenLabsReady) {
+    try {
+      const res = await fetch("/api/speak", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", ...authHeaders() },
+        body: JSON.stringify({ text }),
+      });
+      if (res.ok) {
+        const blob = await res.blob();
+        const audio = new Audio(URL.createObjectURL(blob));
+        audio.volume = voiceSettings.volume;
+        currentAudio = audio;
+        audio.onended = () => { if (currentAudio === audio) currentAudio = null; };
+        await audio.play();
+        return; // ElevenLabs handled it
+      }
+      // Non-OK (e.g. 503 not configured) → fall through to browser TTS.
+    } catch {
+      // Network/playback error → fall through to browser TTS.
+    }
+  }
+  speakBrowser(text);
+}
+
+// Browser Speech Synthesis fallback.
+function speakBrowser(text) {
   if (muted || !window.speechSynthesis || !text) return;
   window.speechSynthesis.cancel();
-  // Strip markdown noise so the voice doesn't read asterisks aloud.
   const clean = text
     .replace(/```[\s\S]*?```/g, " Code block omitted. ")
     .replace(/[*_#`>|-]/g, " ")
@@ -328,7 +397,7 @@ function speak(text) {
 
 btnMute.addEventListener("click", () => {
   muted = !muted;
-  if (muted) window.speechSynthesis?.cancel();
+  if (muted) stopSpeaking();
   btnMute.textContent = muted ? "🔇 Voice off" : "🔊 Voice on";
   btnMute.classList.toggle("active", muted);
 });
@@ -438,6 +507,26 @@ async function refreshSessions() {
   }
 }
 
+// ---------- B9 Command Centre panel ----------
+async function refreshB9() {
+  const panel = el("b9-panel");
+  try {
+    const b9 = await api("/b9");
+    if (b9.data === null || b9.data === undefined) {
+      panel.classList.add("muted");
+      panel.innerHTML = `Not synced yet. Paste or export your B9 Command Centre data into <code>data/b9-command-centre.json</code> (see README). NIB2 will read it here and when you ask.`;
+      return;
+    }
+    panel.classList.remove("muted");
+    const when = b9.updatedAt ? new Date(b9.updatedAt).toLocaleString() : "unknown";
+    const pretty = typeof b9.data === "string" ? b9.data : JSON.stringify(b9.data, null, 2);
+    panel.innerHTML = `<div class="b9-meta">Synced ${esc(when)} · ${esc(b9.source || "manual")}</div><pre class="b9-data"></pre>`;
+    panel.querySelector(".b9-data").textContent = pretty.slice(0, 4000);
+  } catch (err) {
+    panel.textContent = `B9 data unavailable: ${err.message}`;
+  }
+}
+
 // ---------- API status ----------
 async function checkStatus() {
   const dot = el("api-dot");
@@ -452,6 +541,31 @@ async function checkStatus() {
       text.textContent = "No API key — see .env.local";
       addSystemNote("The server is up but has no Anthropic API key. Copy .env.example to .env.local, add your key, restart the server. Then we can talk properly.");
     }
+
+    // Voice engine indicator + which TTS the frontend will use.
+    elevenLabsReady = Boolean(s.voice?.elevenLabs);
+    const engine = el("voice-engine");
+    if (engine) {
+      engine.textContent = elevenLabsReady
+        ? "Voice engine: ElevenLabs (human voice)"
+        : "Voice engine: browser fallback (add ElevenLabs keys in .env.local for a human voice)";
+      engine.classList.toggle("engine-on", elevenLabsReady);
+    }
+
+    // Gmail status pill.
+    const gDot = el("gmail-dot");
+    const gText = el("gmail-status-text");
+    if (gDot && gText) {
+      if (s.gmail?.connected) {
+        gDot.className = "dot dot-ok"; gText.textContent = "Gmail on";
+      } else if (s.gmail?.reason === "not_authorized") {
+        gDot.className = "dot dot-warn"; gText.textContent = "Gmail: authorize";
+        el("gmail-status").title = "Gmail is set up but not authorized. Visit /api/gmail/auth on the server computer.";
+      } else {
+        gDot.className = "dot dot-unknown"; gText.textContent = "Gmail off";
+        el("gmail-status").title = "Gmail not configured — see README.";
+      }
+    }
   } catch (err) {
     dot.className = "dot dot-bad";
     text.textContent = "Server unreachable";
@@ -465,4 +579,5 @@ checkStatus();
 refreshTasks();
 refreshMemory();
 refreshSessions();
+refreshB9();
 chatInput.focus();

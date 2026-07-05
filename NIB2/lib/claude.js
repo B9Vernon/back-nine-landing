@@ -6,6 +6,8 @@ import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { addTask, updateTask, completeTask, PRIORITIES, STATUSES } from "./tasks.js";
 import { savePreference, saveEntry } from "./memory.js";
+import { readB9 } from "./b9.js";
+import * as gmail from "./gmail.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -77,9 +79,51 @@ const TOOLS = [
       required: ["kind", "value"],
     },
   },
+  {
+    name: "get_b9_data",
+    description:
+      "Read the latest data synced from the B9 Command Centre (a local sync file). Use when NIB asks about live B9 numbers or Command Centre state. Returns null data if nothing has been synced yet.",
+    input_schema: { type: "object", properties: {} },
+  },
+  {
+    name: "gmail_summarize",
+    description:
+      "Summarize NIB's recent Gmail inbox (read-only). Only works when Gmail is connected. Returns sender, subject, snippet, and unread flag for recent messages.",
+    input_schema: {
+      type: "object",
+      properties: { max: { type: "integer", description: "How many recent emails (default 8)" } },
+    },
+  },
+  {
+    name: "gmail_search",
+    description:
+      "Search NIB's Gmail with a Gmail query string like 'from:someone', 'is:unread', 'subject:invoice' (read-only). Only works when Gmail is connected.",
+    input_schema: {
+      type: "object",
+      properties: {
+        query: { type: "string", description: "Gmail search query" },
+        max: { type: "integer", description: "Max results (default 8)" },
+      },
+      required: ["query"],
+    },
+  },
+  {
+    name: "gmail_draft",
+    description:
+      "Create a DRAFT email in NIB's Gmail for him to review and send himself. NIB2 never sends email. Only works when Gmail is connected.",
+    input_schema: {
+      type: "object",
+      properties: {
+        to: { type: "string", description: "Recipient email address" },
+        subject: { type: "string", description: "Email subject" },
+        body: { type: "string", description: "Email body (plain text)" },
+      },
+      required: ["to", "subject", "body"],
+    },
+  },
 ];
 
-function executeTool(name, input) {
+async function executeTool(name, input) {
   switch (name) {
     case "add_task": {
       const t = addTask(input);
@@ -101,6 +145,37 @@ function executeTool(name, input) {
         saveEntry(input.kind, input.value);
       }
       return { action: "memory_saved", detail: { kind: input.kind, value: input.value } };
+    }
+    case "get_b9_data": {
+      const b9 = readB9();
+      if (b9.data === null) {
+        return {
+          action: "b9_read",
+          detail: { connected: false, note: "B9 Command Centre sync file is empty. NIB must paste/export data into data/b9-command-centre.json (see README)." },
+        };
+      }
+      return { action: "b9_read", detail: { connected: true, updatedAt: b9.updatedAt, data: b9.data } };
+    }
+    case "gmail_summarize": {
+      if (!gmail.isConnected()) {
+        return { action: "gmail_read", detail: { connected: false, note: "Gmail is not connected. NIB must set up Gmail (see README) and authorize it." } };
+      }
+      const emails = await gmail.summarizeInbox(input.max || 8);
+      return { action: "gmail_read", detail: { connected: true, emails } };
+    }
+    case "gmail_search": {
+      if (!gmail.isConnected()) {
+        return { action: "gmail_read", detail: { connected: false, note: "Gmail is not connected. NIB must set up Gmail (see README) and authorize it." } };
+      }
+      const emails = await gmail.searchEmails(input.query, input.max || 8);
+      return { action: "gmail_read", detail: { connected: true, emails } };
+    }
+    case "gmail_draft": {
+      if (!gmail.isConnected()) {
+        return { action: "gmail_draft", detail: { connected: false, note: "Gmail is not connected — cannot draft." } };
+      }
+      const draft = await gmail.createDraft(input);
+      return { action: "gmail_draft", detail: { connected: true, ...draft, note: "Draft created in Gmail. NIB must review and send it — NIB2 does not send." } };
     }
     default:
       throw new Error(`Unknown tool: ${name}`);
@@ -143,7 +218,7 @@ export async function runChat({ client, messages, context, maxIterations = 5 }) 
     for (const block of response.content) {
       if (block.type !== "tool_use") continue;
       try {
-        const result = executeTool(block.name, block.input);
+        const result = await executeTool(block.name, block.input);
         actions.push(result);
         results.push({ type: "tool_result", tool_use_id: block.id, content: JSON.stringify(result) });
       } catch (err) {

@@ -219,3 +219,79 @@ test("password gate blocks and admits correctly", async () => {
     delete process.env.NIB2_PASSWORD;
   }
 });
+
+// ---------- New integration routes ----------
+
+test("/api/status reports voice, gmail, and b9 sections", async () => {
+  const { body } = await req("/api/status");
+  assert.ok(body.voice, "voice section present");
+  assert.ok(body.gmail, "gmail section present");
+  assert.ok(body.b9, "b9 section present");
+  assert.equal(typeof body.voice.elevenLabs, "boolean");
+});
+
+test("/api/speak returns 503 fallback when ElevenLabs is not configured", async () => {
+  const savedKey = process.env.ELEVENLABS_API_KEY;
+  delete process.env.ELEVENLABS_API_KEY;
+  try {
+    const { status, body } = await req("/api/speak", { method: "POST", body: JSON.stringify({ text: "hi" }) });
+    assert.equal(status, 503);
+    assert.equal(body.fallback, true);
+  } finally {
+    if (savedKey !== undefined) process.env.ELEVENLABS_API_KEY = savedKey;
+  }
+});
+
+test("/api/speak rejects empty text", async () => {
+  const { status } = await req("/api/speak", { method: "POST", body: JSON.stringify({ text: "   " }) });
+  assert.equal(status, 400);
+});
+
+test("/api/speak streams audio when synthesize is provided (mocked)", async () => {
+  process.env.ELEVENLABS_API_KEY = "test-key";
+  process.env.ELEVENLABS_VOICE_ID = "test-voice";
+  const audioServer = await startServer({
+    makeClient: () => mockClient,
+    synthesize: async () => Buffer.from("fake-mp3-bytes"),
+  });
+  try {
+    const res = await fetch(`http://127.0.0.1:${audioServer.address().port}/api/speak`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text: "NIB, testing voice." }),
+    });
+    assert.equal(res.status, 200);
+    assert.match(res.headers.get("content-type"), /audio\/mpeg/);
+    const buf = Buffer.from(await res.arrayBuffer());
+    assert.ok(buf.length > 0);
+  } finally {
+    audioServer.close();
+    delete process.env.ELEVENLABS_API_KEY;
+    delete process.env.ELEVENLABS_VOICE_ID;
+  }
+});
+
+test("/api/b9 stores and returns synced Command Centre data", async () => {
+  const posted = await req("/api/b9", { method: "POST", body: JSON.stringify({ data: { bays: 3 }, source: "test" }) });
+  assert.equal(posted.status, 200);
+  const got = await req("/api/b9");
+  assert.deepEqual(got.body.data, { bays: 3 });
+  assert.equal(got.body.source, "test");
+});
+
+test("/api/b9 POST rejects a missing data field", async () => {
+  const { status } = await req("/api/b9", { method: "POST", body: JSON.stringify({ source: "x" }) });
+  assert.equal(status, 400);
+});
+
+test("/api/gmail/status reports not_configured cleanly", async () => {
+  const { status, body } = await req("/api/gmail/status");
+  assert.equal(status, 200);
+  assert.equal(body.connected, false);
+});
+
+test("system prompt instructs NIB2 to address the user as NIB", async () => {
+  const { getSystemPrompt } = await import("../lib/claude.js");
+  const prompt = getSystemPrompt();
+  assert.match(prompt, /address him as \*\*NIB\*\*/i);
+});

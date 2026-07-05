@@ -87,14 +87,69 @@ New-NetFirewallRule -DisplayName "NIB2" -Direction Inbound -Protocol TCP -LocalP
 
 ## 5. Voice
 
-**Voice output (NIB2 speaking)** works everywhere. It prefers a Canadian English (`en-CA`) voice; if your machine doesn't have one it uses the best available English voice and tells you so, once. Adjust voice, rate, pitch, and volume in the **Voice Settings** panel — defaults are rate 0.92, pitch 0.95, volume 1.0. The 🔊 button mutes/unmutes.
+### Voice output — human voice via ElevenLabs (recommended)
 
-**Voice input (you speaking)** uses the browser's speech recognition:
+NIB2 can speak with your **ElevenLabs** voice (human-sounding), and falls back to the browser's built-in voice automatically if ElevenLabs isn't set up.
+
+To turn it on:
+
+1. In `.env.local`, add these two lines (the `.env.example` file has them ready to fill):
+   ```
+   ELEVENLABS_API_KEY=your-elevenlabs-api-key
+   ELEVENLABS_VOICE_ID=your-voice-id
+   ```
+2. **API key:** ElevenLabs → your profile → **API Keys** → copy.
+3. **Voice ID:** ElevenLabs → **Voices** → click your chosen voice → copy its **ID**.
+4. Restart the server (`Ctrl+C`, then `npm start`).
+
+The **Voice Settings** panel shows which engine is live ("ElevenLabs (human voice)" or "browser fallback"). Your ElevenLabs key stays on the server — the browser only receives finished audio, never the key. The 🔊 button mutes/unmutes. Optional: set `ELEVENLABS_MODEL_ID` to `eleven_multilingual_v2` for higher quality (slower) instead of the default fast `eleven_turbo_v2_5`.
+
+If ElevenLabs is not configured, NIB2 uses the browser voice — it prefers Canadian English (`en-CA`); the browser-voice dropdown and the rate/pitch/volume sliders apply to that fallback.
+
+### Voice input — talk to NIB2
 
 - Works in **Chrome and Edge**. Firefox doesn't support it.
-- Click **🎙 Talk**, speak, and your words appear live, then send automatically when you pause.
-- **Important limitation:** browsers only allow microphone access on secure pages. `http://localhost:3900` counts as secure, so voice input **works on the server computer**. Plain `http://192.168.x.x` does **not** count, so on the second computer voice input is disabled and NIB2 tells you — typing (and voice *output*) still work fine.
-- Workaround if you really want voice input on computer 2: in Chrome open `chrome://flags/#unsafely-treat-insecure-origin-as-secure`, add `http://YOUR-SERVER-IP:3900`, and relaunch Chrome. It works, but it's a browser security override — your call.
+- Click **🎙 Talk** (or press **Ctrl + Q**), speak, and your words appear live, then send automatically when you pause. The button shows **● Listening…** while active.
+- **Ctrl + Q hotkey:** toggles the microphone from anywhere on the page. On Windows browsers Ctrl+Q is free (the quit shortcut is Cmd+Q on Mac only). If a browser ever grabs it, the Talk button always works as the fallback.
+- **If the mic is blocked:** click the 🔒/camera icon in the address bar → allow the microphone → try again. NIB2 shows a clean message and never crashes; typing always works.
+- **Important limitation:** browsers only allow microphone access on secure pages. `http://localhost:3900` counts as secure, so voice input **works on the server computer**. Plain `http://192.168.x.x` or a Tailscale `http://100.x.x.x` address does **not** count, so on the second computer voice *input* is disabled — typing and voice *output* still work fine.
+- Workaround for voice input on computer 2: in Chrome open `chrome://flags/#unsafely-treat-insecure-origin-as-secure`, add your server address, relaunch Chrome. It's a browser security override — your call.
+
+## 5b. Gmail (optional — read, search, draft)
+
+NIB2 can read and search your Gmail and **draft** replies (it never sends, deletes, or archives). It uses Google's standard OAuth — your Gmail password is never asked for or stored, only a revocable token kept on the server in `data/gmail-token.json` (git-ignored).
+
+**One-time setup:**
+
+1. Go to [console.cloud.google.com](https://console.cloud.google.com) → create a project.
+2. **APIs & Services → Library →** search "Gmail API" → **Enable**.
+3. **APIs & Services → Credentials → Create Credentials → OAuth client ID.**
+   - If asked, configure the consent screen (External, add yourself as a test user).
+   - Application type: **Web application**.
+   - Under **Authorized redirect URIs**, add exactly:
+     `http://localhost:3900/api/gmail/callback`
+4. Copy the **Client ID** and **Client secret** into `.env.local`:
+   ```
+   GOOGLE_CLIENT_ID=...
+   GOOGLE_CLIENT_SECRET=...
+   GOOGLE_REDIRECT_URI=http://localhost:3900/api/gmail/callback
+   ```
+5. Restart the server. On the **server computer**, open `http://localhost:3900/api/gmail/auth`, sign in, approve. You'll see "Gmail connected."
+6. The header **Gmail** pill turns green. Now you can ask NIB2 things like "summarize my inbox", "find the email from the accountant", "draft a reply to the last email."
+
+Until you do this, the Gmail pill shows "Gmail off" and NIB2 says Gmail isn't connected if asked — nothing breaks.
+
+## 5c. B9 Command Centre
+
+Your **B9 Command Centre** is a Claude Live Artifact. Those run sandboxed inside claude.ai and have **no external API**, so NIB2 (a separate app) cannot read the live artifact directly — that's a hard limitation, not a NIB2 shortcoming.
+
+The working bridge: NIB2 reads a local sync file, **`data/b9-command-centre.json`**. Populate it any of these ways:
+
+- **Manual:** paste the Command Centre's data/JSON into that file.
+- **Export:** have the artifact print its data as JSON, save it into that file.
+- **Push (advanced):** `POST` JSON to `http://localhost:3900/api/b9` with a body like `{ "data": { ... } }` — e.g. from a script or webhook.
+
+Once it has data, the **B9 Command Centre** panel shows it, and you can ask NIB2 about it ("what's the latest from the Command Centre?"). If it's empty, NIB2 tells you rather than inventing numbers.
 
 ---
 
@@ -142,12 +197,20 @@ Restart the server. Both browsers will prompt for the password once and remember
 
 **Honest security note:** this is a shared-password gate over plain HTTP on your LAN — good enough to keep casual snoops out, not enterprise security. Your API key never reaches the browser regardless.
 
-## 11. Optional: access from anywhere (private cloud)
+## 11. Two computers (home + office) — recommended setup
 
-If you want NIB2 without shared Wi-Fi, two sane options:
+**Run NIB2 on ONE computer (home), reach it from BOTH via Tailscale.** This is the confirmed, working setup — one brain, one set of memory/tasks, reachable from anywhere.
 
-- **Tailscale (recommended, free, easiest):** install [Tailscale](https://tailscale.com) on both computers, sign in with the same account, and open `http://SERVER-TAILSCALE-IP:3900` from anywhere. Nothing about NIB2 changes, traffic is encrypted, and nothing is exposed to the public internet.
-- **Deploy to Render/Railway:** possible, but then your `data/` files live on their disk and you must set `NIB2_PASSWORD`. For a personal assistant, Tailscale is cleaner and keeps everything on your own hardware.
+Why this and not "sync via GitHub and run on both": running two copies would give you two separate memories/task lists that drift apart, and you'd need Node, keys, and `npm start` on both machines. One server is simpler and keeps everything in sync.
+
+- **Home computer (the server):** runs `npm start`, holds all keys in `.env.local`, and needs internet (for Anthropic, ElevenLabs, Gmail). It must be **on and awake** for the office to reach it.
+- **Office computer:** just a browser + Tailscale. No Node, no keys, no code.
+
+Setup: install [Tailscale](https://tailscale.com) on both, sign in with the **same account**, then open `http://YOUR-HOME-TAILSCALE-IP:3900` from the office. Traffic is encrypted and nothing is exposed to the public internet. (Your home Tailscale address is in `NIB2-Office-Setup-Guide.md`.)
+
+**Note on the integrations and internet:** ElevenLabs, Gmail, and Anthropic all run from the **server** (home) computer's internet connection. The office computer never needs any keys — it's just viewing the home server's screen.
+
+**Alternative — private cloud (only if you don't want the home PC always on):** deploy to Render/Railway/Fly.io and set `NIB2_PASSWORD`. Then `data/` lives on their disk (less private) and you'd re-add your keys there as environment variables. For a personal assistant, the home-server + Tailscale route is cleaner and keeps everything on your own hardware.
 
 ## 12. Troubleshooting
 
@@ -171,6 +234,9 @@ NIB2/
 ├── routes/api.js          # /api/chat, /api/tasks, /api/memory, /api/sessions, /api/status
 ├── lib/
 │   ├── claude.js          # Anthropic API client + tool loop (NIB2's brain-stem)
+│   ├── voice.js           # ElevenLabs text-to-speech (server-side; key never leaves)
+│   ├── gmail.js           # Gmail OAuth: read / search / draft (never sends)
+│   ├── b9.js              # B9 Command Centre sync-file bridge
 │   ├── store.js           # Safe JSON storage (atomic writes, corruption quarantine)
 │   ├── memory.js          # readMemory/writeMemory/savePreference/getRelevantContext
 │   ├── tasks.js           # addTask/updateTask/completeTask
