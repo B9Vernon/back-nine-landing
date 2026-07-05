@@ -6,7 +6,6 @@ import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { addTask, updateTask, completeTask, PRIORITIES, STATUSES } from "./tasks.js";
 import { savePreference, saveEntry } from "./memory.js";
-import { readB9 } from "./b9.js";
 import * as gmail from "./gmail.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -80,12 +79,6 @@ const TOOLS = [
     },
   },
   {
-    name: "get_b9_data",
-    description:
-      "Read the latest data synced from the B9 Command Centre (a local sync file). Use when NIB asks about live B9 numbers or Command Centre state. Returns null data if nothing has been synced yet.",
-    input_schema: { type: "object", properties: {} },
-  },
-  {
     name: "gmail_summarize",
     description:
       "Summarize NIB's recent Gmail inbox (read-only). Only works when Gmail is connected. Returns sender, subject, snippet, and unread flag for recent messages.",
@@ -145,16 +138,6 @@ async function executeTool(name, input) {
         saveEntry(input.kind, input.value);
       }
       return { action: "memory_saved", detail: { kind: input.kind, value: input.value } };
-    }
-    case "get_b9_data": {
-      const b9 = readB9();
-      if (b9.data === null) {
-        return {
-          action: "b9_read",
-          detail: { connected: false, note: "B9 Command Centre sync file is empty. NIB must paste/export data into data/b9-command-centre.json (see README)." },
-        };
-      }
-      return { action: "b9_read", detail: { connected: true, updatedAt: b9.updatedAt, data: b9.data } };
     }
     case "gmail_summarize": {
       if (!gmail.isConnected()) {

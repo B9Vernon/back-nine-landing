@@ -222,11 +222,10 @@ test("password gate blocks and admits correctly", async () => {
 
 // ---------- New integration routes ----------
 
-test("/api/status reports voice, gmail, and b9 sections", async () => {
+test("/api/status reports voice and gmail sections", async () => {
   const { body } = await req("/api/status");
   assert.ok(body.voice, "voice section present");
   assert.ok(body.gmail, "gmail section present");
-  assert.ok(body.b9, "b9 section present");
   assert.equal(typeof body.voice.elevenLabs, "boolean");
 });
 
@@ -269,19 +268,6 @@ test("/api/speak streams audio when synthesize is provided (mocked)", async () =
     delete process.env.ELEVENLABS_API_KEY;
     delete process.env.ELEVENLABS_VOICE_ID;
   }
-});
-
-test("/api/b9 stores and returns synced Command Centre data", async () => {
-  const posted = await req("/api/b9", { method: "POST", body: JSON.stringify({ data: { bays: 3 }, source: "test" }) });
-  assert.equal(posted.status, 200);
-  const got = await req("/api/b9");
-  assert.deepEqual(got.body.data, { bays: 3 });
-  assert.equal(got.body.source, "test");
-});
-
-test("/api/b9 POST rejects a missing data field", async () => {
-  const { status } = await req("/api/b9", { method: "POST", body: JSON.stringify({ source: "x" }) });
-  assert.equal(status, 400);
 });
 
 test("/api/gmail/status reports not_configured cleanly", async () => {

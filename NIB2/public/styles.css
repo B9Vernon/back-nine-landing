@@ -133,6 +133,18 @@ body.processing .brand-logo { animation-duration: 1.1s; }
   background: var(--bg-panel);
 }
 .pill.listening { color: var(--accent); border-color: var(--accent-dim); }
+.pill-btn { cursor: pointer; font-family: inherit; transition: border-color 0.15s, color 0.15s, box-shadow 0.15s; }
+.pill-btn:hover { border-color: var(--accent-dim); color: var(--accent); box-shadow: 0 0 10px rgba(150, 203, 57, 0.2); }
+.pill-btn.active { color: var(--accent); border-color: var(--accent); box-shadow: 0 0 12px rgba(150, 203, 57, 0.3); }
+
+/* ---------- Brain view: panels fade away, the neural field takes the stage ---------- */
+body.brainview .layout {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease;
+}
+.layout { transition: opacity 0.6s ease; }
+body.brainview .pulse-strip { opacity: 0.9; }
 .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
 .dot-ok { background: var(--ok); box-shadow: 0 0 8px var(--ok); }
 .dot-bad { background: var(--danger); box-shadow: 0 0 8px var(--danger); }
@@ -387,15 +399,10 @@ body.processing .brand-logo { animation-duration: 1.1s; }
 }
 .voice-engine.engine-on { color: var(--accent); border-color: var(--accent-dim); }
 
-/* ---------- B9 Command Centre panel ---------- */
-.b9-panel { font-size: 0.82rem; max-height: 220px; overflow-y: auto; line-height: 1.45; }
-.b9-panel code { color: var(--accent-2); font-size: 0.78rem; }
-.b9-meta { color: var(--text-dim); font-size: 0.72rem; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.06em; }
-.b9-data {
-  margin: 0; white-space: pre-wrap; word-break: break-word;
-  font-size: 0.78rem; color: var(--text);
-  font-family: "Cascadia Code", Consolas, monospace;
-}
+/* ---------- Bookings panel ---------- */
+.bookings-panel { display: flex; flex-direction: column; gap: 8px; }
+.bookings-link { text-align: center; text-decoration: none; display: block; }
+.bookings-note { font-size: 0.78rem; line-height: 1.4; }
 
 .muted { color: var(--text-dim); font-size: 0.83rem; }
 

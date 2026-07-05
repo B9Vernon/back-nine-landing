@@ -6,23 +6,7 @@ import path from "node:path";
 
 process.env.NIB2_DATA_DIR = fs.mkdtempSync(path.join(os.tmpdir(), "nib2-integ-"));
 
-const { readB9, writeB9, b9Status } = await import("../lib/b9.js");
 const gmail = await import("../lib/gmail.js");
-
-// --- B9 Command Centre sync bridge ---
-test("B9 reads empty when nothing synced", () => {
-  const b9 = readB9();
-  assert.equal(b9.data, null);
-  assert.equal(b9Status().connected, false);
-});
-
-test("B9 stores and reports synced data", () => {
-  writeB9({ bays: 3, bookedToday: 5 }, "manual");
-  const b9 = readB9();
-  assert.deepEqual(b9.data, { bays: 3, bookedToday: 5 });
-  assert.ok(b9.updatedAt);
-  assert.equal(b9Status().connected, true);
-});
 
 // --- Gmail availability handling (no crash when unconfigured) ---
 test("Gmail reports not_configured when env vars are absent", () => {

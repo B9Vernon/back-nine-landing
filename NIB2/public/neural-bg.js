@@ -11,8 +11,13 @@
   if (!canvas) return;
   const ctx = canvas.getContext("2d");
 
-  const GREEN = [150, 203, 57];
-  const GOLD = [212, 175, 87];
+  const GREEN = [150, 203, 57];   // B9 fresh green
+  const GOLD = [212, 175, 87];    // accent gold
+  const BLUE = [57, 184, 222];    // accent blue
+  const PEACH = [240, 165, 122];  // accent peach-copper
+  // Signal palette: green leads, the accents fire in freely.
+  const PALETTE = [GREEN, GREEN, GREEN, GOLD, BLUE, PEACH];
+  const pick = () => PALETTE[(Math.random() * PALETTE.length) | 0];
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
@@ -61,6 +66,7 @@
         r: 1 + Math.random() * 1.6,
         phase: Math.random() * Math.PI * 2,   // organic glow timing
         glow: 0,                               // lights up when a signal arrives
+        tint: GREEN,                           // colour of its last activation
       });
     }
     sparks = [];
@@ -93,27 +99,30 @@
   }
 
   // Fire from a node to one random neighbour (optionally avoiding one).
-  function fireRandom(from, avoid = -1) {
+  // Pass a color to keep a cascade chain in one hue; omit for a fresh pick.
+  function fireRandom(from, avoid = -1, color = null) {
     const nbrs = adjacency[from];
     if (!nbrs || !nbrs.length) return;
     let to = nbrs[(Math.random() * nbrs.length) | 0];
     if (to === avoid && nbrs.length > 1) to = nbrs[(Math.random() * nbrs.length) | 0];
-    const color = Math.random() < 0.2 ? GOLD : GREEN;
-    fire(from, to, color);
+    fire(from, to, color || pick());
   }
 
   // A neuron burst: one node fires to several neighbours at once (dendrites).
+  // The whole burst shares one accent colour, so it reads as a single event.
   function burst(from) {
     const nbrs = adjacency[from];
     if (!nbrs || !nbrs.length) return;
     nodes[from].glow = 1;
+    const color = pick();
+    nodes[from].tint = color;
     const count = Math.min(nbrs.length, 2 + ((Math.random() * 3) | 0));
     const picked = new Set();
     for (let k = 0; k < count; k++) {
       const to = nbrs[(Math.random() * nbrs.length) | 0];
       if (picked.has(to)) continue;
       picked.add(to);
-      fire(from, to, Math.random() < 0.25 ? GOLD : GREEN);
+      fire(from, to, color);
     }
   }
 
@@ -162,9 +171,11 @@
       if (s.t >= 1) {
         const dest = nodes[s.b];
         dest.glow = 1;
+        dest.tint = s.color; // the node flashes in the signal's colour
         ripples.push({ x: dest.x, y: dest.y, r: 2, alpha: 0.4, color: s.color });
-        // Propagate: the arriving signal re-fires onward from the destination.
-        if (Math.random() < cascadeChance) fireRandom(s.b, s.a);
+        // Propagate: the chain continues onward in the SAME colour, so you can
+        // watch a gold or blue thought travel across the whole web.
+        if (Math.random() < cascadeChance) fireRandom(s.b, s.a, s.color);
         sparks.splice(i, 1);
       }
     }
@@ -204,17 +215,19 @@
       ctx.stroke();
     }
 
-    // nodes — organic breathing via per-node phase, bright when firing
+    // nodes — organic breathing via per-node phase; when firing, a node glows
+    // in the colour of the signal that lit it (green / gold / blue / peach).
     for (const n of nodes) {
       const breathe = 0.5 + 0.5 * Math.sin(time * 0.0008 + n.phase);
       const alpha = 0.2 + breathe * 0.14 + n.glow * 0.6 + activity * 0.08;
       const radius = n.r + n.glow * 1.8;
-      ctx.fillStyle = rgba(GREEN, Math.min(alpha, 0.9));
+      const baseColor = n.glow > 0.05 ? n.tint : GREEN;
+      ctx.fillStyle = rgba(baseColor, Math.min(alpha, 0.9));
       ctx.beginPath();
       ctx.arc(n.x, n.y, radius, 0, Math.PI * 2);
       ctx.fill();
       if (n.glow > 0.05) {
-        ctx.fillStyle = rgba(GREEN, n.glow * 0.14);
+        ctx.fillStyle = rgba(n.tint, n.glow * 0.16);
         ctx.beginPath();
         ctx.arc(n.x, n.y, radius * 3.4, 0, Math.PI * 2);
         ctx.fill();

@@ -77,10 +77,30 @@ function addSystemNote(text) {
 
 // ---------- Processing state: the interface visibly "thinks" ----------
 // Speeds up the heartbeat strip + logo breathing and raises neural-field activity.
+let brainView = false;
 function setProcessing(on) {
   document.body.classList.toggle("processing", on);
-  window.NeuralBG?.setActivity(on ? 1 : 0);
+  window.NeuralBG?.setActivity(on ? 1 : (brainView ? 0.7 : 0));
 }
+
+// ---------- Brain view: hide the panels, watch the neurons ----------
+const btnBrain = el("btn-brain");
+function setBrainView(on) {
+  brainView = on;
+  document.body.classList.toggle("brainview", on);
+  btnBrain.classList.toggle("active", on);
+  btnBrain.textContent = on ? "🧠 Exit brain view" : "🧠 Brain view";
+  // Crank the field up so there's a show worth watching, and open with a burst.
+  window.NeuralBG?.setActivity(on ? 0.7 : 0);
+  if (on) {
+    window.NeuralBG?.pulse?.();
+    setTimeout(() => window.NeuralBG?.pulse?.(), 400);
+  }
+}
+btnBrain.addEventListener("click", () => setBrainView(!brainView));
+window.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && brainView) setBrainView(false);
+});
 
 // ---------- Sending ----------
 async function sendMessage(text) {
@@ -209,7 +229,13 @@ if (dictationSupported) {
     liveTranscript.hidden = true;
     if (e.error === "not-allowed" || e.error === "service-not-allowed") {
       addSystemNote("Microphone blocked. Click the 🔒/camera icon in the address bar → allow the microphone, then try again. (Text still works.)");
-    } else if (e.error !== "aborted" && e.error !== "no-speech") {
+    } else if (e.error === "no-speech") {
+      addSystemNote("I was listening but heard nothing. Usually this means Windows is using the wrong microphone — check Settings → System → Sound → Input, pick the mic you're actually talking into, and make sure its input level moves when you speak.");
+    } else if (e.error === "audio-capture") {
+      addSystemNote("No working microphone found. Plug one in (or enable it in Settings → System → Sound → Input) and try again.");
+    } else if (e.error === "network") {
+      addSystemNote("Speech recognition couldn't reach its service. Chrome/Edge send audio to their cloud recognizer — check the internet connection and try again.");
+    } else if (e.error !== "aborted") {
       addSystemNote(`⚠ Voice input error: ${e.error}`);
     }
   };
@@ -508,26 +534,6 @@ async function refreshSessions() {
   }
 }
 
-// ---------- B9 Command Centre panel ----------
-async function refreshB9() {
-  const panel = el("b9-panel");
-  try {
-    const b9 = await api("/b9");
-    if (b9.data === null || b9.data === undefined) {
-      panel.classList.add("muted");
-      panel.innerHTML = `Not synced yet. Paste or export your B9 Command Centre data into <code>data/b9-command-centre.json</code> (see README). NIB2 will read it here and when you ask.`;
-      return;
-    }
-    panel.classList.remove("muted");
-    const when = b9.updatedAt ? new Date(b9.updatedAt).toLocaleString() : "unknown";
-    const pretty = typeof b9.data === "string" ? b9.data : JSON.stringify(b9.data, null, 2);
-    panel.innerHTML = `<div class="b9-meta">Synced ${esc(when)} · ${esc(b9.source || "manual")}</div><pre class="b9-data"></pre>`;
-    panel.querySelector(".b9-data").textContent = pretty.slice(0, 4000);
-  } catch (err) {
-    panel.textContent = `B9 data unavailable: ${err.message}`;
-  }
-}
-
 // ---------- API status ----------
 async function checkStatus() {
   const dot = el("api-dot");
@@ -580,5 +586,4 @@ checkStatus();
 refreshTasks();
 refreshMemory();
 refreshSessions();
-refreshB9();
 chatInput.focus();

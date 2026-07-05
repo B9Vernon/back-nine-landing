@@ -139,17 +139,9 @@ NIB2 can read and search your Gmail and **draft** replies (it never sends, delet
 
 Until you do this, the Gmail pill shows "Gmail off" and NIB2 says Gmail isn't connected if asked — nothing breaks.
 
-## 5c. B9 Command Centre
+## 5c. Bookings (B9 admin)
 
-Your **B9 Command Centre** is a Claude Live Artifact. Those run sandboxed inside claude.ai and have **no external API**, so NIB2 (a separate app) cannot read the live artifact directly — that's a hard limitation, not a NIB2 shortcoming.
-
-The working bridge: NIB2 reads a local sync file, **`data/b9-command-centre.json`**. Populate it any of these ways:
-
-- **Manual:** paste the Command Centre's data/JSON into that file.
-- **Export:** have the artifact print its data as JSON, save it into that file.
-- **Push (advanced):** `POST` JSON to `http://localhost:3900/api/b9` with a body like `{ "data": { ... } }` — e.g. from a script or webhook.
-
-Once it has data, the **B9 Command Centre** panel shows it, and you can ask NIB2 about it ("what's the latest from the Command Centre?"). If it's empty, NIB2 tells you rather than inventing numbers.
+The **Bookings** panel links straight to the B9 booking admin (`franchise.backninegolf.ca`). Live booking *data* inside NIB2 is not wired in yet: the admin site is a login-protected web app, so NIB2 needs proper API access from the booking platform vendor (an API key or export feed) — not screen-scraping a logged-in page. Once you know what platform runs it (check its help/settings pages for "API" or "integrations"), NIB2 can be wired to pull real numbers. Until then NIB2 will say so rather than invent booking data.
 
 ---
 
@@ -236,7 +228,6 @@ NIB2/
 │   ├── claude.js          # Anthropic API client + tool loop (NIB2's brain-stem)
 │   ├── voice.js           # ElevenLabs text-to-speech (server-side; key never leaves)
 │   ├── gmail.js           # Gmail OAuth: read / search / draft (never sends)
-│   ├── b9.js              # B9 Command Centre sync-file bridge
 │   ├── store.js           # Safe JSON storage (atomic writes, corruption quarantine)
 │   ├── memory.js          # readMemory/writeMemory/savePreference/getRelevantContext
 │   ├── tasks.js           # addTask/updateTask/completeTask

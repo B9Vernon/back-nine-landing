@@ -23,6 +23,7 @@
       <span class="brand-sub">Back Nine Vernon · Command System</span>
     </div>
     <div class="status-cluster">
+      <button id="btn-brain" class="pill pill-btn" title="Hide the panels and watch the neural field (Esc to exit)">🧠 Brain view</button>
       <span id="voice-status" class="pill" title="Voice input status">Voice idle</span>
       <span id="gmail-status" class="pill" title="Gmail connection">
         <span id="gmail-dot" class="dot dot-unknown"></span>
@@ -76,8 +77,11 @@
       </section>
 
       <section class="panel">
-        <h2>B9 Command Centre</h2>
-        <div id="b9-panel" class="b9-panel muted">Loading…</div>
+        <h2>Bookings</h2>
+        <div class="bookings-panel">
+          <a class="btn btn-ghost bookings-link" href="https://franchise.backninegolf.ca/app/#/bookings/" target="_blank" rel="noopener">⛳ Open B9 Bookings Admin</a>
+          <div class="muted bookings-note">Live booking data isn't wired in yet — it needs API access from the booking platform. Ask NIB2 about the plan.</div>
+        </div>
       </section>
 
       <section class="panel">

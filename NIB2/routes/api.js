@@ -5,7 +5,6 @@ import { listTasks, addTask, updateTask, completeTask } from "../lib/tasks.js";
 import { listSessions, createSessionSummary } from "../lib/sessions.js";
 import { hasApiKey, makeClient, runChat, runHandoff, describeApiError, MODEL } from "../lib/claude.js";
 import { synthesize, hasElevenLabs, elevenLabsStatus } from "../lib/voice.js";
-import { readB9, writeB9, b9Status } from "../lib/b9.js";
 import * as gmail from "../lib/gmail.js";
 
 // deps.makeClient / deps.synthesize can be overridden in tests.
@@ -34,7 +33,6 @@ export function createApiRouter(deps = {}) {
       sessions: listSessions().length,
       voice: { elevenLabs: hasElevenLabs(), status: elevenLabsStatus() },
       gmail: gmail.gmailStatus(),
-      b9: b9Status(),
     });
   });
 
@@ -56,14 +54,6 @@ export function createApiRouter(deps = {}) {
     } catch (err) {
       res.status(502).json({ error: err.message || "Voice synthesis failed.", fallback: true });
     }
-  });
-
-  // --- B9 Command Centre sync bridge ---
-  router.get("/b9", (req, res) => res.json(readB9()));
-  router.post("/b9", (req, res) => {
-    const { data, source } = req.body || {};
-    if (data === undefined) return res.status(400).json({ error: "Provide 'data' to sync." });
-    res.json(writeB9(data, source || "manual"));
   });
 
   // --- Gmail OAuth (browser redirects) ---
