@@ -4,7 +4,8 @@ import { readMemory, getRelevantContext, savePreference } from "../lib/memory.js
 import { listTasks, addTask, updateTask, completeTask } from "../lib/tasks.js";
 import { listSessions, createSessionSummary } from "../lib/sessions.js";
 import { hasApiKey, makeClient, runChat, runHandoff, describeApiError, MODEL } from "../lib/claude.js";
-import { synthesize, hasElevenLabs, elevenLabsStatus } from "../lib/voice.js";
+import { synthesize, hasElevenLabs, elevenLabsStatus, voiceSettingsForClient, contentTypeForOutput } from "../lib/voice.js";
+import { prepareTextForTTS } from "../lib/speech-director.js";
 import { getVernonWeather } from "../lib/weather.js";
 import * as gmail from "../lib/gmail.js";
 
@@ -33,7 +34,7 @@ export function createApiRouter(deps = {}) {
       authRequired: Boolean(process.env.NIB2_PASSWORD),
       openTasks: listTasks().filter((t) => t.status !== "complete").length,
       sessions: listSessions().length,
-      voice: { elevenLabs: hasElevenLabs(), status: elevenLabsStatus() },
+      voice: { elevenLabs: hasElevenLabs(), status: elevenLabsStatus(), settings: voiceSettingsForClient() },
       gmail: gmail.gmailStatus(),
     });
   });
@@ -41,7 +42,7 @@ export function createApiRouter(deps = {}) {
   // --- Voice: ElevenLabs TTS. Returns audio/mpeg, or a JSON error the frontend
   //     uses to fall back to browser speech synthesis. Key stays server-side. ---
   router.post("/speak", async (req, res) => {
-    const { text } = req.body || {};
+    const { text, previousText, nextText } = req.body || {};
     if (!text || !String(text).trim()) {
       return res.status(400).json({ error: "No text to speak." });
     }
@@ -49,9 +50,10 @@ export function createApiRouter(deps = {}) {
       return res.status(503).json({ error: "ElevenLabs not configured.", fallback: true });
     }
     try {
-      const audio = await speak(String(text));
-      res.set("Content-Type", "audio/mpeg");
+      const audio = await speak(String(text), { previousText, nextText });
+      res.set("Content-Type", contentTypeForOutput(voiceSettingsForClient().outputFormat));
       res.set("Cache-Control", "no-store");
+      res.set("X-NIB2-Speech-Director", "on");
       res.send(audio);
     } catch (err) {
       res.status(502).json({ error: err.message || "Voice synthesis failed.", fallback: true });
@@ -109,7 +111,13 @@ export function createApiRouter(deps = {}) {
         messages,
         context: getRelevantContext(),
       });
-      res.json(result);
+      const settings = voiceSettingsForClient();
+      const speech = prepareTextForTTS(result.reply, {
+        modelId: settings.model,
+        pauseMode: settings.pauseMode,
+        maxChunkChars: settings.maxChunkChars,
+      });
+      res.json({ ...result, displayText: speech.displayText, spokenText: speech.spokenText, speech });
     } catch (err) {
       const { status, message } = describeApiError(err);
       res.status(status).json({ error: message });
