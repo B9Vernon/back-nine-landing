@@ -12,11 +12,11 @@
     {
       "id": "863ddc26",
       "title": "Wire in TTS/voice engine for NIB2",
-      "status": "pending",
+      "status": "complete",
       "priority": "medium",
-      "notes": "Deploy-side job. Recommended: ElevenLabs. Alternatives possible. Once connected, the existing Rate (1.10), Pitch (1.15), and Volume (0.85) sliders in the right column become functional and control NIB2's spoken output. Currently those knobs connect to nothing.",
+      "notes": "DONE: ElevenLabs wired in and live-verified (free default voice, ID bIHbv24MWmeRgasZH58o). Key + voice ID in .env.local. Note: ElevenLabs audio ignores the rate/pitch sliders (those control the browser fallback voice only); volume applies to both.",
       "createdAt": "2026-07-05T00:45:22.325Z",
-      "updatedAt": "2026-07-05T00:45:22.325Z"
+      "updatedAt": "2026-07-05T17:20:00.000Z"
     },
     {
       "id": "e86da958",
