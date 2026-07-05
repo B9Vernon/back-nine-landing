@@ -270,6 +270,36 @@ test("/api/speak streams audio when synthesize is provided (mocked)", async () =
   }
 });
 
+test("/api/weather serves data from the injected weather source", async () => {
+  const weatherServer = await startServer({
+    makeClient: () => mockClient,
+    getWeather: async () => ({ location: "Vernon, BC", temperature: 21.5, humidity: 40 }),
+  });
+  try {
+    const res = await fetch(`http://127.0.0.1:${weatherServer.address().port}/api/weather`);
+    const body = await res.json();
+    assert.equal(res.status, 200);
+    assert.equal(body.temperature, 21.5);
+  } finally {
+    weatherServer.close();
+  }
+});
+
+test("/api/weather reports a clean 503 when the source fails", async () => {
+  const weatherServer = await startServer({
+    makeClient: () => mockClient,
+    getWeather: async () => { throw new Error("Environment Canada is napping."); },
+  });
+  try {
+    const res = await fetch(`http://127.0.0.1:${weatherServer.address().port}/api/weather`);
+    const body = await res.json();
+    assert.equal(res.status, 503);
+    assert.match(body.error, /napping/);
+  } finally {
+    weatherServer.close();
+  }
+});
+
 test("/api/gmail/status reports not_configured cleanly", async () => {
   const { status, body } = await req("/api/gmail/status");
   assert.equal(status, 200);

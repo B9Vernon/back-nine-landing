@@ -9,6 +9,18 @@
 <body>
   <canvas id="neural-bg" aria-hidden="true"></canvas>
 
+  <!-- Master brain: the b9 mark at centre screen, visible in Brain view.
+       Breathes at rest, blazes B9 green while NIB2 is talking. -->
+  <div id="brain-hub" aria-hidden="true">
+    <svg viewBox="0 0 96 96">
+      <rect x="18" y="6" width="12" height="64" rx="5" fill="#f4f4ef"/>
+      <circle cx="52" cy="50" r="24" fill="none" stroke="#f4f4ef" stroke-width="11"/>
+      <circle cx="52" cy="47" r="15" fill="#96cb39"/>
+      <circle cx="52" cy="43.5" r="6.5" fill="#f4f4ef"/>
+      <path d="M65 54 C 65 70, 58 82, 47 90 L 57.5 93.5 C 68 84, 72 68, 69.5 51 Z" fill="#96cb39"/>
+    </svg>
+  </div>
+
   <header class="topbar">
     <div class="brand">
       <!-- b9 mark: white b, green 9 nested in the bowl -->
@@ -51,10 +63,11 @@
 
       <div class="chat-controls">
         <div class="control-row">
-          <button id="btn-ptt" class="btn btn-ghost" title="Push to talk (click, or press Ctrl+Q)">🎙 Talk</button>
-          <button id="btn-mute" class="btn btn-ghost" title="Toggle voice output">🔊 Voice on</button>
-          <button id="btn-clear" class="btn btn-ghost" title="Clear the conversation">🗑 Clear</button>
-          <button id="btn-export" class="btn btn-ghost" title="Summarize this session and save the handoff">📋 Handoff</button>
+          <button id="btn-ptt" class="btn cta cta-green" title="Push to talk (click, or press Ctrl+Q)">🎙 Talk</button>
+          <button id="btn-stop" class="btn cta cta-peach" title="Stop NIB2's voice immediately">⏹ Stop voice</button>
+          <button id="btn-mute" class="btn cta cta-blue" title="Toggle voice output">🔊 Voice on</button>
+          <button id="btn-clear" class="btn cta cta-outline" title="Clear the conversation">🗑 Clear</button>
+          <button id="btn-export" class="btn cta cta-gold" title="Summarize this session and save the handoff">📋 Handoff</button>
         </div>
         <div class="input-row">
           <textarea id="chat-input" rows="2" placeholder="Type to NIB2… (Enter to send, Shift+Enter for newline)"></textarea>
@@ -66,37 +79,33 @@
 
     <!-- Side column -->
     <aside class="side-column">
-      <section class="panel">
+      <section class="panel panel-blue">
+        <h2>Vernon BC — Live</h2>
+        <div id="weather-panel" class="weather-panel muted">Loading…</div>
+      </section>
+
+      <section class="panel panel-gold">
         <h2>Active Tasks <button id="btn-refresh-tasks" class="btn-mini" title="Refresh">↻</button></h2>
         <ul id="task-list" class="task-list"><li class="muted">Loading…</li></ul>
       </section>
 
-      <section class="panel">
+      <section class="panel panel-green">
         <h2>Memory</h2>
         <div id="memory-panel" class="memory-panel muted">Loading…</div>
       </section>
 
-      <section class="panel">
+      <section class="panel panel-peach">
         <h2>Bookings</h2>
         <div class="bookings-panel">
-          <a class="btn btn-ghost bookings-link" href="https://franchise.backninegolf.ca/app/#/bookings/" target="_blank" rel="noopener">⛳ Open B9 Bookings Admin</a>
+          <a class="btn cta cta-peach bookings-link" href="https://franchise.backninegolf.ca/app/#/bookings/" target="_blank" rel="noopener">⛳ Open B9 Bookings Admin</a>
           <div class="muted bookings-note">Live booking data isn't wired in yet — it needs API access from the booking platform. Ask NIB2 about the plan.</div>
         </div>
       </section>
 
-      <section class="panel">
-        <h2>Voice Settings</h2>
+      <section class="panel panel-blue">
+        <h2>Voice</h2>
         <div class="voice-settings">
           <div id="voice-engine" class="voice-engine">Voice engine: checking…</div>
-          <label>Browser voice (fallback)
-            <select id="voice-select"></select>
-          </label>
-          <label>Rate <span id="rate-val">0.92</span>
-            <input type="range" id="voice-rate" min="0.5" max="1.5" step="0.01" value="0.92" />
-          </label>
-          <label>Pitch <span id="pitch-val">0.95</span>
-            <input type="range" id="voice-pitch" min="0.5" max="1.5" step="0.01" value="0.95" />
-          </label>
           <label>Volume <span id="volume-val">1.0</span>
             <input type="range" id="voice-volume" min="0" max="1" step="0.05" value="1" />
           </label>
@@ -104,7 +113,7 @@
         </div>
       </section>
 
-      <section class="panel">
+      <section class="panel panel-gold">
         <h2>Session Handoffs</h2>
         <ul id="session-list" class="session-list"><li class="muted">None yet.</li></ul>
       </section>

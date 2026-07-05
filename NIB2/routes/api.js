@@ -5,12 +5,14 @@ import { listTasks, addTask, updateTask, completeTask } from "../lib/tasks.js";
 import { listSessions, createSessionSummary } from "../lib/sessions.js";
 import { hasApiKey, makeClient, runChat, runHandoff, describeApiError, MODEL } from "../lib/claude.js";
 import { synthesize, hasElevenLabs, elevenLabsStatus } from "../lib/voice.js";
+import { getVernonWeather } from "../lib/weather.js";
 import * as gmail from "../lib/gmail.js";
 
-// deps.makeClient / deps.synthesize can be overridden in tests.
+// deps.makeClient / deps.synthesize / deps.getWeather can be overridden in tests.
 export function createApiRouter(deps = {}) {
   const clientFactory = deps.makeClient || makeClient;
   const speak = deps.synthesize || synthesize;
+  const weather = deps.getWeather || getVernonWeather;
   const router = express.Router();
 
   // Optional password gate. Exempt: /status (health check) and the Gmail OAuth
@@ -53,6 +55,15 @@ export function createApiRouter(deps = {}) {
       res.send(audio);
     } catch (err) {
       res.status(502).json({ error: err.message || "Voice synthesis failed.", fallback: true });
+    }
+  });
+
+  // --- Live Vernon BC weather (Environment Canada, cached 10 min) ---
+  router.get("/weather", async (req, res) => {
+    try {
+      res.json(await weather());
+    } catch (err) {
+      res.status(503).json({ error: `Weather unavailable: ${err.message}` });
     }
   });
 

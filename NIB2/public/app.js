@@ -83,15 +83,16 @@ function setProcessing(on) {
   window.NeuralBG?.setActivity(on ? 1 : (brainView ? 0.7 : 0));
 }
 
-// ---------- Brain view: hide the panels, watch the neurons ----------
+// ---------- Brain view: side panels away, master-brain logo centre stage ----------
+// Chat stays available as a slim translucent strip at the bottom (CSS).
 const btnBrain = el("btn-brain");
 function setBrainView(on) {
   brainView = on;
   document.body.classList.toggle("brainview", on);
   btnBrain.classList.toggle("active", on);
   btnBrain.textContent = on ? "🧠 Exit brain view" : "🧠 Brain view";
-  // Crank the field up so there's a show worth watching, and open with a burst.
   window.NeuralBG?.setActivity(on ? 0.7 : 0);
+  window.NeuralBG?.setHub?.(on);
   if (on) {
     window.NeuralBG?.pulse?.();
     setTimeout(() => window.NeuralBG?.pulse?.(), 400);
@@ -325,34 +326,15 @@ function pickDefaultVoice(list) {
   return list.find((v) => /^en/i.test(v.lang)) || list[0] || null;
 }
 
+// Pick the best browser fallback voice silently (no dropdown — ElevenLabs is
+// the main engine; the browser voice only speaks if ElevenLabs is down).
 function refreshVoices() {
   if (!window.speechSynthesis) return;
   voices = window.speechSynthesis.getVoices();
   if (!voices.length) return;
-
-  const select = el("voice-select");
-  select.innerHTML = "";
-  for (const v of voices) {
-    const opt = document.createElement("option");
-    opt.value = v.name;
-    opt.textContent = `${v.name} (${v.lang})`;
-    select.appendChild(opt);
-  }
-
   let chosen = voices.find((v) => v.name === voiceSettings.voiceName);
-  if (!chosen) {
-    chosen = pickDefaultVoice(voices);
-    const note = el("voice-note");
-    if (chosen && !chosen.lang?.toLowerCase().startsWith("en-ca")) {
-      note.textContent = "Canadian English voice unavailable on this machine. Using the best available English voice. Civilization continues.";
-    } else {
-      note.textContent = "";
-    }
-  }
-  if (chosen) {
-    select.value = chosen.name;
-    voiceSettings.voiceName = chosen.name;
-  }
+  if (!chosen) chosen = pickDefaultVoice(voices);
+  if (chosen) voiceSettings.voiceName = chosen.name;
 }
 
 if (window.speechSynthesis) {
@@ -363,6 +345,12 @@ if (window.speechSynthesis) {
   btnMute.disabled = true;
 }
 
+// "Talking" state: the b9 hub logo blazes green and the field lights up.
+function setTalking(on) {
+  document.body.classList.toggle("talking", on);
+  window.NeuralBG?.setTalking?.(on);
+}
+
 // Stop any voice output — both the ElevenLabs audio element and browser TTS.
 function stopSpeaking() {
   if (currentAudio) {
@@ -371,6 +359,7 @@ function stopSpeaking() {
     currentAudio = null;
   }
   window.speechSynthesis?.cancel();
+  setTalking(false);
 }
 
 // Speak a reply. Prefers ElevenLabs (server-side, human voice); if that isn't
@@ -391,7 +380,9 @@ async function speak(text) {
         const audio = new Audio(URL.createObjectURL(blob));
         audio.volume = voiceSettings.volume;
         currentAudio = audio;
-        audio.onended = () => { if (currentAudio === audio) currentAudio = null; };
+        audio.onended = () => { if (currentAudio === audio) { currentAudio = null; setTalking(false); } };
+        audio.onpause = () => { if (currentAudio === audio) setTalking(false); };
+        setTalking(true);
         await audio.play();
         return; // ElevenLabs handled it
       }
@@ -419,6 +410,9 @@ function speakBrowser(text) {
   utter.rate = voiceSettings.rate;
   utter.pitch = voiceSettings.pitch;
   utter.volume = voiceSettings.volume;
+  utter.onstart = () => setTalking(true);
+  utter.onend = () => setTalking(false);
+  utter.onerror = () => setTalking(false);
   window.speechSynthesis.speak(utter);
 }
 
@@ -429,22 +423,21 @@ btnMute.addEventListener("click", () => {
   btnMute.classList.toggle("active", muted);
 });
 
-el("voice-select").addEventListener("change", (e) => {
-  voiceSettings.voiceName = e.target.value;
-  saveVoiceSettings();
-  speak("Voice updated. Naturally, I sound excellent.");
-});
-for (const [id, key, labelId] of [
-  ["voice-rate", "rate", "rate-val"],
-  ["voice-pitch", "pitch", "pitch-val"],
-  ["voice-volume", "volume", "volume-val"],
-]) {
-  const input = el(id);
-  input.value = voiceSettings[key];
-  el(labelId).textContent = Number(voiceSettings[key]).toFixed(2);
+// Stop voice button: NIB2 shuts up immediately. The Talk button also cuts the
+// voice off before it starts listening, so "interrupt and speak" is one press.
+el("btn-stop").addEventListener("click", stopSpeaking);
+
+// Volume is the one knob that applies to BOTH ElevenLabs audio and the browser
+// fallback. (Rate/pitch sliders were removed — ElevenLabs audio is pre-rendered
+// and ignores them.)
+{
+  const input = el("voice-volume");
+  input.value = voiceSettings.volume;
+  el("volume-val").textContent = Number(voiceSettings.volume).toFixed(2);
   input.addEventListener("input", (e) => {
-    voiceSettings[key] = Number(e.target.value);
-    el(labelId).textContent = Number(e.target.value).toFixed(2);
+    voiceSettings.volume = Number(e.target.value);
+    el("volume-val").textContent = Number(e.target.value).toFixed(2);
+    if (currentAudio) currentAudio.volume = voiceSettings.volume;
     saveVoiceSettings();
   });
 }
@@ -534,6 +527,34 @@ async function refreshSessions() {
   }
 }
 
+// ---------- Live Vernon BC weather (Environment Canada via the server) ----------
+async function refreshWeather() {
+  const panel = el("weather-panel");
+  try {
+    const w = await api("/weather");
+    panel.classList.remove("muted");
+    const wind = w.windSpeed !== null && w.windSpeed !== undefined
+      ? `${w.windSpeed} km/h${w.windDirection ? " " + w.windDirection : ""}${w.windGust ? ` (gusts ${w.windGust})` : ""}`
+      : "—";
+    panel.innerHTML = `
+      <div class="weather-main">
+        <span class="weather-temp">${w.temperature !== null ? Math.round(w.temperature * 10) / 10 + "°C" : "—"}</span>
+        <span class="weather-cond">${esc(w.condition || (w.forecast?.summary ? w.forecast.summary.split(".")[0] : ""))}</span>
+      </div>
+      <div class="weather-stats">
+        <span class="wstat"><b>Humidity</b> ${w.humidity ?? "—"}%</span>
+        <span class="wstat"><b>Wind</b> ${esc(wind)}</span>
+        ${w.dewpoint !== null && w.dewpoint !== undefined ? `<span class="wstat"><b>Dew pt</b> ${w.dewpoint}°C</span>` : ""}
+        ${w.pressure !== null && w.pressure !== undefined ? `<span class="wstat"><b>Pressure</b> ${w.pressure} kPa</span>` : ""}
+      </div>
+      <div class="weather-meta">Environment Canada · updated ${new Date(w.fetchedAt).toLocaleTimeString()}</div>`;
+  } catch (err) {
+    panel.classList.add("muted");
+    panel.textContent = `Weather unavailable: ${err.message}`;
+  }
+}
+setInterval(refreshWeather, 10 * 60 * 1000); // matches the server's 10-min cache
+
 // ---------- API status ----------
 async function checkStatus() {
   const dot = el("api-dot");
@@ -586,4 +607,5 @@ checkStatus();
 refreshTasks();
 refreshMemory();
 refreshSessions();
+refreshWeather();
 chatInput.focus();

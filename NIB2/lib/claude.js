@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { addTask, updateTask, completeTask, PRIORITIES, STATUSES } from "./tasks.js";
 import { savePreference, saveEntry } from "./memory.js";
+import { getVernonWeather } from "./weather.js";
 import * as gmail from "./gmail.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -79,6 +80,12 @@ const TOOLS = [
     },
   },
   {
+    name: "get_weather",
+    description:
+      "Get live current weather for Vernon, BC (Environment Canada): temperature, humidity, wind, and today's forecast. Use whenever NIB asks about weather, conditions, or wants weather context for business questions (e.g. why bays are empty).",
+    input_schema: { type: "object", properties: {} },
+  },
+  {
     name: "gmail_summarize",
     description:
       "Summarize NIB's recent Gmail inbox (read-only). Only works when Gmail is connected. Returns sender, subject, snippet, and unread flag for recent messages.",
@@ -138,6 +145,14 @@ async function executeTool(name, input) {
         saveEntry(input.kind, input.value);
       }
       return { action: "memory_saved", detail: { kind: input.kind, value: input.value } };
+    }
+    case "get_weather": {
+      try {
+        const w = await getVernonWeather();
+        return { action: "weather_read", detail: w };
+      } catch (err) {
+        return { action: "weather_read", detail: { available: false, note: `Live weather unavailable right now: ${err.message}` } };
+      }
     }
     case "gmail_summarize": {
       if (!gmail.isConnected()) {

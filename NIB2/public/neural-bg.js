@@ -27,15 +27,20 @@
   let sparks = [];        // pulses traveling along a connection
   let ripples = [];       // expanding rings when a spark arrives
   let activity = 0;       // 0 = idle breathing, 1 = NIB2 is thinking
+  let hub = false;        // brain view: the b9 logo is the master brain at centre
+  let talking = false;    // NIB2 is speaking — the hub lights up hard
   let running = false;
   let rafId = null;
   let lastTime = 0;
   let adjTimer = 0;       // rebuild adjacency periodically, not every frame
   let burstTimer = 0;     // time until the next spontaneous multi-branch burst
+  let hubTimer = 0;       // time until the hub fires outward again
+  let orbitAngle = 0;     // rotation of the hub's orbiting satellites
   const mouse = { x: -9999, y: -9999 };
 
   const LINK_DIST = 175;  // px — nodes closer than this get a line
-  const MAX_SPARKS = 90;  // hard cap so cascades can never runaway
+  const MAX_SPARKS = 150; // hard cap so cascades can never runaway
+  const HUB_R = 130;      // orbit radius around the centre logo in brain view
 
   function rgba(c, a) { return `rgba(${c[0]},${c[1]},${c[2]},${a})`; }
 
@@ -148,9 +153,9 @@
     adjTimer -= dt;
     if (adjTimer <= 0) { rebuildGraph(); adjTimer = 0.4; }
 
-    // --- ambient firing: always alive, busier while thinking ---
-    // Higher idle baseline than before so it constantly shimmers with activity.
-    const spawnChance = (1.1 + activity * 4.5) * dt;
+    // --- ambient firing: always alive, busier while thinking / in brain view ---
+    const boost = 1 + activity * 4 + (hub ? 1.2 : 0) + (talking ? 1.5 : 0);
+    const spawnChance = 1.8 * boost * dt;
     if (Math.random() < spawnChance && nodes.length) {
       fireRandom((Math.random() * nodes.length) | 0);
     }
@@ -159,8 +164,26 @@
     burstTimer -= dt;
     if (burstTimer <= 0 && nodes.length) {
       burst((Math.random() * nodes.length) | 0);
-      // more frequent while thinking; always some idle rhythm
-      burstTimer = (1.6 + Math.random() * 2.4) / (1 + activity * 3);
+      burstTimer = (1.1 + Math.random() * 1.8) / boost;
+    }
+
+    // --- hub mode: the centre (the b9 logo) acts as the master brain ---
+    if (hub && nodes.length) {
+      orbitAngle += dt * (talking ? 2.2 : 0.7);
+      hubTimer -= dt;
+      if (hubTimer <= 0) {
+        // fire outward from the node nearest the centre, and ring the logo
+        const cx = width / 2, cy = height / 2;
+        let best = 0, bestD = Infinity;
+        for (let i = 0; i < nodes.length; i++) {
+          const dx = nodes[i].x - cx, dy = nodes[i].y - cy;
+          const d2 = dx * dx + dy * dy;
+          if (d2 < bestD) { bestD = d2; best = i; }
+        }
+        burst(best);
+        ripples.push({ x: cx, y: cy, r: HUB_R * 0.75, alpha: talking ? 0.5 : 0.3, color: GREEN });
+        hubTimer = (talking ? 0.5 : 1.4) + Math.random() * 0.8;
+      }
     }
 
     // --- update sparks; on arrival, light the node, ripple, and CASCADE ---
@@ -257,6 +280,33 @@
       ctx.lineTo(x, y);
       ctx.stroke();
     }
+
+    // hub mode: orbiting satellites + halo around the centre logo
+    if (hub) {
+      const cx = width / 2, cy = height / 2;
+      const glow = talking ? 0.5 : 0.22;
+      // halo ring
+      ctx.strokeStyle = rgba(GREEN, glow * 0.6);
+      ctx.lineWidth = 1.2;
+      ctx.beginPath();
+      ctx.arc(cx, cy, HUB_R, 0, Math.PI * 2);
+      ctx.stroke();
+      // orbiting transmitter lights — one per palette colour
+      const satellites = [GREEN, GOLD, BLUE, PEACH];
+      for (let k = 0; k < satellites.length; k++) {
+        const ang = orbitAngle + (k * Math.PI * 2) / satellites.length;
+        const sx = cx + Math.cos(ang) * HUB_R;
+        const sy = cy + Math.sin(ang) * HUB_R * 0.55; // elliptical, like an orbit seen at an angle
+        ctx.fillStyle = rgba(satellites[k], 0.9);
+        ctx.beginPath();
+        ctx.arc(sx, sy, talking ? 3 : 2.2, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillStyle = rgba(satellites[k], glow);
+        ctx.beginPath();
+        ctx.arc(sx, sy, talking ? 10 : 7, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
   }
 
   // One calm, non-animated frame for reduced-motion users.
@@ -314,6 +364,10 @@
   window.NeuralBG = {
     // 0 = idle, 1 = thinking. The field visibly "processes" while NIB2 works.
     setActivity(level) { activity = Math.max(0, Math.min(1, level)); },
+    // Brain view: centre logo becomes the master brain (halo, orbiters, outward fire).
+    setHub(on) { hub = Boolean(on); if (hub) hubTimer = 0; },
+    // NIB2 is speaking: hub lights up hard, orbiters speed up, field gets louder.
+    setTalking(on) { talking = Boolean(on); },
     // Fire a burst from a random node — a visible "thought" on demand.
     pulse() {
       if (!nodes.length) return;
