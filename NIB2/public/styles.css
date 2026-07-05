@@ -145,14 +145,14 @@ body.brainview .layout {
   align-items: end;
 }
 body.brainview .chat-panel {
-  max-height: 34vh;
+  max-height: 17vh;
   background: rgba(13, 15, 10, 0.42);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border-color: rgba(43, 47, 34, 0.6);
 }
 body.brainview .chat-panel::before { display: none; } /* no border shimmer over the show */
-body.brainview .chat-log { max-height: 16vh; }
+body.brainview .chat-log { max-height: 8vh; }
 body.brainview .msg { background: rgba(29, 33, 22, 0.55); }
 body.brainview .pulse-strip { opacity: 0.9; }
 
@@ -169,7 +169,7 @@ body.brainview .pulse-strip { opacity: 0.9; }
   pointer-events: none;
   transition: opacity 0.7s ease, transform 0.7s ease;
 }
-#brain-hub svg { width: 100%; height: 100%; }
+#brain-hub svg, #brain-hub img { width: 100%; height: 100%; object-fit: contain; border-radius: 50%; }
 body.brainview #brain-hub {
   opacity: 0.92;
   transform: translate(-50%, -50%) scale(1);

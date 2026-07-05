@@ -9,10 +9,14 @@
 <body>
   <canvas id="neural-bg" aria-hidden="true"></canvas>
 
-  <!-- Master brain: the b9 mark at centre screen, visible in Brain view.
-       Breathes at rest, blazes B9 green while NIB2 is talking. -->
+  <!-- Master brain: centre screen, visible in Brain view. Breathes at rest,
+       blazes B9 green while NIB2 is talking. Uses the metal emblem image if
+       you've saved it to assets/b9-emblem.png; falls back to the vector mark
+       automatically if that file isn't there yet. -->
   <div id="brain-hub" aria-hidden="true">
-    <svg viewBox="0 0 96 96">
+    <img src="assets/b9-emblem.png" alt="" id="brain-hub-img"
+         onerror="this.style.display='none'; document.getElementById('brain-hub-fallback').style.display='block';" />
+    <svg id="brain-hub-fallback" viewBox="0 0 96 96" style="display:none;">
       <rect x="18" y="6" width="12" height="64" rx="5" fill="#f4f4ef"/>
       <circle cx="52" cy="50" r="24" fill="none" stroke="#f4f4ef" stroke-width="11"/>
       <circle cx="52" cy="47" r="15" fill="#96cb39"/>
@@ -36,6 +40,7 @@
     </div>
     <div class="status-cluster">
       <button id="btn-brain" class="pill pill-btn" title="Hide the panels and watch the neural field (Esc to exit)">🧠 Brain view</button>
+      <button id="btn-wake" class="pill pill-btn" title="When on, say &quot;Hey NIB2&quot;, pause, then speak your command">👂 Wake word off</button>
       <span id="voice-status" class="pill" title="Voice input status">Voice idle</span>
       <span id="gmail-status" class="pill" title="Gmail connection">
         <span id="gmail-dot" class="dot dot-unknown"></span>

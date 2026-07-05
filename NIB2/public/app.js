@@ -255,9 +255,13 @@ function setListening(on) {
   listening = on;
   btnPtt.classList.toggle("active", on);
   btnPtt.textContent = on ? "● Listening…" : "🎙 Talk";
-  voiceStatus.textContent = on ? "● Listening…" : "Voice idle";
+  voiceStatus.textContent = on ? "● Listening…" : (wakeWordEnabled ? "👂 Wake standby" : "Voice idle");
   voiceStatus.classList.toggle("listening", on);
-  if (!on) liveTranscript.hidden = true;
+  if (!on) {
+    liveTranscript.hidden = true;
+    // Command dictation just ended — resume listening for the wake phrase.
+    if (wakeWordEnabled) startWakeListening();
+  }
 }
 
 // Shared dictation flow used by BOTH the Talk button and the Ctrl+Q hotkey.
@@ -292,6 +296,69 @@ function onHotkey(e) {
   }
 }
 window.addEventListener("keydown", onHotkey);
+
+// ---------- Wake word: "Hey NIB2" starts dictation hands-free ----------
+// Opt-in (off by default) — it means the mic stays on in the background, so
+// this only starts listening when you explicitly turn it on.
+// Two-beat design on purpose: say the wake phrase, pause, THEN your command.
+// Browser speech recognition can't reliably parse a wake phrase out of one
+// run-on sentence, so this uses a dedicated listener that hands off to the
+// normal dictation flow once it hears the phrase.
+let wakeWordEnabled = false;
+let wakeRecognition = null;
+const btnWake = el("btn-wake");
+const WAKE_PHRASE = /\bhey\s*n\.?\s*i\.?\s*b\.?\s*(2|two)?\b/i;
+
+function startWakeListening() {
+  if (!dictationSupported || !wakeWordEnabled || listening) return;
+  wakeRecognition = new SR();
+  wakeRecognition.lang = "en-CA";
+  wakeRecognition.continuous = true;
+  wakeRecognition.interimResults = true;
+  wakeRecognition.onresult = (event) => {
+    const last = event.results[event.results.length - 1];
+    if (WAKE_PHRASE.test(last[0].transcript)) {
+      wakeRecognition.onend = null; // this one-shot listener is done; don't auto-restart it
+      wakeRecognition.stop();
+      startDictation();
+    }
+  };
+  wakeRecognition.onend = () => {
+    if (wakeWordEnabled && !listening) setTimeout(startWakeListening, 250);
+  };
+  wakeRecognition.onerror = (e) => {
+    if (e.error === "not-allowed" || e.error === "service-not-allowed") {
+      addSystemNote("Wake word turned off — microphone access was denied.");
+      setWakeWord(false);
+    }
+    // "no-speech"/"aborted" happen constantly in always-on listening — ignore.
+  };
+  try { wakeRecognition.start(); } catch { /* already running */ }
+}
+
+function stopWakeListening() {
+  if (wakeRecognition) {
+    wakeRecognition.onend = null; // prevent the auto-restart loop
+    wakeRecognition.stop();
+    wakeRecognition = null;
+  }
+}
+
+function setWakeWord(on) {
+  wakeWordEnabled = on;
+  btnWake.classList.toggle("active", on);
+  btnWake.textContent = on ? "👂 Wake word on" : "👂 Wake word off";
+  if (!listening) voiceStatus.textContent = on ? "👂 Wake standby" : "Voice idle";
+  if (on) startWakeListening();
+  else stopWakeListening();
+}
+
+if (dictationSupported) {
+  btnWake.addEventListener("click", () => setWakeWord(!wakeWordEnabled));
+} else {
+  btnWake.disabled = true;
+  btnWake.title = "Wake word needs voice input, which isn't available in this browser/context";
+}
 
 // ---------- Voice output (speech synthesis) ----------
 function loadVoiceSettings() {
