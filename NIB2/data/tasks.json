@@ -8,6 +8,15 @@
       "notes": "Daily. Non-negotiable. The one deliverable with zero acceptable excuses for missing.",
       "createdAt": "2026-07-04T20:32:47.029Z",
       "updatedAt": "2026-07-04T23:40:39.837Z"
+    },
+    {
+      "id": "863ddc26",
+      "title": "Wire in TTS/voice engine for NIB2",
+      "status": "pending",
+      "priority": "medium",
+      "notes": "Deploy-side job. Recommended: ElevenLabs. Alternatives possible. Once connected, the existing Rate (1.10), Pitch (1.15), and Volume (0.85) sliders in the right column become functional and control NIB2's spoken output. Currently those knobs connect to nothing.",
+      "createdAt": "2026-07-05T00:45:22.325Z",
+      "updatedAt": "2026-07-05T00:45:22.325Z"
     }
   ]
 }
