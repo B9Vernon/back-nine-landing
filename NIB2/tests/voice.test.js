@@ -43,6 +43,31 @@ test("synthesize returns an audio Buffer with a mocked fetch", async () => {
   assert.ok(out.length > 0);
 });
 
+test("synthesize runs text through the speech-director pipeline (markdown stripped)", async () => {
+  process.env.ELEVENLABS_API_KEY = "test-key";
+  process.env.ELEVENLABS_VOICE_ID = "test-voice";
+  let sentText = "";
+  const fetchImpl = async (url, opts) => {
+    sentText = JSON.parse(opts.body).text;
+    return { ok: true, arrayBuffer: async () => new ArrayBuffer(4) };
+  };
+  await synthesize("**Bold claim** — check the [site](https://example.com) for `details`.", { fetchImpl });
+  assert.doesNotMatch(sentText, /\*\*|`|\[|\]|https?:\/\//, "markdown/links should be stripped before reaching ElevenLabs");
+});
+
+test("synthesize turns a code block into the dry omission line, not raw code", async () => {
+  process.env.ELEVENLABS_API_KEY = "test-key";
+  process.env.ELEVENLABS_VOICE_ID = "test-voice";
+  let sentText = "";
+  const fetchImpl = async (url, opts) => {
+    sentText = JSON.parse(opts.body).text;
+    return { ok: true, arrayBuffer: async () => new ArrayBuffer(4) };
+  };
+  await synthesize("Here: ```js\nconst x = 1;\n```", { fetchImpl });
+  assert.doesNotMatch(sentText, /const x = 1/);
+  assert.match(sentText, /act of cruelty/i);
+});
+
 test("synthesize surfaces a clean error on a bad key (401)", async () => {
   process.env.ELEVENLABS_API_KEY = "bad";
   process.env.ELEVENLABS_VOICE_ID = "v";

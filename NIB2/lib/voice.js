@@ -3,6 +3,8 @@
 // /api/speak and never sees the key. Browser Speech Synthesis is the fallback
 // (handled in the frontend) when ElevenLabs is not configured or errors.
 
+import { prepareTextForTTS } from "./speech-director.js";
+
 const ELEVEN_BASE = "https://api.elevenlabs.io/v1/text-to-speech";
 
 // Default model: turbo v2.5 — low latency, good quality, cheaper per character.
@@ -23,33 +25,31 @@ export function elevenLabsStatus() {
   return { ok: false, reason: "no_voice" };
 }
 
-// Strip markdown so ElevenLabs doesn't read asterisks/backticks aloud.
-function cleanForSpeech(text) {
-  return String(text || "")
-    .replace(/```[\s\S]*?```/g, " (code block omitted) ")
-    .replace(/[*_#`>|]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, 2500); // keep requests small; long replies get trimmed for audio
-}
-
 // Generate speech audio (mp3) for `text`. Returns a Buffer.
 // `fetchImpl` is injectable for tests; defaults to global fetch.
+//
+// Text prep goes through lib/speech-director.js instead of a naive strip: it
+// removes markdown properly, turns lists into spoken phrasing, swaps code
+// blocks for a dry one-liner instead of reading code aloud, weaves "NIB" in
+// once naturally, and trims absurdly long replies with a "the rest is on
+// screen" note. We use the prepared `spokenText` in one TTS call — the
+// director also exposes pre-split `chunks` for sequential multi-request
+// playback, which isn't wired up yet (see README's upgrade list).
 export async function synthesize(text, { fetchImpl = fetch } = {}) {
   if (!hasElevenLabs()) {
     const err = new Error("ElevenLabs is not configured.");
     err.code = "not_configured";
     throw err;
   }
-  const clean = cleanForSpeech(text);
+
+  const voiceId = process.env.ELEVENLABS_VOICE_ID;
+  const modelId = process.env.ELEVENLABS_MODEL_ID || DEFAULT_MODEL;
+  const { spokenText: clean } = prepareTextForTTS(text, { modelId });
   if (!clean) {
     const err = new Error("Nothing to speak.");
     err.code = "empty";
     throw err;
   }
-
-  const voiceId = process.env.ELEVENLABS_VOICE_ID;
-  const modelId = process.env.ELEVENLABS_MODEL_ID || DEFAULT_MODEL;
 
   const res = await fetchImpl(`${ELEVEN_BASE}/${voiceId}`, {
     method: "POST",

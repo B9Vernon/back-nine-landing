@@ -18,7 +18,30 @@ const SAMPLE = {
     },
     forecastGroup: {
       forecasts: [
-        { period: { textForecastName: { en: "Today" } }, textSummary: { en: "Sunny. High 28." } },
+        {
+          period: { textForecastName: { en: "Today" } },
+          temperatures: { temperature: [{ class: { en: "high" }, value: { en: 28 } }] },
+          abbreviatedForecast: { textSummary: { en: "Mainly sunny" } },
+          textSummary: { en: "Sunny. High 28." },
+        },
+        {
+          period: { textForecastName: { en: "Tonight" } },
+          temperatures: { temperature: [{ class: { en: "low" }, value: { en: 12 } }] },
+        },
+        {
+          period: { textForecastName: { en: "Monday" } },
+          temperatures: { temperature: [{ class: { en: "high" }, value: { en: 30 } }] },
+          abbreviatedForecast: { textSummary: { en: "Sunny" } },
+        },
+        {
+          period: { textForecastName: { en: "Monday night" } },
+          temperatures: { temperature: [{ class: { en: "low" }, value: { en: 14 } }] },
+        },
+        {
+          period: { textForecastName: { en: "Tuesday" } },
+          temperatures: { temperature: [{ class: { en: "high" }, value: { en: 26 } }] },
+          abbreviatedForecast: { textSummary: { en: "Cloudy" } },
+        },
       ],
     },
   },
@@ -36,6 +59,20 @@ test("parses Environment Canada current conditions", async () => {
   assert.equal(w.windGust, 27);
   assert.equal(w.forecast.period, "Today");
   assert.match(w.forecast.summary, /Sunny/);
+});
+
+test("builds a 5-day outlook, folding each night's low into its day", async () => {
+  const w = await getVernonWeather({ fetchImpl: async () => ({ ok: true, json: async () => SAMPLE }) });
+  assert.equal(w.fiveDay.length, 3); // Today, Monday, Tuesday in the sample (nights excluded from the count)
+  assert.equal(w.fiveDay[0].day, "Today");
+  assert.equal(w.fiveDay[0].high, 28);
+  assert.equal(w.fiveDay[0].low, 12); // pulled from "Tonight"
+  assert.equal(w.fiveDay[0].summary, "Mainly sunny");
+  assert.equal(w.fiveDay[1].day, "Monday");
+  assert.equal(w.fiveDay[1].high, 30);
+  assert.equal(w.fiveDay[1].low, 14);
+  assert.equal(w.fiveDay[2].day, "Tuesday");
+  assert.equal(w.fiveDay[2].low, null); // no "Tuesday night" period in the sample
 });
 
 test("caches results so repeated calls don't re-hit the API", async () => {

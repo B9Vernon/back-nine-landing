@@ -102,9 +102,11 @@ To turn it on:
 3. **Voice ID:** ElevenLabs → **Voices** → click your chosen voice → copy its **ID**.
 4. Restart the server (`Ctrl+C`, then `npm start`).
 
-The **Voice Settings** panel shows which engine is live ("ElevenLabs (human voice)" or "browser fallback"). Your ElevenLabs key stays on the server — the browser only receives finished audio, never the key. The 🔊 button mutes/unmutes. Optional: set `ELEVENLABS_MODEL_ID` to `eleven_multilingual_v2` for higher quality (slower) instead of the default fast `eleven_turbo_v2_5`.
+The **Voice Settings** panel shows which engine is live ("ElevenLabs (human voice)" or "browser fallback"). Your ElevenLabs key stays on the server — the browser only receives finished audio, never the key. The 🔊 button mutes/unmutes; **⏹ Stop voice** interrupts NIB2 instantly. Only the volume slider applies to ElevenLabs (rate/pitch are pre-baked into the rendered audio, so those knobs were removed). Optional: set `ELEVENLABS_MODEL_ID` to `eleven_multilingual_v2` for higher quality (slower) instead of the default fast `eleven_turbo_v2_5`.
 
-If ElevenLabs is not configured, NIB2 uses the browser voice — it prefers Canadian English (`en-CA`); the browser-voice dropdown and the rate/pitch/volume sliders apply to that fallback.
+If ElevenLabs is not configured, NIB2 uses the browser voice as a fallback (prefers Canadian English `en-CA`).
+
+**Before it reaches ElevenLabs**, every reply passes through `lib/speech-director.js` — it strips markdown properly (not just a character blacklist), turns bullet lists into spoken phrasing ("First, ... Next, ..."), swaps code blocks for a dry one-liner instead of reading code aloud, weaves "NIB" into the reply naturally exactly once, and trims very long replies with a "the full detail is on screen" note. The dashboard still displays your full, untouched markdown reply — only the audio version goes through this pipeline.
 
 ### Voice input — talk to NIB2
 
@@ -227,6 +229,8 @@ NIB2/
 ├── lib/
 │   ├── claude.js          # Anthropic API client + tool loop (NIB2's brain-stem)
 │   ├── voice.js           # ElevenLabs text-to-speech (server-side; key never leaves)
+│   ├── speech-director.js # Prepares reply text for speech (strip markdown, pace, address NIB once)
+│   ├── weather.js         # Live Vernon BC current conditions + 5-day outlook (Environment Canada)
 │   ├── gmail.js           # Gmail OAuth: read / search / draft (never sends)
 │   ├── store.js           # Safe JSON storage (atomic writes, corruption quarantine)
 │   ├── memory.js          # readMemory/writeMemory/savePreference/getRelevantContext

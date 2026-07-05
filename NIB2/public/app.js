@@ -603,6 +603,14 @@ async function refreshWeather() {
     const wind = w.windSpeed !== null && w.windSpeed !== undefined
       ? `${w.windSpeed} km/h${w.windDirection ? " " + w.windDirection : ""}${w.windGust ? ` (gusts ${w.windGust})` : ""}`
       : "—";
+    const days = (w.fiveDay || [])
+      .map((d) => `
+        <div class="wday">
+          <span class="wday-name">${esc(d.day || "")}</span>
+          <span class="wday-summary">${esc(d.summary || "")}</span>
+          <span class="wday-temps">${d.high !== null ? Math.round(d.high) + "°" : "—"} <span class="wday-low">${d.low !== null ? Math.round(d.low) + "°" : ""}</span></span>
+        </div>`)
+      .join("");
     panel.innerHTML = `
       <div class="weather-main">
         <span class="weather-temp">${w.temperature !== null ? Math.round(w.temperature * 10) / 10 + "°C" : "—"}</span>
@@ -611,9 +619,8 @@ async function refreshWeather() {
       <div class="weather-stats">
         <span class="wstat"><b>Humidity</b> ${w.humidity ?? "—"}%</span>
         <span class="wstat"><b>Wind</b> ${esc(wind)}</span>
-        ${w.dewpoint !== null && w.dewpoint !== undefined ? `<span class="wstat"><b>Dew pt</b> ${w.dewpoint}°C</span>` : ""}
-        ${w.pressure !== null && w.pressure !== undefined ? `<span class="wstat"><b>Pressure</b> ${w.pressure} kPa</span>` : ""}
       </div>
+      ${days ? `<div class="weather-5day">${days}</div>` : ""}
       <div class="weather-meta">Environment Canada · updated ${new Date(w.fetchedAt).toLocaleTimeString()}</div>`;
   } catch (err) {
     panel.classList.add("muted");

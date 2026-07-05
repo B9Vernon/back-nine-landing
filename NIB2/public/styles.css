@@ -195,7 +195,13 @@ body.brainview.talking #brain-hub {
 .weather-cond { color: var(--text-dim); }
 .weather-stats { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-bottom: 8px; }
 .wstat b { color: var(--accent-2); font-weight: 600; margin-right: 4px; }
-.weather-meta { color: var(--text-dim); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.weather-meta { color: var(--text-dim); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 8px; }
+.weather-5day { display: flex; flex-direction: column; gap: 2px; border-top: 1px solid var(--border); padding-top: 8px; }
+.wday { display: grid; grid-template-columns: 84px 1fr auto; gap: 10px; align-items: center; padding: 4px 0; font-size: 0.8rem; }
+.wday-name { color: var(--accent-2); font-weight: 600; }
+.wday-summary { color: var(--text-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wday-temps { font-weight: 700; color: var(--text); white-space: nowrap; }
+.wday-low { font-weight: 400; color: var(--text-dim); margin-left: 4px; }
 .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
 .dot-ok { background: var(--ok); box-shadow: 0 0 8px var(--ok); }
 .dot-bad { background: var(--danger); box-shadow: 0 0 8px var(--danger); }
@@ -206,7 +212,7 @@ body.brainview.talking #brain-hub {
 .layout {
   flex: 1;
   display: grid;
-  grid-template-columns: 1fr 330px;
+  grid-template-columns: 1fr 660px;
   gap: 14px;
   padding: 14px 22px 18px;
   min-height: 0;

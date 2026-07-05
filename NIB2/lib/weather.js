@@ -16,6 +16,13 @@ function v(field) {
   return typeof val === "object" ? (val.en ?? null) : val;
 }
 
+// A second shape shows up on forecast text fields: plain { en, fr } with no
+// .value wrapper (e.g. abbreviatedForecast.textSummary, forecast.textSummary).
+function en(field) {
+  if (field === undefined || field === null) return null;
+  return typeof field === "object" ? (field.en ?? null) : field;
+}
+
 export async function getVernonWeather({ fetchImpl = fetch, force = false } = {}) {
   if (!force && cache.data && Date.now() - cache.at < CACHE_MS) return cache.data;
 
@@ -32,10 +39,35 @@ export async function getVernonWeather({ fetchImpl = fetch, force = false } = {}
   const forecasts = p.forecastGroup?.forecasts || p.forecastGroup?.forecast || [];
   const today = forecasts[0];
 
+  // Env Canada gives alternating day/night periods (Today, Tonight, Monday,
+  // Monday night, ...). Group each day with its overnight low into one
+  // 5-day-outlook entry: { day, high, low, summary, iconCode }.
+  const fiveDay = [];
+  for (let i = 0; i < forecasts.length && fiveDay.length < 5; i++) {
+    const f = forecasts[i];
+    const name = f.period?.textForecastName?.en ?? "";
+    if (/night$/i.test(name)) continue; // nights are folded into the prior day
+    const temps = f.temperatures?.temperature || [];
+    const high = temps.find((t) => t.class?.en === "high");
+    // The matching overnight low is usually the very next period.
+    const next = forecasts[i + 1];
+    const nextTemps = /night$/i.test(next?.period?.textForecastName?.en ?? "")
+      ? next.temperatures?.temperature || []
+      : [];
+    const low = nextTemps.find((t) => t.class?.en === "low");
+    fiveDay.push({
+      day: name,
+      high: v(high) ?? null,
+      low: v(low) ?? null,
+      summary: en(f.abbreviatedForecast?.textSummary) ?? en(f.textSummary) ?? null,
+      iconCode: f.abbreviatedForecast?.icon?.value ?? null,
+    });
+  }
+
   const data = {
     location: "Vernon, BC",
     fetchedAt: new Date().toISOString(),
-    condition: typeof cc.condition === "object" ? cc.condition?.en ?? null : cc.condition ?? null,
+    condition: en(cc.condition),
     temperature: v(cc.temperature),        // °C
     humidity: v(cc.relativeHumidity),      // %
     windSpeed: v(cc.wind?.speed),          // km/h
@@ -46,10 +78,10 @@ export async function getVernonWeather({ fetchImpl = fetch, force = false } = {}
     forecast: today
       ? {
           period: today.period?.textForecastName?.en ?? null,
-          summary:
-            (typeof today.textSummary === "object" ? today.textSummary?.en : today.textSummary) ?? null,
+          summary: en(today.textSummary),
         }
       : null,
+    fiveDay,
   };
 
   if (data.temperature === null && data.humidity === null) {

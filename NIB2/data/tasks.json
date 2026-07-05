@@ -26,6 +26,15 @@
       "notes": "NIB wants NIB2 pulling live info onto the dashboard instead of speculating. Deploy-side wiring job: (1) data source/API, (2) key + endpoint stored as env var, (3) refresh loop. Recommended first source: OpenWeatherMap for Vernon BC (free tier) to unlock the empty-bays investigation. Second: B9 Command Centre feed into get_b9_data (currently empty). Need from NIB: what data, from where, who deploys.",
       "createdAt": "2026-07-05T02:06:21.457Z",
       "updatedAt": "2026-07-05T02:06:21.457Z"
+    },
+    {
+      "id": "3f9118f7",
+      "title": "Check if dashboard streams NIB2 responses or waits for full block",
+      "status": "pending",
+      "priority": "medium",
+      "notes": "NIB reports long pauses before responses appear. Most likely cause is the dashboard buffering the entire response before rendering instead of streaming tokens live. Verify whether the chat UI uses token/response streaming from the model API. If not, enable streaming so output appears word-by-word and perceived latency drops. Secondary checks: tool-call round-trip latency (weather/Gmail/tasks), ElevenLabs TTS synthesis time front-loading audio, and network slowness on API calls.",
+      "createdAt": "2026-07-05T19:17:14.067Z",
+      "updatedAt": "2026-07-05T19:17:14.067Z"
     }
   ]
 }
