@@ -721,7 +721,8 @@ async function checkStatus() {
     const gText = el("gmail-status-text");
     if (gDot && gText) {
       if (s.gmail?.connected) {
-        gDot.className = "dot dot-ok"; gText.textContent = "Gmail on";
+        gDot.className = "dot dot-ok";
+        gText.textContent = s.gmail.via === "n8n" ? "Gmail on (n8n)" : "Gmail on";
       } else if (s.gmail?.reason === "not_authorized") {
         gDot.className = "dot dot-warn"; gText.textContent = "Gmail: authorize";
         el("gmail-status").title = "Gmail is set up but not authorized. Visit /api/gmail/auth on the server computer.";

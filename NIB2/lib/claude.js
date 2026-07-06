@@ -86,6 +86,54 @@ const TOOLS = [
     input_schema: { type: "object", properties: {} },
   },
   {
+    name: "get_news",
+    description:
+      "Live news headlines from the Command Centre feeds. topic 'sports' = CBC Sports (North America), 'business' = Financial Post (Canada), 'markets' = CNBC (US stock market), 'vernon' = Vernon Matters (local), or 'all'. Use whenever NIB asks about sports, business, market, or local news — read him the top stories.",
+    input_schema: {
+      type: "object",
+      properties: {
+        topic: { type: "string", enum: ["sports", "business", "markets", "vernon", "all"] },
+      },
+      required: ["topic"],
+    },
+  },
+  {
+    name: "get_markets",
+    description:
+      "Live index quotes: Dow Jones, S&P 500, Nasdaq, and the TSX (Toronto). Use whenever NIB asks how the markets/stocks are doing — give him the numbers and % changes.",
+    input_schema: { type: "object", properties: {} },
+  },
+  {
+    name: "get_bookings",
+    description:
+      "Today's synced B9 bookings (manual sync until the booking platform provides an API). Use when NIB asks about today's bookings or schedule. If empty, tell him nothing is synced and how to sync.",
+    input_schema: { type: "object", properties: {} },
+  },
+  {
+    name: "sync_bookings",
+    description:
+      "Save today's bookings when NIB dictates them (e.g. 'sync today's bookings: 10am bay 1 Smith, 2pm bay 3 corporate demo'). Replaces the day's list. Parse his message into structured entries.",
+    input_schema: {
+      type: "object",
+      properties: {
+        bookings: {
+          type: "array",
+          items: {
+            type: "object",
+            properties: {
+              time: { type: "string" },
+              bay: { type: "string" },
+              name: { type: "string" },
+              note: { type: "string" },
+            },
+            required: ["time"],
+          },
+        },
+      },
+      required: ["bookings"],
+    },
+  },
+  {
     name: "get_weather",
     description:
       "Get live current weather for Vernon, BC (Environment Canada): temperature, humidity, wind, and today's forecast. Use whenever NIB asks about weather, conditions, or wants weather context for business questions (e.g. why bays are empty).",
@@ -160,6 +208,42 @@ async function executeTool(name, input) {
       }
       return { action: "command_centre_read", detail: centre };
     }
+    case "get_news": {
+      const topic = input.topic || "all";
+      try {
+        if (topic === "vernon") {
+          const { getVernonNews } = await import("./vernon-intel.js");
+          return { action: "news_read", detail: { source: "Vernon Matters", items: await getVernonNews() } };
+        }
+        const feeds = await import("./feeds.js");
+        if (topic === "all") return { action: "news_read", detail: await feeds.getAllFeeds() };
+        const fn = { sports: feeds.getSportsNews, business: feeds.getBusinessNews, markets: feeds.getMarketsNews }[topic];
+        return { action: "news_read", detail: await fn() };
+      } catch (err) {
+        return { action: "news_read", detail: { available: false, note: `News feed unavailable right now: ${err.message}` } };
+      }
+    }
+    case "get_markets": {
+      try {
+        const { getIndices } = await import("./markets.js");
+        return { action: "markets_read", detail: await getIndices() };
+      } catch (err) {
+        return { action: "markets_read", detail: { available: false, note: `Market quotes unavailable right now: ${err.message}` } };
+      }
+    }
+    case "get_bookings": {
+      const { readBookings } = await import("./bookings.js");
+      const b = readBookings();
+      if (!b.bookings.length) {
+        return { action: "bookings_read", detail: { synced: false, note: "No bookings synced today. NIB can say 'sync today's bookings: ...' in chat or check the admin page — live API still needs B9 corporate." } };
+      }
+      return { action: "bookings_read", detail: b };
+    }
+    case "sync_bookings": {
+      const { writeBookings } = await import("./bookings.js");
+      const saved = writeBookings(input.bookings, "chat");
+      return { action: "bookings_synced", detail: { count: saved.bookings.length, updatedAt: saved.updatedAt } };
+    }
     case "get_weather": {
       try {
         const w = await getVernonWeather();
@@ -169,11 +253,22 @@ async function executeTool(name, input) {
       }
     }
     case "gmail_summarize": {
+      // Prefer the n8n webhook (NIB's n8n workflow owns the Google login);
+      // fall back to direct OAuth if that's what's configured instead.
+      const { isN8nConfigured, fetchUnreadViaN8n } = await import("./gmail-n8n.js");
+      if (isN8nConfigured()) {
+        try {
+          const emails = await fetchUnreadViaN8n();
+          return { action: "gmail_read", detail: { connected: true, via: "n8n", unreadOnly: true, emails } };
+        } catch (err) {
+          return { action: "gmail_read", detail: { connected: false, note: `n8n Gmail webhook failed: ${err.message}` } };
+        }
+      }
       if (!gmail.isConnected()) {
         return { action: "gmail_read", detail: { connected: false, note: "Gmail is not connected. NIB must set up Gmail (see README) and authorize it." } };
       }
       const emails = await gmail.summarizeInbox(input.max || 8);
-      return { action: "gmail_read", detail: { connected: true, emails } };
+      return { action: "gmail_read", detail: { connected: true, via: "oauth", emails } };
     }
     case "gmail_search": {
       if (!gmail.isConnected()) {

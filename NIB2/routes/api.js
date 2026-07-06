@@ -11,6 +11,7 @@ import { readCentre, gatherIntel, generateBrief } from "../lib/command-centre.js
 import { getAllFeeds } from "../lib/feeds.js";
 import { getIndices } from "../lib/markets.js";
 import { readBookings, writeBookings } from "../lib/bookings.js";
+import { isN8nConfigured, fetchUnreadViaN8n } from "../lib/gmail-n8n.js";
 import * as gmail from "../lib/gmail.js";
 
 // deps.makeClient / deps.synthesize / deps.getWeather / deps.gatherIntel /
@@ -24,7 +25,15 @@ export function createApiRouter(deps = {}) {
   const feedsFn = deps.getAllFeeds || getAllFeeds;
   const marketsFn = deps.getIndices || getIndices;
   const unreadFn = deps.listUnread || gmail.listUnread;
+  const n8nUnreadFn = deps.n8nUnread || fetchUnreadViaN8n;
   const router = express.Router();
+
+  // Gmail can be connected two ways; n8n wins when both exist.
+  function gmailState() {
+    if (isN8nConfigured()) return { connected: true, via: "n8n" };
+    const s = gmail.gmailStatus();
+    return s.connected ? { ...s, via: "oauth" } : s;
+  }
 
   // Optional password gate. Exempt: /status (health check) and the Gmail OAuth
   // redirect endpoints, which are browser navigations from Google without our header.
@@ -45,7 +54,7 @@ export function createApiRouter(deps = {}) {
       openTasks: listTasks().filter((t) => t.status !== "complete").length,
       sessions: listSessions().length,
       voice: { elevenLabs: hasElevenLabs(), status: elevenLabsStatus(), settings: voiceSettingsForClient() },
-      gmail: gmail.gmailStatus(),
+      gmail: gmailState(),
     });
   });
 
@@ -121,13 +130,20 @@ export function createApiRouter(deps = {}) {
     }
   });
 
-  // --- Unread Gmail for the Command Centre card ---
+  // --- Unread Gmail for the Command Centre card (n8n webhook preferred) ---
   router.get("/gmail/unread", async (req, res) => {
+    if (isN8nConfigured()) {
+      try {
+        return res.json({ connected: true, via: "n8n", emails: await n8nUnreadFn() });
+      } catch (err) {
+        return res.status(502).json({ error: `n8n Gmail read failed: ${err.message}`, via: "n8n" });
+      }
+    }
     if (!gmail.isConnected()) {
       return res.json({ connected: false, reason: gmail.gmailStatus().reason, emails: [] });
     }
     try {
-      res.json({ connected: true, emails: await unreadFn(10) });
+      res.json({ connected: true, via: "oauth", emails: await unreadFn(10) });
     } catch (err) {
       res.status(502).json({ error: `Gmail read failed: ${err.message}` });
     }

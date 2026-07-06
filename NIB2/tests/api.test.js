@@ -360,10 +360,34 @@ test("/api/feeds and /api/markets serve injected data", async () => {
 });
 
 test("/api/gmail/unread reports not-connected cleanly (no crash, no 500)", async () => {
+  delete process.env.N8N_GMAIL_WEBHOOK_URL;
   const { status, body } = await req("/api/gmail/unread");
   assert.equal(status, 200);
   assert.equal(body.connected, false);
   assert.deepEqual(body.emails, []);
+});
+
+test("/api/gmail/unread uses the n8n webhook when configured", async () => {
+  process.env.N8N_GMAIL_WEBHOOK_URL = "https://example.app.n8n.cloud/webhook/nib2-gmail";
+  const s = await startServer({
+    makeClient: () => mockClient,
+    n8nUnread: async () => [{ id: "1", from: "a@b.c", subject: "Hello", snippet: "hi", date: "" }],
+  });
+  try {
+    const res = await fetch(`http://127.0.0.1:${s.address().port}/api/gmail/unread`);
+    const body = await res.json();
+    assert.equal(res.status, 200);
+    assert.equal(body.via, "n8n");
+    assert.equal(body.emails[0].subject, "Hello");
+
+    // and /api/status flips the gmail pill to connected-via-n8n
+    const st = await (await fetch(`http://127.0.0.1:${s.address().port}/api/status`)).json();
+    assert.equal(st.gmail.connected, true);
+    assert.equal(st.gmail.via, "n8n");
+  } finally {
+    s.close();
+    delete process.env.N8N_GMAIL_WEBHOOK_URL;
+  }
 });
 
 test("/api/bookings round-trips through the API", async () => {

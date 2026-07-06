@@ -143,6 +143,17 @@ NIB2 can read and search your Gmail and **draft** replies (it never sends, delet
 
 Until you do this, the Gmail pill shows "Gmail off" and NIB2 says Gmail isn't connected if asked — nothing breaks.
 
+### Easier alternative: Gmail via n8n
+
+If you already connected Gmail to an **n8n** workflow, skip Google Cloud entirely — NIB2 can read your unread mail through the workflow:
+
+1. In your n8n workflow, add a **Webhook** trigger node: HTTP Method **GET**, Respond **"When Last Node Finishes"**.
+2. Connect it to a **Gmail** node: operation **Message → Get Many**, Search `in:inbox is:unread`, **Simplify ON**, limit ~10.
+3. Toggle the workflow **Active** (top-right switch), then copy the Webhook node's **Production URL** (not the Test URL).
+4. Paste it into `.env.local` as `N8N_GMAIL_WEBHOOK_URL=...`
+
+The Gmail pill turns green ("Gmail on (n8n)"), the Command Centre's Unread Gmail card goes live, and asking NIB2 "what's in my inbox" reads your unread mail aloud. If both Gmail methods are configured, n8n wins.
+
 ## 5c. Bookings (B9 admin)
 
 The **Bookings** panel links straight to the B9 booking admin (`franchise.backninegolf.ca`). Live booking *data* inside NIB2 is not wired in yet: the admin site is a login-protected web app, so NIB2 needs proper API access from the booking platform vendor (an API key or export feed) — not screen-scraping a logged-in page. Once you know what platform runs it (check its help/settings pages for "API" or "integrations"), NIB2 can be wired to pull real numbers. Until then NIB2 will say so rather than invent booking data.
