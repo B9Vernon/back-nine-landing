@@ -57,6 +57,8 @@ Open **http://localhost:3900** in Chrome or Edge. That's NIB2.
 
 To stop the server, press `Ctrl+C` in the terminal. To keep it running, just leave that terminal window open (or minimize it).
 
+**Auto-reload:** `npm start` (and `start-nib2.bat`, below) uses Node's `--watch` flag — NIB2 automatically restarts itself the instant any server-side file changes on disk. You'll never again see a feature that "isn't showing up" because the running process is older than the code. (If you ever need the old no-watch behavior, use `npm run start:once` instead.)
+
 ---
 
 ## 4. Using NIB2 from your second computer

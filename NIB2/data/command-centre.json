@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-06T02:35:27.724Z",
+  "updatedAt": "2026-07-06T03:01:28.441Z",
   "intel": {
-    "fetchedAt": "2026-07-06T02:34:38.261Z",
+    "fetchedAt": "2026-07-06T03:01:28.441Z",
     "weather": {
       "location": "Vernon, BC",
-      "fetchedAt": "2026-07-06T02:34:17.130Z",
+      "fetchedAt": "2026-07-06T03:01:28.178Z",
       "condition": null,
       "temperature": 25.8,
       "humidity": 24,
@@ -63,7 +63,7 @@
         "category": "CP Sports"
       },
       {
-        "title": "Russian missile and drone attack on Ukraine's capital kills at least 3",
+        "title": "Russian missile and drone attack on Ukraine's capital kills at least 5",
         "link": "https://vernonmatters.ca/2026/07/05/russian-missile-and-drone-attack-on-ukraines-capital-kills-at-least-3/",
         "date": "Mon, 06 Jul 2026 02:06:06 +0000",
         "category": "World"
