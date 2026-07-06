@@ -499,8 +499,10 @@ async function speak(input) {
       await playElevenLabsChunks(prepared.chunks, runId);
       setTalking(false);
       return;
-    } catch {
+    } catch (err) {
       setTalking(false);
+      // Never silently degrade to the robot voice — say why it happened.
+      addSystemNote(`⚠ Human voice failed (${err.message}) — using the browser voice for this reply. If this keeps happening, restart the NIB2 server.`);
     }
   }
   speakBrowser(prepared.spokenText);
@@ -735,4 +737,13 @@ refreshTasks();
 refreshMemory();
 refreshSessions();
 refreshWeather();
+
+// "Ask NIB2 to execute" handoff from the Command Centre: the prompt lands in
+// the input box ready to send — NIB reviews and hits Enter, nothing auto-fires.
+const prefill = localStorage.getItem("nib2_prefill");
+if (prefill) {
+  localStorage.removeItem("nib2_prefill");
+  chatInput.value = prefill;
+  addSystemNote("Command Centre task loaded below — review it and hit Send.");
+}
 chatInput.focus();

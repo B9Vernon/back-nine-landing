@@ -300,6 +300,48 @@ test("/api/weather reports a clean 503 when the source fails", async () => {
   }
 });
 
+test("/api/command-centre GET returns the stored centre state", async () => {
+  const { status, body } = await req("/api/command-centre");
+  assert.equal(status, 200);
+  assert.ok("brief" in body && "intel" in body);
+});
+
+test("/api/command-centre/brief uses the injected generator and 503s without a key", async () => {
+  const briefServer = await startServer({
+    makeClient: () => mockClient,
+    generateBrief: async () => ({ brief: { headline: "test" }, briefGeneratedAt: "now" }),
+  });
+  const port = briefServer.address().port;
+  try {
+    const savedKey = process.env.ANTHROPIC_API_KEY;
+    process.env.ANTHROPIC_API_KEY = "test-key";
+    const ok = await fetch(`http://127.0.0.1:${port}/api/command-centre/brief`, { method: "POST" });
+    assert.equal(ok.status, 200);
+    assert.equal((await ok.json()).brief.headline, "test");
+
+    delete process.env.ANTHROPIC_API_KEY;
+    const noKey = await fetch(`http://127.0.0.1:${port}/api/command-centre/brief`, { method: "POST" });
+    assert.equal(noKey.status, 503);
+    if (savedKey !== undefined) process.env.ANTHROPIC_API_KEY = savedKey;
+  } finally {
+    briefServer.close();
+  }
+});
+
+test("/api/command-centre/intel refreshes via the injected gatherer", async () => {
+  const intelServer = await startServer({
+    makeClient: () => mockClient,
+    gatherIntel: async () => ({ fetchedAt: "now", weather: { temperature: 20 }, news: [], errors: [] }),
+  });
+  try {
+    const res = await fetch(`http://127.0.0.1:${intelServer.address().port}/api/command-centre/intel`, { method: "POST" });
+    assert.equal(res.status, 200);
+    assert.equal((await res.json()).weather.temperature, 20);
+  } finally {
+    intelServer.close();
+  }
+});
+
 test("/api/gmail/status reports not_configured cleanly", async () => {
   const { status, body } = await req("/api/gmail/status");
   assert.equal(status, 200);

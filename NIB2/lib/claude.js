@@ -80,6 +80,12 @@ const TOOLS = [
     },
   },
   {
+    name: "get_command_centre",
+    description:
+      "Read the B9 Command Centre: this week's live Vernon signals (real headlines + weather) and the latest generated weekly brief (top actions, revenue opportunities, positioning, activation queue). Use whenever NIB asks what B9 should do next, what's happening in Vernon, or for strategy/marketing/planning help. Check briefGeneratedAt — if it's old or null, tell NIB to hit 'Generate Weekly Brief' in the Command Centre.",
+    input_schema: { type: "object", properties: {} },
+  },
+  {
     name: "get_weather",
     description:
       "Get live current weather for Vernon, BC (Environment Canada): temperature, humidity, wind, and today's forecast. Use whenever NIB asks about weather, conditions, or wants weather context for business questions (e.g. why bays are empty).",
@@ -145,6 +151,14 @@ async function executeTool(name, input) {
         saveEntry(input.kind, input.value);
       }
       return { action: "memory_saved", detail: { kind: input.kind, value: input.value } };
+    }
+    case "get_command_centre": {
+      const { readCentre } = await import("./command-centre.js");
+      const centre = readCentre();
+      if (!centre.brief && !centre.intel) {
+        return { action: "command_centre_read", detail: { available: false, note: "Command Centre is empty. NIB should open the Command Centre page and hit 'Generate Weekly Brief'." } };
+      }
+      return { action: "command_centre_read", detail: centre };
     }
     case "get_weather": {
       try {

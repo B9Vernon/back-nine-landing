@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>B9 Command Centre</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="command-body">
+  <canvas id="neural-bg" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-logo" viewBox="0 0 96 96" aria-label="Back Nine Vernon" role="img">
+        <rect x="18" y="6" width="12" height="64" rx="5" fill="#f4f4ef"/>
+        <circle cx="52" cy="50" r="24" fill="none" stroke="#f4f4ef" stroke-width="11"/>
+        <circle cx="52" cy="47" r="15" fill="#96cb39"/>
+        <circle cx="52" cy="43.5" r="6.5" fill="#f4f4ef"/>
+        <path d="M65 54 C 65 70, 58 82, 47 90 L 57.5 93.5 C 68 84, 72 68, 69.5 51 Z" fill="#96cb39"/>
+      </svg>
+      <h1>B9 COMMAND CENTRE</h1>
+      <span class="brand-sub">Back Nine Vernon · Weekly Operating Intelligence</span>
+    </div>
+    <div class="status-cluster">
+      <a href="index.html" class="pill pill-btn" title="Back to the NIB2 chat dashboard">← NIB2</a>
+    </div>
+  </header>
+
+  <div class="pulse-strip" aria-hidden="true">
+    <svg viewBox="0 0 1200 24" preserveAspectRatio="none">
+      <path class="ekg-base" d="M0 12 H130 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H330 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H530 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H730 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H930 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H1200" />
+      <path class="ekg-glow" d="M0 12 H130 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H330 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H530 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H730 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H930 l8 -5 8 10 6 -14 8 20 6 -13 8 4 6 -2 H1200" />
+    </svg>
+  </div>
+
+  <main class="command-main">
+    <div class="cc-toolbar">
+      <button id="btn-brief" class="btn cta cta-green">⚡ Generate Weekly Brief</button>
+      <button id="btn-intel" class="btn cta cta-blue">📡 Refresh Vernon Intel</button>
+      <span id="cc-freshness" class="cc-freshness muted">Loading…</span>
+    </div>
+
+    <div id="cc-headline" class="cc-headline" hidden></div>
+
+    <div class="command-grid">
+      <section class="panel panel-blue cc-card" id="card-signals">
+        <h2>Vernon Signals <span class="cc-badge cc-live">live</span></h2>
+        <div class="cc-body muted">Loading…</div>
+      </section>
+
+      <section class="panel panel-green cc-card cc-wide" id="card-actions">
+        <h2>This Week's Top 5 Actions</h2>
+        <div class="cc-body muted">No brief yet — hit ⚡ Generate Weekly Brief.</div>
+      </section>
+
+      <section class="panel panel-gold cc-card" id="card-queue">
+        <h2>NIB2 Activation Queue</h2>
+        <div class="cc-body muted">No brief yet.</div>
+      </section>
+
+      <section class="panel panel-green cc-card" id="card-revenue">
+        <h2>Revenue Opportunities</h2>
+        <div class="cc-body muted">No brief yet.</div>
+      </section>
+
+      <section class="panel panel-gold cc-card" id="card-premium">
+        <h2>Premium Positioning</h2>
+        <div class="cc-body muted">No brief yet.</div>
+      </section>
+
+      <section class="panel panel-peach cc-card" id="card-competitor">
+        <h2>Competitor / Leisure Radar</h2>
+        <div class="cc-body muted">No brief yet.</div>
+      </section>
+
+      <section class="panel panel-blue cc-card" id="card-content">
+        <h2>Content Ideas</h2>
+        <div class="cc-body muted">No brief yet.</div>
+      </section>
+
+      <section class="panel panel-peach cc-card" id="card-corporate">
+        <h2>Corporate Opportunities</h2>
+        <div class="cc-body muted">No brief yet.</div>
+      </section>
+
+      <section class="panel panel-green cc-card" id="card-members">
+        <h2>Member Growth & Retention</h2>
+        <div class="cc-body muted">No brief yet.</div>
+      </section>
+
+      <section class="panel panel-gold cc-card" id="card-tournaments">
+        <h2>Tournament & League Ideas</h2>
+        <div class="cc-body muted">No brief yet.</div>
+      </section>
+    </div>
+
+    <div class="cc-footnote muted">
+      Live = real feed (Environment Canada weather, Vernon Matters headlines with links) ·
+      Reported = sourced from a listed headline · Idea = generated suggestion, verify before acting.
+      No invented events, stats, or competitor claims.
+    </div>
+  </main>
+
+  <script src="neural-bg.js"></script>
+  <script src="command.js"></script>
+</body>
+</html>

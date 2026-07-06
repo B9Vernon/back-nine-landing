@@ -7,13 +7,17 @@ import { hasApiKey, makeClient, runChat, runHandoff, describeApiError, MODEL } f
 import { synthesize, hasElevenLabs, elevenLabsStatus, voiceSettingsForClient, contentTypeForOutput } from "../lib/voice.js";
 import { prepareTextForTTS } from "../lib/speech-director.js";
 import { getVernonWeather } from "../lib/weather.js";
+import { readCentre, gatherIntel, generateBrief } from "../lib/command-centre.js";
 import * as gmail from "../lib/gmail.js";
 
-// deps.makeClient / deps.synthesize / deps.getWeather can be overridden in tests.
+// deps.makeClient / deps.synthesize / deps.getWeather / deps.gatherIntel /
+// deps.generateBrief can be overridden in tests.
 export function createApiRouter(deps = {}) {
   const clientFactory = deps.makeClient || makeClient;
   const speak = deps.synthesize || synthesize;
   const weather = deps.getWeather || getVernonWeather;
+  const intelFn = deps.gatherIntel || gatherIntel;
+  const briefFn = deps.generateBrief || generateBrief;
   const router = express.Router();
 
   // Optional password gate. Exempt: /status (health check) and the Gmail OAuth
@@ -66,6 +70,30 @@ export function createApiRouter(deps = {}) {
       res.json(await weather());
     } catch (err) {
       res.status(503).json({ error: `Weather unavailable: ${err.message}` });
+    }
+  });
+
+  // --- B9 Command Centre: weekly operating intelligence ---
+  router.get("/command-centre", (req, res) => res.json(readCentre()));
+
+  // Refresh live signals only (weather + Vernon Matters). Fast, no AI call.
+  router.post("/command-centre/intel", async (req, res) => {
+    try {
+      res.json(await intelFn());
+    } catch (err) {
+      res.status(503).json({ error: `Intel refresh failed: ${err.message}` });
+    }
+  });
+
+  // Generate the full weekly brief (uses the Anthropic API).
+  router.post("/command-centre/brief", async (req, res) => {
+    if (!hasApiKey()) {
+      return res.status(503).json({ error: "No Anthropic API key configured — cannot generate the brief." });
+    }
+    try {
+      res.json(await briefFn({ client: clientFactory() }));
+    } catch (err) {
+      res.status(502).json({ error: `Brief generation failed: ${err.message}` });
     }
   });
 
