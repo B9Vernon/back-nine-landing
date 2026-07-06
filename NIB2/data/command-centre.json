@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-07-06T03:01:28.441Z",
+  "updatedAt": "2026-07-06T13:39:18.885Z",
   "intel": {
-    "fetchedAt": "2026-07-06T03:01:28.441Z",
+    "fetchedAt": "2026-07-06T13:37:52.204Z",
     "weather": {
       "location": "Vernon, BC",
-      "fetchedAt": "2026-07-06T03:01:28.178Z",
+      "fetchedAt": "2026-07-06T13:36:30.423Z",
       "condition": null,
-      "temperature": 25.8,
-      "humidity": 24,
-      "windSpeed": 2,
-      "windDirection": "NW",
+      "temperature": 10.7,
+      "humidity": 62,
+      "windSpeed": 12,
+      "windDirection": "ESE",
       "windGust": 27,
-      "dewpoint": 3.9,
-      "pressure": 101.7,
+      "dewpoint": 3.8,
+      "pressure": 101.9,
       "forecast": {
-        "period": "Tonight",
-        "summary": "Clear. Wind north 20 km/h gusting to 40 becoming light this evening. Low 10."
+        "period": "Today",
+        "summary": "Sunny. Becoming a mix of sun and cloud this afternoon. High 32. UV index 7 or high."
       },
       "fiveDay": [
         {
-          "day": "Monday",
+          "day": "Today",
           "high": 32,
           "low": 14,
           "summary": "Mainly sunny",
@@ -29,8 +29,8 @@
           "day": "Tuesday",
           "high": 32,
           "low": 16,
-          "summary": "Sunny",
-          "iconCode": 0
+          "summary": "Mainly sunny",
+          "iconCode": 1
         },
         {
           "day": "Wednesday",
@@ -57,200 +57,283 @@
     },
     "news": [
       {
-        "title": "Castillo's 23-yard field goal lifts Blue Bombers to 14-13 victory over Tiger-Cats",
-        "link": "https://vernonmatters.ca/2026/07/05/castillos-23-yard-field-goal-lifts-blue-bombers-to-14-13-victory-over-tiger-cats/",
-        "date": "Mon, 06 Jul 2026 02:23:35 +0000",
+        "title": "Carney is expected to announce submarine contractor in Halifax stop ahead of NATO",
+        "link": "https://vernonmatters.ca/2026/07/06/carney-is-expected-to-announce-submarine-contractor-in-halifax-stop-ahead-of-nato/",
+        "date": "Mon, 06 Jul 2026 13:03:37 +0000",
+        "category": "Canada"
+      },
+      {
+        "title": "Rogers Communications buying remaining stake in MLSE from Kilmer Sports for $4.35B",
+        "link": "https://vernonmatters.ca/2026/07/06/cp-newsalert-rogers-buying-remaining-stake-in-mlse-from-kilmer-sports-for-4-35b/",
+        "date": "Mon, 06 Jul 2026 12:17:02 +0000",
         "category": "CP Sports"
       },
       {
-        "title": "Russian missile and drone attack on Ukraine's capital kills at least 5",
-        "link": "https://vernonmatters.ca/2026/07/05/russian-missile-and-drone-attack-on-ukraines-capital-kills-at-least-3/",
-        "date": "Mon, 06 Jul 2026 02:06:06 +0000",
+        "title": "Canadians with mental illness who saw MAID as an option feel abandoned: 'They've left me with nothing'",
+        "link": "https://vernonmatters.ca/2026/07/06/canadians-with-mental-illness-who-saw-maid-as-an-option-feel-abandoned-theyve-left-me-with-nothing/",
+        "date": "Mon, 06 Jul 2026 10:00:12 +0000",
+        "category": "Canada"
+      },
+      {
+        "title": "Canadian 'Little House on the Prairie' actors talk Indigenous representation in Netflix retelling",
+        "link": "https://vernonmatters.ca/2026/07/06/canadian-little-house-on-the-prairie-actors-talk-indigenous-representation-in-netflix-retelling/",
+        "date": "Mon, 06 Jul 2026 10:00:08 +0000",
+        "category": "British Columbia"
+      },
+      {
+        "title": "UEFA says decision by FIFA to let U.S. forward play at World Cup is 'incomprehensible'",
+        "link": "https://vernonmatters.ca/2026/07/06/uefa-says-decision-by-fifa-to-let-u-s-forward-play-at-world-cup-is-incomprehensible/",
+        "date": "Mon, 06 Jul 2026 09:38:46 +0000",
+        "category": "CP Sports"
+      },
+      {
+        "title": "Clashes in Sri Lankan prison leave at least 25 dead and over 100 injured",
+        "link": "https://vernonmatters.ca/2026/07/06/deadly-clashes-break-out-at-prison-in-sri-lanka/",
+        "date": "Mon, 06 Jul 2026 08:28:16 +0000",
         "category": "World"
       },
       {
-        "title": "Veteran quarterbacks Collaros, Mitchell both knocked out of Hamilton-Winnipeg game",
-        "link": "https://vernonmatters.ca/2026/07/05/veteran-quarterbacks-collaros-mitchell-both-knocked-out-of-hamilton-winnipeg-game/",
-        "date": "Mon, 06 Jul 2026 01:11:22 +0000",
-        "category": "CP Sports"
+        "title": "In the news today: NATO summit in Turkey, Khamenei funeral, public servants return",
+        "link": "https://vernonmatters.ca/2026/07/06/in-the-news-today-nato-summit-in-turkey-khamenei-funeral-public-servants-return/",
+        "date": "Mon, 06 Jul 2026 08:21:59 +0000",
+        "category": "Canada"
       },
       {
-        "title": "Blue Jays' Springer on track to return Monday; Scherzer to get another rehab start",
-        "link": "https://vernonmatters.ca/2026/07/05/blue-jays-springer-on-track-to-return-monday-scherzer-to-get-another-rehab-start/",
-        "date": "Mon, 06 Jul 2026 00:46:26 +0000",
-        "category": "CP Sports"
+        "title": "'Cost of drama is too high': NATO leaders meet in Turkey for annual summit",
+        "link": "https://vernonmatters.ca/2026/07/06/cost-of-drama-is-too-high-nato-leaders-meet-in-turkey-for-annual-summit/",
+        "date": "Mon, 06 Jul 2026 08:00:15 +0000",
+        "category": "Canada"
       },
       {
-        "title": "Neymar says after World Cup elimination he is done playing for Brazil",
-        "link": "https://vernonmatters.ca/2026/07/05/neymar-says-after-world-cup-elimination-he-is-done-playing-for-brazils-national-team/",
-        "date": "Mon, 06 Jul 2026 00:30:58 +0000",
-        "category": "CP Sports"
+        "title": "Office space scarce as federal public servants return to the office four days a week",
+        "link": "https://vernonmatters.ca/2026/07/06/office-space-scarce-as-federal-public-servants-return-to-the-office-four-days-a-week/",
+        "date": "Mon, 06 Jul 2026 08:00:13 +0000",
+        "category": "Canada"
       },
       {
-        "title": "Anaheim Ducks re-sign defenceman Mintyukov to 5-year deal amid Carlsson offer sheet drama",
-        "link": "https://vernonmatters.ca/2026/07/05/anaheim-ducks-re-sign-defenceman-mintyukov-to-5-year-deal-amid-carlsson-offer-sheet-drama/",
-        "date": "Mon, 06 Jul 2026 00:25:55 +0000",
-        "category": "CP Sports"
-      },
-      {
-        "title": "Hancock, Mariners blank Blue Jays 4-0; Garver hits two-run homer",
-        "link": "https://vernonmatters.ca/2026/07/05/hancock-mariners-blank-blue-jays-4-0-garver-hits-two-run-homer/",
-        "date": "Sun, 05 Jul 2026 23:43:35 +0000",
-        "category": "CP Sports"
-      },
-      {
-        "title": "Summer McIntosh breaks women's 200-metre butterfly world record at Canadian trials",
-        "link": "https://vernonmatters.ca/2026/07/05/cp-newsalert-mcintosh-sets-200-metre-butterfly-world-record-at-canadian-trials/",
-        "date": "Sun, 05 Jul 2026 23:39:37 +0000",
-        "category": "CP Sports"
-      },
-      {
-        "title": "Chris Gotterup wins John Deere Classic with a 62 and late help from Kohles",
-        "link": "https://vernonmatters.ca/2026/07/05/chris-gotterup-wins-john-deere-classic-with-a-62-and-late-help-from-kohles/",
-        "date": "Sun, 05 Jul 2026 23:05:29 +0000",
-        "category": "CP Sports"
-      },
-      {
-        "title": "Tempo dealt another tough hand with last-minute scratch, lineup change in loss",
-        "link": "https://vernonmatters.ca/2026/07/05/tempo-dealt-another-tough-hand-with-last-minute-scratch-lineup-change-in-loss/",
-        "date": "Sun, 05 Jul 2026 22:44:35 +0000",
-        "category": "CP Sports"
+        "title": "China test-launches a ballistic missile in a South Pacific nuclear-free zone",
+        "link": "https://vernonmatters.ca/2026/07/05/china-test-launches-ballistic-missile-from-submarine-in-the-pacific/",
+        "date": "Mon, 06 Jul 2026 05:23:42 +0000",
+        "category": "World"
       }
     ],
     "errors": []
   },
   "brief": {
-    "headline": "A sun-scorched week (32° peaks) is B9's cue to sell the cool, private escape by day and night-owl golf after dark — while a stacked pro-sports calendar hands you free social ammo.",
+    "headline": "A hot, sunny Okanagan week (32° peaks) pushes daytime golf outside — so B9 wins on evenings, night-owl access, and midday heat-escape bays.",
     "vernonSignals": [
       {
-        "signal": "Heat wave: Monday and Tuesday hit 32°C, Friday 31°C — outdoor rounds get sweaty and uncomfortable, making a climate-controlled bay the smarter play.",
+        "signal": "Sustained heat: 32°/32°/29°/28°/31° across the week — midday outdoor rounds get uncomfortable, opening a cool-bay 'heat escape' angle.",
         "source": "weather feed",
         "confidence": "live"
       },
       {
-        "signal": "Wednesday brings a chance of showers and a cooler 29°/12° — a natural 'weather-proof golf' trigger for casual bookings.",
+        "signal": "Wednesday chance of showers breaks the sun streak — a natural weather-proof booking prompt.",
         "source": "weather feed",
         "confidence": "live"
       },
       {
-        "signal": "Low humidity (24%) and light winds mean beautiful evenings — prime for after-work and night-owl league play.",
+        "signal": "Warm evenings and clear skies favor after-work and late-night league play in climate-controlled bays.",
         "source": "weather feed",
         "confidence": "live"
       },
       {
-        "signal": "PGA momentum: Gotterup's 62 to win the John Deere Classic gives a ready-made 'chase the pros' simulator challenge.",
-        "source": "Chris Gotterup wins John Deere Classic with a 62 and late help from Kohles",
+        "signal": "Federal public servants returning to office four days a week signals a broader return-to-in-person culture — relevant to corporate team-outing demand.",
+        "source": "Office space scarce as federal public servants return to the office four days a week",
         "confidence": "reported"
       },
       {
-        "signal": "Blue Jays are in the news cycle (Springer return, Mariners shutout) — sports-bar-style watch-and-play social energy for members.",
-        "source": "Blue Jays' Springer on track to return Monday; Scherzer to get another rehab start",
-        "confidence": "reported"
-      },
-      {
-        "signal": "CFL season is live (Bombers over Ti-Cats) — a hook for group/corporate 'game + golf' evenings.",
-        "source": "Castillo's 23-yard field goal lifts Blue Bombers to 14-13 victory over Tiger-Cats",
-        "confidence": "reported"
+        "signal": "Rogers buying full MLSE stake underscores sports-as-premium-asset momentum — lean into elevated golf culture positioning.",
+        "source": "Rogers Communications buying remaining stake in MLSE from Kilmer Sports for $4.35B",
+        "confidence": "idea"
       }
     ],
     "topActions": [
       {
-        "action": "Launch a 'Beat the Heat' daytime bay offer aimed at 11am–4pm on the 32° days.",
-        "why": "Peak sun makes outdoor courses unpleasant; B9's cool private bays are the obvious alternative during dead daytime hours.",
-        "benefit": "Fills low-traffic midday slots and converts heat-averse golfers into bookings.",
+        "action": "Launch a midday 'Heat Escape' block promoting cool, private bays during 32° peaks.",
+        "why": "Two straight 32° days make midday outdoor golf unpleasant; B9's climate-controlled bays are the obvious alternative.",
+        "benefit": "Fills traditionally soft daytime hours and reinforces premium comfort positioning.",
         "urgency": "now",
-        "nib2Help": "NIB2 can draft the offer copy, social captions, and a member text in minutes."
+        "nib2Help": "Draft the offer copy, social captions, and a member text.",
+        "prompt": "Draft a 'Heat Escape' midday promo for Back Nine Vernon this week: private climate-controlled Full Swing bays as the antidote to 32°C Okanagan afternoons. Give me polished website blurb, 3 Instagram captions (one spicier), and a short friendly member text pushing 11am-3pm slots."
       },
       {
-        "action": "Push a 'Chase Gotterup's 62' Full Swing scoring challenge for the week.",
-        "why": "A fresh, real PGA storyline gives members a reason to book and compete on-tech.",
-        "benefit": "Drives repeat bookings and showcases Full Swing data/leaderboard capability.",
+        "action": "Push a Wednesday rain-day booking nudge tied to the showers forecast.",
+        "why": "Wednesday's chance of showers is a clean weather-proof trigger to drive bookings.",
+        "benefit": "Converts a weather dip into filled bays; positions B9 as reliable regardless of sky.",
         "urgency": "this-week",
-        "nib2Help": "NIB2 can write the challenge rules, leaderboard framing, and promo posts."
+        "nib2Help": "Write the nudge across channels.",
+        "prompt": "Write a short Wednesday 'chance of showers' booking nudge for Back Nine Vernon — weather-proof indoor golf regardless of the forecast. Give me an SMS blast, an Instagram story line, and one email subject + 2-sentence body."
       },
       {
-        "action": "Promote evening/night-owl tee times given the mild, low-humidity nights.",
-        "why": "Great evenings pull golfers outside, so lean into after-dark and post-round social play B9 owns 24/7.",
-        "benefit": "Captures the night market no outdoor course can serve.",
+        "action": "Promote warm-evening night-owl and after-work league slots.",
+        "why": "Clear warm evenings are prime for social, competitive after-work play in comfortable bays.",
+        "benefit": "Drives evening bookings and seeds league/membership interest.",
         "urgency": "this-week",
-        "nib2Help": "NIB2 can craft Owl-tier and late-night booking messaging."
+        "nib2Help": "Draft evening-focused content and a league teaser.",
+        "prompt": "Draft after-work and night-owl promo content for Back Nine Vernon this warm week: 24/7 access, private bays, competitive vibe. Include 2 Instagram captions, a night-owl Owl-tier membership angle, and a teaser for a weeknight evening league."
       },
       {
-        "action": "Build a 'game night + bays' corporate/group pitch tied to the live CFL and MLB calendar.",
-        "why": "Active sports season makes 'watch + play' team outings an easy sell to local businesses.",
-        "benefit": "Opens corporate membership and private event conversations.",
+        "action": "Open a corporate team-outing outreach pass to categories, riding return-to-office momentum.",
+        "why": "Return-to-office culture nationally supports in-person team activities; corporate memberships are a top priority.",
+        "benefit": "Higher-value corporate memberships and event bookings.",
         "urgency": "this-month",
-        "nib2Help": "NIB2 can draft a one-page corporate outreach template by business category."
+        "nib2Help": "Build the target category list and outreach templates.",
+        "prompt": "Build a corporate outreach plan for Back Nine Vernon targeting business CATEGORIES in Vernon (realtors, insurance/financial offices, breweries, dental/medical clinics, auto dealerships, construction/trades firms). For each: how to find them and a warm, non-salesy pitch template for a team outing or Corporate membership. Include a subject line and 4-line email."
       },
       {
-        "action": "Use Wednesday's shower risk as a 'weather-proof golf' one-day booking nudge.",
-        "why": "Rain chance gives a timely, honest reason to book indoors that day.",
-        "benefit": "Converts hesitant outdoor golfers into midweek bookings.",
-        "urgency": "this-week",
-        "nib2Help": "NIB2 can pre-write a Wednesday-morning social/text blast to fire on trigger."
+        "action": "Seed a summer tournament/league built on the Beyond the Grass competitive layer.",
+        "why": "Tournaments and BTG usage are strategic priorities and fit the social summer-evening energy.",
+        "benefit": "Recurring bookings, member retention, and premium ecosystem positioning.",
+        "urgency": "this-month",
+        "nib2Help": "Design format and promo.",
+        "prompt": "Design a summer weeknight simulator league for Back Nine Vernon tied to Beyond the Grass (one leaderboard, season-long Cup layer). Give me format, length, entry structure, prize/perk ideas, and 2 promo captions positioning it as elevated competitive golf culture."
       }
     ],
     "revenueOpportunities": [
-      "Daytime 'Beat the Heat' 2-hour prime bay packages for the 32° stretch (idea).",
-      "Night-owl booking bundle leaning on mild evenings to fill after-hours capacity (idea).",
-      "'Game + golf' group evenings monetizing the live CFL/MLB season (idea).",
-      "Weekly Full Swing scoring challenge with a small entry that drives repeat visits (idea)."
+      {
+        "text": "Bundle a midday heat-escape 2-hour bay with cold drinks as a premium daytime package.",
+        "prompt": "Create a premium midday 'Heat Escape' package for Back Nine Vernon: 2-hour private bay + cold drinks, priced as an experience not a discount. Give me the package description, what's included, and a warm sales reply for inquiries."
+      },
+      {
+        "text": "Sell weeknight evening blocks to groups of 4 as a social outing alternative to a patio.",
+        "prompt": "Write a promo for Back Nine Vernon selling weeknight evening private-bay group outings for 4 as the elevated alternative to a crowded summer patio. Include booking copy and 2 social captions."
+      },
+      {
+        "text": "Offer a rain-contingency booking hook for Wednesday to capture last-minute demand.",
+        "prompt": "Draft a same-day 'showers rolling in?' last-minute booking offer for Back Nine Vernon Wednesday, driving fill of open bays. Keep it premium, not desperate — SMS + story format."
+      }
     ],
     "premiumPositioning": [
-      "Position B9 as the climate-controlled, private alternative when it's 32° outside — comfort as a premium feature, not a discount.",
-      "Frame 24/7 access as luxury flexibility: golf on your schedule, day or night, weather irrelevant.",
-      "Lead with the private-bay experience and Full Swing data quality over price."
+      {
+        "text": "Frame B9 as the climate-controlled counterpart to outdoor summer golf — same game, zero heat, full privacy.",
+        "prompt": "Write elevated website-ready copy positioning Back Nine Vernon as the climate-controlled counterpart to Okanagan summer golf: private Full Swing bays, no 32° heat, total privacy, year-round. Polished version plus a slightly spicier version."
+      },
+      {
+        "text": "Lean into modern sports-culture momentum (Rogers/MLSE) to position B9 as serious, elevated golf — not a rec-room sim.",
+        "prompt": "Draft a brand social post for Back Nine Vernon riding the elevated-sports-culture moment: premium, data-driven Full Swing golf as part of the Beyond the Grass ecosystem, not a discount sim rental. Give polished + spicier versions."
+      }
     ],
     "competitiveAdvantage": [
-      "Weather-proof and temperature-controlled — no course closes B9 for heat or showers.",
-      "24/7 access captures the evening and late-night golfers outdoor courses can't.",
-      "Private bays + Full Swing data create a premium, measurable experience outdoor rounds can't match.",
-      "Beyond the Grass connects B9 to a bigger leaderboard and competitive ecosystem beyond one facility."
+      {
+        "text": "Hammer the 24/7 access edge — golf at 6am or midnight when nothing else is open.",
+        "prompt": "Write 3 social captions for Back Nine Vernon emphasizing 24/7 access as the structural advantage — golf at any hour, private bay, your schedule. Sharp, confident, no cringe."
+      },
+      {
+        "text": "Emphasize Full Swing data (ball flight, shot metrics) as the practice edge outdoor ranges can't match.",
+        "prompt": "Draft content for Back Nine Vernon highlighting Full Swing simulator data — real shot metrics and feedback to actually improve — as an advantage over a hot outdoor range. One post + one short blurb."
+      }
     ],
     "contentIdeas": [
-      "'It's 32° out — your bay is 21° and the beer's cold.' Heat-escape reel (idea).",
-      "'Can you shoot a 62?' Gotterup-inspired challenge post with the Full Swing leaderboard (idea).",
-      "'Golf doesn't have a bedtime' night-owl carousel highlighting 24/7 access (idea).",
-      "Wednesday 'rain's problem, not yours' weather-proof story (idea)."
+      {
+        "text": "'32° outside, 21° in the bay' — heat-escape reel showing the comfort contrast this week.",
+        "prompt": "Script a short Instagram reel for Back Nine Vernon contrasting a 32°C Okanagan afternoon with a cool, private Full Swing bay. Give me the shot list, on-screen text, and caption."
+      },
+      {
+        "text": "Wednesday showers post: 'The only forecast that matters indoors is your ball speed.'",
+        "prompt": "Write an Instagram post for Back Nine Vernon tied to Wednesday's chance of showers — weather-proof indoor golf. Give me caption + 3 hashtag-light tags, premium tone."
+      },
+      {
+        "text": "Warm-evening 'night owl' post spotlighting late-night bay sessions under the 24/7 model.",
+        "prompt": "Create a night-owl themed social post for Back Nine Vernon promoting late-evening private-bay sessions during this week's warm nights, tied to the Owl membership tier. Caption + story line."
+      },
+      {
+        "text": "Okanagan summer 'play twice' angle: outdoor round in the AM, sim session to dial in the swing after.",
+        "prompt": "Write a post for Back Nine Vernon pitching the Okanagan golfer's double: morning outdoor round, afternoon Full Swing session to fix what went wrong. Caption, polished + spicier."
+      },
+      {
+        "text": "Poll/story: 'Would you rather play 18 in 32° heat or a cool private bay?' engagement hook.",
+        "prompt": "Draft an Instagram story poll for Back Nine Vernon: '18 in 32° heat vs a cool private bay?' plus a witty follow-up frame driving to book. Give me the exact text."
+      },
+      {
+        "text": "'Beat the heat leaderboard' — this week's best sim scores posted, tying into Beyond the Grass.",
+        "prompt": "Write a social post + weekly recap format for Back Nine Vernon showcasing a 'Beat the Heat' weekly leaderboard tied to Beyond the Grass. Include caption and a template for posting scores."
+      },
+      {
+        "text": "Behind-the-bays: what a private Full Swing setup actually looks/feels like vs assumptions.",
+        "prompt": "Script a short behind-the-scenes reel for Back Nine Vernon showing what a private Full Swing bay experience really feels like — premium, quiet, dialed. Shot list + caption."
+      },
+      {
+        "text": "'Summer patio is full — book a bay instead' cheeky evening social post.",
+        "prompt": "Write a cheeky-but-premium Instagram caption for Back Nine Vernon positioning a private bay as the better summer evening than a packed patio. Polished + spicier versions."
+      },
+      {
+        "text": "Corporate teaser tied to return-to-office culture: 'Team's back in the office — reward them.'",
+        "prompt": "Draft a LinkedIn-style post for Back Nine Vernon aimed at Vernon business owners: teams back in-person deserve a team outing in private simulator bays. Professional, warm, one clear CTA."
+      },
+      {
+        "text": "Membership fit explainer: Owl vs Birdie vs Eagle for the summer-and-beyond golfer.",
+        "prompt": "Write a clear, non-salesy membership explainer post for Back Nine Vernon comparing Owl, Birdie, and Eagle tiers by lifestyle fit. Verify tier framing against the memberships page and lead with value, not price."
+      },
+      {
+        "text": "'Golf year-round' post reframing summer sign-ups as a 12-month advantage, not seasonal.",
+        "prompt": "Create a post for Back Nine Vernon reframing a summer membership as year-round value — indoor golf through Okanagan winters too. Caption + short blurb, premium tone."
+      }
     ],
     "corporateTargets": [
-      "Real estate brokerages — find via local listing sites; pitch client-hosting and team night bays (idea).",
-      "Breweries/wineries — Okanagan is dense with them; propose cross-promo 'game + golf' evenings (idea).",
-      "Professional firms (accounting, law, dental) — search local directories; pitch corporate memberships for client entertainment (idea).",
-      "Auto dealerships and trades suppliers — approach via their sales managers for team-outing packages (idea)."
+      {
+        "text": "Real estate brokerages — high-touch, client-hosting culture; find via local realtor rosters and approach team leads about client-appreciation bay events.",
+        "prompt": "Write a warm outreach email for Back Nine Vernon to Vernon real estate brokerages pitching private-bay client-appreciation events and a Corporate membership. Explain how to find brokerage team leads and give subject line + 4-line body."
+      },
+      {
+        "text": "Breweries/hospitality operators — cross-promotion and staff outings; approach owners about reciprocal group nights.",
+        "prompt": "Draft a partnership/outreach pitch for Back Nine Vernon to Vernon breweries and hospitality operators for staff outings and cross-promotion. Include how to identify them and a low-pressure message template."
+      },
+      {
+        "text": "Trades/construction and auto dealership firms — team-morale outings; approach ops managers with a Corporate team-access angle.",
+        "prompt": "Write a Corporate membership outreach template for Back Nine Vernon aimed at Vernon trades/construction and auto dealership businesses for team outings and morale events. Include how to find ops managers and a concise pitch."
+      }
     ],
     "memberGrowth": [
-      "Convert heat-wave day-drop-ins into Birdie trials with a low-pressure follow-up (idea).",
-      "Use night-mild evenings to market Owl night-access tier to shift workers and late players (idea).",
-      "Referral nudge: current members bring a guest during the challenge week (idea)."
+      {
+        "text": "Convert heat-escape day guests into Birdie trials with a warm same-day membership mention.",
+        "prompt": "Write a warm, low-pressure in-person and follow-up script for Back Nine Vernon staff to convert a heat-escape day guest into a Birdie membership conversation. No hard sell."
+      },
+      {
+        "text": "Referral nudge to existing members: bring a friend for an evening bay session this week.",
+        "prompt": "Draft a friendly member text for Back Nine Vernon inviting members to bring a friend for a warm-evening bay session, with a soft nod to guest privileges. Casual tone."
+      },
+      {
+        "text": "Target evening after-work crowd for Owl/Birdie sign-ups via night-slot content.",
+        "prompt": "Create a short campaign for Back Nine Vernon targeting the after-work crowd to convert into Owl or Birdie members, using this week's warm evenings. Give 2 captions + one email."
+      }
     ],
     "tournamentIdeas": [
-      "Weekly 'Chase the 62' Full Swing closest-to-score challenge tied to the John Deere winner (idea).",
-      "'Beat the Heat Cup' summer mini-league running through the hot stretch (idea).",
-      "A Beyond the Grass cross-location leaderboard night to showcase the bigger ecosystem (idea)."
+      {
+        "text": "Weeknight summer 'Beat the Heat' league with a Beyond the Grass leaderboard tie-in.",
+        "prompt": "Design a weeknight 'Beat the Heat' summer league for Back Nine Vernon on Full Swing, feeding a Beyond the Grass leaderboard. Give format, weeks, entry, perks, and 2 promo captions."
+      },
+      {
+        "text": "One-night rain-contingency 'Showers Shootout' Wednesday mini-tournament.",
+        "prompt": "Draft a one-night 'Showers Shootout' mini-tournament for Back Nine Vernon on Wednesday tied to the showers forecast. Give format, entry, prize idea, and promo copy."
+      },
+      {
+        "text": "Corporate cup: teams from local businesses compete over a season on the BTG layer.",
+        "prompt": "Design a corporate season-long cup for Back Nine Vernon where local business teams compete on the Beyond the Grass leaderboard. Give structure, pricing angle, and an outreach blurb to recruit teams."
+      }
     ],
     "activationQueue": [
       {
-        "task": "Draft heat-wave daytime offer social copy",
-        "prompt": "Draft 3 Instagram captions (one polished, one spicier, one short) for a midweek heat-wave escape: private climate-controlled Full Swing bay, cold drinks, 2-hour prime midday slot, for a week where Vernon hits 32°C. Premium tone, no discount cringe."
+        "task": "Ship the Heat Escape midday campaign across channels.",
+        "prompt": "Assemble the full 'Heat Escape' midday campaign for Back Nine Vernon: website blurb, 3 Instagram captions, a member SMS, and a story frame — all tied to this week's 32°C forecast and 11am-3pm bay slots."
       },
       {
-        "task": "Write the Gotterup scoring challenge",
-        "prompt": "Write rules and a promo post for a week-long 'Chase Gotterup's 62' Full Swing scoring challenge at B9, referencing his John Deere Classic 62 win, with leaderboard framing and a low-pressure call to book a bay."
+        "task": "Prep the Wednesday showers booking push.",
+        "prompt": "Prepare a ready-to-send Wednesday showers booking push for Back Nine Vernon: SMS, story line, and email subject + body, premium weather-proof tone."
       },
       {
-        "task": "Build corporate 'game + golf' one-pager",
-        "prompt": "Draft a one-page corporate outreach template pitching 'game night + private bays' evenings to local businesses (by category: realtors, breweries, professional firms), tied to the live CFL and MLB season. Warm, premium, low-pressure."
+        "task": "Build the corporate category outreach kit.",
+        "prompt": "Create a corporate outreach kit for Back Nine Vernon covering realtors, breweries, trades, auto dealerships, and clinics: how to find each, plus a warm email template and subject line per category."
       },
       {
-        "task": "Pre-load Wednesday rain-trigger blast",
-        "prompt": "Write a short member text and Instagram story for Wednesday morning leaning on the chance of showers: 'weather-proof golf' angle, nudge to book a bay today. Friendly, confident, no salesy tone."
+        "task": "Draft the summer weeknight BTG league.",
+        "prompt": "Draft the full summer weeknight 'Beat the Heat' league for Back Nine Vernon tied to Beyond the Grass: format, schedule, entry, perks, and launch promo captions."
       },
       {
-        "task": "Draft night-owl evening messaging",
-        "prompt": "Draft a social carousel and a member text promoting after-hours and night-owl tee times at B9, leaning on mild low-humidity Vernon evenings and 24/7 access. Highlight the Owl tier for late/shift players."
+        "task": "Answer the open dashboard streaming question.",
+        "prompt": "Help NIB test whether the dashboard streams NIB2 responses or waits for a full block — outline a quick check and what to look for in each case."
       }
     ]
   },
-  "briefGeneratedAt": "2026-07-06T02:35:27.724Z"
+  "briefGeneratedAt": "2026-07-06T13:39:18.885Z"
 }

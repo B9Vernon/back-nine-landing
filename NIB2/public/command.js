@@ -51,9 +51,23 @@ function setBody(cardId, html, isEmpty = false) {
   body.innerHTML = html;
 }
 
+// Idea lists are clickable: every item generated with a prompt gets an
+// "→" button that hands it straight to NIB2. Tolerates the older
+// plain-string brief shape (renders without a button).
 function renderList(cardId, items) {
   if (!items?.length) return setBody(cardId, "Nothing here yet.", true);
-  setBody(cardId, `<ul class="cc-list">${items.map((i) => `<li>${esc(i)} ${badge("idea")}</li>`).join("")}</ul>`);
+  const body = el(cardId).querySelector(".cc-body");
+  body.classList.remove("muted");
+  body.innerHTML = `<ul class="cc-list">${items
+    .map((item, i) => {
+      const text = typeof item === "string" ? item : item.text;
+      const hasPrompt = typeof item === "object" && item.prompt;
+      return `<li class="cc-idea">${esc(text)} ${badge("idea")}${hasPrompt ? `<button class="cc-idea-exec" data-idx="${i}" title="Send this to NIB2 to execute">→ NIB2</button>` : ""}</li>`;
+    })
+    .join("")}</ul>`;
+  body.querySelectorAll(".cc-idea-exec").forEach((btn) => {
+    btn.addEventListener("click", () => askNib2(items[Number(btn.dataset.idx)].prompt));
+  });
 }
 
 function renderSignals(centre) {
@@ -87,19 +101,21 @@ function renderSignals(centre) {
 
 function renderActions(brief) {
   if (!brief?.topActions?.length) return setBody("card-actions", "No brief yet — hit ⚡ Generate Weekly Brief.", true);
-  setBody(
-    "card-actions",
-    brief.topActions
-      .map(
-        (a, i) => `
+  const body = el("card-actions").querySelector(".cc-body");
+  body.classList.remove("muted");
+  body.innerHTML = brief.topActions
+    .map(
+      (a, i) => `
       <div class="cc-action">
-        <div class="cc-action-head"><span class="cc-rank">${i + 1}</span><b>${esc(a.action)}</b><span class="cc-badge cc-urg-${esc(a.urgency)}">${esc(a.urgency)}</span></div>
+        <div class="cc-action-head"><span class="cc-rank">${i + 1}</span><b>${esc(a.action)}</b><span class="cc-badge cc-urg-${esc(a.urgency)}">${esc(a.urgency)}</span>${a.prompt ? `<button class="cc-idea-exec cc-action-exec" data-idx="${i}" title="Send this to NIB2 to execute">→ NIB2</button>` : ""}</div>
         <div class="cc-action-why">${esc(a.why)} — <i>${esc(a.benefit)}</i></div>
         <div class="cc-action-help">NIB2: ${esc(a.nib2Help)}</div>
       </div>`
-      )
-      .join("")
-  );
+    )
+    .join("");
+  body.querySelectorAll(".cc-action-exec").forEach((btn) => {
+    btn.addEventListener("click", () => askNib2(brief.topActions[Number(btn.dataset.idx)].prompt));
+  });
 }
 
 function renderQueue(brief) {
@@ -141,6 +157,83 @@ function renderAll(centre) {
   renderList("card-corporate", brief?.corporateTargets);
   renderList("card-members", brief?.memberGrowth);
   renderList("card-tournaments", brief?.tournamentIdeas);
+}
+
+// ---------- Live tickers: Dow, S&P 500, Nasdaq, TSX ----------
+async function loadTickers() {
+  const strip = el("cc-tickers");
+  try {
+    const m = await api("/markets");
+    strip.innerHTML = m.quotes
+      .map((q) => {
+        const up = (q.change ?? 0) >= 0;
+        const pct = q.changePct !== null ? `${up ? "+" : ""}${q.changePct.toFixed(2)}%` : "";
+        return `<span class="cc-tick"><span class="cc-tick-label">${esc(q.label)}</span><span class="cc-tick-price">${q.price.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span><span class="cc-tick-chg ${up ? "cc-up" : "cc-down"}">${up ? "▲" : "▼"} ${pct}</span></span>`;
+      })
+      .join("") + `<span class="cc-tick-meta">Yahoo Finance · ${new Date(m.fetchedAt).toLocaleTimeString()}</span>`;
+  } catch (err) {
+    strip.innerHTML = `<span class="muted">Markets unavailable: ${esc(err.message)}</span>`;
+  }
+}
+setInterval(loadTickers, 5 * 60 * 1000); // matches the server's 5-min cache
+
+// ---------- News cards: CBC Sports, Financial Post, CNBC Markets ----------
+function renderNewsCard(cardId, feed) {
+  if (!feed?.items?.length) return setBody(cardId, "Feed unavailable right now.", true);
+  setBody(cardId, `<ul class="cc-list cc-news">${feed.items
+    .slice(0, 10)
+    .map((n) => `<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a></li>`)
+    .join("")}</ul><div class="weather-meta">${esc(feed.source)}</div>`);
+}
+
+async function loadFeeds() {
+  try {
+    const f = await api("/feeds");
+    renderNewsCard("card-sports", f.sports);
+    renderNewsCard("card-bizNews", f.business);
+    renderNewsCard("card-marketNews", f.markets);
+  } catch (err) {
+    for (const id of ["card-sports", "card-bizNews", "card-marketNews"]) setBody(id, `Feeds unavailable: ${esc(err.message)}`, true);
+  }
+}
+
+// ---------- Unread Gmail ----------
+async function loadGmailUnread() {
+  try {
+    const g = await api("/gmail/unread");
+    if (!g.connected) {
+      return setBody(
+        "card-gmail",
+        `Gmail isn't connected yet. One-time setup (~10 min, beginner steps in <b>README §5b</b>): Google Cloud project → enable Gmail API → OAuth credentials → paste 2 values into .env.local → visit <code>/api/gmail/auth</code> on the home computer. This card lights up with your unread inbox the moment that's done.`,
+        true
+      );
+    }
+    if (!g.emails.length) return setBody("card-gmail", "Inbox zero. Suspiciously impressive.", true);
+    setBody("card-gmail", `<ul class="cc-list">${g.emails
+      .map((e) => `<li class="cc-mail"><b>${esc(e.from.replace(/<.*>/, "").trim())}</b> — ${esc(e.subject)}<span class="cc-src">${esc(e.snippet.slice(0, 80))}</span></li>`)
+      .join("")}</ul>`);
+  } catch (err) {
+    setBody("card-gmail", `Gmail error: ${esc(err.message)}`, true);
+  }
+}
+
+// ---------- Today's bookings (manual sync until B9 corporate provides an API) ----------
+async function loadBookings() {
+  try {
+    const b = await api("/bookings");
+    if (!b.bookings.length) {
+      return setBody(
+        "card-bookings",
+        `No bookings synced. The B9 admin has no public API yet (ask B9 corporate — see README §5c). Until then, tell NIB2 in chat: <i>"sync today's bookings: 10am bay 1 Smith, 2pm bay 3 corporate demo"</i> — or POST to /api/bookings.`,
+        true
+      );
+    }
+    setBody("card-bookings", `<ul class="cc-list">${b.bookings
+      .map((x) => `<li><b>${esc(x.time)}</b>${x.bay ? ` · Bay ${esc(x.bay)}` : ""}${x.name ? ` · ${esc(x.name)}` : ""}${x.note ? `<span class="cc-src">${esc(x.note)}</span>` : ""}</li>`)
+      .join("")}</ul><div class="weather-meta">${esc(b.source)} · updated ${new Date(b.updatedAt).toLocaleString()}</div>`);
+  } catch (err) {
+    setBody("card-bookings", `Bookings unavailable: ${esc(err.message)}`, true);
+  }
 }
 
 async function load() {
@@ -185,3 +278,7 @@ el("btn-brief").addEventListener("click", async () => {
 });
 
 load();
+loadTickers();
+loadFeeds();
+loadGmailUnread();
+loadBookings();

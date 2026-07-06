@@ -563,6 +563,47 @@ body.brainview.talking #brain-hub {
 .cc-error { color: var(--warn); font-size: 0.76rem; margin-top: 8px; }
 .cc-footnote { margin-top: 16px; font-size: 0.72rem; line-height: 1.5; max-width: 900px; }
 
+/* Live index ticker strip */
+.cc-tickers {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 18px;
+  background: rgba(21, 23, 15, 0.72);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 16px;
+  margin-bottom: 14px;
+  font-size: 0.85rem;
+}
+.cc-tick { display: inline-flex; align-items: baseline; gap: 8px; }
+.cc-tick-label { color: var(--accent-2); font-weight: 700; letter-spacing: 0.04em; font-size: 0.74rem; }
+.cc-tick-price { color: var(--text); font-weight: 700; }
+.cc-tick-chg { font-size: 0.76rem; font-weight: 600; }
+.cc-up { color: var(--accent); }
+.cc-down { color: var(--danger); }
+.cc-tick-meta { color: var(--text-dim); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; margin-left: auto; }
+
+/* Clickable idea items: every generated idea can be handed to NIB2 */
+.cc-idea { position: relative; }
+.cc-idea-exec {
+  background: transparent;
+  border: 1px solid var(--accent-dim);
+  color: var(--accent);
+  border-radius: 999px;
+  font-size: 0.66rem;
+  font-weight: 700;
+  padding: 1px 9px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+  vertical-align: middle;
+}
+.cc-idea-exec:hover {
+  background: var(--accent);
+  color: #10130a;
+  box-shadow: 0 0 10px rgba(150, 203, 57, 0.4);
+}
+.cc-mail .cc-src { display: block; margin-left: 0; }
+
 /* Narrow windows: stack panels (still desktop-first, just resilient) */
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; overflow-y: auto; }

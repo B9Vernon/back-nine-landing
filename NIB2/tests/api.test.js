@@ -342,6 +342,40 @@ test("/api/command-centre/intel refreshes via the injected gatherer", async () =
   }
 });
 
+test("/api/feeds and /api/markets serve injected data", async () => {
+  const s = await startServer({
+    makeClient: () => mockClient,
+    getAllFeeds: async () => ({ fetchedAt: "now", sports: { source: "CBC", items: [{ title: "t", link: "l" }] }, business: null, markets: null, errors: [] }),
+    getIndices: async () => ({ fetchedAt: "now", quotes: [{ label: "DOW", price: 1 }], errors: [] }),
+  });
+  const port = s.address().port;
+  try {
+    const f = await (await fetch(`http://127.0.0.1:${port}/api/feeds`)).json();
+    assert.equal(f.sports.items[0].title, "t");
+    const m = await (await fetch(`http://127.0.0.1:${port}/api/markets`)).json();
+    assert.equal(m.quotes[0].label, "DOW");
+  } finally {
+    s.close();
+  }
+});
+
+test("/api/gmail/unread reports not-connected cleanly (no crash, no 500)", async () => {
+  const { status, body } = await req("/api/gmail/unread");
+  assert.equal(status, 200);
+  assert.equal(body.connected, false);
+  assert.deepEqual(body.emails, []);
+});
+
+test("/api/bookings round-trips through the API", async () => {
+  const posted = await req("/api/bookings", {
+    method: "POST",
+    body: JSON.stringify({ bookings: [{ time: "2pm", bay: "3", name: "Corporate demo" }] }),
+  });
+  assert.equal(posted.status, 200);
+  const got = await req("/api/bookings");
+  assert.equal(got.body.bookings[0].time, "2pm");
+});
+
 test("/api/gmail/status reports not_configured cleanly", async () => {
   const { status, body } = await req("/api/gmail/status");
   assert.equal(status, 200);

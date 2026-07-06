@@ -69,6 +69,18 @@ export async function gatherIntel({ weatherFn = getVernonWeather, newsFn = getVe
 }
 
 // Strict JSON schema so the brief always renders — no free-form parsing.
+// Every idea carries a ready-to-send NIB2 prompt, so the whole dashboard is
+// clickable: one press hands the idea to NIB2 for execution.
+const IDEA_ITEM = {
+  type: "object",
+  properties: {
+    text: { type: "string", description: "The idea, tight — one to two sentences" },
+    prompt: { type: "string", description: "A self-contained chat message NIB can send to NIB2 verbatim to execute this idea" },
+  },
+  required: ["text", "prompt"],
+  additionalProperties: false,
+};
+
 const BRIEF_SCHEMA = {
   type: "object",
   properties: {
@@ -97,18 +109,23 @@ const BRIEF_SCHEMA = {
           benefit: { type: "string" },
           urgency: { type: "string", enum: ["now", "this-week", "this-month"] },
           nib2Help: { type: "string", description: "How NIB2 can help execute, or 'owner action' if it can't" },
+          prompt: { type: "string", description: "Self-contained chat message NIB can send to NIB2 to start executing this action" },
         },
-        required: ["action", "why", "benefit", "urgency", "nib2Help"],
+        required: ["action", "why", "benefit", "urgency", "nib2Help", "prompt"],
         additionalProperties: false,
       },
     },
-    revenueOpportunities: { type: "array", items: { type: "string" } },
-    premiumPositioning: { type: "array", items: { type: "string" } },
-    competitiveAdvantage: { type: "array", items: { type: "string" } },
-    contentIdeas: { type: "array", items: { type: "string" } },
-    corporateTargets: { type: "array", items: { type: "string" } },
-    memberGrowth: { type: "array", items: { type: "string" } },
-    tournamentIdeas: { type: "array", items: { type: "string" } },
+    revenueOpportunities: { type: "array", items: IDEA_ITEM },
+    premiumPositioning: { type: "array", items: IDEA_ITEM },
+    competitiveAdvantage: { type: "array", items: IDEA_ITEM },
+    contentIdeas: {
+      type: "array",
+      description: "AT LEAST 10 fresh content ideas tailored to Vernon BC / the Okanagan and this week's real signals.",
+      items: IDEA_ITEM,
+    },
+    corporateTargets: { type: "array", items: IDEA_ITEM },
+    memberGrowth: { type: "array", items: IDEA_ITEM },
+    tournamentIdeas: { type: "array", items: IDEA_ITEM },
     activationQueue: {
       type: "array",
       description: "Concrete things NIB should ask NIB2 to do next, with a ready-to-send prompt.",
@@ -175,7 +192,8 @@ ${B9_STRATEGY_PRIORITIES.map((p, i) => `${i + 1}. ${p}`).join("\n")}
 - Never negative about competitors — only where B9 structurally wins (24/7, weather-proof, premium, data-driven, private bays).
 - Weather is a weapon: cold/rain/heat/smoke = "escape outside conditions" angles; great weather = evenings/night-owl/league angles. Use the actual forecast above.
 - Tone: premium, confident, modern, dry wit welcome, zero salesy cringe.
-- activationQueue prompts must be self-contained messages NIB can paste to NIB2 verbatim (e.g. "Draft 3 Instagram post captions for a mid-week heat-wave escape offer: private cool bay, cold drinks, 2-hour prime slot.").
+- EVERY idea item (revenue, positioning, competitive, content, corporate, member, tournament) and every topAction carries a "prompt": a self-contained message NIB can paste to NIB2 verbatim to execute it (e.g. "Draft 3 Instagram post captions for a mid-week heat-wave escape offer: private cool bay, cold drinks, 2-hour prime slot."). Write real, specific prompts — not "help me with this".
+- contentIdeas: AT LEAST 10, each tailored to Vernon BC / the Okanagan and this week's actual signals (weather, headlines, season) — no generic "post a golf tip" filler.
 - Exactly 5 topActions. Keep every list item tight — one to two sentences.`;
 }
 

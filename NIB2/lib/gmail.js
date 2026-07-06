@@ -114,6 +114,29 @@ export async function summarizeInbox(max = 8) {
   return out;
 }
 
+// List unread inbox messages (read-only) — powers the Command Centre card.
+export async function listUnread(max = 10) {
+  const gmail = await gmailApi();
+  const list = await gmail.users.messages.list({ userId: "me", maxResults: max, q: "in:inbox is:unread" });
+  const messages = list.data.messages || [];
+  const out = [];
+  for (const m of messages) {
+    const full = await gmail.users.messages.get({
+      userId: "me", id: m.id, format: "metadata",
+      metadataHeaders: ["From", "Subject", "Date"],
+    });
+    const h = headerMap(full.data.payload?.headers);
+    out.push({
+      id: m.id,
+      from: h.from || "(unknown)",
+      subject: h.subject || "(no subject)",
+      date: h.date || "",
+      snippet: full.data.snippet || "",
+    });
+  }
+  return out;
+}
+
 // Search mail with a Gmail query string (read-only).
 export async function searchEmails(query, max = 8) {
   const gmail = await gmailApi();

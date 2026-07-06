@@ -8,6 +8,9 @@ import { synthesize, hasElevenLabs, elevenLabsStatus, voiceSettingsForClient, co
 import { prepareTextForTTS } from "../lib/speech-director.js";
 import { getVernonWeather } from "../lib/weather.js";
 import { readCentre, gatherIntel, generateBrief } from "../lib/command-centre.js";
+import { getAllFeeds } from "../lib/feeds.js";
+import { getIndices } from "../lib/markets.js";
+import { readBookings, writeBookings } from "../lib/bookings.js";
 import * as gmail from "../lib/gmail.js";
 
 // deps.makeClient / deps.synthesize / deps.getWeather / deps.gatherIntel /
@@ -18,6 +21,9 @@ export function createApiRouter(deps = {}) {
   const weather = deps.getWeather || getVernonWeather;
   const intelFn = deps.gatherIntel || gatherIntel;
   const briefFn = deps.generateBrief || generateBrief;
+  const feedsFn = deps.getAllFeeds || getAllFeeds;
+  const marketsFn = deps.getIndices || getIndices;
+  const unreadFn = deps.listUnread || gmail.listUnread;
   const router = express.Router();
 
   // Optional password gate. Exempt: /status (health check) and the Gmail OAuth
@@ -94,6 +100,47 @@ export function createApiRouter(deps = {}) {
       res.json(await briefFn({ client: clientFactory() }));
     } catch (err) {
       res.status(502).json({ error: `Brief generation failed: ${err.message}` });
+    }
+  });
+
+  // --- News feeds: CBC Sports, Financial Post, CNBC Markets (real RSS) ---
+  router.get("/feeds", async (req, res) => {
+    try {
+      res.json(await feedsFn());
+    } catch (err) {
+      res.status(503).json({ error: `Feeds unavailable: ${err.message}` });
+    }
+  });
+
+  // --- Live index tickers: Dow, S&P 500, Nasdaq, TSX (Yahoo Finance) ---
+  router.get("/markets", async (req, res) => {
+    try {
+      res.json(await marketsFn());
+    } catch (err) {
+      res.status(503).json({ error: `Markets unavailable: ${err.message}` });
+    }
+  });
+
+  // --- Unread Gmail for the Command Centre card ---
+  router.get("/gmail/unread", async (req, res) => {
+    if (!gmail.isConnected()) {
+      return res.json({ connected: false, reason: gmail.gmailStatus().reason, emails: [] });
+    }
+    try {
+      res.json({ connected: true, emails: await unreadFn(10) });
+    } catch (err) {
+      res.status(502).json({ error: `Gmail read failed: ${err.message}` });
+    }
+  });
+
+  // --- Today's bookings (manual sync until B9 corporate provides an API) ---
+  router.get("/bookings", (req, res) => res.json(readBookings()));
+  router.post("/bookings", (req, res) => {
+    const { bookings, source } = req.body || {};
+    try {
+      res.json(writeBookings(bookings, source || "manual"));
+    } catch (err) {
+      res.status(400).json({ error: err.message });
     }
   });
 

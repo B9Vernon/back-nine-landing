@@ -476,7 +476,11 @@ async function playElevenLabsChunks(chunks, runId) {
         nextText: chunks[i + 1] || "",
       }),
     });
-    if (!res.ok) throw new Error("ElevenLabs unavailable.");
+    if (!res.ok) {
+      const err = new Error(res.status === 503 ? "ElevenLabs not configured." : `ElevenLabs request failed (${res.status}).`);
+      err.status = res.status;
+      throw err;
+    }
     const blob = await res.blob();
     const url = URL.createObjectURL(blob);
     const audio = new Audio(url);
@@ -494,14 +498,17 @@ async function speak(input) {
   stopSpeaking();
   const runId = speechRunId;
 
-  if (elevenLabsReady) {
-    try {
-      await playElevenLabsChunks(prepared.chunks, runId);
-      setTalking(false);
-      return;
-    } catch (err) {
-      setTalking(false);
-      // Never silently degrade to the robot voice — say why it happened.
+  // ALWAYS try ElevenLabs first — never gate on a flag captured at page load.
+  // (A page that loaded while the server was restarting used to lock itself
+  // into the robot voice until refresh. Now every reply asks the server live;
+  // a 503 means "not configured" and falls back quietly, anything else warns.)
+  try {
+    await playElevenLabsChunks(prepared.chunks, runId);
+    setTalking(false);
+    return;
+  } catch (err) {
+    setTalking(false);
+    if (err?.status !== 503) {
       addSystemNote(`⚠ Human voice failed (${err.message}) — using the browser voice for this reply. If this keeps happening, restart the NIB2 server.`);
     }
   }
