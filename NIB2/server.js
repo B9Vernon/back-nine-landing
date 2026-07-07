@@ -42,22 +42,61 @@ function lanAddresses() {
   return addrs;
 }
 
-// Only start listening when run directly (tests import createApp instead).
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const PORT = Number(process.env.NIB2_PORT) || 3900;
-  const app = createApp();
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log("");
-    console.log("  NIB2 online.");
-    console.log(`  This computer:  http://localhost:${PORT}`);
+export function startupPort() {
+  return Number(process.env.NIB2_PORT || 3900);
+}
+
+export function formatPortInUseMessage(port) {
+  return [
+    "",
+    `  NIB2 could not start because port ${port} is already in use.`,
+    "",
+    `  NIB2 may already be running here: http://localhost:${port}`,
+    "  Open that address in your browser first.",
+    "",
+    "  If it does not load, close the other NIB2 terminal/window and run npm start again.",
+    "  I did not stop anything automatically, just in case another app is using that port.",
+    "",
+  ].join("\n");
+}
+
+export function startServer({
+  app = createApp(),
+  port = startupPort(),
+  host = "0.0.0.0",
+  log = console.log,
+  error = console.error,
+  exitOnError = true,
+} = {}) {
+  const server = app.listen(port, host, () => {
+    log("");
+    log("  NIB2 online.");
+    log(`  This computer:  http://localhost:${port}`);
     for (const ip of lanAddresses()) {
-      console.log(`  Other computer: http://${ip}:${PORT}`);
+      log(`  Other computer: http://${ip}:${port}`);
     }
     if (!process.env.ANTHROPIC_API_KEY) {
-      console.log("");
-      console.log("  WARNING: No ANTHROPIC_API_KEY found. Copy .env.example to .env.local,");
-      console.log("  add your key, and restart. The dashboard will load but chat is offline.");
+      log("");
+      log("  WARNING: No ANTHROPIC_API_KEY found. Copy .env.example to .env.local,");
+      log("  add your key, and restart. The dashboard will load but chat is offline.");
     }
-    console.log("");
+    log("");
   });
+
+  server.on("error", (err) => {
+    if (err?.code === "EADDRINUSE") {
+      error(formatPortInUseMessage(port));
+    } else {
+      error("  NIB2 could not start.");
+      error(err);
+    }
+    if (exitOnError) process.exitCode = 1;
+  });
+
+  return server;
+}
+
+// Only start listening when run directly (tests import createApp instead).
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  startServer();
 }
