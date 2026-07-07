@@ -3,7 +3,7 @@ import express from "express";
 import { readMemory, getRelevantContext, savePreference } from "../lib/memory.js";
 import { listTasks, addTask, updateTask, completeTask } from "../lib/tasks.js";
 import { listSessions, createSessionSummary } from "../lib/sessions.js";
-import { hasApiKey, makeClient, runChat, runHandoff, describeApiError, MODEL } from "../lib/claude.js";
+import { hasApiKey, makeClient, runChat, runHandoff, describeApiError, getModel } from "../lib/claude.js";
 import { synthesize, hasElevenLabs, elevenLabsStatus, voiceSettingsForClient, contentTypeForOutput } from "../lib/voice.js";
 import { prepareTextForTTS } from "../lib/speech-director.js";
 import { getVernonWeather } from "../lib/weather.js";
@@ -51,7 +51,7 @@ export function createApiRouter(deps = {}) {
   router.get("/status", (req, res) => {
     res.json({
       ok: true,
-      model: MODEL,
+      model: getModel(),
       hasApiKey: hasApiKey(),
       authRequired: Boolean(process.env.NIB2_PASSWORD),
       openTasks: listTasks().filter((t) => t.status !== "complete").length,

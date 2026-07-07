@@ -11,7 +11,14 @@ import * as gmail from "./gmail.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-export const MODEL = process.env.NIB2_MODEL || "claude-opus-4-8";
+// A function, not a frozen constant: ES module imports are hoisted and run
+// before server.js's dotenv.config() calls execute, so a top-level
+// `const MODEL = process.env.NIB2_MODEL || ...` would permanently lock in
+// whatever NIB2_MODEL was (usually nothing) at import time, ignoring
+// .env.local entirely. Reading it lazily, at call time, actually works.
+export function getModel() {
+  return process.env.NIB2_MODEL || "claude-opus-4-8";
+}
 
 export function hasApiKey() {
   return Boolean(process.env.ANTHROPIC_API_KEY);
@@ -312,7 +319,7 @@ export async function runChat({ client, messages, context, maxIterations = 5 }) 
 
   for (let i = 0; i < maxIterations; i++) {
     const response = await client.messages.create({
-      model: MODEL,
+      model: getModel(),
       max_tokens: 8000,
       system,
       tools: TOOLS,
@@ -362,7 +369,7 @@ export async function runHandoff({ client, messages }) {
     .join("\n\n");
 
   const response = await client.messages.create({
-    model: MODEL,
+    model: getModel(),
     max_tokens: 4000,
     system: getSystemPrompt(),
     messages: [

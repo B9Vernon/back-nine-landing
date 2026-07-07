@@ -19,7 +19,7 @@ import { getVernonWeather } from "./weather.js";
 import { getVernonNews } from "./vernon-intel.js";
 import { readMemory } from "./memory.js";
 import { getOpenTasks } from "./tasks.js";
-import { MODEL } from "./claude.js";
+import { getModel } from "./claude.js";
 
 const FILE = "command-centre.json";
 const EMPTY = { updatedAt: null, intel: null, brief: null, briefGeneratedAt: null };
@@ -210,7 +210,7 @@ export async function generateBrief({ client, weatherFn, newsFn } = {}) {
   const openTasks = getOpenTasks();
 
   const response = await client.messages.create({
-    model: MODEL,
+    model: getModel(),
     max_tokens: 8000,
     output_config: { format: { type: "json_schema", schema: BRIEF_SCHEMA } },
     messages: [{ role: "user", content: briefPrompt(intel, memory, openTasks) }],
