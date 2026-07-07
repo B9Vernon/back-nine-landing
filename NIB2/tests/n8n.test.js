@@ -42,7 +42,7 @@ test("isN8nConfigured follows N8N_WEBHOOK_URL", () => {
   assert.equal(isN8nConfigured(), false);
 });
 
-test("callN8n POSTs the command and secret header", async () => {
+test("callN8n POSTs {command, payload, source} with the secret header", async () => {
   let captured;
   await callN8n("connection_test", { foo: "bar" }, {
     fetchImpl: async (url, opts) => {
@@ -55,7 +55,8 @@ test("callN8n POSTs the command and secret header", async () => {
   assert.equal(captured.opts.headers["x-nib2-secret"], "shh-its-a-secret");
   const body = JSON.parse(captured.opts.body);
   assert.equal(body.command, "connection_test");
-  assert.equal(body.foo, "bar");
+  assert.equal(body.payload.foo, "bar");
+  assert.equal(body.source, "NIB2");
 });
 
 test("throws not_configured when N8N_WEBHOOK_URL is missing", async () => {
@@ -123,8 +124,8 @@ test("createGmailDraftViaN8n sends gmail_draft with recipient fields", async () 
     fetchImpl: async (url, opts) => { seenBody = JSON.parse(opts.body); return { ok: true, json: async () => ({ ok: true }) }; },
   });
   assert.equal(seenBody.command, "gmail_draft");
-  assert.equal(seenBody.to, "a@b.c");
-  assert.equal(seenBody.subject, "Hi");
+  assert.equal(seenBody.payload.to, "a@b.c");
+  assert.equal(seenBody.payload.subject, "Hi");
 });
 
 test("weeklyBriefViaN8n sends weekly_b9_brief", async () => {

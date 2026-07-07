@@ -1,7 +1,10 @@
 // NIB's "NIB2 Command Router" n8n workflow — one POST webhook that routes on
 // a `command` field: connection_test, gmail_summary, gmail_draft,
-// weekly_b9_brief. NIB2 is the client: it POSTs {command, ...payload} to
-// N8N_WEBHOOK_URL with the shared secret in a header, and gets JSON back.
+// weekly_b9_brief. NIB2 is the client: it POSTs
+// {command, payload, source} to N8N_WEBHOOK_URL with the shared secret in
+// a header, and gets JSON back. Body shape confirmed from a real pinned
+// execution in NIB's workflow (a gmail_summary call with
+// payload:{limit,query,readStatus} and source:"...").
 //
 // Setup (one-time, in n8n, done by NIB): Webhook (POST, Respond "When Last
 // Node Finishes") → Route on `command` → branches → activate workflow →
@@ -17,7 +20,7 @@ export function isN8nConfigured() {
   return Boolean(process.env.N8N_WEBHOOK_URL);
 }
 
-export async function callN8n(command, payload = {}, { fetchImpl = fetch, timeoutMs = 15000 } = {}) {
+export async function callN8n(command, payload = {}, { fetchImpl = fetch, timeoutMs = 15000, source = "NIB2" } = {}) {
   if (!isN8nConfigured()) {
     const err = new Error("n8n is not configured. Set N8N_WEBHOOK_URL (and N8N_WEBHOOK_SECRET) in .env.local.");
     err.code = "not_configured";
@@ -42,7 +45,7 @@ export async function callN8n(command, payload = {}, { fetchImpl = fetch, timeou
     res = await fetchImpl(process.env.N8N_WEBHOOK_URL, {
       method: "POST",
       headers,
-      body: JSON.stringify({ command, ...payload }),
+      body: JSON.stringify({ command, payload, source }),
       signal: controller.signal,
     });
   } catch (err) {
@@ -138,7 +141,11 @@ export async function testN8nConnection({ fetchImpl } = {}) {
 
 export async function fetchUnreadViaN8n({ fetchImpl, force = false } = {}) {
   if (!force && gmailCache.emails && Date.now() - gmailCache.at < CACHE_MS) return gmailCache.emails;
-  const body = await callN8n("gmail_summary", {}, { fetchImpl });
+  const body = await callN8n(
+    "gmail_summary",
+    { limit: 15, query: "newer_than:14d -in:spam -in:trash", readStatus: "unread" },
+    { fetchImpl }
+  );
   const { emails } = normalizeGmailSummary(body);
   gmailCache = { at: Date.now(), emails };
   return emails;
