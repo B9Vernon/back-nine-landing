@@ -255,7 +255,7 @@ async function executeTool(name, input) {
     case "gmail_summarize": {
       // Prefer the n8n webhook (NIB's n8n workflow owns the Google login);
       // fall back to direct OAuth if that's what's configured instead.
-      const { isN8nConfigured, fetchUnreadViaN8n } = await import("./gmail-n8n.js");
+      const { isN8nConfigured, fetchUnreadViaN8n } = await import("./n8n.js");
       if (isN8nConfigured()) {
         try {
           const emails = await fetchUnreadViaN8n();
@@ -278,11 +278,20 @@ async function executeTool(name, input) {
       return { action: "gmail_read", detail: { connected: true, emails } };
     }
     case "gmail_draft": {
+      const { isN8nConfigured, createGmailDraftViaN8n } = await import("./n8n.js");
+      if (isN8nConfigured()) {
+        try {
+          const draft = await createGmailDraftViaN8n(input);
+          return { action: "gmail_draft", detail: { connected: true, via: "n8n", ...draft, note: "Draft created via n8n. NIB must review and send it — NIB2 does not send." } };
+        } catch (err) {
+          return { action: "gmail_draft", detail: { connected: false, note: `n8n Gmail draft failed: ${err.message}` } };
+        }
+      }
       if (!gmail.isConnected()) {
         return { action: "gmail_draft", detail: { connected: false, note: "Gmail is not connected — cannot draft." } };
       }
       const draft = await gmail.createDraft(input);
-      return { action: "gmail_draft", detail: { connected: true, ...draft, note: "Draft created in Gmail. NIB must review and send it — NIB2 does not send." } };
+      return { action: "gmail_draft", detail: { connected: true, via: "oauth", ...draft, note: "Draft created in Gmail. NIB must review and send it — NIB2 does not send." } };
     }
     default:
       throw new Error(`Unknown tool: ${name}`);

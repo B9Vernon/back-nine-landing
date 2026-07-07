@@ -537,6 +537,35 @@ body.brainview.talking #brain-hub {
 .cc-badge[class*="cc-urg-now"] { color: var(--danger); border-color: var(--danger); }
 .cc-badge[class*="cc-urg-this-week"] { color: var(--warn); border-color: var(--warn); }
 .cc-badge[class*="cc-urg-this-month"] { color: var(--text-dim); border-color: var(--border); }
+
+/* ---------- n8n Commands panel ---------- */
+#card-n8n { margin-bottom: 14px; }
+.cc-n8n-readout {
+  font-family: "Consolas", "Courier New", monospace;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  margin: 8px 0 12px;
+  min-height: 20px;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+}
+.cc-n8n-readout.n8n-error { color: var(--danger); border-color: var(--danger); }
+.cc-n8n-readout.n8n-ok { color: var(--accent); }
+.cc-n8n-buttons { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.cc-n8n-draft { display: flex; flex-wrap: wrap; gap: 8px; }
+.cc-n8n-draft input, .cc-n8n-draft textarea {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  padding: 8px 10px;
+  font: inherit;
+}
+.cc-n8n-draft input { flex: 1 1 220px; }
+.cc-n8n-draft textarea { flex: 1 1 100%; resize: vertical; }
+.cc-n8n-draft button { flex: 0 0 auto; }
 .cc-weather { margin-bottom: 8px; }
 .cc-weather b { color: #39b8de; font-size: 1.15rem; }
 .cc-days { color: var(--text-dim); font-size: 0.76rem; margin-top: 3px; }

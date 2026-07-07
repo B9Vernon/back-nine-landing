@@ -236,6 +236,57 @@ async function loadBookings() {
   }
 }
 
+// ---------- N8N Commands panel ----------
+function setN8nReadout(text, kind) {
+  const box = el("n8n-readout");
+  box.textContent = text;
+  box.classList.remove("n8n-error", "n8n-ok");
+  if (kind) box.classList.add(kind === "error" ? "n8n-error" : "n8n-ok");
+}
+
+async function loadN8nStatus() {
+  const badge = el("n8n-badge");
+  try {
+    const s = await api("/n8n/status");
+    badge.textContent = s.configured ? "connected" : "not configured";
+    badge.className = `cc-badge ${s.configured ? "cc-live" : "muted"}`;
+    setN8nReadout(
+      s.configured
+        ? "NIB, n8n is connected. Hit Test n8n Connection to confirm the round trip."
+        : "NIB, n8n is missing N8N_WEBHOOK_URL in .env.local."
+    );
+  } catch (err) {
+    badge.textContent = "error";
+    setN8nReadout(`NIB, couldn't check n8n status: ${err.message}`, "error");
+  }
+}
+
+async function runN8nCommand(command, extra = {}) {
+  setN8nReadout("NIB, working on it…");
+  try {
+    const res = await api("/n8n/command", { method: "POST", body: JSON.stringify({ command, ...extra }) });
+    setN8nReadout(`NIB, done. Result:\n${JSON.stringify(res.result, null, 2)}`, "ok");
+    return res;
+  } catch (err) {
+    setN8nReadout(`NIB, that failed: ${err.message}`, "error");
+    return null;
+  }
+}
+
+el("btn-n8n-test").addEventListener("click", () => runN8nCommand("connection_test"));
+el("btn-n8n-gmail").addEventListener("click", async () => {
+  const res = await runN8nCommand("gmail_summary");
+  if (res) loadGmailUnread();
+});
+el("btn-n8n-brief").addEventListener("click", () => runN8nCommand("weekly_b9_brief"));
+el("btn-n8n-draft").addEventListener("click", () => {
+  const to = el("n8n-draft-to").value.trim();
+  const subject = el("n8n-draft-subject").value.trim();
+  const body = el("n8n-draft-body").value;
+  if (!to || !subject) return setN8nReadout("NIB, a draft needs at least a recipient and subject.", "error");
+  runN8nCommand("gmail_draft", { to, subject, body });
+});
+
 async function load() {
   try {
     renderAll(await api("/command-centre"));
@@ -282,3 +333,4 @@ loadTickers();
 loadFeeds();
 loadGmailUnread();
 loadBookings();
+loadN8nStatus();

@@ -143,16 +143,25 @@ NIB2 can read and search your Gmail and **draft** replies (it never sends, delet
 
 Until you do this, the Gmail pill shows "Gmail off" and NIB2 says Gmail isn't connected if asked — nothing breaks.
 
-### Easier alternative: Gmail via n8n
+### Easier alternative: n8n Command Router (Gmail + more)
 
-If you already connected Gmail to an **n8n** workflow, skip Google Cloud entirely — NIB2 can read your unread mail through the workflow:
+If you have an **n8n** workflow that owns your Gmail connection, skip Google Cloud entirely. NIB2 talks to it as a **Command Router**: one Webhook that takes a `command` field and routes to whatever you've built.
 
-1. In your n8n workflow, add a **Webhook** trigger node: HTTP Method **GET**, Respond **"When Last Node Finishes"**.
-2. Connect it to a **Gmail** node: operation **Message → Get Many**, Search `in:inbox is:unread`, **Simplify ON**, limit ~10.
+1. In your n8n workflow, add a **Webhook** trigger node: HTTP Method **POST**, Respond **"When Last Node Finishes"**. Turn on header auth on that node and set a secret value (any string you pick).
+2. After the Webhook, add a **Switch/Route** node keyed on the incoming `command` field, with branches for whichever of these you support:
+   - `connection_test` — respond with anything (e.g. `{ ok: true }`) so NIB2 can confirm the round trip.
+   - `gmail_summary` — Gmail node, **Get Many**, search `in:inbox is:unread`, Simplify ON → respond with the list (or a plain `{ summary: "..." }` string).
+   - `gmail_draft` — Gmail node, **Create Draft**, using the incoming `to`/`subject`/`body` fields → respond with the draft result.
+   - `weekly_b9_brief` — whatever your workflow builds for a weekly summary.
 3. Toggle the workflow **Active** (top-right switch), then copy the Webhook node's **Production URL** (not the Test URL).
-4. Paste it into `.env.local` as `N8N_GMAIL_WEBHOOK_URL=...`
+4. In `.env.local`, set:
+   ```
+   N8N_WEBHOOK_URL=<your production URL>
+   N8N_WEBHOOK_SECRET=<the same secret from step 1>
+   ```
+5. **Restart NIB2 fully** (close the console window and relaunch `start-nib2.bat`, or `npm start`). Environment variables only load at startup — the auto-reload watcher does *not* pick up `.env.local` edits.
 
-The Gmail pill turns green ("Gmail on (n8n)"), the Command Centre's Unread Gmail card goes live, and asking NIB2 "what's in my inbox" reads your unread mail aloud. If both Gmail methods are configured, n8n wins.
+Once set, the Gmail pill turns green ("Gmail on (n8n)"), the Command Centre's Unread Gmail card goes live, asking NIB2 "what's in my inbox" reads your unread mail aloud, and the Command Centre's **N8N Commands** panel gives you one-click buttons (Test Connection, Gmail Summary, Weekly B9 Brief) plus a draft form that calls your workflow directly. If both Gmail methods are configured, n8n wins.
 
 ## 5c. Bookings (B9 admin)
 

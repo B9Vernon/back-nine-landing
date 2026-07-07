@@ -11,7 +11,7 @@ import { readCentre, gatherIntel, generateBrief } from "../lib/command-centre.js
 import { getAllFeeds } from "../lib/feeds.js";
 import { getIndices } from "../lib/markets.js";
 import { readBookings, writeBookings } from "../lib/bookings.js";
-import { isN8nConfigured, fetchUnreadViaN8n } from "../lib/gmail-n8n.js";
+import { isN8nConfigured, fetchUnreadViaN8n, testN8nConnection, createGmailDraftViaN8n, weeklyBriefViaN8n } from "../lib/n8n.js";
 import * as gmail from "../lib/gmail.js";
 
 // deps.makeClient / deps.synthesize / deps.getWeather / deps.gatherIntel /
@@ -26,6 +26,9 @@ export function createApiRouter(deps = {}) {
   const marketsFn = deps.getIndices || getIndices;
   const unreadFn = deps.listUnread || gmail.listUnread;
   const n8nUnreadFn = deps.n8nUnread || fetchUnreadViaN8n;
+  const n8nTestFn = deps.n8nTest || testN8nConnection;
+  const n8nDraftFn = deps.n8nDraft || createGmailDraftViaN8n;
+  const n8nBriefFn = deps.n8nBrief || weeklyBriefViaN8n;
   const router = express.Router();
 
   // Gmail can be connected two ways; n8n wins when both exist.
@@ -146,6 +149,29 @@ export function createApiRouter(deps = {}) {
       res.json({ connected: true, via: "oauth", emails: await unreadFn(10) });
     } catch (err) {
       res.status(502).json({ error: `Gmail read failed: ${err.message}` });
+    }
+  });
+
+  // --- n8n Command Router: quick actions from the Command Centre panel ---
+  router.get("/n8n/status", (req, res) => res.json({ configured: isN8nConfigured() }));
+
+  router.post("/n8n/command", async (req, res) => {
+    if (!isN8nConfigured()) {
+      return res.status(503).json({ error: "n8n is not configured. Set N8N_WEBHOOK_URL in .env.local, then restart NIB2." });
+    }
+    const { command, to, subject, body } = req.body || {};
+    try {
+      let result;
+      if (command === "connection_test") result = await n8nTestFn();
+      else if (command === "gmail_summary") result = { emails: await n8nUnreadFn({ force: true }) };
+      else if (command === "gmail_draft") {
+        if (!to || !subject) return res.status(400).json({ error: "Draft needs at least a recipient and subject." });
+        result = await n8nDraftFn({ to, subject, body: body || "" });
+      } else if (command === "weekly_b9_brief") result = await n8nBriefFn();
+      else return res.status(400).json({ error: `Unknown command: ${command}` });
+      res.json({ ok: true, command, result });
+    } catch (err) {
+      res.status(502).json({ error: err.message, code: err.code });
     }
   });
 

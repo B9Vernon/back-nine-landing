@@ -360,7 +360,7 @@ test("/api/feeds and /api/markets serve injected data", async () => {
 });
 
 test("/api/gmail/unread reports not-connected cleanly (no crash, no 500)", async () => {
-  delete process.env.N8N_GMAIL_WEBHOOK_URL;
+  delete process.env.N8N_WEBHOOK_URL;
   const { status, body } = await req("/api/gmail/unread");
   assert.equal(status, 200);
   assert.equal(body.connected, false);
@@ -368,7 +368,7 @@ test("/api/gmail/unread reports not-connected cleanly (no crash, no 500)", async
 });
 
 test("/api/gmail/unread uses the n8n webhook when configured", async () => {
-  process.env.N8N_GMAIL_WEBHOOK_URL = "https://example.app.n8n.cloud/webhook/nib2-gmail";
+  process.env.N8N_WEBHOOK_URL = "https://example.app.n8n.cloud/webhook/nib2-router";
   const s = await startServer({
     makeClient: () => mockClient,
     n8nUnread: async () => [{ id: "1", from: "a@b.c", subject: "Hello", snippet: "hi", date: "" }],
@@ -386,7 +386,72 @@ test("/api/gmail/unread uses the n8n webhook when configured", async () => {
     assert.equal(st.gmail.via, "n8n");
   } finally {
     s.close();
-    delete process.env.N8N_GMAIL_WEBHOOK_URL;
+    delete process.env.N8N_WEBHOOK_URL;
+  }
+});
+
+test("/api/n8n/status reports configured state", async () => {
+  delete process.env.N8N_WEBHOOK_URL;
+  const notConfigured = await req("/api/n8n/status");
+  assert.equal(notConfigured.body.configured, false);
+
+  process.env.N8N_WEBHOOK_URL = "https://example.app.n8n.cloud/webhook/nib2-router";
+  try {
+    const configured = await req("/api/n8n/status");
+    assert.equal(configured.body.configured, true);
+  } finally {
+    delete process.env.N8N_WEBHOOK_URL;
+  }
+});
+
+test("/api/n8n/command rejects when not configured", async () => {
+  delete process.env.N8N_WEBHOOK_URL;
+  const { status, body } = await req("/api/n8n/command", {
+    method: "POST",
+    body: JSON.stringify({ command: "connection_test" }),
+  });
+  assert.equal(status, 503);
+  assert.match(body.error, /N8N_WEBHOOK_URL/);
+});
+
+test("/api/n8n/command routes connection_test, gmail_draft, weekly_b9_brief to their deps", async () => {
+  process.env.N8N_WEBHOOK_URL = "https://example.app.n8n.cloud/webhook/nib2-router";
+  const s = await startServer({
+    makeClient: () => mockClient,
+    n8nTest: async () => ({ ok: true }),
+    n8nDraft: async ({ to, subject }) => ({ draftId: "d1", to, subject }),
+    n8nBrief: async () => ({ headline: "Slow week" }),
+  });
+  try {
+    const port = s.address().port;
+    const test = await (await fetch(`http://127.0.0.1:${port}/api/n8n/command`, {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ command: "connection_test" }),
+    })).json();
+    assert.deepEqual(test.result, { ok: true });
+
+    const missingFields = await fetch(`http://127.0.0.1:${port}/api/n8n/command`, {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ command: "gmail_draft" }),
+    });
+    assert.equal(missingFields.status, 400);
+
+    const draft = await (await fetch(`http://127.0.0.1:${port}/api/n8n/command`, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ command: "gmail_draft", to: "a@b.c", subject: "Hi", body: "text" }),
+    })).json();
+    assert.equal(draft.result.draftId, "d1");
+
+    const brief = await (await fetch(`http://127.0.0.1:${port}/api/n8n/command`, {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ command: "weekly_b9_brief" }),
+    })).json();
+    assert.equal(brief.result.headline, "Slow week");
+
+    const unknown = await fetch(`http://127.0.0.1:${port}/api/n8n/command`, {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ command: "nonsense" }),
+    });
+    assert.equal(unknown.status, 400);
+  } finally {
+    s.close();
+    delete process.env.N8N_WEBHOOK_URL;
   }
 });
 
