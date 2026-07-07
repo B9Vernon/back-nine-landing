@@ -12,14 +12,28 @@ import {
 
 const URL_SAVED = process.env.N8N_WEBHOOK_URL;
 const SECRET_SAVED = process.env.N8N_WEBHOOK_SECRET;
+const USER_SAVED = process.env.N8N_WEBHOOK_USER;
 beforeEach(() => {
   clearN8nCache();
   process.env.N8N_WEBHOOK_URL = "https://example.app.n8n.cloud/webhook/nib2-router";
   process.env.N8N_WEBHOOK_SECRET = "shh-its-a-secret";
+  delete process.env.N8N_WEBHOOK_USER;
 });
 afterEach(() => {
   if (URL_SAVED === undefined) delete process.env.N8N_WEBHOOK_URL; else process.env.N8N_WEBHOOK_URL = URL_SAVED;
   if (SECRET_SAVED === undefined) delete process.env.N8N_WEBHOOK_SECRET; else process.env.N8N_WEBHOOK_SECRET = SECRET_SAVED;
+  if (USER_SAVED === undefined) delete process.env.N8N_WEBHOOK_USER; else process.env.N8N_WEBHOOK_USER = USER_SAVED;
+});
+
+test("callN8n uses Basic Auth when N8N_WEBHOOK_USER is set, not the custom header", async () => {
+  process.env.N8N_WEBHOOK_USER = "nib2";
+  let captured;
+  await callN8n("connection_test", {}, {
+    fetchImpl: async (url, opts) => { captured = opts; return { ok: true, json: async () => ({ ok: true }) }; },
+  });
+  const expected = `Basic ${Buffer.from("nib2:shh-its-a-secret").toString("base64")}`;
+  assert.equal(captured.headers.Authorization, expected);
+  assert.equal(captured.headers["x-nib2-secret"], undefined);
 });
 
 test("isN8nConfigured follows N8N_WEBHOOK_URL", () => {

@@ -25,7 +25,15 @@ export async function callN8n(command, payload = {}, { fetchImpl = fetch, timeou
   }
 
   const headers = { "Content-Type": "application/json", Accept: "application/json" };
-  if (process.env.N8N_WEBHOOK_SECRET) headers[SECRET_HEADER] = process.env.N8N_WEBHOOK_SECRET;
+  // The Webhook node's Authentication can be set to either "Header Auth"
+  // (a custom header name/value) or "Basic Auth" (username + password).
+  // Support both so NIB doesn't have to change his n8n setup to match us.
+  if (process.env.N8N_WEBHOOK_USER) {
+    const basic = Buffer.from(`${process.env.N8N_WEBHOOK_USER}:${process.env.N8N_WEBHOOK_SECRET || ""}`).toString("base64");
+    headers.Authorization = `Basic ${basic}`;
+  } else if (process.env.N8N_WEBHOOK_SECRET) {
+    headers[SECRET_HEADER] = process.env.N8N_WEBHOOK_SECRET;
+  }
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
@@ -55,7 +63,9 @@ export async function callN8n(command, payload = {}, { fetchImpl = fetch, timeou
     if (res.status === 404) {
       message = "n8n webhook returned 404 — the workflow is probably not ACTIVATED (toggle it Active, top-right, and use the Production URL, not Test).";
     } else if (res.status === 401 || res.status === 403) {
-      message = "n8n webhook rejected the request (401/403) — N8N_WEBHOOK_SECRET probably doesn't match the header auth configured on the Webhook node.";
+      message = process.env.N8N_WEBHOOK_USER
+        ? "n8n webhook rejected the request (401/403) — N8N_WEBHOOK_USER/N8N_WEBHOOK_SECRET don't match the Basic Auth credential on the Webhook node."
+        : "n8n webhook rejected the request (401/403) — check the Webhook node's Authentication type. If it's set to 'Basic Auth', also set N8N_WEBHOOK_USER in .env.local (not just the secret). If it's 'Header Auth', N8N_WEBHOOK_SECRET probably doesn't match the header value configured there.";
     } else {
       message = `n8n webhook returned ${res.status}.`;
     }
