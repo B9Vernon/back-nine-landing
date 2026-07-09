@@ -3,6 +3,10 @@
 Default target platform. Unless the user names another platform, optimize every prompt for
 Seedance generation inside the Higgsfield workflow.
 
+This file governs how prompts are **written**. Whether and when to actually invoke the
+Higgsfield connector and start a paid generation is a separate, explicit-authorization decision —
+see `references/higgsfield-generation-authority.md`.
+
 ## Write prompts that Seedance can interpret reliably
 
 - Describe action in **chronological order**.

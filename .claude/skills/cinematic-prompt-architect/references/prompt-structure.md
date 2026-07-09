@@ -5,6 +5,27 @@ omit empty filler.** Every technical instruction must influence framing, movemen
 materials, physics, sound, performance, continuity, asset consistency, or distortion prevention.
 Start from `templates/clip-prompt-template.md`.
 
+## Priority sections — use the minimum, not all 35
+
+Do not fill every section by default. Use only the sections needed to control this specific clip
+reliably. At minimum, prioritize:
+
+- **FIRST FRAME / BLOCKING** — the opening frame.
+- **SUBJECT ACTION**, **CAMERA ACTION**, **GOLF-BALL ACTION** — the chronological action.
+- **CAMERA**
+- **ACTIVE REFERENCES**
+- **PHYSICS**
+- **LIGHTING**
+- **POSITIVE LOCKS** — continuity.
+- **SINGLE-GOLF-BALL LOCK**
+- **DISTORTION-PREVENTION LOCKS**
+- **ENDING CONTINUITY FRAME** / **FINAL VISUAL BEAT** — the final frame.
+
+Add any other section only when it materially improves control of this clip. Never paste an
+entire reference document (e.g. all of `references/back-nine-brand.md`) into a generation
+prompt — restate only the specific lock or rule needed, in compact wording. Keep Seedance
+prompts detailed but not overloaded.
+
 1. **SCENE TITLE** — short, descriptive.
 2. **CREATIVE INTENT** — the goal, hook, and payoff in one or two lines.
 3. **TOTAL VIDEO STRUCTURE** — number of clips + how this clip fits.

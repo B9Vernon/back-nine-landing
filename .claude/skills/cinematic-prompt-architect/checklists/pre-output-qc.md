@@ -6,6 +6,9 @@ Verify internally before returning any prompt. For golf content, also run
 ## Structure & pacing
 - [ ] Optimized for Seedance through Higgsfield (or the named platform)?
 - [ ] Clip duration appropriate (≤10s)? Should the concept be split into more clips?
+- [ ] Only the sections needed to control this clip are included — no full reference document
+      pasted verbatim; locks stated in compact wording (`references/prompt-structure.md` →
+      Priority sections)?
 - [ ] Multiple clips are each in their own independent prompt (never combined)?
 - [ ] Opening frame and final frame each clearly defined?
 - [ ] Opening strong enough for social media? Hero moment clear? Brand/CTA placed correctly?
@@ -43,6 +46,13 @@ Verify internally before returning any prompt. For golf content, also run
 
 ## Single golf ball
 - [ ] `checklists/single-ball-verification.md` fully passed — exactly one ball, never more.
+
+## Generation authority
+- [ ] No generation triggered unless the user explicitly asked to generate/render/run/create
+      (`references/higgsfield-generation-authority.md`)?
+- [ ] If generation was requested: model (default Seedance), duration, aspect ratio, and assets
+      stated before triggering; one clip generated at a time unless a batch was requested; every
+      result inspected with `checklists/generation-review.md` before continuing?
 
 ## Delivery
 - [ ] Output header present (length, # prompts, timing, pacing, hook, hero, continuity, ball plan,

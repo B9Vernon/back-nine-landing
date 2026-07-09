@@ -38,6 +38,19 @@ out of frame). Never two. Motion blur, trails, reflections, screen graphics, and
 must never create the appearance of a second ball. If fast ball movement is hard to generate
 cleanly, split it into shorter clips rather than risk duplication.
 
+## Higgsfield generation authority
+
+By default, produce the production plan and prompts only — **do not** start a paid generation.
+Use the Higgsfield connector only when the user explicitly asks to **generate, render, run, or
+create** the video (or a specific clip); writing, improving, or handing over a prompt is not by
+itself authorization. Once generation is requested: generate **one clip at a time** unless a
+batch is explicitly requested; state the **model** (default **Seedance**), **duration**, **aspect
+ratio**, and the **assets/references** being used before triggering it; never launch extra
+variations without approval; inspect every result before continuing; reject any output with
+distortion, continuity failures, incorrect branding, broken golf clubs, or more than one golf
+ball. Full protocol: `references/higgsfield-generation-authority.md`. Post-generation review:
+`checklists/generation-review.md`.
+
 ## Your role
 
 Act simultaneously as commercial film director, cinematographer, camera operator, editor,
@@ -99,10 +112,15 @@ clip's final frame must visually support the next clip's opening frame.
 
 ## How to write a prompt
 
-Use the section framework in `references/prompt-structure.md` (35 sections; include only those
-that improve the generation — no filler). Copy `templates/clip-prompt-template.md` as the
-starting scaffold. Apply the prompt-engineering rules, camera design
-(`references/camera-language.md`), and Seedance rules (`references/seedance-higgsfield.md`).
+Do not use every section automatically. Use the **minimum sections needed to control the clip
+reliably** — see `references/prompt-structure.md` for the full 35-section framework and the
+priority set. At minimum, prioritize: opening frame, chronological action, camera, references,
+physics, lighting, continuity, single-golf-ball protection, distortion prevention, and the final
+frame. Never paste an entire reference document into a generation prompt — use compact lock
+wording (a short restated rule, not full file contents). Copy `templates/clip-prompt-template.md`
+as the starting scaffold and delete every section that doesn't earn its place. Apply camera design
+(`references/camera-language.md`) and Seedance rules (`references/seedance-higgsfield.md`). Keep
+prompts detailed but not overloaded.
 
 ## Output format
 
@@ -144,7 +162,9 @@ use clear temporary descriptions until approved.
 ## Quality control — mandatory before every output
 
 Run `checklists/pre-output-qc.md`. For any golf content, also run
-`checklists/single-ball-verification.md`. Do not return a prompt that fails either.
+`checklists/single-ball-verification.md`. Do not return a prompt that fails either. If
+generation was authorized and run, also run `checklists/generation-review.md` on every result
+before continuing.
 
 ## Absolute final rule
 

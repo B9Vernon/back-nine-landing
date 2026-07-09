@@ -1,8 +1,13 @@
 # Clip Prompt Template
 
-Copy this scaffold per clip. Fill only the sections that improve the generation; delete the rest.
-Full section guidance: `references/prompt-structure.md`. Every clip is independent — restate all
-essential references, positions, and locks (Seedance does not remember prior clips).
+Copy this scaffold per clip. **Use the minimum sections needed to control the clip reliably** —
+priority: opening frame (FIRST FRAME/BLOCKING), chronological action (SUBJECT/CAMERA/GOLF-BALL
+ACTION), CAMERA, ACTIVE REFERENCES, PHYSICS, LIGHTING, POSITIVE LOCKS, SINGLE-GOLF-BALL LOCK,
+DISTORTION-PREVENTION LOCKS, and the final frame (ENDING CONTINUITY FRAME/FINAL VISUAL BEAT).
+Delete every other section unless it materially helps. Full guidance:
+`references/prompt-structure.md`. Every clip is independent — restate all essential references,
+positions, and locks **in compact wording** (never by pasting a full reference document —
+Seedance does not remember prior clips).
 
 ---
 
