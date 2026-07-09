@@ -3,11 +3,13 @@
 Copy this scaffold per clip. **Use the minimum sections needed to control the clip reliably** —
 priority: opening frame (FIRST FRAME/BLOCKING), chronological action (SUBJECT/CAMERA/GOLF-BALL
 ACTION), CAMERA, ACTIVE REFERENCES, PHYSICS, LIGHTING, POSITIVE LOCKS, SINGLE-GOLF-BALL LOCK,
-DISTORTION-PREVENTION LOCKS, and the final frame (ENDING CONTINUITY FRAME/FINAL VISUAL BEAT).
-Delete every other section unless it materially helps. Full guidance:
-`references/prompt-structure.md`. Every clip is independent — restate all essential references,
-positions, and locks **in compact wording** (never by pasting a full reference document —
-Seedance does not remember prior clips).
+VISIBLE IMPACT LOCK (hitting scenes), DISTORTION-PREVENTION LOCKS, and the final frame (ENDING
+CONTINUITY FRAME/FINAL VISUAL BEAT). Delete every other section unless it materially helps. Full
+guidance: `references/prompt-structure.md`. Every clip is independent — restate all essential
+references, positions, and locks **in compact wording** (never by pasting a full reference
+document — Seedance does not remember prior clips). This is the default, token-efficient
+scaffold; expand it only in Mode N — maximum detail
+(`references/token-efficient-production-mode.md`).
 
 ---
 
@@ -51,7 +53,8 @@ OUTPUT SETTINGS: [aspect ratio · duration · playback speed · audio permission
 
 POSITIVE LOCKS: [identity, wardrobe, footwear, accessories, glove hand, club type + orientation,
 location geometry, screen placement, branding — all identical]
-SINGLE-GOLF-BALL LOCK: [paste from references/single-golf-ball-protocol.md]
+SINGLE-GOLF-BALL LOCK: [compact — paste/restate from references/single-golf-ball-protocol.md]
+VISIBLE IMPACT LOCK: [hitting scenes only — compact — from references/club-ball-impact.md]
 DISTORTION-PREVENTION LOCKS: [from references/distortion-prevention.md]
 NEGATIVE LOCKS: [never render — includes any second/extra/ghost golf ball anywhere]
 

@@ -57,7 +57,9 @@ rotation · final balance · eyeline · ball launch direction · ball exit from 
 
 Don't overcomplicate swing mechanics if it risks distortion — use shorter clips or separate the
 swing phases. At impact, the single ball leaves its original position and continues as the same
-object. Never show one ball on the turf after another launches.
+object. Never show one ball on the turf after another launches. The clubface-to-ball contact must
+be clearly visible and physically correct in every hitting scene — full mandatory rules:
+`references/club-ball-impact.md`.
 
 ## Golf-ball movement (the single ball)
 

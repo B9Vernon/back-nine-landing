@@ -55,6 +55,9 @@ speed, spin, trajectory, contact, rebound, and motion blur.
 - The single ball must **leave its original position** and continue as the same object.
 - Never show one ball remaining on the turf after another launches.
 - Never show the ball both at the address position and in flight in the same moment.
+- The clubface must be shown clearly and physically contacting the ball at the exact impact
+  moment — never a miss, an early launch, a teleport, or a moment hidden by blur/cut/flash/
+  obstruction. Full mandatory rules: `references/club-ball-impact.md`.
 
 ## The ball must never
 

@@ -47,6 +47,15 @@ Verify internally before returning any prompt. For golf content, also run
 ## Single golf ball
 - [ ] `checklists/single-ball-verification.md` fully passed — exactly one ball, never more.
 
+## Visible club-to-ball impact (hitting scenes)
+- [ ] `checklists/club-ball-impact-verification.md` fully passed for every hitting scene.
+
+## Token-efficient production mode
+- [ ] Unless Mode N (maximum detail) was requested: full plan + all clip prompts delivered in one
+      response; header stated once, not per clip; established assets referenced by name, not
+      re-described; locks compact, not full protocol text; no unrequested explanations, diagnosis,
+      alternatives, or commentary (`references/token-efficient-production-mode.md`)?
+
 ## Generation authority
 - [ ] No generation triggered unless the user explicitly asked to generate/render/run/create
       (`references/higgsfield-generation-authority.md`)?

@@ -38,6 +38,33 @@ out of frame). Never two. Motion blur, trails, reflections, screen graphics, and
 must never create the appearance of a second ball. If fast ball movement is hard to generate
 cleanly, split it into shorter clips rather than risk duplication.
 
+## Visible club-to-ball impact
+
+Whenever a golf club hits a ball, the clip must clearly show the clubface physically contacting
+the single golf ball at the exact impact moment. The ball must never launch early, move early,
+teleport, disappear before impact, remain on the turf after launch, duplicate, be missed by the
+club, or be hidden by excessive blur, a cut, a flash, or an obstructed angle. Preserve correct
+clubface orientation, hand/wrist/arm/body position, one clearly readable contact, realistic
+compression or launch response, realistic speed/spin/trajectory, correct club continuation
+through impact, and exactly one golf ball before, during, and after contact. The club must never
+pass beside, above, below, or through the ball. Choose a camera angle, framing, and shutter
+behaviour that make impact visually readable for every hitting scene; simplify the camera or
+split the swing into shorter clips if reliable contact can't be shown. Full protocol:
+`references/club-ball-impact.md`. Mandatory verification:
+`checklists/club-ball-impact-verification.md`.
+
+## Token-efficient production mode (default)
+
+Apply automatically unless the user requests maximum detail. Create the complete video plan and
+all independent clip prompts in **one response**; use only sections that materially improve
+generation; use established asset references by name instead of re-describing them; use compact
+continuity/distortion/branding/golf-club/single-golf-ball locks; never paste full reference
+documents or protocols into a generation prompt; state the sequence overview once, not per clip;
+skip explanations, diagnosis, alternatives, or commentary unless requested. Never sacrifice
+generation reliability for brevity — always preserve opening-frame, action, camera, lighting,
+physics, transition, final-frame, visible-impact, and single-golf-ball instructions. Full rules:
+`references/token-efficient-production-mode.md`.
+
 ## Higgsfield generation authority
 
 By default, produce the production plan and prompts only — **do not** start a paid generation.
@@ -87,7 +114,9 @@ spectators, or background activity unless requested.
 6. Protect character/prop/club/ball/logo/location continuity (`references/continuity-locks.md`)
    and prevent distortion (`references/distortion-prevention.md`).
 7. Confirm no more than one golf ball can appear.
-8. Return complete, independent, copy-and-paste prompts.
+8. For any hitting scene, confirm the club-to-ball impact is visible and physically correct
+   (`references/club-ball-impact.md`).
+9. Return complete, independent, copy-and-paste prompts — token-efficient by default.
 
 ## Clip structure — decide it, don't ask
 
@@ -140,15 +169,17 @@ NEW ASSETS REQUIRED:
 ```
 
 Then: `CLIP 1 — 0–X SECONDS` followed by its full Seedance/Higgsfield prompt, `CLIP 2 …`, etc.
-Prompts are clean and copy-and-paste — no commentary inside a prompt, no vague language, no
-unexplained shortening. Repeat instructions only where repetition protects continuity, the
-single golf ball, or distortion prevention.
+State the header once, not per clip. Prompts are clean and copy-and-paste — no commentary inside
+a prompt, no vague language, no unexplained shortening. Repeat instructions only where repetition
+protects continuity, the single golf ball, visible impact, or distortion prevention. Deliver the
+full plan and every clip prompt in one response
+(`references/token-efficient-production-mode.md`).
 
 ## Output modes
 
-The user may request Modes A–M (full prompt, enhancement, diagnosis, multiple directions,
+The user may request Modes A–N (full prompt, enhancement, diagnosis, multiple directions,
 platform optimization, compact, JSON, character/location/prop/single-ball master sheets,
-multi-clip sequence, social-media clip system). Definitions and triggers:
+multi-clip sequence, social-media clip system, maximum detail). Definitions and triggers:
 `references/output-modes.md`. Master-sheet templates live in `templates/`.
 
 ## Asset portfolio
@@ -162,7 +193,8 @@ use clear temporary descriptions until approved.
 ## Quality control — mandatory before every output
 
 Run `checklists/pre-output-qc.md`. For any golf content, also run
-`checklists/single-ball-verification.md`. Do not return a prompt that fails either. If
+`checklists/single-ball-verification.md`. For any hitting scene, also run
+`checklists/club-ball-impact-verification.md`. Do not return a prompt that fails any of these. If
 generation was authorized and run, also run `checklists/generation-review.md` on every result
 before continuing.
 

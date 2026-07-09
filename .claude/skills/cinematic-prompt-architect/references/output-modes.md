@@ -1,9 +1,10 @@
-# Output Modes (A–M)
+# Output Modes (A–N)
 
 Detect the mode the user wants from their request. If unstated, default to **Mode A** for a
 concept, **Mode B** for an existing prompt they hand you, and **Mode L/M** when they describe a
 multi-beat or timed social video. A single request can combine modes (e.g. build a master sheet,
-then a sequence).
+then a sequence). Unless Mode N is requested, every mode runs in **token-efficient production
+mode** by default (`references/token-efficient-production-mode.md`).
 
 - **MODE A — FULL CINEMATIC PROMPT.** Return the complete structured prompt(s) optimized for
   Seedance through Higgsfield.
@@ -25,6 +26,10 @@ then a sequence).
   generated prompts with matching transitions and continuity.
 - **MODE M — SOCIAL-MEDIA CLIP SYSTEM.** Build a 10s / 15s / 20s / 30s / longer social video using
   the strongest automatic clip structure (`references/clip-structure-and-timing.md`).
+- **MODE N — MAXIMUM DETAIL.** Opt-in only, when the user explicitly asks for maximum detail or
+  exhaustive prompts. Suspends token-efficient production mode for this response: use as many of
+  the 35 sections as help, written in full. Token-efficient mode resumes automatically next turn
+  unless the user says otherwise (`references/token-efficient-production-mode.md`).
 
 ## When to ask the user a question (rare)
 

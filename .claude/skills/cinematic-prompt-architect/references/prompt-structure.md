@@ -18,13 +18,15 @@ reliably. At minimum, prioritize:
 - **LIGHTING**
 - **POSITIVE LOCKS** — continuity.
 - **SINGLE-GOLF-BALL LOCK**
+- **VISIBLE IMPACT LOCK** — hitting scenes only (`references/club-ball-impact.md`).
 - **DISTORTION-PREVENTION LOCKS**
 - **ENDING CONTINUITY FRAME** / **FINAL VISUAL BEAT** — the final frame.
 
 Add any other section only when it materially improves control of this clip. Never paste an
 entire reference document (e.g. all of `references/back-nine-brand.md`) into a generation
 prompt — restate only the specific lock or rule needed, in compact wording. Keep Seedance
-prompts detailed but not overloaded.
+prompts detailed but not overloaded. This priority set is the token-efficient default
+(`references/token-efficient-production-mode.md`); use every section only in Mode N.
 
 1. **SCENE TITLE** — short, descriptive.
 2. **CREATIVE INTENT** — the goal, hook, and payoff in one or two lines.
@@ -45,7 +47,8 @@ prompts detailed but not overloaded.
     + at most one supporting reframe. State whether the shot contains any cut.
 15. **GOLF-BALL ACTION** — the single ball's motion: start, direction, speed, spin, height,
     trajectory, contact, bounce/roll, final location, and when it exits frame (kept separate
-    from golfer action).
+    from golfer action). For hitting scenes, the contact moment must be visible and physically
+    correct (`references/club-ball-impact.md`).
 16. **PERFORMANCE** — subtle believable behaviour (breathing, grip pressure, micro-expressions,
     weight transfer, controlled reactions). Avoid exaggeration unless requested.
 17. **PRODUCTION DESIGN** — set dressing, materials, branding integration, colour discipline.
@@ -64,6 +67,8 @@ prompts detailed but not overloaded.
 27. **OUTPUT SETTINGS** — aspect ratio, duration, playback speed, audio permission, resolution intent.
 28. **POSITIVE LOCKS** — what MUST stay identical (identity, wardrobe, props, club, location, logos).
 29. **SINGLE-GOLF-BALL LOCK** — the lock text from `references/single-golf-ball-protocol.md`. **Always include in golf prompts.**
+29a. **VISIBLE IMPACT LOCK** — the lock text from `references/club-ball-impact.md`. **Always
+    include whenever a club strikes the ball.**
 30. **DISTORTION-PREVENTION LOCKS** — from `references/distortion-prevention.md`.
 31. **NEGATIVE LOCKS** — explicit "never render" list (includes extra golf balls).
 32. **ENDING CONTINUITY FRAME** — exact final pose/hand/club/body direction/camera/framing/
