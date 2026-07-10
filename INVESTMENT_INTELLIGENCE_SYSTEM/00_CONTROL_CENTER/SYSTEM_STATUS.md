@@ -6,7 +6,8 @@ Last updated: 2026-07-10 (initial build)
 - Portfolio baseline: BUILT — provisional (identities mapped; quantities/costs/accounts unknown)
 - Research panel: SEEDED — each source must be re-verified next research cycle
 - Decision engine: OPERATIONAL
-- Monitoring: Weekly recurring review scheduled via platform Routine (see 07_MONITORING_ENGINE). No intraday monitoring exists — do not claim otherwise.
+- Monitoring: MANUAL ONLY, by request (2026-07-10). No recurring Routine is active — nothing
+  runs automatically. Invoke commands (00_CONTROL_CENTER/COMMANDS.md) whenever a review is wanted.
 
 ## Data limitations this run (2026-07-10)
 - Web search hit a session rate limit mid-baseline; several ticker verifications and all
