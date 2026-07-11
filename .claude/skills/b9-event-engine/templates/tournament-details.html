@@ -1,0 +1,131 @@
+<!-- ============================================================
+B9 TOURNAMENT DETAILS — CANONICAL SKELETON
+Paste target: Back Nine portal "Tournament Details" field (accepts HTML).
+Rules: fragment only (no doctype/html/head/body) · inline CSS only ·
+no JavaScript · public HTTPS images · every {{PLACEHOLDER}} must be
+listed in the Build Pack replacement lists before delivery.
+Restyle per event theme — do not deliver this skeleton unthemed.
+============================================================ -->
+<div style="max-width:860px;margin:0 auto;font-family:-apple-system,'Segoe UI',Roboto,sans-serif;color:#F2F2F2;background-color:#07090D;border-radius:16px;overflow:hidden;">
+
+  <!-- 1. HERO -->
+  <div style="background:linear-gradient(160deg,#10171F 0%,#07090D 70%);padding:44px 24px 36px 24px;text-align:center;border-bottom:4px solid #96CB39;">
+    <img src="{{LOGO_URL}}" alt="Back Nine Vernon logo" style="max-width:150px;height:auto;margin-bottom:18px;">
+    <div style="color:#96CB39;font-size:14px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin-bottom:10px;">Back Nine Vernon Presents</div>
+    <h1 style="margin:0 0 12px 0;font-size:40px;line-height:1.1;color:#F2F2F2;">{{EVENT_NAME}}</h1>
+    <p style="margin:0 0 18px 0;font-size:19px;color:#D4AF57;font-weight:600;">[ONE-LINE COMPETITIVE HOOK]</p>
+    <div style="display:inline-block;background-color:#10171F;border:1px solid #96CB39;border-radius:8px;padding:10px 22px;font-size:16px;font-weight:700;color:#F2F2F2;">{{EVENT_DATES}} &nbsp;•&nbsp; {{PLAYER_FORMAT}}</div>
+  </div>
+
+  <!-- 2. PERSUASIVE OPENING -->
+  <div style="padding:32px 26px;background-color:#0D1520;">
+    <h2 style="margin:0 0 14px 0;font-size:24px;color:#96CB39;">[SECTION HEADLINE — WHY THIS EVENT MATTERS]</h2>
+    <p style="margin:0 0 12px 0;font-size:17px;line-height:1.65;">[OPENING PARAGRAPH — hook, stakes, who this is for.]</p>
+    <p style="margin:0;font-size:17px;line-height:1.65;">[SECOND PARAGRAPH — what makes it unmissable. Early prize tease: real rewards are on the line — you cannot win if you are not in the field.]</p>
+  </div>
+
+  <!-- 3. COMPETITION HIGHLIGHTS — feature cards -->
+  <div style="padding:30px 26px;background-color:#10171F;">
+    <h2 style="margin:0 0 18px 0;font-size:24px;color:#F2F2F2;">What You're Signing Up For</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:14px;">
+      <div style="flex:1 1 240px;background-color:#0D1520;border-left:4px solid #96CB39;border-radius:10px;padding:18px;">
+        <div style="font-size:17px;font-weight:700;color:#96CB39;margin-bottom:6px;">[HIGHLIGHT 1]</div>
+        <div style="font-size:15px;line-height:1.55;">[One-two lines on the competitive experience.]</div>
+      </div>
+      <div style="flex:1 1 240px;background-color:#0D1520;border-left:4px solid #39B8DE;border-radius:10px;padding:18px;">
+        <div style="font-size:17px;font-weight:700;color:#39B8DE;margin-bottom:6px;">[HIGHLIGHT 2]</div>
+        <div style="font-size:15px;line-height:1.55;">[Social/community value.]</div>
+      </div>
+      <div style="flex:1 1 240px;background-color:#0D1520;border-left:4px solid #D4AF57;border-radius:10px;padding:18px;">
+        <div style="font-size:17px;font-weight:700;color:#D4AF57;margin-bottom:6px;">[HIGHLIGHT 3]</div>
+        <div style="font-size:15px;line-height:1.55;">[Reason to return / what winning means.]</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. IMAGE + COPY BLOCK -->
+  <div style="padding:30px 26px;background-color:#0D1520;">
+    <img src="{{SECTION_IMAGE_URL}}" alt="[Describe image: e.g. Full Swing simulator bay at Back Nine Vernon]" style="width:100%;max-width:100%;height:auto;border-radius:12px;margin-bottom:16px;">
+    <h2 style="margin:0 0 12px 0;font-size:24px;color:#96CB39;">[THE COMPETITIVE EXPERIENCE]</h2>
+    <p style="margin:0;font-size:17px;line-height:1.65;">[What competing feels like round to round — pressure, rivalries, the room, the leaderboard chatter.]</p>
+  </div>
+
+  <!-- 5. PRIZE SECTION -->
+  <div style="padding:34px 26px;background:linear-gradient(150deg,#10171F 0%,#2a2410 100%);border-top:3px solid #D4AF57;border-bottom:3px solid #D4AF57;text-align:center;">
+    <div style="font-size:13px;font-weight:700;letter-spacing:3px;color:#D4AF57;text-transform:uppercase;margin-bottom:10px;">On the Line</div>
+    <h2 style="margin:0 0 14px 0;font-size:28px;color:#F2F2F2;">PLAY FOR MORE THAN BRAGGING RIGHTS</h2>
+    <p style="margin:0 auto;max-width:620px;font-size:17px;line-height:1.65;">{{PRIZE_DETAILS}}</p>
+    <!-- If prizes unconfirmed, use approved fallback copy from references/prize-copy.md -->
+  </div>
+
+  <!-- 6. IMPORTANT EVENT INFORMATION -->
+  <div style="padding:30px 26px;background-color:#10171F;">
+    <h2 style="margin:0 0 16px 0;font-size:24px;color:#F2F2F2;">Event Information</h2>
+    <table role="presentation" style="width:100%;border-collapse:collapse;font-size:16px;">
+      <tr><td style="padding:10px 8px;border-bottom:1px solid #333333;color:#96CB39;font-weight:700;white-space:nowrap;">Dates</td><td style="padding:10px 8px;border-bottom:1px solid #333333;">{{EVENT_DATES}}</td></tr>
+      <tr><td style="padding:10px 8px;border-bottom:1px solid #333333;color:#96CB39;font-weight:700;">Register by</td><td style="padding:10px 8px;border-bottom:1px solid #333333;">{{REGISTRATION_DEADLINE}}</td></tr>
+      <tr><td style="padding:10px 8px;border-bottom:1px solid #333333;color:#96CB39;font-weight:700;">Format</td><td style="padding:10px 8px;border-bottom:1px solid #333333;">{{PLAYER_FORMAT}}</td></tr>
+      <tr><td style="padding:10px 8px;border-bottom:1px solid #333333;color:#96CB39;font-weight:700;">Field limit</td><td style="padding:10px 8px;border-bottom:1px solid #333333;">{{PARTICIPANT_LIMIT}}</td></tr>
+      <tr><td style="padding:10px 8px;border-bottom:1px solid #333333;color:#96CB39;font-weight:700;">Member entry</td><td style="padding:10px 8px;border-bottom:1px solid #333333;">{{MEMBER_FEE}}</td></tr>
+      <tr><td style="padding:10px 8px;color:#96CB39;font-weight:700;">Non-member entry</td><td style="padding:10px 8px;">{{NON_MEMBER_FEE}}</td></tr>
+    </table>
+  </div>
+
+  <!-- 7. THREE-STEP REGISTRATION -->
+  <div style="padding:34px 26px;background-color:#0D1520;">
+    <h2 style="margin:0 0 8px 0;font-size:26px;color:#96CB39;text-align:center;">Lock In Your Spot — 3 Steps</h2>
+    <p style="margin:0 0 22px 0;font-size:16px;text-align:center;color:#F2F2F2;">Complete all three and you're officially in the field.</p>
+
+    <div style="background-color:#10171F;border-radius:12px;padding:20px;margin-bottom:14px;">
+      <div style="font-size:15px;font-weight:700;color:#96CB39;margin-bottom:6px;">STEP 1</div>
+      <p style="margin:0 0 14px 0;font-size:15px;line-height:1.5;">[One line: reserve your spot and pay your entry with Back Nine Vernon.]</p>
+      <a href="{{BACK_NINE_REGISTRATION_URL}}" style="display:block;background-color:#96CB39;color:#07090D;text-align:center;text-decoration:none;font-size:17px;font-weight:800;padding:16px 28px;border-radius:10px;">REGISTER WITH BACK NINE VERNON</a>
+    </div>
+
+    <div style="background-color:#10171F;border-radius:12px;padding:20px;margin-bottom:14px;">
+      <div style="font-size:15px;font-weight:700;color:#39B8DE;margin-bottom:6px;">STEP 2</div>
+      <p style="margin:0 0 14px 0;font-size:15px;line-height:1.5;">[One line: set up your Beyond the Grass profile so your scores count.]</p>
+      <a href="{{BEYOND_THE_GRASS_URL}}" style="display:block;background-color:#39B8DE;color:#07090D;text-align:center;text-decoration:none;font-size:17px;font-weight:800;padding:16px 28px;border-radius:10px;">COMPLETE YOUR BEYOND THE GRASS SETUP</a>
+    </div>
+
+    <div style="background-color:#10171F;border-radius:12px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#D4AF57;margin-bottom:6px;">STEP 3</div>
+      <p style="margin:0 0 14px 0;font-size:15px;line-height:1.5;">[One line: join the event on FS Compete — it connects your rounds to the live competition in the simulator.]</p>
+      <a href="{{FS_COMPETE_URL}}" style="display:block;background-color:#D4AF57;color:#07090D;text-align:center;text-decoration:none;font-size:17px;font-weight:800;padding:16px 28px;border-radius:10px;">JOIN THE EVENT ON FS COMPETE</a>
+    </div>
+  </div>
+
+  <!-- 8. GOLF CANADA RECORD & REWARD -->
+  <div style="padding:32px 26px;background:linear-gradient(150deg,#0d1b24 0%,#10171F 100%);border-top:3px solid #39B8DE;">
+    <h2 style="margin:0 0 10px 0;font-size:24px;color:#39B8DE;">Record It Before You Leave the Bay</h2>
+    <p style="margin:0 0 14px 0;font-size:16px;line-height:1.6;">Finish your round, open the <strong>Golf Canada app</strong>, select <strong>Back Nine Indoor Golf — Vernon</strong>, and record your session. It takes about 10 seconds — lock it into your golf history before you leave, and get your whole group to do the same.</p>
+    <p style="margin:0 0 18px 0;font-size:15px;line-height:1.6;color:#F2F2F2;">Recording your session helps keep your indoor and outdoor golf activity connected and supports Back Nine Vernon's presence within Canada's growing off-course golf community. [{{GOLF_CANADA_REWARD}} — include only when Vernon confirms a reward.]</p>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;">
+      <a href="{{GOLF_CANADA_IOS_URL}}" style="flex:1 1 200px;display:block;background-color:#0D1520;border:2px solid #39B8DE;color:#F2F2F2;text-align:center;text-decoration:none;font-size:15px;font-weight:700;padding:14px 20px;border-radius:10px;">DOWNLOAD FOR IPHONE</a>
+      <a href="{{GOLF_CANADA_ANDROID_URL}}" style="flex:1 1 200px;display:block;background-color:#0D1520;border:2px solid #39B8DE;color:#F2F2F2;text-align:center;text-decoration:none;font-size:15px;font-weight:700;padding:14px 20px;border-radius:10px;">DOWNLOAD FOR ANDROID</a>
+    </div>
+    <!-- Desktop viewers: optional QR code -->
+    <!-- <img src="{{GOLF_CANADA_QR_IMAGE_URL}}" alt="QR code to download the Golf Canada app" style="display:block;margin:16px auto 0 auto;width:140px;max-width:100%;height:auto;border-radius:8px;"> -->
+  </div>
+
+  <!-- 9. MEMBERSHIP (secondary) -->
+  <div style="padding:26px;background-color:#0D1520;text-align:center;">
+    <p style="margin:0 0 12px 0;font-size:16px;line-height:1.6;color:#F2F2F2;">[One-two lines: competitors who practise between events play better in them — members get year-round, 24/7 access.]</p>
+    <a href="https://backninegolf.ca/local/vernonbc/memberships/" style="display:inline-block;background-color:transparent;border:2px solid #96CB39;color:#96CB39;text-decoration:none;font-size:15px;font-weight:700;padding:12px 26px;border-radius:10px;">MAKE BACK NINE YOUR GOLF HOME</a>
+  </div>
+
+  <!-- 10. FINAL CTA -->
+  <div style="padding:40px 26px;background:linear-gradient(160deg,#10171F 0%,#0f2407 100%);text-align:center;border-top:4px solid #96CB39;">
+    <h2 style="margin:0 0 10px 0;font-size:30px;color:#F2F2F2;">[FINAL URGENCY HEADLINE]</h2>
+    <p style="margin:0 0 8px 0;font-size:17px;line-height:1.6;">[Real scarcity only: field limit, real deadline. Prize reminder: you cannot win if you are not in the field.]</p>
+    <p style="margin:0 0 22px 0;font-size:16px;color:#D4AF57;font-weight:700;">Registration closes {{REGISTRATION_DEADLINE}}.</p>
+    <a href="{{BACK_NINE_REGISTRATION_URL}}" style="display:block;max-width:460px;margin:0 auto;background-color:#96CB39;color:#07090D;text-align:center;text-decoration:none;font-size:20px;font-weight:900;padding:20px 30px;border-radius:12px;letter-spacing:1px;">CLAIM MY SPOT NOW</a>
+  </div>
+
+  <!-- 11. BRANDED FOOTER -->
+  <div style="padding:22px 26px;background-color:#07090D;text-align:center;">
+    <div style="font-size:15px;font-weight:700;color:#96CB39;margin-bottom:4px;">BACK NINE VERNON</div>
+    <div style="font-size:13px;color:#F2F2F2;opacity:0.75;">Premium 24/7 Indoor Golf — Vernon, British Columbia</div>
+  </div>
+
+</div>
