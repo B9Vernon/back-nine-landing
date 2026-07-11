@@ -25,12 +25,13 @@ optional connection — placeholder and continue. Ask only when the value is mea
 | Back Nine main site | https://backninegolf.ca | verified (public) |
 | Memberships page | https://backninegolf.ca/local/vernonbc/memberships/ | verified (Vernon-supplied) |
 | Tournament admin portal | https://franchise.backninegolf.ca/app/#/tournaments/view/7 | Vernon-supplied; login required — approved browser session only |
-| Back Nine event registration URL | — | ASK per event |
-| Beyond the Grass URL | — | ASK |
-| FS Compete event URL | — | ASK per event |
-| Golf Canada app — iOS App Store | — | verify via web at build time or ASK |
-| Golf Canada app — Google Play | — | verify via web at build time or ASK |
-| Public hosted image library (HTTPS) | — | ASK (needed for portal HTML images) |
+| Back Nine event sign-up (public tournaments page) | https://backninegolf.ca/local/vernonbc/tournaments/ | **verified 2026-07-11** — registration + final CTA |
+| Beyond the Grass (general) | https://www.beyondthegrass.com/compete | **verified 2026-07-11** — but each event has its own special link → ASK per event |
+| FS Compete sign-up | https://auth.fullswingapps.com/ | **verified 2026-07-11** — needs Full Swing event code (in portal description) |
+| Golf Canada app — iOS App Store | https://apps.apple.com/ca/app/golf-canada-mobile/id635386429 | **verified 2026-07-11** |
+| Golf Canada app — Google Play | https://play.google.com/store/apps/details?id=air.com.MobileApp.GolfNet.CanadaPro | **verified 2026-07-11** |
+| Golf Canada official logo image | — | ASK (not in branding files; can't fetch here — embed once supplied) |
+| Public hosted image library (HTTPS) | — | not required — brand logos/photos are embedded as base64 from repo assets |
 
 Update this table whenever Vernon verifies a link.
 

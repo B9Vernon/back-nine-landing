@@ -5,26 +5,45 @@ dislike, or correction. These override defaults in the references.
 
 ## Copy
 
-- _(none recorded yet — track: preferred length, tone notes, sections he trims)_
+- **Likes simple, to-the-point copy** (approved the LAST CALL SHOOTOUT style, 2026-07-11).
+  Keep sections tight and scannable; don't over-write.
 
 ## Formats & concepts
 
-- _(none recorded yet — track: formats that attracted interest, formats he rejects)_
+- _(none rejected yet)_
 
 ## Prize approaches
 
-- _(none recorded yet)_
+- _(none recorded yet — "to be announced" fallback used and accepted so far)_
 
 ## Golf Canada reward approaches
 
 - _(none recorded yet)_
 
-## CTA treatments
+## CTA treatments (permanent rules from 2026-07-11 feedback)
 
-- _(none recorded yet)_
+- **Every CTA button must be a real, working link — never a bare `#` or unresolved
+  placeholder.** Verified defaults (in `references/html-builder.md`): Back Nine
+  registration + final CTA → tournaments page; Beyond the Grass → /compete (per-event
+  link replaces it); FS Compete → auth.fullswingapps.com (+ event code); Golf Canada
+  iOS/Android app links.
+- **Remove "Registration closes …" deadline-urgency lines** from the final CTA by
+  default. Field-limit scarcity is fine; reintroduce a deadline line only if Vernon asks.
+- **Golf Canada section needs a clickable Golf Canada logo** (badge until the official
+  logo image is supplied, then embed it).
 
-## Visual / poster styles
+## Visual / poster styles (permanent)
 
 - Approved baseline: premium, dark, modern (navy/charcoal base, green accent, gold for
-  prize moments) — from brand reference. Never cheap, cluttered, arcade-like, neon.
-- _(track approved/rejected poster styles per event here)_
+  prize moments) — confirmed via LAST CALL SHOOTOUT.
+- **Back Nine logo must appear as the hero.** Default hero mark = the 3D emblem
+  (`NIB2/public/assets/b9-emblem.png`), embedded as base64.
+- **Colour-contrast rule (mandatory):** no near-black text on dark navy backgrounds
+  unless it sits on a bright element (button/badge). Dark-section text = `#F2F2F2` or a
+  bright accent.
+
+## Deliverable format (permanent)
+
+- Provide BOTH a downloadable/inspectable file AND the copy-paste-ready HTML for the
+  portal Tournament Details field. Images embedded (self-contained) so nothing is broken
+  on paste. Be economical — don't dump giant base64 blobs into chat.

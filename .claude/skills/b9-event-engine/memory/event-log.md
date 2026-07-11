@@ -51,6 +51,13 @@ _(none yet — record stripped tags, width limits, style quirks here)_
 - Pro-golf tie-in: Week of the year's closing men's major (links championship, July 16-19 2026) — original name/branding only, no protected marks used
 - Format (Vernon-supplied): pending — placeholder used (individual shootout recommended in concept, not finalized)
 - Outcome / registrations: pending
-- Vernon's feedback: pending
-- Keep next time:
-- Change next time:
+- Vernon's feedback (2026-07-11): **liked the style — "simple and to the point."** Fixes
+  requested & applied: wire all CTA buttons to real links; embed Back Nine emblem as hero;
+  add clickable Golf Canada logo/badge; remove "registration closes" line; no black text
+  on dark navy; deliver both a download and copy-paste HTML. Built HTML saved at
+  `builds/last-call-shootout.html`.
+- Keep next time: dark premium look; embedded emblem hero; verified real CTA links;
+  tight copy; self-contained embedded images.
+- Change next time: source the official Golf Canada logo image (badge used as interim);
+  fill Vernon-controlled placeholders (dates/deadline/format/limit/fees/prize/event code)
+  and the per-event Beyond the Grass link.

@@ -22,10 +22,15 @@ must appear in the section.
 
 ## CTAs the section supports
 
-`OPEN THE GOLF CANADA APP` · `DOWNLOAD FOR IPHONE` → `{{GOLF_CANADA_IOS_URL}}` ·
-`DOWNLOAD FOR ANDROID` → `{{GOLF_CANADA_ANDROID_URL}}` · QR code for desktop viewers
-(`{{GOLF_CANADA_QR_IMAGE_URL}}` or ask Vernon for one) · exact facility name · reward
-info · group-challenge wording when relevant.
+- **Clickable Golf Canada logo** (Vernon-mandated) at the top of the section, linking to
+  the app. The official logo image isn't in Vernon's branding files and can't be fetched
+  from this environment — until Vernon supplies it, use the clickable
+  "⛳ Golf Canada — Open the App" badge; when he provides the logo file/URL, embed it as
+  base64 and wrap the `<img>` in the same link.
+- `DOWNLOAD FOR IPHONE` → `https://apps.apple.com/ca/app/golf-canada-mobile/id635386429` (verified)
+- `DOWNLOAD FOR ANDROID` → `https://play.google.com/store/apps/details?id=air.com.MobileApp.GolfNet.CanadaPro` (verified)
+- QR code for desktop viewers (`{{GOLF_CANADA_QR_IMAGE_URL}}` or ask Vernon) · exact
+  facility name · reward info · group-challenge wording when relevant.
 
 ## Rewards
 
