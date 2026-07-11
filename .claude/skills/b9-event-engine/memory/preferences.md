@@ -47,3 +47,9 @@ dislike, or correction. These override defaults in the references.
 - Provide BOTH a downloadable/inspectable file AND the copy-paste-ready HTML for the
   portal Tournament Details field. Images embedded (self-contained) so nothing is broken
   on paste. Be economical — don't dump giant base64 blobs into chat.
+- **Copy-paste HTML = a `.txt` copy of each build** that opens in Notepad (requested
+  2026-07-11). Never paste full page code into chat.
+- Batch requests ("10 different ones") mean distinct EVENTS — different concepts, copy,
+  and photos — not visual variants of one event (clarified 2026-07-11).
+- Highlight/feature cards must be stacked blocks, never `display:flex` — flex cards
+  stretched on phones in Vernon's portal (fixed permanently in template, 2026-07-11).
