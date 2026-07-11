@@ -1,4 +1,4 @@
-"""B9 Email Harvester — export verified contacts to a downloadable CSV.
+"""B9 Public Business Contact Researcher — export contacts to a downloadable CSV.
 
 Input: a JSON file (or stdin) that is a list of contact objects with keys
 matching the Contact dataclass (person_name, company_name, phone, emails, ...).

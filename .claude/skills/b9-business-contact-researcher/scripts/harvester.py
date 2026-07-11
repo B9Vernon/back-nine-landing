@@ -1,4 +1,4 @@
-"""B9 Email Harvester — core library.
+"""B9 Public Business Contact Researcher — core library.
 
 Pure, dependency-free helpers used during a harvest RUN for validation,
 normalization, deduplication, provenance, and CSV export. Network-dependent
@@ -229,44 +229,85 @@ def enforce_two_email_max(contact: Contact) -> Contact:
 # History / deduplication
 # --------------------------------------------------------------------------
 
-def load_history_from_csv(path: str) -> dict:
-    """Read a prior results CSV into dedup index sets.
+HISTORY_KEYS = ("companies", "emails", "people", "person_company", "company_phone")
 
-    Supports the project's existing schema
-    (business_name, contact_page_url, main_public_phone, general_public_email)
-    and the visible-output schema (Name, Phone, Email).
-    Returns {'companies': set, 'emails': set, 'people': set}.
+
+def _empty_history() -> dict:
+    return {k: set() for k in HISTORY_KEYS}
+
+
+def _index_record(hist: dict, person: str, company: str, phone: str, emails) -> None:
+    """Add one prior/first-party record's match keys to a history dict."""
+    pk = normalize_person(person)
+    ck = normalize_company(company)
+    ph = normalize_phone(phone)
+    if ck:
+        hist["companies"].add(ck)
+    if pk:
+        hist["people"].add(pk)
+    if pk and ck:
+        hist["person_company"].add(f"{pk}|{ck}")
+    if ck and ph:
+        hist["company_phone"].add(f"{ck}|{ph}")
+    for e in emails:
+        ne = normalize_email(e)
+        if ne:
+            hist["emails"].add(ne)
+
+
+def load_history_from_csv(path: str) -> dict:
+    """Read a prior-results or first-party CSV into dedup index sets.
+
+    Tolerant of several schemas: the project's legacy schema
+    (business_name, contact_page_url, main_public_phone, general_public_email),
+    the visible-output schema (Name, Phone, Email), and common CRM-export
+    headers (company/organization, first/last name, email, phone).
+    Returns a dict with the HISTORY_KEYS sets.
     """
-    companies, emails, people = set(), set(), set()
+    hist = _empty_history()
     try:
         with open(path, "r", encoding="utf-8-sig", newline="") as fh:
             reader = csv.DictReader(fh)
             for row in reader:
-                norm = { (k or "").strip().lower(): (v or "") for k, v in row.items() }
-                biz = norm.get("business_name") or norm.get("name") or ""
+                # Normalize headers: lowercase, and treat spaces/hyphens as
+                # underscores so "First Name" / "Phone Number" match too.
+                norm = {
+                    re.sub(r"[\s-]+", "_", (k or "").strip().lower()): (v or "").strip()
+                    for k, v in row.items()
+                }
+                biz = (
+                    norm.get("business_name") or norm.get("company")
+                    or norm.get("company_name") or norm.get("organization")
+                    or norm.get("name") or ""
+                )
+                person = (
+                    norm.get("person_name") or norm.get("contact_name")
+                    or norm.get("full_name") or ""
+                )
+                if not person and (norm.get("first_name") or norm.get("last_name")):
+                    person = f"{norm.get('first_name', '')} {norm.get('last_name', '')}".strip()
                 # "Name" output rows may be "Person — Company"
                 if "—" in biz:
-                    person, _, comp = biz.partition("—")
-                    people.add(normalize_person(person))
+                    p, _, comp = biz.partition("—")
+                    person = person or p
                     biz = comp
-                if biz:
-                    companies.add(normalize_company(biz))
-                email_field = (
-                    norm.get("general_public_email")
-                    or norm.get("email")
-                    or ""
+                phone = (
+                    norm.get("main_public_phone") or norm.get("phone")
+                    or norm.get("phone_number") or norm.get("telephone") or ""
                 )
-                for e in re.split(r"[;,]", email_field):
-                    ne = normalize_email(e)
-                    if ne:
-                        emails.add(ne)
+                email_field = (
+                    norm.get("general_public_email") or norm.get("email")
+                    or norm.get("email_address") or ""
+                )
+                emails = [e for e in re.split(r"[;,]", email_field) if e.strip()]
+                _index_record(hist, person, biz, phone, emails)
     except FileNotFoundError:
         pass
-    return {"companies": companies, "emails": emails, "people": people}
+    return hist
 
 
 def load_history_from_jsonl(path: str) -> dict:
-    companies, emails, people = set(), set(), set()
+    hist = _empty_history()
     try:
         with open(path, "r", encoding="utf-8") as fh:
             for line in fh:
@@ -274,21 +315,33 @@ def load_history_from_jsonl(path: str) -> dict:
                 if not line:
                     continue
                 rec = json.loads(line)
-                if rec.get("company_name"):
-                    companies.add(normalize_company(rec["company_name"]))
-                if rec.get("person_name"):
-                    people.add(normalize_person(rec["person_name"]))
-                for e in rec.get("emails", []):
-                    ne = normalize_email(e)
-                    if ne:
-                        emails.add(ne)
+                _index_record(
+                    hist,
+                    rec.get("person_name", ""),
+                    rec.get("company_name", ""),
+                    rec.get("phone", ""),
+                    rec.get("emails", []),
+                )
     except FileNotFoundError:
         pass
-    return {"companies": companies, "emails": emails, "people": people}
+    return hist
+
+
+def load_history_from_index_json(path: str) -> dict:
+    """Load a saved index (e.g. data/first_party_index.json) back into sets."""
+    hist = _empty_history()
+    try:
+        with open(path, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        for k in HISTORY_KEYS:
+            hist[k] = set(data.get(k, []))
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+    return hist
 
 
 def merge_history(*histories: dict) -> dict:
-    out = {"companies": set(), "emails": set(), "people": set()}
+    out = _empty_history()
     for h in histories:
         for k in out:
             out[k] |= h.get(k, set())
@@ -296,17 +349,25 @@ def merge_history(*histories: dict) -> dict:
 
 
 def is_previously_returned(contact: Contact, history: dict) -> bool:
-    """True if this contact duplicates prior results (company/email/person)."""
-    if contact.company_key() and contact.company_key() in history.get("companies", set()):
-        # a genuinely distinct branch may still be new; caller decides.
-        pass
+    """True if this contact is already known and must not be returned as new.
+
+    A contact counts as previously known when ANY of these match prior
+    results or an ingested first-party list:
+      - an email address (this also covers the company fallback email)
+      - person AND company together
+      - normalized company AND phone
+      - a company-only row for a company already returned
+    """
     for e in contact.emails:
         if normalize_email(e) in history.get("emails", set()):
             return True
-    if contact.person_key() and contact.person_key() in history.get("people", set()):
+    pk, ck = contact.person_key(), contact.company_key()
+    if pk and ck and f"{pk}|{ck}" in history.get("person_company", set()):
         return True
-    if contact.company_key() and contact.company_key() in history.get("companies", set()) \
-            and not contact.person_name:
+    ph = normalize_phone(contact.phone)
+    if ck and ph and f"{ck}|{ph}" in history.get("company_phone", set()):
+        return True
+    if ck and not contact.person_name and ck in history.get("companies", set()):
         # company-only row already returned before
         return True
     return False

@@ -1,9 +1,13 @@
-"""Offline unit tests for the B9 Email Harvester core library.
+"""Offline unit tests for the B9 Public Business Contact Researcher pipeline.
 
 Run:  python -m pytest tests/  (or)  python tests/test_harvester.py
 No network required. These exercise validation, normalization, dedup, the
-two-email cap, and CSV export — the logic that keeps output clean and honest.
+two-email cap, CSV export, adaptive source rotation, and first-party
+ingestion — the logic that keeps output clean, new-only, and honest. They use
+simulated records only; no live research is performed.
 """
+import datetime
+import json
 import os
 import sys
 import tempfile
@@ -25,6 +29,8 @@ from harvester import (  # noqa: E402
     rows_to_csv_string,
     write_csv,
 )
+import source_rotation  # noqa: E402
+import ingest_first_party  # noqa: E402
 
 
 def check(name, cond):
@@ -91,16 +97,100 @@ def test_dedup_batch():
 def test_history_csv_and_prev():
     with tempfile.NamedTemporaryFile("w", suffix=".csv", delete=False, encoding="utf-8") as fh:
         fh.write("business_name,contact_page_url,main_public_phone,general_public_email\n")
-        fh.write("Acme Roofing Ltd,https://acme.ca,,info@acme.ca\n")
+        fh.write("Acme Roofing Ltd,https://acme.ca,(250) 555-1000,info@acme.ca\n")
         path = fh.name
     hist = load_history_from_csv(path)
     os.unlink(path)
     check("history has company", "acme roofing" in hist["companies"])
     check("history has email", "info@acme.ca" in hist["emails"])
+    check("history has company+phone", "acme roofing|(250) 555-1000" in hist["company_phone"])
     dup = Contact(company_name="Acme Roofing Inc", emails=["info@acme.ca"])
     check("detects prior email", is_previously_returned(dup, hist))
     fresh = Contact(person_name="New Person", company_name="Zeta Ltd", emails=["z@zeta.ca"])
     check("passes fresh", not is_previously_returned(fresh, hist))
+
+
+def test_prev_person_company_and_phone():
+    # CRM-style headers, no legacy schema
+    with tempfile.NamedTemporaryFile("w", suffix=".csv", delete=False, encoding="utf-8") as fh:
+        fh.write("company,first_name,last_name,phone,email\n")
+        fh.write("Beta Plumbing Ltd,Bob,Roe,250-555-2000,\n")
+        path = fh.name
+    hist = load_history_from_csv(path)
+    os.unlink(path)
+    check("person+company recorded", "bob roe|beta plumbing" in hist["person_company"])
+    # same person+company but a DIFFERENT/new email -> still known (no re-return)
+    dup = Contact(person_name="Bob Roe", company_name="Beta Plumbing Inc",
+                  emails=["bob@betaplumbing.ca"])
+    check("detects person+company", is_previously_returned(dup, hist))
+    # same company + same phone, no person -> known
+    dupc = Contact(company_name="Beta Plumbing", phone="(250) 555-2000")
+    check("detects company+phone", is_previously_returned(dupc, hist))
+    # genuinely different company, different phone -> new
+    fresh = Contact(person_name="Bob Roe", company_name="Gamma Co", phone="(250) 555-9999",
+                    emails=["bob@gamma.ca"])
+    check("different company is new", not is_previously_returned(fresh, hist))
+
+
+def test_first_party_ingestion():
+    with tempfile.TemporaryDirectory() as d:
+        crm = os.path.join(d, "crm.csv")
+        with open(crm, "w", encoding="utf-8") as fh:
+            fh.write("Company,Contact Name,Email,Phone\n")
+            fh.write("Delta Signs Ltd,Dana Lee,dana@deltasigns.ca,250-555-3000\n")
+        index_path = os.path.join(d, "first_party_index.json")
+        result = ingest_first_party.ingest([crm], index_path=index_path)
+        check("ingest counted email", result["index_totals"]["emails_known"] == 1)
+        check("index file written", os.path.exists(index_path))
+        from harvester import load_history_from_index_json
+        hist = load_history_from_index_json(index_path)
+        dup = Contact(person_name="Dana Lee", company_name="Delta Signs",
+                      emails=["dana@deltasigns.ca"])
+        check("ingested contact is known", is_previously_returned(dup, hist))
+
+
+def test_source_rotation_selection():
+    today = datetime.date(2026, 1, 15)
+    registry = [
+        {"name": "Chamber", "url": "https://a.test", "category": "chamber_directory"},
+        {"name": "News", "url": "https://b.test", "category": "local_news"},
+        {"name": "Tourism", "url": "https://c.test", "category": "tourism_directory"},
+        {"name": "Muni", "url": "https://d.test", "category": "municipal"},
+    ]
+    history = {"sources": {
+        # used yesterday, high duplicate rate -> should rank low
+        "https://a.test": {"last_used": "2026-01-14", "useful_results": 1,
+                           "duplicates": 20, "sections_remaining": False},
+        # blocked -> excluded
+        "https://b.test": {"status": "blocked"},
+    }}
+    picked = source_rotation.select_sources(2, today=today, history=history, registry=registry)
+    urls = [e["url"] for e in picked]
+    check("excludes blocked source", "https://b.test" not in urls)
+    check("fresh sources preferred over stale-duplicative",
+          "https://a.test" not in urls)
+    check("returns requested count", len(picked) == 2)
+    # category filter boosts matching category into the top slot
+    picked_cat = source_rotation.select_sources(1, category="municipal", today=today,
+                                                history=history, registry=registry)
+    check("category filter honored", picked_cat[0]["url"] == "https://d.test")
+
+
+def test_source_rotation_record():
+    with tempfile.TemporaryDirectory() as d:
+        hist_path = os.path.join(d, "source_history.json")
+        source_rotation.record_use("https://x.test", useful=3, dupes=1,
+                                    section="A-F", history=source_rotation.load_history(hist_path),
+                                    save=False)
+        # persist path variant
+        h = source_rotation.load_history(hist_path)
+        source_rotation.record_use("https://x.test", useful=3, dupes=1, section="A-F",
+                                   history=h, save=False)
+        source_rotation.save_history(h, hist_path)
+        reloaded = source_rotation.load_history(hist_path)
+        entry = reloaded["sources"]["https://x.test"]
+        check("records useful", entry["useful_results"] == 3)
+        check("records section", "A-F" in entry["sections_reviewed"])
 
 
 def test_output_and_csv():

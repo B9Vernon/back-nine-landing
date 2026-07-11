@@ -1,4 +1,4 @@
-"""B9 Email Harvester — source discovery & health checks.
+"""B9 Public Business Contact Researcher — source discovery & health checks.
 
 Run at the start of each harvest to rank the current best Vernon-area sources
 and to pick the most reliable *permitted* collection method for each one, in

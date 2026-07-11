@@ -1,4 +1,4 @@
-"""B9 Email Harvester — silent, non-intrusive verification helpers.
+"""B9 Public Business Contact Researcher — silent verification helpers.
 
 Used during a RUN to confirm that a candidate contact is safe to return.
 These checks are read-only and passive:
