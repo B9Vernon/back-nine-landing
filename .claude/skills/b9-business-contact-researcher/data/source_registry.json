@@ -1,0 +1,40 @@
+{
+  "_comment": "Candidate discovery sources for the Vernon / North Okanagan area. This is a CANDIDATE POOL, not a fixed top-10. At the start of every RUN, re-rank these (plus any newly discovered sources) by update frequency, recent local coverage, useful business mentions, reliability, freshness, name/company quality, access to official links, and low duplication. Never permanently hard-code the same 10 sites. Use news + directories to DISCOVER businesses and people; verify final name/title/email/phone on the organization's official site or another authoritative public source.",
+  "ranking_criteria": [
+    "update_frequency",
+    "recent_vernon_north_okanagan_coverage",
+    "useful_business_mentions",
+    "reliability",
+    "freshness",
+    "quality_of_names_and_company_info",
+    "access_to_official_business_links",
+    "low_duplication_with_other_sources"
+  ],
+  "geography": {
+    "core": ["Vernon", "Coldstream"],
+    "within_50km": ["Armstrong", "Lumby", "Enderby", "Lake Country", "Spallumcheen", "Cherryville", "Falkland", "Oyama", "Vernon North Okanagan"],
+    "region": "North Okanagan, BC"
+  },
+  "candidate_sources": [
+    {"name": "Greater Vernon Chamber of Commerce", "category": "chamber_directory", "url": "https://www.vernonchamber.ca/", "notes": "member directory, board/leadership, events, award programs"},
+    {"name": "Downtown Vernon Association", "category": "bia_directory", "url": "https://downtownvernon.com/", "notes": "member business directory, events, sponsors"},
+    {"name": "Tourism Vernon", "category": "tourism_directory", "url": "https://tourismvernon.com/", "notes": "operators, hospitality, tourism businesses"},
+    {"name": "City of Vernon", "category": "municipal", "url": "https://www.vernon.ca/", "notes": "business licences, public notices, RFPs, community org lists"},
+    {"name": "District of Coldstream", "category": "municipal", "url": "https://www.coldstream.ca/", "notes": "local businesses, notices"},
+    {"name": "City of Armstrong", "category": "municipal", "url": "https://cityofarmstrong.bc.ca/", "notes": "local businesses, notices"},
+    {"name": "Village of Lumby", "category": "municipal", "url": "https://www.lumby.ca/", "notes": "local businesses, notices"},
+    {"name": "City of Enderby", "category": "municipal", "url": "https://cityofenderby.com/", "notes": "local businesses, notices"},
+    {"name": "District of Lake Country", "category": "municipal", "url": "https://www.lakecountry.bc.ca/", "notes": "local businesses, notices"},
+    {"name": "Vernon Morning Star", "category": "local_news", "url": "https://www.vernonmorningstar.com/", "notes": "business news, people-on-the-move, awards, openings"},
+    {"name": "Castanet (Vernon)", "category": "local_news", "url": "https://www.castanet.net/news/Vernon/", "notes": "business news, classifieds, directory"},
+    {"name": "iNFOnews Vernon", "category": "local_news", "url": "https://infotel.ca/vernon", "notes": "regional business news"},
+    {"name": "Armstrong Regional Co-op / Armstrong Chamber", "category": "chamber_directory", "url": "https://armstrongspallumcheenchamber.com/", "notes": "member directory"},
+    {"name": "Enderby & District Chamber of Commerce", "category": "chamber_directory", "url": "https://enderbychamber.com/", "notes": "member directory"},
+    {"name": "Lake Country Chamber of Commerce", "category": "chamber_directory", "url": "https://lakecountrychamber.com/", "notes": "member directory"},
+    {"name": "North Okanagan real estate boards / brokerages", "category": "professional_directory", "url": "https://www.omreb.com/", "notes": "realtor rosters, brokerage staff pages"},
+    {"name": "BC business registry / OrgBook BC", "category": "public_registry", "url": "https://orgbook.gov.bc.ca/", "notes": "registered legal names, ownership signals"},
+    {"name": "Community Futures North Okanagan", "category": "economic_dev", "url": "https://www.futuresbc.com/", "notes": "small business profiles, programs"},
+    {"name": "Okanagan professional associations (accounting/law/insurance)", "category": "association_directory", "url": "", "notes": "CPA BC, Law Society of BC, IBABC member lookups for locally-based professionals"},
+    {"name": "Local charity / nonprofit & event sponsor pages", "category": "sponsor_events", "url": "", "notes": "tournament programs, gala sponsor lists, award announcements (PDFs common)"}
+  ]
+}
