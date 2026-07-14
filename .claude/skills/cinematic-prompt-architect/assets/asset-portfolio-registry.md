@@ -52,7 +52,16 @@ sheets · clean plates · environment reference frames.
 
 | Ref name | Category | Status | Description | Master sheet | Notes |
 |----------|----------|--------|-------------|--------------|-------|
-| _(none yet)_ | | | | | |
+| NeilAsset4 | Character | APPROVED | Neil — black polo w/ lime-green trim, dark grey patterned shorts, white belt, white shoes; black b9 cap OR no-cap (blond textured hair); blue eyes. Left-hand glove variant available. | user-supplied | Male lead. Cap + no-cap variants. |
+| NeilAsset6 | Character | APPROVED | Neil — cream cross-stripe polo w/ black collar, dark grey patterned shorts, white belt, white shoes, white-and-lime b9 trucker cap. | user-supplied | Male lead. |
+| NeilAsset8 | Character | APPROVED | Neil — navy golf-print polo w/ orange trim, orange shorts, white belt, white shoes; white b9 trucker cap OR no-cap. | user-supplied | Male lead. Cap + no-cap variants. |
+| JennaAsset1 | Character | APPROVED | Jenna — teal sleeveless V-neck golf top, white skort, white glove (left hand), white shoes, blonde hair in low bun, left-arm tattoo sleeve. Face front/side detail. | user-supplied | Female lead. Glove present — swing-ready. |
+| JennaAsset2 | Character | APPROVED | Jenna — teal sleeveless V-neck top, navy leggings, white/black Back Nine trucker cap, white shoes, blonde braid, arm tattoos. | user-supplied | Female lead. Athletic/practice look. |
+| JennaAsset3 | Character | APPROVED | Jenna — navy sleeveless collared golf dress, white shoes, blonde braid, pendant necklace, arm tattoos. Face front/side detail. | user-supplied | Female lead. Elevated dress look. |
+| N&JAsset1 | Character (couple) | APPROVED | Neil + Jenna two-shot. Neil: blue/white striped polo, grey shorts, white bGOLF cap. Jenna: teal sleeveless top, white eyelet skort, white glove, white shoes. | user-supplied | Couple reference for two-shots. |
+| Bay1Asset1 | Location / bay | APPROVED | Back Nine Vernon Bay 1 — charcoal walls, white sim screen, green turf, light wood floor, caramel leather sofa+armchair, black massage chairs, high-top w/ orange stools, circular white b9 wall logo, wooden BAY 1 letters, glass windows. | user-supplied | Primary facility set. |
+| DriverClubAsset1 | Golf club | APPROVED | TaylorMade Qi35 driver — carbon-fibre crown, dark metallic finish, straight silver shaft, black grip. | user-supplied | Hero club. |
+| TaylorMadeBagAsset1 | Golf bag | APPROVED | TaylorMade Qi35 stand bag — black/silver/green, "TaylorMade" + "Qi35" branding, stand legs. | user-supplied | Hero bag / set dressing. |
 
 ### Single-ball note
 There is only ever **one** hero golf-ball asset in play per production (e.g. `BALL-Hero-01`).
