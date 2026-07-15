@@ -38,6 +38,22 @@ out of frame). Never two. Motion blur, trails, reflections, screen graphics, and
 must never create the appearance of a second ball. If fast ball movement is hard to generate
 cleanly, split it into shorter clips rather than risk duplication.
 
+## Reference-image fidelity
+
+Whenever a prompt will be generated with attached character or location reference images
+(`assets/asset-portfolio-registry.md`), those images are literal ground truth, not inspiration.
+Two failures are unacceptable: **identity substitution** (a different-looking person appears
+instead of the attached character) and **facility invention** (the location gains or loses
+features that aren't in the reference — extra screens, curved screens, wrong turf boundaries,
+rearranged walls). Never describe a character generically ("a golfer," "a woman") when a named
+reference is attached — lock their exact face, hair, build, and skin tone in words. Never
+describe a location generically ("a golf simulator bay") — state its exact, literal geometry: how
+many screens, whether flat or curved, where the turf starts and ends, what borders it. For every
+hitting/address/swing shot, explicitly place the golfer's feet on the turf inside the hitting area
+and orient their body/target line at the impact screen. Full protocol:
+`references/reference-image-fidelity.md`. Mandatory verification:
+`checklists/reference-fidelity-verification.md`.
+
 ## Visible club-to-ball impact
 
 Whenever a golf club hits a ball, the clip must clearly show the clubface physically contacting
@@ -113,10 +129,12 @@ spectators, or background activity unless requested.
    Simplify any action too complex for stable Seedance generation.
 6. Protect character/prop/club/ball/logo/location continuity (`references/continuity-locks.md`)
    and prevent distortion (`references/distortion-prevention.md`).
-7. Confirm no more than one golf ball can appear.
-8. For any hitting scene, confirm the club-to-ball impact is visible and physically correct
+7. When image references are attached, lock identity and facility geometry literally in words —
+   never let the model guess (`references/reference-image-fidelity.md`).
+8. Confirm no more than one golf ball can appear.
+9. For any hitting scene, confirm the club-to-ball impact is visible and physically correct
    (`references/club-ball-impact.md`).
-9. Return complete, independent, copy-and-paste prompts — token-efficient by default.
+10. Return complete, independent, copy-and-paste prompts — token-efficient by default.
 
 ## Clip structure — decide it, don't ask
 
@@ -194,8 +212,9 @@ use clear temporary descriptions until approved.
 
 Run `checklists/pre-output-qc.md`. For any golf content, also run
 `checklists/single-ball-verification.md`. For any hitting scene, also run
-`checklists/club-ball-impact-verification.md`. Do not return a prompt that fails any of these. If
-generation was authorized and run, also run `checklists/generation-review.md` on every result
+`checklists/club-ball-impact-verification.md`. Whenever image references are attached, also run
+`checklists/reference-fidelity-verification.md`. Do not return a prompt that fails any of these.
+If generation was authorized and run, also run `checklists/generation-review.md` on every result
 before continuing.
 
 ## Absolute final rule

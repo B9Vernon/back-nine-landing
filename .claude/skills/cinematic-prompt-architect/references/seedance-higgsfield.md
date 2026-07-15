@@ -34,6 +34,22 @@ see `references/higgsfield-generation-authority.md`.
 - When an approved logo asset exists, reference or composite it rather than asking the model to
   generate detailed lettering from scratch.
 
+## Writing prompts that actually lock onto attached reference images
+
+Attaching a reference image is not enough on its own — Seedance still needs the prompt text to
+tell it what to preserve from that image, or it will improvise gaps (a different face, an extra
+screen, a wrong turf boundary). For every prompt with attached references:
+
+- **Say what the reference is for, explicitly**, e.g. "match the woman exactly to the attached
+  character reference — same face, hair, build" rather than leaving the image to imply it.
+- **Describe the reference's content in words too**, not just by attachment — restate the face/
+  hair/wardrobe for characters, and the exact room geometry for locations (screen count, screen
+  shape, turf boundary, wall composition). Redundant reinforcement between image and text is what
+  keeps identity and geometry locked; relying on the image alone is a common cause of drift.
+- **Name what must NOT appear** just as explicitly as what must — no second screen, no different
+  face, no extra furniture. Absence-of-invention is a first-class instruction, not an afterthought.
+- Full mandatory protocol for this: `references/reference-image-fidelity.md`.
+
 ## Ball-motion stability on Seedance
 
 - When the single ball moves fast, choose camera movement and shutter/motion-blur behaviour that

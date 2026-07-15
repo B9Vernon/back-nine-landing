@@ -32,6 +32,12 @@ Verify internally before returning any prompt. For golf content, also run
 - [ ] Hands and fingers protected; object scale and weight believable; contact shadows present?
 - [ ] Existing assets reused? New assets actually necessary and flagged?
 
+## Reference-image fidelity (whenever image references are attached)
+- [ ] `checklists/reference-fidelity-verification.md` fully passed — identity locked to the exact
+      attached character reference (never generic); facility geometry stated literally (exact
+      screen count/shape, exact turf boundary, no invented elements); golfer's feet on the turf
+      and body oriented toward the impact screen for hitting/address/swing shots.
+
 ## Physics & realism
 - [ ] Realistic contact, weight, inertia; nothing floats or clips through anything?
 - [ ] Ball impact and trajectory physically believable?

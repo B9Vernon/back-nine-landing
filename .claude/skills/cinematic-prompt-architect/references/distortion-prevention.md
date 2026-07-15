@@ -9,8 +9,14 @@ or the number of simultaneous events.
 ## Always prevent
 
 - facial warping · identity drift · changing body proportions/age/wardrobe/hairstyle
+- **identity substitution — a different-looking or generic person appearing instead of the exact
+  face/hair/build shown in an attached character reference** (`references/reference-image-fidelity.md`)
 - extra/missing limbs · extra/fused fingers · broken wrists · twisted arms · impossible joints
 - warped architecture · bending walls · shifting doors · moving windows · melted furniture
+- **invented facility elements — extra screens, curved/angled/free-standing screens, projector
+  beams, extra monitors, rearranged walls or furniture not present in the attached location
+  reference; a golfer standing outside the turf/hitting-area boundary; a golfer not oriented
+  toward the impact screen during address/swing** (`references/reference-image-fidelity.md`)
 - distorted golf bags
 - bent/twisted club shafts · changing clubheads · wrong clubface direction
 - **duplicated golf balls · extra golf balls · ghost golf balls · ball-shaped reflections ·
@@ -26,11 +32,15 @@ or the number of simultaneous events.
 > golf ball anywhere including turf, basket, flight, reflections, glass, screens, HUD graphics,
 > logos, or background; ball-shaped reflections; motion trails made of repeated balls; a ball
 > remaining at address after being struck. No warped or duplicated faces; no identity/age/skin/
-> body/wardrobe/hairstyle changes; no extra or missing limbs; no extra or fused fingers; no
+> body/wardrobe/hairstyle changes; no substituting a different-looking or generic person for an
+> attached character reference; no extra or missing limbs; no extra or fused fingers; no
 > broken wrists or impossible joints; no plastic skin or glowing eyes. No bent, twisted, melted,
 > reversed, duplicated, floating, disappearing, or wrong-hand golf clubs; no clubface pointing
 > the wrong way; no club passing through the body. No warped architecture, bending walls,
-> shifting doors, moving windows, melted furniture, or changed room scale. No moved or mutated
+> shifting doors, moving windows, melted furniture, or changed room scale. No extra, curved,
+> angled, or free-standing screens beyond the one flat impact screen; no projector beams or
+> duplicate impact surfaces; no golfer standing outside the turf hitting area; no golfer facing
+> away from the impact screen during address or swing. No moved or mutated
 > logos, no misspelled branding, no random floating text. No floating objects, no clipping, no
 > impossible shadows or reflections, no unstable screens, no unexpected extra people, no
 > game-engine or synthetic CGI look.

@@ -4,8 +4,9 @@ A reusable Claude Skill that turns rough ideas, scene notes, or existing prompts
 production-ready cinematic video prompts optimized for **Seedance through Higgsfield**, tailored
 to **Back Nine Golf Vernon**. It decides clip structure automatically, writes one independent open
 prompt per clip in a token-efficient default mode, preserves characters/locations/props/branding,
-enforces the absolute one-golf-ball rule and visible club-to-ball impact rule, manages a reusable
-asset portfolio, and only invokes paid Higgsfield generation when explicitly authorized.
+locks generated identity and facility geometry to attached reference images, enforces the
+absolute one-golf-ball rule and visible club-to-ball impact rule, manages a reusable asset
+portfolio, and only invokes paid Higgsfield generation when explicitly authorized.
 
 ## Structure
 ```
@@ -15,6 +16,7 @@ cinematic-prompt-architect/
 ├── references/                  # deep guidance (loaded as needed)
 │   ├── single-golf-ball-protocol.md
 │   ├── club-ball-impact.md      # mandatory visible-impact rule for hitting scenes
+│   ├── reference-image-fidelity.md  # mandatory identity + facility geometry lock
 │   ├── prompt-structure.md      # the 35-section framework + priority-section guidance
 │   ├── clip-structure-and-timing.md
 │   ├── continuity-locks.md
@@ -35,6 +37,7 @@ cinematic-prompt-architect/
 │   ├── pre-output-qc.md
 │   ├── single-ball-verification.md
 │   ├── club-ball-impact-verification.md  # run before every hitting-scene output
+│   ├── reference-fidelity-verification.md  # run whenever image references are attached
 │   └── generation-review.md     # run after every Higgsfield generation
 └── assets/
     └── asset-portfolio-registry.md

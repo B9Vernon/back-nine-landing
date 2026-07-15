@@ -3,13 +3,18 @@
 Copy this scaffold per clip. **Use the minimum sections needed to control the clip reliably** —
 priority: opening frame (FIRST FRAME/BLOCKING), chronological action (SUBJECT/CAMERA/GOLF-BALL
 ACTION), CAMERA, ACTIVE REFERENCES, PHYSICS, LIGHTING, POSITIVE LOCKS, SINGLE-GOLF-BALL LOCK,
-VISIBLE IMPACT LOCK (hitting scenes), DISTORTION-PREVENTION LOCKS, and the final frame (ENDING
-CONTINUITY FRAME/FINAL VISUAL BEAT). Delete every other section unless it materially helps. Full
-guidance: `references/prompt-structure.md`. Every clip is independent — restate all essential
-references, positions, and locks **in compact wording** (never by pasting a full reference
-document — Seedance does not remember prior clips). This is the default, token-efficient
-scaffold; expand it only in Mode N — maximum detail
-(`references/token-efficient-production-mode.md`).
+VISIBLE IMPACT LOCK (hitting scenes), REFERENCE FIDELITY LOCK (whenever image references are
+attached), DISTORTION-PREVENTION LOCKS, and the final frame (ENDING CONTINUITY FRAME/FINAL VISUAL
+BEAT). Delete every other section unless it materially helps. Full guidance:
+`references/prompt-structure.md`. Every clip is independent — restate all essential references,
+positions, and locks **in compact wording** (never by pasting a full reference document —
+Seedance does not remember prior clips). This is the default, token-efficient scaffold; expand it
+only in Mode N — maximum detail (`references/token-efficient-production-mode.md`).
+
+**When image references are attached, ACTIVE REFERENCES and LOCATION MAP must be literal, not
+generic** — name each character's exact face/hair/build instead of "a golfer," and state the
+location's exact screen count/shape and turf boundary instead of "a golf simulator bay." See
+`references/reference-image-fidelity.md`.
 
 ---
 
@@ -21,10 +26,14 @@ TOTAL VIDEO STRUCTURE: [this is clip N of M; total length …]
 CLIP TIMING: [start–end] · aspect ratio [9:16 / 16:9] · playback speed [normal / slow-mo]
 
 SCENE CONTEXT:
-ACTIVE REFERENCES: [exact names — character(s), location, props, club(s), single ball, logo]
-LOCATION MAP: [walls, doors, windows, simulator screen, bay dividers, turf bounds, furniture,
-logo placement; foreground / midground / background landmarks; camera-safe path]
+ACTIVE REFERENCES: [exact names — character(s) with face/hair/build restated, location, props,
+club(s), single ball, logo]
+LOCATION MAP: [literal geometry — exact screen count and shape (flat/curved), exact turf
+boundary, walls, doors, windows, bay dividers, furniture, logo placement; foreground / midground /
+background landmarks; camera-safe path]
 SINGLE-GOLF-BALL STATUS: [present at (position) / intentionally out of frame]
+GOLFER PLACEMENT: [feet on turf, inside hitting area; body/target line oriented at the impact
+screen — hitting/address/swing shots only]
 
 FIRST FRAME / BLOCKING: [exact opening frame — subject pose & position, prop positions, single-ball
 position, camera position, subject eyeline, fg/mg/bg]
@@ -55,6 +64,8 @@ POSITIVE LOCKS: [identity, wardrobe, footwear, accessories, glove hand, club typ
 location geometry, screen placement, branding — all identical]
 SINGLE-GOLF-BALL LOCK: [compact — paste/restate from references/single-golf-ball-protocol.md]
 VISIBLE IMPACT LOCK: [hitting scenes only — compact — from references/club-ball-impact.md]
+REFERENCE FIDELITY LOCK: [whenever image references are attached — compact — from
+references/reference-image-fidelity.md]
 DISTORTION-PREVENTION LOCKS: [from references/distortion-prevention.md]
 NEGATIVE LOCKS: [never render — includes any second/extra/ghost golf ball anywhere]
 

@@ -18,6 +18,12 @@ condition · scale in the environment.
 wardrobe changes · hairstyle changes · missing accessories · facial warping · extra/missing limbs ·
 broken joints · extra/fused fingers · unnatural blinking · glowing eyes · plastic skin.
 
+**When a character reference image is attached, this is a hard identity lock, not a suggestion.**
+Never describe the person generically ("a golfer," "a woman," "a man") — name the exact reference
+asset and lock face/hair/build/skin tone in words. A generated face that doesn't match the
+attached reference is a failed generation, exactly like a duplicated golf ball: reject and
+regenerate with stronger identity wording. Full rules: `references/reference-image-fidelity.md`.
+
 ## Location continuity — preserve
 
 identical room dimensions · walls · doors · windows · simulator-screen placement · turf boundaries ·
@@ -26,7 +32,23 @@ hallway direction.
 
 **Prevent:** moving walls · shifting doors · disappearing windows · changing bay dimensions ·
 altered simulator placement · warped architecture · melted furniture · incorrect room scale ·
-changing logos · changing lighting fixtures.
+changing logos · changing lighting fixtures · **inventing extra screens, projectors, monitors, or
+duplicate impact surfaces not present in the reference**.
+
+**When a location reference image is attached, describe its geometry literally in every prompt —
+do not summarize it as a generic bay.** State the exact screen count and shape, the exact turf
+boundary, and what borders the turf. For Back Nine's Bay 1, use this locked geometry:
+
+> Bay 1 is a single rectangular hitting bay. Green artificial turf covers the entire floor from
+> the golfer's hitting position all the way to the base of the back wall — there is no wood floor,
+> gap, or border strip between the turf and the screen. One flat rectangular impact screen is
+> mounted flush and vertical against the centre of the back wall, flanked by two plain charcoal-
+> grey wall sections — the screen is flat, never curved, angled, or free-standing, and it is the
+> only large screen in the hitting area. The separate lounge zone (leather sofa/armchair, massage
+> chairs, high-top table, small wall-mounted TV) is away from the hitting turf and stays out of
+> the shot unless the concept explicitly moves the camera there.
+
+Full rules and the golfer-orientation requirement: `references/reference-image-fidelity.md`.
 
 ## Prop continuity — preserve
 
