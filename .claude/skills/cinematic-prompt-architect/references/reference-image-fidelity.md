@@ -67,6 +67,30 @@ Use this exact description (or a compact restatement of it) in every Bay 1 promp
 - State this explicitly rather than assuming the model infers it: name the turf position and name
   the facing direction ("facing the impact screen," "target line pointing at the screen").
 
+## 4. Reference-slot budgeting (engine reference-image limits)
+
+Generation engines cap how many reference images can be attached per generation — e.g. Higgsfield
+**Cinema Studio 2.5 allows a maximum of 3 reference images per generation**. When a scene needs
+more assets than the cap allows, never silently drop one — choose and state a priority order:
+
+1. **Character identity references first** — one per distinct person, or a single group/couple
+   reference (e.g. `N&JAsset1`) if it already covers multiple people together.
+2. **Location/facility geometry reference second** — the asset that locks screen count, turf
+   boundary, and wall composition (e.g. `Bay1Asset1`).
+3. **Prop/club/bag/branding references only if slots remain.** Well-known real-world objects
+   (a driver, a stand bag) can usually be locked reliably through literal text description alone
+   (exact make, material, colour, geometry) — they don't need an image slot the way faces and
+   facility geometry do.
+
+For a couple/group scene, prefer one reference that already contains everyone together plus one
+additional close reference for whichever character carries the most detail work (hero hitter's
+glove hand, face angle) — this typically resolves 2+ people into 2 slots instead of one each.
+
+State the chosen references on the "Attach" line above each clip so the user knows exactly what to
+load and why anything else was left to text. If the user names a different engine, apply its real
+reference cap instead of assuming Seedance/Cinema Studio behaviour carries over — ask or infer the
+actual limit rather than guessing.
+
 ## Lock text to paste into every prompt using image references
 
 > REFERENCE FIDELITY LOCK: [CHARACTER NAME(S)] must exactly match the attached character reference

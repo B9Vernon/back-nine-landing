@@ -13,7 +13,9 @@ only in Mode N — maximum detail (`references/token-efficient-production-mode.m
 
 **When image references are attached, ACTIVE REFERENCES and LOCATION MAP must be literal, not
 generic** — name each character's exact face/hair/build instead of "a golfer," and state the
-location's exact screen count/shape and turf boundary instead of "a golf simulator bay." See
+location's exact screen count/shape and turf boundary instead of "a golf simulator bay." Respect
+the target engine's reference-image cap (e.g. 3 for Higgsfield Cinema Studio 2.5) — prioritize
+character identity + location references and cover props via text when slots are tight. See
 `references/reference-image-fidelity.md`.
 
 ---

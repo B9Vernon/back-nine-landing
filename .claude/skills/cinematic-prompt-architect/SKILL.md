@@ -50,7 +50,10 @@ reference is attached — lock their exact face, hair, build, and skin tone in w
 describe a location generically ("a golf simulator bay") — state its exact, literal geometry: how
 many screens, whether flat or curved, where the turf starts and ends, what borders it. For every
 hitting/address/swing shot, explicitly place the golfer's feet on the turf inside the hitting area
-and orient their body/target line at the impact screen. Full protocol:
+and orient their body/target line at the impact screen. The target engine's reference-image cap
+(e.g. **3 for Higgsfield Cinema Studio 2.5**) must never be silently exceeded — prioritize
+character identity and location geometry references over prop references when slots are tight,
+covering props through literal text instead. Full protocol:
 `references/reference-image-fidelity.md`. Mandatory verification:
 `checklists/reference-fidelity-verification.md`.
 

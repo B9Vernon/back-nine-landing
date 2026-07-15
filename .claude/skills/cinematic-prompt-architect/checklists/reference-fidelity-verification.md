@@ -26,6 +26,13 @@ shipping. Full rules: `references/reference-image-fidelity.md`.
 - [ ] Is the golfer's body/target line explicitly oriented toward the flat impact screen for every
       address, swing, or ball-focused beat?
 
+## Reference-slot budget
+- [ ] Does the attached-reference count for this clip respect the target engine's maximum (e.g. 3
+      for Higgsfield Cinema Studio 2.5)?
+- [ ] If assets exceed the cap, are character identity + location geometry prioritized over props,
+      with props covered by literal text description instead of an image slot
+      (`references/reference-image-fidelity.md` → Reference-slot budgeting)?
+
 ## Final gate
 **Reject and rewrite** if the prompt would let Seedance guess at identity or geometry instead of
 stating it. A reference image alone is not enough — the words must lock what the image shows.
