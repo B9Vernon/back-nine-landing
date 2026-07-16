@@ -473,3 +473,53 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Qualicare Vernon-Kelowna | Home care | qualicare.com Vernon-Kelowna page | 2026-07-16 | run-2
 - [email created] Abbeyfield Houses of Vernon Society | Seniors housing non-profit | abbeyfieldvernon.ca contact page | 2026-07-16 | run-2
 - [email created] Pest Detective — Vernon | Pest control | pestdetective.com Vernon page + 250-545-5448 | 2026-07-16 | run-2
+- [email created] Quality Greens Farm Market | Produce market | qualitygreens.com form | 2026-07-16 | run-3
+- [email created] Match Eatery & Public House (Lake City Casino) | Restaurant/pub | matchpub.vernon@gatewaycasinos.ca | 2026-07-16 | run-3
+- [email created] The Italian Kitchen Company | Restaurant | italiankitchenvernon.com form | 2026-07-16 | run-3
+- [email created] Sir Winston's Pub and Liquor Store | Pub/liquor store | sirwinstons.ca form | 2026-07-16 | run-3
+- [email created] Andre's Electronic Experts | Electronics retail | andreselectronicexperts.com form | 2026-07-16 | run-3
+- [email created] GoodLife Fitness Vernon | Gym | goodlifefitness.com form | 2026-07-16 | run-3
+- [email created] CrossFit Vernon | Gym | tavia@crossfitvernon.ca | 2026-07-16 | run-3
+- [email created] Noble Yoga Studio | Yoga studio | hello@nobleyoga.studio | 2026-07-16 | run-3
+- [email created] Anna's Vitamins Plus | Health retail | info@annasvitaminsplus.com | 2026-07-16 | run-3
+- [email created] Fountain Tire Vernon | Tire shop | F123@Fountaintire.com | 2026-07-16 | run-3
+- [email created] Cowork Vernon | Coworking space | info@coworkvernon.com | 2026-07-16 | run-3
+- [email created] Acera Insurance (formerly CapriCMW) Vernon | Insurance | capricmw.ca form | 2026-07-16 | run-3
+- [email created] Beem Credit Union Vernon | Credit union | beemcreditunion.ca form | 2026-07-16 | run-3
+- [email created] Maven Lane | Childcare/early learning | enrol@mavenlane.org | 2026-07-16 | run-3
+- [email created] Vernon Jazz Society | Arts non-profit | vernonjazz.com form | 2026-07-16 | run-3
+- [email created] Castle on the Mountain B&B | B&B | info@castleonthemountain.com | 2026-07-16 | run-3
+- [email created] The Pinnacles Suites (Silver Star) | Hotel | pinnacles.com form | 2026-07-16 | run-3
+- [email created] Bugaboos Bakery Cafe (Silver Star) | Bakery/cafe | bugabooscafe@gmail.com | 2026-07-16 | run-3
+- [email created] Okanagan Skydive | Adventure tourism | info@okanaganskydive.com | 2026-07-16 | run-3
+- [email created] Noble Adventures | Tour operator | nobleadventures.net form | 2026-07-16 | run-3
+- [email created] Kalavida Surf Shop | Watersports retail/rental | kalavidasurfshop.com form | 2026-07-16 | run-3
+- [email created] Turtle Mountain Winery | Winery | turtlemountainvernon.com | 2026-07-16 | run-3
+- [email created] Pho Fusion | Restaurant | phone 778-475-5565 | 2026-07-16 | run-3
+- [email created] Shahi Pakwan | Restaurant | shaipakwaan@gmail.com | 2026-07-16 | run-3
+- [email created] Cabbana Indian Bistro | Restaurant | cabbanaindianbistro.com | 2026-07-16 | run-3
+- [email created] Pho Sate Vietnamese Restaurant | Restaurant | phone 778-475-6112 | 2026-07-16 | run-3
+- [email created] Sutherland's Bakery & Deli (Enderby) | Bakery | phone 250-838-7234 | 2026-07-16 | run-3
+- [email created] Blue Ox Pub (Lumby) | Pub | info@blueoxpub.ca | 2026-07-16 | run-3
+- [email created] PV BLVD Coffee (Armstrong) | Cafe | info@pvblvdcoffee.com | 2026-07-16 | run-3
+- [email created] Surplus Herby's Vernon | Outdoor retail | surplusherbys.com | 2026-07-16 | run-3
+- [email created] Banner RV | RV dealer | sales.vernon@bannerrv.com | 2026-07-16 | run-3
+- [email created] Mike Rosman RV Sales | RV dealer | rosmanrv.com | 2026-07-16 | run-3
+- [email created] Valley Marine | Marine service | valleymarine2010@hotmail.com | 2026-07-16 | run-3
+- [email created] Foamshine Car Wash | Car wash | info@foamshinecarwash.com | 2026-07-16 | run-3
+- [email created] Wise Guys Car Wash | Car wash | wiseguyscarwash.com | 2026-07-16 | run-3
+- [email created] Central Animal Hospital | Veterinary | reception@centralanimalhospital.ca | 2026-07-16 | run-3
+- [email created] Sunridge Veterinary Clinic | Veterinary | info@sunridgevet.ca | 2026-07-16 | run-3
+- [email created] Hi-Pro Branded Solutions | Promo/embroidery | angie@hiprobrandedsolutions.com | 2026-07-16 | run-3
+- [email created] Edge Imprints | Custom apparel/engraving | edgeimprints.com form | 2026-07-16 | run-3
+- [email created] MIM Marketing in Motion | Marketing agency | contact@mimmarketinginmotion.com | 2026-07-16 | run-3
+- [email created] Diggers Construction | Excavation/landscaping | johndiggerswitham@shaw.ca | 2026-07-16 | run-3
+- [email created] Iceberg Solar | Solar installer | vernon@icebergsolar.com | 2026-07-16 | run-3
+- [email created] Lakeview Door Services | Garage doors | lakeviewdoor@hotmail.com | 2026-07-16 | run-3
+- [email created] Budget Blinds of Vernon | Window coverings | budgetblinds.com form | 2026-07-16 | run-3
+- [email created] Vernon Lock & Security Solutions | Locksmith/security | vernonlock.com | 2026-07-16 | run-3
+- [email created] Centre Dry Cleaners | Dry cleaning | centredrycleaners@hotmail.com | 2026-07-16 | run-3
+- [email created] Charlene Silvester Notary Public | Notary | charlene@vernonnotary.com | 2026-07-16 | run-3
+- [email created] Chelsea Kramer Notary Public | Notary | info@cknotary.ca | 2026-07-16 | run-3
+- [email created] 105.7 Sun FM (Bell Media Vernon) | Radio/media | aaron.himelson@bellmedia.ca | 2026-07-16 | run-3
+- [email created] Ed's Mobile Kayak Rental | Watersports rental | edskayak.ca form | 2026-07-16 | run-3
