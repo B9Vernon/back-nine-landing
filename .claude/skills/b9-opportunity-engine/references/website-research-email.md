@@ -6,8 +6,13 @@ research depth, tone, and quality. These rules are absolute.
 
 ## Locked email rules
 
-1. The email body ALWAYS opens with exactly: `Hey, I'm Neil.`
-   - Never "Hey, I'm Vernon." Never introduce Neil as the city or business.
+1. The email body ALWAYS opens with a greeting personal to the recipient,
+   then the introduction: `Hey [recipient] team, I'm Neil.`
+   - Business: `Hey Triumph Coffee team, I'm Neil.` (short natural name — drop
+     "The", location suffixes, legal suffixes, store numbers).
+   - Named person (owner/sole practitioner): `Hey Katie, I'm Neil.`
+   - Never a bare `Hey, I'm Neil.` — the greeting must name who it's for.
+   - Never "I'm Vernon." Never introduce Neil as the city or business.
 2. NO signature of any kind. No sign-off block, name, title, phone, website,
    or address at the end — Gmail adds the signature. End naturally with a
    simple question or soft next step, then stop.
