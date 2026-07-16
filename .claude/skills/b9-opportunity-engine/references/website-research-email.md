@@ -25,19 +25,20 @@ research depth, tone, and quality. These rules are absolute.
 
 ## Output format (exact, per business)
 
+Emails only — no research metadata. Do NOT include category, location,
+website, partnership-angle, fit-score, fit-notes, source, or duplicate-check
+lines in the deliverable; that work still happens, it just stays internal.
+
 ```
-BUSINESS NAME:
-WEBSITE:
-CONTACT FOUND:
-PARTNERSHIP ANGLE:
-FIT NOTES:
+[#]. [Business Name]
+To: [best public contact — email address, or contact form/phone if no email]
+Subject: [subject line]
 
-EMAIL SUBJECT:
-[subject line]
-
-EMAIL BODY:
 [email body]
 ```
+
+Separate entries with a `---` line. The file starts with a short header only
+(title, date, public-contact note, CASL reminder) — nothing else.
 
 ## Voice
 
