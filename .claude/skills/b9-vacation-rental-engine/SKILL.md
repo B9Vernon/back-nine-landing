@@ -35,7 +35,9 @@ Hard rules (never violate):
    families/groups, higher disposable income).
 3. **Direct host finder** - prefer the person/company who can actually recommend to
    guests: direct-booking sites, owner pages, PM companies, B&B sites. Skip listings with
-   no realistic public contact path.
+   no realistic public contact path. For prospects that only exist as VRBO/Airbnb
+   listings, use the companion `b9-platform-host-contact` skill (listing-to-owner
+   cross-reference first; manual Message-Host note as fallback).
 4. **Public contact confidence scorer** - HIGH: direct owner/host/manager email.
    MEDIUM: general business email. USABLE: contact form (`CONTACT FORM: url`).
    LOW: social only (`SOCIAL CONTACT: url`). NO USABLE CONTACT: exclude from main file.
@@ -45,7 +47,10 @@ Hard rules (never violate):
 6. **Five-star review hook builder** - lightly connect the perk to better stays and
    standing out. Never promise or guarantee reviews; never sound manipulative.
 7. **Preferred guest offer handler** - every email includes the preferred guest
-   invitation idea with `{{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}`.
+   invitation idea. Use `{{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}` only when Neil has not
+   supplied (or said he will supply) the offer himself - as of July 2026 Neil writes
+   custom offers, so omit the placeholder and just reference "a preferred guest
+   invitation".
 8. **Season-based angle** - winter: SilverStar/evening/family; spring: rainy-day,
    golf add-on; summer: smoke-day escape, lake add-on; fall: quiet-season perk.
 9. **Travel distance practicality scorer** - favor stays whose guests can realistically
@@ -62,8 +67,11 @@ Hard rules (never violate):
     check-in message."
 13. **No-signature Gmail formatter** - every body opens exactly `Hey, I'm Neil.`
     (never "Hey, I'm Vernon."), no signature/phone/footer/address/sign-off, ends with
-    one reply question then stops. Standard closer: "Would you be open to me sending
-    over a short guest-invitation blurb you could use?"
+    one reply question then stops. Standard penultimate line (Neil's requirement):
+    "It's an easy way to give your guests an even better stay - the kind of touch that
+    helps earn those top star ratings." (phrased as "helps earn", never a promise or
+    guarantee of ratings). Standard closer: "Would you be open to me sending over a
+    short guest-invitation blurb you could use?"
 14. **TXT file export cleaner** - plain text only, no markdown/tables/notes. Per entry:
 
     ```
