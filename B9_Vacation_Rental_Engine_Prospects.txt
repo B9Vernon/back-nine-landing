@@ -1,0 +1,477 @@
+PROSPECT 001
+
+NAME: Castle on the Mountain Bed & Breakfast
+EMAIL: info@castleonthemountain.com
+EMAIL SUBJECT: A guest perk idea for Castle on the Mountain
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Castle on the Mountain and loved that you're right on Silver Star Road - your guests get the best of both Vernon and the mountain. I thought there might be a simple way to give them one more memorable experience while they're here.
+
+I run Back Nine Vernon, a premium indoor golf facility in town where guests can book a private bay, play world-class simulator courses, and have a great evening together no matter what the weather is doing.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy local perk to mention in your welcome materials or at breakfast when guests ask what to do in town.
+
+It's a simple way to make a stay at the Castle feel even more complete.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 002
+
+NAME: Water's Edge @ Illahee (Kalamalka Lake B&B)
+EMAIL: pdooling@illahee.com
+EMAIL SUBJECT: A rainy-day idea for your Kalamalka Lake guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Water's Edge @ Illahee and the lakeshore setting on Kalamalka looks incredible. Most of your guests are probably there for the water - which is exactly why I thought of you.
+
+I run Back Nine Vernon, a premium indoor golf facility just up the road. When a rainy day, a smoky stretch, or a quiet evening interrupts lake time, guests can book a private bay and play world-class simulator courses together. It's a fun, easy backup plan that keeps a Vernon stay feeling full.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have a ready-made local recommendation whenever guests ask what else there is to do.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 003
+
+NAME: The Castle at Swan Lake Hotel
+EMAIL: fd@swanlakecastle.com
+EMAIL SUBJECT: An easy guest recommendation for your Swan Lake suites
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across The Castle at Swan Lake and noticed how well your suites are set up for families and longer stays - full kitchens, family suites, the works. Guests staying multiple nights are always looking for one more thing to do in Vernon.
+
+I run Back Nine Vernon, a premium indoor golf facility nearby. Groups and families can book a private bay, play world-class simulator courses, and enjoy a fun evening together without needing perfect weather or any golf experience.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so your front desk has an easy, reliable local recommendation to offer at check-in.
+
+It's a simple added experience that helps a stay stand out.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 004
+
+NAME: OKGN Suites (Furnished Rental Suites, Vernon)
+EMAIL: info@okgnsuites.ca
+EMAIL SUBJECT: A local perk for your OKGN Suites guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across OKGN Suites and liked how you've set up your furnished suites for travelling professionals and longer stays in Vernon. Guests staying weeks at a time eventually want something relaxing to do after work that isn't another restaurant.
+
+I run Back Nine Vernon, a premium indoor golf facility in town. Guests can book a private bay, play world-class simulator courses, and unwind for an hour or two in a relaxed, private setting - solo or with colleagues.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy local recommendation to drop into your check-in message or guest guide.
+
+It's a small touch that makes a longer stay in Vernon feel more like home.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 005
+
+NAME: Sparkling Hill Resort & Spa
+EMAIL: reservations@sparklinghill.com
+EMAIL SUBJECT: A premium off-property experience for Sparkling Hill guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Sparkling Hill's guest experience offering and it's clearly built around giving people an exceptional few days above Okanagan Lake. I thought there might be a fit for guests who want one premium off-property outing during their stay.
+
+I run Back Nine Vernon, a premium indoor golf facility a short drive away. Couples and small groups can book a private bay, play the world's great courses on simulator, and enjoy a relaxed evening together - no golf experience needed, and no dependence on weather.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so your concierge team has one more polished local recommendation on hand.
+
+It pairs nicely with a wellness stay - active, social, and low-key.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 006
+
+NAME: Predator Ridge Resort (Central Reservations)
+EMAIL: info@predatorridge.com
+EMAIL SUBJECT: Keeping your golf guests swinging when the course can't
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Predator Ridge's accommodation offering and, given your guests are some of the most golf-loving visitors in the Okanagan, I thought this was worth a short note.
+
+I run Back Nine Vernon, a premium indoor golf facility in town. When shoulder season, a rained-out morning, or a winter stay takes the courses out of play, your guests can book a private bay and play world-class simulator courses - it keeps the golf part of a golf trip alive.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so your team has an easy recommendation for guests looking to keep playing off-course or off-season.
+
+It complements the resort rather than competing with it - your guests just get more golf.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 007
+
+NAME: O'Keefe's Landing BnB (Okanagan Landing)
+EMAIL: CONTACT FORM: https://okeefeslanding.com/contact/
+EMAIL SUBJECT: A guest perk idea for O'Keefe's Landing
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across O'Keefe's Landing and love that you're Vernon's lakeside BnB - your guests clearly come for the Okanagan Lake experience. I thought there might be a simple way to round out their stay.
+
+I run Back Nine Vernon, a premium indoor golf facility in town. When guests want an evening activity, or when rain or smoke changes their lake plans, they can book a private bay and play world-class simulator courses together. It's fun for couples and families alike, no golf experience needed.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy local perk to share at breakfast or in your welcome notes.
+
+It's the kind of small recommendation that makes a stay feel personally looked after.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 008
+
+NAME: Turtle Mountain Inn
+EMAIL: CONTACT FORM: http://www.turtlemountaininn.com/
+EMAIL SUBJECT: An evening idea for your Turtle Mountain Inn guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Turtle Mountain Inn and it looks like exactly the kind of quiet, romantic Vernon getaway people rave about. I thought there might be a simple way to give your couples one more memorable evening while they're in town.
+
+I run Back Nine Vernon, a premium indoor golf facility nearby. Guests can book a private bay for just the two of them, play some of the world's most beautiful courses on simulator, and enjoy a relaxed, fun evening - no golf experience needed and no weather worries.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy answer when guests ask what to do in the evening.
+
+A thoughtful local recommendation like that tends to be the detail guests remember.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 009
+
+NAME: High View Bed and Breakfast
+EMAIL: CONTACT FORM: https://www.highviewbandb.com/
+EMAIL SUBJECT: A year-round activity idea for High View guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across High View Bed and Breakfast and noticed you're perfectly placed between Vernon and the Silver Star foothills - your guests get views in every season. I thought there might be an easy way to give them one more thing to look forward to.
+
+I run Back Nine Vernon, a premium indoor golf facility in town. Whether it's a winter evening, a rainy spring day, or a smoky summer afternoon, guests can book a private bay and play world-class simulator courses together.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have a simple local perk to include when guests ask what's worth doing in town.
+
+It's an easy way to make a High View stay feel that little bit more complete.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 010
+
+NAME: Vernon Country Cottage B&B
+EMAIL: CONTACT FORM: http://www.vernoncountrycottage.com/
+EMAIL SUBJECT: A simple local perk for your Country Cottage guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Vernon Country Cottage and liked the peaceful country setting you offer just minutes from Okanagan Lake. Guests who choose a quiet stay like yours still usually want one fun outing while they're in Vernon.
+
+I run Back Nine Vernon, a premium indoor golf facility in town. Guests can book a private bay, play world-class simulator courses, and enjoy a relaxed couple of hours together - rain, shine, or smoke.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy recommendation to share over breakfast or in your welcome notes.
+
+Small local tips like this are often what guests mention when they describe a great stay.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 011
+
+NAME: Outback Lakeside Vacation Homes
+EMAIL: CONTACT FORM: https://www.outbacklakeside.com/
+EMAIL SUBJECT: A smoke-day and evening option for your Outback guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Outback Lakeside Vacation Homes and the private beaches and lakefront setting look world-class. Your guests are clearly there for Okanagan Lake - which is exactly why a great indoor backup plan is worth having.
+
+I run Back Nine Vernon, a premium indoor golf facility in town. When a smoky day or a rainy stretch interrupts lake plans, families and groups can book private bays, play world-class simulator courses, and turn a written-off afternoon into a highlight.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so your team has an easy local perk to include in guest communications or at check-in.
+
+It gives your guests something memorable to do when the weather doesn't cooperate.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 012
+
+NAME: Silver Star Motel (Vernon)
+EMAIL: CONTACT FORM: https://www.silverstarmotel.com/contact
+EMAIL SUBJECT: An easy evening recommendation for your guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across the Silver Star Motel and know a lot of your guests are passing through Vernon or headed up to the mountain. I thought there might be a simple way to give them a great evening in town.
+
+I run Back Nine Vernon, a premium indoor golf facility nearby. Guests can book a private bay, play world-class simulator courses, and have a fun couple of hours - solo, as a couple, or with the whole family. No golf experience needed.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy local recommendation to hand guests at check-in.
+
+It's a simple way for an independent motel to offer something the big chains don't.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 013
+
+NAME: Silver Star Stays (Lindsay Brennan, Owner/Operator)
+EMAIL: info@silverstarstays.com
+EMAIL SUBJECT: An off-mountain perk for your Silver Star guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Silver Star Stays and was impressed by the range of your portfolio - from studios to seven-bedroom vacation homes, that's a lot of guests looking for things to do every week.
+
+I run Back Nine Vernon, a premium indoor golf facility just down the hill in Vernon. When your guests want something different off the mountain - a rest-day outing, an evening activity, or a plan B when conditions aren't great - they can book a private bay and play world-class simulator courses together. It works brilliantly for the families and groups your bigger homes attract.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have a ready-made local perk for your digital guest guides across the whole portfolio.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 014
+
+NAME: Nomadics Vacation Rentals (Silver Star)
+EMAIL: reservations@nomadics.ca
+EMAIL SUBJECT: A guest-experience perk for your Silver Star portfolio
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Nomadics and saw how much emphasis you put on guest experience across your Silver Star properties. I thought there might be a simple way to add one more premium touch for your guests.
+
+I run Back Nine Vernon, a premium indoor golf facility in Vernon, just down the hill. When guests want an off-mountain outing - a rest day, an evening plan, or a change of pace from skiing or biking - they can book a private bay and play world-class simulator courses together.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so your team has an easy, consistent local perk to include in guest guides and check-in messages across the portfolio.
+
+It's a small differentiator that helps your listings stand out at the resort.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 015
+
+NAME: Vance Creek Hotel & Conference Centre / Silver Star Properties
+EMAIL: info@silverstarproperties.ca
+EMAIL SUBJECT: An off-hill option for your Vance Creek and village guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across the Vance Creek Hotel and your collection of village properties - being right on Main Street, you host a huge share of Silver Star's visitors every season.
+
+I run Back Nine Vernon, a premium indoor golf facility down in Vernon. When your guests want something different off the hill - a rest-day trip to town, an evening out, or a backup plan when conditions turn - they can book a private bay and play world-class simulator courses together. It suits the families and groups your suites are built for.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so your front desk and guest guides have one more easy local recommendation.
+
+It's a simple way to add value to a village stay without any extra work for your team.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 016
+
+NAME: SilverStar Mountain Resort Accommodations (Snowbird, Firelight, Silver Creek, Lord Aberdeen, The Bulldog)
+EMAIL: reservations@silverstarmountain.com
+EMAIL SUBJECT: A Vernon experience for your resort lodging guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across your resort-managed lodges - Snowbird, Firelight, Silver Creek, Lord Aberdeen and The Bulldog - and know your teams look after thousands of guests who occasionally want an off-mountain outing during a multi-night stay.
+
+I run Back Nine Vernon, a premium indoor golf facility down in Vernon. It's an easy rest-day or evening recommendation: guests book a private bay, play world-class simulator courses, and enjoy something social and fun that doesn't depend on conditions.
+
+We could set up a preferred guest invitation for your lodging guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so your front desks have a polished Vernon option to suggest when guests ask what's worth doing in town.
+
+It rounds out the mountain stay with a premium valley experience.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 017
+
+NAME: The Pinnacles Suites & Townhomes (Silver Star)
+EMAIL: CONTACT FORM: https://pinnacles.com/about-us/contact
+EMAIL SUBJECT: A premium off-mountain idea for Pinnacles guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across The Pinnacles and the private sundeck hot tubs with Monashee views look like exactly the kind of premium stay guests plan a whole trip around. I thought there might be a fit for the one thing every multi-night mountain stay needs: a great off-hill plan.
+
+I run Back Nine Vernon, a premium indoor golf facility down in Vernon. Your guests can book a private bay, play world-class simulator courses, and enjoy a relaxed evening or rest-day outing together - families, couples, and groups all love it.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy premium perk to include in your guest information.
+
+It matches the calibre of stay you already offer.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 018
+
+NAME: Silver Skis Chalet (Silver Star)
+EMAIL: CONTACT FORM: https://silverskischalet.com/contact/
+EMAIL SUBJECT: A group activity idea for your chalet guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Silver Skis Chalet and liked how it's set up for the classic Silver Star trip - a group of family or friends sharing a chalet for a few days on the mountain.
+
+I run Back Nine Vernon, a premium indoor golf facility down in Vernon. For chalet groups, it's a perfect rest-day or evening outing: everyone books into a private bay, plays world-class simulator courses, and has a laugh together regardless of conditions on the hill.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy local perk to include in your welcome book or booking confirmations.
+
+It gives your chalet one more reason to be the place groups rebook year after year.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 019
+
+NAME: Okanagan Vacation Home Rentals / OkChalets
+EMAIL: reservations@ovhr.com
+EMAIL SUBJECT: A guest perk for your Vernon and Silver Star properties
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across OVHR and OkChalets and saw you manage vacation homes across both Vernon and Silver Star - which covers exactly the guests I had in mind.
+
+I run Back Nine Vernon, a premium indoor golf facility in Vernon. It's an easy recommendation for your whole portfolio: lake-house guests get a rainy-day and evening option in town, and your Silver Star guests get a premium off-mountain outing. Private bays, world-class simulator courses, fun for families and groups with zero golf experience.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have one consistent local perk to drop into guest guides across all your properties.
+
+It's a simple added touch that helps your homes stand out.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 020
+
+NAME: Stay Locations (Vernon Vacation Rentals)
+EMAIL: CONTACT FORM: https://staylocations.com/
+EMAIL SUBJECT: A local perk for your Vernon vacation rental guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Stay Locations and saw you manage vacation rentals in Vernon alongside your Okanagan portfolio. I thought there might be a simple way to give your Vernon guests one more great local experience.
+
+I run Back Nine Vernon, a premium indoor golf facility in town. Guests can book a private bay, play world-class simulator courses, and enjoy a fun evening together - it's a reliable recommendation in any season, and a lifesaver on rainy or smoky days.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so your team has an easy perk to include in digital guidebooks and check-in messages for your Vernon homes.
+
+Little local touches like this tend to show up in the reviews.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 021
+
+NAME: LeaveTown Vacations (SilverStar portfolio)
+EMAIL: CONTACT FORM: https://leavetown.com/contact/
+EMAIL SUBJECT: An off-mountain perk for your SilverStar guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across LeaveTown's SilverStar portfolio and your guide on where to stay at the resort - clearly you know that market well. I thought there might be an easy way to add one more local experience for those guests.
+
+I run Back Nine Vernon, a premium indoor golf facility down the hill in Vernon. When SilverStar guests want a rest-day outing or an evening off the mountain, they can book a private bay and play world-class simulator courses together - ideal for the families and groups who book vacation homes.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have a simple Vernon perk to feature in your guest communications.
+
+It gives your listings a local edge that's easy to deliver.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 022
+
+NAME: Armstrong House B&B
+EMAIL: hello@armstronghousebandb.ca
+EMAIL SUBJECT: A Vernon outing your Armstrong House guests will remember
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Armstrong House and love what you've done with the century-old craftsman bungalow - it's clearly a boutique stay people seek out. Since Vernon is just a short drive down the highway, I thought there might be a fit.
+
+I run Back Nine Vernon, a premium indoor golf facility. When your guests want an outing - a rainy afternoon, a fun evening, or something different during a weekend away - they can book a private bay and play world-class simulator courses together. No golf experience needed.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy recommendation to include in your welcome notes.
+
+It's a nice card to have up your sleeve when guests ask what's worth the drive.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 023
+
+NAME: Fresh Valley Farms Guesthouse (Armstrong / Spallumcheen)
+EMAIL: events@freshvalleyfarms.ca
+EMAIL SUBJECT: A rainy-day idea for your farm stay guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across the Fresh Valley Farms Guesthouse and love the farm-stay experience you've built - it's exactly the kind of stay families remember. I thought there might be a simple way to round it out when the weather doesn't cooperate.
+
+I run Back Nine Vernon, a premium indoor golf facility about twenty minutes down the road. On a rainy or smoky day, or as a fun evening out, your guests can book a private bay and play world-class simulator courses together - kids included.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy local recommendation for your welcome info or when guests ask what else to do nearby.
+
+It pairs a great farm day with a great town evening.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 024
+
+NAME: The Maple Bed and Breakfast (Armstrong)
+EMAIL: CONTACT FORM: https://www.themaplebedandbreakfast.com/
+EMAIL SUBJECT: An evening out for your Maple B&B guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across The Maple and liked how you've positioned it as a proper adults' retreat in the heart of Armstrong. Couples on a getaway usually want one great evening out - and Vernon is only a short drive away.
+
+I run Back Nine Vernon, a premium indoor golf facility. Guests can book a private bay for two, play some of the world's most famous courses on simulator, and enjoy a relaxed, fun evening - no golf experience needed, any weather, any season.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy recommendation when guests ask how to spend their evening.
+
+It's the kind of local tip that makes a getaway feel well planned.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 025
+
+NAME: Noble House Bed & Breakfast (Armstrong)
+EMAIL: CONTACT FORM: http://www.noblehousebb.ca/
+EMAIL SUBJECT: A guest perk idea for Noble House
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Noble House and the quiet Okanagan Valley countryside setting looks like a wonderful base for exploring the North Okanagan. Most of your guests likely spend at least a day in Vernon - so I thought this was worth a note.
+
+I run Back Nine Vernon, a premium indoor golf facility in town. Guests can book a private bay, play world-class simulator courses, and enjoy a fun couple of hours together - a great add-on to a Vernon day trip or a plan B when the weather turns.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy local perk to mention at breakfast or in your guest info.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 026
+
+NAME: Eagle's Nest B&B (Lake Country)
+EMAIL: CONTACT FORM: https://www.eaglesnestbnb.ca/
+EMAIL SUBJECT: One more Okanagan experience for your guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Eagle's Nest B&B and the lake views from your side of the valley look stunning. Your guests are perfectly placed between Kelowna and Vernon - and I thought there might be a simple way to give them one more memorable outing.
+
+I run Back Nine Vernon, a premium indoor golf facility just up the highway. Guests can book a private bay, play world-class simulator courses, and enjoy a relaxed evening or rainy-day escape together - no golf experience needed.
+
+We could set up a preferred guest invitation for your visitors, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so you have an easy recommendation that's a little different from the usual winery suggestion.
+
+It's a fun way to help your guests see more of the valley.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
+
+PROSPECT 027
+
+NAME: Mabel Lake Resort & Marina (Enderby)
+EMAIL: info@mabellakeresort.com
+EMAIL SUBJECT: A bad-weather backup plan for your Mabel Lake guests
+EMAIL BODY:
+Hey, I'm Neil.
+
+I came across Mabel Lake Resort and the beachfront cabins and marina look like a classic Okanagan summer. Lake holidays are wonderful - right up until a rainy or smoky day parks everyone inside.
+
+I run Back Nine Vernon, a premium indoor golf facility in Vernon. When the weather takes the lake away for a day, your guests can make the drive into town, book a private bay, and play world-class simulator courses together - it turns a lost day into a highlight, especially for families and groups in your cabins.
+
+We could set up a preferred guest invitation for your guests, including {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}}, so your team has an easy suggestion ready when guests ask what to do off the water.
+
+Would you be open to me sending over a short guest-invitation blurb you could use?
