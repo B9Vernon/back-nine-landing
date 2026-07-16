@@ -220,3 +220,256 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] GB Limousines | limo, Okanagan | GBLimousinesOkanagan@gmail.com | 2026-07-12 | batch-200
 - [email created] Edge of the Earth Vineyards | winery, Armstrong | edgeearth@telus.net | 2026-07-12 | batch-200
 - [email created] Monashee Moving & Deliveries | movers, Vernon | dustin@monasheemoving.com | 2026-07-12 | batch-200
+
+## Run 2 — 250 geography-first prospects (2026-07-16)
+
+- [email created] The VAULTS Vernon | Luxury lifestyle storage (car condos) | thevaults.ca contact form + 1-888-895-0111 | 2026-07-16 | run-2
+- [email created] Brixx Brewhouse | Brewpub / restaurant | brixxbrewhouse.ca contact page + 250-541-2653 | 2026-07-16 | run-2
+- [email created] Cactus Club Cafe Vernon | Restaurant (upscale casual) | cactusclubcafe.com location page/form + (778) 506-2494 | 2026-07-16 | run-2
+- [email created] Triumph Coffee | Café / coffee roaster | info@triumphcoffee.ca | 2026-07-16 | run-2
+- [email created] The UPS Store #104 | Print, shipping & business services | store104@theupsstore.ca | 2026-07-16 | run-2
+- [email created] Wasabi Sushi & Grill | Japanese restaurant | Wasabisushigrillvernon@gmail.com | 2026-07-16 | run-2
+- [email created] Westland Insurance — Vernon (Anderson Way) | Insurance brokerage | Westland location page form + 250-545-4447 | 2026-07-16 | run-2
+- [email created] SpeedPro Signs Vernon | Signage & large-format printing | speedprocanada.com/vernon/contact-us + (250) 545-2828 | 2026-07-16 | run-2
+- [email created] End Of The Roll — Vernon | Flooring retail | vernon@endoftheroll.com | 2026-07-16 | run-2
+- [email created] Vernon Air Conditioning, Plumbing & Electrical | Mechanical services (HVAC/plumbing/electrical) | vernonairconditioning.com contact form | 2026-07-16 | run-2
+- [email created] Healing Garden Spa & Wellness | Day spa / wellness | info@healinggardenvernon.ca | 2026-07-16 | run-2
+- [email created] The Gentlemen's Shop & Shave Parlour | Barbershop / shave parlour | gentlemensshaveparlour@gmail.com | 2026-07-16 | run-2
+- [email created] ANTLR Menswear | Menswear boutique | shop@antlr.ca | 2026-07-16 | run-2
+- [email created] Bourbon Street Bar & Grill | Restaurant (Creole/Cajun) | Website contact page + (778) 475-7224 | 2026-07-16 | run-2
+- [email created] Thirty One & Main | Boutique retail | info@thirtyoneandmain.com | 2026-07-16 | run-2
+- [email created] Good Gracious & The Practical Kitchen | Kitchenware & home retail | goodgraciouspracticalkitchen.com/Contact | 2026-07-16 | run-2
+- [email created] Vernon Vintners | U-brew winery | vernonvintners@gmail.com | 2026-07-16 | run-2
+- [email created] Rail Trail Café & Market | Café / market | railtrail@gumtreecatering.com | 2026-07-16 | run-2
+- [email created] De Vine Vintners | U-brew / winemaking centre | jason@devinevintners.com (Jason) | 2026-07-16 | run-2
+- [email created] J-DON Japanese Donburi Cafe | Restaurant (Japanese donburi/ramen) | jdoncafe.com/contact.html + (250) 558-6939 | 2026-07-16 | run-2
+- [email created] Repair Express Vernon | Phone / laptop repair | repairexpress.com/contact-vernon + (250) 275-4761 | 2026-07-16 | run-2
+- [email created] Eat Good Market (+ Pineapple Express Smoothie Bar) | Health food market + vegan café | Facebook @eatgoodmarket + (250) 541-1700 | 2026-07-16 | run-2
+- [email created] Blue Heron Marina & Gas Bar | Marina | vernonmarina.com contact page | 2026-07-16 | run-2
+- [email created] 1516 Pub & Grill (Outboard Waterfront Pub) | Waterfront pub | 1516pub.com contact page | 2026-07-16 | run-2
+- [email created] The Company Barbershop | Barbershop | avenue25barbershop@gmail.com | 2026-07-16 | run-2
+- [email created] Freedom Studios | Tattoo studio | info@freedomstudiosvernon.com | 2026-07-16 | run-2
+- [email created] Little Bird Tattoo | Tattoo studio | info@littlebirdtattoo.ca | 2026-07-16 | run-2
+- [email created] Alesha Bradley RMT | Massage therapy | info@aleshabradleyrmt.ca | 2026-07-16 | run-2
+- [email created] Kawakubo | Japanese restaurant | kawakubohr@gmail.com | 2026-07-16 | run-2
+- [email created] OHKIM Sushi & Grill | Japanese restaurant | ohkimsushi.com + 778-475-6222 | 2026-07-16 | run-2
+- [email created] Little Blue House Registered Massage Therapy | Massage therapy clinic | littlebluehousermt.com (therapist directory + contact page) | 2026-07-16 | run-2
+- [email created] Calming Grove Wellness | Massage / wellness clinic | calminggrovewellness.com/team + contact page | 2026-07-16 | run-2
+- [email created] Best Western Pacific Inn | Hotel | Best Western property page + 250-558-1800 | 2026-07-16 | run-2
+- [email created] Kal Tire (Head Office) | Tire retailer — national head office (Vernon-born) | kaltire.com/contact-us + 1-800-663-9350 | 2026-07-16 | run-2
+- [email created] Vernon Volkswagen | Auto dealership | vernonvw.com/contactus.html + 250-545-2358 | 2026-07-16 | run-2
+- [email created] Vernon Dodge Jeep | Auto dealership | vernondodge.com/contact + (250) 545-2261 | 2026-07-16 | run-2
+- [email created] Bannister GM Vernon | Auto dealership | bannistergmvernon.com/contact + (250) 545-0606 | 2026-07-16 | run-2
+- [email created] Bannister Honda | Auto dealership | bannisterhonda.com/contact + (250) 545-0531 | 2026-07-16 | run-2
+- [email created] Davidson Lawyers LLP | Law firm | davidsonlawyers.ca/contact-us + (250) 542-1177 | 2026-07-16 | run-2
+- [email created] MNP LLP — Vernon | Accounting firm | mnp.ca Vernon office page + (778) 475-5678 | 2026-07-16 | run-2
+- [email created] BDO Canada — Vernon | Accounting firm | bdo.ca contact + 250-979-4357 | 2026-07-16 | run-2
+- [email created] Kal-Mor Mortgages & Investments | Mortgage brokerage | (250) 549-3250 | 2026-07-16 | run-2
+- [email created] Rochar Mortgages (The Mortgage Centre Vernon) | Mortgage brokerage | (250) 503-3181 | 2026-07-16 | run-2
+- [email created] North Okanagan Hospice Society | Non-profit (palliative care support) | nohs.ca/contact + (250) 503-1800 | 2026-07-16 | run-2
+- [email created] Original Joe's Vernon | Restaurant / bar | originaljoes.ca + (778) 475-5670 | 2026-07-16 | run-2
+- [email created] Boston Pizza Vernon | Restaurant / sports bar | bostonpizza.com/contact-us + (250) 558-0669 | 2026-07-16 | run-2
+- [email created] Squires Four Public House | Pub + liquor store | squiresfourpub.com + 250-549-2144 | 2026-07-16 | run-2
+- [email created] The Longhorn Pub & Liquor Store | Pub | longhornvernon.ca/contact + (250) 542-9222 | 2026-07-16 | run-2
+- [email created] The Kal (Kalamalka Hotel) | Pub / eatery | thekal.ca/contact + (250) 549-1011 | 2026-07-16 | run-2
+- [email created] The Curry Pot | Indian & Nepalese restaurant | currypotvernon.com + (250) 545-9195 | 2026-07-16 | run-2
+- [email created] Vernon Motorsports | Powersports dealer (ATV/snowmobile/moto) | vernonmotorsports.com + 250-545-5381 | 2026-07-16 | run-2
+- [email created] BDM Motorsports (Vernon Polaris) | Powersports dealer | vernonpolaris.com contact page | 2026-07-16 | run-2
+- [email created] Fix Auto Vernon Central | Collision repair | fixauto.com Vernon Central page | 2026-07-16 | run-2
+- [email created] Courtesy Motors (NAPA Autopro) | Auto repair | Site contact + 250-542-9111 | 2026-07-16 | run-2
+- [email created] L Stop Auto | Auto repair + detailing | lstopauto.ca + 250-549-3666 | 2026-07-16 | run-2
+- [email created] Neighbors Auto Repair | Auto repair | neighborsautorepair.ca + 250-549-3133 | 2026-07-16 | run-2
+- [email created] Point S Autotown Vernon | Tires & auto service | point-s.ca Vernon page | 2026-07-16 | run-2
+- [email created] Nature's Fare Markets (Vernon HQ + store) | Organic grocer (headquartered in Vernon) | naturesfare.com/contact-us + 250-542-5910 | 2026-07-16 | run-2
+- [email created] Windsor Plywood Vernon | Building supply | windsorplywood.com/contact/vernon + (250) 545-3349 | 2026-07-16 | run-2
+- [email created] The Tent Guys Okanagan | Tent & event rentals | thetentguysokanagan.ca (Mike Krahn) | 2026-07-16 | run-2
+- [email created] Swan Lake RV Resort | RV resort | swanlakervresort.com + (250) 558-1116 | 2026-07-16 | run-2
+- [email created] Swan Lake Campground | Campground | swanlakecampground.com/contact-us | 2026-07-16 | run-2
+- [email created] Oyama Zipline Adventure Park | Adventure attraction | oyamazipline.com/contact + (250) 548-4129 | 2026-07-16 | run-2
+- [email created] Vernon & District Performing Arts Centre | Performing arts venue | vdpac.ca/contact-us + 250-542-9355 | 2026-07-16 | run-2
+- [email created] Vernon Community Music School | Music school (non-profit) | Site contact page + (250) 545-4977 | 2026-07-16 | run-2
+- [email created] Vernon Towne Theatre | Independent cinema | thetowne.ca + 778-475-4100 | 2026-07-16 | run-2
+- [email created] Kalamalka Rotary Club | Service club | kalrotary.ca contact page | 2026-07-16 | run-2
+- [email created] Enderby & District Chamber of Commerce | Chamber of commerce | enderbychamber.com/contact + 250-838-6727 | 2026-07-16 | run-2
+- [email created] Lake Country Chamber of Commerce | Chamber of commerce | lakecountrychamber.com contact page | 2026-07-16 | run-2
+- [email created] Uncorked Okanagan Wine Tours | Wine tour operator | uncorkedokanagan.com inquiry form + (250) 769-3123 | 2026-07-16 | run-2
+- [email created] Okanagan Wine Country Tours | Wine tour operator | okwinetours.com/contact + 1-866-689-9463 | 2026-07-16 | run-2
+- [email created] Larch Hills Winery | Winery | larchhillswinery.com/contact-us + (250) 832-0155 | 2026-07-16 | run-2
+- [email created] A Grape Experience Wine Tours | Wine tour operator | agrapeexperience.ca contact page | 2026-07-16 | run-2
+- [email created] Vernon Veterinary Clinic | Veterinary clinic | vernonvetclinic.com/contact-us | 2026-07-16 | run-2
+- [email created] Vernon District Riding Club | Equestrian club | vernonridingclub.com/contact | 2026-07-16 | run-2
+- [email created] Fun 4 All Pet Resort | Pet daycare & boarding | fun4allpetresort.com + (778) 475-0488 | 2026-07-16 | run-2
+- [email created] Armstrong MetalFest | Music festival | armstrongmetalfest.ca/contact | 2026-07-16 | run-2
+- [email created] Vernon Women in Business | Networking organization | vwib.com/contact-us | 2026-07-16 | run-2
+- [email created] School District 22 (Vernon) | School district | sd22.bc.ca contact page + (250) 542-3331 | 2026-07-16 | run-2
+- [email created] Pack Rat Movers | Moving company | packratmovers.ca + (250) 681-4256 | 2026-07-16 | run-2
+- [email created] Tailored Fit Photography | Wedding & portrait photography | tailoredfitphotography.com + (250) 765-5941 | 2026-07-16 | run-2
+- [email created] Pacific Top Team Vernon | Martial arts gym (BJJ/kickboxing/MMA) | pttvernon.com + 250-540-3473 | 2026-07-16 | run-2
+- [email created] Okanagan Symphony Orchestra | Orchestra (performs at Vernon PAC) | okanagansymphony.com + 250-469-8940 | 2026-07-16 | run-2
+- [email created] Hunting Hawk Vineyards | Winery | (250) 546-2164 | 2026-07-16 | run-2
+- [email created] Starlight Drive-In Theatre | Drive-in cinema | 250-838-6757 | 2026-07-16 | run-2
+- [email created] Valhalla Pure Outfitters — Vernon | Outdoor gear retail | vernon@vpo.ca | 2026-07-16 | run-2
+- [email created] Bookland Vernon | Independent bookstore | booklandvernon.com + 250-545-1885 | 2026-07-16 | run-2
+- [email created] Helmut's Sausage Kitchen | Artisan butcher / deli | info@helmutssausagekitchen.ca | 2026-07-16 | run-2
+- [email created] The Eclectic Med Restaurant | Restaurant (Mediterranean/international) | themedvernon.com + (250) 558-4646 | 2026-07-16 | run-2
+- [email created] Antojitos Guadalajara | Mexican restaurant | antojitosgdlcanada@gmail.com | 2026-07-16 | run-2
+- [email created] GO Liquor Studio | Private liquor store | (250) 808-1505 + site | 2026-07-16 | run-2
+- [email created] Vernon's Zero Proof Bottle Shop | Non-alcoholic bottle shop | Vernonszeroproofbottleshop@gmail.com | 2026-07-16 | run-2
+- [email created] BC Fasteners & Tools | Industrial & construction supply | bcfasteners.com/contact + (250) 542-9444 | 2026-07-16 | run-2
+- [email created] H.M. Krause Jewellers | Jeweller | krausejewellers.ca/contact-us | 2026-07-16 | run-2
+- [email created] Bosley's by Pet Valu — Vernon | Pet store | Store page + phone | 2026-07-16 | run-2
+- [email created] Vernon Chiropractic and Massage | Chiropractic & massage clinic | vernonchiropractor.com/contact-us + (250) 275-1425 | 2026-07-16 | run-2
+- [email created] Valley Chiropractic (Dr. Larry Kinakin) | Chiropractor | valleychiropractic.ca contact page | 2026-07-16 | run-2
+- [email created] Mickelson Family Chiropractic | Chiropractic clinic | mickelsonchiropractic.com contact page | 2026-07-16 | run-2
+- [email created] Vernon Physiotherapy & Rehab | Physiotherapy clinic | vernonphysiotherapy.com/contact.html | 2026-07-16 | run-2
+- [email created] Asian Avenue Restaurant | Asian fusion restaurant | info@asianavenue.ca | 2026-07-16 | run-2
+- [email created] Bushwacker Paintball | Paintball park | bushwackerpaintball.com contact page | 2026-07-16 | run-2
+- [email created] Live Life Physiotherapy & Acupuncture | Physiotherapy clinic | livelifephysio.ca contact page | 2026-07-16 | run-2
+- [email created] Spine & Sports Physical Therapy | Physiotherapy / massage | spineandsportsvernon.com contact page | 2026-07-16 | run-2
+- [email created] Kaitlyn Lutsenko RMT | Massage therapy | klrmt.ca contact/booking page | 2026-07-16 | run-2
+- [email created] Katie Fairles RMT | Massage therapy | katiefairlesrmt.com contact/booking page | 2026-07-16 | run-2
+- [email created] Okanagan Vision Therapy — Vernon | Vision therapy clinic | okanaganvisiontherapy.ca contact page | 2026-07-16 | run-2
+- [email created] Affinity Optometry | Optometry | affinityoptometry.com contact page | 2026-07-16 | run-2
+- [email created] IRIS Optometry — Vernon | Optometry | iris.ca Vernon page + (250) 542-2239 | 2026-07-16 | run-2
+- [email created] Pleasant Valley Dental | Dental clinic | pleasantvalleydental.ca/site/contact-vernon-dentist | 2026-07-16 | run-2
+- [email created] Vernon Dental Centre (Dr. Berdan) | Dental clinic | vernondentalcentre.com/contact-us | 2026-07-16 | run-2
+- [email created] Downtown Dental and Orthodontics | Dental & orthodontics | downtowndentalandortho.ca contact page | 2026-07-16 | run-2
+- [email created] Dr. Hokhold Dental Surgery | Dental surgery | hokholdinc.com contact page | 2026-07-16 | run-2
+- [email created] Maritime Travel — Vernon | Travel agency | Branch page + (250) 542-2722 | 2026-07-16 | run-2
+- [email created] Vernon Roofing Inc | Roofing contractor | roofinginvernon.com/contact-us | 2026-07-16 | run-2
+- [email created] Devon's Roofing | Roofing contractor | devons-roofing.com contact page | 2026-07-16 | run-2
+- [email created] Okanagan Quality Roofing | Roofing contractor | okanaganqualityroofing.ca contact page | 2026-07-16 | run-2
+- [email created] Select Roofing | Roofing contractor | vernonbcroofingcompany.ca contact page | 2026-07-16 | run-2
+- [email created] NOR Renovations Ltd | Renovations & roofing | norrenovations.com contact page | 2026-07-16 | run-2
+- [email created] Verno Plumbing & Gasfitting | Plumbing | vernoplumbing.ca contact page | 2026-07-16 | run-2
+- [email created] Auger Plumbing and Heating | Plumbing & heating | augerplumbingandheating.ca contact page | 2026-07-16 | run-2
+- [email created] Mr. Rooter Plumbing Vernon | Plumbing | mrrooter.ca/vernon contact page | 2026-07-16 | run-2
+- [email created] Sunset West Mechanical | Commercial plumbing contractor | SUNSETWESTMECHANICAL@SHAW.CA | 2026-07-16 | run-2
+- [email created] Fox & Sons Electrical | Electrical contractor | foxandsons.ca contact page | 2026-07-16 | run-2
+- [email created] Vernon Electric | Electrical services | vernonelectric.ca contact page | 2026-07-16 | run-2
+- [email created] Seb's Electrical Services | Electrician | sebselectricalservices.ca contact page | 2026-07-16 | run-2
+- [email created] Tuck Landscaping | Landscaping | tucklandscaping.ca/contact-vernon-landscaping | 2026-07-16 | run-2
+- [email created] Links Lawn & Landscaping | Landscaping | linkslawn.com contact page | 2026-07-16 | run-2
+- [email created] Vernon Lawns & Gardens | Lawn care | vernonlawnsandgardens.ca contact page | 2026-07-16 | run-2
+- [email created] Augusta Lawn Care — Vernon | Lawn care | augustalawncareservices.com/vernon page | 2026-07-16 | run-2
+- [email created] Mountain West Studios | Photography studio | mountainwest.ca/photo-studio contact | 2026-07-16 | run-2
+- [email created] Legacy Picture Framing | Custom framing | legacypf.ca + 250-542-3010 | 2026-07-16 | run-2
+- [email created] Okanagan Business Photography | Commercial photography | kate@mahaits.com (Kate) | 2026-07-16 | run-2
+- [email created] Michelle Beeton Mortgages | Mortgage broker | michellebeeton.com/contact.html | 2026-07-16 | run-2
+- [email created] Kari Gares Mortgage | Mortgage broker | karigares.com contact page | 2026-07-16 | run-2
+- [email created] McKay Wood Mortgage | Mortgage brokers | mckaywood.ca Vernon page | 2026-07-16 | run-2
+- [email created] Sundance Pool and Spa | Hot tub & pool store | sundancepoolandspa.com/contact | 2026-07-16 | run-2
+- [email created] Blue Haven Pools & Spas | Pools & hot tubs | bluehaven.ca contact page | 2026-07-16 | run-2
+- [email created] Jacuzzi Hot Tubs of Okanagan — Vernon | Hot tub dealer | Jacuzzi dealer page for Vernon | 2026-07-16 | run-2
+- [email created] Northern Computer — Vernon | Managed IT services | northerncomputer.ca contact page | 2026-07-16 | run-2
+- [email created] F12.net — Vernon | Managed IT & cybersecurity | f12.net Vernon page | 2026-07-16 | run-2
+- [email created] Bassani IT Tech | IT services | bassanitech.com Vernon page | 2026-07-16 | run-2
+- [email created] Cloud9 Solutions | IT solutions | c9s.ca contact page | 2026-07-16 | run-2
+- [email created] SFY IT | Managed IT | sfy.ca contact page | 2026-07-16 | run-2
+- [email created] Computation Ltd | On-site technical support | computation.ca contact page | 2026-07-16 | run-2
+- [email created] SODANCE | Dance studio | sodance.ca contact page | 2026-07-16 | run-2
+- [email created] JC Bradley Jewellers | Jeweller | (236) 426-4944 | 2026-07-16 | run-2
+- [email created] Hagemann Jewellers | Jeweller | (250) 545-1528 | 2026-07-16 | run-2
+- [email created] Jacques Jewellers Ltd | Jeweller | (250) 542-3885 | 2026-07-16 | run-2
+- [email created] Yoshi Sushi | Japanese restaurant | yoshisushi.ca/contact-us | 2026-07-16 | run-2
+- [email created] Gibson Accounting | Accounting | gibsonaccounting.ca contact page | 2026-07-16 | run-2
+- [email created] CMD Accounting Services | Accounting & bookkeeping | cmdasrv.com contact page | 2026-07-16 | run-2
+- [email created] O'Callaghan Bilodeau CPAs | Accounting | ocbi.ca contact page | 2026-07-16 | run-2
+- [email created] Wild Oak Café | Café | wildoakcafe.ca + (778) 442-2028 | 2026-07-16 | run-2
+- [email created] Jonnie & Lily's Diner | Diner | jonnieandlilysdiner.com + 778-442-3383 | 2026-07-16 | run-2
+- [email created] Hungry Jack's Cafe | Café / diner | Facebook page + 250-838-6811 | 2026-07-16 | run-2
+- [email created] Mel's Mainstreet Pizza & Pasta | Pizzeria | melspizza.ca + 250-838-6710 | 2026-07-16 | run-2
+- [email created] Dan Restaurant & Bar | Restaurant / bar | 778-443-2200 | 2026-07-16 | run-2
+- [email created] Enderby Hotel | Hotel / pub / liquor store | 250-838-7100 | 2026-07-16 | run-2
+- [email created] Mimi's Tea Room & Cafe | Tea room | 250-838-2009 | 2026-07-16 | run-2
+- [email created] Enderby Jewellers | Jeweller | 250-838-7123 | 2026-07-16 | run-2
+- [email created] Genier's Appliances | Premium appliance store | info@geniers.com | 2026-07-16 | run-2
+- [email created] Parnell's Appliance & Electronics | Appliance & electronics retail | parnells.ca + (250) 542-6998 | 2026-07-16 | run-2
+- [email created] Community Appliance Parts & Service | Appliance service | communityappliance.ca contact page | 2026-07-16 | run-2
+- [email created] Jitter Beans Coffee | Café | Phone via public listing | 2026-07-16 | run-2
+- [email created] Sisters Family Restaurant | Family restaurant | Phone via public listing | 2026-07-16 | run-2
+- [email created] Ana's Pizza & More | Pizzeria | Phone via public listing | 2026-07-16 | run-2
+- [email created] Unique Timber Frames | Timber-frame builder | Company website contact page | 2026-07-16 | run-2
+- [email created] Detailing Vernon | Mobile auto detailing | info@detailingvernon.ca | 2026-07-16 | run-2
+- [email created] RJ's Mobile Auto Detailing | Mobile auto detailing | rjsmobileautodetailers@gmail.com | 2026-07-16 | run-2
+- [email created] KT Fairglass | Windows & doors (est. 1976) | info@ktfairglass.com | 2026-07-16 | run-2
+- [email created] Okanagan Glass Ltd | Glass services | okglass@shaw.ca | 2026-07-16 | run-2
+- [email created] H&L Glass Ltd | Glass supplier | hlglass.ca contact page | 2026-07-16 | run-2
+- [email created] New Town Glass — Vernon | Glass & windows | newtownglass.ca Vernon page | 2026-07-16 | run-2
+- [email created] DC Flooring Supplies — Vernon | Trade flooring supplier | vernonorders@dcflooringsupplies.com | 2026-07-16 | run-2
+- [email created] Flooring For Less | Flooring retail | sales@flooringforlessbc.ca | 2026-07-16 | run-2
+- [email created] The Flooring Hub | Flooring retail | theflooringhubvernon@gmail.com | 2026-07-16 | run-2
+- [email created] Deborah's Tile Style | Tile retail & design | deborahstileinstyle@shaw.ca | 2026-07-16 | run-2
+- [email created] Nufloors Vernon | Flooring retail | nufloors.ca/vernon contact page | 2026-07-16 | run-2
+- [email created] De Monte Centre Natural Medicine | Naturopathic clinic | info@demontecentre.com | 2026-07-16 | run-2
+- [email created] Paradigm Naturopathic Medicine (Dr. Chris Spooner) | Naturopathic clinic | office@paradigmnaturopathic.com | 2026-07-16 | run-2
+- [email created] Vero Health Naturopathic (Dr. Shelby Entner) | Naturopathic clinic | verohealth@shaw.ca | 2026-07-16 | run-2
+- [email created] Adamson Chiropractic & Naturopathic | Chiropractic & naturopathic clinic | drbruceadamson@gmail.com (Dr. Bruce Adamson) | 2026-07-16 | run-2
+- [email created] Grandview Flooring and Design | Flooring & design | 250-542-1468 | 2026-07-16 | run-2
+- [email created] Rockwell Audiology | Hearing clinic | info@rockwellaudiology.ca | 2026-07-16 | run-2
+- [email created] Expert Hearing Solutions — Vernon | Hearing clinic | Jessica.Dean@ExpertHearingSolutions.com | 2026-07-16 | run-2
+- [email created] Vernon Denture Clinic | Denture clinic | admin@vernondentureclinic.com | 2026-07-16 | run-2
+- [email created] Kasper Denture Clinic | Denture clinic | kasperdentureclinic.ca + 250-542-7423 | 2026-07-16 | run-2
+- [email created] ABC Driving School | Driving school | info@abcdrivingschoolvernon.ca | 2026-07-16 | run-2
+- [email created] Taylor Pro Training | Commercial driver training college | info@taylorprotraining.com | 2026-07-16 | run-2
+- [email created] Live Another Day Driving School | Driving school | liveanotherday1234@gmail.com | 2026-07-16 | run-2
+- [email created] Victoria Lane Brides | Bridal boutique (est. 2009) | victorialanebrides@live.ca | 2026-07-16 | run-2
+- [email created] EEEK Pest Control | Pest control | eeekvernon@gmail.com | 2026-07-16 | run-2
+- [email created] The Bugman Pest Control | Pest control | bugs@telus.net | 2026-07-16 | run-2
+- [email created] Pleasant Valley Painters | Painting contractor | info@pvpainters.ca | 2026-07-16 | run-2
+- [email created] Conscious Cleaning Company | Cleaning services | info@consciouscleaningcompany.com | 2026-07-16 | run-2
+- [email created] Vline Painting | Painting contractor | vlinepainting.ca contact page | 2026-07-16 | run-2
+- [email created] Relate Janitorial Services | Janitorial | relatejanitorial.com contact page | 2026-07-16 | run-2
+- [email created] Foster Janitorial — Vernon | Commercial cleaning | fosterjanitorial.com Vernon page | 2026-07-16 | run-2
+- [email created] Alarmtel Security & Telephone | Security systems | info@alarmtel.ca | 2026-07-16 | run-2
+- [email created] Eagle Industries | Welding & fabrication | info@eagleindustries.ca | 2026-07-16 | run-2
+- [email created] A1 Machine & Welding (1986) | Machine shop | info@a1machine.bc.ca | 2026-07-16 | run-2
+- [email created] Vernon Cabinet Center / Pro Art Cabinets | Custom cabinets | gregpecka66@yahoo.com (Greg) | 2026-07-16 | run-2
+- [email created] CK Design Kitchen & Bath Cabinetry | Kitchen design | ckdesignhome.com + 778-475-7701 | 2026-07-16 | run-2
+- [email created] Work n Play Clothing Co | Clothing & footwear | worknplayclothing.ca store page | 2026-07-16 | run-2
+- [email created] Heavy Metal Welding | Welding & fabrication | heavymetalwelding.ca contact page | 2026-07-16 | run-2
+- [email created] Cody's Welding | Stainless welding (sanitary specialists) | codyswelding.ca/contact-1-1 | 2026-07-16 | run-2
+- [email created] Geordie's Custom Welding | Welding | geordiescustomwelding.ca contact page | 2026-07-16 | run-2
+- [email created] Home Building Centre — Vernon | Building supply & kitchen design | hbcvernon.ca contact page | 2026-07-16 | run-2
+- [email created] Country West Supply — Armstrong | Farm & pet supply | countrywestsupply@shaw.ca | 2026-07-16 | run-2
+- [email created] The Boarding House Cafe | Board game café | theboardinghousecafe@gmail.com | 2026-07-16 | run-2
+- [email created] Another World VR — Vernon | Virtual reality arena | vernon.another-world.com booking/contact | 2026-07-16 | run-2
+- [email created] Colour Time Ceramic Studio | Paint-your-own ceramics | (250) 308-8996 + Facebook | 2026-07-16 | run-2
+- [email created] Vernon Community Arts Centre | Arts centre | vernonarts.ca/contact + 250-542-6243 | 2026-07-16 | run-2
+- [email created] Aspengrove Country Resort | Wedding & event venue | aspengrovecountryresort.com/weddings contact | 2026-07-16 | run-2
+- [email created] Silver Sage Stables | Barn wedding venue | Eventective/venue listing inquiry | 2026-07-16 | run-2
+- [email created] Camo Country | Rustic wedding venue | Venue listing inquiry | 2026-07-16 | run-2
+- [email created] Raven and Steel Farms | Wedding venue | Venue listing inquiry | 2026-07-16 | run-2
+- [email created] Pedego Electric Bikes Oyama (Okanagan Trail Bikes) | E-bike sales & rentals | 250-548-0020 + site booking | 2026-07-16 | run-2
+- [email created] Make My Fun (MMF) | Games & fun retail | makemyfunvernon@gmail.com | 2026-07-16 | run-2
+- [email created] K&B Hobbies and Games | Hobby store | kbhobbiesgames@gmail.com | 2026-07-16 | run-2
+- [email created] Obsidian Games | Tabletop game store | info@obsidiangames.ca | 2026-07-16 | run-2
+- [email created] Lester's Hobbies | Hobby shop (RC) | (250) 545-8884 | 2026-07-16 | run-2
+- [email created] Vernon Tour & Shuttle | Shuttle & tour service | bookings@vernontourandshuttle.ca | 2026-07-16 | run-2
+- [email created] Vernon Taxi & Capitol Taxi | Taxi company | vernontaxi.com/contact-us + (250) 545-3337 | 2026-07-16 | run-2
+- [email created] NOW Shuttle | Shuttle service | (250) 540-6746 | 2026-07-16 | run-2
+- [email created] Yankee Flats Meats | Butcher / local meats | yfmeats@gmail.com | 2026-07-16 | run-2
+- [email created] Armstrong Bakery | Bakery | Phone via chamber listing | 2026-07-16 | run-2
+- [email created] Anchor Inn Neighbourhood Pub | Pub | Phone via chamber listing | 2026-07-16 | run-2
+- [email created] The Clove Restaurant | Restaurant | Phone via chamber listing | 2026-07-16 | run-2
+- [email created] Haru Sushi & Grill | Japanese restaurant | Phone via chamber listing | 2026-07-16 | run-2
+- [email created] Okanagan Laser Tag Rentals | Mobile laser tag | tag.oltr@gmail.com | 2026-07-16 | run-2
+- [email created] Sweet Hoopla | Candy shop | info@sweethoopla.ca | 2026-07-16 | run-2
+- [email created] Cotton's Chocolates | Chocolatier | cottonschocolates.com + Facebook | 2026-07-16 | run-2
+- [email created] Kin + Pod Chocolate | Bean-to-bar chocolate maker | kinpod.ca contact page | 2026-07-16 | run-2
+- [email created] BC Pilates Health Hub | Pilates studio | thepilateshealthhub@gmail.com | 2026-07-16 | run-2
+- [email created] Centred Pilates Studio | Pilates studio | centredpilatesstudio.com contact page | 2026-07-16 | run-2
+- [email created] NeuMovement Pilates and Physiotherapy | Pilates + physiotherapy | (250) 545-2848 | 2026-07-16 | run-2
+- [email created] Symmetry In Motion | Pilates & active rehab | symmetryinmotion.ca contact page | 2026-07-16 | run-2
+- [email created] Okanagan Vacation Home Rentals (OVHR) | Vacation rental management | okanaganvacationhomerentals.com contact page | 2026-07-16 | run-2
+- [email created] Wildflower General Store | Gift & general store | stephlynne@wildflowergeneral.com (Steph) | 2026-07-16 | run-2
+- [email created] Simply Baskets Home & Gift | Gift shop | (250) 545-4474 | 2026-07-16 | run-2
+- [email created] Dastkar | Handmade gifts & decor | Phone via public listing | 2026-07-16 | run-2
+- [email created] Bloom Thyme Nursery | Plant nursery | bloomthymenursery@gmail.com | 2026-07-16 | run-2
+- [email created] The Greenery Garden Centre | Garden centre | thegreenery.ca contact page | 2026-07-16 | run-2
+- [email created] Okanagan Respite & Senior Services | Senior home care | info@okanaganseniorservices.com | 2026-07-16 | run-2
+- [email created] Red Top Footwear | Footwear store | Brent@redtopfootwear.com (Brent) | 2026-07-16 | run-2
+- [email created] Nurse Next Door — Vernon | Home care | nursenextdoor.com Vernon location page | 2026-07-16 | run-2
+- [email created] Qualicare Vernon-Kelowna | Home care | qualicare.com Vernon-Kelowna page | 2026-07-16 | run-2
+- [email created] Abbeyfield Houses of Vernon Society | Seniors housing non-profit | abbeyfieldvernon.ca contact page | 2026-07-16 | run-2
+- [email created] Pest Detective — Vernon | Pest control | pestdetective.com Vernon page + 250-545-5448 | 2026-07-16 | run-2
