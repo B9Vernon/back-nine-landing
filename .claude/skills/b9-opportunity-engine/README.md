@@ -32,14 +32,32 @@ references/
   research-rules.md               Public-only access, verification, boundaries
   entity-matching.md              Name normalization, duplicate suppression
   timing-and-output.md            Tier definitions + quality checklist
+  local-radius-sweep.md           Geography-first ring discovery (outreach)
+  map-grid-discovery.md           Zone-by-zone local search grid (outreach)
+  local-directory-discovery.md    Public directory mining rules (outreach)
+  storefront-contact-finder.md    Best-public-contact-path finder (outreach)
+  dedup-status-memory.md          Duplicate + status tracking (outreach)
+  partnership-fit-scorer.md       1-10 prioritization scoring (outreach)
+  partnership-angle-matcher.md    One custom angle per business (outreach)
+  website-research-email.md       LOCKED email rules ("Hey, I'm Neil.", no signature)
 templates/
-  run-report.md                   The only output format the engine uses
+  run-report.md                   The only output format for intelligence runs
 state/
   opportunity-log.md              Cross-run memory for deduplication
+  outreach-log.md                 Outreach dedup + status memory
 ```
+
+## Outreach mode
+
+When Neil explicitly asks for partnership prospects, the engine runs a
+geography-first discovery (radius rings + map grid + public directories — no
+industry batches), finds each business's best public contact path, scores
+fit 1–10, picks one custom partnership angle, and writes one Gmail-ready
+email per business. Locked rules: body opens "Hey, I'm Neil.", no signature
+block, drafts only — Neil sends manually.
 
 ## What it will never do
 
-No contact harvesting, no outreach or marketing copy, no dashboards, no
-recurring tasks or background monitoring, no bypassing of logins/paywalls/
-anti-bot protections. Contact information is handled separately by the owner.
+No private-data harvesting, no auto-sending or mass-sending, no dashboards,
+no recurring tasks or background monitoring, no bypassing of logins/paywalls/
+anti-bot protections. Public business contact information only.

@@ -31,10 +31,13 @@ It IS one unified intelligence system with four connected modules that share
 findings, connect entities across sources, and surface only decision-ready
 opportunities for Back Nine Golf Vernon (indoor golf venue, Vernon BC).
 
-It is NOT an email scraper, contact harvester, marketing-copy generator, or
-dashboard. Never output contact names, phone numbers, or email addresses
-unless explicitly requested later. Never draft outreach emails, invitations,
-social posts, ads, or marketing copy. Never send anything anywhere.
+It is NOT an email scraper, contact harvester, or dashboard, and it never
+sends anything anywhere. Contact details and outreach email DRAFTS are
+produced only when Neil explicitly requests them (as he has for prospect
+runs) — public business contact info only, drafts for manual review in
+Gmail, never auto-sent, never mass-sent. Outreach drafting follows the
+LOCKED rules in `references/website-research-email.md` (body opens
+"Hey, I'm Neil."; no signature block).
 
 ## The connected-intelligence chain
 
@@ -67,6 +70,26 @@ module reference before executing it:
 Modules feed each other: calendar events supply organizers/sponsors to Modules
 1–2; corporate signals inform partnership timing; search-demand themes drive
 the 10 business suggestions.
+
+## Outreach mode (explicit request only)
+
+When Neil explicitly asks for partnership prospects/outreach emails, run the
+geography-first outreach pipeline. Core belief: Back Nine can potentially
+partner with almost ANY legitimate local business — discovery is by location,
+never by industry batches, and never limited to golf-adjacent businesses.
+
+1. **Discovery** — `references/local-radius-sweep.md` (rings out from the
+   facility), `references/map-grid-discovery.md` (zone-by-zone),
+   `references/local-directory-discovery.md` (public directories).
+2. **Contact** — `references/storefront-contact-finder.md` (best public
+   contact path; form/social acceptable, clearly labelled).
+3. **Dedup** — `references/dedup-status-memory.md` + `state/outreach-log.md`.
+4. **Fit & angle** — `references/partnership-fit-scorer.md` (1–10, prioritize
+   not eliminate) and `references/partnership-angle-matcher.md` (one custom
+   angle each).
+5. **Email** — `references/website-research-email.md` (LOCKED: research the
+   real website, body opens "Hey, I'm Neil.", no signature, subject + body,
+   Gmail copy-paste ready, drafts only).
 
 ## Run procedure
 

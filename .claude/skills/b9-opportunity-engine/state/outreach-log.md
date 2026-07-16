@@ -1,0 +1,222 @@
+# Outreach Log — Partner Deduplication & Status Memory
+
+Append-only. One line per business. Check this file BEFORE adding any
+business to a new prospect list (see references/dedup-status-memory.md).
+
+Format: - [STATUS] Business Name | area/category | contact used | date | note
+
+## Prior batch (10 invitation emails, 2026-07-11)
+
+- [email created] Prestige Vernon Lodge & Conference Centre | hotel | VernonLodgeEvents@PrestigeHotels.ca | 2026-07-11 | batch-10
+- [email created] SilverStar Mountain Resort / Destination Silver Star | ski resort | (see prior email file) | 2026-07-11 | batch-10
+- [email created] Oakwyn Realty Okanagan (Vernon) | realtor | (see prior email file) | 2026-07-11 | batch-10
+- [email created] Okanagan Spirits Craft Distillery | distillery | (see prior email file) | 2026-07-11 | batch-10
+- [email created] Greater Vernon Chamber of Commerce | chamber | events@vernonchamber.ca | 2026-07-11 | batch-10
+- [email created] VJH Foundation | health foundation | (see prior email file) | 2026-07-11 | batch-10
+- [email created] Downtown Vernon Association | business assn | (see prior email file) | 2026-07-11 | batch-10
+- [email created] Vernon Vipers | BCHL team | (see prior email file) | 2026-07-11 | batch-10
+- [email created] Crankworx SilverStar | event | (see prior email file) | 2026-07-11 | batch-10
+- [email created] IPE & Stampede (Armstrong) | event | (see prior email file) | 2026-07-11 | batch-10
+
+## Batch of 200 (2026-07-12)
+
+- [email created] Predator Ridge Resort | golf resort | info@predatorridge.com | 2026-07-12 | batch-200
+- [email created] Sparkling Hill Resort | luxury wellness resort | reservations@sparklinghill.com | 2026-07-12 | batch-200
+- [email created] Spallumcheen Golf & Country Club | golf course | info@spallumcheengolf.com | 2026-07-12 | batch-200
+- [email created] Hillview Golf Course | executive golf course | info@hillviewgolf.ca | 2026-07-12 | batch-200
+- [email created] The Rise Resort | golf resort + weddings | info@theriseresort.ca | 2026-07-12 | batch-200
+- [email created] Vernon Golf & Country Club | golf club (est. 1913) | office@vernongolf.com | 2026-07-12 | batch-200
+- [email created] Divya Sutra Plaza & Conference Centre (ex-Village Green Hotel) | hotel + conference | reservations@divyasutravernon.com | 2026-07-12 | batch-200
+- [email created] Sandman Hotel Vernon | hotel | reservations@sandman.ca | 2026-07-12 | batch-200
+- [email created] Gray Monk Estate Winery | winery, Lake Country | events@graymonk.com | 2026-07-12 | batch-200
+- [email created] 50th Parallel Estate Winery | winery + restaurant | info@50thparallel.com | 2026-07-12 | batch-200
+- [email created] Arrowleaf Cellars | winery | info@arrowleafcellars.com | 2026-07-12 | batch-200
+- [email created] Ex Nihilo Vineyards | winery + bistro | bistro@exnihilovineyards.com | 2026-07-12 | batch-200
+- [email created] Intrigue Wines | winery | wineshop@intriguewines.com | 2026-07-12 | batch-200
+- [email created] The BX Press Cidery (rebranding to Cambium Cider Co.) | cidery, Vernon | hello@thebxpress.com | 2026-07-12 | batch-200
+- [email created] Farmstrong Cider Company | cidery, Armstrong | info@farmstrongcider.com | 2026-07-12 | batch-200
+- [email created] Village Cheese Company | artisan food, Armstrong | vcheese@villagecheese.com | 2026-07-12 | batch-200
+- [email created] Marten Brewpub | brewpub, downtown Vernon | ORDERS@MartenBrewpub.com | 2026-07-12 | batch-200
+- [email created] Peak Cellars (O'Rourke) | winery, Lake Country | info@peakcellars.com | 2026-07-12 | batch-200
+- [email created] Tolko Industries | forestry HQ Vernon (major employer) | CorporateCommunications@tolko.com | 2026-07-12 | batch-200
+- [email created] Tekmar Control Systems (Watts) | manufacturing, Vernon | info@tekmarcontrols.com | 2026-07-12 | batch-200
+- [email created] Watkin Motors Ford | auto dealer (est. 1913), Vernon | info@watkinmotors.com | 2026-07-12 | batch-200
+- [email created] Vernon Nissan | auto dealer | theath@vernonnissan.com | 2026-07-12 | batch-200
+- [email created] Vernon Hyundai | auto dealer | reception@vernonhyundai.com | 2026-07-12 | batch-200
+- [email created] Nixon Wenger LLP | law firm (Vernon's largest) | nw@nixonwenger.com | 2026-07-12 | batch-200
+- [email created] Kidston Helm Ross Lawyers | law firm | reception@kidston.ca | 2026-07-12 | batch-200
+- [email created] VantageOne Credit Union | credit union HQ Vernon | info@vantageone.net | 2026-07-12 | batch-200
+- [email created] RE/MAX Vernon | real estate brokerage | Reception@remaxvernon.com | 2026-07-12 | batch-200
+- [email created] Century 21 Executives Realty | real estate brokerage | office.administrator@century21.ca | 2026-07-12 | batch-200
+- [email created] Royal LePage Downtown Realty | real estate brokerage | downtownrealty@royallepage.ca | 2026-07-12 | batch-200
+- [email created] Coldwell Banker Executives Realty | real estate brokerage | info@executives-realty.com | 2026-07-12 | batch-200
+- [email created] O'Keefe Ranch | heritage attraction + events venue | events@okeeferanch.ca | 2026-07-12 | batch-200
+- [email created] Davison Orchards | farm attraction, Vernon | info@davisonorchards.ca | 2026-07-12 | batch-200
+- [email created] Planet Bee Honey Farm & Meadery | attraction, Vernon | info@planetbee.com | 2026-07-12 | batch-200
+- [email created] Innerspace Watersports | dive/watersports shop, Vernon | innerspacekelowna@gmail.com | 2026-07-12 | batch-200
+- [email created] Splashdown Vernon | waterpark | info@splashdown.ca | 2026-07-12 | batch-200
+- [email created] Vernon Public Art Gallery | gallery | info@vernonpublicartgallery.com | 2026-07-12 | batch-200
+- [email created] Powerhouse Theatre | community theatre | info@powerhousetheatre.net | 2026-07-12 | batch-200
+- [email created] Museum & Archives of Vernon | museum | mail@vernonmuseum.ca | 2026-07-12 | batch-200
+- [email created] Sovereign Lake Nordic Club | nordic ski area | gm@sovereignlake.com | 2026-07-12 | batch-200
+- [email created] Vernon Curling & Athletic Club | curling club | vcc@vernoncurlingclub.com | 2026-07-12 | batch-200
+- [email created] Greater Vernon Minor Hockey Assn | youth sports org | administrator@gvmha.com | 2026-07-12 | batch-200
+- [email created] Vernon Yacht Club | private club | office@vernonyachtclub.com | 2026-07-12 | batch-200
+- [email created] Vernon Winter Carnival Society | major festival (Feb) | hello@vernonwintercarnival.com | 2026-07-12 | batch-200
+- [email created] Funtastic Sports Society | slo-pitch festival + grants | office@funtastic.org | 2026-07-12 | batch-200
+- [email created] Los Huesos Mexican Restaurant | restaurant, downtown Vernon | loshuesos97@gmail.com | 2026-07-12 | batch-200
+- [email created] Bamboo Beach Fusion Grille | restaurant, downtown | info@bamboobeach.ca | 2026-07-12 | batch-200
+- [email created] Ratio Coffee & Pastry | café, Vernon | hello@ratiocoffee.ca | 2026-07-12 | batch-200
+- [email created] Phoenix Steakhouse and Bar | fine dining, downtown | thephoenixsteakhouse@gmail.com | 2026-07-12 | batch-200
+- [email created] Browns Socialhouse Village Green | restaurant | gthorhaug@brownssocialhouse.com | 2026-07-12 | batch-200
+- [email created] Intermezzo Restaurant & Wine Cellar | fine dining (est. 1977) | info@intermezzowinecellar.com | 2026-07-12 | batch-200
+- [email created] Oxygen Yoga & Fitness Vernon | fitness studio | vernon@oxygenyogafitness.com | 2026-07-12 | batch-200
+- [email created] Anytime Fitness Vernon | gym | vernonbc@anytimefitness.ca | 2026-07-12 | batch-200
+- [email created] Swan Lake Market & Garden | market/garden centre | contactus@swanlakemarket.com | 2026-07-12 | batch-200
+- [email created] Beach Radio 107.5 (Vernon) | radio station | 1075beachradio@gmail.com | 2026-07-12 | batch-200
+- [email created] Sproing Solutions (Creative) | marketing agency, Vernon | hello@sproing.ca | 2026-07-12 | batch-200
+- [email created] Wayside (Press) | printing/signage, Vernon | sales@waysideco.ca | 2026-07-12 | batch-200
+- [email created] Vernon Morning Star | newspaper | rodd.cruikshank@vernonmorningstar.com | 2026-07-12 | batch-200
+- [email created] Castanet Vernon | news site | sales@castanet.net | 2026-07-12 | batch-200
+- [email created] Holiday Inn Express & Suites Vernon | hotel | info@vernonexpress.com | 2026-07-12 | batch-200
+- [email created] Fairfield Inn & Suites by Marriott Vernon | hotel | reserve@fairfieldvernon.com | 2026-07-12 | batch-200
+- [email created] Gatzke Orchard | farm market, Lake Country | info@gatzkeorchard.com | 2026-07-12 | batch-200
+- [email created] Kangaroo Creek Farm | attraction, Lake Country | info@kangaroocreekfarm.com | 2026-07-12 | batch-200
+- [email created] Cheers! Okanagan Tours & Transportation | tour/shuttle operator | info@cheersokanagantours.com | 2026-07-12 | batch-200
+- [email created] Okanagan Science Centre | attraction, Vernon | info@okscience.ca | 2026-07-12 | batch-200
+- [email created] Community Futures North Okanagan | business development org | info@futuresbc.com | 2026-07-12 | batch-200
+- [email created] NexusBC Community Resource Centre | community org, Vernon | info@nexusbc.ca | 2026-07-12 | batch-200
+- [email created] Vernon Christian School | independent school | mdriediger@vcs.ca | 2026-07-12 | batch-200
+- [email created] BGC Okanagan — Vernon Club | youth org | vernon@obgc.ca | 2026-07-12 | batch-200
+- [email created] Caravan Farm Theatre | outdoor theatre, Armstrong | admin@caravanfarmtheatre.com | 2026-07-12 | batch-200
+- [email created] Armstrong Spallumcheen Chamber of Commerce | chamber | manager@aschamber.com | 2026-07-12 | batch-200
+- [email created] Lumby & District Chamber of Commerce | chamber | lumbychamber@gmail.com | 2026-07-12 | batch-200
+- [email created] Kindale Developmental Association | nonprofit, Armstrong | kindale@kindale.net | 2026-07-12 | batch-200
+- [email created] Vernon Silver Star Rotary Club | service club | President@vssrotary.org | 2026-07-12 | batch-200
+- [email created] Vernon Pickleball Association | sports club (large) | vpaoperations6801@gmail.com | 2026-07-12 | batch-200
+- [email created] Vernon Search and Rescue | volunteer emergency org | vsarclues@gmail.com | 2026-07-12 | batch-200
+- [email created] Olympia Cycle & Ski | bike/ski shop, Vernon | olympianeil@shaw.ca | 2026-07-12 | batch-200
+- [email created] Sun Country Cycle | bike shop, Vernon | info@suncountrycycle.com | 2026-07-12 | batch-200
+- [email created] Vernon Teach and Learn | education/toy retailer downtown | info@vernonteachandlearn.com | 2026-07-12 | batch-200
+- [email created] EATology | breakfast/lunch + catering, downtown | eatologyvernon@outlook.com | 2026-07-12 | batch-200
+- [email created] Vernon Toyota | auto dealer | parts@vernontoyota.com | 2026-07-12 | batch-200
+- [email created] Everton Ridge Homes | custom home builder | sales@evertonridge.ca | 2026-07-12 | batch-200
+- [email created] Wesmont Homes — Rosemont (Armstrong) | developer | info@rosemontliving.ca | 2026-07-12 | batch-200
+- [email created] Vernon Flying Club | aviation club | flyingclubvernon@gmail.com | 2026-07-12 | batch-200
+- [email created] Rogers Foods | flour mill, Armstrong (major employer) | marketing@rogersfoods.com | 2026-07-12 | batch-200
+- [email created] Turning Points Collaborative Society | social services org, Vernon | info@turningpoints.ngo | 2026-07-12 | batch-200
+- [email created] Rossworn Henderson LLP | accountants, Armstrong/Enderby | ac@rhllp.ca | 2026-07-12 | batch-200
+- [email created] Blind Tiger Vineyards | winery, Lake Country | hello@blindtigervineyards.ca | 2026-07-12 | batch-200
+- [email created] Heartwood Homes | fine home builder, Vernon | info@heartwoodvernon.com | 2026-07-12 | batch-200
+- [email created] Village Green Shopping Centre | mall (BentallGreenOak) | vgmmarketing@bentallgreenoak.com | 2026-07-12 | batch-200
+- [email created] Mabel Lake Golf & Airpark | golf course, Enderby/Lumby area | proshop@mabellakegolf.com | 2026-07-12 | batch-200
+- [email created] Vernon Farmers' Market | market org | info@vernonfarmersmarket.ca | 2026-07-12 | batch-200
+- [email created] Tourism Vernon (City of Vernon) | destination marketing | tsilverthorn@vernon.ca | 2026-07-12 | batch-200
+- [email created] Splatsin Development Corporation | First Nation development corp, Enderby | info@splatsindc.com | 2026-07-12 | batch-200
+- [email created] Okanagan College — Continuing Studies (Vernon campus) | education | cskelowna@okanagan.bc.ca | 2026-07-12 | batch-200
+- [email created] Allan Brooks Nature Centre | nature centre, Vernon | events@abnc.ca | 2026-07-12 | batch-200
+- [email created] Okanagan Military Tattoo Society | annual event org | marketing@okanagantattoo.ca | 2026-07-12 | batch-200
+- [email created] Schubert Centre | seniors community centre | manager@schubertcentre.com | 2026-07-12 | batch-200
+- [email created] Vernon Rowing & Dragon Boat Club | paddling club | lisa@vrdbc.com | 2026-07-12 | batch-200
+- [email created] North Okanagan Cycling Society | mountain-bike club | president@nocs.ca | 2026-07-12 | batch-200
+- [email created] The Chase Wines | winery, Lake Country | info@thechasewines.com | 2026-07-12 | batch-200
+- [email created] Vernon Kokanee Swim Club | swim club | kokaneeswimclub@shaw.ca | 2026-07-12 | batch-200
+- [email created] Vernon Gymnastix | gymnastics club | info@vernongymnastix.ca | 2026-07-12 | batch-200
+- [email created] North Valley Gymnastics | gymnastics club, Vernon | info@nvgym.com | 2026-07-12 | batch-200
+- [email created] Vernon Fish and Game Club | outdoors club | info@vernonfishandgame.ca | 2026-07-12 | batch-200
+- [email created] MQN Architects | architecture firm, Vernon | info@mqn.ca | 2026-07-12 | batch-200
+- [email created] Avenue Machinery (Douglas Lake Equipment) | equipment dealer, Vernon | reception@avenuemachinery.ca | 2026-07-12 | batch-200
+- [email created] Greater Vernon Recreation (City) | recreation services | recinfo@vernon.ca | 2026-07-12 | batch-200
+- [email created] Bean To Cup Coffee House | café, Vernon | beantocup@gmail.com | 2026-07-12 | batch-200
+- [email created] Okanagan Regional Library — Vernon | library branch | vereference@orl.bc.ca | 2026-07-12 | batch-200
+- [email created] Lincoln Lanes | bowling centre, Vernon | letsgolincolnlanes@gmail.com | 2026-07-12 | batch-200
+- [email created] Butcher Boys Food Market | independent grocer (est. 1959) | Info@butcherboys.ca | 2026-07-12 | batch-200
+- [email created] Askew's Foods — Armstrong | independent grocer | armstrong@askewsfoods.com | 2026-07-12 | batch-200
+- [email created] Vance Creek Hotel & Conference Centre | hotel, SilverStar village | info@vancecreekhotel.com | 2026-07-12 | batch-200
+- [email created] Baccata Ridge Winery | winery, Grindrod (Enderby) | baccataridgewinery@gmail.com | 2026-07-12 | batch-200
+- [email created] Fieldstone Organics | organic granary, Armstrong | info@fieldstoneorganics.ca | 2026-07-12 | batch-200
+- [email created] Salt Fowler Team — RE/MAX Vernon | top realtor team | webinfo@saltfowler.com | 2026-07-12 | batch-200
+- [email created] Turtle Bay Marina & Resort | marina/boat rentals, Lake Country | boatrentals@turtlebaymarina.com | 2026-07-12 | batch-200
+- [email created] Hymers Private Wealth — RBC Dominion Securities | wealth mgmt (Kelowna, serves Okanagan) | rhonda.hymers@rbc.com | 2026-07-12 | batch-200
+- [email created] Ancient Hill Estate Winery | winery, Kelowna-east (~35 km) | info@ancienthillwinery.com | 2026-07-12 | batch-200
+- [email created] Jim's Place Pizza | Vernon institution (est. decades) | jimsplacepizza@gmail.com | 2026-07-12 | batch-200
+- [email created] Kelly O'Bryan's Vernon | restaurant/pub | wayne99@kellyobryans.com | 2026-07-12 | batch-200
+- [email created] North Okanagan Youth Soccer Assn | youth sports (large) | noysatd@gmail.com | 2026-07-12 | batch-200
+- [email created] Royal York Golf Course | golf course, Armstrong | royalyork@shaw.ca | 2026-07-12 | batch-200
+- [email created] The Hamlets at Vernon | seniors residence (Optima Living) | vernon@optimaliving.ca | 2026-07-12 | batch-200
+- [email created] Arts Council of the North Okanagan | arts umbrella org | info@acno.ca | 2026-07-12 | batch-200
+- [email created] Gallery Vertigo | artist-run gallery, downtown | galleryvertigonoaa@gmail.com | 2026-07-12 | batch-200
+- [email created] Coldstream Meadows Retirement Community | seniors community | Manager@coldstreammeadows.com | 2026-07-12 | batch-200
+- [email created] Freedom Flight Park | hang-gliding/paragliding park, Lumby | freedomflightpark@gmail.com | 2026-07-12 | batch-200
+- [email created] Vernon Judo Club (est. 1944) | martial arts club | vernonjudo@gmail.com | 2026-07-12 | batch-200
+- [email created] Gonzo Okanagan | online media/events | contact@gonzookanagan.com | 2026-07-12 | batch-200
+- [email created] iNFOnews / InfoTel Multimedia | news + digital marketing | news@infonews.ca | 2026-07-12 | batch-200
+- [email created] Total Restoration Services | restoration company, Vernon | vernon@totalrestore.ca | 2026-07-12 | batch-200
+- [email created] Kelowna Concierge / Signature Connections | destination management co | info@kelownaconcierge.ca | 2026-07-12 | batch-200
+- [email created] Vernon Wellness Fair | annual expo (Vernon Rec Centre) | chris@vernonwellnessfair.com | 2026-07-12 | batch-200
+- [email created] Okanagan Wine Festivals Society | valley-wide festival org | info@thewinefestivals.com | 2026-07-12 | batch-200
+- [email created] KF Aerospace | aerospace MRO, Kelowna (major employer) | reception@kfaero.ca | 2026-07-12 | batch-200
+- [email created] Creative Chaos Festival | large summer craft show, Vernon | info@creativechaoscrafts.com | 2026-07-12 | batch-200
+- [email created] Sun Valley Cruise-In | annual car show, Vernon | info@vernoncruisein.com | 2026-07-12 | batch-200
+- [email created] Enderby & District Museum | museum | enderbymuseum@shaw.ca | 2026-07-12 | batch-200
+- [email created] Whitevalley Community Resource Centre | community org, Lumby | info@whitevalley.ca | 2026-07-12 | batch-200
+- [email created] Monashee Powder Snowcats | cat-skiing operator (high-end) | info@monasheepowder.com | 2026-07-12 | batch-200
+- [email created] Just For You Spa and Salon | day spa, Vernon | info@justforyouspaandsalon.ca | 2026-07-12 | batch-200
+- [email created] Solace Spa Care | spa, downtown Vernon | solacespacare@gmail.com | 2026-07-12 | batch-200
+- [email created] Beyond Beauty MediSpa | medi-spa, Vernon | beyondbeautymedi-spa@hotmail.com | 2026-07-12 | batch-200
+- [email created] Avalon Event Rentals — Vernon | event rentals | vernoninfo@avalonrents.com | 2026-07-12 | batch-200
+- [email created] Vernon Catering & Hospitality | caterer | leah@vernoncatering.ca | 2026-07-12 | batch-200
+- [email created] Gumtree Catering | award-winning caterer, Vernon | orders@gumtreecatering.com | 2026-07-12 | batch-200
+- [email created] Vernon Family Dental | dental clinic | info@vernonfamilydental.ca | 2026-07-12 | batch-200
+- [email created] Diamond Dental Vernon | boutique dental clinic | info@diamonddentalvernon.com | 2026-07-12 | batch-200
+- [email created] Concept Physiotherapy (Vernon) | physio clinic | reception@conceptphysiotherapy.com | 2026-07-12 | batch-200
+- [email created] Progression Muscle, Bone & Joint Clinic | physio/rehab, Vernon | reception@progressionmbj.ca | 2026-07-12 | batch-200
+- [email created] Easthill Physiotherapy & Acupuncture | physio clinic, Vernon | EHphysio@telus.net | 2026-07-12 | batch-200
+- [email created] Beyond Belief Escape Rooms | entertainment, Vernon | info@beyondbelief.ca | 2026-07-12 | batch-200
+- [email created] Direct Travel / Vision Travel Vernon | travel agency | vernon@visiontravel.ca | 2026-07-12 | batch-200
+- [email created] Hands on Health | chiro/wellness clinic, Vernon | info@handsonhealthvernon.ca | 2026-07-12 | batch-200
+- [email created] Rose City Wellness | chiro/wellness, Vernon | info@rosewellness-vernon.com | 2026-07-12 | batch-200
+- [email created] Gold'n Time Jewellery | jeweller, downtown Vernon | jewellery@goldntime.ca | 2026-07-12 | batch-200
+- [email created] Furmanek Jewellers | jeweller, downtown Vernon | ryanfurmanek@gmail.com | 2026-07-12 | batch-200
+- [email created] My Mortgage Works — Jeremy Schaffner | mortgage broker | jeremy@mymortgageworks.ca | 2026-07-12 | batch-200
+- [email created] Vernon Optometry (est. 1946) | optometry clinic | reception@vernonoptometry.ca | 2026-07-12 | batch-200
+- [email created] Kalamalka Eye Care | optometry clinic | reception@kalamalkaeyecare.ca | 2026-07-12 | batch-200
+- [email created] The Rock Garden Climbing Center | climbing gym, Vernon | climbthegarden@gmail.com | 2026-07-12 | batch-200
+- [email created] Vernon Snowmobile Association | sledding club | vernonsnowmobileclub@gmail.com | 2026-07-12 | batch-200
+- [email created] City Dance Okanagan | dance studio, Vernon | info@citydance.ca | 2026-07-12 | batch-200
+- [email created] Accentz Dance Studio | dance studio, Vernon | info@accentz.ca | 2026-07-12 | batch-200
+- [email created] Hair Loft | salon, Vernon | hair.loft.vernon@gmail.com | 2026-07-12 | batch-200
+- [email created] Ash & Oak Salon | salon (incl. bridal), Vernon | ashandoaksalon@gmail.com | 2026-07-12 | batch-200
+- [email created] Vernon Flower Shop | florist | vernonflowers.bc@gmail.com | 2026-07-12 | batch-200
+- [email created] 27th Street Florist | florist, Vernon | 27thst.florist@gmail.com | 2026-07-12 | batch-200
+- [email created] Beachcomber Home Leisure — Vernon | hot tub/leisure retailer | info@bhleisure.com | 2026-07-12 | batch-200
+- [email created] Peacock Landscaping | landscaping, Vernon | info@peacocklandscaping.ca | 2026-07-12 | batch-200
+- [email created] Swan Lake Landscaping | landscaping | contactus@swanlakelandscaping.com | 2026-07-12 | batch-200
+- [email created] Vernon Landscape & Stone Supply | landscape supply yard | vernonlandscape@shaw.ca | 2026-07-12 | batch-200
+- [email created] Customer First Plumbing, Heating & Air | trades, Vernon | info@customerfirstplumbing.com | 2026-07-12 | batch-200
+- [email created] Bertelsen Plumbing | plumber, Vernon/Armstrong/Lumby | bertelsenplumbing@shawbiz.ca | 2026-07-12 | batch-200
+- [email created] Blue Collar Installations | electrical contractor, Vernon | info@blue-collar-installations.ca | 2026-07-12 | batch-200
+- [email created] Vernon BC Accounting | accounting firm | info@vernonbcaccounting.ca | 2026-07-12 | batch-200
+- [email created] Clark Robinson CPAs | accounting firm, Vernon | info@clarkrobinson.com | 2026-07-12 | batch-200
+- [email created] Image Studios | photo studio, Village Green | photography@imagestudios.ca | 2026-07-12 | batch-200
+- [email created] Amie Roussel Photography | luxury photographer, Vernon | hello@amieroussel.com | 2026-07-12 | batch-200
+- [email created] Distinctive Decor Antiques | antiques/furniture, Vernon | distinctivedecorantiques@gmail.com | 2026-07-12 | batch-200
+- [email created] Furniture Emporium | furniture store, Vernon | furnitureemporium@hotmail.ca | 2026-07-12 | batch-200
+- [email created] Bekins Moving & Storage — Vernon | movers | sales@bekins.ca | 2026-07-12 | batch-200
+- [email created] Hugo's Moving | movers, Vernon | hugosmoving@gmail.com | 2026-07-12 | batch-200
+- [email created] Big Guns Roofing | roofing, Vernon/Okanagan | info@biggunsroofing.com | 2026-07-12 | batch-200
+- [email created] Pinnacle Roofing | roofing, Vernon | sales@pinnacleroofing.ca | 2026-07-12 | batch-200
+- [email created] Community Roofing Ltd | roofing, Vernon | louis@communityroofing.ca | 2026-07-12 | batch-200
+- [email created] StormProof Roofing | roofing | contact@stormproofroofing.ca | 2026-07-12 | batch-200
+- [email created] Vernon Tech Solutions | IT services, Vernon | info@vernontechs.com | 2026-07-12 | batch-200
+- [email created] Wet Spot Grooming & Pet Care | pet grooming, Vernon | wetspotgrooming@outlook.com | 2026-07-12 | batch-200
+- [email created] Mountview Dog Grooming | pet grooming, Vernon | mountviewdoggrooming@gmail.com | 2026-07-12 | batch-200
+- [email created] Okanagan Bake House | bakery, Vernon | info@okbakehouse.com | 2026-07-12 | batch-200
+- [email created] Two Donkeys Bakery | German artisan bakery, Vernon | info@twodonkeysbakery.ca | 2026-07-12 | batch-200
+- [email created] La Carraia Gelateria Cafe | gelato café, downtown Vernon | lacarraia.bc@gmail.com | 2026-07-12 | batch-200
+- [email created] Tony's DJ Service | DJ/events, Okanagan | tonysdj@telus.net | 2026-07-12 | batch-200
+- [email created] DJ Lunchboxx | DJ, Vernon | bookings@djlunchie.com | 2026-07-12 | batch-200
+- [email created] Okanagan Limousine | limo/wine tours | oklimoluxury@gmail.com | 2026-07-12 | batch-200
+- [email created] GB Limousines | limo, Okanagan | GBLimousinesOkanagan@gmail.com | 2026-07-12 | batch-200
+- [email created] Edge of the Earth Vineyards | winery, Armstrong | edgeearth@telus.net | 2026-07-12 | batch-200
+- [email created] Monashee Moving & Deliveries | movers, Vernon | dustin@monasheemoving.com | 2026-07-12 | batch-200
