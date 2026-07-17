@@ -56,6 +56,14 @@ fit 1–10, picks one custom partnership angle, and writes one Gmail-ready
 email per business. Locked rules: body opens "Hey, I'm Neil.", no signature
 block, drafts only — Neil sends manually.
 
+## Related support skill
+
+`b9-audience-holder-finder` (sibling skill folder) layers onto outreach step
+6: for every business found, also checks whether it controls an audience
+(members, clients, staff, customers) worth reaching, and finds the specific
+person/role who can move that audience. It never runs on its own and never
+changes this engine's format, files, or locked email rules.
+
 ## What it will never do
 
 No private-data harvesting, no auto-sending or mass-sending, no dashboards,

@@ -90,6 +90,12 @@ never by industry batches, and never limited to golf-adjacent businesses.
 5. **Email** — `references/website-research-email.md` (LOCKED: research the
    real website, body opens "Hey, I'm Neil.", no signature, subject + body,
    Gmail copy-paste ready, drafts only).
+6. **Audience-holder check** (support skill, additive — layer onto steps 1–5,
+   don't run separately) — for every business found, also ask whether it
+   controls an audience worth reaching (a gym has members, a realtor has
+   clients, a dealership has staff and customers) and who the specific
+   person/role is who can move that audience. See
+   `../b9-audience-holder-finder/SKILL.md`.
 
 ## Run procedure
 
