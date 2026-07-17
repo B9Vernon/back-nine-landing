@@ -42,7 +42,10 @@ calendar moments when useful.
 
 For every opportunity, find the audience gatekeepers using
 `references/campaign-to-recipient-mapper.md` (organizers, accommodations, teams,
-vendors, venues, sponsors — ranked Priority 1–4). The module decides who should
+vendors, venues, sponsors — ranked Priority 1–4). Also apply the B9 Audience Holder
+Finder support skill (`../../b9-audience-holder-finder/SKILL.md`) to catch
+audience-holder roles the mapper's opportunity-type list doesn't already name — it
+layers on top of the mapper, it doesn't replace it. The module decides who should
 receive the campaign; weather/smoke campaigns may route to awareness channels (social,
 Google Business Profile, in-facility screens, existing customers, partner emails)
 instead of cold outreach.

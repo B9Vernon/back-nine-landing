@@ -69,6 +69,11 @@ All modules share exactly one of each:
 - **Cross-engine sync** — `references/cross-engine-sync.md` (how this Command Centre
   shares duplicate/contact knowledge with the independent Partnership Engine and
   Vacation Rental Engine chats without merging them)
+- **Audience-holder discovery** — `../b9-audience-holder-finder/SKILL.md` (support
+  skill; wired into the Local Event Capture Module and the Outreach File Module — see
+  those modules. For every business, event, or accommodation found, also checks who
+  controls the audience behind it. Layers on top of, never replaces,
+  `references/campaign-to-recipient-mapper.md`.)
 
 ## Local radius-first rule (permanent strategy)
 

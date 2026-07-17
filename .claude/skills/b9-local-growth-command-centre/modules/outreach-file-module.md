@@ -43,6 +43,11 @@ Contact-path substitutions (from Public Contact Finder): if there is no direct e
 but a contact form exists, replace the `EMAIL:` line with `CONTACT FORM: [URL]`; if
 only a public social path exists, use `SOCIAL CONTACT: [URL]`.
 
+Prospects sourced via the B9 Audience Holder Finder support skill
+(`../../b9-audience-holder-finder/SKILL.md` — e.g. a team manager or property manager
+found behind a business/event/accommodation) fold into this same file using this same
+block. No separate section, no separate format.
+
 ## File names
 
 Clear names such as:
