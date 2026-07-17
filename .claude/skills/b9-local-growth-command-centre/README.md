@@ -38,15 +38,27 @@ references/
   campaign-to-recipient-mapper.md
   growth-orchestrator.md
   compliance-and-quality-control.md
-data/
-  B9_Growth_Database.csv         The one shared prospect/relationship database
+  cross-engine-sync.md           How this connects to the other independent B9 engines
 output/                          Generated outreach TXT files
 ```
 
+## Shared database (repo root, not nested — this is the cross-engine connection point)
+
+```
+B9_Growth_Database.csv
+```
+
+This Command Centre reads/writes it automatically. The independent B9 Opportunity &
+Partnership Engine and B9 Vacation Rental Outreach Engine chats are separate systems by
+design — they keep their own commands and workflows — but can be pointed at this same
+file so all three engines know who's already been researched/contacted without
+merging into one system. See `references/cross-engine-sync.md` for the one-time message
+to paste into those other chats.
+
 ## Legacy assets (preserved, read-only)
 
-The working Partnership Engine's databases stay untouched at the repo root and serve
-as duplicate-check sources:
+The working Partnership Engine's original databases stay untouched at the repo root and
+serve as duplicate-check sources:
 
 - `back_nine_vernon_prospect_database.csv`
 - `Fable 1 Contacts.csv`

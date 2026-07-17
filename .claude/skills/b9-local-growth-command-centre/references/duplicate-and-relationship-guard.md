@@ -15,7 +15,11 @@ Run this guard before any module creates a new prospect or writes a new email.
 
 Before adding any contact, check ALL of these sources for an existing record:
 
-1. `data/B9_Growth_Database.csv` — the shared command-centre database.
+1. `B9_Growth_Database.csv` (repo root) — the shared cross-engine ledger. This
+   Command Centre reads AND writes here, and it's the file the other independent B9
+   engines (Partnership Engine, Vacation Rental Engine, any future engine) are asked to
+   read and write to as well — see `cross-engine-sync.md`. This is what lets separate,
+   independent engines avoid duplicating or re-cold-pitching each other's contacts.
 2. `back_nine_vernon_prospect_database.csv` (repo root) — legacy Partnership Engine
    database. Read-only duplicate-check source; never modify or delete it.
 3. `Fable 1 Contacts.csv` (repo root) — legacy contact list. Read-only duplicate-check

@@ -51,8 +51,10 @@ full run. Do not let one module interfere with or weaken another.
 
 All modules share exactly one of each:
 
-- **B9 Growth Database** — `data/B9_Growth_Database.csv` (read before creating
-  prospects, write back after). See `modules/growth-database-module.md`.
+- **B9 Growth Database** — `B9_Growth_Database.csv` (repo root; read before creating
+  prospects, write back after). This is the same shared file the independent
+  Partnership Engine and Vacation Rental Engine chats are asked to use too — see
+  `references/cross-engine-sync.md`. See also `modules/growth-database-module.md`.
 - **Duplicate checker** — `references/duplicate-and-relationship-guard.md`
 - **Email-writing standard** — `references/email-builder-core.md` (locked rules)
 - **Radius-first discovery rule** — below
@@ -64,6 +66,9 @@ All modules share exactly one of each:
 - **Campaign-to-Recipient Mapper** — `references/campaign-to-recipient-mapper.md`
 - **Compliance & quality control** — `references/compliance-and-quality-control.md`
   (run the QC checklist before delivering any final file)
+- **Cross-engine sync** — `references/cross-engine-sync.md` (how this Command Centre
+  shares duplicate/contact knowledge with the independent Partnership Engine and
+  Vacation Rental Engine chats without merging them)
 
 ## Local radius-first rule (permanent strategy)
 

@@ -3,22 +3,32 @@
 Command: `UPDATE B9 GROWTH DATABASE` (updates statuses, replies, active partners,
 duplicates, bad fits, follow-ups, or notes).
 
-## The database
+## The database — shared across ALL engines, not just this one
 
-One shared database file:
+One shared ledger file, committed at the **repo root** (not nested inside this skill)
+specifically so every independent B9 engine — this Command Centre, the standalone B9
+Opportunity & Partnership Engine, the standalone B9 Vacation Rental Outreach Engine,
+and any future engine — can find it at the same predictable path and read/write to it:
 
 ```
-.claude/skills/b9-local-growth-command-centre/data/B9_Growth_Database.csv
+B9_Growth_Database.csv
 ```
 
-Every module must read it BEFORE creating new prospects and write back to it AFTER
-creating new prospects, emails, or statuses. All writes go through the Duplicate and
-Relationship Guard first.
+Every module in this Command Centre reads it BEFORE creating new prospects and writes
+back to it AFTER creating new prospects, emails, or statuses. All writes go through the
+Duplicate and Relationship Guard first.
+
+**This is the cross-engine connection point.** The engines stay fully independent —
+separate commands, separate chats, separate workflows — but if every engine checks and
+appends to this one root-level file, none of them will duplicate a prospect or
+re-cold-pitch someone another engine already contacted. See
+`references/cross-engine-sync.md` for exactly what to tell the other engines' sessions
+so they participate.
 
 ### Legacy sources (read-only)
 
-The proven Partnership Engine's existing databases live at the repo root and must be
-preserved untouched:
+The proven Partnership Engine's original databases also live at the repo root and must
+be preserved untouched:
 
 - `back_nine_vernon_prospect_database.csv`
 - `Fable 1 Contacts.csv`
