@@ -6,7 +6,9 @@ reference. Do not rename established references. When names are not yet establis
 the asset clearly and propose a name only when building the asset library (see
 `assets/asset-portfolio-registry.md`).
 
-Include the relevant locks below as **POSITIVE LOCKS** and **NEGATIVE LOCKS** sections in prompts.
+Include the relevant locks below as **POSITIVE LOCKS** in prompts — phrased as the correct state
+to preserve, with residual risks going into the single ~25-word `AVOID:` line
+(`references/generation-reliability.md`).
 
 ## Character continuity — preserve
 

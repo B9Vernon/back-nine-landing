@@ -43,18 +43,26 @@ wrong floor materials. State, explicitly, in every prompt:
 
 ### Back Nine Bay 1 — locked geometry (from `Bay1Asset1`)
 
-Use this exact description (or a compact restatement of it) in every Bay 1 prompt:
+Use this exact description (or a compact restatement of it) in every Bay 1 prompt — phrased
+positively, per `references/generation-reliability.md`:
 
-> Bay 1 is a single rectangular hitting bay. Green artificial turf covers the entire floor from
-> the golfer's hitting position all the way to the base of the back wall — there is no wood floor,
-> gap, or border strip between the turf and the screen. One flat rectangular impact screen is
-> mounted flush and vertical against the centre of the back wall, flanked by two plain charcoal-
-> grey wall sections — the screen is flat, never curved, angled, or free-standing, and it is the
-> only large screen in the hitting area. Do not add extra screens, monitors, projector beams, or
-> duplicate impact surfaces anywhere in the hitting area. The separate lounge zone (caramel leather
-> sofa and armchair, black massage chairs, high-top table with orange stools, a small wall-mounted
-> TV) is away from the hitting turf and must not be merged into a hitting-area shot unless the
-> concept explicitly moves the camera there.
+> Bay 1 is a single rectangular hitting bay. Green artificial turf covers the entire floor,
+> running continuously from the golfer's hitting position all the way to the base of the back
+> wall, meeting the screen wall directly. One flat rectangular impact screen is mounted flush
+> and vertical against the centre of the back wall, flanked on both sides by plain charcoal-grey
+> wall sections — that flat screen is the only screen in the hitting area. The bay's contents
+> are exactly: turf, the flat screen, the two charcoal walls, and whatever the clip's action
+> requires.
+
+The separate lounge zone (caramel leather sofa and armchair, black massage chairs, high-top
+table with orange stools, small wall-mounted TV) stays out of hitting-area shots unless the
+concept explicitly moves the camera there — keep it out by simply not mentioning it, not by
+listing it in a negation.
+
+**Strongest lock of all: the start frame.** When the engine supports a start-frame image
+(Cinema Studio 2.5 does), load the actual `Bay1Asset1` hitting-area photo (or the previous
+clip's final frame) as the start frame — the model rarely contradicts its own first frame's
+pixels. Full rules: `references/generation-reliability.md` → Start-frame discipline.
 
 ## 3. Golfer placement and orientation (mandatory for every hitting/address/swing shot)
 
@@ -93,13 +101,12 @@ actual limit rather than guessing.
 
 ## Lock text to paste into every prompt using image references
 
-> REFERENCE FIDELITY LOCK: [CHARACTER NAME(S)] must exactly match the attached character reference
-> image(s) — identical face, hair, build, skin tone, and distinguishing features; never a
-> different-looking or generic person. The location must exactly match the attached facility
-> reference — one flat impact screen flush on the back wall between two charcoal side walls, turf
-> covering the floor edge-to-edge to the screen wall, no invented screens, projectors, walls, or
-> furniture. The golfer stands on the turf, inside the hitting area, facing the impact screen with
-> their target line pointing directly at it.
+> REFERENCE FIDELITY LOCK: [CHARACTER NAME(S)] exactly match the attached character reference
+> image(s) — identical face, hair, build, skin tone, and distinguishing features throughout. The
+> location exactly matches the attached facility reference and the start frame: one flat impact
+> screen flush on the back wall between two charcoal side walls, green turf running continuously
+> to the base of the screen wall. The golfer stands on the turf, inside the hitting area, facing
+> the impact screen with their target line pointing directly at it.
 
 ## Mandatory verification
 

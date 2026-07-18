@@ -46,8 +46,21 @@ Verify internally before returning any prompt. For golf content, also run
 - [ ] Audio rules clear (dialogue/ambience/Foley/music permission)?
 - [ ] Dialogue brief, natural, written exactly as spoken; offscreen speakers noted?
 
+## Generation reliability (every prompt)
+- [ ] Correct state described positively — desired world stated, not failures enumerated
+      (`references/generation-reliability.md`)?
+- [ ] Exactly ONE `AVOID:` line, ~25 words max, generic failure categories only, hero objects
+      (ball/club/screen) named at most once — no stacked negative-lock paragraphs?
+- [ ] Prompt under ~250 words; scene/action/camera ≈70%, locks ≈30%?
+- [ ] One primary subject action, one camera move, max two people per clip?
+- [ ] Club orientation stated positively (hands on grip, clubhead at ground end); only ONE
+      swing-phase window in this clip (never address → top → impact → finish in one generation)?
+- [ ] START FRAME named for the clip (facility photo for a first clip, previous clip's final
+      frame otherwise) when the engine supports start frames?
+
 ## Distortion & contradictions
-- [ ] Distortion risks locked (`references/distortion-prevention.md`)?
+- [ ] Distortion risks addressed through positive description and simplification
+      (`references/distortion-prevention.md`)?
 - [ ] Contradictions removed?
 
 ## Single golf ball

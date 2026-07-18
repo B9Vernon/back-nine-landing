@@ -18,7 +18,8 @@ frame) before shipping. Full rules: `references/single-golf-ball-protocol.md`.
       abstract line/arc/dot?
 - [ ] Could any **prop, basket, logo, or background** contain an extra ball? Blocked?
 - [ ] Could any **transition** between clips spawn a duplicate ball? Transition changed if so?
-- [ ] Is the SINGLE-GOLF-BALL LOCK section present in the prompt?
-- [ ] Do the NEGATIVE LOCKS explicitly forbid any second/extra/ghost/duplicated ball anywhere?
+- [ ] Is the SINGLE-GOLF-BALL LOCK section present, phrased positively ("one ball is the only
+      ball"), without enumerating places a second ball must not appear
+      (`references/generation-reliability.md`)?
 
 **Final gate:** THERE IS ONLY ONE GOLF BALL — and never more than one.

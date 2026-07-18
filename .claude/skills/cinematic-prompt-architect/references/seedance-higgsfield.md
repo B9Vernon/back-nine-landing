@@ -1,7 +1,11 @@
 # Seedance through Higgsfield — Optimization
 
 Default target platform. Unless the user names another platform, optimize every prompt for
-Seedance generation inside the Higgsfield workflow.
+Seedance generation inside the Higgsfield workflow. When the user names a different Higgsfield
+engine (e.g. **Cinema Studio 2.5**), everything here still applies, plus that engine's real
+limits — reference-image cap (3 for Cinema Studio 2.5), start/end-frame support (use it: it is
+the primary geometry lock, `references/generation-reliability.md`), and custom movement/speed-
+ramp controls.
 
 This file governs how prompts are **written**. Whether and when to actually invoke the
 Higgsfield connector and start a paid generation is a separate, explicit-authorization decision —

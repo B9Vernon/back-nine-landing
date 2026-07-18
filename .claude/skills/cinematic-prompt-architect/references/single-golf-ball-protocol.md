@@ -83,12 +83,15 @@ clip, or move the ball out of frame — never ship a prompt that could render tw
 
 ## Lock text to paste into prompts
 
-Put a **SINGLE-GOLF-BALL LOCK** section in every golf prompt. Recommended wording:
+Put a **SINGLE-GOLF-BALL LOCK** section in every golf prompt — written **positively**, per
+`references/generation-reliability.md` (negation-heavy blocks inject the very concept they
+forbid). Recommended wording:
 
-> SINGLE-GOLF-BALL LOCK: There is exactly one golf ball in this entire shot. It is the same
-> continuous physical object from first to last frame — identical size, colour, dimple pattern,
-> and markings throughout. Never render a second golf ball anywhere: not on the turf, in a
-> basket, beside the golfer, in flight, in reflections, in glass, on the simulator screen, in
-> any HUD/tracking graphic, in the logo, or in the background. Motion blur, spin, and any
-> trailing effect must read as one ball plus abstract light/air — never as two balls. If the
-> ball exits frame, no other ball appears. Only one golf ball. Never more than one.
+> SINGLE-GOLF-BALL LOCK: One white golf ball is the only ball in this shot — the same continuous
+> object from first frame to last, identical size, colour, and markings throughout. The turf,
+> reflections, screen, and background stay clear apart from it. Motion blur reads as one ball
+> plus abstract air.
+
+If the ball is out of frame for the whole clip, say only: "The turf is clean and empty — the
+scene contains no golf ball." Do not enumerate the places a second ball must not appear; that
+enumeration is what spawns them.

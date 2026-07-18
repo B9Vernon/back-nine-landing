@@ -69,8 +69,10 @@ prompts detailed but not overloaded. This priority set is the token-efficient de
 29. **SINGLE-GOLF-BALL LOCK** — the lock text from `references/single-golf-ball-protocol.md`. **Always include in golf prompts.**
 29a. **VISIBLE IMPACT LOCK** — the lock text from `references/club-ball-impact.md`. **Always
     include whenever a club strikes the ball.**
-30. **DISTORTION-PREVENTION LOCKS** — from `references/distortion-prevention.md`.
-31. **NEGATIVE LOCKS** — explicit "never render" list (includes extra golf balls).
+30. **REFERENCE FIDELITY LOCK** — from `references/reference-image-fidelity.md`, whenever image
+    references are attached.
+31. **AVOID line** — ONE line, ~25 words max, generic failure categories only
+    (`references/distortion-prevention.md`, `references/generation-reliability.md`).
 32. **ENDING CONTINUITY FRAME** — exact final pose/hand/club/body direction/camera/framing/
     lighting/prop/ball position/ball speed-or-stopped/screen/expression.
 33. **NEXT-CLIP OPENING FRAME** — the matching/complementary start frame for the next clip;

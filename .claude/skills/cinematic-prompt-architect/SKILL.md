@@ -57,6 +57,21 @@ covering props through literal text instead. Full protocol:
 `references/reference-image-fidelity.md`. Mandatory verification:
 `checklists/reference-fidelity-verification.md`.
 
+## Generation reliability — positive-first prompting (overrides lock-stacking)
+
+Video engines do not process negation reliably: every noun in a prompt makes that thing more
+likely to appear, **even inside a sentence forbidding it**. Stacked negative-lock paragraphs
+("never render a second ball… no extra screens… no bent clubs…") inject the very failures they
+name — this caused extra balls, morphing clubs, and invented geometry in real productions.
+Therefore: describe the correct state positively ("one white golf ball is the only ball in the
+scene"; "the turf runs continuously to the base of the screen"); consolidate all negatives into
+**one `AVOID:` line of ~25 words max** per prompt; keep prompts under ~250 words with locks ≈30%;
+one primary action, one swing-phase window, and one camera move per clip; always state the club's
+orientation (hands on grip, clubhead at ground end) and never generate a full swing in one clip.
+When the engine supports a start-frame image, the start frame — the real facility photo or the
+previous clip's final frame — is the **primary** geometry lock, and every clip delivery names it.
+Full protocol: `references/generation-reliability.md`.
+
 ## Visible club-to-ball impact
 
 Whenever a golf club hits a ball, the clip must clearly show the clubface physically contacting
@@ -134,10 +149,13 @@ spectators, or background activity unless requested.
    and prevent distortion (`references/distortion-prevention.md`).
 7. When image references are attached, lock identity and facility geometry literally in words —
    never let the model guess (`references/reference-image-fidelity.md`).
-8. Confirm no more than one golf ball can appear.
-9. For any hitting scene, confirm the club-to-ball impact is visible and physically correct
-   (`references/club-ball-impact.md`).
-10. Return complete, independent, copy-and-paste prompts — token-efficient by default.
+8. Apply the generation-reliability rules: positive-first phrasing, one AVOID line, ~250-word
+   budget, one action / one swing-phase window / one camera move per clip, club orientation
+   stated, start frame named (`references/generation-reliability.md`).
+9. Confirm no more than one golf ball can appear.
+10. For any hitting scene, confirm the club-to-ball impact is visible and physically correct
+    (`references/club-ball-impact.md`).
+11. Return complete, independent, copy-and-paste prompts — token-efficient by default.
 
 ## Clip structure — decide it, don't ask
 
@@ -213,7 +231,9 @@ use clear temporary descriptions until approved.
 
 ## Quality control — mandatory before every output
 
-Run `checklists/pre-output-qc.md`. For any golf content, also run
+Run `checklists/pre-output-qc.md` — including its generation-reliability section (positive-first
+phrasing, single AVOID line, word budget, one action/phase/move, start frame named). For any golf
+content, also run
 `checklists/single-ball-verification.md`. For any hitting scene, also run
 `checklists/club-ball-impact-verification.md`. Whenever image references are attached, also run
 `checklists/reference-fidelity-verification.md`. Do not return a prompt that fails any of these.

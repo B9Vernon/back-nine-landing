@@ -21,6 +21,7 @@ cinematic-prompt-architect/
 │   ├── clip-structure-and-timing.md
 │   ├── continuity-locks.md
 │   ├── distortion-prevention.md
+│   ├── generation-reliability.md  # positive-first prompting, AVOID-line budget, club integrity, start frames
 │   ├── seedance-higgsfield.md
 │   ├── higgsfield-generation-authority.md  # when generation may be triggered, and how
 │   ├── token-efficient-production-mode.md  # default compact-output behaviour
