@@ -1,0 +1,15 @@
+Company: Sample Valley Hotel
+Job Title: Guest Services Agent
+Location: Vernon, BC
+Source: manual-text
+Website: https://samplevalleyhotel.example
+Company Description: A fictional hotel used to demonstrate copied-text ingestion.
+Public Email: frontdesk@samplevalleyhotel.example
+
+Company: North Okanagan Fabrication
+Job Title: Welder
+Location: Armstrong, BC
+Source: manual-text
+Website: https://northokanaganfabrication.example
+Company Description: A fictional fabrication shop used only for local tests.
+Contact URL: https://northokanaganfabrication.example/contact

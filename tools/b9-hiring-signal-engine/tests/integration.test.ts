@@ -1,0 +1,40 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { mkdtempSync, readFileSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join, resolve } from "node:path";
+import { PROJECT_ROOT } from "../src/config.js";
+import { openDatabase } from "../src/database.js";
+import { deduplicateCompanies } from "../src/dedupe.js";
+import { applyHiringFilters } from "../src/discovery.js";
+import { discoverContacts } from "../src/contact.js";
+import { generateApprovedEmails } from "../src/email.js";
+import { exportApprovedTxt } from "../src/export.js";
+import { importSignals, parseJobFile } from "../src/ingestion.js";
+import { approveCompanies } from "../src/review.js";
+import { researchCompanies } from "../src/research.js";
+
+test("fictional sample completes the review-gated pipeline and exact TXT export", async () => {
+  const database = openDatabase(":memory:");
+  const jobs = await parseJobFile(resolve(PROJECT_ROOT, "data/samples/fake-jobs.csv"));
+  assert.equal(importSignals(database, jobs, "fake-jobs.csv").imported, 8);
+  const filtered = applyHiringFilters(database, { radiusKm: 40, includeKelowna: false, includeGolfCourses: false });
+  assert.equal(filtered.accepted, 6);
+  await researchCompanies(database, { live: false, limit: 25 });
+  await discoverContacts(database, { live: false, limit: 25 });
+  assert.equal(deduplicateCompanies(database).merged, 1);
+  assert.deepEqual(approveCompanies(database, { all: true }), { approved: 5, skipped: 0 });
+  assert.deepEqual(generateApprovedEmails(database, { limit: 25, includeNoEmail: false }), { generated: 5, skipped: 0 });
+
+  const folder = mkdtempSync(join(tmpdir(), "b9-output-"));
+  const outputPath = join(folder, "emails.txt");
+  const exported = exportApprovedTxt(database, { limit: 25, includeNoEmail: false, outputPath });
+  assert.equal(exported.exported, 5);
+  const text = readFileSync(outputPath, "utf8");
+  assert.equal((text.match(/^COMPANY:/gm) || []).length, 5);
+  assert.equal((text.match(/^EMAIL BODY:/gm) || []).length, 5);
+  assert.equal((text.match(/^I'm Neil, owner of Back Nine Golf here in Vernon\.$/gm) || []).length, 5);
+  assert.doesNotMatch(text, /SCORE:|RESEARCH NOTES:|RAW SCRAPING/);
+  database.close();
+  rmSync(folder, { recursive: true, force: true });
+});

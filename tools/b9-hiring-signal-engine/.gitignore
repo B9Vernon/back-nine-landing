@@ -1,0 +1,12 @@
+.env
+node_modules/
+dist/
+data/cache/*
+data/input/*
+data/output/*
+!data/cache/.gitkeep
+!data/input/.gitkeep
+!data/output/.gitkeep
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
