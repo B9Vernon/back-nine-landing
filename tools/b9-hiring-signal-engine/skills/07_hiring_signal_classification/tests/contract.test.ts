@@ -8,4 +8,5 @@ test("classification emits category and seasonal growth context", () => {
   assert.ok(result.signalTypes.includes("seasonal_ramp"));
   assert.ok(result.signalTypes.includes("growth"));
   assert.equal(classifyJob("Guest Services Coordinator").category, "customer_service");
+  assert.equal(classifyJob("Journeyperson HVAC Service Technician").category, "trades");
 });

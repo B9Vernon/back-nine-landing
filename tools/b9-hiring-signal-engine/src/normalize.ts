@@ -49,7 +49,12 @@ export function normalizeJobSignal(input: JobSignalInput): NormalizedJobSignal {
   const normalizedCompany = normalizeCompanyName(companyName);
   const jobLocation = cleanText(input.jobLocation || input.city);
   const rawText = cleanText(input.rawText);
-  const classification = classifyJob(`${jobTitle} ${rawText}`);
+  const titleClassification = classifyJob(jobTitle);
+  const fullClassification = classifyJob(`${jobTitle} ${rawText}`);
+  const classification = {
+    category: titleClassification.category === "other" ? fullClassification.category : titleClassification.category,
+    signalTypes: [...new Set([...titleClassification.signalTypes, ...fullClassification.signalTypes])],
+  };
   const source = cleanText(input.source) || "manual";
   const sourceUrl = normalizeUrl(input.sourceUrl || "");
   const postingDate = cleanText(input.postingDate);

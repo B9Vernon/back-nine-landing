@@ -7,7 +7,7 @@ const CATEGORY_RULES: Array<[JobCategory, RegExp]> = [
   ["hospitality", /\b(hospitality|host|server|bartender|guest services?|food and beverage)\b/i],
   ["tourism", /\b(tourism|tour guide|visitor experience|travel advisor)\b/i],
   ["real_estate", /\b(real estate|property manager|realtor|strata)\b/i],
-  ["automotive", /\b(automotive|dealership|vehicle|service advisor|parts advisor|technician)\b/i],
+  ["automotive", /\b(automotive|dealership|vehicle|service advisor|parts advisor|tire technician)\b/i],
   ["finance", /\b(finance|financial|banking|bookkeeper|accountant|credit union|mortgage)\b/i],
   ["insurance", /\b(insurance|broker|underwriter|claims)\b/i],
   ["professional_services", /\b(lawyer|legal assistant|consultant|engineering|architect|professional services)\b/i],
