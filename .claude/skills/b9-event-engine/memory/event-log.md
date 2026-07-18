@@ -117,4 +117,6 @@ _(none yet — record stripped tags, width limits, style quirks here)_
 - Official-source grounding: SilverStar's official site reviewed at build time; current mountain positioning and cyan/white visual cues informed the concept. No SilverStar logo asset was copied or embedded.
 - Build: portal-ready inline HTML saved at `builds/mountain-crew-cup.html`.
 - Owner-controlled replacements: `{{PRIZE_DETAILS}}` and `{{FULL_SWING_EVENT_CODE}}`; verified default registration links used.
-- Outcome / Vernon's feedback: pending.
+- Vernon's feedback (2026-07-18): first version was only a start; requested a much more clickable, high-end luxury presentation with SilverStar and Back Nine logos, snowflakes, named ski-run rounds, and many interactions.
+- Upgrade applied: Alpine Black Diamond visual system; official SilverStar winter hero photography; current SilverStar logo + embedded Back Nine Vernon logo; interactive anchor navigation; six expandable run cards named Milky Way, Big Dipper, Roller Coaster, Christmas Bowl, Headwall, and Eldorado; crew-invite mail action; luxury prize block; four-step league explainer; three-lift registration path; 12 working interactions/links. Portal-safe inline HTML, no JavaScript.
+- Outcome: upgraded build awaiting Vernon's review.
