@@ -1,0 +1,40 @@
+{
+  "name": "@b9vernon/hiring-signal-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CLI-first local hiring-signal research and outreach preparation engine for Back Nine Vernon.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "init": "tsx src/cli.ts init",
+    "import:jobs": "tsx src/cli.ts import:jobs",
+    "find:hiring": "tsx src/cli.ts find:hiring",
+    "research:companies": "tsx src/cli.ts research:companies",
+    "find:contacts": "tsx src/cli.ts find:contacts",
+    "dedupe": "tsx src/cli.ts dedupe",
+    "review:list": "tsx src/cli.ts review:list",
+    "review:approve": "tsx src/cli.ts review:approve",
+    "review:reject": "tsx src/cli.ts review:reject",
+    "generate:emails": "tsx src/cli.ts generate:emails",
+    "generate:txt": "tsx src/cli.ts generate:txt",
+    "summary": "tsx src/cli.ts summary",
+    "audit:export": "tsx src/cli.ts audit:export",
+    "validate:txt": "tsx scripts/validate-txt.ts",
+    "run": "tsx src/cli.ts run",
+    "demo": "tsx src/cli.ts demo --database data/cache/demo.sqlite",
+    "test": "tsx --test tests/*.test.ts skills/*/tests/*.test.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
