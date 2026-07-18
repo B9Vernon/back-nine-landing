@@ -108,3 +108,13 @@ _(none yet — record stripped tags, width limits, style quirks here)_
 - Photos: distinct per event from `landing-page-files/assets` (embedded base64, ≤64KB each).
   Logos: 5 Vernon-uploaded marks rotated across heroes.
 - Outcome / Vernon's feedback: pending — Vernon will pick keepers and cull the rest.
+
+
+### MOUNTAIN CREW CUP — 2026-07-18 — league
+- Audience / theme: SilverStar Mountain Resort staff; Summit Signal visual system blending SilverStar cyan/white with Back Nine navy/green.
+- League hook: private staff competition with crew pride and flexible playing windows designed around rotating resort shifts.
+- Format (Vernon-supplied): pending — build avoids inventing team size, round count, dates, fees, limits, or scoring rules.
+- Official-source grounding: SilverStar's official site reviewed at build time; current mountain positioning and cyan/white visual cues informed the concept. No SilverStar logo asset was copied or embedded.
+- Build: portal-ready inline HTML saved at `builds/mountain-crew-cup.html`.
+- Owner-controlled replacements: `{{PRIZE_DETAILS}}` and `{{FULL_SWING_EVENT_CODE}}`; verified default registration links used.
+- Outcome / Vernon's feedback: pending.
