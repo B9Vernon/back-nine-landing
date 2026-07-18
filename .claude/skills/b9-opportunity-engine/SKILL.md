@@ -37,7 +37,8 @@ produced only when Neil explicitly requests them (as he has for prospect
 runs) — public business contact info only, drafts for manual review in
 Gmail, never auto-sent, never mass-sent. Outreach drafting follows the
 LOCKED rules in `references/website-research-email.md` (body opens
-"Hey, I'm Neil."; no signature block).
+a personal greeting — "Hey [recipient] team, I'm Neil." — no typed
+signature, website link + logo footer).
 
 ## The connected-intelligence chain
 
@@ -88,14 +89,26 @@ never by industry batches, and never limited to golf-adjacent businesses.
    not eliminate) and `references/partnership-angle-matcher.md` (one custom
    angle each).
 5. **Email** — `references/website-research-email.md` (LOCKED: research the
-   real website, body opens "Hey, I'm Neil.", no signature, subject + body,
-   Gmail copy-paste ready, drafts only).
+   real website, body opens "Hey [recipient] team, I'm Neil.", no typed
+   signature, ends with website link + logo, subject + body, Gmail
+   copy-paste ready, drafts only).
 6. **Audience-holder check** (support skill, additive — layer onto steps 1–5,
    don't run separately) — for every business found, also ask whether it
    controls an audience worth reaching (a gym has members, a realtor has
    clients, a dealership has staff and customers) and who the specific
    person/role is who can move that audience. See
    `../b9-audience-holder-finder/SKILL.md`.
+
+Discovery always starts from Back Nine's postal code **V1T 5B9** and works
+outward in rings (`references/local-radius-sweep.md`).
+
+Two command-gated companion tools (never run unprompted):
+
+- `RUN B9 FOLLOW UP` → `references/follow-up-engine.md` — one polite
+  second-touch email per confirmed-sent, no-reply prospect.
+- `RUN B9 REPLY` → `references/reply-assistant.md` — Neil pastes a reply he
+  received; the engine drafts his response, logs the status, and proposes
+  the next step.
 
 ## Run procedure
 

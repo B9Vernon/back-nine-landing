@@ -13,11 +13,22 @@ research depth, tone, and quality. These rules are absolute.
    - Named person (owner/sole practitioner): `Hey Katie, I'm Neil.`
    - Never a bare `Hey, I'm Neil.` — the greeting must name who it's for.
    - Never "I'm Vernon." Never introduce Neil as the city or business.
-2. NO signature of any kind. No sign-off block, name, title, phone, website,
-   or address at the end — Gmail adds the signature. End naturally with a
-   simple question or soft next step, then stop.
+2. NO typed sign-off block. No "Best regards," no name/title/phone/address
+   lines — Gmail carries Neil's signature. End the message naturally with a
+   simple question or soft next step.
    Example ending: "Would you be open to a quick conversation about something like this?"
-3. Never sent automatically. Drafts only — Neil reviews and sends manually.
+3. AFTER the soft close, every email ends with exactly two footer elements,
+   in this order:
+   - the Back Nine Vernon website link on its own line:
+     `https://backninegolf.ca/local/vernonbc/`
+   - the Back Nine Vernon logo image directly BELOW the link
+     (canonical file: `../assets/b9-vernon-logo.png` — the square black
+     logo with the b9 mark, "BACK NINE®" in white and "VERNON" in green).
+   In plain-text TXT deliverables, include the link line in every email
+   body; the logo image itself is added when composing in Gmail (pasted
+   below the link, or carried in the Gmail signature). Never write a
+   placeholder like "[logo]" inside the email body text.
+4. Never sent automatically. Drafts only — Neil reviews and sends manually.
 
 ## Per-company procedure
 
@@ -39,7 +50,9 @@ lines in the deliverable; that work still happens, it just stays internal.
 To: [best public contact — email address, or contact form/phone if no email]
 Subject: [subject line]
 
-[email body]
+[email body ending with the soft-close question]
+
+https://backninegolf.ca/local/vernonbc/
 ```
 
 Separate entries with a `---` line. The file starts with a short header only

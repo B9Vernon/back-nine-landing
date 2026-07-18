@@ -13,13 +13,16 @@ visibility?" Never: "Are they already looking for a golf partnership?"
 
 ## Ring logic
 
-Sweep in rings from the Back Nine facility:
+The sweep origin is ALWAYS Back Nine Golf Vernon's postal code: **V1T 5B9**
+(the 45th Avenue facility). Every discovery run starts there and works
+outward in rings:
 0–1 km → 1–2 km → 2–3 km → 3–5 km → 5–10 km → farther only when needed
 (Coldstream, BX, Okanagan Landing, then Armstrong/Lumby/Lake Country).
 
 ## Method
 
-- Anchor on the facility's address and nearby commercial zones.
+- Anchor on postal code V1T 5B9 / the facility's address and nearby
+  commercial zones.
 - For each ring, enumerate: streets with storefronts, plazas, strip malls,
   business parks, shopping centres, service clusters, professional buildings.
 - Query patterns: "businesses on [street] Vernon BC", "[plaza name] Vernon
