@@ -6,7 +6,8 @@ one email. The reader should think: "This actually makes sense for us."
 
 ## Angle menu (choose one per business)
 
-- advertise to Back Nine customers (in-facility / TV screens / QR campaign)
+- feature them as a partner on the facility TVs (a paid advertising
+  placement Back Nine sells — never imply it's free)
 - sponsor a tournament / league / prize / challenge hole
 - staff night / team-building event / staff appreciation
 - client appreciation event

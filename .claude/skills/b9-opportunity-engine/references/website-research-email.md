@@ -17,6 +17,14 @@ research depth, tone, and quality. These rules are absolute.
    lines — Gmail carries Neil's signature. End the message naturally with a
    simple question or soft next step.
    Example ending: "Would you be open to a quick conversation about something like this?"
+2a. LOCKED TV-advertising sentence — whenever the email mentions the
+    facility TVs, it must read as a paid partnership offering, never a
+    freebie, and use this exact pattern (swap in the business's name):
+    "...and we'd love to talk about featuring [Business] as a partner on
+    the TVs across our facility — 24/7 advertising seen by hundreds of
+    people a week, with a QR code sending the people straight to your
+    website." Never say "feature you on our TVs" or "we'll put you on our
+    screens" without this framing — those read as free advertising.
 3. AFTER the soft close, every email ends with exactly two footer elements,
    in this order:
    - the Back Nine Vernon website link on its own line:
@@ -70,4 +78,5 @@ conversation, never mass outreach.
 
 No misleading subject lines. Never imply an existing relationship or
 partnership. No invented claims about Back Nine's customer numbers, TV
-views, or results — only verified facts.
+views, or results beyond the locked "hundreds of people a week" TV-traffic
+line in rule 2a (Neil-approved) — everything else stays to verified facts.
