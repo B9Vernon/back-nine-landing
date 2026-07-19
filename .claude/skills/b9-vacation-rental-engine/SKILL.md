@@ -35,9 +35,13 @@ Hard rules (never violate):
    families/groups, higher disposable income).
 3. **Direct host finder** - prefer the person/company who can actually recommend to
    guests: direct-booking sites, owner pages, PM companies, B&B sites. Skip listings with
-   no realistic public contact path. For prospects that only exist as VRBO/Airbnb
-   listings, use the companion `b9-platform-host-contact` skill (listing-to-owner
-   cross-reference first; manual Message-Host note as fallback).
+   no realistic public contact path. For any prospect that starts as a platform listing
+   (Airbnb/Vrbo/chalet/guest-suite/lodge listing), run the companion
+   `b9-vacation-listing-intelligence-resolver` skill first - it resolves the listing to
+   the real operator, verifies a public contact path, scores confidence (1-100), merges
+   portfolios, and hands the enriched prospect back to this engine's email builder. If
+   the resolver exhausts every public path, fall back to `b9-platform-host-contact`
+   (manual Message-Host note Neil sends himself).
 4. **Public contact confidence scorer** - HIGH: direct owner/host/manager email.
    MEDIUM: general business email. USABLE: contact form (`CONTACT FORM: url`).
    LOW: social only (`SOCIAL CONTACT: url`). NO USABLE CONTACT: exclude from main file.

@@ -18,6 +18,11 @@ Goal: turn a VRBO or Airbnb listing into a usable contact path for Neil's manual
   all future lists.
 
 ## Step 1 - Listing-to-owner cross-reference (preferred path)
+For the full deep-research version of this step (multi-source entity matching,
+portfolio discovery, 1-100 confidence scoring, unresolved queue), use the companion
+`b9-vacation-listing-intelligence-resolver` skill. The quick version below covers the
+basics; only fall through to Step 2 after the resolver has exhausted public paths.
+
 Work from public data visible on or around the listing:
 1. Host name / host profile blurb (e.g. "Hosted by Sandy & Mike", "Managed by Silver
    Star Stays") - property managers named on listings almost always have public websites.
