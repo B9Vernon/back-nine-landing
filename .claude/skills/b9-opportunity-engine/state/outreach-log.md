@@ -623,3 +623,53 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Click-A-Geek | IT/computer repair | clickageekinc.com form | 2026-07-19 | run-3
 - [email created] Sweet Caroline's Bakery | Bakery | shop/social | 2026-07-19 | run-3
 - [email created] Classy Canine Grooming | Pet grooming | shop/Facebook | 2026-07-19 | run-3
+- [email created] Coldstream Golf Course | Golf course | phone 250-547-6048 | 2026-07-19 | run-3
+- [email created] The Roster Sports Club Bar & Grill | Sports bar | rostersvernon@gmail.com | 2026-07-19 | run-3
+- [email created] Boa Thong Thai Food Restaurant | Restaurant | phone 250-542-1252 | 2026-07-19 | run-3
+- [email created] Saucies 27 Pizza | Restaurant | phone 236-426-0995 | 2026-07-19 | run-3
+- [email created] Pepperich Pizza | Restaurant | phone 236-426-4900 | 2026-07-19 | run-3
+- [email created] Bento & Sushi | Restaurant | phone 250-558-9964 | 2026-07-19 | run-3
+- [email created] Amarin Thai Restaurant | Restaurant | website/phone | 2026-07-19 | run-3
+- [email created] Lorenzo's Cafe (Enderby) | Cafe | exploringenderby listing | 2026-07-19 | run-3
+- [email created] The Paddlewheeler Restaurant & Pub (Enderby) | Pub | website/phone | 2026-07-19 | run-3
+- [email created] Enderby Organics | Farm/organics | enderbyfarm@gmail.com | 2026-07-19 | run-3
+- [email created] Super A Foods (Lumby) | Grocery | in-store | 2026-07-19 | run-3
+- [email created] Antlers Cold Beer & Wine Store (Lumby) | Liquor store | 2031 Vernon St | 2026-07-19 | run-3
+- [email created] Liquor Warehouse Vernon | Liquor store | liquorwarehousevernon.com | 2026-07-19 | run-3
+- [email created] Vernon Square Liquor Store | Liquor store | vernonsquareliquorstore.ca | 2026-07-19 | run-3
+- [email created] Tony's Cidery (Lavington) | Cidery | website/phone | 2026-07-19 | run-3
+- [email created] Attridge Ski & Board | Ski/board retail | phone 250-542-1515 | 2026-07-19 | run-3
+- [email created] Sun Valley Source for Sports | Sporting goods | sourceforsports.ca | 2026-07-19 | run-3
+- [email created] Raising Stars Preschool | Preschool | raisingstarspreschool@gmail.com | 2026-07-19 | run-3
+- [email created] Appletree Childcare | Childcare | appletreechildcare@telus.net | 2026-07-19 | run-3
+- [email created] Koala Bear Daycare | Daycare | gail@koalabeardaycare.com | 2026-07-19 | run-3
+- [email created] Kids Corner Daycare | Daycare | kidscornerdaycare.ca | 2026-07-19 | run-3
+- [email created] VDICSS Childcare Centre | Childcare | childcare@vdicss.org | 2026-07-19 | run-3
+- [email created] Bliss Pilates at Hayden Fitness Studio | Pilates | 5460 Anderson Way | 2026-07-19 | run-3
+- [email created] Local Collective Therapy Center | Wellness | phone 250-545-1108 | 2026-07-19 | run-3
+- [email created] Delia's Nails & Esthetics | Nail salon | phone 250-503-6116 | 2026-07-19 | run-3
+- [email created] Vernon Nails Spa & Bar | Nail salon | vernonnailsbarandspa.com | 2026-07-19 | run-3
+- [email created] VN Organic Spa & Nails | Nail salon | vnorganicspa.ca | 2026-07-19 | run-3
+- [email created] Xhale Esthetics | Esthetics | phone 250-503-6744 | 2026-07-19 | run-3
+- [email created] The Beauty Bar Laser & Esthetics | Esthetics | phone 236-426-3666 | 2026-07-19 | run-3
+- [email created] Priest Valley Physiotherapy & Rehabilitation | Physio | phone 250-549-2552 | 2026-07-19 | run-3
+- [email created] North End Spine & Sports Physical Therapy | Physio | phone 250-545-6030 | 2026-07-19 | run-3
+- [email created] Arise Chiropractic and Wellness | Chiropractic | arisechiropractic.com | 2026-07-19 | run-3
+- [email created] Vernon Active Health | Health clinic | vernonactivehealth.com | 2026-07-19 | run-3
+- [email created] Le Grows Travel | Travel agency | phone 250-542-2722 | 2026-07-19 | run-3
+- [email created] Gaba Travel Vernon | Travel agency | info@gabatravel.com | 2026-07-19 | run-3
+- [email created] Vintage Valley Mortgage | Mortgage | brad@homeloan.ca | 2026-07-19 | run-3
+- [email created] Dawn Stephanishin Mortgage (Invis) | Mortgage | dawnstephanishin@invis.ca | 2026-07-19 | run-3
+- [email created] Kelly Rowe Mortgage (Lendingmax) | Mortgage | krowe@lendingmax.ca | 2026-07-19 | run-3
+- [email created] Upper Room Mission | Charity | contact page | 2026-07-19 | run-3
+- [email created] Carousel Consignments | Consignment | shop/social | 2026-07-19 | run-3
+- [email created] Sakura Sushi & Japanese Grocery | Restaurant | shop/phone | 2026-07-19 | run-3
+- [email created] Easthill Eatery | Restaurant | shop/social | 2026-07-19 | run-3
+- [email created] The Wax Bench | Ski tuning | shop/social | 2026-07-19 | run-3
+- [email created] Consignor Sports | Sports consignment | shop/social | 2026-07-19 | run-3
+- [email created] Timeless Treasures Consignment Boutique | Consignment | shop/social | 2026-07-19 | run-3
+- [email created] Value Village Vernon | Thrift retail | 5608 24th St | 2026-07-19 | run-3
+- [email created] Salvation Army Thrift Store Vernon | Charity/thrift | phone 250-549-4454 | 2026-07-19 | run-3
+- [email created] Bryceton Morrison Mortgage (The Mortgage Centre) | Mortgage | bmorrison@mortgagecentre.com | 2026-07-19 | run-3
+- [email created] Shirin Mazidi Mortgage (Mortgage Alliance) | Mortgage | smazidi@mortgagealliance.com | 2026-07-19 | run-3
+- [email created] Stay Tuned Sports | Ski/board retail | shop/social | 2026-07-19 | run-3
