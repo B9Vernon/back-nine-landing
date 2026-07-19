@@ -573,3 +573,53 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Autosound Plus | Car audio | Facebook page | 2026-07-19 | run-3
 - [email created] Ricky's Family Restaurant Vernon | Restaurant | Facebook page | 2026-07-19 | run-3
 - [email created] The Mirror Booth Co | Photo booth | phone 250-212-1568 | 2026-07-19 | run-3
+- [email created] BNA Brewing Co. Vernon | Brewery | vernon@bnabrewing.com | 2026-07-19 | run-3
+- [email created] Two Wheel Brewing Company | Brewery | phone 780-446-4492 | 2026-07-19 | run-3
+- [email created] Silverstar Brewing Co | Brewery | phone 778-475-5115 | 2026-07-19 | run-3
+- [email created] MJ Cakery | Bakery | mjcakery.com form | 2026-07-19 | run-3
+- [email created] Caken Me Crazy | Bakery | Facebook page | 2026-07-19 | run-3
+- [email created] Crystal's Baked Blessings | Bakery | phone 778-212-0600 | 2026-07-19 | run-3
+- [email created] Ritual Barbershop | Barbershop | ritualbarbershopvernon@gmail.com | 2026-07-19 | run-3
+- [email created] Tommy Gun's Barbershop Vernon | Barbershop | Anderson Village | 2026-07-19 | run-3
+- [email created] For Men Only Barbershop | Barbershop | vernonbarbershop.ca | 2026-07-19 | run-3
+- [email created] Central Barbers | Barbershop | 3126 31 Ave | 2026-07-19 | run-3
+- [email created] The Steenkamp Team (Royal LePage) | Real estate | davidsteenkamp@royallepage.ca | 2026-07-19 | run-3
+- [email created] Robin Baycroft (RE/MAX Vernon) | Real estate | robin@robinbaycroft.com | 2026-07-19 | run-3
+- [email created] Sundance Martial Arts | Martial arts | sundancemartialarts.com form | 2026-07-19 | run-3
+- [email created] Breakthrough Martial Arts | Martial arts | martialartsvernon.com form | 2026-07-19 | run-3
+- [email created] Kees Tae Kwon Do Vernon | Martial arts | keesokanagan.com form | 2026-07-19 | run-3
+- [email created] Diversity Dance and Fitness | Dance studio | diversityvernon@gmail.com | 2026-07-19 | run-3
+- [email created] Bramble Bush Floral & Gift Shop | Florist/gift | bramblebushflorist@shaw.ca | 2026-07-19 | run-3
+- [email created] Oopsie Daisy Florist | Florist | phone 250-545-0379 | 2026-07-19 | run-3
+- [email created] Vernon Dog Grooming | Pet grooming | phone 250-542-1787 | 2026-07-19 | run-3
+- [email created] Creekside Animal Clinic | Veterinary | phone 250-549-3533 | 2026-07-19 | run-3
+- [email created] Total Pet Vernon (Pet Valu) | Pet retail | petvalu.ca page | 2026-07-19 | run-3
+- [email created] AJ's Pets & Things | Pet retail | in-store/Facebook | 2026-07-19 | run-3
+- [email created] Aberdeen Dental | Dental | vernondentist.com form | 2026-07-19 | run-3
+- [email created] Prestige Collision & Glass | Auto body | phone 250-542-4811 | 2026-07-19 | run-3
+- [email created] Craftsman Collision Vernon | Auto body | craftsmancollision.com page | 2026-07-19 | run-3
+- [email created] Monashee Auto Body | Auto body | monasheeautobody.ca form | 2026-07-19 | run-3
+- [email created] CSN Frank's Collision | Auto body | csncollision.com page | 2026-07-19 | run-3
+- [email created] LDR Construction | Renovation | phone 250-307-8562 | 2026-07-19 | run-3
+- [email created] Keith Construction | Home builder | phone 250-545-1300 | 2026-07-19 | run-3
+- [email created] Hamilton View Contracting | Home builder | hamiltonviewcontracting.ca form | 2026-07-19 | run-3
+- [email created] DeVries Construction | Home builder | devriesconstruction.net form | 2026-07-19 | run-3
+- [email created] DEUTO Custom Homes & Renovations | Home builder | deuto.ca/contact | 2026-07-19 | run-3
+- [email created] North Okanagan Accounting Services | Accounting | northokanaganaccountingservices.com form | 2026-07-19 | run-3
+- [email created] Executive Accounting Services | Accounting | executive-accounting.com form | 2026-07-19 | run-3
+- [email created] CJR Bookkeeping & Tax Services | Bookkeeping | cjrbookkeepingandtax.ca form | 2026-07-19 | run-3
+- [email created] Vernon Bookkeeping Inc | Bookkeeping | website contact | 2026-07-19 | run-3
+- [email created] Crave Massage and Spa | Spa/massage | cravemassagevernon@gmail.com | 2026-07-19 | run-3
+- [email created] Okanagan Sage Wellness Group | Massage/wellness | oksagewellness.com form | 2026-07-19 | run-3
+- [email created] The Health Nest | Wellness clinic | phone 250-275-5005 | 2026-07-19 | run-3
+- [email created] Professional Hands Massage Therapy | Massage | phone 250-545-9594 | 2026-07-19 | run-3
+- [email created] Central Vernon Massage | Massage | centralvernonmassage.ca form | 2026-07-19 | run-3
+- [email created] Skyride | Bike shop | skyride.ca form | 2026-07-19 | run-3
+- [email created] Krafty Bikes | Bike shop | shop/Facebook | 2026-07-19 | run-3
+- [email created] Culos & Co. Law Corp | Law firm | phone 250-549-7168 | 2026-07-19 | run-3
+- [email created] True Craft Signs | Signage/printing | truecraftsigns.ca form | 2026-07-19 | run-3
+- [email created] Falcon Sign & Awning Co. | Signage | falconsignawning.com form | 2026-07-19 | run-3
+- [email created] Get Colour Copies Printing | Printing | website contact | 2026-07-19 | run-3
+- [email created] Click-A-Geek | IT/computer repair | clickageekinc.com form | 2026-07-19 | run-3
+- [email created] Sweet Caroline's Bakery | Bakery | shop/social | 2026-07-19 | run-3
+- [email created] Classy Canine Grooming | Pet grooming | shop/Facebook | 2026-07-19 | run-3
