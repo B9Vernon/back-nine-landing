@@ -5,7 +5,9 @@ description: >-
   complete portal-ready event presentations exclusively for Back Nine Vernon (premium
   24/7 indoor golf, Vernon BC). Generates concepts, persuasive sales descriptions,
   colourful inline-styled Tournament Details HTML, poster/hero briefs, three-step
-  registration CTAs, Golf Canada app sections, and membership pathways. STRICTLY
+  registration CTAs, Golf Canada app sections, and membership pathways, with an
+  automatic B9 Spectacle Event Designer layer that upgrades every full build into a
+  premium, colourful, high-energy sports-event presentation. STRICTLY
   command-activated — use ONLY when the user issues one of: IDEAS B9 LEAGUE,
   IDEAS B9 TOURNAMENT, BUILD B9 LEAGUE, BUILD B9 TOURNAMENT, UPDATE B9 EVENT,
   FILL B9 PORTAL, UPGRADE B9 EVENT ENGINE. Otherwise remain completely inactive.
@@ -38,9 +40,9 @@ e.g. `IDEAS B9 LEAGUE — winter team competition`):
 |---|---|---|
 | `IDEAS B9 LEAGUE` | Several meaningfully different league concepts (concise format below) | `references/concept-engine.md`, `references/vernon-seasons.md`, `references/pro-golf-intelligence.md`, `memory/event-log.md` |
 | `IDEAS B9 TOURNAMENT` | Same, for tournaments | same as above |
-| `BUILD B9 LEAGUE` | Complete Portal Build Pack for the chosen league | ALL references + `templates/portal-build-pack.md` |
-| `BUILD B9 TOURNAMENT` | Complete Portal Build Pack for the chosen tournament | ALL references + `templates/portal-build-pack.md` |
-| `UPDATE B9 EVENT` | Revise an existing concept/description/HTML/poster/CTA/prize/Golf Canada section, preserving everything already approved | the relevant references + `memory/` |
+| `BUILD B9 LEAGUE` | Complete Portal Build Pack for the chosen league | ALL references + `references/spectacle-designer.md` + `templates/portal-build-pack.md` |
+| `BUILD B9 TOURNAMENT` | Complete Portal Build Pack for the chosen tournament | ALL references + `references/spectacle-designer.md` + `templates/portal-build-pack.md` |
+| `UPDATE B9 EVENT` | Revise an existing concept/description/HTML/poster/CTA/prize/Golf Canada section, preserving everything already approved (apply `references/spectacle-designer.md` on any design-touching update) | the relevant references + `references/spectacle-designer.md` + `memory/` |
 | `FILL B9 PORTAL` | Only with an explicitly approved browser/computer-use connection: open the portal, fill ONLY approved fields, paste approved HTML, upload approved poster, verify — **STOP before any Save/Publish/Update/Submit**. Vernon performs the final action. | `references/portal-fields.md`, `references/connections.md` |
 | `UPGRADE B9 EVENT ENGINE` | Inspect this skill system, improve weak areas, test with simulated event data, then return to inactive | everything in this skill |
 
@@ -89,11 +91,16 @@ placeholders and continue.
    (`references/three-step-registration.md`), Golf Canada section
    (`references/golf-canada.md`), membership pathway (`references/membership.md`).
 7. Produce complete portal-ready HTML (`references/html-builder.md`,
-   start from `templates/tournament-details.html`).
+   start from `templates/tournament-details.html`) — and apply the
+   **B9 Spectacle Event Designer** (`references/spectacle-designer.md`) as the visual
+   upgrade layer so the finished page reads as a premium sports campaign, not a booking
+   notice. The Spectacle layer changes presentation only; all facts, links, and
+   Vernon-controlled values stay exactly as the engine and Vernon supply them.
 8. Produce the poster/hero deliverable (`references/poster-visuals.md`,
-   `templates/poster-brief.md`).
+   `templates/poster-brief.md`), styled to the Spectacle standard.
 9. Assemble the full Portal Build Pack (`templates/portal-build-pack.md`) —
-   all 17 items, every time.
+   all 17 items, every time, plus the Spectacle deliverables
+   (`references/spectacle-designer.md`) folded in without dropping any pack item.
 10. Run `checklists/quality-control.md` silently; repair every failure before delivery.
 11. After Vernon reacts, append outcomes/feedback to `memory/event-log.md` and
     `memory/preferences.md`.
