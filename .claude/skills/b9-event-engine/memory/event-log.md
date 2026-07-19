@@ -17,6 +17,7 @@ BEFORE proposing names or themes. Preserve what works; improve what doesn't.
 - BIG STICK CHAMPIONSHIP — tournament
 - BOARDROOM CUP — league
 - TWO BALL SOCIAL — league
+- THE BIRDIE LEAGUE (Women's Six-Round Indoor Series) — league
 
 ## Visual themes already used
 
@@ -30,6 +31,7 @@ BEFORE proposing names or themes. Preserve what works; improve what doesn't.
 - Fairway Dusk: green-tinted gradients, tee-marker dot headers (BIG STICK CHAMPIONSHIP)
 - Clean Sheet: LIGHT white/green corporate look (BOARDROOM CUP)
 - Daylight Fairway: LIGHT solid-green hero band (TWO BALL SOCIAL)
+- Vibrant Coral (Spectacle layer): warm coral+gold+green+blue on white/navy, bright panels, 6-round colour-chip season strip (THE BIRDIE LEAGUE) — first warm/bright identity
 
 ## Seasonal themes already used
 
@@ -126,3 +128,24 @@ _(none yet — record stripped tags, width limits, style quirks here)_
 - Vernon's third feedback (2026-07-18): confirmed the creative direction; asked whether the portal could support falling snow and clickable difficulty runs, required every call-to-action to lead somewhere, and supplied new SilverStar sunrise and fireworks photos.
 - Third upgrade applied: embedded a portal-safe animated snowfall GIF that requires no JavaScript; preserved native clickable run accordions; added both supplied photos as premium gallery panels; changed the crew invite to nine-run language; added safe external-link handling; audited every CTA destination; and refreshed the in-chat tester with the new imagery plus live Back Nine, Beyond the Grass, FS Compete and email links.
 - Capability note: clickable runs rely on native HTML details/summary. The animated GIF is the safest no-script snow treatment, subject to the destination portal preserving animated data images.
+
+### THE BIRDIE LEAGUE — Women's Six-Round Indoor Series — 2026-07-19 — league
+- Vernon's request: women-only league, 6 rounds, vibrant/colourful/high-action, made to make women want to join.
+- Concept: six-round individual season on the simulator, live standings, one season champion; flexible per-round
+  booking windows; inclusive framing (every level can win their week — exact scoring stays Vernon-controlled).
+- First build to run the B9 SPECTACLE EVENT DESIGNER layer. New "Vibrant Coral" identity (warm coral #F0A57A +
+  gold + green + blue on white/navy) — deliberately unlike the dark slate. Added a signature "6 Rounds" season
+  strip: navy band with six colourful ROUND chips (visual structure, not a fake progress bar). In-page anchor
+  jump links (hero -> #season, CTAs -> #register), no JavaScript.
+- Standard approved blocks intact: opening hook, stacked (non-flex) highlight cards, image story, coral community
+  block, gold prize block (approved fallback + {{PRIZE_DETAILS}}), 3-step registration (verified links +
+  {{FULL_SWING_EVENT_CODE}}), Golf Canada, membership outline button, CLAIM MY SPOT NOW final CTA, footer.
+- Imagery: women-only integrity — avoided the male-golfer/mixed-group stock (ph_streak/ph_vernon_data/
+  ph_events_corp). Embedded interim NEUTRAL visuals only (white B9 wordmark hero; 24/7 app-in-lounge; sunset
+  silhouette). Delivered women-specific photo PROMPTS + Image Replacement List so Vernon swaps in real women's
+  hero/action/social/prize photography. Higgsfield MCP was disconnected at build time, so prompts (not
+  generations) were provided per the Spectacle rule.
+- Outcome / Vernon's feedback: pending.
+- Keep next time: warm bright identity reads premium and energetic; colour-chip season strip communicates round
+  count instantly; women-only pages need women-forward imagery — never default to the male-golfer stock.
+- Change next time: source/generate real women golfer photos for B9 Vernon to replace the neutral interim images.
