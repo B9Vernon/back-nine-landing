@@ -673,3 +673,53 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Bryceton Morrison Mortgage (The Mortgage Centre) | Mortgage | bmorrison@mortgagecentre.com | 2026-07-19 | run-3
 - [email created] Shirin Mazidi Mortgage (Mortgage Alliance) | Mortgage | smazidi@mortgagealliance.com | 2026-07-19 | run-3
 - [email created] Stay Tuned Sports | Ski/board retail | shop/social | 2026-07-19 | run-3
+- [email created] Wentworth Music | Music store | phone 250-558-7995 | 2026-07-19 | run-3
+- [email created] Vernon Cannabis Store | Cannabis | vernoncannabisstores.ca | 2026-07-19 | run-3
+- [email created] Kalamalka Cannabis | Cannabis | kalcanna.com | 2026-07-19 | run-3
+- [email created] Cheeba Cheebas | Cannabis | shop/social | 2026-07-19 | run-3
+- [email created] Okanagan Craft Cannabis | Cannabis | 12514 Westside Rd | 2026-07-19 | run-3
+- [email created] MMJ Total Healthcare | Cannabis/health | phone 778-475-0842 | 2026-07-19 | run-3
+- [email created] Bloom Salon | Hair salon | phone 250-545-7800 | 2026-07-19 | run-3
+- [email created] Wild Dahlia Salon | Hair salon | shop/social | 2026-07-19 | run-3
+- [email created] O'Haira's The Salon | Hair salon | ohairasthesalon.com | 2026-07-19 | run-3
+- [email created] Major Hair Design | Hair salon | 2905 31st Ave | 2026-07-19 | run-3
+- [email created] Lyons Landscaping | Landscaping | phone 250-374-6942 | 2026-07-19 | run-3
+- [email created] The Grounds Guys of Vernon | Landscaping | phone 250-984-7082 | 2026-07-19 | run-3
+- [email created] OPS Vernon | Property maintenance | opsvernon.ca | 2026-07-19 | run-3
+- [email created] Grandsons Landscaping | Landscaping | grandsonslandscaping.com | 2026-07-19 | run-3
+- [email created] Vernon Snow Removal | Snow removal | vernonsnowremoval.com | 2026-07-19 | run-3
+- [email created] Guardian Pest Control | Pest control | phone 778-475-5577 | 2026-07-19 | run-3
+- [email created] Teeter Totter Toys | Toy store | phone 250-503-1234 | 2026-07-19 | run-3
+- [email created] Country Village Gift Shop | Gift shop | 3111 Davison Road | 2026-07-19 | run-3
+- [email created] Pleasant Valley Funeral Home | Funeral home | contact page | 2026-07-19 | run-3
+- [email created] Friesen's Countrytyme Gardens Restaurant | Restaurant | phone 250-542-9300 | 2026-07-19 | run-3
+- [email created] Vernon Shoes | Shoe store | phone 250-545-2804 | 2026-07-19 | run-3
+- [email created] Wearabouts Clothing Co. | Clothing retail | wearabouts.ca | 2026-07-19 | run-3
+- [email created] Kala Shoes & Repairs | Shoe store/repair | 3003 29 Ave | 2026-07-19 | run-3
+- [email created] Coldstream Mechanical | HVAC/plumbing | phone 250-558-9134 | 2026-07-19 | run-3
+- [email created] Vernon Auto & Diesel Repair | Auto repair | vernonautorepair.ca | 2026-07-19 | run-3
+- [email created] Apple Valley Auto | Auto repair/used cars | avauto.com | 2026-07-19 | run-3
+- [email created] Bruce Redstone Photography | Photography | redstonebruce@gmail.com | 2026-07-19 | run-3
+- [email created] Selina Photography | Photography | studio/social | 2026-07-19 | run-3
+- [email created] Kreative Beginnings Photography | Photography | kreativebeginningsphotography.com | 2026-07-19 | run-3
+- [email created] Iron Heart Gym | Gym | phone 778-212-8880 | 2026-07-19 | run-3
+- [email created] Iron Heart Studio | Fitness studio | ironheartstudio.ca | 2026-07-19 | run-3
+- [email created] World Health & Fitness | Gym | worldhealthandfitness.ca | 2026-07-19 | run-3
+- [email created] Hatt Fitness | Personal training | jes@hattfitness.com | 2026-07-19 | run-3
+- [email created] Reinforce Personal Training | Personal training | reinforcept.ca | 2026-07-19 | run-3
+- [email created] C-Lovers Fish & Chips | Restaurant | phone 250-558-0208 | 2026-07-19 | run-3
+- [email created] On The Way Restaurant | Restaurant | 3 Bonneau Rd | 2026-07-19 | run-3
+- [email created] Fine Kettle of Fish | Restaurant | phone 250-545-5665 | 2026-07-19 | run-3
+- [email created] Kekuli Paint and Drywall | Painting/drywall | Facebook | 2026-07-19 | run-3
+- [email created] Above Board Drywall | Drywall | aboveboarddrywall.ca | 2026-07-19 | run-3
+- [email created] Paladin Renovation Services | Renovation | website/social | 2026-07-19 | run-3
+- [email created] Training House Gym | Gym | 3445 43rd Ave | 2026-07-19 | run-3
+- [email created] Straight Up Fitness | Fitness | phone 250-307-1557 | 2026-07-19 | run-3
+- [email created] Country Squire Barbers & Stylists | Barbershop | 4700 29th St | 2026-07-19 | run-3
+- [email created] The Natural Choice Dog Salon | Pet grooming | shop/social | 2026-07-19 | run-3
+- [email created] Shampooches | Pet grooming | shop/social | 2026-07-19 | run-3
+- [email created] Makena Painting and Restoration | Painting | website/social | 2026-07-19 | run-3
+- [email created] Terry's Painting | Painting | website/social | 2026-07-19 | run-3
+- [email created] THAT Drywall Guy | Drywall | website/social | 2026-07-19 | run-3
+- [email created] Sushi Kawa | Restaurant | restaurant/phone | 2026-07-19 | run-3
+- [email created] Vernon Rodent Control | Pest control | website/phone | 2026-07-19 | run-3
