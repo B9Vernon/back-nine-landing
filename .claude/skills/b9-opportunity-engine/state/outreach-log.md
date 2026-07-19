@@ -523,3 +523,53 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Chelsea Kramer Notary Public | Notary | info@cknotary.ca | 2026-07-16 | run-3
 - [email created] 105.7 Sun FM (Bell Media Vernon) | Radio/media | aaron.himelson@bellmedia.ca | 2026-07-16 | run-3
 - [email created] Ed's Mobile Kayak Rental | Watersports rental | edskayak.ca form | 2026-07-16 | run-3
+- [email created] Jade Asian Kitchen | Restaurant | jadeasiankitchen.com form | 2026-07-19 | run-3
+- [email created] Kiki Gardens Restaurant | Restaurant | kikigardens.com | 2026-07-19 | run-3
+- [email created] Royal Garden Restaurant | Restaurant | phone 250-545-7866 | 2026-07-19 | run-3
+- [email created] Jealous Pizza N Donair | Restaurant | jealouspizzandonair@gmail.com | 2026-07-19 | run-3
+- [email created] Habibi's Donair | Restaurant | 5100 Anderson Way | 2026-07-19 | run-3
+- [email created] Vernon Towing | Towing (24/7) | vernon@reliabletowing.ca | 2026-07-19 | run-3
+- [email created] Silver Star Tree Service | Tree service | phone 250-550-5308 | 2026-07-19 | run-3
+- [email created] Timberwolf Tree Service | Tree service | timberwolftreeservicebc@gmail.com | 2026-07-19 | run-3
+- [email created] Nolan's Pharmasave | Pharmacy | phone 250-542-4181 | 2026-07-19 | run-3
+- [email created] Royal Canadian Legion Branch 25 | Community org | legion25@shaw.ca | 2026-07-19 | run-3
+- [email created] Vernon Baseball Association | Sports association | vernonbaseball.com form | 2026-07-19 | run-3
+- [email created] Vernon Coed Slopitch League | Sports league | vernoncoedslopitchleague.com form | 2026-07-19 | run-3
+- [email created] North Okanagan Minor Hockey Association | Sports association | nomha.com form | 2026-07-19 | run-3
+- [email created] Flaman Fitness Vernon | Fitness retail | phone 778-475-6111 | 2026-07-19 | run-3
+- [email created] Days Inn by Wyndham Vernon | Hotel | phone 250-549-2224 | 2026-07-19 | run-3
+- [email created] Okanagan Event Planners | Event planner | phone 250-306-2828 | 2026-07-19 | run-3
+- [email created] Whitewood Events | Wedding planner | whitewoodevents.ca form | 2026-07-19 | run-3
+- [email created] Dump Runz | Junk removal | phone 250-307-9449 | 2026-07-19 | run-3
+- [email created] L&B Luxury Beds | Mattress retail | landbluxurybeds.com form | 2026-07-19 | run-3
+- [email created] Casa Bella Boutique | Boutique retail | phone 778-475-4603 | 2026-07-19 | run-3
+- [email created] White Spot Vernon | Restaurant | 4400 32nd St | 2026-07-19 | run-3
+- [email created] Silver Star Properties | Accommodation mgmt | info@silverstarproperties.ca | 2026-07-19 | run-3
+- [email created] North Okanagan Skin & Laser | Medi-spa | phone 250-542-2721 | 2026-07-19 | run-3
+- [email created] Araya Skin | Medi-spa | hello@arayaskin.com | 2026-07-19 | run-3
+- [email created] Vernon Property Management | Property mgmt | josh@joshspruce.com | 2026-07-19 | run-3
+- [email created] Keystone Property Management | Property mgmt | OFFICE@KEYSTONE.PM | 2026-07-19 | run-3
+- [email created] Vernon Elks Lodge #45 | Community org | vernonelks45@gmail.com | 2026-07-19 | run-3
+- [email created] Vernon Lions Club | Community org | vernonlionsclub1945@gmail.com | 2026-07-19 | run-3
+- [email created] COBS Bread Vernon | Bakery | phone 250-260-3733 | 2026-07-19 | run-3
+- [email created] Okanagan PHOTOSTAR | Photo booth | info@OkanaganPHOTOSTAR.com | 2026-07-19 | run-3
+- [email created] Mi Taqueria Mexican Cantina | Restaurant | vernontaqueria.com form | 2026-07-19 | run-3
+- [email created] North Okanagan Paint & Window (Benjamin Moore) | Paint store | store@bmnorthokgn.ca | 2026-07-19 | run-3
+- [email created] Vernon On Site Fencing | Fencing | onsitefencing.com form | 2026-07-19 | run-3
+- [email created] Modern PURAIR Vernon | Air quality | modernpurair.com form | 2026-07-19 | run-3
+- [email created] Shepherd's Home Hardware (Armstrong) | Hardware | phone 250-546-3002 | 2026-07-19 | run-3
+- [email created] Vernon Outdoors Club | Community club | vernonoutdoorsclub.org form | 2026-07-19 | run-3
+- [email created] Speedy Glass Vernon | Auto glass | phone 250-542-0144 | 2026-07-19 | run-3
+- [email created] 9Round Fitness Vernon | Fitness | phone 250-999-9256 | 2026-07-19 | run-3
+- [email created] Lifestyle Naturals | Health retail | phone 250-545-0255 | 2026-07-19 | run-3
+- [email created] Farmhouse Pizza and Donair | Restaurant | phone 250-503-0110 | 2026-07-19 | run-3
+- [email created] Ashley HomeStore Vernon | Furniture retail | ashleyhomestore.ca page | 2026-07-19 | run-3
+- [email created] Okanagan Patio Covers | Outdoor living | okanaganpatiocovers.ca form | 2026-07-19 | run-3
+- [email created] Big Sun Beachwear & Tanning | Tanning | phone 250-545-9313 | 2026-07-19 | run-3
+- [email created] Absolute Carpet Care | Carpet cleaning | info@absolutecarpetcare.ca | 2026-07-19 | run-3
+- [email created] M&M Food Market Vernon | Grocery | phone 250-558-3961 | 2026-07-19 | run-3
+- [email created] Vernon Lacrosse Association | Sports association | vernonlacrosse.org form | 2026-07-19 | run-3
+- [email created] Serenity Tanning | Tanning | serenitytanning@hotmail.com | 2026-07-19 | run-3
+- [email created] Autosound Plus | Car audio | Facebook page | 2026-07-19 | run-3
+- [email created] Ricky's Family Restaurant Vernon | Restaurant | Facebook page | 2026-07-19 | run-3
+- [email created] The Mirror Booth Co | Photo booth | phone 250-212-1568 | 2026-07-19 | run-3
