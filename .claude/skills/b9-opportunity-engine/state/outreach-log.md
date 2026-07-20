@@ -723,3 +723,103 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] THAT Drywall Guy | Drywall | website/social | 2026-07-19 | run-3
 - [email created] Sushi Kawa | Restaurant | restaurant/phone | 2026-07-19 | run-3
 - [email created] Vernon Rodent Control | Pest control | website/phone | 2026-07-19 | run-3
+- [email created] Circus Clouds Vape Shop | Vape shop | 3106 32 St | 2026-07-20 | run-4
+- [email created] EZ-Vape Vernon | Vape shop | phone 236-426-0056 | 2026-07-20 | run-4
+- [email created] Foggy Frog Vape Shop | Vape shop | 2901 27 St #3 | 2026-07-20 | run-4
+- [email created] Caufields Engraving | Engraving/promo | Chamber listing | 2026-07-20 | run-4
+- [email created] MR MIKES SteakhouseCasual Vernon | Restaurant | mrmikes.ca | 2026-07-20 | run-4
+- [email created] D'Argento | Restaurant | dargento@skisilverstar.com | 2026-07-20 | run-4
+- [email created] Floppy Shots Mobile Mini-Golf | Entertainment | floppyshots.com form | 2026-07-20 | run-4
+- [email created] Sun Valley Family Dentistry | Dental | phone 250-542-2776 | 2026-07-20 | run-4
+- [email created] Regehr Family Dental | Dental | regehrfamilydental.com form | 2026-07-20 | run-4
+- [email created] Monashee Optometry | Optometry | reception@monasheeoptometry.ca | 2026-07-20 | run-4
+- [email created] Discovery Optometry | Optometry | discoveryoptometry.com form | 2026-07-20 | run-4
+- [email created] Lensmakers Optical | Optometry/eyewear | lensmakersoptical.ca form | 2026-07-20 | run-4
+- [email created] North Okanagan Foot and Ankle | Podiatry | vernonsfootdoctor.com form | 2026-07-20 | run-4
+- [email created] Vernon Foot Care | Podiatry | vernonfootcare.ca form | 2026-07-20 | run-4
+- [email created] Motion Foot Clinics | Podiatry | phone 250-385-3668 | 2026-07-20 | run-4
+- [email created] Summit Pedorthic Services | Pedorthics | 3101 BC-6 | 2026-07-20 | run-4
+- [email created] Shabbang Food Truck & Catering | Food truck/catering | shabbang.com form | 2026-07-20 | run-4
+- [email created] Hunger Paynes Food Truck | Food truck | hungerpaynes@icloud.com | 2026-07-20 | run-4
+- [email created] My Chef Meal Prep | Meal prep | mychefmealprep.ca form | 2026-07-20 | run-4
+- [email created] Vernon Lee Gymnastics | Gymnastics | vernonleegym.com form | 2026-07-20 | run-4
+- [email created] FORM Pilates | Pilates | af-activeform.com form | 2026-07-20 | run-4
+- [email created] Tandava Yoga Studio | Yoga | website/Zoom | 2026-07-20 | run-4
+- [email created] The Silver Filament Electrolysis & Lash Studio | Lash/electrolysis | thefilamentstudio.com form | 2026-07-20 | run-4
+- [email created] Etanna Grace Lashes | Lash studio | Fresha booking | 2026-07-20 | run-4
+- [email created] Rooted Beauty | Esthetics | Fresha booking | 2026-07-20 | run-4
+- [email created] Vernon Esthetics | Esthetics | Fresha booking | 2026-07-20 | run-4
+- [email created] B&C Barker Wealth Group | Wealth management | barkerwealth.ca form | 2026-07-20 | run-4
+- [email created] Wellington-Altus Vernon | Wealth management | phone 236-600-5951 | 2026-07-20 | run-4
+- [email created] Okanagan Skate Co. | Skate shop | oksk8co@gmail.com | 2026-07-20 | run-4
+- [email created] VASE (Vernon Association of Skateboard Enthusiasts) | Nonprofit/advocacy | skatevernon.com form | 2026-07-20 | run-4
+- [email created] 29th Street Music Studios | Music lessons | the29streetmusicstudios@shaw.ca | 2026-07-20 | run-4
+- [email created] Alpine Music School | Music lessons | alpinemusicschool.com form | 2026-07-20 | run-4
+- [email created] Emerald School of Music | Music/art school | emeraldschoolofmusic.com form | 2026-07-20 | run-4
+- [email created] Angelkeys Music Studio | Music lessons | website/social | 2026-07-20 | run-4
+- [email created] Apollo Event Rentals Vernon | Event rentals | apolloeventrentals.ca | 2026-07-20 | run-4
+- [email created] Tom's Tux Rentals | Formal wear rental | Yelp listing | 2026-07-20 | run-4
+- [email created] On Point Locksmith | Locksmith | onpointlocksmith.ca form | 2026-07-20 | run-4
+- [email created] Vernon Upholstery | Upholstery/furniture repair | phone 250-540-2105 | 2026-07-20 | run-4
+- [email created] Classica Upholstery | Upholstery | classicaupholstery.com form | 2026-07-20 | run-4
+- [email created] deBoersap Refinishing | Furniture refinishing | deboersaprefinishing.ca form | 2026-07-20 | run-4
+- [email created] Fireplace Den & Deck (Okanagan Fireplace Den) | Fireplace/patio retail | sales@okfireplaceden.ca | 2026-07-20 | run-4
+- [email created] Swan Lake Motors | Auto dealer | phone 250-260-2791 | 2026-07-20 | run-4
+- [email created] Vernon Kia | Auto dealer | phone 888-690-5132 | 2026-07-20 | run-4
+- [email created] GoMax RV Solutions | RV dealer | website/social | 2026-07-20 | run-4
+- [email created] White Gerald Auto Brokers | Auto dealer | website/social | 2026-07-20 | run-4
+- [email created] Hilltop Subaru | Auto dealer | website/social | 2026-07-20 | run-4
+- [email created] Okanagan T-Shirt Company | Custom apparel | okanagantshirtcompany.com form | 2026-07-20 | run-4
+- [email created] A.M.I. Clothing | Custom apparel/printing | okanagangear.com form | 2026-07-20 | run-4
+- [email created] RJ's Custom Embroidery | Custom embroidery | Alignable listing | 2026-07-20 | run-4
+- [email created] Okanagan Tax & Services | Bookkeeping/tax | website/phone | 2026-07-20 | run-4
+- [email created] The Balancing Act Bookkeeping Services | Bookkeeping | website/phone | 2026-07-20 | run-4
+- [email created] Premium Pool & Spa | Pool/spa retail | phone 877-827-2842 | 2026-07-20 | run-4
+- [email created] Alpine Spa Covers | Spa covers | info@alpinespacovers.com | 2026-07-20 | run-4
+- [email created] Hy Country Kennels & Pet Resort | Pet boarding | hycountrykennels@gmail.com | 2026-07-20 | run-4
+- [email created] Findlay's Vacuum & Sewing | Vacuum/sewing retail | phone 250-549-2730 | 2026-07-20 | run-4
+- [email created] Village Ski Shop | Ski rental/retail | phone 250-558-4292 | 2026-07-20 | run-4
+- [email created] Strictly Golf | Golf pro shop | phone 250-542-4653 | 2026-07-20 | run-4
+- [email created] The Sports Store | Used sporting goods | shopvernon.com listing | 2026-07-20 | run-4
+- [email created] EcoFlow Plumbing & Heating | HVAC/plumbing | ecoflowbc.ca form | 2026-07-20 | run-4
+- [email created] Give Ray Junk Removal | Junk removal | phone 250-260-0080 | 2026-07-20 | run-4
+- [email created] The Stor-It Place | Self storage | thestoritplace.com form | 2026-07-20 | run-4
+- [email created] Vernon Moving & Storage | Moving/storage | 2506 37th St | 2026-07-20 | run-4
+- [email created] Load & Go Junk Removal | Junk removal | website/social | 2026-07-20 | run-4
+- [email created] Vernon Funeral Home Ltd | Funeral home | BC Funeral Assn directory | 2026-07-20 | run-4
+- [email created] Pillar To Post (The Vernon Team) | Home inspection | phone 250-558-1160 | 2026-07-20 | run-4
+- [email created] Rampone-Marsh Mortgages | Mortgage broker | ramponemarsh.ca form | 2026-07-20 | run-4
+- [email created] OneWash OKN | Pressure washing/window cleaning | phone 250-936-9274 | 2026-07-20 | run-4
+- [email created] Clearview Window Washing | Window cleaning | vernonclearview.com form | 2026-07-20 | run-4
+- [email created] Concept H2O | Window washing | concepth2o.net form | 2026-07-20 | run-4
+- [email created] Dr. Phone Fix | Phone/computer repair | phone 250-503-2202 | 2026-07-20 | run-4
+- [email created] Ebenezer's Comics & Collectibles | Comics/collectibles | 3110 39th Ave | 2026-07-20 | run-4
+- [email created] Omar's Collectibles & Specialty Items | Gift/collectibles | omarsbc.ca form | 2026-07-20 | run-4
+- [email created] Dogwood Records | Record shop | phone 236-426-2646 | 2026-07-20 | run-4
+- [email created] FairView Family Law | Law firm | phone 250-542-7550 | 2026-07-20 | run-4
+- [email created] Woolley & Co. | Law firm | reception@woolleylaw.ca | 2026-07-20 | run-4
+- [email created] StepWise Immigration | Immigration consulting | phone 778-919-5000 | 2026-07-20 | run-4
+- [email created] Mug N Muffin | Diner | website/social | 2026-07-20 | run-4
+- [email created] Rosalinda's | Diner | rosalinda.ca form | 2026-07-20 | run-4
+- [email created] Diner On Six | Diner | website/social | 2026-07-20 | run-4
+- [email created] Farmhouse Music | Recording studio | farmhousemusic.ca form | 2026-07-20 | run-4
+- [email created] Tris White Photography | Photography | tris@triswhite.com | 2026-07-20 | run-4
+- [email created] Absolutely Fun Dog | Dog walking/training | phone 250-549-1089 | 2026-07-20 | run-4
+- [email created] Vernon Pet Washing & Grooming | Pet grooming | phone 250-938-7768 | 2026-07-20 | run-4
+- [email created] Johnston Meier Insurance Agencies | Insurance | phone 250-545-5311 | 2026-07-20 | run-4
+- [email created] Sussex Insurance Vernon | Insurance | sussexinsurance.com | 2026-07-20 | run-4
+- [email created] Vernon's Water Store | Water delivery | phone 250-558-3595 | 2026-07-20 | run-4
+- [email created] Canada Water Depot | Water delivery | phone 250-260-6603 | 2026-07-20 | run-4
+- [email created] Sauve Boutique | Boutique retail | phone 778-212-5488 | 2026-07-20 | run-4
+- [email created] First Impression Clothiers | Clothing retail | website/social | 2026-07-20 | run-4
+- [email created] One Stop Brew Mart (Grains and Grapes) | Home brewing supply | Alignable listing | 2026-07-20 | run-4
+- [email created] Eric Beech Physiotherapy | Physiotherapy | Medimap listing | 2026-07-20 | run-4
+- [email created] Blissful Baskets By Christina | Gift baskets | blissfulbasketsbychristina.com form | 2026-07-20 | run-4
+- [email created] Your Calm Oasis | Massage/reflexology | yourcalmoasis.com form | 2026-07-20 | run-4
+- [email created] Balance Natural Health Clinic | Wellness clinic | balancenaturalhealthclinic.ca form | 2026-07-20 | run-4
+- [email created] Nexus Therapeutics | Massage/pilates | website/social | 2026-07-20 | run-4
+- [email created] Vision Dance School | Dance studio | visiondanceschool.com form | 2026-07-20 | run-4
+- [email created] Your DJ Okanagan | DJ services | yourdj.ca/vernon-dj | 2026-07-20 | run-4
+- [email created] SW Event Technology (Vernon) | AV production | sw-online.com form | 2026-07-20 | run-4
+- [email created] The Bread Boutique | Bakery | breadboutique@shaw.ca | 2026-07-20 | run-4
+- [email created] The Fig Bistro | Restaurant | thefigbistro.ca form | 2026-07-20 | run-4
