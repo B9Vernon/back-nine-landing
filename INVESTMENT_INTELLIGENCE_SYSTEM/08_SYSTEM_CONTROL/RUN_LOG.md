@@ -7,3 +7,8 @@ report (primary source). TRP demoted WATCH→AVOID on leverage/payout data. CCJ 
 ACT (income mandate fail). Output: ACT 5 (BIP.UN, ENB, CNQ, PSK, FTS) / AVOID 1 (TRP) added.
 Existing 19 portfolio holdings not re-verified this run (out of scope — investor asked for
 new-money picks only).
+2026-07-21b | PORTFOLIO SCREENSHOT ANALYSIS | Ingested account statement + watchlist image.
+Corrected right-column = weight not yield. Researched live yields: DFN NAV $20.48 safe (~14%),
+HYLD 12.04%, HDIV 9.84%, HHIS ~13%, QQCL ~13%, HMAX ~11%, UMAX ~13.4%, HBTE ~28% (flag),
+PAYG ~19.5% (flag), CLSA ~12%, ARCC ~10%. MSTE distribution cut $0.15->$0.10. Ranked portfolio
+best->worst. SELL list: MSTE, MSTY, ETHY. 5 own ideas: HMAX, UMAX, QQCL, ARCC, add HYLD.
