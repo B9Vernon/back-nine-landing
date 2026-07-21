@@ -1,8 +1,6 @@
-# WATCHLIST (max 5)
-| Ticker | Role | Waiting for | Filters K/A/T |
-|---|---|---|---|
-| FTS | Defensive dividend growth (Theme 1) | Yield & valuation verification; entry if yield ≥ ~4% area (re-derive live) | P/P/P |
-| H | Pure regulated wires (Theme 1) | Valuation check — historically rich | P/P/P |
-| CNQ | Energy FCF + dividend growth (Theme 2) | Payout-at-strip verification | P/P/Cond |
-| BIP.UN | Global infrastructure income+growth (Theme 4) | FFO coverage + rate sensitivity check | Cond/P/P |
-| TRP | Gas transmission to power demand (Themes 1-2) | Leverage progress verification | P/P/P |
+# WATCHLIST — updated 2026-07-21
+| Ticker | Role | Waiting for |
+|---|---|---|
+| CCJ/CCO | Uranium/nuclear demand growth sleeve | Not an income fit; revisit only if mandate allows a growth allocation |
+| H | Pure regulated wires | Valuation to normalize toward historical yield range (currently ~2.3%, rich) |
+| TRP | Gas transmission | Evidence of deleveraging below ~5x Debt/EBITDA and payout back under 100% of cash flow |
