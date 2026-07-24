@@ -823,3 +823,103 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] SW Event Technology (Vernon) | AV production | sw-online.com form | 2026-07-20 | run-4
 - [email created] The Bread Boutique | Bakery | breadboutique@shaw.ca | 2026-07-20 | run-4
 - [email created] The Fig Bistro | Restaurant | thefigbistro.ca form | 2026-07-20 | run-4
+- [email created] K & R Orchards Fruit Stand | Orchard/fruit stand | harkaran2011@hotmail.com | 2026-07-21 | run-5
+- [email created] Bright Angel Farm | Farm | phone 250-558-5552 | 2026-07-21 | run-5
+- [email created] Ringo-En Orchards | Orchard | Facebook | 2026-07-21 | run-5
+- [email created] Vernon Excavating Ltd | Excavation | phone 250-542-7024 | 2026-07-21 | run-5
+- [email created] CGL Contracting Ltd | Excavation/contracting | website | 2026-07-21 | run-5
+- [email created] Kramer's Bobcat & Concrete Services | Concrete | website/social | 2026-07-21 | run-5
+- [email created] Drew's Concrete Services | Concrete | website/social | 2026-07-21 | run-5
+- [email created] Vernon Concrete | Concrete | vernonconcrete.com | 2026-07-21 | run-5
+- [email created] OKV Electrical Services | Electrician | okvelectric.ca (Erik & Lee) | 2026-07-21 | run-5
+- [email created] Rad Energy Electric | Electrician | radenergyelectric.com (Jeff Radies) | 2026-07-21 | run-5
+- [email created] Quantum Power Inc | Electrician | quantumpower.ca (Allan Lasnier) | 2026-07-21 | run-5
+- [email created] S.P. Seymour Ltd | Plumbing | spseymourplumbing.ca (Patrick Seymour) | 2026-07-21 | run-5
+- [email created] Maria Besso (RE/MAX Vernon) | Real estate | maria@besso.ca | 2026-07-21 | run-5
+- [email created] Jake Russell Real Estate | Real estate | homesokanagan.ca | 2026-07-21 | run-5
+- [email created] Blenz Coffee Downtown Vernon | Cafe | vernon_downtown@blenz.com | 2026-07-21 | run-5
+- [email created] Bean Scene Coffee House | Cafe | beanvernon.ca | 2026-07-21 | run-5
+- [email created] The Cracked Pot Coffee | Cafe | Facebook | 2026-07-21 | run-5
+- [email created] The Studio Okng | Hair salon | thestudiookng@gmail.com | 2026-07-21 | run-5
+- [email created] Blanca's Hairstyling | Hair salon | blancashairstyling.com (Blanca) | 2026-07-21 | run-5
+- [email created] Spruce Salon | Hair salon | booking/social (Katie) | 2026-07-21 | run-5
+- [email created] Okanagan Landscape Developments | Landscaping | okanaganlandscape.com | 2026-07-21 | run-5
+- [email created] The Roxy Cafe | Restaurant | hello@theroxycafe.ca | 2026-07-21 | run-5
+- [email created] Partly Dave's Garage | Auto repair | partlydaves.ca + 250-549-3666 | 2026-07-21 | run-5
+- [email created] Dorian's Greek Taverna | Restaurant | doriansgreektaverna.ca | 2026-07-21 | run-5
+- [email created] Mediterranean Market | Specialty grocery | inquiries@mediterraneanmarket.ca | 2026-07-21 | run-5
+- [email created] Silver Star Animal Care Clinic | Veterinary | info@silverstaranimalcare.com | 2026-07-21 | run-5
+- [email created] The Tile Guy Flooring | Flooring | thetileguy.ca + 250-545-8453 | 2026-07-21 | run-5
+- [email created] Arden Tile | Flooring/tile | ardentile.com + 250-545-2272 | 2026-07-21 | run-5
+- [email created] Sudz in the Bucket Cleaning Service | Cleaning | sudzinthebucket.ca | 2026-07-21 | run-5
+- [email created] Mobilmaid Housekeeping & Cleaning | Cleaning | mobilmaid.ca | 2026-07-21 | run-5
+- [email created] Cameron Building Maintenance | Janitorial | phone 250-859-4933 | 2026-07-21 | run-5
+- [email created] S & M Cleaning | Cleaning | phone 250-938-0623 | 2026-07-21 | run-5
+- [email created] The Cleaning Co. | Cleaning | thecleaningco.ca | 2026-07-21 | run-5
+- [email created] Birch Hill Studio | Retail/gift | website/social | 2026-07-21 | run-5
+- [email created] Scattered Goods | Retail/gift | DVA directory | 2026-07-21 | run-5
+- [email created] Olive Us | Gourmet/gift | website | 2026-07-21 | run-5
+- [email created] Provenance Massage Therapy & Holistic Health | Massage | provenancehealth.ca (Steve & Annu Kliem) | 2026-07-21 | run-5
+- [email created] OKRMT | Massage therapy | okrmt.com | 2026-07-21 | run-5
+- [email created] Next Level Boat Rental | Boat rental | phone 250-307-3488 | 2026-07-21 | run-5
+- [email created] Vernon Boat Rentals | Boat rental | website (Glenn) | 2026-07-21 | run-5
+- [email created] Okanagan Recreational Rentals | Marine/snowmobile rental | okanaganrecrentals.com | 2026-07-21 | run-5
+- [email created] Okanagan Life Private Boat Charters | Boat charter | website | 2026-07-21 | run-5
+- [email created] Potentials Canada Learning Centre | Tutoring | potentialscanada.ca | 2026-07-21 | run-5
+- [email created] Outside The Box Digital Marketing | Marketing | Darcy@OutsideTheBoxDigital.com | 2026-07-21 | run-5
+- [email created] Navigator Multimedia | Web/marketing | navigator.ca | 2026-07-21 | run-5
+- [email created] The Web Advisors | Web/marketing | thewebadvisors.ca | 2026-07-21 | run-5
+- [email created] Buzz Marketing | Marketing | buzzmarketing.ca | 2026-07-21 | run-5
+- [email created] ICS Creative Agency | Marketing | icscreativeagency.com | 2026-07-21 | run-5
+- [email created] The Village Dance Academy | Dance studio | website (Sam Crossley) | 2026-07-21 | run-5
+- [email created] Print Factory Vernon | Printing | printfactory.ca | 2026-07-21 | run-5
+- [email created] Titan Large Format Printing | Printing | 909 Kalamalka Lake Rd | 2026-07-21 | run-5
+- [email created] Printech Corp | Printing/signage | shopvernon listing | 2026-07-21 | run-5
+- [email created] Cierra Carlyle Photography | Photography | website | 2026-07-21 | run-5
+- [email created] Draht Photography | Photography | edraht@drahtphotography.com | 2026-07-21 | run-5
+- [email created] Shoot & Shutter | Photography | website/social | 2026-07-21 | run-5
+- [email created] Coldstream Doggy Daycare | Pet daycare | phone 250-306-1840 | 2026-07-21 | run-5
+- [email created] Simply Delicious Natural & Gourmet Market | Health food | management@simplydeliciousvernon.ca | 2026-07-21 | run-5
+- [email created] HERC's Nutrition Vernon | Supplements | info.vernon@hercs.com | 2026-07-21 | run-5
+- [email created] Supplement King Vernon | Supplements | phone 778-470-5464 | 2026-07-21 | run-5
+- [email created] The Room Collection | Home decor/furniture | theroomcollection.ca (Karen Miller & Alison Ludditt) | 2026-07-21 | run-5
+- [email created] Value Furniture Store | Furniture | phone 778-475-3185 | 2026-07-21 | run-5
+- [email created] CFA Downtown Outlet | Furniture/appliance | okanagan-local listing | 2026-07-21 | run-5
+- [email created] OK Tire Vernon | Tire shop | oktire.com (Gosselin family) | 2026-07-21 | run-5
+- [email created] Trail Tire Auto Centers Vernon | Tire shop | trailtire.com | 2026-07-21 | run-5
+- [email created] Shamrock Tire Service | Tire shop | website/phone | 2026-07-21 | run-5
+- [email created] Littlewood Welding | Welding | littlewood-welding.ueniweb.com | 2026-07-21 | run-5
+- [email created] CycleCPA | Accounting | cyclecpa.ca | 2026-07-21 | run-5
+- [email created] Vivid Tours | Wine tours | vivid.tours | 2026-07-21 | run-5
+- [email created] Mojo Tours | Wine tours | mojotours.com | 2026-07-21 | run-5
+- [email created] Vernon Wine Tours | Wine tours | vernonwinetours.com | 2026-07-21 | run-5
+- [email created] Vines & Views | Wine tours | vinesandviews.com | 2026-07-21 | run-5
+- [email created] Vernon Glass & Car Care | Auto glass | phone 250-542-6800 | 2026-07-21 | run-5
+- [email created] Morgan's Glass | Glass shop | morgansglass.ca | 2026-07-21 | run-5
+- [email created] Allcare Chiropractic and Laser | Chiropractic | allcarechiropractic3107@gmail.com (Dr. Cameron Grant) | 2026-07-21 | run-5
+- [email created] Lakeside Align Chiropractic | Chiropractic | lakesidealign.com | 2026-07-21 | run-5
+- [email created] Emma's Nails | Nail salon | emmasnailsca@hotmail.com | 2026-07-21 | run-5
+- [email created] Nail Town | Nail salon | Fresha booking | 2026-07-21 | run-5
+- [email created] West Vernon Nails & Spa | Nail salon | phone 236-426-0088 | 2026-07-21 | run-5
+- [email created] Saranora Beauty | Beauty studio | Setmore booking | 2026-07-21 | run-5
+- [email created] UnderGround Beverages (Kombucha) | Kombucha | undergroundbeverages.com | 2026-07-21 | run-5
+- [email created] Vernon d'Eon Fishing Supplies | Fishing retail | sales@vernondeon.com | 2026-07-21 | run-5
+- [email created] Fabutan / Hush Lash Studio Vernon | Tanning/lash | phone 236-426-1889 | 2026-07-21 | run-5
+- [email created] Sandy Beach Tans | Tanning | sandybeachtans.com | 2026-07-21 | run-5
+- [email created] Dermapure Vernon | Med spa | dermapure.com | 2026-07-21 | run-5
+- [email created] Monarch Skin & Laser | Med spa | monarchskinandlaser.com (Dr. Karina Theron) | 2026-07-21 | run-5
+- [email created] Nuvel Skin & Laser | Med spa | sandersmed.com | 2026-07-21 | run-5
+- [email created] The Sanctuary Botox | Med spa | thesanctuarybotox.ca | 2026-07-21 | run-5
+- [email created] OKGN Skin Co. | Skincare | okgnskinco@gmail.com | 2026-07-21 | run-5
+- [email created] HearingLife Vernon | Hearing clinic | hearinglife.ca | 2026-07-21 | run-5
+- [email created] Connect Hearing Vernon | Hearing clinic | connecthearing.ca | 2026-07-21 | run-5
+- [email created] Max Voets Coffee Roasting | Coffee roaster | voetscoffee.com | 2026-07-21 | run-5
+- [email created] Craft 42 Roasters | Coffee roaster | website/social | 2026-07-21 | run-5
+- [email created] Cool Treats Ice Cream | Ice cream | 5107 25 Ave | 2026-07-21 | run-5
+- [email created] Coop-a-Cino Coffee Roasters | Coffee roaster | website/social | 2026-07-21 | run-5
+- [email created] Khaos Coffee | Coffee roaster | website/social | 2026-07-21 | run-5
+- [email created] Karat Chocolate | Chocolatier | website/social | 2026-07-21 | run-5
+- [email created] Lifestyles Coffee | Coffee roaster | website/social | 2026-07-21 | run-5
+- [email created] Lynn's Vietnamese Restaurant | Restaurant | website/phone | 2026-07-21 | run-5
+- [email created] Uncle Dave's Pizzeria | Restaurant | website/phone | 2026-07-21 | run-5
+- [email created] Accent Chocolate Cafe | Chocolatier/cafe | website/social | 2026-07-21 | run-5
