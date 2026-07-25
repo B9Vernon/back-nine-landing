@@ -923,3 +923,203 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Lynn's Vietnamese Restaurant | Restaurant | website/phone | 2026-07-21 | run-5
 - [email created] Uncle Dave's Pizzeria | Restaurant | website/phone | 2026-07-21 | run-5
 - [email created] Accent Chocolate Cafe | Chocolatier/cafe | website/social | 2026-07-21 | run-5
+- [email created] Rencon Equipment Rentals | Local business | sales@rencon.ca | 2026-07-25 | run-6
+- [email created] Sunbelt Rentals Vernon | Local business | 5401 24 St + 250-503-0933 | 2026-07-25 | run-6
+- [email created] Farrer Rentals | Local business | 4509 25 Avenue + 250-545-9108 | 2026-07-25 | run-6
+- [email created] Leavitt Machinery Vernon | Local business | 801 Waddington Dr Unit 110 + 250-545-5740 | 2026-07-25 | run-6
+- [email created] Bobcat of Vernon | Local business | bobcatofvernon.com + 833-446-6381 | 2026-07-25 | run-6
+- [email created] Nor-Val Equipment Rentals | Local business | nor-val.com contact page | 2026-07-25 | run-6
+- [email created] Blacktop Maintenance Ltd | Local business | blacktopmaintenance.ca + 778-823-3259 | 2026-07-25 | run-6
+- [email created] Affirmative Contracting Inc | Local business | affirmativecontractinginc@outlook.com (owner) | 2026-07-25 | run-6
+- [email created] North Okanagan Pumping Service | Local business | 250-542-1923 | 2026-07-25 | run-6
+- [email created] Special T Cleaning | Local business | specialtcleaning.ca contact page | 2026-07-25 | run-6
+- [email created] Manton Tank Service | Local business | Westside Rd, Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Countertop Specialist | Local business | countertopspecialist.ca/contact-us | 2026-07-25 | run-6
+- [email created] Adriatic Granite | Local business | cambriausa.com dealer page + 877-704-1827 | 2026-07-25 | run-6
+- [email created] Pure Granite Rocks | Local business | Pure Granite Rocks Vernon (website/social) | 2026-07-25 | run-6
+- [email created] Scenic Valley Stoneworks | Local business | Scenic Valley Stoneworks Vernon (website/social) | 2026-07-25 | run-6
+- [email created] Custom Granite Works | Local business | Custom Granite Works Okanagan (website/social) | 2026-07-25 | run-6
+- [email created] Bumper to Bumper Vernon | Local business | 1220A Waddington Dr + 250-503-2122 | 2026-07-25 | run-6
+- [email created] Lordco Auto Parts Vernon | Local business | lordco.com Vernon store page | 2026-07-25 | run-6
+- [email created] Gilbert Parts | Local business | gilbertparts.ca contact page | 2026-07-25 | run-6
+- [email created] Langley Freight Lines | Local business | 600 Waddington Drive + 250-549-2157 | 2026-07-25 | run-6
+- [email created] Northline Carriers | Local business | 7436 Fleming Road + 250-542-7010 | 2026-07-25 | run-6
+- [email created] R J Fisher Transport | Local business | 3905 17th Avenue + 250-549-4214 | 2026-07-25 | run-6
+- [email created] DCT Chambers Trucking | Local business | dctchambers.com contact page | 2026-07-25 | run-6
+- [email created] Van Kam Freightways Vernon | Local business | vankam.com Vernon terminal page | 2026-07-25 | run-6
+- [email created] ACE Courier Services | Local business | ACE Courier Services Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Monashee Surveying and Geomatics | Local business | admin@monasheesurveying.com | 2026-07-25 | run-6
+- [email created] McElhanney Vernon | Local business | mcelhanney.com Okanagan office page | 2026-07-25 | run-6
+- [email created] BAR Engineering Vernon | Local business | bareng.ca/vernon contact page | 2026-07-25 | run-6
+- [email created] R+A Engineering Ltd | Local business | R+A Engineering Vernon (Chamber listing) | 2026-07-25 | run-6
+- [email created] Cubit Consulting | Local business | cubitconsulting.ca contact page | 2026-07-25 | run-6
+- [email created] Aspire Recruitment Solutions | Local business | aspirehiring.ca + 778-484-0161 | 2026-07-25 | run-6
+- [email created] The Vernon Staffing Group | Local business | vernonstaffing.com contact page | 2026-07-25 | run-6
+- [email created] Bowman Employment Services | Local business | Bowman Employment Services Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Firebird Consultants Group | Local business | Firebird Consultants Group Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Optimum Security Vernon | Local business | optimumsecurity.ca Vernon page + 604-644-9229 | 2026-07-25 | run-6
+- [email created] Eyecom Security | Local business | eyecomsecurity.com + 250-801-0850 | 2026-07-25 | run-6
+- [email created] SafeTech Alarm Systems | Local business | safetechalarms.com Vernon page + 888-939-3733 | 2026-07-25 | run-6
+- [email created] Polson Park Motel | Local business | polsonparkmotel.ca + 250-549-2231 | 2026-07-25 | run-6
+- [email created] Quality Inn and Suites Vernon | Local business | choicehotels.com Vernon property page | 2026-07-25 | run-6
+- [email created] Canadas Best Value Inn Vernon | Local business | sonesta.com Vernon property page | 2026-07-25 | run-6
+- [email created] Schell Motel | Local business | Schell Motel Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Silver Star Motel | Local business | Silver Star Motel Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Cedar Falls Campground | Local business | 250-558-1559 | 2026-07-25 | run-6
+- [email created] Silver Star RV Park and Campground | Local business | 250-542-2808 | 2026-07-25 | run-6
+- [email created] Lake Front RV Park | Local business | lakefrontrvpark.com contact page | 2026-07-25 | run-6
+- [email created] Habitat RV and Motorcoach Resort | Local business | habitatrvresort.com contact page | 2026-07-25 | run-6
+- [email created] Swan Lake Recreation Resort | Local business | 250-558-1116 | 2026-07-25 | run-6
+- [email created] Vernon and District Minor Football Association | Local business | vdmfa.powerupsports.com contact page | 2026-07-25 | run-6
+- [email created] Vernon Badminton Club | Local business | Vernon Badminton Club (Facebook page) | 2026-07-25 | run-6
+- [email created] Vernon Tennis Association | Local business | tennisbc.org Vernon Tennis Association listing | 2026-07-25 | run-6
+- [email created] Vernon Table Tennis Club | Local business | Vernon Table Tennis Club (BCTTA club listing) | 2026-07-25 | run-6
+- [email created] Vernon Family Practice Associates | Local business | 3310 32nd Avenue, Vernon (clinic reception) | 2026-07-25 | run-6
+- [email created] Sterling Centre Clinic | Local business | cortico.health Sterling Centre Clinic booking page | 2026-07-25 | run-6
+- [email created] Vernon Alliance Church | Local business | info@vernonalliance.org | 2026-07-25 | run-6
+- [email created] Emmanuel Baptist Church | Local business | emmanuelvernon@gmail.com | 2026-07-25 | run-6
+- [email created] Community Baptist Church Vernon | Local business | 250-542-4028 | 2026-07-25 | run-6
+- [email created] Knox Presbyterian Church Vernon | Local business | knoxvernon.ca + 250-542-8613 | 2026-07-25 | run-6
+- [email created] All Saints Anglican Church Vernon | Local business | kootenayanglican.ca All Saints Vernon page | 2026-07-25 | run-6
+- [email created] The Landing Vernon | Local business | thelandingvernon.com contact page | 2026-07-25 | run-6
+- [email created] Vernon Christian Fellowship | Local business | vcfvernon.ca contact page | 2026-07-25 | run-6
+- [email created] Grace Bible Church Vernon | Local business | gbcvernon.ca contact page | 2026-07-25 | run-6
+- [email created] Orchard Valley Retirement Residence | Local business | aspiralife.ca Orchard Valley page + 250-545-0455 | 2026-07-25 | run-6
+- [email created] Canterbury Court | Local business | canterburycourt.ca + 250-503-2054 (Delene) | 2026-07-25 | run-6
+- [email created] Chartwell Carrington Place | Local business | chartwell.com Carrington Place page + 250-545-5704 (Twyla) | 2026-07-25 | run-6
+- [email created] A and E Private Care Home | Local business | 3503 42A Avenue, Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Vernon Montessori Society | Local business | vernonmontessori.com contact page | 2026-07-25 | run-6
+- [email created] Briteland Holdings | Local business | 3208 28 Street + 250-545-3420 | 2026-07-25 | run-6
+- [email created] Growers Supply Co | Local business | 2201 18 Ave + 250-546-1278 | 2026-07-25 | run-6
+- [email created] Buckerfields Vernon | Local business | buckerfields.ca Vernon location page | 2026-07-25 | run-6
+- [email created] Riders Tack and Supply | Local business | riderstack.com + 250-260-7669 | 2026-07-25 | run-6
+- [email created] Premium Bins | Local business | 6136 Okanagan Ave, Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] All In Bins | Local business | allinbins.ca contact page | 2026-07-25 | run-6
+- [email created] Super Save Group Vernon | Local business | supersave.ca Vernon location page | 2026-07-25 | run-6
+- [email created] 4Less Disposal | Local business | 4Less Disposal Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Bin There Dump That Vernon | Local business | bintheredumpthat.com Vernon service page | 2026-07-25 | run-6
+- [email created] Waste Connections Vernon | Local business | wasteconnectionscanada.com Kelowna-Vernon page | 2026-07-25 | run-6
+- [email created] Window and Door Solutions Ltd | Local business | windowprojectsolutions.ca + 778-721-0596 | 2026-07-25 | run-6
+- [email created] New Town Windows and Doors | Local business | newtownwindows.ca + 778-401-6628 | 2026-07-25 | run-6
+- [email created] HTR Windows and Doors | Local business | htrwindows.ca Vernon page | 2026-07-25 | run-6
+- [email created] Adera Windows Vernon | Local business | aderawindows.ca Vernon page | 2026-07-25 | run-6
+- [email created] Ecoline Windows Vernon | Local business | ecolinewindows.ca Vernon location page | 2026-07-25 | run-6
+- [email created] Station BBQ Smokehouse | Local business | Station BBQ Smokehouse Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Hot Spot on 6 | Local business | Hot Spot on 6 Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Fresh Lemongrass | Local business | Fresh Lemongrass Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Midtown Bistro | Local business | Midtown Bistro Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Masiero Pizzeria Napoletana | Local business | Masiero Pizzeria Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Suda Restaurant | Local business | Suda Restaurant Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Lunch Matters | Local business | Lunch Matters Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Private Chef Okanagan | Local business | Private Chef Okanagan (website contact) | 2026-07-25 | run-6
+- [email created] Cabana Bar and Kitchen | Local business | cabanabarkitchen@gmail.com | 2026-07-25 | run-6
+- [email created] OV Custom Homes | Local business | OV Custom Homes Vernon (website contact) | 2026-07-25 | run-6
+- [email created] Dressel Built Homes | Local business | Dressel Built Homes Vernon (website contact) | 2026-07-25 | run-6
+- [email created] Keith Dahlen Construction | Local business | Keith Dahlen Construction Vernon (website contact) | 2026-07-25 | run-6
+- [email created] Sticks and Stones Design Group | Local business | Sticks + Stones Design Group Vernon (website contact) | 2026-07-25 | run-6
+- [email created] Bennison Construction Group | Local business | Bennison Construction Group Vernon (website contact) | 2026-07-25 | run-6
+- [email created] Smith and Sons Coldstream | Local business | Smith & Sons Coldstream (website contact) | 2026-07-25 | run-6
+- [email created] Fresh Start Interiors | Local business | Fresh Start Interiors Vernon (website contact) | 2026-07-25 | run-6
+- [email created] Hometown Enterprises | Local business | Hometown Enterprises Vernon (website contact) | 2026-07-25 | run-6
+- [email created] Reflections Hair Studio | Local business | Reflections Hair Studio Vernon (booking/social) | 2026-07-25 | run-6
+- [email created] Noir Salon and Boutique | Local business | Noir Salon and Boutique Vernon (booking/social) | 2026-07-25 | run-6
+- [email created] First Choice Haircutters Vernon | Local business | 160-5721 24 St + 250-260-5852 | 2026-07-25 | run-6
+- [email created] Chatters Hair Salon Vernon | Local business | 4900 27 St #530 (Village Green Mall) + 250-542-4222 | 2026-07-25 | run-6
+- [email created] Impressions Hair and Aesthetics | Local business | Impressions Hair & Aesthetics Vernon (booking/social) | 2026-07-25 | run-6
+- [email created] Mazaya Hair Lounge | Local business | Mazaya Hair Lounge Vernon (booking/social) | 2026-07-25 | run-6
+- [email created] Jax and King Salon | Local business | Jax & King Vernon (booking/social) | 2026-07-25 | run-6
+- [email created] Raven Salon Vernon | Local business | Raven Salon Vernon (booking/social) | 2026-07-25 | run-6
+- [email created] Great Clips Polson Park | Local business | Polson Park Mall, Vernon + 250-545-6161 | 2026-07-25 | run-6
+- [email created] Reflections Aesthetics Vernon | Local business | Reflections Aesthetics Vernon (booking/social) | 2026-07-25 | run-6
+- [email created] Healing Garden Spa and Wellness | Local business | Healing Garden Spa & Wellness, 27th Street, Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] The Hot Bread Shoppe | Local business | The Hot Bread Shoppe Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Farmhouse Cafe Vernon | Local business | Farmhouse Cafe Vernon (website/social) | 2026-07-25 | run-6
+- [email created] The Bench Market | Local business | The Bench Market Vernon (website/social) | 2026-07-25 | run-6
+- [email created] Italian Kitchen Vernon | Local business | 2916 30th Avenue, Vernon (website/phone) | 2026-07-25 | run-6
+- [email created] Vernon Esso and Car Wash | Local business | Vernon Esso & Car Wash (site/phone) | 2026-07-25 | run-6
+- [email created] Village Green Esso | Local business | Village Green Esso, Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Vernon Co-op Gas Bar | Local business | Vernon Co-op Gas Bar (site/phone) | 2026-07-25 | run-6
+- [email created] Sutherland Super Wash | Local business | Sutherland Super Wash Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Cruizers Car Wash | Local business | Cruizers Car Wash Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Autoshine Plus | Local business | Autoshine Plus Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Super B's Auto Clean and Detail | Local business | Super B's Auto Clean & Detail Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Summit Auto Detailing | Local business | Summit Auto Detailing Vernon (site/social) | 2026-07-25 | run-6
+- [email created] Silver Star Car Wash | Local business | Silver Star Car Wash Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Husky Car Wash Vernon | Local business | Husky Car Wash Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Hogarth's Clinic Pharmacy | Local business | Hogarth's Clinic Pharmacy Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] SterlingRx Pharmacy | Local business | SterlingRx Pharmacy Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] North End Pharmacy Vernon | Local business | North End Pharmacy Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] The Medicine Shoppe Vernon | Local business | The Medicine Shoppe Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Pivot Rx Pharmacy | Local business | Pivot Rx Pharmacy Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Carnage Tattoos | Local business | 3111 30th Avenue, Vernon + 250-541-0074 | 2026-07-25 | run-6
+- [email created] Haze Tattoo | Local business | 2805 32 St, Vernon + 236-426-1399 | 2026-07-25 | run-6
+- [email created] Five Fathoms Tattoo | Local business | fivefathomstattoo.com contact page | 2026-07-25 | run-6
+- [email created] Eye of the Beholder Tattoos | Local business | Eye of the Beholder Tattoos Vernon (site/social) | 2026-07-25 | run-6
+- [email created] Genesis Designs Tattooing | Local business | Genesis Designs Tattooing Vernon (site/social) | 2026-07-25 | run-6
+- [email created] Steel Works Tattoo and Laser | Local business | Steel Works Tattoo & Laser Vernon (site/social) | 2026-07-25 | run-6
+- [email created] Crimson Oath Tattoo | Local business | 101-3307 32nd Ave, Vernon (crimsonoathtattoo.com contact) | 2026-07-25 | run-6
+- [email created] Flesh Body Piercing | Local business | Flesh Body Piercing Vernon (site/social) | 2026-07-25 | run-6
+- [email created] Anna's Professional Piercing | Local business | Anna's Professional Piercing Vernon (site/social) | 2026-07-25 | run-6
+- [email created] Luar Body Piercing | Local business | Luar Body Piercing Vernon (site/social) | 2026-07-25 | run-6
+- [email created] Instinct Adornment | Local business | Instinct Adornment Vernon (site/social) | 2026-07-25 | run-6
+- [email created] Boomers Night Club | Local business | Boomers Vernon (site/social) | 2026-07-25 | run-6
+- [email created] Motoplex Speedway | Local business | Motoplex Speedway Vernon (site/contact) | 2026-07-25 | run-6
+- [email created] Checkers Bar and Grill | Local business | Checkers Bar & Grill Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] The Perch Winery | Local business | The Perch Winery (site/contact) | 2026-07-25 | run-6
+- [email created] East Side Liquor Company | Local business | East Side Liquor Company Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Monashees Wine Spirits Beer | Local business | Monashees Wine Spirits Beer Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Correale's Wine Cellar | Local business | Correale's Wine Cellar Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Liquor Depot Vernon | Local business | Liquor Depot Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Alexander's Liquor Store | Local business | Alexander's Liquor Store Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Gerry O's Cold Beer and Wine Store | Local business | Gerry O's Cold Beer & Wine Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] SOBR Market Vernon | Local business | SOBR Market Vernon (site/social) | 2026-07-25 | run-6
+- [email created] ARC Liquor | Local business | ARC Liquor Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Squire's Four Cold Beer and Wine Store | Local business | Squire's Four Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] South End Spine and Sports Physiotherapy | Local business | South End Spine & Sports Physiotherapy Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Priest Valley Manual Therapy Centre | Local business | Priest Valley Manual Therapy Centre Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Damini Physiotherapy and Sport Injury | Local business | Damini Physiotherapy & Sport Injury Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Concept Physiotherapy and Massage | Local business | Concept Physiotherapy & Massage Vernon + 250-260-1550 | 2026-07-25 | run-6
+- [email created] Vernon Physiotherapy and Rehab | Local business | vernonphysiotherapy.com contact page + 250-545-3696 | 2026-07-25 | run-6
+- [email created] Creekside Dynamic Health | Local business | creeksidevernon.ca contact page | 2026-07-25 | run-6
+- [email created] Arise Chiropractic Vernon | Local business | arisechiropractic.com contact page | 2026-07-25 | run-6
+- [email created] Arrowsmith Moving and Storage | Local business | Arrowsmith Moving & Storage Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] BigSteelBox Vernon | Local business | BigSteelBox Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Quick and Easy Moving Vernon | Local business | quickandeasymoving.ca contact page + 778-871-8999 | 2026-07-25 | run-6
+- [email created] Cidel Moving and Storage | Local business | 2101 43 Street, Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Vernon Mini Storage | Local business | Vernon Mini Storage (site/phone) | 2026-07-25 | run-6
+- [email created] The Flower Spot | Local business | theflowerspot@live.ca + 250-549-0896 | 2026-07-25 | run-6
+- [email created] Nicholas Alexander Home and Garden | Local business | 6325 Highway 97, Vernon + 250-542-8881 | 2026-07-25 | run-6
+- [email created] Art Knapp Plantland Vernon | Local business | Art Knapp Plantland Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Northern Lights Greenspace | Local business | Northern Lights Greenspace Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Quick Grow Vernon | Local business | Quick Grow Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Lyons Landscaping and Garden Centre | Local business | Lyons Landscaping & Garden Centre Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Abby Dental Care | Local business | Abby Dental Care Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Apple Valley Dental Clinic | Local business | Apple Valley Dental Clinic Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Siwoski Dental | Local business | Siwoski Dental Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Loland Dental | Local business | Loland Dental Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Elevate Dental Vernon | Local business | Elevate Dental Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Alexander Dental Centre | Local business | Alexander Dental Centre Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Aesthetic Dental Vernon | Local business | Aesthetic Dental Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] North Okanagan Smile Design | Local business | North Okanagan Smile Design Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Dr Jeff Stewart Orthodontics | Local business | Dr Jeff Stewart Orthodontics Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Michael Kersey Orthodontics | Local business | Michael Kersey Orthodontics Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Vernon Dental Excellence | Local business | vernondentalexcellence.com contact page | 2026-07-25 | run-6
+- [email created] Dr Kenneth P Lawrence Dental | Local business | kpldental.ca contact page | 2026-07-25 | run-6
+- [email created] Secret Garden Daycare | Local business | Secret Garden Daycare Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Little Ark Child Care | Local business | Little Ark Child Care Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Smurfie Child Care Center | Local business | Smurfie Child Care Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] House of Dwarfs Daycare | Local business | House of Dwarfs Daycare Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Active Beginnings Child Care | Local business | Active Beginnings Child Care Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Littlefoot Daycare | Local business | Littlefoot Daycare Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Maven Lane Child Care and Early Learning | Local business | mavenlane.org/contact-us + 250-558-9963 | 2026-07-25 | run-6
+- [email created] Vernon Air Conditioning Plumbing and Electrical Services | Local business | 909 Kalamalka Lake Road, Vernon + 778-403-7886 | 2026-07-25 | run-6
+- [email created] Vernon Electric Ltd | Local business | Vernon Electric Vernon + 250-307-7979 | 2026-07-25 | run-6
+- [email created] Quantum Power Electrical | Local business | quantumpower.ca contact page + 250-307-4003 | 2026-07-25 | run-6
+- [email created] 1 and 2 Electric Ltd | Local business | 1 & 2 Electric Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Concentric Electric and Controls | Local business | concentriccontrols.ca contact page + 250-212-5557 | 2026-07-25 | run-6
+- [email created] Keldon Electric and Data Ltd | Local business | Keldon Electric & Data Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Plumber Vernon BC | Local business | contact@plumbervernonbc.ca + 778-402-1252 | 2026-07-25 | run-6
+- [email created] Painting Vernon | Local business | paintingvernon.ca contact page | 2026-07-25 | run-6
+- [email created] ABC Driving School Vernon | Local business | info@abcdrivingschoolvernon.ca + 250-938-5912 | 2026-07-25 | run-6
+- [email created] First Okanagan Insurance Brokers | Local business | firstokanagan@sussexinsurance.com + 250-542-5335 | 2026-07-25 | run-6
+- [email created] Johnston Meier Insurance Agencies Vernon | Local business | 32nd Street, Vernon + 250-545-5311 | 2026-07-25 | run-6
