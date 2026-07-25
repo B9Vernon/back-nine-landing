@@ -81,7 +81,7 @@ Would you be open to me sending over a short guest-invitation blurb you could us
 PROSPECT 033
 
 NAME: Schell Motel
-EMAIL: CONTACT FORM: https://schellmotelvernon.ca/
+EMAIL: schellmotel1957@gmail.com
 EMAIL SUBJECT: A local perk for your renovated rooms
 EMAIL BODY:
 Hey, I'm Neil.
@@ -113,7 +113,7 @@ Would you be open to me sending over a short guest-invitation blurb you could us
 PROSPECT 035
 
 NAME: Okanagan Royal Park Inn by Elevate Rooms
-EMAIL: CONTACT FORM: https://www.royalparkinn.com/
+EMAIL: reservations@royalparkinn.com
 EMAIL SUBJECT: A guest perk for Royal Park Inn
 EMAIL BODY:
 Hey, I'm Neil.
@@ -641,7 +641,7 @@ Would you be open to me sending over a short guest-invitation blurb you could us
 PROSPECT 068
 
 NAME: Kelowna Resort Accommodations
-EMAIL: CONTACT FORM: https://www.kelownaresortaccommodations.com/contact/
+EMAIL: info@dkra.ca
 EMAIL SUBJECT: An Okanagan-wide guest idea
 EMAIL BODY:
 Hey, I'm Neil.

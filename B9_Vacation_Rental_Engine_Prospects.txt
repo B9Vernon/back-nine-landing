@@ -261,7 +261,7 @@ Would you be open to me sending over a short guest-invitation blurb you could us
 PROSPECT 015
 
 NAME: Vance Creek Hotel & Conference Centre / Silver Star Properties
-EMAIL: info@silverstarproperties.ca
+EMAIL: russell@vancecreekhotel.com
 EMAIL SUBJECT: An off-hill option for your Vance Creek and village guests
 EMAIL BODY:
 Hey, I'm Neil.
@@ -281,7 +281,7 @@ Would you be open to me sending over a short guest-invitation blurb you could us
 PROSPECT 016
 
 NAME: SilverStar Mountain Resort Accommodations (Snowbird, Firelight, Silver Creek, Lord Aberdeen, The Bulldog)
-EMAIL: reservations@silverstarmountain.com
+EMAIL: tallen@skisilverstar.com
 EMAIL SUBJECT: A Vernon experience for your resort lodging guests
 EMAIL BODY:
 Hey, I'm Neil.
@@ -301,7 +301,7 @@ Would you be open to me sending over a short guest-invitation blurb you could us
 PROSPECT 017
 
 NAME: The Pinnacles Suites & Townhomes (Silver Star)
-EMAIL: CONTACT FORM: https://pinnacles.com/about-us/contact
+EMAIL: derrick@samsonwaters.com
 EMAIL SUBJECT: A premium off-mountain idea for Pinnacles guests
 EMAIL BODY:
 Hey, I'm Neil.
