@@ -28,7 +28,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from b9lib import LINK, LOCKED_TV, normalize, load_log  # noqa: E402
+from b9lib import LINK, LOCKED_TV, LOCKED_TV_FAR, normalize, load_log  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_LOG = os.path.join(HERE, '..', 'state', 'outreach-log.md')
@@ -115,14 +115,17 @@ def main():
     r.check("Hey, I'm Neil" not in text, 'no bare "Hey, I\'m Neil" greeting')
     r.check("I'm Vernon" not in text, 'Neil is never introduced as the city')
 
-    # --- TV sentence -----------------------------------------------------
-    tv_locked = text.count(LOCKED_TV)
+    # --- TV wording (locked rule 2a, forms A and B) ----------------------
+    form_a = text.count(LOCKED_TV)
+    form_b = len(LOCKED_TV_FAR.findall(text)) - form_a
+    tv_locked = form_a + form_b
     tv_mentions = len(re.findall(r'\bTVs?\b', text))
-    r.warn(tv_locked > 0, 'locked TV sentence is present',
-           f'{tv_locked} entries ({n - tv_locked} deliberately omit it)')
-    r.check(tv_mentions == tv_locked,
-            'every TV mention uses the locked wording',
-            f'{tv_mentions} mentions vs {tv_locked} locked sentences')
+    r.warn(tv_locked > 0, 'locked TV claim is present',
+           f'{form_a} form A (local) + {form_b} form B (farther-out); '
+           f'{n - tv_locked} entries omit it')
+    r.check(tv_mentions <= tv_locked,
+            'every TV mention carries the locked advertising claim',
+            f'{tv_mentions} mentions vs {tv_locked} locked claims')
     bad = re.findall(r'feature you on our TVs|featured on our TVs|'
                      r'put you on our screens|free advertising', text)
     r.check(not bad, 'no TV wording that reads as a free giveaway',

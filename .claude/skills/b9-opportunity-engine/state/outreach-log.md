@@ -1523,3 +1523,25 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Mabel Lake Resort and Airpark | Local business | Mabel Lake Resort & Airpark, Enderby (site/contact) | 2026-07-26 | run-8
 - [email created] Enderby and District Chamber of Commerce | Local business | Enderby & District Chamber of Commerce (enderbychamber.com contact) | 2026-07-26 | run-8
 - [email created] Enderby Rentals | Local business | enderbyrentals.ca + 250-838-7328 | 2026-07-26 | run-8
+- [email created] Fork Seasons | Uncategorized | info@forkseasons.ca | 2026-07-26 | run-9
+- [email created] Lawson Engineering Ltd. | Trades — building | marketing@lawsonengineering.ca | 2026-07-26 | run-9
+- [email created] Cambria Plumbing Ltd | Trades — plumbing/HVAC | cambriaplumbing@outlook.com | 2026-07-26 | run-9
+- [email created] Jeryn Contracting | Trades — building | Erynsutherland@icloud.com | 2026-07-26 | run-9
+- [email created] Milestone Fabrication Ltd. | Manufacturing | milestone@shaw.ca | 2026-07-26 | run-9
+- [email created] Twin Anchors Houseboat Vacations | Uncategorized | houseboats@twinanchors.com | 2026-07-26 | run-9
+- [email created] Sicamous Houseboats | Uncategorized | barb.scott@sicamoushouseboats.com | 2026-07-26 | run-9
+- [email created] Bluewater Houseboat Vacations | Uncategorized | info@bluewaterhouseboats.ca | 2026-07-26 | run-9
+- [email created] Recline Ridge Winery | Pub/bar | info@reclineridgewinery.com | 2026-07-26 | run-9
+- [email created] Celista Estate Winery | Pub/bar | info@celistawine.com | 2026-07-26 | run-9
+- [email created] Crannóg Ales | Uncategorized | crannog@crannogales.com | 2026-07-26 | run-9
+- [email created] Chances Salmon Arm | Uncategorized | info@chancessalmonarm.ca | 2026-07-26 | run-9
+- [email created] Night Cafe | Restaurant/cafe | Meiklestudios@gmail.com | 2026-07-26 | run-9
+- [email created] Remarketetc | Grocery/market | remarketetc@gmail.com | 2026-07-26 | run-9
+- [email created] SASCU | Uncategorized | hr@sascu.com | 2026-07-26 | run-9
+- [email created] Salmon Arm Remedy RX | Uncategorized | sarx@telus.net | 2026-07-26 | run-9
+- [email created] Shuswap Lodge Seniors Community | Hotel/motel/B&B | gm@shuswaplodge.com | 2026-07-26 | run-9
+- [email created] Eagle Valley Resource Centre | Non-profit/society | evcrc@telus.net | 2026-07-26 | run-9
+- [email created] R.J. Haney Heritage Village and Museum | Arts/culture | info@salmonarmmuseum.org | 2026-07-26 | run-9
+- [email created] Salmon Arm Economic Development Society | Non-profit/society | info@saeds.ca | 2026-07-26 | run-9
+- [email created] Salmon Arm & District Chamber of Commerce | Non-profit/society | info@sachamber.bc.ca | 2026-07-26 | run-9
+- [email created] Tobacco Land Kelowna | Uncategorized | tobaccoland@telus.net | 2026-07-26 | run-9

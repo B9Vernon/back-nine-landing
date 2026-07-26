@@ -17,14 +17,33 @@ research depth, tone, and quality. These rules are absolute.
    lines — Gmail carries Neil's signature. End the message naturally with a
    simple question or soft next step.
    Example ending: "Would you be open to a quick conversation about something like this?"
-2a. LOCKED TV-advertising sentence — whenever the email mentions the
-    facility TVs, it must read as a paid partnership offering, never a
-    freebie, and use this exact pattern (swap in the business's name):
+2a. LOCKED TV-advertising wording — whenever an email mentions the facility
+    TVs it must read as a paid partnership offering, never a freebie. There
+    are TWO approved forms; both are Neil-approved and both must keep the
+    claim wording intact.
+
+    **Form A — local businesses (the TV offer is secondary).** Use this
+    exact pattern, swapping in the business's name:
     "...and we'd love to talk about featuring [Business] as a partner on
     the TVs across our facility — 24/7 advertising seen by hundreds of
     people a week, with a QR code sending the people straight to your
-    website." Never say "feature you on our TVs" or "we'll put you on our
-    screens" without this framing — those read as free advertising.
+    website."
+
+    **Form B — farther-out businesses (the TV offer is the whole pitch).**
+    Approved run 9. Used when the business is far enough away that a perk
+    swap or staff-night trade isn't credible — Salmon Arm, Sicamous,
+    Kelowna and beyond. The email says plainly that it is an advertising
+    offer, explains what the Vernon audience is worth to that specific type
+    of business, and carries this claim verbatim apart from the final noun:
+    "24/7 advertising seen by hundreds of people a week, with a QR code
+    sending them straight to your [website / menu / booking page]."
+    Form B emails also offer a staff night on the simulators, since a
+    distant team will still travel for an evening out.
+
+    Never say "feature you on our TVs" or "we'll put you on our screens"
+    without paid framing — those read as free advertising. The
+    "hundreds of people a week" figure is the only audience claim approved
+    for either form.
 3. AFTER the soft close, every email ends with exactly two footer elements,
    in this order:
    - the Back Nine Vernon website link on its own line:

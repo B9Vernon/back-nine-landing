@@ -22,8 +22,17 @@ ENTRY = re.compile(
 
 LINK = "https://backninegolf.ca/local/vernonbc/"
 
+# Form A — local emails, TV offer secondary (locked rule 2a).
 LOCKED_TV = ("24/7 advertising seen by hundreds of people a week, with a QR "
              "code sending the people straight to your website.")
+
+# Form B — farther-out emails, TV offer is the whole pitch (locked rule 2a).
+# Same approved claim; only the final noun varies (website / menu / booking
+# page / tasting-room page / listings).
+LOCKED_TV_FAR = re.compile(
+    r'24/7 advertising seen by hundreds of people a week, with a QR code '
+    r'sending (?:them|the people) straight to your [a-z\- ]+'
+)
 
 # Legal suffixes and location qualifiers that never distinguish two businesses.
 _NOISE = re.compile(
