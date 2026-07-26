@@ -40,16 +40,32 @@ references/
   partnership-fit-scorer.md       1-10 prioritization scoring (outreach)
   partnership-angle-matcher.md    One custom angle per business (outreach)
   website-research-email.md       LOCKED email rules (personal greeting, link+logo footer)
+  saturation-and-run-sizing.md    How big a run can honestly be (outreach)
   follow-up-engine.md             RUN B9 FOLLOW UP — second-touch drafts (outreach)
   reply-assistant.md              RUN B9 REPLY — handle replies, log status (outreach)
+  sms-outreach.md                 Batched SMS lists + GSM-7 and anti-spam rules
+tools/
+  README.md                       When to run each tool
+  b9lib.py                        Canonical name normalizer (single source)
+  dedup_check.py                  Check candidates against the log — run FIRST
+  verify_deliverable.py           Check a finished TXT against locked rules
+  log_run.py                      Append a delivered file to the log
+  extract_phones.py               Build SMS lists; validate SMS text is GSM-7
 assets/
-  b9-vernon-logo.png              Email-footer logo (below the website link)
+  README.md                       Logo notes (the PNG itself is not in the repo)
 templates/
   run-report.md                   The only output format for intelligence runs
 state/
   opportunity-log.md              Cross-run memory for deduplication
-  outreach-log.md                 Outreach dedup + status memory
+  outreach-log.md                 Outreach dedup + status memory (1,510 rows)
 ```
+
+## Before promising a prospect count
+
+The North Okanagan is largely worked out — 1,510 businesses logged, and the
+share with a findable direct email has fallen from 25% (run 2) to 1% (run
+8). Read `references/saturation-and-run-sizing.md` and probe the duplicate
+rate before agreeing to a number. A clean 80 beats a padded 200.
 
 ## Outreach mode
 

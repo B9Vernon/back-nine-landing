@@ -17,6 +17,16 @@ Format per run:
   castanet.net, vernonmatters.ca, vernonchamber.ca, downtownvernon.com,
   tourismvernon.com, vernon.ca, vjhfoundation.org, armstrongipe.com. Search-index
   research works and surfaces the same content; verify dates across 2+ results.
+- 2026-07-26: Re-tested at run 8. `WebFetch` now returns 403 for **every** host
+  tried, including chamber directories and PDF directories, and
+  `curl "$HTTPS_PROXY/__agentproxy/status"` confirms the proxy is enabled with
+  `selective: false`. Treat WebFetch as unavailable; do not spend calls on it.
+  `WebSearch` is the only working discovery channel. Highest yield comes from
+  directory-shaped queries that return many names in one snippet
+  ("Lumby BC businesses names list") rather than one query per business.
+- 2026-07-26: Market saturation is now the binding constraint on prospect runs,
+  not search effort. Direct-email hit rate has fallen 25% → 1% across runs 2–8.
+  See `references/saturation-and-run-sizing.md` before promising a run size.
 
 ---
 

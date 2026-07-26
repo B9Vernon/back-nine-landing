@@ -74,20 +74,33 @@ the 10 business suggestions.
 
 ## Outreach mode (explicit request only)
 
-When Neil explicitly asks for partnership prospects/outreach emails, run the
-geography-first outreach pipeline. Core belief: Back Nine can potentially
-partner with almost ANY legitimate local business — discovery is by location,
-never by industry batches, and never limited to golf-adjacent businesses.
+This is the engine's most-used mode. When Neil asks for partnership
+prospects or outreach emails, run the geography-first pipeline. Core
+belief: Back Nine can potentially partner with almost ANY legitimate local
+business — discovery is by location, never by industry batches, and never
+limited to golf-adjacent businesses.
+
+Discovery always starts from Back Nine's postal code **V1T 5B9** and works
+outward in rings (`references/local-radius-sweep.md`).
+
+**0. Size the run first** — `references/saturation-and-run-sizing.md`.
+1,510 businesses are already logged and the area is heavily worked. Probe
+with a few directory searches, dedup-check what comes back, and set the
+target from the duplicate rate. Never pad a list to hit a number; say so
+and offer the alternatives instead.
 
 1. **Discovery** — `references/local-radius-sweep.md` (rings out from the
    facility), `references/map-grid-discovery.md` (zone-by-zone),
    `references/local-directory-discovery.md` (public directories).
-2. **Contact** — `references/storefront-contact-finder.md` (best public
-   contact path; form/social acceptable, clearly labelled).
-3. **Dedup** — `references/dedup-status-memory.md` + `state/outreach-log.md`.
+   `WebFetch` is blocked by the proxy — use `WebSearch` only.
+2. **Dedup — before writing anything** — `tools/dedup_check.py` against
+   `state/outreach-log.md`. See `references/dedup-status-memory.md`.
+3. **Contact** — `references/storefront-contact-finder.md` (best public
+   contact path; form/phone acceptable, clearly labelled). Never
+   pattern-guess an email address.
 4. **Fit & angle** — `references/partnership-fit-scorer.md` (1–10, prioritize
    not eliminate) and `references/partnership-angle-matcher.md` (one custom
-   angle each).
+   angle each). Both stay internal — no scores or metadata in the file.
 5. **Email** — `references/website-research-email.md` (LOCKED: research the
    real website, body opens "Hey [recipient] team, I'm Neil.", no typed
    signature, ends with website link + logo, subject + body, Gmail
@@ -98,17 +111,24 @@ never by industry batches, and never limited to golf-adjacent businesses.
    clients, a dealership has staff and customers) and who the specific
    person/role is who can move that audience. See
    `../b9-audience-holder-finder/SKILL.md`.
+7. **Verify — before showing Neil anything** — `tools/verify_deliverable.py`.
+   Exit code must be 0. This is not optional: run 4 shipped 56 emails whose
+   TV wording broke locked rule 2a, and the check would have caught it.
+8. **Log** — `tools/log_run.py FILE --run run-N`.
 
-Discovery always starts from Back Nine's postal code **V1T 5B9** and works
-outward in rings (`references/local-radius-sweep.md`).
+Working style (standing instruction since run 5): work quietly, don't
+narrate the process in chat, deliver the file plus a short summary.
 
-Two command-gated companion tools (never run unprompted):
+Command-gated companion modes (never run unprompted):
 
 - `RUN B9 FOLLOW UP` → `references/follow-up-engine.md` — one polite
   second-touch email per confirmed-sent, no-reply prospect.
 - `RUN B9 REPLY` → `references/reply-assistant.md` — Neil pastes a reply he
   received; the engine drafts his response, logs the status, and proposes
   the next step.
+- SMS lists → `references/sms-outreach.md` — batched text-message lists
+  built from numbers already in the log. Reaches the ~76% of logged
+  businesses that never had a usable email.
 
 ## Run procedure
 

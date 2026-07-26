@@ -23,9 +23,45 @@
 
 ## Boundaries
 
-- No contact harvesting: no names, phone numbers, or emails in output unless
-  the user later asks.
-- No outreach of any kind is drafted or sent.
+These differ by mode. Read the one that matches what was asked.
+
+### Intelligence runs (`RUN B9 OPPORTUNITY ENGINE`)
+
+- No contact details in the report — the deliverable is opportunities, not
+  a contact list.
+- No outreach drafted.
+
+### Outreach mode (Neil asks for prospects / partnership emails)
+
+This is now the engine's most-used mode and it *does* produce contacts and
+email drafts — that is the deliverable, not a boundary violation. What still
+holds:
+
+- **Public business contact info only.** No private personal data, no
+  home addresses, no personal mobile numbers.
+- **Never pattern-guess an address.** An email goes in the `To:` line only
+  if it was seen in a public source. Inventing `info@<domain>` because the
+  pattern looks right is forbidden — use the phone or contact page instead.
+- **Drafts only, always.** The engine never sends, queues, or schedules a
+  message. Neil reviews and sends every one manually.
+- **Never re-contact a logged business.** Check `state/outreach-log.md`
+  first, using `tools/dedup_check.py`.
+
+### Both modes
+
 - No recurring tasks, cron jobs, triggers, scheduled wakeups, or background
   monitoring — each run is a single, user-initiated pass.
-- Do not show internal research process in the report unless asked.
+- Do not show internal research process in the report unless asked. Since
+  run 5 the standing instruction is: work quietly, deliver the file and a
+  short summary at the end.
+
+## Tooling reality (verified, do not re-discover)
+
+- **`WebFetch` returns HTTP 403 for effectively every host** through this
+  session's agent proxy — chamber directories, tourism sites, PDFs, all of
+  it. Re-tested and still failing as of run 8. Do not burn calls fetching
+  directory pages; go straight to `WebSearch`.
+- `WebSearch` works and is the only discovery channel that does. The
+  highest-yield query shape is a directory-style one that returns many
+  names in a single snippet — "Lumby BC businesses names list", "top 10
+  X in Vernon BC" — rather than one query per business.
