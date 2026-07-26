@@ -1323,3 +1323,203 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Enderby Inn and Pub | Local business | 707 Cliff Avenue, Enderby + 250-838-7100 | 2026-07-25 | run-7
 - [email created] The Bargain Shop Enderby | Local business | 507 Cliff Ave, Enderby + 250-838-0771 | 2026-07-25 | run-7
 - [email created] Twice But Nice Enderby | Local business | 702 Cliff Avenue, Enderby + 250-838-6822 | 2026-07-25 | run-7
+- [email created] Brer Rabbit Day Care | Local business | Brer Rabbit Day Care, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Appletree Childcare Centre | Local business | 1406 32nd Ave, Vernon (appletreechildcare.ca contact) | 2026-07-26 | run-8
+- [email created] Okanagan Clinical Counselling Services | Local business | Okanagan Clinical Counselling Services, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Interactive Counselling Vernon | Local business | 4300 27 St Unit 5, Vernon + 778-506-2276 | 2026-07-26 | run-8
+- [email created] Relate and Restore Counselling | Local business | relateandrestore.ca contact page | 2026-07-26 | run-8
+- [email created] OK Clinical Therapy Group Vernon | Local business | okclinical.com/our-vernon-team contact page | 2026-07-26 | run-8
+- [email created] Vinterra Wellness | Local business | Vinterra Wellness, 27th St, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Movement Society Vernon | Local business | Movement Society, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] F45 Training Vernon | Local business | F45 Training Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Ratio Coffee | Local business | Ratio Coffee, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Bean To Cup Vernon | Local business | Bean To Cup, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] The Boarding House Cafe and Bakery | Local business | The Boarding House Cafe & Bakery, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Bean Scene Coffee House Vernon | Local business | Bean Scene Coffee House, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] The Cracked Pot Coffee Emporium | Local business | The Cracked Pot Coffee Emporium, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Kin and Pod | Local business | Kin + Pod, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Amplified Coffee | Local business | Amplified Coffee, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Natures Fare Markets Vernon | Local business | Nature's Fare Markets, 101-4201 25A Ave, Vernon (naturesfare.com/contact-us) | 2026-07-26 | run-8
+- [email created] Gourmet To Go Fine Meats Meals and Catering | Local business | Gourmet To Go, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Topping Expectations | Local business | Topping Expectations, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Two Sparrows Pizza and Catering | Local business | twosparrowscatering.com contact page | 2026-07-26 | run-8
+- [email created] Vernon Catering | Local business | vernoncatering.ca/services contact page | 2026-07-26 | run-8
+- [email created] Shabbang Food Truck and Catering | Local business | shabbang.com contact page | 2026-07-26 | run-8
+- [email created] The Ok Catering Company | Local business | The Ok. Catering Company, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Avalon Event Rentals | Local business | vernoninfo@avalonrents.com (4701 25 Ave, Vernon) + 250-541-0945 | 2026-07-26 | run-8
+- [email created] Epic Events Party Rentals | Local business | Epic Events Party Rentals, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Andors Blinds | Local business | Andor's Blinds, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Made in the Shade Okanagan | Local business | Made in the Shade Okanagan, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Condos to Castles Blinds | Local business | Condos to Castles, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] AKA Room Services | Local business | akaroomservices.com contact page | 2026-07-26 | run-8
+- [email created] SP Interiors Vernon | Local business | S.P. Interiors, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Kekuli Bay Cabinetry | Local business | Kekuli Bay Cabinetry, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Dark Coat Sealcoating and Paving | Local business | Dark Coat Sealcoating & Paving, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] A and D Asphalt Solutions | Local business | A&D Asphalt Solutions Inc., Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Joes Bobcat and Excavating | Local business | Joe's Bobcat & Excavating, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Vernon Excavating and Landscaping | Local business | vernonexcavating.com contact page | 2026-07-26 | run-8
+- [email created] Intermezzo Restaurant and Wine Cellar | Local business | Intermezzo Restaurant & Wine Cellar, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] The Med Vernon | Local business | The Med, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Rosters Sport Club Bar and Grill | Local business | Rosters Sport Club Bar & Grill, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] The Phoenix Steakhouse | Local business | The Phoenix Steakhouse, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Los Huesos | Local business | Los Huesos, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] PeakFine at Sparkling Hill | Local business | PeakFine at Sparkling Hill Resort (site/contact) | 2026-07-26 | run-8
+- [email created] RANGE restaurant bar and patio | Local business | RANGE restaurant bar + patio, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] The Edge Vernon | Local business | The Edge, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Red Swan Pizza Vernon | Local business | Red Swan Pizza Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Little Caesars Vernon | Local business | Little Caesars Vernon (store contact) | 2026-07-26 | run-8
+- [email created] Panago Pizza Vernon | Local business | Panago Pizza Vernon (store contact) | 2026-07-26 | run-8
+- [email created] Kawakubo Sushi Sake Organic | Local business | Kawakubo Sushi Sake Organic, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] OHKIM Sushi and Grill | Local business | OHKIM Sushi & Grill, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] MATCH Eatery and Public House | Local business | MATCH Eatery & Public House, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] 1516 Pub and Grill | Local business | 1516 Pub & Grill, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] The Roxy Cafe Vernon | Local business | The Roxy Cafe, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Haveli Indian Cuisine | Local business | Haveli Indian Cuisine, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] The Curry Pot Indian and Nepalese Cuisine | Local business | The Curry Pot, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Ustaad G76 Indian Cuisine | Local business | Ustaad G76 Indian Cuisine, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] 350 Bakehouse and Cafe | Local business | 350 Bakehouse and Cafe, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Our Little Donut Factory | Local business | Our Little Donut Factory, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Cottons Chocolate | Local business | Cottons Chocolate, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Emmas Nails Vernon | Local business | Emma's Nails, Vernon (booking/social) | 2026-07-26 | run-8
+- [email created] ND Nails Vernon | Local business | ND Nails, Vernon (booking/social) | 2026-07-26 | run-8
+- [email created] Happy Nails Vernon | Local business | Happy Nails, Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] Angela Nails and Spa | Local business | Angela Nails & Spa, Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] Cheek To Chic Vernon | Local business | Cheek To Chic, Vernon (booking/social) | 2026-07-26 | run-8
+- [email created] Surong Nails | Local business | Surong Nails, Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] Paulas Esthetics | Local business | Paula's Esthetics, Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] Platinum Concepts Vernon | Local business | Platinum Concepts, Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] XD Nails Vernon | Local business | XD Nails, Vernon (booking/social) | 2026-07-26 | run-8
+- [email created] The Gentlemens Shop and Shave Parlour | Local business | The Gentlemen's Shop & Shave Parlour, Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] For Men Only Barber Shop | Local business | For Men Only Barber Shop, Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] Country Squire Barbers and Stylists | Local business | Country Squire Barbers & Stylists, Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] Pennys Towne Barber | Local business | Penny's Towne Barber, Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] Tommy Guns Original Barbershop Vernon | Local business | Tommy Gun's Original Barbershop Vernon (booking/phone) | 2026-07-26 | run-8
+- [email created] Vernon Barber | Local business | Vernon Barber (booking/phone) | 2026-07-26 | run-8
+- [email created] Birch Hill Studio Vernon | Local business | Birch Hill Studio, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Faith and Company Vernon | Local business | Faith & Company, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] 104 Grey Clothing and Accessories | Local business | 104 Grey Clothing and Accessories, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Penningtons Vernon | Local business | Penningtons Vernon (store contact) | 2026-07-26 | run-8
+- [email created] Great Moments Boutique | Local business | Great Moments Boutique, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Kaleco Clothing Vernon | Local business | Kaleco Clothing, downtown Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Daisy and Jane Clothiers | Local business | Daisy & Jane Clothiers, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Casa Bella Boutique Vernon | Local business | Casa Bella Boutique, downtown Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Suzannes Vernon | Local business | Suzanne's, Vernon (store contact) | 2026-07-26 | run-8
+- [email created] Cento Wear | Local business | centowear.com contact page | 2026-07-26 | run-8
+- [email created] Polished Mercantile | Local business | 3216 30th Avenue, Vernon (polishedmercantile.com contact) | 2026-07-26 | run-8
+- [email created] North Okanagan Friendship Centre Society | Local business | North Okanagan Friendship Centre Society, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Vernon Disability Resource Centre | Local business | Vernon Disability Resource Centre (site/contact) | 2026-07-26 | run-8
+- [email created] Vernon Womens Transition House Society | Local business | Vernon Women's Transition House Society (site/contact) | 2026-07-26 | run-8
+- [email created] Watkin Motors | Local business | Watkin Motors, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Vernon Chrysler | Local business | Vernon Chrysler (site/phone) | 2026-07-26 | run-8
+- [email created] Vernon Computer Tutor | Local business | Vernon Computer Tutor (site/contact) | 2026-07-26 | run-8
+- [email created] Street Music Studios | Local business | Street Music Studios, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Studio9 School of the Arts | Local business | Studio9 School of the Arts, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] First Aid Certified Training Systems | Local business | First Aid Certified Training Systems, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Vernon Teach and Learn Ltd | Local business | Vernon Teach and Learn Ltd (site/contact) | 2026-07-26 | run-8
+- [email created] Friesens Country Tyme Gardens | Local business | Friesen's Country Tyme Gardens, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Avenue Machinery Corp | Local business | Avenue Machinery Corp, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Pinnacle Equipment Vernon | Local business | dleamc.com/vernon contact page | 2026-07-26 | run-8
+- [email created] Interior Motors Vernon | Local business | Interior Motors, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Savoy Equipment Ltd | Local business | savoyequipment.com Vernon contact page | 2026-07-26 | run-8
+- [email created] Vernon Landscape Centre | Local business | 4620 23 St, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Vernon Urgent and Primary Care Centre | Local business | Vernon Urgent and Primary Care Centre (site/contact) | 2026-07-26 | run-8
+- [email created] Greater Vernon Museum and Archives | Local business | Greater Vernon Museum & Archives (site/contact) | 2026-07-26 | run-8
+- [email created] Vernon and District Performing Arts Centre | Local business | Vernon & District Performing Arts Centre (site/contact) | 2026-07-26 | run-8
+- [email created] Vernon Jazz Club | Local business | Vernon Jazz Club (site/contact) | 2026-07-26 | run-8
+- [email created] Purdys Chocolatier Vernon | Local business | Purdys Chocolatier, Vernon (store contact) | 2026-07-26 | run-8
+- [email created] AcuTruss Industries | Local business | AcuTruss Industries, Vernon (acutruss.com/vernon) + 250-545-3215 | 2026-07-26 | run-8
+- [email created] Chemac Industries | Local business | 12-100 Kalamalka Lake Rd, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Okanagan Spring Brewery | Local business | Okanagan Spring Brewery, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Quickturn Production Machining | Local business | Quickturn Production Machining, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Universal Packaging | Local business | Universal Packaging, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] KingFisher Boats | Local business | admin@kingfisherboats.com (8160 Highland Road, Vernon) | 2026-07-26 | run-8
+- [email created] Hytec Kohler Vernon | Local business | Hytec (a division of Kohler), Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Maxx Canada | Local business | Maxx Canada, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Rapid Span Bridge Structures | Local business | Rapid Span Bridge Structures, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Woodtone | Local business | Woodtone, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Dutchs Campground | Local business | 15408 Kalamalka Lake Road, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Owls Nest Resort and Marina | Local business | #8, 4111 Evans Road, Oyama (site/phone) | 2026-07-26 | run-8
+- [email created] Wood Lake RV Park and Marina | Local business | woodlakerv.com contact page | 2026-07-26 | run-8
+- [email created] Kekuli Cafe Vernon | Local business | Kekuli Cafe, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Kal-Mor Mortgages and Investments | Local business | kal-mor.com contact page | 2026-07-26 | run-8
+- [email created] Michelle Beeton Mortgages and Investments | Local business | michellebeeton.com/contact.html | 2026-07-26 | run-8
+- [email created] Kal Tire Head Office Vernon | Local business | Kal Tire Head Office, 1540 Kalamalka Lake Rd, Vernon + 250-542-2366 | 2026-07-26 | run-8
+- [email created] Vernon Jubilee Hospital Foundation | Local business | Vernon Jubilee Hospital Foundation (site/contact) | 2026-07-26 | run-8
+- [email created] Vernon Restholm Association | Local business | Vernon Restholm Association (site/contact) | 2026-07-26 | run-8
+- [email created] Silver Springs Seniors Community | Local business | Silver Springs Seniors Community, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Creekside Landing Vernon | Local business | kaigo.ca/creekside-landing contact page | 2026-07-26 | run-8
+- [email created] Silver Star Rotary Club | Local business | Silver Star Rotary Club, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Rotary Club of Vernon | Local business | Rotary Club of Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Eat Good Market Vernon | Local business | Eat Good Market, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Real Canadian Superstore Vernon | Local business | Real Canadian Superstore Vernon (store contact) | 2026-07-26 | run-8
+- [email created] Save-On-Foods Vernon | Local business | Save-On-Foods Vernon (store contact) | 2026-07-26 | run-8
+- [email created] Buy-Low Foods Vernon | Local business | Buy-Low Foods Vernon (store contact) | 2026-07-26 | run-8
+- [email created] Safeway Vernon | Local business | Safeway Vernon (store contact) | 2026-07-26 | run-8
+- [email created] Lavington Superette | Local business | 6015 Highway 6, Coldstream + 250-542-4658 | 2026-07-26 | run-8
+- [email created] Lavington Sand and Gravel Ltd | Local business | Lavington Sand & Gravel Ltd, Coldstream (site/phone) | 2026-07-26 | run-8
+- [email created] Region 8 Electric | Local business | Region 8 Electric, Coldstream (site/phone) | 2026-07-26 | run-8
+- [email created] Heartwood Homes Ltd | Local business | 128 Ravine Dr, Coldstream (site/phone) | 2026-07-26 | run-8
+- [email created] Access Motorsports Lumby | Local business | Access Motorsports, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Alices Restaurant Lumby | Local business | Alice's Restaurant, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Bloom Wellness Center Lumby | Local business | Bloom Wellness Center, Lumby (site/contact) | 2026-07-26 | run-8
+- [email created] Cherryville Artisans Shop | Local business | Cherryville Artisans Shop (site/contact) | 2026-07-26 | run-8
+- [email created] Connect Coffee House Lumby | Local business | Connect Coffee House, Lumby (site/social) | 2026-07-26 | run-8
+- [email created] Cozy Cabins Lumby | Local business | Cozy Cabins, Lumby (site/contact) | 2026-07-26 | run-8
+- [email created] D and M Used Auto Parts | Local business | D&M Used Auto Parts, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Earth Elements Lumby | Local business | Earth Elements, Lumby (site/social) | 2026-07-26 | run-8
+- [email created] Echo Lake Fishing Resort | Local business | Echo Lake Fishing Resort (site/contact) | 2026-07-26 | run-8
+- [email created] Fermco Rentals | Local business | Fermco Rentals, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Galaxy Powder Coating | Local business | Galaxy Powder Coating, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Hwy 6 Mini Storage | Local business | Hwy 6 Mini Storage, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Irly Bird Lumby | Local business | Irly Bird Building Centre, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Jitter Beans Coffee House | Local business | Jitter Beans Coffee House, Lumby (site/social) | 2026-07-26 | run-8
+- [email created] Kal Tire Lumby | Local business | Kal Tire Lumby (store contact) | 2026-07-26 | run-8
+- [email created] KBM Autoworks | Local business | KBM Autoworks, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Krazy Llama Cafe | Local business | Krazy Llama Café, Lumby (site/social) | 2026-07-26 | run-8
+- [email created] Lumby Community Market | Local business | Lumby Community Market (site/contact) | 2026-07-26 | run-8
+- [email created] Lumby Dollar Dollar | Local business | Lumby Dollar Dollar (site/phone) | 2026-07-26 | run-8
+- [email created] Lumby Health Foods | Local business | Lumby Health Foods (site/phone) | 2026-07-26 | run-8
+- [email created] Lumby IDA Bakery | Local business | Lumby IDA Bakery (site/phone) | 2026-07-26 | run-8
+- [email created] Lumby IDA Pharmacy | Local business | Lumby IDA Pharmacy (site/phone) | 2026-07-26 | run-8
+- [email created] Lumby Legion | Local business | Lumby Legion (site/contact) | 2026-07-26 | run-8
+- [email created] Lumby Thrift Store | Local business | Lumby Thrift Store (site/contact) | 2026-07-26 | run-8
+- [email created] Lumby Tirecraft | Local business | Lumby Tirecraft (site/phone) | 2026-07-26 | run-8
+- [email created] Millies Kitchen Lumby | Local business | Millie's Kitchen, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Monashee Dental Clinic | Local business | Monashee Dental Clinic, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Re/Max Lumby | Local business | RE/MAX Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Rusty Spur Lumby | Local business | Rusty Spur, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Snac Shac Lumby | Local business | Snac Shac, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Solera Cafe Lumby | Local business | Solera Café, Lumby (site/social) | 2026-07-26 | run-8
+- [email created] Take Two Dinner and a Movie | Local business | Take Two Dinner and a Movie, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Tutor Tech Computers | Local business | Tutor Tech Computers, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Valley First Insurance Services Lumby | Local business | Valley First Insurance Services, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Village Gallery and Gifts Lumby | Local business | Village Gallery & Gifts, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Viva Hair Lumby | Local business | Viva Hair, Lumby (booking/phone) | 2026-07-26 | run-8
+- [email created] Gudeit Brothers Contracting | Local business | Gudeit Brothers Contracting, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Kineshanko Logging | Local business | Kineshanko Logging, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Fresh Mart Lumby | Local business | Fresh Mart, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Rona Hardware Lumby | Local business | Rona, Lumby (store contact) | 2026-07-26 | run-8
+- [email created] Higher Path Lumby | Local business | Higher Path, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Anas Pizza Lumby | Local business | Ana's Pizza, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Yuki Sushi Lumby | Local business | Yuki Sushi, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Monashee Coop | Local business | Monashee Co-op, Lumby (site/phone) | 2026-07-26 | run-8
+- [email created] Select Roofing Armstrong | Local business | 4306 Highland Park, Armstrong (site/phone) | 2026-07-26 | run-8
+- [email created] BC Cargo Trailers | Local business | BC Cargo Trailers, Armstrong (site/phone) | 2026-07-26 | run-8
+- [email created] Armstrong Spallumcheen Museum and Art Gallery | Local business | Armstrong-Spallumcheen Museum & Art Gallery, Pleasant Valley Road (site/contact) | 2026-07-26 | run-8
+- [email created] Valley First Credit Union Armstrong | Local business | Valley First Credit Union, Armstrong (branch contact) | 2026-07-26 | run-8
+- [email created] Country Bakery Armstrong | Local business | 3305 Smith Dr, Armstrong (site/phone) | 2026-07-26 | run-8
+- [email created] Frosted Tier Cakes | Local business | Frosted Tier Cakes, Armstrong (site/social) | 2026-07-26 | run-8
+- [email created] Bread Co Armstrong | Local business | Bread Co., Armstrong (site/social) | 2026-07-26 | run-8
+- [email created] Sandrine French Pastry and Chocolate | Local business | Sandrine French Pastry & Chocolate, Armstrong (site/phone) | 2026-07-26 | run-8
+- [email created] Specialty Bakery Armstrong | Local business | Specialty Bakery, Armstrong (site/phone) | 2026-07-26 | run-8
+- [email created] The Village Cheese Company | Local business | The Village Cheese Company, Armstrong (site/contact) | 2026-07-26 | run-8
+- [email created] Lorenzos Cafe Enderby | Local business | Lorenzo's Café, Mabel Lake Road, Enderby (site/phone) | 2026-07-26 | run-8
+- [email created] The Cliffs Bistro and Bakery | Local business | The Cliffs Bistro & Bakery, Enderby (site/phone) | 2026-07-26 | run-8
+- [email created] Fortunes Pub Enderby | Local business | Fortunes, Enderby (site/phone) | 2026-07-26 | run-8
+- [email created] Country Coffee House Enderby | Local business | Country Coffee House, Enderby (site/phone) | 2026-07-26 | run-8
+- [email created] Mabel Lake Farms | Local business | 33 Kingfisher Rd, Enderby (site/phone) | 2026-07-26 | run-8
+- [email created] Little City Merchant | Local business | Little City Merchant, Enderby (site/social) | 2026-07-26 | run-8
+- [email created] Ashton Creek General Store | Local business | Ashton Creek General Store, Enderby (site/phone) | 2026-07-26 | run-8
+- [email created] Mabel Lake Resort and Airpark | Local business | Mabel Lake Resort & Airpark, Enderby (site/contact) | 2026-07-26 | run-8
+- [email created] Enderby and District Chamber of Commerce | Local business | Enderby & District Chamber of Commerce (enderbychamber.com contact) | 2026-07-26 | run-8
+- [email created] Enderby Rentals | Local business | enderbyrentals.ca + 250-838-7328 | 2026-07-26 | run-8
