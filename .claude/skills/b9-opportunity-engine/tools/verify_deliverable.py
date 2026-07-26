@@ -116,10 +116,14 @@ def main():
     r.check("I'm Vernon" not in text, 'Neil is never introduced as the city')
 
     # --- TV wording (locked rule 2a, forms A and B) ----------------------
-    form_a = text.count(LOCKED_TV)
-    form_b = len(LOCKED_TV_FAR.findall(text)) - form_a
+    # Count inside email bodies only. The file header legitimately describes
+    # the TV offer and must not be counted as an unlocked mention.
+    body_text = '\n'.join(m.group(1) for m in re.finditer(
+        r'^Subject: .+\n\n(.+?)\n\nhttps://', text, re.S | re.M))
+    form_a = body_text.count(LOCKED_TV)
+    form_b = len(LOCKED_TV_FAR.findall(body_text)) - form_a
     tv_locked = form_a + form_b
-    tv_mentions = len(re.findall(r'\bTVs?\b', text))
+    tv_mentions = len(re.findall(r'\bTVs?\b', body_text))
     r.warn(tv_locked > 0, 'locked TV claim is present',
            f'{form_a} form A (local) + {form_b} form B (farther-out); '
            f'{n - tv_locked} entries omit it')
