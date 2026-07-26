@@ -1113,17 +1113,17 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Littlefoot Daycare | Local business | Littlefoot Daycare Vernon (site/phone) | 2026-07-25 | run-6
 - [email created] Maven Lane Child Care and Early Learning | Local business | mavenlane.org/contact-us + 250-558-9963 | 2026-07-25 | run-6
 - [email created] Vernon Air Conditioning Plumbing and Electrical Services | Local business | 909 Kalamalka Lake Road, Vernon + 778-403-7886 | 2026-07-25 | run-6
-- [email created] Vernon Electric Ltd | Local business | Vernon Electric Vernon + 250-307-7979 | 2026-07-25 | run-6
+- [email created] Vernon Electric Ltd | Local business | Vernon Electric Vernon + 250-307-7979 | 2026-07-25 | run-6 | duplicate of "Vernon Electric" — do not contact again
 - [email created] Quantum Power Electrical | Local business | quantumpower.ca contact page + 250-307-4003 | 2026-07-25 | run-6
 - [email created] 1 and 2 Electric Ltd | Local business | 1 & 2 Electric Vernon (site/phone) | 2026-07-25 | run-6
 - [email created] Concentric Electric and Controls | Local business | concentriccontrols.ca contact page + 250-212-5557 | 2026-07-25 | run-6
 - [email created] Keldon Electric and Data Ltd | Local business | Keldon Electric & Data Vernon (site/phone) | 2026-07-25 | run-6
 - [email created] Plumber Vernon BC | Local business | contact@plumbervernonbc.ca + 778-402-1252 | 2026-07-25 | run-6
 - [email created] Painting Vernon | Local business | paintingvernon.ca contact page | 2026-07-25 | run-6
-- [email created] ABC Driving School Vernon | Local business | info@abcdrivingschoolvernon.ca + 250-938-5912 | 2026-07-25 | run-6
+- [email created] ABC Driving School Vernon | Local business | info@abcdrivingschoolvernon.ca + 250-938-5912 | 2026-07-25 | run-6 | duplicate of "ABC Driving School" — do not contact again
 - [email created] First Okanagan Insurance Brokers | Local business | firstokanagan@sussexinsurance.com + 250-542-5335 | 2026-07-25 | run-6
-- [email created] Johnston Meier Insurance Agencies Vernon | Local business | 32nd Street, Vernon + 250-545-5311 | 2026-07-25 | run-6
-- [email created] MNP Vernon | Local business | mnp.ca/en/offices/vernon contact page | 2026-07-25 | run-7
+- [email created] Johnston Meier Insurance Agencies Vernon | Local business | 32nd Street, Vernon + 250-545-5311 | 2026-07-25 | run-6 | duplicate of "Johnston Meier Insurance Agencies" — do not contact again
+- [email created] MNP Vernon | Local business | mnp.ca/en/offices/vernon contact page | 2026-07-25 | run-7 | duplicate of "MNP LLP — Vernon" — do not contact again
 - [email created] KSO Accounting Group Vernon | Local business | ksogroup.ca/our-team/vernon contact page | 2026-07-25 | run-7
 - [email created] M and M Office Solutions | Local business | mmoffice.ca contact page | 2026-07-25 | run-7
 - [email created] Romei Plummer LLP | Local business | rpllp.ca contact page | 2026-07-25 | run-7
@@ -1132,20 +1132,20 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Woolley and Co Law | Local business | Woolley & Co. Law, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Compass Law Vernon | Local business | Compass Law, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Lisa Denham Law Office | Local business | Lisa Denham Law Office, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Davidson Lawyers | Local business | Davidson Lawyers, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Davidson Lawyers | Local business | Davidson Lawyers, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Davidson Lawyers LLP" — do not contact again
 - [email created] Martin Estate and Injury Law | Local business | Martin Estate & Injury Law, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Julian Van Der Walle Law Corporation | Local business | Julian Van Der Walle Law Corporation, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] North Valley Law | Local business | North Valley Law, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Lake City Law Corporation | Local business | Lake City Law Corporation, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Central Animal Hospital Vernon | Local business | centralanimalhospital.ca/contact-us | 2026-07-25 | run-7
+- [email created] Central Animal Hospital Vernon | Local business | centralanimalhospital.ca/contact-us | 2026-07-25 | run-7 | duplicate of "Central Animal Hospital" — do not contact again
 - [email created] Animal Care Centre Vernon | Local business | animalcarecentervernon.com contact page | 2026-07-25 | run-7
 - [email created] Chicken Little Vernon | Local business | Chicken Little, Vernon (site/social) | 2026-07-25 | run-7
-- [email created] SODANCE Vernon | Local business | sodance.ca contact page | 2026-07-25 | run-7
+- [email created] SODANCE Vernon | Local business | sodance.ca contact page | 2026-07-25 | run-7 | duplicate of "SODANCE" — do not contact again
 - [email created] Ruth McGrath Dance Studio | Local business | Ruth McGrath Dance Studio, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Sport and Culture Society of the North Okanagan | Local business | Sport & Culture Society of the North Okanagan (site/contact) | 2026-07-25 | run-7
 - [email created] iNFOTEL Multimedia Vernon | Local business | infotelmultimedia.ca/vernon contact page | 2026-07-25 | run-7
 - [email created] Vernon Computer Source | Local business | vernoncomputersource.com contact page | 2026-07-25 | run-7
-- [email created] Bassani IT Tech Vernon | Local business | bassanitech.com/vernon contact page | 2026-07-25 | run-7
+- [email created] Bassani IT Tech Vernon | Local business | bassanitech.com/vernon contact page | 2026-07-25 | run-7 | duplicate of "Bassani IT Tech" — do not contact again
 - [email created] Vernon Concrete Contractors | Local business | Vernon Concrete Contractors (site/phone) | 2026-07-25 | run-7
 - [email created] Integra Tire Vernon | Local business | integratire.com/centre/vernon contact page | 2026-07-25 | run-7
 - [email created] Budget Brake and Muffler Vernon | Local business | budgetbrake.com/locations/okanagan/vernon contact page | 2026-07-25 | run-7
@@ -1167,7 +1167,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Sedos Old Fashioned Butcher and Deli | Local business | Sedo's Old Fashioned Butcher & Deli, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Vernon Butcher Shop and Catering | Local business | Vernon Butcher Shop & Catering, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Grimms Sausage | Local business | Grimm's Fine Foods, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Furniture Emporium Vernon | Local business | Furniture Emporium, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Furniture Emporium Vernon | Local business | Furniture Emporium, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Furniture Emporium" — do not contact again
 - [email created] Dianas Monogramming | Local business | 402-5000 Silver Star Rd, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] SpeedPro Vernon | Local business | speedprocanada.com/vernon contact page | 2026-07-25 | run-7
 - [email created] Vernon Machine and Welding Ltd | Local business | Vernon Machine & Welding, Vernon (site/phone) | 2026-07-25 | run-7
@@ -1176,7 +1176,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Donalds Machine Works Ltd | Local business | donaldsmachine.ca contact page | 2026-07-25 | run-7
 - [email created] Bearded Dragon Welding | Local business | 1404 29 Ave, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Arc City Fabrication | Local business | Arc City Fabrication, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Eagle Industries Vernon | Local business | Eagle Industries, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Eagle Industries Vernon | Local business | Eagle Industries, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Eagle Industries" — do not contact again
 - [email created] D N R Specialty Welding | Local business | D N R Specialty Welding, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Dan Romaniuk Fabrication | Local business | Dan Romaniuk Fabrication, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Mountain Goat Metal Works | Local business | Mountain Goat Metal Works, Vernon (site/phone) | 2026-07-25 | run-7
@@ -1187,13 +1187,13 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Terrace Janitorial | Local business | Terrace Janitorial, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Royal Okanagan Janitorial | Local business | Royal Okanagan Janitorial, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Jani-King Vernon | Local business | janiking.ca/vernon contact page | 2026-07-25 | run-7
-- [email created] Cameron Building Maintenance Vernon | Local business | cameronbuildingmaintenance.ca/vernon-location contact page | 2026-07-25 | run-7
+- [email created] Cameron Building Maintenance Vernon | Local business | cameronbuildingmaintenance.ca/vernon-location contact page | 2026-07-25 | run-7 | duplicate of "Cameron Building Maintenance" — do not contact again
 - [email created] Star Window Cleaning Vernon | Local business | Star Window Cleaning, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Clean It All Vernon | Local business | cleanitall.ca/vernon contact page | 2026-07-25 | run-7
 - [email created] Everclean Facility Services Vernon | Local business | evercleanfs.com/commercial-cleaning-company/vernon-bc contact page | 2026-07-25 | run-7
 - [email created] VantageOne Financial Corp | Local business | 5300 26 Street, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] RBC Dominion Securities Vernon | Local business | wmc.rbcwealthmanagement.com/branch/vernon contact page | 2026-07-25 | run-7
-- [email created] Vernon Funeral Home | Local business | Vernon Funeral Home, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Vernon Funeral Home | Local business | Vernon Funeral Home, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Vernon Funeral Home Ltd" — do not contact again
 - [email created] A Service To Remember | Local business | aservicetoremember.ca contact page | 2026-07-25 | run-7
 - [email created] Armstrong Optometry Clinic | Local business | Armstrong Optometry Clinic (site/phone) | 2026-07-25 | run-7
 - [email created] IRIS Optometrists and Opticians Vernon | Local business | IRIS Vernon (site/phone) | 2026-07-25 | run-7
@@ -1208,10 +1208,10 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Home Depot Vernon | Local business | 5501 Anderson Way, Vernon (store contact) | 2026-07-25 | run-7
 - [email created] Dorothy Alexander Center | Local business | 4214 25 Ave, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Olympia Cycle and Ski | Local business | cycleandski.com contact page | 2026-07-25 | run-7
-- [email created] Skyride Vernon | Local business | 4815 Silver Star Road, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Skyride Vernon | Local business | 4815 Silver Star Road, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Skyride" — do not contact again
 - [email created] Attridge Ski and Board | Local business | Attridge Ski & Board, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Far West Factory Outlet | Local business | Far West Factory Outlet, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Surplus Herbys | Local business | Surplus Herby's, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Surplus Herbys | Local business | Surplus Herby's, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Surplus Herby's Vernon" — do not contact again
 - [email created] Wandering Bear Outfitters | Local business | Wandering Bear Outfitters, Vernon (site/social) | 2026-07-25 | run-7
 - [email created] Vernons Outdoor Store | Local business | Vernon's Outdoor Store (site/phone) | 2026-07-25 | run-7
 - [email created] Kush Organics | Local business | Kush Organics, Vernon (site/phone) | 2026-07-25 | run-7
@@ -1243,18 +1243,18 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Second Hand Rose Vernon | Local business | Second Hand Rose, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Vantage West Property Management | Local business | Vantage West Property Management, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Accent Property Management | Local business | Accent Property Management Ltd, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Keystone Property Management Vernon | Local business | Keystone Property Management Ltd, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Keystone Property Management Vernon | Local business | Keystone Property Management Ltd, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Keystone Property Management" — do not contact again
 - [email created] Superior Property Management Vernon | Local business | Superior Property Management, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Associated Property Management Okanagan | Local business | associatedpm.ca contact page | 2026-07-25 | run-7
 - [email created] First Landmark Strata and Property Management | Local business | First Landmark Strata & Property Management, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Century 21 Assurance Realty Vernon | Local business | assurancerealty.c21.ca/vernon-office contact page | 2026-07-25 | run-7
-- [email created] Pinnacle Roofing Vernon | Local business | pinnacleroofing.ca contact page | 2026-07-25 | run-7
+- [email created] Pinnacle Roofing Vernon | Local business | pinnacleroofing.ca contact page | 2026-07-25 | run-7 | duplicate of "Pinnacle Roofing" — do not contact again
 - [email created] Laing Roofing | Local business | Laing Roofing, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Madge Contracting Ltd | Local business | Madge Contracting Ltd, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Purple Horizon Roofing | Local business | Purple Horizon Roofing, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Silverstar Roofing and Sheetmetal | Local business | Silverstar Roofing & Sheetmetal, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Skyfix Roofing | Local business | Skyfix Roofing, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Community Roofing Co Ltd | Local business | Community Roofing Co. Ltd, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Community Roofing Co Ltd | Local business | Community Roofing Co. Ltd, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Community Roofing Ltd" — do not contact again
 - [email created] Kevins Roofing Ltd | Local business | Kevin's Roofing Ltd, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Norsemen Developments | Local business | Norsemen Developments, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Reno One Vernon | Local business | reno1.ca contact page | 2026-07-25 | run-7
@@ -1299,7 +1299,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Long Johns Pub Silver Star | Local business | Long John's Pub, Silver Star + 250-549-2992 | 2026-07-25 | run-7
 - [email created] Out of Bounds Silver Star | Local business | Out Of Bounds, Silver Star + 250-549-3388 | 2026-07-25 | run-7
 - [email created] Silver Grill Silver Star | Local business | Silver Grill, Silver Star + 250-558-6070 | 2026-07-25 | run-7
-- [email created] SilverStar Brewing | Local business | SilverStar Brewing, Vernon (site/contact) | 2026-07-25 | run-7
+- [email created] SilverStar Brewing | Local business | SilverStar Brewing, Vernon (site/contact) | 2026-07-25 | run-7 | duplicate of "Silverstar Brewing Co" — do not contact again
 - [email created] Marten Brewing Co | Local business | Marten Brewing Co., Vernon (site/contact) | 2026-07-25 | run-7
 - [email created] Okanagan Spirits Vernon | Local business | Okanagan Spirits, Vernon (site/contact) | 2026-07-25 | run-7
 - [email created] Cambium Cider Co | Local business | Cambium Cider Co., Vernon (site/contact) | 2026-07-25 | run-7
@@ -1335,18 +1335,18 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Ratio Coffee | Local business | Ratio Coffee, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] Bean To Cup Vernon | Local business | Bean To Cup, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] The Boarding House Cafe and Bakery | Local business | The Boarding House Cafe & Bakery, Vernon (site/phone) | 2026-07-26 | run-8
-- [email created] Bean Scene Coffee House Vernon | Local business | Bean Scene Coffee House, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Bean Scene Coffee House Vernon | Local business | Bean Scene Coffee House, Vernon (site/phone) | 2026-07-26 | run-8 | duplicate of "Bean Scene Coffee House" — do not contact again
 - [email created] The Cracked Pot Coffee Emporium | Local business | The Cracked Pot Coffee Emporium, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Kin and Pod | Local business | Kin + Pod, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] Amplified Coffee | Local business | Amplified Coffee, Vernon (site/social) | 2026-07-26 | run-8
-- [email created] Natures Fare Markets Vernon | Local business | Nature's Fare Markets, 101-4201 25A Ave, Vernon (naturesfare.com/contact-us) | 2026-07-26 | run-8
+- [email created] Natures Fare Markets Vernon | Local business | Nature's Fare Markets, 101-4201 25A Ave, Vernon (naturesfare.com/contact-us) | 2026-07-26 | run-8 | duplicate of "Nature's Fare Markets (Vernon HQ + store)" — do not contact again
 - [email created] Gourmet To Go Fine Meats Meals and Catering | Local business | Gourmet To Go, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Topping Expectations | Local business | Topping Expectations, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Two Sparrows Pizza and Catering | Local business | twosparrowscatering.com contact page | 2026-07-26 | run-8
 - [email created] Vernon Catering | Local business | vernoncatering.ca/services contact page | 2026-07-26 | run-8
 - [email created] Shabbang Food Truck and Catering | Local business | shabbang.com contact page | 2026-07-26 | run-8
 - [email created] The Ok Catering Company | Local business | The Ok. Catering Company, Vernon (site/social) | 2026-07-26 | run-8
-- [email created] Avalon Event Rentals | Local business | vernoninfo@avalonrents.com (4701 25 Ave, Vernon) + 250-541-0945 | 2026-07-26 | run-8
+- [email created] Avalon Event Rentals | Local business | vernoninfo@avalonrents.com (4701 25 Ave, Vernon) + 250-541-0945 | 2026-07-26 | run-8 | duplicate of "Avalon Event Rentals — Vernon" — do not contact again
 - [email created] Epic Events Party Rentals | Local business | Epic Events Party Rentals, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Andors Blinds | Local business | Andor's Blinds, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Made in the Shade Okanagan | Local business | Made in the Shade Okanagan, Vernon (site/phone) | 2026-07-26 | run-8
@@ -1373,14 +1373,14 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] OHKIM Sushi and Grill | Local business | OHKIM Sushi & Grill, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] MATCH Eatery and Public House | Local business | MATCH Eatery & Public House, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] 1516 Pub and Grill | Local business | 1516 Pub & Grill, Vernon (site/phone) | 2026-07-26 | run-8
-- [email created] The Roxy Cafe Vernon | Local business | The Roxy Cafe, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] The Roxy Cafe Vernon | Local business | The Roxy Cafe, Vernon (site/phone) | 2026-07-26 | run-8 | duplicate of "The Roxy Cafe" — do not contact again
 - [email created] Haveli Indian Cuisine | Local business | Haveli Indian Cuisine, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] The Curry Pot Indian and Nepalese Cuisine | Local business | The Curry Pot, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Ustaad G76 Indian Cuisine | Local business | Ustaad G76 Indian Cuisine, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] 350 Bakehouse and Cafe | Local business | 350 Bakehouse and Cafe, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] Our Little Donut Factory | Local business | Our Little Donut Factory, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] Cottons Chocolate | Local business | Cottons Chocolate, Vernon (site/social) | 2026-07-26 | run-8
-- [email created] Emmas Nails Vernon | Local business | Emma's Nails, Vernon (booking/social) | 2026-07-26 | run-8
+- [email created] Emmas Nails Vernon | Local business | Emma's Nails, Vernon (booking/social) | 2026-07-26 | run-8 | duplicate of "Emma's Nails" — do not contact again
 - [email created] ND Nails Vernon | Local business | ND Nails, Vernon (booking/social) | 2026-07-26 | run-8
 - [email created] Happy Nails Vernon | Local business | Happy Nails, Vernon (booking/phone) | 2026-07-26 | run-8
 - [email created] Angela Nails and Spa | Local business | Angela Nails & Spa, Vernon (booking/phone) | 2026-07-26 | run-8
@@ -1395,14 +1395,14 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Pennys Towne Barber | Local business | Penny's Towne Barber, Vernon (booking/phone) | 2026-07-26 | run-8
 - [email created] Tommy Guns Original Barbershop Vernon | Local business | Tommy Gun's Original Barbershop Vernon (booking/phone) | 2026-07-26 | run-8
 - [email created] Vernon Barber | Local business | Vernon Barber (booking/phone) | 2026-07-26 | run-8
-- [email created] Birch Hill Studio Vernon | Local business | Birch Hill Studio, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Birch Hill Studio Vernon | Local business | Birch Hill Studio, Vernon (site/social) | 2026-07-26 | run-8 | duplicate of "Birch Hill Studio" — do not contact again
 - [email created] Faith and Company Vernon | Local business | Faith & Company, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] 104 Grey Clothing and Accessories | Local business | 104 Grey Clothing and Accessories, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] Penningtons Vernon | Local business | Penningtons Vernon (store contact) | 2026-07-26 | run-8
 - [email created] Great Moments Boutique | Local business | Great Moments Boutique, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Kaleco Clothing Vernon | Local business | Kaleco Clothing, downtown Vernon (site/social) | 2026-07-26 | run-8
 - [email created] Daisy and Jane Clothiers | Local business | Daisy & Jane Clothiers, Vernon (site/social) | 2026-07-26 | run-8
-- [email created] Casa Bella Boutique Vernon | Local business | Casa Bella Boutique, downtown Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Casa Bella Boutique Vernon | Local business | Casa Bella Boutique, downtown Vernon (site/phone) | 2026-07-26 | run-8 | duplicate of "Casa Bella Boutique" — do not contact again
 - [email created] Suzannes Vernon | Local business | Suzanne's, Vernon (store contact) | 2026-07-26 | run-8
 - [email created] Cento Wear | Local business | centowear.com contact page | 2026-07-26 | run-8
 - [email created] Polished Mercantile | Local business | 3216 30th Avenue, Vernon (polishedmercantile.com contact) | 2026-07-26 | run-8
@@ -1415,9 +1415,9 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Street Music Studios | Local business | Street Music Studios, Vernon (site/contact) | 2026-07-26 | run-8
 - [email created] Studio9 School of the Arts | Local business | Studio9 School of the Arts, Vernon (site/contact) | 2026-07-26 | run-8
 - [email created] First Aid Certified Training Systems | Local business | First Aid Certified Training Systems, Vernon (site/contact) | 2026-07-26 | run-8
-- [email created] Vernon Teach and Learn Ltd | Local business | Vernon Teach and Learn Ltd (site/contact) | 2026-07-26 | run-8
+- [email created] Vernon Teach and Learn Ltd | Local business | Vernon Teach and Learn Ltd (site/contact) | 2026-07-26 | run-8 | duplicate of "Vernon Teach and Learn" — do not contact again
 - [email created] Friesens Country Tyme Gardens | Local business | Friesen's Country Tyme Gardens, Vernon (site/phone) | 2026-07-26 | run-8
-- [email created] Avenue Machinery Corp | Local business | Avenue Machinery Corp, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Avenue Machinery Corp | Local business | Avenue Machinery Corp, Vernon (site/phone) | 2026-07-26 | run-8 | duplicate of "Avenue Machinery (Douglas Lake Equipment)" — do not contact again
 - [email created] Pinnacle Equipment Vernon | Local business | dleamc.com/vernon contact page | 2026-07-26 | run-8
 - [email created] Interior Motors Vernon | Local business | Interior Motors, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Savoy Equipment Ltd | Local business | savoyequipment.com Vernon contact page | 2026-07-26 | run-8
@@ -1448,9 +1448,9 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vernon Restholm Association | Local business | Vernon Restholm Association (site/contact) | 2026-07-26 | run-8
 - [email created] Silver Springs Seniors Community | Local business | Silver Springs Seniors Community, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Creekside Landing Vernon | Local business | kaigo.ca/creekside-landing contact page | 2026-07-26 | run-8
-- [email created] Silver Star Rotary Club | Local business | Silver Star Rotary Club, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Silver Star Rotary Club | Local business | Silver Star Rotary Club, Vernon (site/contact) | 2026-07-26 | run-8 | duplicate of "Vernon Silver Star Rotary Club" — do not contact again
 - [email created] Rotary Club of Vernon | Local business | Rotary Club of Vernon (site/contact) | 2026-07-26 | run-8
-- [email created] Eat Good Market Vernon | Local business | Eat Good Market, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Eat Good Market Vernon | Local business | Eat Good Market, Vernon (site/social) | 2026-07-26 | run-8 | duplicate of "Eat Good Market (+ Pineapple Express Smoothie Bar)" — do not contact again
 - [email created] Real Canadian Superstore Vernon | Local business | Real Canadian Superstore Vernon (store contact) | 2026-07-26 | run-8
 - [email created] Save-On-Foods Vernon | Local business | Save-On-Foods Vernon (store contact) | 2026-07-26 | run-8
 - [email created] Buy-Low Foods Vernon | Local business | Buy-Low Foods Vernon (store contact) | 2026-07-26 | run-8
@@ -1458,7 +1458,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Lavington Superette | Local business | 6015 Highway 6, Coldstream + 250-542-4658 | 2026-07-26 | run-8
 - [email created] Lavington Sand and Gravel Ltd | Local business | Lavington Sand & Gravel Ltd, Coldstream (site/phone) | 2026-07-26 | run-8
 - [email created] Region 8 Electric | Local business | Region 8 Electric, Coldstream (site/phone) | 2026-07-26 | run-8
-- [email created] Heartwood Homes Ltd | Local business | 128 Ravine Dr, Coldstream (site/phone) | 2026-07-26 | run-8
+- [email created] Heartwood Homes Ltd | Local business | 128 Ravine Dr, Coldstream (site/phone) | 2026-07-26 | run-8 | duplicate of "Heartwood Homes" — do not contact again
 - [email created] Access Motorsports Lumby | Local business | Access Motorsports, Lumby (site/phone) | 2026-07-26 | run-8
 - [email created] Alices Restaurant Lumby | Local business | Alice's Restaurant, Lumby (site/phone) | 2026-07-26 | run-8
 - [email created] Bloom Wellness Center Lumby | Local business | Bloom Wellness Center, Lumby (site/contact) | 2026-07-26 | run-8
@@ -1473,7 +1473,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Hwy 6 Mini Storage | Local business | Hwy 6 Mini Storage, Lumby (site/phone) | 2026-07-26 | run-8
 - [email created] Irly Bird Lumby | Local business | Irly Bird Building Centre, Lumby (site/phone) | 2026-07-26 | run-8
 - [email created] Jitter Beans Coffee House | Local business | Jitter Beans Coffee House, Lumby (site/social) | 2026-07-26 | run-8
-- [email created] Kal Tire Lumby | Local business | Kal Tire Lumby (store contact) | 2026-07-26 | run-8
+- [email created] Kal Tire Lumby | Local business | Kal Tire Lumby (store contact) | 2026-07-26 | run-8 | duplicate of "Kal Tire (Head Office)" — do not contact again
 - [email created] KBM Autoworks | Local business | KBM Autoworks, Lumby (site/phone) | 2026-07-26 | run-8
 - [email created] Krazy Llama Cafe | Local business | Krazy Llama Café, Lumby (site/social) | 2026-07-26 | run-8
 - [email created] Lumby Community Market | Local business | Lumby Community Market (site/contact) | 2026-07-26 | run-8
@@ -1503,7 +1503,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Anas Pizza Lumby | Local business | Ana's Pizza, Lumby (site/phone) | 2026-07-26 | run-8
 - [email created] Yuki Sushi Lumby | Local business | Yuki Sushi, Lumby (site/phone) | 2026-07-26 | run-8
 - [email created] Monashee Coop | Local business | Monashee Co-op, Lumby (site/phone) | 2026-07-26 | run-8
-- [email created] Select Roofing Armstrong | Local business | 4306 Highland Park, Armstrong (site/phone) | 2026-07-26 | run-8
+- [email created] Select Roofing Armstrong | Local business | 4306 Highland Park, Armstrong (site/phone) | 2026-07-26 | run-8 | duplicate of "Select Roofing" — do not contact again
 - [email created] BC Cargo Trailers | Local business | BC Cargo Trailers, Armstrong (site/phone) | 2026-07-26 | run-8
 - [email created] Armstrong Spallumcheen Museum and Art Gallery | Local business | Armstrong-Spallumcheen Museum & Art Gallery, Pleasant Valley Road (site/contact) | 2026-07-26 | run-8
 - [email created] Valley First Credit Union Armstrong | Local business | Valley First Credit Union, Armstrong (branch contact) | 2026-07-26 | run-8
@@ -1513,7 +1513,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Sandrine French Pastry and Chocolate | Local business | Sandrine French Pastry & Chocolate, Armstrong (site/phone) | 2026-07-26 | run-8
 - [email created] Specialty Bakery Armstrong | Local business | Specialty Bakery, Armstrong (site/phone) | 2026-07-26 | run-8
 - [email created] The Village Cheese Company | Local business | The Village Cheese Company, Armstrong (site/contact) | 2026-07-26 | run-8
-- [email created] Lorenzos Cafe Enderby | Local business | Lorenzo's Café, Mabel Lake Road, Enderby (site/phone) | 2026-07-26 | run-8
+- [email created] Lorenzos Cafe Enderby | Local business | Lorenzo's Café, Mabel Lake Road, Enderby (site/phone) | 2026-07-26 | run-8 | duplicate of "Lorenzo's Cafe (Enderby)" — do not contact again
 - [email created] The Cliffs Bistro and Bakery | Local business | The Cliffs Bistro & Bakery, Enderby (site/phone) | 2026-07-26 | run-8
 - [email created] Fortunes Pub Enderby | Local business | Fortunes, Enderby (site/phone) | 2026-07-26 | run-8
 - [email created] Country Coffee House Enderby | Local business | Country Coffee House, Enderby (site/phone) | 2026-07-26 | run-8
@@ -1565,3 +1565,253 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Kelowna Downtown Knox Mountain Neighbourhood Association | Non-profit/society | kdkm@kdkm.org | 2026-07-26 | run-10
 - [email created] Kelowna South-Central Association of Neighbourhoods | Non-profit/society | info@ksan-kelowna.ca | 2026-07-26 | run-10
 - [email created] CHOA Interior | Home furnishing | interior@choa.bc.ca | 2026-07-26 | run-10
+- [email created] GOGO Sushi Lake Country | Restaurant/cafe | GOGO Sushi Lake Country (published website contact page) | 2026-07-26 | run-11
+- [email created] Lordco Parts Lake Country | Uncategorized | Lordco Parts Lake Country (published website contact page) | 2026-07-26 | run-11
+- [email created] Pane Vino Oyama | Uncategorized | Pane Vino Oyama (published website contact page) | 2026-07-26 | run-11
+- [email created] The Lookout Restaurant at Gray Monk | Restaurant/cafe | The Lookout Restaurant at Gray Monk (published website contact page) | 2026-07-26 | run-11
+- [email created] A Plus Automotive Kelowna | Auto service | A Plus Automotive Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] A View of the Lake Bed and Breakfast | Hotel/motel/B&B | A View of the Lake Bed and Breakfast (published website contact page) | 2026-07-26 | run-11
+- [email created] Accentual Nail Studio and Spa | Salon/barber | Accentual Nail Studio and Spa (published website contact page) | 2026-07-26 | run-11
+- [email created] Acorn Dental and Implant Centre | Dental/ortho | Acorn Dental and Implant Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Analog Coffee Kelowna | Restaurant/cafe | Analog Coffee Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] ARYUS CORP | Uncategorized | ARYUS CORP (published website contact page) | 2026-07-26 | run-11
+- [email created] August Garage | Uncategorized | August Garage (published website contact page) | 2026-07-26 | run-11
+- [email created] Barkleys Muttland | Uncategorized | Barkleys Muttland (published website contact page) | 2026-07-26 | run-11
+- [email created] Barn Owl Brewing | Pub/bar | Barn Owl Brewing (published website contact page) | 2026-07-26 | run-11
+- [email created] Bean Scene Downtown Kelowna | Uncategorized | Bean Scene Downtown Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Bekins Moving and Storage | Moving/storage | Bekins Moving and Storage (published website contact page) | 2026-07-26 | run-11
+- [email created] Berezan Liquor Store | Liquor retail | Berezan Liquor Store (published website contact page) | 2026-07-26 | run-11
+- [email created] Bernies Kitchen Bar Cinema | Restaurant/cafe | Bernies Kitchen Bar Cinema (published website contact page) | 2026-07-26 | run-11
+- [email created] Best Friend Dog Grooming and Spa | Spa/wellness | Best Friend Dog Grooming and Spa (published website contact page) | 2026-07-26 | run-11
+- [email created] Best Western Plus Kelowna Hotel and Suites | Hotel/motel/B&B | Best Western Plus Kelowna Hotel and Suites (published website contact page) | 2026-07-26 | run-11
+- [email created] Black Mountain Custom Meat Cutting | Uncategorized | Black Mountain Custom Meat Cutting (published website contact page) | 2026-07-26 | run-11
+- [email created] Black Rabbit Coffee House | Restaurant/cafe | Black Rabbit Coffee House (published website contact page) | 2026-07-26 | run-11
+- [email created] Bliss Bakery and Bistro | Bakery/sweets | Bliss Bakery and Bistro (published website contact page) | 2026-07-26 | run-11
+- [email created] Blue Ginger Trading | Uncategorized | Blue Ginger Trading (published website contact page) | 2026-07-26 | run-11
+- [email created] Boheme Collective | Uncategorized | Boheme Collective (published website contact page) | 2026-07-26 | run-11
+- [email created] Bonanza Meats and Deli | Restaurant/cafe | Bonanza Meats and Deli (published website contact page) | 2026-07-26 | run-11
+- [email created] Bright Canada Electric | Trades — electrical | Bright Canada Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] Bright Jenny Coffee | Restaurant/cafe | Bright Jenny Coffee (published website contact page) | 2026-07-26 | run-11
+- [email created] Brookside Dental Centre | Dental/ortho | Brookside Dental Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] BRX Mortgage | Accounting/finance | BRX Mortgage (published website contact page) | 2026-07-26 | run-11
+- [email created] Canada Flex Realty Group | Real estate | Canada Flex Realty Group (published website contact page) | 2026-07-26 | run-11
+- [email created] Carnist Kelowna | Uncategorized | Carnist Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] CedarCreek Estate Winery | Pub/bar | tastingroom@cedarcreek.bc.ca | 2026-07-26 | run-11
+- [email created] Central Kitchen and Bar | Restaurant/cafe | Central Kitchen and Bar (published website contact page) | 2026-07-26 | run-11
+- [email created] Central Okanagan Foundation | Non-profit/society | Central Okanagan Foundation (published website contact page) | 2026-07-26 | run-11
+- [email created] Central Okanagan Youth Soccer Association | Non-profit/society | Central Okanagan Youth Soccer Association (published website contact page) | 2026-07-26 | run-11
+- [email created] ChainLine Cycle | Uncategorized | ChainLine Cycle (published website contact page) | 2026-07-26 | run-11
+- [email created] Cherry Hill Coffee | Restaurant/cafe | Cherry Hill Coffee (published website contact page) | 2026-07-26 | run-11
+- [email created] Choices Markets Kelowna | Grocery/market | Choices Markets Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Chris Holm and Associates | Uncategorized | Chris Holm and Associates (published website contact page) | 2026-07-26 | run-11
+- [email created] City Furniture Kelowna | Home furnishing | City Furniture Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Cleverley Real Estate Group | Uncategorized | Cleverley Real Estate Group (published website contact page) | 2026-07-26 | run-11
+- [email created] Club Pilates Kelowna | Fitness | Club Pilates Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Coast Capri Hotel | Hotel/motel/B&B | reservations@coastcaprihotel.com | 2026-07-26 | run-11
+- [email created] Collective Real Estate Group | Uncategorized | Collective Real Estate Group (published website contact page) | 2026-07-26 | run-11
+- [email created] Comfort Suites Kelowna | Uncategorized | Comfort Suites Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Cooper Fine Jewelry | Uncategorized | Cooper Fine Jewelry (published website contact page) | 2026-07-26 | run-11
+- [email created] Copper Brewing Company | Pub/bar | Copper Brewing Company (published website contact page) | 2026-07-26 | run-11
+- [email created] Creators Arts Centre | Uncategorized | Creators Arts Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Crimson Hair Salon | Salon/barber | Crimson Hair Salon (published website contact page) | 2026-07-26 | run-11
+- [email created] Crusztech Electric | Trades — electrical | Crusztech Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] Cyclepath Kelowna | Uncategorized | Cyclepath Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Delta Hotels Grand Okanagan Resort | Hotel/motel/B&B | Delta Hotels Grand Okanagan Resort (published website contact page) | 2026-07-26 | run-11
+- [email created] Dilworth Inn | Hotel/motel/B&B | Dilworth Inn (published website contact page) | 2026-07-26 | run-11
+- [email created] Doggytopia Kelowna | Uncategorized | Doggytopia Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] DV Nails and Spa | Salon/barber | DV Nails and Spa (published website contact page) | 2026-07-26 | run-11
+- [email created] Earls Kitchen and Bar Kelowna | Restaurant/cafe | Earls Kitchen and Bar Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Econo Barber Shop | Salon/barber | Econo Barber Shop (published website contact page) | 2026-07-26 | run-11
+- [email created] EnergyPlex Indoor Family Recreation Centre | Uncategorized | EnergyPlex Indoor Family Recreation Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Entec Electric | Trades — electrical | Entec Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] EXIT Kelowna | Professional services | EXIT Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Faces Body and Soul | Uncategorized | Faces Body and Soul (published website contact page) | 2026-07-26 | run-11
+- [email created] Femme Fatale Beauty Company | Spa/wellness | Femme Fatale Beauty Company (published website contact page) | 2026-07-26 | run-11
+- [email created] FH and P Lawyers | Legal | FH and P Lawyers (published website contact page) | 2026-07-26 | run-11
+- [email created] Four Points by Sheraton Kelowna | Uncategorized | Four Points by Sheraton Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Franks Dog and Suds | Uncategorized | Franks Dog and Suds (published website contact page) | 2026-07-26 | run-11
+- [email created] Funktional Kelowna | Uncategorized | Funktional Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Gather Kelowna | Uncategorized | Gather Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] GoForth Real Estate Team | Uncategorized | GoForth Real Estate Team (published website contact page) | 2026-07-26 | run-11
+- [email created] Gregg Alfonso Law Corporation | Legal | Gregg Alfonso Law Corporation (published website contact page) | 2026-07-26 | run-11
+- [email created] Groom and Go Kelowna | Uncategorized | Groom and Go Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] H2O Adventure and Fitness Centre | Fitness | H2O Adventure and Fitness Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Hampton Inn and Suites Kelowna Airport | Hotel/motel/B&B | Hampton Inn and Suites Kelowna Airport (published website contact page) | 2026-07-26 | run-11
+- [email created] Harper Twins Real Estate Group | Uncategorized | Harper Twins Real Estate Group (published website contact page) | 2026-07-26 | run-11
+- [email created] Holmes Electric | Trades — electrical | Holmes Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] Horton Electric | Trades — electrical | Horton Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] Hotel Eldorado | Hotel/motel/B&B | Hotel Eldorado (published website contact page) | 2026-07-26 | run-11
+- [email created] Hotel Kelowna and Conference Centre | Hotel/motel/B&B | Hotel Kelowna and Conference Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Hotel Zed Kelowna | Hotel/motel/B&B | Hotel Zed Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Humo Izakaya | Uncategorized | Humo Izakaya (published website contact page) | 2026-07-26 | run-11
+- [email created] Hyatt Place Kelowna | Uncategorized | Hyatt Place Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Illichmanns Sausage | Uncategorized | Illichmanns Sausage (published website contact page) | 2026-07-26 | run-11
+- [email created] Imperial Banquet Restaurant | Restaurant/cafe | Imperial Banquet Restaurant (published website contact page) | 2026-07-26 | run-11
+- [email created] Impulse Escape Room | Uncategorized | Impulse Escape Room (published website contact page) | 2026-07-26 | run-11
+- [email created] In Bloom Tattoo Studio | Tattoo/piercing | In Bloom Tattoo Studio (published website contact page) | 2026-07-26 | run-11
+- [email created] Inkroom Tattoos | Tattoo/piercing | Inkroom Tattoos (published website contact page) | 2026-07-26 | run-11
+- [email created] Insight Global Kelowna | Uncategorized | Insight Global Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Interlock Mechanical | Auto service | Interlock Mechanical (published website contact page) | 2026-07-26 | run-11
+- [email created] Irwins Safety Kelowna | Trades — building | Irwins Safety Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Jacks on Bernard | Uncategorized | Jacks on Bernard (published website contact page) | 2026-07-26 | run-11
+- [email created] Jaide and Joels | Uncategorized | Jaide and Joels (published website contact page) | 2026-07-26 | run-11
+- [email created] Jammers Cold Beer and Wine Store | Liquor retail | Jammers Cold Beer and Wine Store (published website contact page) | 2026-07-26 | run-11
+- [email created] JDL Power | Uncategorized | JDL Power (published website contact page) | 2026-07-26 | run-11
+- [email created] Kathys Pet Grooming | Uncategorized | Kathys Pet Grooming (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna and District SHARE Society | Non-profit/society | Kelowna and District SHARE Society (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Auto Care | Auto service | Kelowna Auto Care (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Curling Club | Non-profit/society | Kelowna Curling Club (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Cycle | Uncategorized | Kelowna Cycle (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Dragon Boat Club | Non-profit/society | Kelowna Dragon Boat Club (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna E Ride | Uncategorized | Kelowna E Ride (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Firefighters Charitable Society | Non-profit/society | Kelowna Firefighters Charitable Society (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Free Graze Lamb | Uncategorized | Kelowna Free Graze Lamb (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Hair Design | Salon/barber | Kelowna Hair Design (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Heritage Foundation | Non-profit/society | Kelowna Heritage Foundation (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Mobile Mechanics | Auto service | Kelowna Mobile Mechanics (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Nails | Salon/barber | Kelowna Nails (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Newcomers Club | Non-profit/society | Kelowna Newcomers Club (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Okanagan Lake Hostel | Uncategorized | Kelowna Okanagan Lake Hostel (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Paw Spa | Spa/wellness | Kelowna Paw Spa (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Pet Resort | Campground/RV | Kelowna Pet Resort (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Southgate Barber Shop | Salon/barber | Kelowna Southgate Barber Shop (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Ultimate Players Society | Non-profit/society | Kelowna Ultimate Players Society (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna United FC | Uncategorized | Kelowna United FC (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Yoga Hub | Fitness | Kelowna Yoga Hub (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna Youth Soccer Association | Non-profit/society | Kelowna Youth Soccer Association (published website contact page) | 2026-07-26 | run-11
+- [email created] Kemp Co Electric | Trades — electrical | Kemp Co Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] Kettle River Brewing | Pub/bar | Kettle River Brewing (published website contact page) | 2026-07-26 | run-11
+- [email created] Kettle Valley Brewing | Pub/bar | Kettle Valley Brewing (published website contact page) | 2026-07-26 | run-11
+- [email created] Key Momentum Mortgages | Accounting/finance | Key Momentum Mortgages (published website contact page) | 2026-07-26 | run-11
+- [email created] Krueger Electrical | Trades — electrical | Krueger Electrical (published website contact page) | 2026-07-26 | run-11
+- [email created] KWD Marketing | Grocery/market | KWD Marketing (published website contact page) | 2026-07-26 | run-11
+- [email created] Lakefront Sports Centre | Uncategorized | Lakefront Sports Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Lakeside Chiropractic Centre | Physio/chiro/massage | Lakeside Chiropractic Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Lakeside Medicine Centre | Uncategorized | Lakeside Medicine Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Lakeview Market Kelowna | Grocery/market | Lakeview Market Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Landmark Hair | Salon/barber | Landmark Hair (published website contact page) | 2026-07-26 | run-11
+- [email created] Leopolds Tavern Kelowna | Pub/bar | Leopolds Tavern Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Lifemark Kelowna | Uncategorized | Lifemark Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Little Boutique on Ellis | Retail | Little Boutique on Ellis (published website contact page) | 2026-07-26 | run-11
+- [email created] Man Made Barber and Supply | Salon/barber | Man Made Barber and Supply (published website contact page) | 2026-07-26 | run-11
+- [email created] Manteo at Eldorado Resort | Campground/RV | Manteo at Eldorado Resort (published website contact page) | 2026-07-26 | run-11
+- [email created] Martens Contracting | Trades — building | Martens Contracting (published website contact page) | 2026-07-26 | run-11
+- [email created] Max Performance Kelowna | Uncategorized | Max Performance Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Metro Liquor Kelowna | Liquor retail | Metro Liquor Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Milk Shed Kelowna | Uncategorized | Milk Shed Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Mirror Mirror Salon and Spa | Salon/barber | Mirror Mirror Salon and Spa (published website contact page) | 2026-07-26 | run-11
+- [email created] Miso Hair Salon | Salon/barber | Miso Hair Salon (published website contact page) | 2026-07-26 | run-11
+- [email created] Mission Liquor Store | Liquor retail | Mission Liquor Store (published website contact page) | 2026-07-26 | run-11
+- [email created] Modsalon | Uncategorized | Modsalon (published website contact page) | 2026-07-26 | run-11
+- [email created] Motor Werke | Uncategorized | Motor Werke (published website contact page) | 2026-07-26 | run-11
+- [email created] MVP Modern Barbers | Salon/barber | MVP Modern Barbers (published website contact page) | 2026-07-26 | run-11
+- [email created] MYE Studio | Uncategorized | MYE Studio (published website contact page) | 2026-07-26 | run-11
+- [email created] Nice Nails And Spa 4 U | Salon/barber | Nice Nails And Spa 4 U (published website contact page) | 2026-07-26 | run-11
+- [email created] Notable Electric | Trades — electrical | Notable Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] OFlannigans Liquor Store | Liquor retail | OFlannigans Liquor Store (published website contact page) | 2026-07-26 | run-11
+- [email created] Okanagan Grocery | Grocery/market | Okanagan Grocery (published website contact page) | 2026-07-26 | run-11
+- [email created] Okanagan Home Team | Uncategorized | Okanagan Home Team (published website contact page) | 2026-07-26 | run-11
+- [email created] Okanagan Seasons Resort | Campground/RV | Okanagan Seasons Resort (published website contact page) | 2026-07-26 | run-11
+- [email created] One Electric Kelowna | Trades — electrical | One Electric Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Opus Salon | Salon/barber | Opus Salon (published website contact page) | 2026-07-26 | run-11
+- [email created] Oxygen Yoga and Fitness Kelowna | Fitness | Oxygen Yoga and Fitness Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Packing House Self Storage | Moving/storage | Packing House Self Storage (published website contact page) | 2026-07-26 | run-11
+- [email created] Pak-Rat Towing and Hot Shot Services | Auto service | Pak-Rat Towing and Hot Shot Services (published website contact page) | 2026-07-26 | run-11
+- [email created] Panel Pro Electric | Trades — electrical | Panel Pro Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] Perrara Jewelry | Uncategorized | Perrara Jewelry (published website contact page) | 2026-07-26 | run-11
+- [email created] Peters Your Independent Grocer | Grocery/market | Peters Your Independent Grocer (published website contact page) | 2026-07-26 | run-11
+- [email created] Plan B Headquarters | Uncategorized | Plan B Headquarters (published website contact page) | 2026-07-26 | run-11
+- [email created] Polene Kelowna | Uncategorized | Polene Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Porrelli Law | Legal | Porrelli Law (published website contact page) | 2026-07-26 | run-11
+- [email created] Pro Grade Solutions | Uncategorized | Pro Grade Solutions (published website contact page) | 2026-07-26 | run-11
+- [email created] Pulp Fiction Coffee House | Restaurant/cafe | Pulp Fiction Coffee House (published website contact page) | 2026-07-26 | run-11
+- [email created] Quantus Electric | Trades — electrical | Quantus Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] Railside Brewing | Pub/bar | Railside Brewing (published website contact page) | 2026-07-26 | run-11
+- [email created] Restoration Station Massage and Spa | Spa/wellness | Restoration Station Massage and Spa (published website contact page) | 2026-07-26 | run-11
+- [email created] Revive Nails Bar | Salon/barber | Revive Nails Bar (published website contact page) | 2026-07-26 | run-11
+- [email created] REVS E Bikes | Uncategorized | REVS E Bikes (published website contact page) | 2026-07-26 | run-11
+- [email created] Roketto | Uncategorized | Roketto (published website contact page) | 2026-07-26 | run-11
+- [email created] RPM Automotive Kelowna | Auto service | RPM Automotive Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Rustic Reel Brewing | Pub/bar | Rustic Reel Brewing (published website contact page) | 2026-07-26 | run-11
+- [email created] Rutland Dental Centre | Dental/ortho | Rutland Dental Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Rutland Pet Hospital | Uncategorized | Rutland Pet Hospital (published website contact page) | 2026-07-26 | run-11
+- [email created] Salt and Brick | Uncategorized | Salt and Brick (published website contact page) | 2026-07-26 | run-11
+- [email created] Scandesigns Kelowna | Professional services | Scandesigns Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Seniors Health and Wellness Centre Kelowna | Spa/wellness | Seniors Health and Wellness Centre Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Ships Ahoy Fish and Chips | Uncategorized | Ships Ahoy Fish and Chips (published website contact page) | 2026-07-26 | run-11
+- [email created] Similkameen Turkey Farm | Landscaping/garden | Similkameen Turkey Farm (published website contact page) | 2026-07-26 | run-11
+- [email created] Skinny Dukes Glorious Emporium | Uncategorized | Skinny Dukes Glorious Emporium (published website contact page) | 2026-07-26 | run-11
+- [email created] SlyFox Web Design | Professional services | SlyFox Web Design (published website contact page) | 2026-07-26 | run-11
+- [email created] Social Pets Kelowna | Uncategorized | Social Pets Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Soma Craft Cidery | Pub/bar | Soma Craft Cidery (published website contact page) | 2026-07-26 | run-11
+- [email created] Sovereign Cycle | Uncategorized | Sovereign Cycle (published website contact page) | 2026-07-26 | run-11
+- [email created] Space Centre Storage | Moving/storage | Space Centre Storage (published website contact page) | 2026-07-26 | run-11
+- [email created] Specialty Autofab Supply | Auto service | Specialty Autofab Supply (published website contact page) | 2026-07-26 | run-11
+- [email created] Sperling Vineyards | Uncategorized | info@sperlingvineyards.com | 2026-07-26 | run-11
+- [email created] Springfield Dental Centre | Dental/ortho | Springfield Dental Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Springfield Meat and Sausage | Uncategorized | Springfield Meat and Sausage (published website contact page) | 2026-07-26 | run-11
+- [email created] St Hubertus Estate Winery | Pub/bar | wine@st-hubertus.bc.ca | 2026-07-26 | run-11
+- [email created] Stagedoor Dance Studios | School/training | Stagedoor Dance Studios (published website contact page) | 2026-07-26 | run-11
+- [email created] Steed Speed Advanced Performance | Uncategorized | Steed Speed Advanced Performance (published website contact page) | 2026-07-26 | run-11
+- [email created] Sun City Electrical | Trades — electrical | Sun City Electrical (published website contact page) | 2026-07-26 | run-11
+- [email created] Sun Valley Electric | Trades — electrical | Sun Valley Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] Sunnys A Modern Diner | Restaurant/cafe | Sunnys A Modern Diner (published website contact page) | 2026-07-26 | run-11
+- [email created] Sweat Studios Kelowna | Uncategorized | Sweat Studios Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Sweet Deals Moving | Moving/storage | Sweet Deals Moving (published website contact page) | 2026-07-26 | run-11
+- [email created] Tantalus Vineyards | Uncategorized | Tantalus Vineyards (published website contact page) | 2026-07-26 | run-11
+- [email created] Taylors Tailored Trims | Uncategorized | Taylors Tailored Trims (published website contact page) | 2026-07-26 | run-11
+- [email created] The Aitkens Group | Uncategorized | The Aitkens Group (published website contact page) | 2026-07-26 | run-11
+- [email created] The Bakers Corner Kelowna | Uncategorized | The Bakers Corner Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] The Blind Angler Grill | Home furnishing | The Blind Angler Grill (published website contact page) | 2026-07-26 | run-11
+- [email created] The Canadian School of Ballet | School/training | The Canadian School of Ballet (published website contact page) | 2026-07-26 | run-11
+- [email created] The Halal Butcher | Uncategorized | The Halal Butcher (published website contact page) | 2026-07-26 | run-11
+- [email created] The Highland Thistle Dance Studios | School/training | The Highland Thistle Dance Studios (published website contact page) | 2026-07-26 | run-11
+- [email created] The Kore Dance Project | School/training | The Kore Dance Project (published website contact page) | 2026-07-26 | run-11
+- [email created] The Nook Cafe and Bar | Restaurant/cafe | The Nook Cafe and Bar (published website contact page) | 2026-07-26 | run-11
+- [email created] The Rage Hair Studio | Salon/barber | The Rage Hair Studio (published website contact page) | 2026-07-26 | run-11
+- [email created] The Royal Kelowna | Uncategorized | The Royal Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] The Tailored Shave | Uncategorized | The Tailored Shave (published website contact page) | 2026-07-26 | run-11
+- [email created] The Wardrobe Boutique | Retail | The Wardrobe Boutique (published website contact page) | 2026-07-26 | run-11
+- [email created] Third Space Coffee | Restaurant/cafe | Third Space Coffee (published website contact page) | 2026-07-26 | run-11
+- [email created] Thrive Agency Kelowna | Uncategorized | Thrive Agency Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Thrive Okanagan Real Estate Team | Uncategorized | Thrive Okanagan Real Estate Team (published website contact page) | 2026-07-26 | run-11
+- [email created] Tims Transmissions | Uncategorized | Tims Transmissions (published website contact page) | 2026-07-26 | run-11
+- [email created] TOPS Auto Repair | Auto service | TOPS Auto Repair (published website contact page) | 2026-07-26 | run-11
+- [email created] Turner Group of Companies | Trades — building | Turner Group of Companies (published website contact page) | 2026-07-26 | run-11
+- [email created] Tutt Street Tapas and Wine | Uncategorized | Tutt Street Tapas and Wine (published website contact page) | 2026-07-26 | run-11
+- [email created] Twin Creek Media | Uncategorized | Twin Creek Media (published website contact page) | 2026-07-26 | run-11
+- [email created] Twin Sparks Coffee | Restaurant/cafe | Twin Sparks Coffee (published website contact page) | 2026-07-26 | run-11
+- [email created] United Rentals Kelowna | Trades — building | United Rentals Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Unleashed Brewing | Pub/bar | Unleashed Brewing (published website contact page) | 2026-07-26 | run-11
+- [email created] Untouchable Salon | Salon/barber | Untouchable Salon (published website contact page) | 2026-07-26 | run-11
+- [email created] Urban Distilleries | Pub/bar | Urban Distilleries (published website contact page) | 2026-07-26 | run-11
+- [email created] Urban Fare Kelowna | Uncategorized | Urban Fare Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Urban Liquor | Liquor retail | Urban Liquor (published website contact page) | 2026-07-26 | run-11
+- [email created] Urth the Salon Space | Salon/barber | Urth the Salon Space (published website contact page) | 2026-07-26 | run-11
+- [email created] Vice and Virtue Brewing | Pub/bar | Vice and Virtue Brewing (published website contact page) | 2026-07-26 | run-11
+- [email created] Voyager RV Centre | Uncategorized | Voyager RV Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Xperience Games Kelowna | Uncategorized | Xperience Games Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Young Nail Bar | Salon/barber | Young Nail Bar (published website contact page) | 2026-07-26 | run-11
+- [email created] Yuppie Puppy Kelowna | Uncategorized | Yuppie Puppy Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Zeal Media | Uncategorized | Zeal Media (published website contact page) | 2026-07-26 | run-11
+- [email created] Zell Electric | Trades — electrical | Zell Electric (published website contact page) | 2026-07-26 | run-11
+- [email created] Advanced Automatic Transmission Center | Auto service | Advanced Automatic Transmission Center (published website contact page) | 2026-07-26 | run-11
+- [email created] Asian Pear Buffet | Uncategorized | Asian Pear Buffet (published website contact page) | 2026-07-26 | run-11
+- [email created] Cherry Pit Restaurant | Restaurant/cafe | Cherry Pit Restaurant (published website contact page) | 2026-07-26 | run-11
+- [email created] Cooper Equipment Rentals West Kelowna | Trades — building | Cooper Equipment Rentals West Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Go Pure Esthetics and Spa | Salon/barber | Go Pure Esthetics and Spa (published website contact page) | 2026-07-26 | run-11
+- [email created] Il Mercato Social Kitchen | Restaurant/cafe | Il Mercato Social Kitchen (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelly OBryans Restaurant | Restaurant/cafe | Kelly OBryans Restaurant (published website contact page) | 2026-07-26 | run-11
+- [email created] Lakesider Brewing | Pub/bar | Lakesider Brewing (published website contact page) | 2026-07-26 | run-11
+- [email created] Little Straw Vineyards | Uncategorized | Little Straw Vineyards (published website contact page) | 2026-07-26 | run-11
+- [email created] Mission Hill Family Estate | Uncategorized | Mission Hill Family Estate (published website contact page) | 2026-07-26 | run-11
+- [email created] Outbound Cycle | Uncategorized | Outbound Cycle (published website contact page) | 2026-07-26 | run-11
+- [email created] Pepper Pot Grill | Restaurant/cafe | Pepper Pot Grill (published website contact page) | 2026-07-26 | run-11
+- [email created] Pro-Active Physiotherapy West Kelowna | Physio/chiro/massage | Pro-Active Physiotherapy West Kelowna (published website contact page) | 2026-07-26 | run-11
+- [email created] Smith Creek Cycle | Uncategorized | Smith Creek Cycle (published website contact page) | 2026-07-26 | run-11
+- [email created] West K Dance Studio | School/training | West K Dance Studio (published website contact page) | 2026-07-26 | run-11
+- [email created] Your Buddys Pizza | Restaurant/cafe | Your Buddys Pizza (published website contact page) | 2026-07-26 | run-11
+- [email created] Log Home Bed and Breakfast Peachland | Hotel/motel/B&B | Log Home Bed and Breakfast Peachland (published website contact page) | 2026-07-26 | run-11
+- [email created] Murray's Pizza Peachland | Restaurant/cafe | Murray's Pizza Peachland (published website contact page) | 2026-07-26 | run-11
+- [email created] Peachland Dental Centre | Dental/ortho | Peachland Dental Centre (published website contact page) | 2026-07-26 | run-11
+- [email created] Peachland Fitness Club | Fitness | Peachland Fitness Club (published website contact page) | 2026-07-26 | run-11

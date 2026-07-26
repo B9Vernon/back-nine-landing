@@ -32,7 +32,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from b9lib import normalize, normalize_strict, load_log  # noqa: E402
+from b9lib import normalize, normalize_strict, towns_in, load_log  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_LOG = os.path.join(HERE, '..', 'state', 'outreach-log.md')
@@ -49,7 +49,9 @@ def main():
     logged, logged_strict = {}, {}
     for row in load_log(args.log):
         logged.setdefault(normalize(row['name']), row['name'])
-        logged_strict.setdefault(normalize_strict(row['name']), row['name'])
+        # keep every logged name that shares a stripped core, so town
+        # qualifiers can be compared rather than silently collapsed
+        logged_strict.setdefault(normalize_strict(row['name']), []).append(row['name'])
 
     src = open(args.candidates, encoding='utf-8') if args.candidates else sys.stdin
     names = [ln.strip() for ln in src if ln.strip()]
@@ -62,8 +64,19 @@ def main():
         elif key in seen:
             verdict, note = 'REP', 'repeated in this input'
         elif skey and skey in logged_strict:
-            verdict, note = 'NEAR', f'close to "{logged_strict[skey]}" — check by hand'
-            seen.add(key)
+            # Same core name once legal suffixes and towns are stripped.
+            # A DUP unless the town qualifiers actually conflict, which
+            # would mean two different branches.
+            mine = towns_in(name)
+            hits = [n for n in logged_strict[skey]
+                    if not (mine and towns_in(n) and not (mine & towns_in(n)))]
+            if hits:
+                verdict, note = 'DUP', f'same business as "{hits[0]}"'
+            else:
+                verdict = 'NEAR'
+                note = (f'shares a name with "{logged_strict[skey][0]}" but a '
+                        f'different town — likely a separate branch, confirm')
+                seen.add(key)
         else:
             verdict, note = 'ok', ''
             seen.add(key)

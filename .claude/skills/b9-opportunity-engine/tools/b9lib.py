@@ -34,11 +34,20 @@ LOCKED_TV_FAR = re.compile(
     r'sending (?:them|the people) straight to your [a-z\- ]+'
 )
 
-# Legal suffixes and location qualifiers that never distinguish two businesses.
-_NOISE = re.compile(
-    r'\b(ltd|ltee|inc|corp|corporation|co|company|llp|llc|society|association|'
-    r'holdings|enterprises|group|bc|vernon|coldstream|lumby|armstrong|enderby|'
-    r'lavington|oyama|winfield)\b'
+# Legal suffixes never distinguish two businesses.
+_SUFFIX = re.compile(
+    r'\b(ltd|ltee|inc|corp|corporation|co|company|llp|llc|holdings|'
+    r'enterprises|bc)\b'
+)
+
+# Town qualifiers DO sometimes distinguish two businesses ("RE/MAX Vernon" and
+# "RE/MAX Lumby" are different offices), so they get handled separately from
+# legal suffixes — see same_business().
+_TOWNS = (
+    'vernon', 'coldstream', 'lumby', 'armstrong', 'enderby', 'lavington',
+    'oyama', 'winfield', 'kelowna', 'west kelowna', 'westbank', 'lake country',
+    'salmon arm', 'sicamous', 'sorrento', 'spallumcheen', 'cherryville',
+    'silver star', 'silverstar', 'downtown',
 )
 
 
@@ -56,15 +65,44 @@ def normalize(name: str) -> str:
     return ' '.join(s.split())
 
 
-def normalize_strict(name: str) -> str:
-    """Aggressive form: also strips legal suffixes and town qualifiers.
+def towns_in(name: str):
+    """Town qualifiers present in a name."""
+    n = normalize(name)
+    return {t for t in _TOWNS if re.search(rf'\b{t}\b', n)}
 
-    Used only to SURFACE possible matches for human review, never to
-    auto-reject — it collapses genuinely different businesses (e.g.
-    "Kal Tire Lumby" and "Kal Tire Vernon" are separate branches).
-    """
-    s = _NOISE.sub(' ', normalize(name))
+
+def normalize_strict(name: str) -> str:
+    """Strips legal suffixes AND town qualifiers. Use with same_business()."""
+    s = normalize(name)
+    for t in sorted(_TOWNS, key=len, reverse=True):
+        s = re.sub(rf'\b{t}\b', ' ', s)
+    s = _SUFFIX.sub(' ', s)
     return ' '.join(s.split())
+
+
+def same_business(a: str, b: str) -> bool:
+    """True when two names almost certainly denote the same business.
+
+    Runs 2-8 double-contacted 32 businesses because exact matching treated
+    "Bean Scene Coffee House" and "Bean Scene Coffee House Vernon" as two
+    different companies. The rule that fixes it without creating false
+    matches:
+
+      same core name (suffixes and towns stripped), AND
+      the town qualifiers do not CONFLICT.
+
+    So "Pinnacle Roofing" == "Pinnacle Roofing Vernon" (one names a town,
+    the other doesn't), but "RE/MAX Vernon" != "RE/MAX Lumby" (two towns
+    that disagree) and "Kal Tire Lumby" != "Kal Tire Head Office" (the
+    non-town qualifier survives stripping and differs).
+    """
+    ka, kb = normalize_strict(a), normalize_strict(b)
+    if not ka or ka != kb:
+        return False
+    ta, tb = towns_in(a), towns_in(b)
+    if ta and tb and not (ta & tb):
+        return False        # different towns — different branches
+    return True
 
 
 def load_log(path):
