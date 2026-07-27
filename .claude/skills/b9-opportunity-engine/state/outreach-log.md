@@ -1152,7 +1152,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Lakeside Mobile Auto Spa | Local business | Lakeside Mobile Auto Spa + 250-979-8475 | 2026-07-25 | run-7
 - [email created] Viking Mobile Tire Services | Local business | Viking Mobile Tire Services + 778-363-8930 | 2026-07-25 | run-7
 - [email created] Empire Pool and Patio | Local business | Empire Pool & Patio, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Premium Pool and Spa | Local business | Premium Pool & Spa, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Premium Pool and Spa | Local business | Premium Pool & Spa, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Premium Pool & Spa" — do not contact again
 - [email created] Central Okanagan Pools | Local business | centralokanaganpools.com contact page | 2026-07-25 | run-7
 - [email created] Blue Haven Pools and Landscapes | Local business | Blue Haven Pools & Landscapes, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Pools Ponds and Waterscapes | Local business | Pools Ponds & Waterscapes, Vernon (site/phone) | 2026-07-25 | run-7
@@ -1242,7 +1242,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Bonita Beauty and Wellness | Local business | Bonita Beauty & Wellness, Vernon (Vagaro booking/phone) | 2026-07-25 | run-7
 - [email created] Second Hand Rose Vernon | Local business | Second Hand Rose, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Vantage West Property Management | Local business | Vantage West Property Management, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Accent Property Management | Local business | Accent Property Management Ltd, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Accent Property Management | Local business | info@accentpm.ca | 2026-07-25 | run-7
 - [email created] Keystone Property Management Vernon | Local business | Keystone Property Management Ltd, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Keystone Property Management" — do not contact again
 - [email created] Superior Property Management Vernon | Local business | Superior Property Management, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Associated Property Management Okanagan | Local business | associatedpm.ca contact page | 2026-07-25 | run-7
@@ -1272,11 +1272,11 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] NO Tempest Tigers Summer Swim Club | Local business | N.O. Tempest Tigers Summer Swim Club (site/contact) | 2026-07-25 | run-7
 - [email created] Best Western Premier Route 97 Vernon | Local business | Best Western Premier Route 97, Vernon (front desk/site) | 2026-07-25 | run-7
 - [email created] Holiday Inn Express and Suites Vernon | Local business | Holiday Inn Express & Suites Vernon (front desk/site) | 2026-07-25 | run-7
-- [email created] Prestige Hotel Vernon | Local business | Prestige Hotel Vernon (front desk/site) | 2026-07-25 | run-7
-- [email created] Prestige Vernon Lodge and Conference Centre | Local business | 3914 32nd Street, Vernon — Convention & Sales Manager (ext. 410) | 2026-07-25 | run-7
+- [email created] Prestige Hotel Vernon | Local business | Vernon@PrestigeHotels.ca | 2026-07-25 | run-7
+- [email created] Prestige Vernon Lodge and Conference Centre | Local business | 3914 32nd Street, Vernon — Convention & Sales Manager (ext. 410) | 2026-07-25 | run-7 | duplicate of "Prestige Vernon Lodge & Conference Centre" — do not contact again
 - [email created] Fairfield Inn and Suites Vernon | Local business | Fairfield Inn & Suites Vernon (front desk/site) | 2026-07-25 | run-7
 - [email created] Sandman Hotel and Suites Vernon | Local business | Sandman Hotel & Suites Vernon (front desk/site) | 2026-07-25 | run-7
-- [email created] Sparkling Hill Resort and Spa | Local business | Sparkling Hill Resort & Spa (site/contact) | 2026-07-25 | run-7
+- [email created] Sparkling Hill Resort and Spa | Local business | Sparkling Hill Resort & Spa (site/contact) | 2026-07-25 | run-7 | duplicate of "Sparkling Hill Resort" — do not contact again
 - [email created] Tiki Village Motor Inn | Local business | Tiki Village Motor Inn, Vernon (front desk/site) | 2026-07-25 | run-7
 - [email created] Blue Stream Motel | Local business | Blue Stream Motel, Vernon (front desk/phone) | 2026-07-25 | run-7
 - [email created] Green Valley Motel | Local business | Green Valley Motel, Vernon (front desk/phone) | 2026-07-25 | run-7
@@ -1302,8 +1302,8 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] SilverStar Brewing | Local business | SilverStar Brewing, Vernon (site/contact) | 2026-07-25 | run-7 | duplicate of "Silverstar Brewing Co" — do not contact again
 - [email created] Marten Brewing Co | Local business | Marten Brewing Co., Vernon (site/contact) | 2026-07-25 | run-7
 - [email created] Okanagan Spirits Vernon | Local business | Okanagan Spirits, Vernon (site/contact) | 2026-07-25 | run-7
-- [email created] Cambium Cider Co | Local business | Cambium Cider Co., Vernon (site/contact) | 2026-07-25 | run-7
-- [email created] BX Press Cidery and Orchard | Local business | BX Press Cidery & Orchard, Vernon (site/contact) | 2026-07-25 | run-7
+- [email created] Cambium Cider Co | Local business | hello@cambiumcider.com | 2026-07-25 | run-7 | duplicate of "The BX Press Cidery (rebranding to Cambium Cider Co.)" — do not contact again
+- [email created] BX Press Cidery and Orchard | Local business | BX Press Cidery & Orchard, Vernon (site/contact) | 2026-07-25 | run-7 | duplicate of "The BX Press Cidery (rebranding to Cambium Cider Co.)" — do not contact again
 - [email created] Planet Bee Honeymoon Meadery | Local business | Planet Bee Honeymoon Meadery, Vernon (site/contact) | 2026-07-25 | run-7
 - [email created] Second Chances Thrift Store | Local business | Second Chances Thrift Store, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Bracken Wood Bed and Breakfast | Local business | Bracken Wood B&B, Lake Country + 250-766-4472 | 2026-07-25 | run-7
@@ -1315,7 +1315,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Kal Lake Food Services | Local business | kallakefoodservices@gmail.com + 250-309-5957 | 2026-07-25 | run-7
 - [email created] Coldstream Collective | Local business | Coldstream Collective, Coldstream (site/social) | 2026-07-25 | run-7
 - [email created] Antlers Cold Beer and Wine Store | Local business | 2031 Vernon St, Lumby (site/phone) | 2026-07-25 | run-7
-- [email created] Lumby and District Chamber of Commerce | Local business | lumbychamber@shaw.ca + 250-547-2300 | 2026-07-25 | run-7
+- [email created] Lumby and District Chamber of Commerce | Local business | lumbychamber@shaw.ca + 250-547-2300 | 2026-07-25 | run-7 | duplicate of "Lumby & District Chamber of Commerce" — do not contact again
 - [email created] Country Manor Kitchen | Local business | 2590 Pleasant Valley Road, Armstrong (site/phone) | 2026-07-25 | run-7
 - [email created] The Wild Oak Cafe | Local business | wildoakcafe2021@gmail.com (2539 Pleasant Valley Blvd, Armstrong) | 2026-07-25 | run-7
 - [email created] Armstrong General Store | Local business | armstrongstore7@gmail.com (3455 Pleasant Valley Road, Armstrong) | 2026-07-25 | run-7
@@ -1324,7 +1324,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] The Bargain Shop Enderby | Local business | 507 Cliff Ave, Enderby + 250-838-0771 | 2026-07-25 | run-7
 - [email created] Twice But Nice Enderby | Local business | 702 Cliff Avenue, Enderby + 250-838-6822 | 2026-07-25 | run-7
 - [email created] Brer Rabbit Day Care | Local business | Brer Rabbit Day Care, Vernon (site/phone) | 2026-07-26 | run-8
-- [email created] Appletree Childcare Centre | Local business | 1406 32nd Ave, Vernon (appletreechildcare.ca contact) | 2026-07-26 | run-8
+- [email created] Appletree Childcare Centre | Local business | 1406 32nd Ave, Vernon (appletreechildcare.ca contact) | 2026-07-26 | run-8 | duplicate of "Appletree Childcare" — do not contact again
 - [email created] Okanagan Clinical Counselling Services | Local business | Okanagan Clinical Counselling Services, Vernon (site/contact) | 2026-07-26 | run-8
 - [email created] Interactive Counselling Vernon | Local business | 4300 27 St Unit 5, Vernon + 778-506-2276 | 2026-07-26 | run-8
 - [email created] Relate and Restore Counselling | Local business | relateandrestore.ca contact page | 2026-07-26 | run-8
@@ -1332,7 +1332,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vinterra Wellness | Local business | Vinterra Wellness, 27th St, Vernon (site/contact) | 2026-07-26 | run-8
 - [email created] Movement Society Vernon | Local business | Movement Society, Vernon (site/contact) | 2026-07-26 | run-8
 - [email created] F45 Training Vernon | Local business | F45 Training Vernon (site/contact) | 2026-07-26 | run-8
-- [email created] Ratio Coffee | Local business | Ratio Coffee, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Ratio Coffee | Local business | hello@ratiocoffee.ca | 2026-07-26 | run-8
 - [email created] Bean To Cup Vernon | Local business | Bean To Cup, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] The Boarding House Cafe and Bakery | Local business | The Boarding House Cafe & Bakery, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Bean Scene Coffee House Vernon | Local business | Bean Scene Coffee House, Vernon (site/phone) | 2026-07-26 | run-8 | duplicate of "Bean Scene Coffee House" — do not contact again
@@ -1435,7 +1435,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] KingFisher Boats | Local business | admin@kingfisherboats.com (8160 Highland Road, Vernon) | 2026-07-26 | run-8
 - [email created] Hytec Kohler Vernon | Local business | Hytec (a division of Kohler), Vernon (site/contact) | 2026-07-26 | run-8
 - [email created] Maxx Canada | Local business | Maxx Canada, Vernon (site/contact) | 2026-07-26 | run-8
-- [email created] Rapid Span Bridge Structures | Local business | Rapid Span Bridge Structures, Vernon (site/contact) | 2026-07-26 | run-8
+- [email created] Rapid Span Bridge Structures | Local business | info@rapidspan.com | 2026-07-26 | run-8
 - [email created] Woodtone | Local business | Woodtone, Vernon (site/contact) | 2026-07-26 | run-8
 - [email created] Dutchs Campground | Local business | 15408 Kalamalka Lake Road, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Owls Nest Resort and Marina | Local business | #8, 4111 Evans Road, Oyama (site/phone) | 2026-07-26 | run-8
@@ -1521,7 +1521,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Little City Merchant | Local business | Little City Merchant, Enderby (site/social) | 2026-07-26 | run-8
 - [email created] Ashton Creek General Store | Local business | Ashton Creek General Store, Enderby (site/phone) | 2026-07-26 | run-8
 - [email created] Mabel Lake Resort and Airpark | Local business | Mabel Lake Resort & Airpark, Enderby (site/contact) | 2026-07-26 | run-8
-- [email created] Enderby and District Chamber of Commerce | Local business | Enderby & District Chamber of Commerce (enderbychamber.com contact) | 2026-07-26 | run-8
+- [email created] Enderby and District Chamber of Commerce | Local business | Enderby & District Chamber of Commerce (enderbychamber.com contact) | 2026-07-26 | run-8 | duplicate of "Enderby & District Chamber of Commerce" — do not contact again
 - [email created] Enderby Rentals | Local business | enderbyrentals.ca + 250-838-7328 | 2026-07-26 | run-8
 - [email created] Fork Seasons | Uncategorized | info@forkseasons.ca | 2026-07-26 | run-9
 - [email created] Lawson Engineering Ltd. | Trades — building | marketing@lawsonengineering.ca | 2026-07-26 | run-9
