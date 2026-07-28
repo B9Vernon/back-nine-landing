@@ -71,12 +71,37 @@ def towns_in(name: str):
     return {t for t in _TOWNS if re.search(rf'\b{t}\b', n)}
 
 
+# Trailing descriptors that businesses add or drop between listings. Stripping
+# these caught 8 duplicates the suffix+town rule alone still missed, e.g.
+# "Sparkling Hill Resort" vs "Sparkling Hill Resort and Spa".
+_TRAIL = re.compile(
+    r'\b(and |& )?(spa|conference cent(re|er)|orchard|resort|inn|store|shop|'
+    r'restaurant|cafe|centre|center|group|studio|services|service|society|'
+    r'association|clinic|company)\b\s*$'
+)
+
+
+# Joining words that businesses add or drop freely. "Grace Bible Church of
+# Vernon" and "Grace Bible Church Vernon" are the same congregation.
+_STOP = re.compile(r'\b(of|the|and|at|for|in|on)\b')
+
+# Organisational words dropped anywhere in the name, not just at the end.
+# "Vernon Elks Lodge #45" and "Vernon Elks 45" are one lodge.
+_ORGWORD = re.compile(r'\b(lodge|branch|chapter|no)\b')
+
+
 def normalize_strict(name: str) -> str:
-    """Strips legal suffixes AND town qualifiers. Use with same_business()."""
-    s = normalize(name)
+    """Strips legal suffixes, towns, trailing descriptors and joining words."""
+    s = _ORGWORD.sub(' ', _STOP.sub(' ', normalize(name)))
     for t in sorted(_TOWNS, key=len, reverse=True):
         s = re.sub(rf'\b{t}\b', ' ', s)
     s = _SUFFIX.sub(' ', s)
+    s = ' '.join(s.split())
+    for _ in range(4):                      # peel repeated trailing words
+        new = _TRAIL.sub('', s).strip()
+        if new == s or not new:
+            break
+        s = new
     return ' '.join(s.split())
 
 

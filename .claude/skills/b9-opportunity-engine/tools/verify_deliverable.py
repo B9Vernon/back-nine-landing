@@ -71,6 +71,9 @@ def main():
     ap.add_argument('file')
     ap.add_argument('--expect', type=int, help='expected number of entries')
     ap.add_argument('--log', default=DEFAULT_LOG)
+    ap.add_argument('--email-only', action='store_true',
+                    help='fail unless every To: line is a real email address '
+                         '(the standing rule since run 12)')
     ap.add_argument('--logged-as', metavar='RUN_TAG',
                     help='this file is already logged under RUN_TAG; ignore its '
                          'own rows when checking for log overlap (use when '
@@ -119,7 +122,7 @@ def main():
     # Count inside email bodies only. The file header legitimately describes
     # the TV offer and must not be counted as an unlocked mention.
     body_text = '\n'.join(m.group(1) for m in re.finditer(
-        r'^Subject: .+\n\n(.+?)\n\nhttps://', text, re.S | re.M))
+        r'^Subject: [^\n]+\n\n(.+?)\n\nhttps://', text, re.S | re.M))
     form_a = body_text.count(LOCKED_TV)
     form_b = len(LOCKED_TV_FAR.findall(body_text)) - form_a
     tv_locked = form_a + form_b
@@ -144,7 +147,7 @@ def main():
     # lines (domains, "acutruss.com/vernon") legitimately contain patterns
     # that look like broken prose.
     bodies = '\n'.join(m.group(1) for m in re.finditer(
-        r'^Subject: .+\n\n(.+?)\n\nhttps://', text, re.S | re.M))
+        r'^Subject: [^\n]+\n\n(.+?)\n\nhttps://', text, re.S | re.M))
 
     r.check('  ' not in bodies, 'no doubled spaces')
     r.check(not re.search(r'\s,|,,|,\s*\.', bodies), 'no orphaned commas')
@@ -185,10 +188,22 @@ def main():
 
     # --- contact quality (informational) ---------------------------------
     tos = re.findall(r'^To: (.+)$', text, re.M)
-    emails = sum(1 for t in tos if re.search(r'[^\s@]+@[^\s@]+\.[a-z]{2,}', t))
+    EMAIL = re.compile(r'[^\s@]+@[^\s@]+\.[a-z]{2,}', re.I)
+    emails = sum(1 for t in tos if EMAIL.search(t))
     phones = sum(1 for t in tos if re.search(r'\b\d{3}[-.]\d{3}[-.]\d{4}\b', t))
     print(f'  Contact mix: {emails} with a direct email, {phones} with a phone, '
           f'{n - emails - phones} form/site only\n')
+
+    if args.email_only:
+        bad = [t for t in tos if not EMAIL.search(t)]
+        r.check(not bad, 'every To: line is a real email address',
+                f'{len(bad)} without one: ' + '; '.join(b[:34] for b in bad[:3]))
+        # A To: line carrying an email AND a phone still leaks the phone into
+        # Neil's Gmail To: field, so flag it.
+        noisy = [t for t in tos if EMAIL.search(t)
+                 and re.search(r'\b\d{3}[-.]\d{3}[-.]\d{4}\b', t)]
+        r.check(not noisy, 'To: lines contain the email only, nothing appended',
+                '; '.join(x[:40] for x in noisy[:3]))
 
     return r.render()
 

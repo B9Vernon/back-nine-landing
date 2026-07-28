@@ -81,23 +81,30 @@ business — discovery is by location, never by industry batches, and never
 limited to golf-adjacent businesses.
 
 Discovery always starts from Back Nine's postal code **V1T 5B9** and works
-outward in rings (`references/local-radius-sweep.md`).
+outward in rings (`references/local-radius-sweep.md`). Stay inside Vernon
+and its immediate neighbours unless Neil asks for wider in the current
+message — Kelowna proved too far for the pitch to hold.
 
-**0. Size the run first** — `references/saturation-and-run-sizing.md`.
-1,510 businesses are already logged and the area is heavily worked. Probe
-with a few directory searches, dedup-check what comes back, and set the
-target from the duplicate rate. Never pad a list to hit a number; say so
-and offer the alternatives instead.
+**0. Read `references/email-first-discovery.md` before anything else.** It
+is the method. One targeted query per business
+(`"<Business Name>" Vernon BC contact email`) finds an address about half
+the time; category queries essentially never do. Runs 6-11 used category
+queries and delivered 1-5% reachable lists. Then size the run with
+`references/saturation-and-run-sizing.md` — budget about two searches per
+delivered prospect, and say up front if the requested number doesn't fit.
 
-1. **Discovery** — `references/local-radius-sweep.md` (rings out from the
+1. **Name harvest** — `references/local-radius-sweep.md` (rings out from the
    facility), `references/map-grid-discovery.md` (zone-by-zone),
-   `references/local-directory-discovery.md` (public directories).
-   `WebFetch` is blocked by the proxy — use `WebSearch` only.
-2. **Dedup — before writing anything** — `tools/dedup_check.py` against
-   `state/outreach-log.md`. See `references/dedup-status-memory.md`.
-3. **Contact** — `references/storefront-contact-finder.md` (best public
-   contact path; form/phone acceptable, clearly labelled). Never
-   pattern-guess an email address.
+   `references/local-directory-discovery.md` (public directories). These
+   produce NAMES ONLY. `WebFetch` is 403 for every host — `WebSearch` only.
+2. **Dedup immediately** — `tools/dedup_check.py` against
+   `state/outreach-log.md`, before spending a query on any candidate. See
+   `references/dedup-status-memory.md`.
+3. **Email query per surviving candidate** —
+   `references/storefront-contact-finder.md`. **Email found → keep. No email
+   → drop the business and move on.** Contact forms and phone numbers are
+   out; a contact page belongs in a `To:` line only if the form was actually
+   submitted, which cannot happen here. Never pattern-guess an address.
 4. **Fit & angle** — `references/partnership-fit-scorer.md` (1–10, prioritize
    not eliminate) and `references/partnership-angle-matcher.md` (one custom
    angle each). Both stay internal — no scores or metadata in the file.
@@ -111,9 +118,11 @@ and offer the alternatives instead.
    clients, a dealership has staff and customers) and who the specific
    person/role is who can move that audience. See
    `../b9-audience-holder-finder/SKILL.md`.
-7. **Verify — before showing Neil anything** — `tools/verify_deliverable.py`.
-   Exit code must be 0. This is not optional: run 4 shipped 56 emails whose
-   TV wording broke locked rule 2a, and the check would have caught it.
+7. **Verify — before showing Neil anything** —
+   `tools/verify_deliverable.py FILE --email-only`. Exit code must be 0.
+   Not optional: run 4 shipped 56 emails whose TV wording broke locked rule
+   2a, and runs 6-11 shipped lists that were 95%+ unreachable. Both would
+   have been caught here.
 8. **Log** — `tools/log_run.py FILE --run run-N`.
 
 Working style (standing instruction since run 5): work quietly, don't

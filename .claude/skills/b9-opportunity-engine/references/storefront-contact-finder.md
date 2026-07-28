@@ -1,29 +1,54 @@
-# Storefront Contact Finder
+# Contact Finder — email or skip
 
-For each discovered business, find the BEST available public contact path.
-A business is never discarded just because a direct email isn't public.
+For each discovered business, find a real EMAIL ADDRESS. If there isn't one,
+the business is dropped from the run.
 
-## Where to check (in order)
+This replaces the old "best available contact path" rule, which let contact
+forms and phone numbers through and produced lists Neil could not actually
+send from.
 
-official website → contact page → about page → team page → footer →
-booking/inquiry page → public email → contact form → phone number →
-public Facebook page → public Instagram → public LinkedIn company page →
-business directory listing
+## The rule (Neil, run 12)
 
-## Classification (label every prospect with one)
+> "I only want their email contact for the To: line. Contact forms are
+> almost as useless as their phone number."
 
-1. `direct-email` — owner / manager / named-person email
-2. `general-email` — info@/office@/reception@-style business inbox
-3. `contact-form` — website form is the published channel
-4. `phone` — phone only
-5. `social-dm` — public Facebook/Instagram/LinkedIn message
-6. `none` — no usable contact found (log it; do not fabricate)
+So:
 
-## Rules
+- **Keep** a business only when a real email address is found in a public
+  source.
+- **Drop** a business whose only route is a contact form, a phone number, a
+  social DM, or a site with no address published. Don't list it, don't log
+  it, move to the next candidate.
+- A contact page belongs in a `To:` line **only** if the form was actually
+  submitted. This environment cannot submit forms, so that never applies
+  here.
 
-- Prefer owner/manager email > general email > form > phone > social DM.
-- Emails must be SEEN in a public source — never pattern-guessed.
-- If only a form or social profile exists, still build the partnership angle
-  and full email (subject + body) and label the contact method clearly — the
-  body can be pasted into the form or DM.
-- Public business contact info only; no private personal data.
+## Where the address comes from
+
+One targeted query per business — see `email-first-discovery.md`:
+
+```
+"<Exact Business Name>" Vernon BC contact email
+```
+
+Aggregator pages that regularly expose an address inside the search snippet:
+Chamber member listings, Alignable, Okanagan Local, YellowPages, Facebook
+business "about" panes, and the business's own contact page.
+
+## Address quality, best first
+
+1. `owner-email` — a named owner or manager's address
+2. `direct-email` — a role address the business publishes (`info@`,
+   `hello@`, `sales@`, `office@`, `bookings@`)
+3. `personal-provider` — a `@gmail.com` / `@shaw.ca` / `@telus.net` /
+   `@outlook.com` address the business publishes as its own contact. Common
+   for Vernon trades and sole operators, and perfectly good.
+
+Anything below that is not a contact for this engine's purposes.
+
+## Absolute rule
+
+**Never pattern-guess.** Search results sometimes show a company's address
+*format* (`{first}{last}@company.com`) or a redacted `[email protected]`.
+Neither is an address. Building one from a domain is forbidden — it produces
+bounces on a list Neil has to live with.

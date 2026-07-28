@@ -1,73 +1,55 @@
-# Saturation & Run Sizing
+# Run Sizing
 
-Read this BEFORE agreeing to a prospect-count target. The North Okanagan is
-a finite market and the engine has already worked most of it. Promising 200
-fresh, well-contacted businesses is no longer a safe default.
+## Correction: Vernon is NOT saturated
 
-## Where things stand
+An earlier version of this file concluded that the North Okanagan market was
+worked out, on the evidence that the email hit rate fell from 25% to 1%
+between runs 2 and 8. **That conclusion was wrong and it steered three runs
+in the wrong direction** — first to padding lists with unreachable
+businesses, then to Kelowna, which Neil correctly called too much of a
+stretch.
 
-1,510 businesses logged across runs 1–8. Measured decline in contactability:
+The hit rate fell because the discovery method changed, not because the
+market ran out. Runs 6-11 searched by category and harvested names; category
+queries return names and essentially never return an email. See
+`email-first-discovery.md` for the diagnosis and the fix.
 
-| Run | Prospects | Had a direct email | Notes |
-|---|---|---|---|
-| run-2 | 250 | 25% | Vernon core, easy pickings |
-| run-3 | 250 | 24% | |
-| run-4 | 100 | 11% | tightened to Vernon core |
-| run-5 | 100 | 15% | owner-contact push |
-| run-6 | 200 | 5% | ~12 searches to fill |
-| run-7 | 200 | 3% | 5 late duplicate swaps |
-| run-8 | 200 | **1%** | ~30 searches to fill; 50–70% duplicate hit rate |
+Vernon has thousands of businesses. The ~1,760 in the log were selected by
+whichever query happened to name them — that is not the same as having swept
+the town. Trades, sole operators, home-based businesses, professional
+practices and service companies are heavily under-represented, and those are
+exactly the ones that publish a `@gmail.com` or `@shaw.ca` address.
 
-The businesses that publish an inbox have largely been contacted. What
-remains routes through a contact form, a booking page, or a phone number.
-This is a property of the market, not of how hard the search worked.
+## Geography — stay close unless told otherwise
 
-## The sizing rule
+Default and preferred: **Vernon first**, then Coldstream, Lavington, BX,
+Okanagan Landing, Silver Star. Then Lumby, Armstrong, Enderby, Spallumcheen.
 
-Before starting, run a saturation probe: three or four directory-style
-searches across the intended geography, and dedup-check the names they
-return.
+Lake Country, Kelowna and West Kelowna are 45-60 minutes out. The
+partnership pitch weakens badly at that distance and Neil has said so.
+**Do not go there unless he asks for it in the current message**, and say
+plainly what the trade-off is when he does.
 
-- **Duplicate rate under 30%** → the area has room; a 150–200 run is fine.
-- **30–60%** → size the run at 75–100 and expect mostly form/phone contacts.
-- **Over 60%** → the area is worked out. Say so before writing anything and
-  put the alternatives (below) to Neil rather than padding the list.
+Salmon Arm, Sicamous and beyond: don't, unless explicitly instructed.
 
-Never pad to hit a number. A list of 200 where 60 are weak fits, distant
-towns, or near-duplicates is worth less than a clean 80 and costs Neil more
-time to work through.
+## Sizing the ask
 
-## Geography honesty
+Budget roughly **two searches per delivered prospect** — one to find the
+email, plus the failures — with a name-harvest query for every 20-30
+candidates.
 
-The engine's useful radius is roughly Vernon → Coldstream/Lavington →
-Lumby/Cherryville → Armstrong/Spallumcheen → Enderby → Lake Country/Oyama,
-plus Silver Star. That is the area where "we're the local indoor golf
-lounge" is a credible opening line.
+| Ask | Realistic effort |
+|---|---|
+| 30 | 35-70 searches — a comfortable single session |
+| 50 | 60-120 searches — a full session |
+| 100+ | multi-session, or needs a directory export |
 
-Salmon Arm, Sicamous and Kelowna are reachable but 50–70 minutes out. A
-partnership pitch to a Sicamous café is not credible and should not be used
-to inflate a count. If Neil explicitly wants that radius, say plainly that
-the pitch weakens and let him decide.
+If the requested number does not fit, say so up front and propose one that
+does. Never pad a list to hit a number, and never substitute an unreachable
+business for a reachable one just to reach a count.
 
-## What to do instead when saturated
+## When a category really is worked out
 
-In rough order of expected return:
-
-1. **`RUN B9 FOLLOW UP`** — 1,510 businesses have had exactly one touch and
-   no second. This is where the conversions actually are, and it needs no
-   new discovery at all.
-2. **A smaller, deeper run** — 50–80 businesses where real effort goes into
-   finding the owner's name and direct email rather than into volume.
-3. **A new channel to the existing list** — the SMS lists
-   (`sms-outreach.md`) reach 265 already-logged businesses without needing
-   a single new prospect.
-4. **Categories, not geography** — sweep a category that was never worked
-   (see below) rather than a map ring that was.
-
-## Not yet swept (as of run 8)
-
-Verified gaps worth trying before declaring the area finished: strata
-councils, school PACs, church congregations, minor-sports associations
-beyond those already logged, farm-gate producers, home-based businesses
-with public storefronts, and the trades subcontractors who never appear in
-directories but do appear on job-site signage.
+Check by dedup rate, not by feel: harvest 20 names in a category and run
+`tools/dedup_check.py`. Over 60% duplicates means move to a different
+category or a different part of town — not a different city.
