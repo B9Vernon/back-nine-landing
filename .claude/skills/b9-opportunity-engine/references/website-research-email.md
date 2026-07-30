@@ -44,6 +44,33 @@ research depth, tone, and quality. These rules are absolute.
     without paid framing — those read as free advertising. The
     "hundreds of people a week" figure is the only audience claim approved
     for either form.
+2b. LOCKED — NOTHING IS FREE. Staff nights, group nights, team
+    evenings, tournaments, private bookings and events are all things a
+    business BOOKS. They are never given away, and the email must never
+    imply otherwise.
+
+    BANNED phrasings (the email fails if any appear):
+      "on me" / "on us" / "first round's on us"
+      "I'd like to host you/your team/a group of them"
+      "would be welcome at one of our staff nights"
+      "as a thank-you" / "no catch" / "nothing attached to it"
+      "the bays are yours" / "for nothing" / "our treat"
+      "free", "complimentary", "no charge", "gift"
+
+    APPROVED phrasings — state that we run them, invite a conversation,
+    never offer them as a gift:
+      "we run staff nights for teams across the valley — happy to send
+       over how they work"
+      "we do a lot of group bookings for teams like yours"
+      "worth knowing we host workplace nights and private bookings"
+      "if your team ever wants a night out, that's something we set up
+       regularly"
+
+    Do NOT swing the other way and start listing prices or hard-selling
+    "you can buy events and extras here". Neil's instruction is simply
+    that it must not read as free. State the offering plainly and let him
+    quote on the reply.
+
 3. AFTER the soft close, every email ends with exactly two footer elements,
    in this order:
    - the Back Nine Vernon website link on its own line:

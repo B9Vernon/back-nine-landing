@@ -1111,7 +1111,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] House of Dwarfs Daycare | Local business | House of Dwarfs Daycare Vernon (site/phone) | 2026-07-25 | run-6
 - [email created] Active Beginnings Child Care | Local business | Active Beginnings Child Care Vernon (site/phone) | 2026-07-25 | run-6
 - [email created] Littlefoot Daycare | Local business | Littlefoot Daycare Vernon (site/phone) | 2026-07-25 | run-6
-- [email created] Maven Lane Child Care and Early Learning | Local business | mavenlane.org/contact-us + 250-558-9963 | 2026-07-25 | run-6
+- [email created] Maven Lane Child Care and Early Learning | Local business | mavenlane.org/contact-us + 250-558-9963 | 2026-07-25 | run-6 | duplicate of "Maven Lane" — do not contact again
 - [email created] Vernon Air Conditioning Plumbing and Electrical Services | Local business | 909 Kalamalka Lake Road, Vernon + 778-403-7886 | 2026-07-25 | run-6 | duplicate of "Vernon Air Conditioning, Plumbing & Electrical" — do not contact again
 - [email created] Vernon Electric Ltd | Local business | Vernon Electric Vernon + 250-307-7979 | 2026-07-25 | run-6 | duplicate of "Vernon Electric" — do not contact again
 - [email created] Quantum Power Electrical | Local business | quantumpower.ca contact page + 250-307-4003 | 2026-07-25 | run-6
@@ -1360,7 +1360,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vernon Excavating and Landscaping | Local business | vernonexcavating.com contact page | 2026-07-26 | run-8
 - [email created] Intermezzo Restaurant and Wine Cellar | Local business | Intermezzo Restaurant & Wine Cellar, Vernon (site/phone) | 2026-07-26 | run-8 | duplicate of "Intermezzo Restaurant & Wine Cellar" — do not contact again
 - [email created] The Med Vernon | Local business | The Med, Vernon (site/phone) | 2026-07-26 | run-8
-- [email created] Rosters Sport Club Bar and Grill | Local business | Rosters Sport Club Bar & Grill, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Rosters Sport Club Bar and Grill | Local business | Rosters Sport Club Bar & Grill, Vernon (site/phone) | 2026-07-26 | run-8 | duplicate of "The Roster Sports Club Bar & Grill" — do not contact again
 - [email created] The Phoenix Steakhouse | Local business | The Phoenix Steakhouse, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Los Huesos | Local business | Los Huesos, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] PeakFine at Sparkling Hill | Local business | PeakFine at Sparkling Hill Resort (site/contact) | 2026-07-26 | run-8
@@ -1379,7 +1379,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Ustaad G76 Indian Cuisine | Local business | Ustaad G76 Indian Cuisine, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] 350 Bakehouse and Cafe | Local business | 350 Bakehouse and Cafe, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] Our Little Donut Factory | Local business | Our Little Donut Factory, Vernon (site/social) | 2026-07-26 | run-8
-- [email created] Cottons Chocolate | Local business | Cottons Chocolate, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Cottons Chocolate | Local business | Cottons Chocolate, Vernon (site/social) | 2026-07-26 | run-8 | duplicate of "Cotton's Chocolates" — do not contact again
 - [email created] Emmas Nails Vernon | Local business | Emma's Nails, Vernon (booking/social) | 2026-07-26 | run-8 | duplicate of "Emma's Nails" — do not contact again
 - [email created] ND Nails Vernon | Local business | ND Nails, Vernon (booking/social) | 2026-07-26 | run-8
 - [email created] Happy Nails Vernon | Local business | Happy Nails, Vernon (booking/phone) | 2026-07-26 | run-8
@@ -1829,3 +1829,23 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vernon SDA Church | Uncategorized | info@vernonadventist.ca | 2026-07-28 | run-12
 - [email created] Faith Baptist Church | Uncategorized | faithbap@shaw.ca | 2026-07-28 | run-12
 - [email created] St. James School | School/training | principal@stjamesvernon.com | 2026-07-28 | run-12
+- [email created] Halina Centre | Seniors/community centre | halinaseniors@telus.net | 2026-07-30 | run-13
+- [email created] Vernon Paddling Centre | Non-profit/society | info@vernonpaddlingcentre.ca | 2026-07-30 | run-13
+- [email created] Vernon & District Immigrant and Community Services Society | Non-profit/society | childcare@vdicss.org | 2026-07-30 | run-13
+- [email created] Vernon Track and Field Club | Non-profit/society | vaaatrack@gmail.com | 2026-07-30 | run-13
+- [email created] The Landing Church | Church/congregation | office@thelandingvernon.com | 2026-07-30 | run-13
+- [email created] Monument Mortgages | Accounting/finance | daryl@eyj.ca | 2026-07-30 | run-13
+- [email created] Vernon Storage Centre | Moving/storage | info@vernonstoragecentre.com | 2026-07-30 | run-13
+- [email created] Okanagan Blinds | Home furnishing | info@okblinds.ca | 2026-07-30 | run-13
+- [email created] Performance Marine | Marine/powersports dealer | performancemarine@shaw.ca | 2026-07-30 | run-13
+- [email created] Riders Edge Suspension | Marine/powersports dealer | info.ridersedge@shaw.ca | 2026-07-30 | run-13
+- [email created] Bosman Accounting | Accounting/finance | tax@bosmanaccounting.ca | 2026-07-30 | run-13
+- [email created] Apple Auto Glass | Auto service | apple2448@belroncanada.com | 2026-07-30 | run-13
+- [email created] CAN-AM Auto Glass | Auto service | contact@canamautoglass.ca | 2026-07-30 | run-13
+- [email created] City Dance Studio | School/training | info@citydance.ca | 2026-07-30 | run-13
+- [email created] Art Schmidt Optical | Optical/eyewear | info@artschmidt.ca | 2026-07-30 | run-13
+- [email created] All Pro Tree & Landscaping Services | Landscaping/garden | contact@allprotree.ca | 2026-07-30 | run-13
+- [email created] Vernon Cabinet Center | Trades — building | gregpecka66@yahoo.com | 2026-07-30 | run-13
+- [email created] Edge Apparel & Imprints | Retail | sales@edgeimprints.com | 2026-07-30 | run-13
+- [email created] A-1 Machine & Welding | Manufacturing | machinery@a1machine.bc.ca | 2026-07-30 | run-13
+- [email created] BlueCrow Architecture | Architecture/design | jay@bluecrowarch.ca | 2026-07-30 | run-13

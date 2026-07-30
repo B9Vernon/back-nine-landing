@@ -28,7 +28,8 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from b9lib import LINK, LOCKED_TV, LOCKED_TV_FAR, normalize, load_log  # noqa: E402
+from b9lib import (LINK, LOCKED_TV, LOCKED_TV_FAR, normalize,  # noqa: E402
+                   normalize_strict, same_business, load_log)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_LOG = os.path.join(HERE, '..', 'state', 'outreach-log.md')
@@ -168,6 +169,29 @@ def main():
     r.check(not stub, 'no sentence ending on a dangling article or conjunction',
             '; '.join(repr(s) for s in stub[:3]))
 
+    # --- rule 2b: nothing is free ----------------------------------------
+    FREEBIE = [
+        (r"\bon me\b|\bon us\b", '"on me/on us"'),
+        (r"(?:I'd|we'd)\s+(?:also\s+|really\s+)?(?:like|love)\s+to\s+"
+         r"(?:host|offer|put|treat|bring)\b", '"I\'d like to host/offer..."'),
+        (r"\bdeserves?\b[^.]{0,40}\b(?:night|evening|afternoon|out)\b",
+         '"deserves a night out"'),
+        (r"\bno strings\b|\bmy shout\b|\bon the house\b", '"no strings"'),
+        (r"would (?:also )?be welcome", '"would be welcome"'),
+        (r"as a thank[- ]you", '"as a thank-you"'),
+        (r"no catch|nothing attached to it", '"no catch"'),
+        (r"the bays are yours", '"the bays are yours"'),
+        (r"\bfor nothing\b", '"for nothing"'),
+        (r"\bfree\b(?! (?:to|graze))|complimentary|no charge|our treat", '"free/complimentary"'),
+    ]
+    hits = []
+    for pat, label in FREEBIE:
+        for m in re.finditer(pat, bodies, re.I):
+            hits.append(f'{label} -> ...{bodies[max(0, m.start()-28):m.end()+18]}...')
+    r.check(not hits, 'nothing reads as free (locked rule 2b)',
+            ' | '.join(hits[:3]))
+
+
     # --- duplicates ------------------------------------------------------
     keys = [normalize(b) for _, b in names]
     dupes = {k for k in keys if keys.count(k) > 1}
@@ -177,13 +201,23 @@ def main():
     if os.path.exists(args.log):
         # A file already written to the log overlaps with itself; --logged-as
         # excludes that run's own rows so the check stays meaningful.
-        logged = {normalize(row['name']): row['name']
-                  for row in load_log(args.log)
-                  if not (args.logged_as and row['note'] == args.logged_as)}
-        overlap = [(num, b) for (num, b) in names if normalize(b) in logged]
+        logged = [row['name'] for row in load_log(args.log)
+                  if not (args.logged_as and row['note'] == args.logged_as)]
+        # Use same_business(), not exact normalize(). Run 13 was built with an
+        # exact match here and eight entries were already in the log under an
+        # abbreviated or pluralised name ("Greater Vernon Minor Hockey Assn").
+        by_key = {}
+        for nm in logged:
+            by_key.setdefault(normalize_strict(nm), []).append(nm)
+        overlap = []
+        for num, b in names:
+            for cand in by_key.get(normalize_strict(b), ()):
+                if same_business(b, cand):
+                    overlap.append((num, b, cand))
+                    break
         r.check(not overlap,
                 'no overlap with businesses already in the outreach log',
-                '; '.join(f'#{num} {b}' for num, b in overlap[:4]))
+                '; '.join(f'#{num} {b} = "{c}"' for num, b, c in overlap[:4]))
         print(f'  ....  checked against {len(logged)} logged businesses\n')
 
     # --- contact quality (informational) ---------------------------------

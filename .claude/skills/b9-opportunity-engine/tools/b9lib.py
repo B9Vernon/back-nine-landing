@@ -36,8 +36,8 @@ LOCKED_TV_FAR = re.compile(
 
 # Legal suffixes never distinguish two businesses.
 _SUFFIX = re.compile(
-    r'\b(ltd|ltee|inc|corp|corporation|co|company|llp|llc|holdings|'
-    r'enterprises|bc)\b'
+    r'\b(ltd|ltee|inc|corp|corporation|co|company|llp|llc|holdings?|'
+    r'enterprises?|bc)\b'
 )
 
 # Town qualifiers DO sometimes distinguish two businesses ("RE/MAX Vernon" and
@@ -76,8 +76,9 @@ def towns_in(name: str):
 # "Sparkling Hill Resort" vs "Sparkling Hill Resort and Spa".
 _TRAIL = re.compile(
     r'\b(and |& )?(spa|conference cent(re|er)|orchard|resort|inn|store|shop|'
-    r'restaurant|cafe|centre|center|group|studio|services|service|society|'
-    r'association|clinic|company)\b\s*$'
+    r'restaurant|cafe|centre|center|group|studio|services?|society|'
+    r'association|clinic|company|printing|rental|child ?care|early learning|'
+    r'day ?care|preschool|supply|supplie|sale)\b\s*$'
 )
 
 
@@ -89,10 +90,34 @@ _STOP = re.compile(r'\b(of|the|and|at|for|in|on)\b')
 # "Vernon Elks Lodge #45" and "Vernon Elks 45" are one lodge.
 _ORGWORD = re.compile(r'\b(lodge|branch|chapter|no)\b')
 
+# Abbreviations businesses expand or contract freely between listings. Run 13
+# nearly double-contacted "Greater Vernon Minor Hockey Assn" (batch-200) as
+# "Greater Vernon Minor Hockey Association" because of this.
+_ABBREV = (
+    (r'\bassns?\b', 'association'), (r'\bassocs?\b', 'association'),
+    (r'\bsocs?\b', 'society'), (r'\bdepts?\b', 'department'),
+    (r'\bctrs?\b', 'centre'), (r'\bcenters?\b', 'centre'),
+    (r'\bmgmt\b', 'management'), (r'\bsvcs?\b', 'service'),
+)
+
+
+def _singular(token: str) -> str:
+    """Crude singulariser. "Blue Haven Pools & Spas" and "Blue Haven Pool &
+    Spa" are one company; run 13 found both in the log as separate rows.
+    Over-collapsing costs at most one prospect, under-collapsing costs a
+    double-contact, so this errs toward collapsing."""
+    if len(token) > 3 and token.endswith('s') and not token.endswith('ss'):
+        return token[:-1]
+    return token
+
 
 def normalize_strict(name: str) -> str:
     """Strips legal suffixes, towns, trailing descriptors and joining words."""
-    s = _ORGWORD.sub(' ', _STOP.sub(' ', normalize(name)))
+    s = normalize(name)
+    for pat, repl in _ABBREV:
+        s = re.sub(pat, repl, s)
+    s = ' '.join(_singular(t) for t in s.split())
+    s = _ORGWORD.sub(' ', _STOP.sub(' ', s))
     for t in sorted(_TOWNS, key=len, reverse=True):
         s = re.sub(rf'\b{t}\b', ' ', s)
     s = _SUFFIX.sub(' ', s)
