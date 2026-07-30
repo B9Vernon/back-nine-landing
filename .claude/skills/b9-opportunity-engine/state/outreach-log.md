@@ -1658,7 +1658,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Jammers Cold Beer and Wine Store | Liquor retail | Jammers Cold Beer and Wine Store (published website contact page) | 2026-07-26 | run-11
 - [email created] JDL Power | Uncategorized | JDL Power (published website contact page) | 2026-07-26 | run-11
 - [email created] Kathys Pet Grooming | Uncategorized | Kathys Pet Grooming (published website contact page) | 2026-07-26 | run-11
-- [email created] Kelowna and District SHARE Society | Non-profit/society | Kelowna and District SHARE Society (published website contact page) | 2026-07-26 | run-11
+- [email created] Kelowna and District SHARE Society | Non-profit/society | Kelowna and District SHARE Society (published website contact page) | 2026-07-26 | run-11 | duplicate of "Kelowna & District S.H.A.R.E. Society" — do not contact again
 - [email created] Kelowna Auto Care | Auto service | Kelowna Auto Care (published website contact page) | 2026-07-26 | run-11
 - [email created] Kelowna Curling Club | Non-profit/society | Kelowna Curling Club (published website contact page) | 2026-07-26 | run-11
 - [email created] Kelowna Cycle | Uncategorized | Kelowna Cycle (published website contact page) | 2026-07-26 | run-11
@@ -1847,5 +1847,25 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] All Pro Tree & Landscaping Services | Landscaping/garden | contact@allprotree.ca | 2026-07-30 | run-13
 - [email created] Vernon Cabinet Center | Trades — building | gregpecka66@yahoo.com | 2026-07-30 | run-13
 - [email created] Edge Apparel & Imprints | Retail | sales@edgeimprints.com | 2026-07-30 | run-13
-- [email created] A-1 Machine & Welding | Manufacturing | machinery@a1machine.bc.ca | 2026-07-30 | run-13
+- [email created] A-1 Machine & Welding | Manufacturing | machinery@a1machine.bc.ca | 2026-07-30 | run-13 | duplicate of "A1 Machine & Welding (1986)" — do not contact again
 - [email created] BlueCrow Architecture | Architecture/design | jay@bluecrowarch.ca | 2026-07-30 | run-13
+- [email created] Vernon Custom Garage | Garage builder/home improvement | info@vernoncustomgarage.com | 2026-07-30 | run-14
+- [email created] Custom Car Concepts | Auto accessories/car audio | customcar@telus.net | 2026-07-30 | run-14
+- [email created] Sun City Auto Parts | Auto service | suncautoparts@gmail.com | 2026-07-30 | run-14
+- [email created] Coldstream Truck Parts | Truck parts/heavy duty | parts@coldstreamtruckparts.ca | 2026-07-30 | run-14
+- [email created] Cap-it Vernon | Professional services | vernon@capit.com | 2026-07-30 | run-14
+- [email created] Southward Medical Supplies | Medical clinic | info@southwardmedicalsupplies.ca | 2026-07-30 | run-14
+- [email created] Lakeside Medical Supplies | Medical clinic | lakesidemedicalVernon@outlook.com | 2026-07-30 | run-14
+- [email created] Dunbar Automotive | Auto service | dunbarauto@hotmail.com | 2026-07-30 | run-14
+- [email created] Accurate Fencing | Fencing contractor | cam@accuratefencing.ca | 2026-07-30 | run-14
+- [email created] True North Events | Events/catering | truenorthevents@hotmail.com | 2026-07-30 | run-14
+- [email created] IQ Film & Vinyl Specialists | Window tint/paint protection | frontdesk@iqfilm.ca | 2026-07-30 | run-14
+- [email created] West Beach Window Coverings | Home furnishing | info@wbwc.ca | 2026-07-30 | run-14
+- [email created] Good Gracious Contemporary Gifts | Retail | goodandpractical@gmail.com | 2026-07-30 | run-14
+- [email created] Golden Crown Restaurant | Restaurant/cafe | goldencrownvernon@hotmail.com | 2026-07-30 | run-14
+- [email created] Accent Countertops | Countertops/renovation | accentcti@telus.net | 2026-07-30 | run-14
+- [email created] Crystal Glass | Auto glass/glass & mirrors | branch121@crystalglass.ca | 2026-07-30 | run-14
+- [email created] ECOTECTURE | Architecture/design | hello@ecotecture.ca | 2026-07-30 | run-14
+- [email created] Big O Tires Vernon | Auto service | vernonautoservice@gmail.com | 2026-07-30 | run-14
+- [email created] Landing Nursery | Landscaping/garden | office@landingnurseryltd.ca | 2026-07-30 | run-14
+- [email created] Pleasant Valley Christian Academy | School/training | admin@pleasantvalleychristian.com | 2026-07-30 | run-14

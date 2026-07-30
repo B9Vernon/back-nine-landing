@@ -39,9 +39,34 @@ while a "top 10" listicle never does.
 
 Procedure:
 
-1. **Name harvest (cheap).** Use a category or directory query to collect
-   15-40 candidate business names in one search. Names only — do not try
-   to pull emails from these results.
+1. **Name harvest (cheap) — sweep DIRECTORIES, not categories.** This is
+   the run-14 correction and it matters as much as the per-business query.
+   A category query ("Vernon BC fencing contractor") returns whichever
+   businesses rank, and the same ones rank every time — by run 13 that was
+   producing 80-100% duplicates and the false conclusion that Vernon was
+   running out of businesses. Directory listing pages return the long tail
+   that never ranks. Use `WebSearch` with `allowed_domains` set to one of:
+
+   - `members.downtownvernon.com` — Downtown Vernon Association members
+   - `business.vernonchamber.ca` — Greater Vernon Chamber members
+   - `okanagan-local.ca` — category pages, e.g. "Vernon BC auto parts
+     businesses list"
+   - `shopvernon.com` — listing pages, many with a contact sub-page
+
+   Measured on run 14, first pass, no cherry-picking:
+
+   | Vein | Fresh / checked |
+   |---|---|
+   | auto parts | 7 / 7 |
+   | medical supply | 3 / 3 |
+   | pawnbrokers | 4 / 4 |
+   | trades supply | 7 / 8 |
+   | towing + tire dealers | 8 / 12 |
+   | downtown DVA members | 7 / 8 |
+
+   Category queries are now the FALLBACK, used only when a directory has
+   no page for the vein you want. Names only either way — do not try to
+   pull emails from harvest results.
 2. **Dedup immediately.** `tools/dedup_check.py` before spending a single
    query on a business already in the log.
 3. **Email query per surviving candidate.** One search each, using the

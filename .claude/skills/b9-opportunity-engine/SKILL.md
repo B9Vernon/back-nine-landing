@@ -93,10 +93,14 @@ queries and delivered 1-5% reachable lists. Then size the run with
 `references/saturation-and-run-sizing.md` — budget about two searches per
 delivered prospect, and say up front if the requested number doesn't fit.
 
-1. **Name harvest** — `references/local-radius-sweep.md` (rings out from the
-   facility), `references/map-grid-discovery.md` (zone-by-zone),
-   `references/local-directory-discovery.md` (public directories). These
-   produce NAMES ONLY. `WebFetch` is 403 for every host — `WebSearch` only.
+1. **Name harvest — sweep DIRECTORIES first, categories only as fallback.**
+   `WebSearch` with `allowed_domains` on `members.downtownvernon.com`,
+   `business.vernonchamber.ca`, `okanagan-local.ca`, `shopvernon.com`.
+   Category queries return the same ranking businesses every run and were
+   what made run 13 look like the town was running out. Also
+   `references/local-radius-sweep.md` (rings out from the facility) and
+   `references/map-grid-discovery.md` (zone-by-zone). These produce NAMES
+   ONLY. `WebFetch` is 403 for every host — `WebSearch` only.
 2. **Dedup immediately** — `tools/dedup_check.py` against
    `state/outreach-log.md`, before spending a query on any candidate. See
    `references/dedup-status-memory.md`.

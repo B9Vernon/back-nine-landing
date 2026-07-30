@@ -53,3 +53,17 @@ business for a reachable one just to reach a count.
 Check by dedup rate, not by feel: harvest 20 names in a category and run
 `tools/dedup_check.py`. Over 60% duplicates means move to a different
 category or a different part of town — not a different city.
+
+**And before concluding anything, re-harvest that vein from a directory.**
+Run 13 reported Vernon as "getting genuinely thin" on the evidence that
+most categories came back 80-100% duplicate. Neil's response was that he
+drives past hundreds of unlogged businesses every day, and he was right.
+The dedup rate was measuring the search index, not the town: category
+queries surface the same ranking businesses every time, so of course they
+were already logged. Run 14 swept the same town from directory listings
+and returned 7-of-7 fresh in auto parts, 3-of-3 in medical supply, 4-of-4
+in pawnbrokers.
+
+A high dedup rate means **the harvest source is exhausted**, never that
+Vernon is. Change the source before you change the geography, and never
+report the town as thin on category-query evidence alone.

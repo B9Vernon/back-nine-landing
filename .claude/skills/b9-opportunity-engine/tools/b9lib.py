@@ -116,6 +116,11 @@ def normalize_strict(name: str) -> str:
     s = normalize(name)
     for pat, repl in _ABBREV:
         s = re.sub(pat, repl, s)
+    # Merge runs of single letters: "J C Bradley" and "JC Bradley" are one
+    # jeweller, "A-1 Machine" and "A1 Machine" one shop. Run 14 caught the
+    # first of those only because the verifier flagged it.
+    s = re.sub(r'\b(?:[a-z0-9] )+[a-z0-9]\b',
+               lambda m: m.group(0).replace(' ', ''), s)
     s = ' '.join(_singular(t) for t in s.split())
     s = _ORGWORD.sub(' ', _STOP.sub(' ', s))
     for t in sorted(_TOWNS, key=len, reverse=True):
