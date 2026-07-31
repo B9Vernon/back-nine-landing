@@ -23,8 +23,10 @@ Core question for every scan:
 - Never claim a partnership exists or invent an offer, detail, or property fact.
 
 ## Home base and geography
-- Origin: Back Nine Indoor Golf Vernon, postal area **V1T 5B9**. The exact street address is
-  not yet in project files - ask Neil once, then store it here and use it as the origin.
+- **Origin (confirmed by Neil, July 2026): Back Nine Indoor Golf Vernon, 3201 45th Ave,
+  Vernon BC V1T 5B9.** North-end Vernon, close to the 32nd St hotel/motel strip, the
+  Anderson Way / Village Green cluster, and the Swan Lake corridor - all Band 1-2.
+  Use this address as the geographic origin for every scan; do not ask again.
 - Rank by **practical drive time**, not straight-line distance. A close property with awkward
   access ranks below a farther one with an easy run in.
 
