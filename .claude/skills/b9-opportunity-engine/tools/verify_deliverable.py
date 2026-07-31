@@ -123,7 +123,9 @@ def main():
                            text, re.M))
     r.check(greet == n, 'every email opens "Hi <recipient>," then '
                         '"My name is Neil."', f'{greet} of {n}')
-    intro = len(re.findall(r'\bMy name is Neil\.', text))
+    _bodies_early = '\n'.join(m.group(1) for m in re.finditer(
+        r'^Subject: [^\n]+\n\n(.+?)\n\nhttps://', text, re.S | re.M))
+    intro = len(re.findall(r'\bMy name is Neil\.', _bodies_early))
     r.check(intro == n, 'exact introduction sentence present once per email',
             f'{intro} of {n}')
     old = re.findall(r"I'm Neil\b", text)

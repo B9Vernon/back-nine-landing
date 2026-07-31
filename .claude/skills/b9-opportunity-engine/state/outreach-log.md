@@ -1869,3 +1869,6 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Big O Tires Vernon | Auto service | vernonautoservice@gmail.com | 2026-07-30 | run-14
 - [email created] Landing Nursery | Landscaping/garden | office@landingnurseryltd.ca | 2026-07-30 | run-14
 - [email created] Pleasant Valley Christian Academy | School/training | admin@pleasantvalleychristian.com | 2026-07-30 | run-14
+- [email created] Greater Vernon Ringette Association | Non-profit/society | president@vernonringette.com | 2026-07-31 | run-15
+- [email created] ODYNN Performance Therapy | Counselling | odynnvernon@gmail.com | 2026-07-31 | run-15
+- [email created] Okanagan Shade & Shutter | Home furnishing | info@okss.ca | 2026-07-31 | run-15
