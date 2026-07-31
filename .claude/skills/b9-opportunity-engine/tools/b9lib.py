@@ -7,6 +7,7 @@ slipped through into finished lists three runs running. One definition
 ends that.
 """
 
+import os
 import re
 
 LOG_LINE = re.compile(
@@ -180,3 +181,250 @@ def load_entries(path):
             yield {k: v.strip() for k, v in d.items()}
         else:
             yield {'num': None, 'raw': block}
+
+
+# ---------------------------------------------------------------------------
+# V2 — universal identity keys (module H, Universal Duplicate Guard)
+#
+# Name matching alone missed real duplicates for 14 runs: the same business
+# reached under a second address, a second employee, or a rebranded name.
+# These keys let the guard compare a candidate on every axis the spec lists
+# (name, alias, parent, domain, email, email domain, phone, street address)
+# instead of on the trading name alone.
+# ---------------------------------------------------------------------------
+
+# Free mailbox providers. A shared @gmail.com does NOT make two businesses
+# the same company, so the email-domain axis has to ignore them.
+FREE_MAIL = frozenset((
+    'gmail.com', 'shaw.ca', 'telus.net', 'outlook.com', 'hotmail.com',
+    'yahoo.ca', 'yahoo.com', 'icloud.com', 'live.ca', 'live.com',
+    'protonmail.com', 'me.com', 'aol.com', 'msn.com',
+))
+
+# Domains many genuinely separate decision-makers share. A municipal
+# department, a school district school, a health-authority site and a
+# realty franchise all publish under one domain while holding different
+# audiences and different decision-makers, so a domain match here is a
+# REVIEW signal, never an automatic duplicate.
+SHARED_DOMAINS = frozenset((
+    'vernon.ca', 'rdno.ca', 'sd22.bc.ca', 'interiorhealth.ca', 'gov.bc.ca',
+    'okanagan.bc.ca', 'ubc.ca', 'royallepage.ca', 'remax.ca', 'remax.net',
+    'century21.ca', 'exprealty.ca', 'sutton.com', 'coldwellbanker.ca',
+    'edwardjones.com', 'sunlife.com', 'ig.ca', 'rbc.com', 'bmo.com',
+    'cibc.com', 'scotiabank.com', 'td.com', 'shaw.ca',
+))
+
+_EMAIL_RE = re.compile(r'[^\s<>@,;]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}')
+_URL_RE = re.compile(r'https?://([^/\s]+)|(?:^|\s)((?:[a-z0-9\-]+\.)+[a-z]{2,})(?:/|\s|$)', re.I)
+
+# Street-type words that businesses write half a dozen ways.
+_STREET = (
+    (r'\bavenue\b', 'ave'), (r'\bstreet\b', 'st'), (r'\broad\b', 'rd'),
+    (r'\bdrive\b', 'dr'), (r'\bboulevard\b', 'blvd'), (r'\bplace\b', 'pl'),
+    (r'\bcourt\b', 'ct'), (r'\bcrescent\b', 'cres'), (r'\bhighway\b', 'hwy'),
+    (r'\bnorth\b', 'n'), (r'\bsouth\b', 's'), (r'\beast\b', 'e'),
+    (r'\bwest\b', 'w'), (r'\bunit\b', ''), (r'\bsuite\b', ''), (r'\bste\b', ''),
+)
+
+
+def email_of(text):
+    """First real email address in a blob of text, lowercased, or None."""
+    if not text:
+        return None
+    m = _EMAIL_RE.search(text)
+    if not m:
+        return None
+    addr = m.group(0).lower().strip('.,;:')
+    # Redactions and format templates are not addresses. Search results
+    # routinely show "[email protected]" or a company's pattern
+    # ("{first}{last}@company.com", "firstname.lastname@co.ca"); building an
+    # address from either is the forbidden pattern-guess.
+    if addr.startswith('email@') or 'protected' in addr:
+        return None
+    if re.search(r'[{}\[\]<>()]', m.group(0)):
+        return None
+    local = addr.split('@', 1)[0]
+    if local in ('first', 'firstname', 'lastname', 'firstlast', 'flast',
+                 'first.last', 'firstname.lastname', 'initiallast',
+                 'name', 'yourname', 'example', 'user'):
+        return None
+    return addr
+
+
+def email_domain_of(text):
+    """Registrable-ish domain of an email, or None for free mailboxes."""
+    addr = email_of(text)
+    if not addr:
+        return None
+    dom = addr.split('@', 1)[1]
+    return None if dom in FREE_MAIL else dom
+
+
+def domain_of(text):
+    """Website root domain from a URL or bare host, or None.
+
+    Falls back to the email's domain so a business known only by its
+    address still gets a domain key.
+    """
+    if not text:
+        return None
+    for m in _URL_RE.finditer(text):
+        host = (m.group(1) or m.group(2) or '').lower()
+        host = host.split(':')[0].lstrip('.')
+        if host.startswith('www.'):
+            host = host[4:]
+        if host and '.' in host and not host.endswith('.'):
+            return host
+    return email_domain_of(text)
+
+
+def phone_key(text):
+    """Last 10 digits of a North American phone number, or None."""
+    if not text:
+        return None
+    for m in re.finditer(r'(?:\+?1[\s.\-]?)?\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}', text):
+        digits = re.sub(r'\D', '', m.group(0))
+        if len(digits) >= 10:
+            return digits[-10:]
+    return None
+
+
+def address_key(text):
+    """Normalized civic address: '2801 35 ave'.
+
+    Two businesses at one civic address are one target — Vernon Landscape &
+    Stone Supply and Vernon Landscape Centre (both 4620 23 St) went out
+    twice because no matcher compared addresses. Unit designators are
+    stripped first, while the punctuation that marks them is still intact,
+    so "220-2801 35 Ave" and "2801 35th Avenue Unit 220" agree.
+
+    Directories write two different things with a leading dash, and the
+    spacing is what tells them apart:
+
+        "220-2801 35 Ave"    unspaced -> 220 is a unit, drop it
+        "1A-7861 Hwy 97"     unspaced -> 1A is a unit, drop it
+        "4508 - 29th Street" spaced   -> 4508 is the civic number, keep it
+
+    A spaced-out unit prefix ("220 - 2801 35 Ave") is therefore kept, which
+    only costs a missed address match; the name, domain, email and phone
+    axes still apply.
+    """
+    if not text:
+        return None
+    s = text.lower()
+    s = re.sub(r'\b[a-z]\d[a-z]\s*\d[a-z]\d\b', ' ', s)          # postal code
+    s = re.sub(r'\b(?:unit|suite|ste|bldg|building)\s*[#]?\s*\w{1,5}\b', ' ', s)
+    s = re.sub(r'#\s*\w{1,5}\b', ' ', s)
+    s = re.sub(r'^[\s,]*\w{1,5}[-\u2013](?=\d)', ' ', s)           # unspaced unit
+    s = re.sub(r'[^a-z0-9]+', ' ', s)
+    for pat, repl in _STREET:
+        s = re.sub(pat, repl, s)
+    s = re.sub(r'\b(\d+)(st|nd|rd|th)\b', r'\1', s)               # 29th -> 29
+    s = ' '.join(s.split())
+    m = re.search(
+        r'\b(\d+[a-z]?)\s+((?:[a-z0-9]+\s+){0,2}?)(ave|st|rd|dr|blvd|pl|ct|'
+        r'cres|hwy|way|ln|lane|terr|trail|close|gate|loop|bay)\b', s)
+    if not m:
+        return None
+    num, mid, typ = m.group(1), ' '.join(m.group(2).split()), m.group(3)
+    # "27 St" is a street name, not a civic address. Vernon civic numbers
+    # are three to five digits; anything shorter with no street name behind
+    # it produced false address collisions (The Beauty Bar vs Vinterra
+    # Wellness, both listed only as "27 St").
+    if len(re.sub(r'\D', '', num)) < 3:
+        return None
+    return ' '.join(x for x in (num, mid, typ) if x)
+
+
+# ---------------------------------------------------------------------------
+# V2 — the prospect ledger (spec §10, persistent learning)
+#
+# state/outreach-log.md stays exactly as it is: append-only, human-readable,
+# 1,876 rows of history. The ledger is DERIVED from it and extended with the
+# richer V2 fields, so no history is discarded and no second source of truth
+# is created. tools/migrate_ledger.py rebuilds it from the log at any time.
+# ---------------------------------------------------------------------------
+
+LEDGER_FIELDS = (
+    'name', 'aliases', 'parent', 'name_key', 'core_key', 'towns',
+    'domain', 'email', 'email_domain', 'phone', 'address_key',
+    'category', 'community', 'ring', 'distance_km',
+    'score', 'opportunity_type', 'status', 'draft_status', 'sent_status',
+    'source_urls', 'date_checked', 'run', 'rejection_reason',
+)
+
+
+def identity(name, contact='', website='', address='', **extra):
+    """Build the identity half of a ledger record from whatever is known.
+
+    `contact` is the free-text contact field the log has always carried; it
+    may hold an email, a phone, a URL, or a mix, so every key extractor is
+    run over it.
+    """
+    blob = ' '.join(str(x) for x in (contact, website, address) if x)
+    rec = {
+        'name': name,
+        'aliases': list(extra.pop('aliases', ())),
+        'parent': extra.pop('parent', None),
+        'name_key': normalize(name),
+        'core_key': normalize_strict(name),
+        'towns': sorted(towns_in(name)),
+        'domain': domain_of(website) or domain_of(blob),
+        'email': email_of(contact) or email_of(blob),
+        'email_domain': email_domain_of(contact) or email_domain_of(blob),
+        'phone': phone_key(blob),
+        'address_key': address_key(address) or address_key(blob),
+    }
+    rec.update(extra)
+    return rec
+
+
+def load_ledger(path):
+    """Yield ledger records. Missing file yields nothing."""
+    import json
+    if not os.path.exists(path):
+        return
+    with open(path, encoding='utf-8') as fh:
+        for line in fh:
+            line = line.strip()
+            if line:
+                yield json.loads(line)
+
+
+def duplicate_reason(cand, rec):
+    """Why `cand` is the same business as ledger record `rec`, or None.
+
+    Axes, in the order the spec lists them. Each is checked independently
+    so a rebrand that changes the name is still caught by its domain, and a
+    second employee at a contacted business is caught by its email domain.
+    """
+    if cand.get('name_key') and cand['name_key'] == rec.get('name_key'):
+        return f'name matches "{rec["name"]}"'
+
+    ck = cand.get('core_key')
+    if ck and ck == rec.get('core_key'):
+        ta, tb = set(cand.get('towns') or ()), set(rec.get('towns') or ())
+        if not (ta and tb and not (ta & tb)):
+            return f'same business as "{rec["name"]}"'
+
+    for alias in rec.get('aliases') or ():
+        if cand.get('name_key') == normalize(alias):
+            return f'alias of "{rec["name"]}"'
+    for alias in cand.get('aliases') or ():
+        if normalize(alias) == rec.get('name_key'):
+            return f'alias of "{rec["name"]}"'
+
+    if cand.get('email') and cand['email'] == rec.get('email'):
+        return f'same email as "{rec["name"]}"'
+    dom = cand.get('domain')
+    if dom and dom == rec.get('domain') and dom not in SHARED_DOMAINS:
+        return f'same website domain as "{rec["name"]}" ({dom})'
+    ed = cand.get('email_domain')
+    if ed and ed == rec.get('email_domain') and ed not in SHARED_DOMAINS:
+        return (f'same email domain as "{rec["name"]}" '
+                f'({ed}) — one business, one initial email')
+    if cand.get('phone') and cand['phone'] == rec.get('phone'):
+        return f'same phone as "{rec["name"]}"'
+    if cand.get('address_key') and cand['address_key'] == rec.get('address_key'):
+        return f'same street address as "{rec["name"]}" ({rec["address_key"]})'
+    return None

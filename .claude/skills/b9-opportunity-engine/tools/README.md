@@ -81,3 +81,24 @@ of every message sent. See `../references/sms-outreach.md`.
 Shared helpers. The canonical `normalize()` lives here and nowhere else —
 if a duplicate-matching rule needs to change, change it here so every tool
 changes with it.
+
+## V2 tools
+
+| Tool | Owns | Typical use |
+|---|---|---|
+| `migrate_ledger.py` | derives `state/ledger.jsonl` from `state/outreach-log.md`, 1:1 and idempotent | `python3 tools/migrate_ledger.py` after any log change; `--check` reports drift |
+| `dedup_check.py` | **Universal Duplicate Guard** — name, alias, core, domain, email, email domain, phone, address | `cat candidates.txt \| python3 tools/dedup_check.py` |
+| `fit_score.py` | **Commercial Fit Scorer**, 0–100, hard gate at 65 | `python3 tools/fit_score.py --name X --audience 15 --revenue 14 --km 2 --value 12 --timing 5 --repeat 8 --contact 7` |
+| `coverage_ledger.py` | proves what was searched; gates an underfilled run | `--ring 0-1km --source dva --category "auto parts" --examined 14 --kept 6 --dup 8`, then `--audit --asked 20 --delivered 14` |
+| `verify_deliverable.py` | every locked rule, including the V2 greeting and all duplicate axes | `python3 tools/verify_deliverable.py FILE --expect 20 --email-only` |
+| `acceptance_tests.py` | the 14 V2 acceptance tests | `python3 tools/acceptance_tests.py` — run after any change to the tools |
+
+Order of operations for a scan:
+
+```
+dedup_check.py  →  (research)  →  fit_score.py  →  (write)  →
+verify_deliverable.py  →  log_run.py  (refreshes the ledger automatically)
+```
+
+`coverage_ledger.py` runs alongside throughout, and is mandatory before any
+run may be reported short.

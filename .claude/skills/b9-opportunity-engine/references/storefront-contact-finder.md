@@ -1,4 +1,4 @@
-# Contact Finder — email or skip
+# G. Contact Verifier — email or skip
 
 For each discovered business, find a real EMAIL ADDRESS. If there isn't one,
 the business is dropped from the run.
@@ -52,3 +52,36 @@ Anything below that is not a contact for this engine's purposes.
 *format* (`{first}{last}@company.com`) or a redacted `[email protected]`.
 Neither is an address. Building one from a domain is forbidden — it produces
 bounces on a list Neil has to live with.
+
+
+## V2 — verify the person, not just the mailbox
+
+An address is the minimum. The prospect is stronger, and scores higher on
+`contact_quality`, when the engine also knows **who** it reaches.
+
+Priority order for the recipient:
+
+1. owner / principal / franchisee
+2. general manager or operations manager
+3. marketing, partnerships, or community relations
+4. HR / people / culture — the right door for staff nights
+5. events, catering, or group sales
+6. tourism or guest services, for accommodation and visitor businesses
+7. a published general inbox, when no named role is findable
+
+Record, per prospect:
+
+- recipient name (when published) and role
+- email address
+- **the source URL the address came from**
+- verification confidence: `confirmed` (the business's own site, or its own
+  Chamber/DVA listing) or `reported` (a third-party directory only)
+
+A `reported`-only address is usable but scores lower on contact quality,
+and the source is named in the ledger so a bounce can be traced back.
+
+## Still absolute
+
+Never pattern-guess. A displayed format (`{first}{last}@company.com`), a
+redacted `[email protected]`, or an inferred address is not a contact.
+Building one from a domain is forbidden.

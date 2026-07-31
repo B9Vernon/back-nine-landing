@@ -7,12 +7,32 @@ research depth, tone, and quality. These rules are absolute.
 ## Locked email rules
 
 1. The email body ALWAYS opens with a greeting personal to the recipient,
-   then the introduction: `Hey [recipient] team, I'm Neil.`
-   - Business: `Hey Triumph Coffee team, I'm Neil.` (short natural name — drop
-     "The", location suffixes, legal suffixes, store numbers).
-   - Named person (owner/sole practitioner): `Hey Katie, I'm Neil.`
-   - Never a bare `Hey, I'm Neil.` — the greeting must name who it's for.
-   - Never "I'm Vernon." Never introduce Neil as the city or business.
+   on its own line, then the introduction sentence **verbatim**:
+
+   ```
+   Hi Katie,
+
+   My name is Neil. I run Back Nine Golf, the 24/7 indoor golf lounge here
+   in Vernon. …
+   ```
+
+   - The greeting names who it is for. Verified first name when one is
+     known (`Hi Katie,`); otherwise the business's short natural name
+     (`Hi Triumph Coffee team,` — drop "The", location suffixes, legal
+     suffixes, store numbers).
+   - Never a bare `Hi,` — the greeting must name who it's for.
+   - The introduction is the exact sentence `My name is Neil.` — not
+     "I'm Neil", not "I'm Vernon", not "It's Vernon", not "We are Back
+     Nine", not any other variation.
+   - Identify Neil as the owner of Back Nine Golf Vernon where it helps.
+
+   **Superseded wording (runs 1-14):** the inline form
+   `Hey [recipient] team, I'm Neil.` This was locked and shipped for
+   fourteen runs. Neil's V2 upgrade brief replaces it with the exact
+   sentence above; the split greeting keeps everything the old rule
+   protected (the greeting still names the recipient, there is still no
+   bare opener) while satisfying the new requirement. `verify_deliverable.py`
+   enforces the new form and will fail a file written the old way.
 2. NO typed sign-off block. No "Best regards," no name/title/phone/address
    lines — Gmail carries Neil's signature. End the message naturally with a
    simple question or soft next step.
@@ -101,10 +121,12 @@ lines in the deliverable; that work still happens, it just stays internal.
 
 ```
 [#]. [Business Name]
-To: [best public contact — email address, or contact form/phone if no email]
+To: [verified public email address — no forms, no phone numbers]
 Subject: [subject line]
 
-[email body ending with the soft-close question]
+Hi [recipient],
+
+My name is Neil. [rest of body, ending with the soft-close question]
 
 https://backninegolf.ca/local/vernonbc/
 ```

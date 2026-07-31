@@ -15,6 +15,7 @@ Usage:
 import argparse
 import datetime as dt
 import os
+import subprocess
 import re
 import sys
 
@@ -148,6 +149,19 @@ def main():
     with open(args.log, 'a', encoding='utf-8') as fh:
         fh.write('\n'.join(rows) + '\n')
     print(f'Appended {len(rows)} rows to {os.path.relpath(args.log)} as {args.run}.')
+
+    # Keep the derived V2 ledger in step with the log. The duplicate guard
+    # reads the ledger, so a stale one would let the next run re-contact
+    # everything this run just wrote.
+    migrate = os.path.join(HERE, 'migrate_ledger.py')
+    if os.path.exists(migrate):
+        rc = subprocess.run([sys.executable, migrate, '--log', args.log],
+                            capture_output=True, text=True)
+        sys.stdout.write(rc.stdout)
+        if rc.returncode:
+            print('WARNING: ledger refresh failed — run '
+                  'tools/migrate_ledger.py by hand before the next scan.',
+                  file=sys.stderr)
     return 0
 
 

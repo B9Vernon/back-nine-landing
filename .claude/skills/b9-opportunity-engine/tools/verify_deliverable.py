@@ -29,10 +29,12 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from b9lib import (LINK, LOCKED_TV, LOCKED_TV_FAR, normalize,  # noqa: E402
-                   normalize_strict, same_business, load_log)
+                   normalize_strict, same_business, load_log,
+                   identity, duplicate_reason, load_ledger)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_LOG = os.path.join(HERE, '..', 'state', 'outreach-log.md')
+DEFAULT_LEDGER = os.path.join(HERE, '..', 'state', 'ledger.jsonl')
 
 # Abbreviations that legitimately end in "." mid-sentence, so the
 # sentence-fragment scan does not flag them.
@@ -72,6 +74,7 @@ def main():
     ap.add_argument('file')
     ap.add_argument('--expect', type=int, help='expected number of entries')
     ap.add_argument('--log', default=DEFAULT_LOG)
+    ap.add_argument('--ledger', default=DEFAULT_LEDGER)
     ap.add_argument('--email-only', action='store_true',
                     help='fail unless every To: line is a real email address '
                          '(the standing rule since run 12)')
@@ -112,12 +115,24 @@ def main():
     r.check(not missing, 'link is the last line of every entry',
             '; '.join(missing[:3]))
 
-    # --- greeting --------------------------------------------------------
-    greet = len(re.findall(r"Hey .+?, I'm Neil\.", text))
-    r.check(greet == n, 'every email opens with a named personal greeting',
-            f'{greet} of {n}')
-    r.check("Hey, I'm Neil" not in text, 'no bare "Hey, I\'m Neil" greeting')
-    r.check("I'm Vernon" not in text, 'Neil is never introduced as the city')
+    # --- greeting (locked rule 1, V2 form) -------------------------------
+    # V2 requires the exact introduction sentence "My name is Neil." after a
+    # greeting line that names the recipient. The runs 1-14 inline form
+    # ("Hey X team, I'm Neil.") is superseded and fails here on purpose.
+    greet = len(re.findall(r'^(?:Hi|Hey|Hello) [^\n,]+,\n\nMy name is Neil\.',
+                           text, re.M))
+    r.check(greet == n, 'every email opens "Hi <recipient>," then '
+                        '"My name is Neil."', f'{greet} of {n}')
+    intro = len(re.findall(r'\bMy name is Neil\.', text))
+    r.check(intro == n, 'exact introduction sentence present once per email',
+            f'{intro} of {n}')
+    old = re.findall(r"I'm Neil\b", text)
+    r.check(not old, 'no superseded "I\'m Neil" introduction',
+            f'{len(old)} found — rewrite as "My name is Neil."')
+    r.check(not re.search(r'^(?:Hi|Hey|Hello),\s*$', text, re.M),
+            'no bare greeting without a recipient')
+    r.check("I'm Vernon" not in text and "It's Vernon" not in text,
+            'Neil is never introduced as the city')
 
     # --- TV wording (locked rule 2a, forms A and B) ----------------------
     # Count inside email bodies only. The file header legitimately describes
@@ -192,33 +207,75 @@ def main():
             ' | '.join(hits[:3]))
 
 
+    # --- V2 drafting rules (spec section 8) ------------------------------
+    spam = re.findall(r'(?i)\b(?:unsubscribe|if you.{0,20}(?:rather|prefer) not '
+                      r'to (?:hear|receive)|apolog\w+ for the (?:cold|unsolicited)|'
+                      r'sorry for the (?:cold|unsolicited)|this is not spam|'
+                      r'CASL)\b', bodies)
+    r.check(not spam, 'no anti-spam explanation in the body',
+            '; '.join(spam[:3]))
+    callpush = re.findall(r'(?i)\b(?:give me a call|call me at|give us a call|'
+                          r'jump on a (?:quick )?call|hop on a call|'
+                          r'phone me)\b', bodies)
+    r.check(not callpush, 'no phone call pushed (Neil has not asked for one)',
+            '; '.join(callpush[:3]))
+
     # --- duplicates ------------------------------------------------------
     keys = [normalize(b) for _, b in names]
     dupes = {k for k in keys if keys.count(k) > 1}
     r.check(not dupes, 'no duplicate businesses inside this file',
             '; '.join(list(dupes)[:3]))
 
-    if os.path.exists(args.log):
-        # A file already written to the log overlaps with itself; --logged-as
-        # excludes that run's own rows so the check stays meaningful.
+    # --- Universal Duplicate Guard (module H) ----------------------------
+    # Compares every axis the spec lists — name, alias, core name, website
+    # domain, email, email domain, phone, street address — not the trading
+    # name alone. Name-only matching let 18 real double-contacts through
+    # across runs 2-13.
+    tos_by_num = dict(zip([num for num, _ in names],
+                          re.findall(r'^To: (.+)$', text, re.M)))
+    prior = [rec for rec in load_ledger(args.ledger)
+             if not rec.get('rejection_reason')
+             and not (args.logged_as and rec.get('run') == args.logged_as)]
+    if prior:
+        idx = {a: {} for a in ('email', 'domain', 'email_domain', 'phone',
+                               'address_key')}
+        by_core = {}
+        for rec in prior:
+            by_core.setdefault(rec['core_key'], []).append(rec)
+            for axis in idx:
+                if rec.get(axis):
+                    idx[axis].setdefault(rec[axis], rec)
+        overlap = []
+        for num, b in names:
+            cand = identity(b, contact=tos_by_num.get(num, ''))
+            pool = list(by_core.get(cand['core_key'], []))
+            for axis in idx:
+                if cand.get(axis) and cand[axis] in idx[axis]:
+                    pool.append(idx[axis][cand[axis]])
+            for rec in pool:
+                why = duplicate_reason(cand, rec)
+                if why:
+                    overlap.append((num, b, why))
+                    break
+        r.check(not overlap,
+                'no overlap with businesses already contacted (all axes)',
+                '; '.join(f'#{num} {b}: {w}' for num, b, w in overlap[:4]))
+        print(f'  ....  checked against {len(prior)} live businesses on '
+              f'name, alias, domain, email, phone and address\n')
+    elif os.path.exists(args.log):
         logged = [row['name'] for row in load_log(args.log)
                   if not (args.logged_as and row['note'] == args.logged_as)]
-        # Use same_business(), not exact normalize(). Run 13 was built with an
-        # exact match here and eight entries were already in the log under an
-        # abbreviated or pluralised name ("Greater Vernon Minor Hockey Assn").
         by_key = {}
         for nm in logged:
             by_key.setdefault(normalize_strict(nm), []).append(nm)
-        overlap = []
-        for num, b in names:
-            for cand in by_key.get(normalize_strict(b), ()):
-                if same_business(b, cand):
-                    overlap.append((num, b, cand))
-                    break
+        overlap = [(num, b, c) for num, b in names
+                   for c in by_key.get(normalize_strict(b), ())
+                   if same_business(b, c)]
         r.check(not overlap,
                 'no overlap with businesses already in the outreach log',
                 '; '.join(f'#{num} {b} = "{c}"' for num, b, c in overlap[:4]))
-        print(f'  ....  checked against {len(logged)} logged businesses\n')
+        print(f'  ....  ledger missing — fell back to name-only matching '
+              f'against {len(logged)} logged businesses\n')
 
     # --- contact quality (informational) ---------------------------------
     tos = re.findall(r'^To: (.+)$', text, re.M)

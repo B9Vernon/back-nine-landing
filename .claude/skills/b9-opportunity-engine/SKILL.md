@@ -72,26 +72,27 @@ Modules feed each other: calendar events supply organizers/sponsors to Modules
 1–2; corporate signals inform partnership timing; search-demand themes drive
 the 10 business suggestions.
 
-## Outreach mode (explicit request only)
+## Outreach mode (explicit request only) — the V2 pipeline
 
-This is the engine's most-used mode. When Neil asks for partnership
-prospects or outreach emails, run the geography-first pipeline. Core
-belief: Back Nine can potentially partner with almost ANY legitimate local
-business — discovery is by location, never by industry batches, and never
-limited to golf-adjacent businesses.
+This is the engine's most-used mode. Core belief, unchanged: Back Nine can
+potentially partner with almost ANY legitimate local business — discovery
+is by location, never by industry batches, never limited to golf-adjacent
+businesses. What V2 adds is a closed gate at the other end: an opportunity
+is not "a business with an email address", it is a business for which the
+engine can state a credible two-way exchange.
 
-Discovery always starts from Back Nine's postal code **V1T 5B9** and works
-outward in rings (`references/local-radius-sweep.md`). Stay inside Vernon
-and its immediate neighbours unless Neil asks for wider in the current
-message — Kelowna proved too far for the pitch to hold.
+Discovery always starts from Back Nine's **verified address**, postal code
+**V1T 5B9**, and works outward closest-first
+(`references/geo-ring-scout.md`). **Kelowna and beyond are excluded unless
+Neil asks in the current message.**
 
-**0. Read `references/email-first-discovery.md` before anything else.** It
-is the method. One targeted query per business
-(`"<Business Name>" Vernon BC contact email`) finds an address about half
-the time; category queries essentially never do. Runs 6-11 used category
-queries and delivered 1-5% reachable lists. Then size the run with
-`references/saturation-and-run-sizing.md` — budget about two searches per
-delivered prospect, and say up front if the requested number doesn't fit.
+**0. Read these two before anything else.**
+`references/email-first-discovery.md` (harvest from directories, then ONE
+targeted query per business — category-first harvesting produced 1-5%
+reachable lists in runs 6-11 and 80-100% duplicates by run 13) and
+`references/persistence-standard.md` (what the engine may and may not say
+when a run comes in short). Then size the run with
+`references/saturation-and-run-sizing.md`.
 
 1. **Name harvest — sweep DIRECTORIES first, categories only as fallback.**
    `WebSearch` with `allowed_domains` on `members.downtownvernon.com`,
@@ -101,36 +102,68 @@ delivered prospect, and say up front if the requested number doesn't fit.
    `references/local-radius-sweep.md` (rings out from the facility) and
    `references/map-grid-discovery.md` (zone-by-zone). These produce NAMES
    ONLY. `WebFetch` is 403 for every host — `WebSearch` only.
-2. **Dedup immediately** — `tools/dedup_check.py` against
-   `state/outreach-log.md`, before spending a query on any candidate. See
+2. **Dedup immediately — Universal Duplicate Guard (H)** —
+   `tools/dedup_check.py`, before spending a query on any candidate. It
+   compares name, aliases, stripped core, website domain, email, email
+   domain, phone and street address against `state/ledger.jsonl` (all 1,856
+   rows of history). **One business, one initial outreach email** — a second
+   employee or a second address at a contacted business is not new. See
    `references/dedup-status-memory.md`.
-3. **Email query per surviving candidate** —
-   `references/storefront-contact-finder.md`. **Email found → keep. No email
-   → drop the business and move on.** Contact forms and phone numbers are
-   out; a contact page belongs in a `To:` line only if the form was actually
-   submitted, which cannot happen here. Never pattern-guess an address.
-4. **Fit & angle** — `references/partnership-fit-scorer.md` (1–10, prioritize
-   not eliminate) and `references/partnership-angle-matcher.md` (one custom
-   angle each). Both stay internal — no scores or metadata in the file.
-5. **Email** — `references/website-research-email.md` (LOCKED: research the
-   real website, body opens "Hey [recipient] team, I'm Neil.", no typed
-   signature, ends with website link + logo, subject + body, Gmail
-   copy-paste ready, drafts only).
-6. **Audience-holder check** (support skill, additive — layer onto steps 1–5,
-   don't run separately) — for every business found, also ask whether it
-   controls an audience worth reaching (a gym has members, a realtor has
-   clients, a dealership has staff and customers) and who the specific
-   person/role is who can move that audience. See
+3. **Contact Verifier (G)** — `references/storefront-contact-finder.md`.
+   **Email found → keep. No email → drop and move on.** Record the
+   recipient's name and role, the address, the source URL, and whether it is
+   `confirmed` or `reported`. Never pattern-guess an address.
+4. **Trigger & timing (D)** — `references/trigger-timing-monitor.md`. A
+   verified, dated reason to write now, or honestly evergreen.
+5. **Partnership Architect (E)** — `references/partnership-angle-matcher.md`.
+   Two to five organization-specific structures; lead the email with one.
+   A concept that could be pasted to ten unrelated businesses is rejected.
+6. **Commercial Fit Scorer (F)** — `tools/fit_score.py`, rubric in
+   `references/partnership-fit-scorer.md`. **65/100 is a hard floor.** Below
+   it, the prospect goes to the rejection ledger and is replaced. Never
+   inflate a score to reach a count.
+7. **Audience-holder check (C)** (support skill, additive — layer onto the
+   steps above, don't run separately) — does this organization already
+   control an audience worth reaching, and who specifically can move it? See
    `../b9-audience-holder-finder/SKILL.md`.
-7. **Verify — before showing Neil anything** —
-   `tools/verify_deliverable.py FILE --email-only`. Exit code must be 0.
-   Not optional: run 4 shipped 56 emails whose TV wording broke locked rule
-   2a, and runs 6-11 shipped lists that were 95%+ unreachable. Both would
-   have been caught here.
-8. **Log** — `tools/log_run.py FILE --run run-N`.
+8. **Red team (J)** — `references/opportunity-red-team.md`. Nine questions,
+   applied to every survivor. Reject and replace, don't ship with a caveat.
+9. **Email** — `references/website-research-email.md` (LOCKED: greeting line
+   naming the recipient, then the exact sentence **"My name is Neil."**, one
+   or two verified specifics, no typed signature, no anti-spam paragraph, no
+   phone-call push, website link footer, drafts only).
+10. **Verify — before showing Neil anything** —
+    `tools/verify_deliverable.py FILE --email-only`. Exit code must be 0.
+    Not optional: run 4 shipped 56 emails that broke locked rule 2a, runs
+    6-11 shipped lists 95%+ unreachable, and run 13 shipped 6 duplicates
+    that only the V2 duplicate axes catch.
+11. **Log and extend memory** — `tools/log_run.py FILE --run run-N`, then
+    `tools/migrate_ledger.py` to refresh `state/ledger.jsonl`.
+
+Whenever a run risks coming in short, record coverage as you go with
+`tools/coverage_ledger.py` and gate the shortfall with `--audit`.
 
 Working style (standing instruction since run 5): work quietly, don't
 narrate the process in chat, deliver the file plus a short summary.
+
+### Default when activated with no extra instructions
+
+Closest-first research from the verified V1T 5B9 location, Kelowna
+excluded, Universal Duplicate Guard applied, **ten prospects scoring 65 or
+better**, and no email created or sent unless asked.
+
+### Scoped activation examples
+
+```
+RUN B9 OPPORTUNITY ENGINE
+RUN B9 OPPORTUNITY ENGINE — partnerships only, 10 new businesses, create Gmail drafts
+RUN B9 OPPORTUNITY ENGINE — closest-first, 20 qualified prospects, no drafts
+RUN B9 OPPORTUNITY ENGINE — events and audience holders, next 90 days, 40 km
+RUN B9 OPPORTUNITY ENGINE — corporate memberships and staff events, Vernon and Coldstream
+RUN B9 OPPORTUNITY ENGINE — resume incomplete scan and replace every failed prospect
+```
+
+See `references/run-commands.md` for parsing rules.
 
 Command-gated companion modes (never run unprompted):
 

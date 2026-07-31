@@ -7,10 +7,23 @@ Anything after the phrase (usually after a dash) scopes the run.
 
 | Dimension | Default | Example modifiers |
 |---|---|---|
-| Geography | Vernon + North Okanagan, ~50 km | "Vernon and 50 km", "Vernon only", "include Kelowna" |
+| Geography | closest-first from V1T 5B9, **Kelowna excluded** | "40 km", "Vernon only", "Vernon and Coldstream", "include Kelowna" |
+| Count | **10 qualified prospects** (score ≥ 65) | "20 qualified prospects", "10 new businesses" |
 | Time horizon | Next ~90 days | "next 90 days", "next 30 days", "this winter" |
-| Modules | All four | "partnerships only", "corporate events and community opportunities", "Google search demand" |
-| Deliverables | Full report template | "10 business suggestions", "ACT NOW only" |
+| Modules | All four | "partnerships only", "events and audience holders", "corporate memberships and staff events" |
+| Drafts | **none** unless asked | "create Gmail drafts", "no drafts" |
+| Deliverables | Scan Summary + Ranked Opportunity Table + Rejection Ledger | "ACT NOW only", "10 business suggestions" |
+
+## V2 phrases with specific meanings
+
+| Phrase | Effect |
+|---|---|
+| `closest-first` | ring order is enforced and recorded; no ring skipped |
+| `N qualified prospects` | N must each clear 65/100 AND the duplicate guard; replace failures automatically |
+| `create Gmail drafts` | drafts only, never sent; requires the Gmail connector — if it is unavailable, say so and deliver the TXT instead |
+| `audience holders` | prioritize organizations that already control a group (module C) |
+| `resume incomplete scan` | reopen the coverage ledger for the named run and fill the gap rather than starting a new run tag |
+| `include Kelowna` | the only way ring 8+ and Kelowna open; state the distance trade-off in the summary |
 
 ## Interpretation rules
 

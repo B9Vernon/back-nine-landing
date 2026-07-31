@@ -1,7 +1,47 @@
-# Partner Deduplication & Status Memory
+# H. Universal Duplicate Guard & Status Memory
 
-The engine must never re-pitch the same business unknowingly.
-Memory lives in `state/outreach-log.md` (append-only, one line per business).
+**Governing rule: one business, one initial outreach email.** A different
+employee, a second address, a rebrand or an alternate spelling at the same
+business does not make it new. Franchises and separately operated locations
+may be treated separately only when ownership, decision-making and local
+value are genuinely distinct and documented.
+
+If a business has already been contacted, exclude it — unless Neil
+explicitly asks for a follow-up campaign.
+
+## Where memory lives
+
+- `state/outreach-log.md` — append-only, one line per business, 1,856 rows
+  back to batch-10. **The source of truth. Never reset, never replaced.**
+- `state/ledger.jsonl` — derived from it by `tools/migrate_ledger.py`, one
+  record per row, carrying the V2 fields the guard needs: identity keys,
+  website domain, email, email domain, phone, civic address, category,
+  ring, score, opportunity type, draft/sent status, source URLs, run tag,
+  rejection reason.
+
+The ledger is a projection, not a second ledger. Rebuild it any time; the
+log is what survives.
+
+## The axes the guard compares
+
+trading name · aliases and spelling variations · stripped core name ·
+parent company and location names · website root domain · email address ·
+email domain · phone number · street address
+
+Name-only matching let **18 real double-contacts** through across runs
+2–13 — same domain, same phone, same email, different trading name (Le
+Grows Travel = Maritime Travel; Edge Apparel & Imprints = Edge Imprints;
+The Landing Church = The Landing Vernon). All are now marked in the log,
+and the class is caught.
+
+Two deliberate carve-outs:
+
+- **Shared institutional and franchise domains** (`vernon.ca`, `sd22.bc.ca`,
+  `royallepage.ca`, bank domains…) do not trigger a duplicate. Tourism
+  Vernon and Greater Vernon Recreation are separate decision-makers on one
+  municipal domain.
+- **Free mailbox providers** (`@gmail.com`, `@shaw.ca`, `@telus.net`…) are
+  never an email-domain match.
 
 ## Statuses
 
@@ -27,10 +67,19 @@ write the placeholder — use it rather than appending by hand.
 
 ## Procedure — use the tools, not memory
 
-1. **BEFORE writing any emails**, check the candidate names:
+1. **BEFORE writing any emails**, check the candidates:
 
    ```
    cat candidates.txt | python3 tools/dedup_check.py
+   ```
+
+   Names alone work. When more is known, pass it — the extra axes are what
+   catch a rebrand or a second employee:
+
+   ```
+   printf 'Edge Apparel|sales@edgeimprints.com||\n' | python3 tools/dedup_check.py
+   python3 tools/dedup_check.py --name "Dave in Sales" \
+       --email dave@coldstreamtruckparts.ca
    ```
 
    Do this at candidate stage, not at verification stage. Runs 6, 7 and 8
@@ -50,11 +99,13 @@ write the placeholder — use it rather than appending by hand.
 4. **AFTER the run**, append with the tool:
 
    ```
-   python3 tools/log_run.py "#9-B9-Partnerships.txt" --run run-9
+   python3 tools/log_run.py "#15-B9-Partnerships.txt" --run run-15
    ```
 
    It refuses to log a business that is already present, so a duplicate
-   that survived every earlier check still cannot reach the log.
+   that survived every earlier check still cannot reach the log, and it
+   refreshes `state/ledger.jsonl` automatically so the next scan sees this
+   run's prospects as contacted.
 
 ## Known gap — statuses have never advanced
 

@@ -1,8 +1,24 @@
-# Partnership Angle Matcher
+# E. Partnership Architect (angle matcher)
 
-Every company gets ONE custom angle — the strongest for that specific
-business. Never send the same angle to everyone; never list every option in
-one email. The reader should think: "This actually makes sense for us."
+Build **two to five organization-specific partnership structures** for each
+prospect, then LEAD THE EMAIL WITH ONE. The extra structures are not filler
+for the email — they are what Neil uses on the reply, and they go into the
+ledger as `opportunity_type`.
+
+The email carries one strong lead idea, optionally with two or three
+concise supporting options. Never a menu of ten. The reader should think:
+"This actually makes sense for us."
+
+## The rejection test (module J applies it)
+
+If a partnership concept could be pasted unchanged into an email to ten
+unrelated businesses, it is not a concept — it is a template. Rewrite it
+around this organization's real audience, calendar, services and goals, or
+reject the prospect.
+
+Concretely: "we could do a staff night" is generic. "Your fabrication floor
+finishes shifts at odd hours and our bays are open at all of them, and the
+shops you supply are the group bookings we already take" is specific.
 
 ## Angle menu (choose one per business)
 
