@@ -1,0 +1,178 @@
+B9 VACATION RENTAL OPPORTUNITY COMMAND CENTRE - UNRESOLVED LEADS QUEUE
+Origin: Back Nine Indoor Golf Vernon, V1T 5B9 (exact street address pending)
+Last updated: run 3 close-out
+
+These are promising accommodation leads that do NOT yet have a verified public contact path.
+They are deliberately kept OUT of the ready-to-send outreach files.
+Command to work this list: RESOLVE VACATION RENTAL UNRESOLVED QUEUE
+
+======================================================================
+PRIORITY A - Vernon core (Bands 1-3), strongest guest fit
+======================================================================
+
+LEAD: Irish Creek Ranch (Vernon)
+LOCATION: 257 Irish Creek Road S, Vernon - Band 3, ~15 min
+CLUES: Working cattle ranch on 200 acres overlooking Okanagan Lake; luxury B&B rooms,
+  pool, hot tub, walking trails. Listed on gonorthwest.com with an "E-mail" field present.
+ATTEMPTED: name + contact email; name + gmail/shaw/telus domain pin; ranch directory search.
+SOURCES CHECKED: gonorthwest.com, Tourism Vernon ranches/farms category, YellowPages.
+MISSING: the directory renders email as a link, not plain text; no own domain found.
+NEXT METHOD: find the ranch's own domain or Facebook business page, then run
+  site:<domain> contact email; also try "Irish Creek Ranch" + reservations / + booking.
+WHY IT MATTERS: luxury lakeview ranch B&B this close to Vernon is a strong A-grade fit.
+
+LEAD: Harbour Lights Bed & Breakfast (Vernon)
+LOCATION: 135 Joharon Road, Bella Vista - Band 3, ~12 min
+CLUES: Long-running lakeview B&B; directory entries show an email field.
+ATTEMPTED: name + contact email; Joharon + domain pin; staycanada listing.
+SOURCES CHECKED: gonorthwest.com, staycanada.ca, YellowPages, iloveinns.
+MISSING: no own website surfaced; email hidden behind directory link.
+NEXT METHOD: search operator/owner personal name + Vernon B&B; check BC B&B association
+  and Tourism Vernon B&B page for a live listing.
+
+LEAD: Trudy's Bed and Breakfast Guest House (Vernon)
+LOCATION: 2000 32 St, Vernon - Band 1, ~5 min
+CLUES: Central Vernon guest house; appears in Vernon Morning Star directory and TripAdvisor
+  as "Trudy's Place Vernon Guest House".
+ATTEMPTED: name + contact email; directory site: query.
+SOURCES CHECKED: vernonmorningstar.com directory, TripAdvisor, Tourism Vernon.
+MISSING: directory lists address only, no email or website.
+NEXT METHOD: "Trudy's Place" + Vernon + booking/Airbnb host resolution; check for a
+  Facebook business page. If platform-only, hand to b9-platform-host-contact.
+
+LEAD: The Sunflower Bed and Breakfast (Vernon)
+LOCATION: 448 Pottery Road, Vernon - Band 2, ~8 min
+CLUES: Hosts named Judy and Bob; ~2 km from Vernon centre; listed on staycanada and BC B&B
+  association pages with email and website fields referenced.
+ATTEMPTED: name + contact email; Pottery Road + domain pin; bcbba site: query.
+SOURCES CHECKED: staycanada.ca, bcbba.ca, localtop10, Tourism Vernon.
+MISSING: association listing did not render the address in search results.
+NEXT METHOD: site:bcbba.ca "Sunflower" inn; search hosts' names + Vernon bed and breakfast.
+
+LEAD: Silver Star Bed & Breakfast (Vernon, 5 acres)
+LOCATION: Vernon, on the Silver Star road side - Band 3, ~15 min
+CLUES: Five-acre property, listed on Booking.com, TripAdvisor, Kayak, vernon.com.
+ATTEMPTED: name + acres + domain pin; general contact search.
+SOURCES CHECKED: staycanada, vernon.com, booking aggregators.
+MISSING: OTA-only presence; no direct site surfaced.
+NEXT METHOD: resolve host name via vernon.com business listing, then domain/social search.
+
+LEAD: Deerwood Gardens Bed and Breakfast (Vernon)
+LOCATION: 8040 Deerwood Road, Vernon - Band 3, ~12 min
+CLUES: Active Facebook business page; gonorthwest directory shows an email field.
+ATTEMPTED: name + domain pin; directory search.
+SOURCES CHECKED: gonorthwest.com, Facebook, YellowPages.
+MISSING: email behind directory link; Facebook page not mined for a public address.
+NEXT METHOD: check the Facebook page's About/contact block for a published business email.
+
+LEAD: A Bit of Country Bed and Breakfast (Vernon)
+LOCATION: Vernon - Band 2-3
+CLUES: Appears in Vernon B&B "best of" roundups.
+ATTEMPTED: paired search with Deerwood Gardens.
+SOURCES CHECKED: localtop10, bedsandbreakfasts.ca, Tourism Vernon.
+MISSING: no address, website, or email surfaced; may be closed.
+NEXT METHOD: confirm still trading before spending more effort.
+
+LEAD: Cedar Grove Bed and Breakfast (Vernon / Killiney Beach)
+LOCATION: Westside, near Killiney Beach - Band 4-5
+CLUES: Listed on travelinbc.com Vernon B&B page.
+ATTEMPTED: name + contact email.
+SOURCES CHECKED: travelinbc.com, Tourism Vernon.
+MISSING: no contact details in results.
+NEXT METHOD: travelinbc listing detail page; check whether still operating.
+
+LEAD: Tel-A-Friend Motel (Vernon)
+LOCATION: 1501 32 St, Vernon - Band 1, ~5 min
+CLUES: Kitchenette rooms, budget motel on the 32nd St strip; BBB profile exists.
+ATTEMPTED: name + contact; aggregator review.
+SOURCES CHECKED: BBB, Booking, TripAdvisor, Expedia, canada-hotels24.
+MISSING: no own website or published email found anywhere.
+NEXT METHOD: BBB business profile contact block; Google Business listing.
+NOTE: may be phone-only - if so, record as tier-10 phone follow-up, not an email prospect.
+
+LEAD: Lodged Inn Vernon Hostel
+LOCATION: Vernon - Band 1
+CLUES: Hostel/inn listed at 250-549-3742 on shopvernon.com.
+ATTEMPTED: name + accommodation + contact email.
+SOURCES CHECKED: shopvernon.com, TripAdvisor, aggregators.
+MISSING: no website or email; may be closed.
+NEXT METHOD: confirm operating status first.
+
+======================================================================
+PRIORITY B - From the B9 Growth Database, accommodation rows with a URL but no email
+(These already sit in back_nine_vernon_prospect_database.csv - resolve, then promote.)
+======================================================================
+
+LEAD: Nirvana Cabanas - Okanagan Lakeside Suites
+URL: http://www.okanaganlakesidesuites.com/contact.html
+NEXT METHOD: site:okanaganlakesidesuites.com contact email
+
+LEAD: Ley's RV Park & Farm
+URL: https://leyrvpark.com
+NEXT METHOD: site:leyrvpark.com contact email
+
+LEAD: Quilakwa RV Park (Enderby)
+URL: https://www.quilakwarvpark.com/rv-campground
+NEXT METHOD: site:quilakwarvpark.com contact email
+
+LEAD: Vita Resorts (Okanagan)
+URL: https://www.vitaokanagan.com/contact
+NEXT METHOD: site:vitaokanagan.com contact email - check portfolio size first, may be an
+  A-grade multi-property operator.
+
+LEAD: Canada's Best Value Inn & Suites Vernon
+URL: sonesta.com property page - Band 1
+NEXT METHOD: chain property page contact block; Vernon chamber member listing.
+
+LEAD: Village Green Vacations / Carrie'd Away Vacations / Anderson Vacations
+NOTE: Anderson Vacations already carries bookings@andersonvacations.ca in the Growth
+  Database. These are travel/vacation businesses rather than accommodations - qualify
+  whether they control guest communication before writing outreach.
+
+======================================================================
+PRIORITY C - Outer ring, phone-only or thin presence
+======================================================================
+
+Royal Inn of Enderby (301 George St, Enderby) - phone only, no site found.
+Cooper Ranch Bed & Breakfast (150 Cooper Rd, Lumby) - owner Egon Dietsche, phone only.
+Argh Lake B&B (Lumby) - private suite, stocked trout lake; only a tourism blurb found.
+Log Bog Friendship Farm B&B (Grindrod / Salmon Arm Hwy) - phone only, Facebook page exists.
+Silver Lode Inn (SilverStar) - ski-in/ski-out, no independent domain; likely booked through
+  a resort PM. Resolve which company manages it, then contact the portfolio operator.
+Frank's Holiday Park (Scotch Creek) - phone/toll-free only.
+Bieri's Paradise (Sicamous) - site bierisparadise.com found, email not yet surfaced.
+Best Western Sicamous Inn / Paradise Motel / Anchor Riverfront Motel (Sicamous) - own
+  contact pages exist; run site: queries to convert forms into emails.
+Family Tree Riverside RV & Campground (Sicamous) - contact form only so far.
+Village Hub Farm Campground / Haven Hill Family Farm / Deep Creek Cabin / Braeheart Nature
+  Retreat (Armstrong-Enderby) - Hipcamp-only listings. Platform-only: resolve the owner's
+  public identity, or hand to b9-platform-host-contact.
+
+======================================================================
+CONFIRMED DEAD - do not re-research
+======================================================================
+
+Lake Okanagan Resort (Westside Rd) - ~90% destroyed by fire, temporarily closed.
+Pillar Lake Resort (Falkland) - sold to a First Nations partnership, no longer open to the public.
+Schubert Estate B&B (Armstrong) - sold, not reopened as a B&B.
+Camel's Hump Guest Ranch (Lumby) - property sold, no longer operating.
+Green Valley Motel (Vernon) - permanently closed.
+Putnam Station Inn (SilverStar) - closed.
+Klub Kalamalka (Oyama) - full-season lease campground only; no nightly guests to reach.
+Cozy Cabins / A&S Lakeview - excluded in run 1 as closed (note: Cozy Cabins has since
+  reappeared as a wellness resort and IS in run 2 - verify before any further action).
+
+======================================================================
+OPPORTUNITY GAP FINDER - next strongest search areas
+======================================================================
+
+1. Wedding-group and sports-tournament accommodation partners around Vernon - never swept.
+   Vernon hosts large tournaments; the hotels holding room blocks control guest comms.
+2. Furnished / corporate extended-stay operators in Vernon beyond OKGN Suites.
+3. Direct-booking Vernon properties absent from tourism directories (search by
+   neighbourhood + "book direct" rather than by directory).
+4. SilverStar operators headquartered outside SilverStar - partially covered; mine
+   alluraDirect and OwnerDirect owner lists for management companies.
+5. Accommodation businesses that exist only on social media (Instagram/Facebook-first hosts).
+6. The remaining ~2,600 non-accommodation rows of the B9 Growth Database for visitor-service
+   businesses that talk to guests (tour operators, shuttle services, visitor centres).

@@ -17,6 +17,11 @@ Goal: turn a VRBO or Airbnb listing into a usable contact path for Neil's manual
   move to the host's public business channel. If a host says no, they are removed from
   all future lists.
 
+This skill is the **last resort** in the B9 Vacation Rental Opportunity Command Centre.
+Reach it only after `b9-vacation-listing-intelligence-resolver` has run its full ladder -
+query mutation, portfolio mining, the 10-tier contact escalation, and the no-excuse failure
+recovery routes - and found no public off-platform path at all.
+
 ## Step 1 - Listing-to-owner cross-reference (preferred path)
 For the full deep-research version of this step (multi-source entity matching,
 portfolio discovery, 1-100 confidence scoring, unresolved queue), use the companion
