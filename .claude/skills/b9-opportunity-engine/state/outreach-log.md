@@ -1872,3 +1872,5 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Greater Vernon Ringette Association | Non-profit/society | president@vernonringette.com | 2026-07-31 | run-15
 - [email created] ODYNN Performance Therapy | Counselling | odynnvernon@gmail.com | 2026-07-31 | run-15
 - [email created] Okanagan Shade & Shutter | Home furnishing | info@okss.ca | 2026-07-31 | run-15
+- [email created] Okanagan College — Vernon Campus | School/training | csnorth@okanagan.bc.ca | 2026-08-01 | run-16
+- [email created] Aurora Aviation Academy | School/training | info@auroraaviationacademy.com | 2026-08-01 | run-16
