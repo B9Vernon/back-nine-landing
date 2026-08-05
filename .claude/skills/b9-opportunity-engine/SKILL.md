@@ -102,13 +102,26 @@ when a run comes in short). Then size the run with
    `references/local-radius-sweep.md` (rings out from the facility) and
    `references/map-grid-discovery.md` (zone-by-zone). These produce NAMES
    ONLY. `WebFetch` is 403 for every host — `WebSearch` only.
-2. **Dedup immediately — Universal Duplicate Guard (H)** —
-   `tools/dedup_check.py`, before spending a query on any candidate. It
-   compares name, aliases, stripped core, website domain, email, email
-   domain, phone and street address against `state/ledger.jsonl` (all 1,856
-   rows of history). **One business, one initial outreach email** — a second
-   employee or a second address at a contacted business is not new. See
-   `references/dedup-status-memory.md`.
+2. **Dedup immediately — Universal Duplicate Guard (H)** — screen the WHOLE
+   harvest in one pass with
+   `tools/screen_candidates.py FILE --new-only`, before spending a single
+   verification query. One candidate per line, optionally
+   `name | address | website | contact`. Use `tools/dedup_check.py` for a
+   one-off. Both compare name, aliases, stripped core, website domain,
+   email, email domain, phone and street address (unit-aware) against
+   **every** row of `state/ledger.jsonl` — including the 89 that carry a
+   historical duplicate marker, which are contacted businesses flagged "do
+   not contact again", not available ones. **One business, one initial
+   outreach email.** See `references/dedup-status-memory.md`.
+
+   Screening before verifying is what the run budget depends on: harvesting
+   a name is one shared query, verifying an email is one query each. Runs
+   12–16 spent the expensive step first and collapsed to 2–3 prospects.
+
+   Re-screen with the FINAL name and the VERIFIED email before drafting. In
+   run 17 that second pass caught seven businesses that the harvest-name
+   screen had cleared — they only collided once their real address was
+   known.
 3. **Contact Verifier (G)** — `references/storefront-contact-finder.md`.
    **Email found → keep. No email → drop and move on.** Record the
    recipient's name and role, the address, the source URL, and whether it is

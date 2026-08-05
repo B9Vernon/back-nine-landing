@@ -1874,3 +1874,14 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Okanagan Shade & Shutter | Home furnishing | info@okss.ca | 2026-07-31 | run-15
 - [email created] Okanagan College — Vernon Campus | School/training | csnorth@okanagan.bc.ca | 2026-08-01 | run-16
 - [email created] Aurora Aviation Academy | School/training | info@auroraaviationacademy.com | 2026-08-01 | run-16
+- [email created] Kal Fitness | Fitness | kalfitnessvernon@gmail.com | 2026-08-05 | run-17
+- [email created] Clark Freightways | Transport/freight | info@clarkfreightways.com | 2026-08-05 | run-17
+- [email created] Western Financial Group — Vernon | Accounting/finance | vernon@westernfg.ca | 2026-08-05 | run-17
+- [email created] Brown Mechanical Services | Trades — plumbing/HVAC | info@brownmechanical.ca | 2026-08-05 | run-17
+- [email created] Magnetsigns Vernon | Professional services | bobshaw@magnetsigns.com | 2026-08-05 | run-17
+- [email created] OK Builders Supplies | Trades — building | okbuilders11@shawcable.com | 2026-08-05 | run-17
+- [email created] Applewood Heating & Air Conditioning | Trades — plumbing/HVAC | info@applewoodheating.net | 2026-08-05 | run-17
+- [email created] Russell Shortt Land Surveyors | Surveying/geomatics | devinc@jrshortt.ca | 2026-08-05 | run-17
+- [email created] McPherson Maddox Land Surveying | Surveying/geomatics | scott.wemaddox@telus.net | 2026-08-05 | run-17
+- [email created] CSN Frank's Collision Repair Centre | Auto service | info@csnfranks.com | 2026-08-05 | run-17
+- [email created] Wylie's RV Logistics | Transport/freight | wylies@rvlogistics.ca | 2026-08-05 | run-17

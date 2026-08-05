@@ -235,9 +235,15 @@ def main():
     # across runs 2-13.
     tos_by_num = dict(zip([num for num, _ in names],
                           re.findall(r'^To: (.+)$', text, re.M)))
+    # EVERY ledger row is a business that was already written to — the ledger
+    # is derived from outreach-log.md, which only records outreach. A
+    # rejection_reason on such a row is a historical duplicate marker
+    # ("duplicate of X — do not contact again"), not a note that the business
+    # was never contacted. Skipping those rows let run 17 draft an email to
+    # Cambium Cider Co, which run 7 had already emailed on the same address
+    # and explicitly flagged. All 89 marked rows carry status "email created".
     prior = [rec for rec in load_ledger(args.ledger)
-             if not rec.get('rejection_reason')
-             and not (args.logged_as and rec.get('run') == args.logged_as)]
+             if not (args.logged_as and rec.get('run') == args.logged_as)]
     if prior:
         idx = {a: {} for a in ('email', 'domain', 'email_domain', 'phone',
                                'address_key')}

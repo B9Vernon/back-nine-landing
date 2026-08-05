@@ -28,11 +28,19 @@ DEFAULT_LOG = os.path.join(HERE, '..', 'state', 'outreach-log.md')
 # Ordered most-specific first; first hit wins. Matched against the business
 # NAME and subject line only — see infer_category().
 CATEGORY_HINTS = [
+    # Surveying and freight had no pattern at all, so every land surveyor and
+    # every trucking company in run 17 logged as "Uncategorized".
+    ('Surveying/geomatics', r'\bsurveyor|surveying|geomatic|geo-survey'),
+    ('Transport/freight', r'\bfreight|trucking|transport\b|logistics|'
+                          r'\bcourier|carriers?\b|haul(?:age|ing)\b'),
     ('Dental/ortho', r'\bdental|dentist|orthodont'),
     ('Veterinary', r'\bveterinar|animal (?:hospital|care)'),
     ('Childcare', r'\bdaycare|day care|child care|childcare|preschool|montessori'),
     ('Tattoo/piercing', r'\btattoo|piercing|adornment'),
-    ('Salon/barber', r'\bsalon|barber|hair\b|nails?\b|esthetic|lash|brow'),
+    # "brow" was unanchored and swallowed "Brown Mechanical Services" into
+    # Salon/barber. Every one of these needs a boundary.
+    ('Salon/barber', r'\bsalon\b|\bbarber|\bhair\b|\bnails?\b|\besthetic|'
+                     r'\blash(?:es)?\b|\bbrows?\b'),
     ('Spa/wellness', r'\bspa\b|wellness|laser|skin\b|beauty'),
     ('Physio/chiro/massage', r'\bphysio|chiro|massage|\brmt\b|rehab'),
     ('Counselling', r'\bcounsell|counsel|therapy|psycholog|clinical therapy'),
@@ -55,9 +63,14 @@ CATEGORY_HINTS = [
     ('Hotel/motel/B&B', r'\bhotel|motel|inn\b|lodge|bed (?:and|&) breakfast|b&b|guesthouse'),
     ('Campground/RV', r'\bcampground|rv park|resort|marina'),
     ('Auto sales', r'\bmotors\b|dealership|\bkia\b|toyota|honda|chrysler|hyundai|nissan'),
-    ('Auto service', r'\bauto|tire|car wash|detail|towing|muffler|collision|mechanic'),
+    # "mechanic" was unanchored and caught "Brown Mechanical Services", a
+    # plumbing and heating contractor. In BC trades "<name> Mechanical" is an
+    # HVAC firm; "mechanic" is the garage. Keep them apart.
+    ('Auto service', r'\bauto|tire|car wash|detail|towing|muffler|collision|'
+                     r'\bmechanics?\b'),
     ('Trades — electrical', r'\belectric'),
-    ('Trades — plumbing/HVAC', r'\bplumb|hvac|air conditioning|heating'),
+    ('Trades — plumbing/HVAC', r'\bplumb|hvac|air conditioning|heating|'
+                               r'\bmechanical\b|refrigerat'),
     ('Trades — roofing', r'\broofing|roofer'),
     ('Trades — building', r'\bcontract|construct|renovat|builder|homes\b|carpent|cabinet'),
     ('Trades — excavation', r'\bexcavat|bobcat|paving|asphalt|gravel|concrete'),

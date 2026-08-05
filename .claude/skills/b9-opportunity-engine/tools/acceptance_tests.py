@@ -344,6 +344,88 @@ def t14(say):
         f'1:1 with the derived ledger')
 
 
+# ---------------------------------------------------------------- 15
+@test(15, 'Multi-tenant test — different units are different businesses')
+def t15(say):
+    """Run 17 regression.
+
+    A civic address used to stand for every tenant in the building, so KAL
+    Fitness (11-100 Kalamalka Lake Rd) was reported as a duplicate of Chemac
+    Industries (100 Kalamalka Lake Rd). Vernon is full of multi-tenant
+    plazas, so that quietly hid fresh prospects. Two KNOWN, DIFFERENT units
+    must not collide — but an address with no unit still has to match
+    everything at it, or the original protection is gone.
+    """
+    a = identity('Alpha Co', address='11-100 Kalamalka Lake Rd')
+    b = identity('Beta Co', address='17-100 Kalamalka Lake Rd')
+    assert duplicate_reason(a, b) is None, \
+        'two different units in one plaza still collide on address'
+
+    bare = identity('Gamma Co', address='100 Kalamalka Lake Rd')
+    assert duplicate_reason(a, bare), \
+        'a unit-less civic address must still match tenants at it'
+
+    same = identity('Delta Co', address='2801 35th Avenue Unit 220')
+    other = identity('Delta Company', address='220-2801 35 Ave')
+    assert duplicate_reason(same, other), \
+        'one unit written two ways must still be one business'
+    say('units compared; unit-less addresses still match everything at them')
+
+
+# ---------------------------------------------------------------- 16
+@test(16, 'Do-not-contact test — historical duplicate markers still block')
+def t16(say):
+    """Run 17 regression.
+
+    The duplicate guard and the deliverable verifier both skipped every
+    ledger row carrying a rejection_reason. But the ledger is derived from
+    outreach-log.md, which records outreach and nothing else: all 89 marked
+    rows have status "email created" and read "duplicate of X — do not
+    contact again". Skipping them made every one of those businesses look
+    available. Run 7 had already emailed hello@cambiumcider.com; run 17
+    nearly emailed it again.
+    """
+    recs = list(load_ledger(LEDGER))
+    marked = [r for r in recs if r.get('rejection_reason')]
+    assert marked, 'no historical duplicate markers left in the ledger'
+    contacted = [r for r in marked if r.get('status')]
+    assert len(contacted) == len(marked), \
+        'a marked row with no status would be safe to skip — revisit this test'
+
+    # The victim has to be a business the guard can ONLY see through its
+    # marked row. Most marked rows have an unmarked twin under the same name,
+    # which catches them either way and would make this test pass even with
+    # the bug present. Cambium Cider Co is the real shape: logged under a
+    # former name ("The BX Press Cidery..."), so only the marked row carries
+    # the trading name and the address that run 17 actually found.
+    # Selected by the guard's own verdict rather than a proxy: a valid victim
+    # is one that NO unmarked row matches on ANY axis. Filtering on name and
+    # email alone left 83 candidates, but 73 of those are still caught by an
+    # unmarked row through the domain axis — picking one of them made this
+    # test pass with the bug present.
+    live = [r for r in recs if not r.get('rejection_reason')]
+    victims = []
+    for r in marked:
+        cand = identity(r['name'], contact=r.get('email') or '')
+        if not any(duplicate_reason(cand, o) for o in live):
+            victims.append(r)
+    assert victims, ('every marked row is also reachable from an unmarked row '
+                     '— this test can no longer distinguish the bug from the fix')
+
+    victim = victims[0]
+    entry = [(victim['name'], victim.get('email') or 'x@example.com',
+              'Test', 'A body that says nothing at all.')]
+    path = os.path.join(tempfile.gettempdir(), 'b9_t16.txt')
+    sample_file(entry, path)
+    out = run([sys.executable, os.path.join(HERE, 'verify_deliverable.py'),
+               path]).stdout
+    assert 'FAIL  no overlap with businesses already contacted' in out, \
+        (f'verifier let a "do not contact again" business through: '
+         f'{victim["name"]} <{victim.get("email")}>')
+    say(f'{len(marked)} marked rows all carry a status; {len(victims)} are '
+        f'visible only through the marker, and those still block')
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('-v', '--verbose', action='store_true')

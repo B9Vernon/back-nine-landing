@@ -336,6 +336,36 @@ def address_key(text):
     return ' '.join(x for x in (num, mid, typ) if x)
 
 
+def address_unit(text):
+    """The unit/suite designator inside an address, or None if there is none.
+
+    `address_key` deliberately drops the unit so that one business written
+    two ways ("220-2801 35 Ave" and "2801 35th Avenue Unit 220") produces
+    one key. That is right for a single tenant and wrong for a plaza: Vernon
+    is full of multi-tenant addresses, and collapsing them made the civic
+    number alone stand for every tenant in the building. KAL Fitness
+    (11-100 Kalamalka Lake Rd) was reported as a duplicate of Chemac
+    Industries (100 Kalamalka Lake Rd) — two unrelated businesses in the
+    Kalamalka Business Park — which is exactly the kind of false match that
+    hides fresh prospects.
+
+    Kept separate from the key rather than folded into it, so
+    duplicate_reason() can require the civic address to match AND the units
+    to be compatible. A missing unit still matches anything at that address,
+    so the original protection survives.
+    """
+    if not text:
+        return None
+    s = text.lower()
+    s = re.sub(r'\b[a-z]\d[a-z]\s*\d[a-z]\d\b', ' ', s)          # postal code
+    m = re.search(r'\b(?:unit|suite|ste|bldg|building)\s*[#]?\s*(\w{1,5})\b', s)
+    if not m:
+        m = re.search(r'#\s*(\w{1,5})\b', s)
+    if not m:
+        m = re.search(r'^[\s,]*(\w{1,5})[-–](?=\d)', s)       # unspaced unit
+    return m.group(1) if m else None
+
+
 # ---------------------------------------------------------------------------
 # V2 — the prospect ledger (spec §10, persistent learning)
 #
@@ -347,7 +377,7 @@ def address_key(text):
 
 LEDGER_FIELDS = (
     'name', 'aliases', 'parent', 'name_key', 'core_key', 'towns',
-    'domain', 'email', 'email_domain', 'phone', 'address_key',
+    'domain', 'email', 'email_domain', 'phone', 'address_key', 'address_unit',
     'category', 'community', 'ring', 'distance_km',
     'score', 'opportunity_type', 'status', 'draft_status', 'sent_status',
     'source_urls', 'date_checked', 'run', 'rejection_reason',
@@ -374,6 +404,7 @@ def identity(name, contact='', website='', address='', **extra):
         'email_domain': email_domain_of(contact) or email_domain_of(blob),
         'phone': phone_key(blob),
         'address_key': address_key(address) or address_key(blob),
+        'address_unit': address_unit(address) or address_unit(blob),
     }
     rec.update(extra)
     return rec
@@ -426,5 +457,11 @@ def duplicate_reason(cand, rec):
     if cand.get('phone') and cand['phone'] == rec.get('phone'):
         return f'same phone as "{rec["name"]}"'
     if cand.get('address_key') and cand['address_key'] == rec.get('address_key'):
-        return f'same street address as "{rec["name"]}" ({rec["address_key"]})'
+        # Same civic address. In a multi-tenant building that is not enough:
+        # two known, different units are two different businesses. An unknown
+        # unit on either side still matches, so a plain civic address keeps
+        # protecting everything at it.
+        ua, ub = cand.get('address_unit'), rec.get('address_unit')
+        if not (ua and ub and ua != ub):
+            return f'same street address as "{rec["name"]}" ({rec["address_key"]})'
     return None

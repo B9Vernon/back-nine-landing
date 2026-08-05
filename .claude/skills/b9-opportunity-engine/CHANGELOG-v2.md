@@ -104,6 +104,47 @@ clean on every axis.
 failures were found and fixed during the run (the template-address gap in
 test 7, and one test-side bug in test 8).
 
+## 7a. Run 17 — three discovery bugs found and fixed
+
+Runs 12–16 fell to 14, 14, 20, 3, 2 prospects. The cause was never a
+shortage of Vernon businesses.
+
+1. **Candidates were screened one at a time, after the expensive step.**
+   Since run 12 every entry needs a verified published email, and each costs
+   a dedicated search. Candidates were checked against the log only after
+   that search was spent, so the budget went on businesses already
+   contacted. **`tools/screen_candidates.py`** screens a whole harvest on
+   every axis first; verification is then spent only on names that can ship.
+   Run 17 screened 196 businesses and paid for 27 verifications.
+
+2. **A civic address stood for every tenant in the building.** KAL Fitness
+   (11-100 Kalamalka Lake Rd) was reported as a duplicate of Chemac
+   Industries (100 Kalamalka Lake Rd) — unrelated businesses in the Kalamalka
+   Business Park. Vernon is full of multi-tenant plazas, so this silently
+   hid prospects. `address_unit()` is now compared alongside `address_key()`:
+   two known, different units no longer collide, while an address with no
+   unit still matches everything at it, so nothing was traded away.
+   Acceptance test 15.
+
+3. **Rows carrying a `rejection_reason` were skipped by the duplicate
+   guard AND by the deliverable verifier.** But `state/ledger.jsonl` is
+   derived from `outreach-log.md`, which records outreach and nothing else:
+   all 89 marked rows have status `email created` and read *"duplicate of X
+   — do not contact again"*. Both tools treated all 89 as available. Run 17
+   drafted an email to Cambium Cider Co before this was caught — run 7 had
+   already written to `hello@cambiumcider.com` and flagged it. Both tools now
+   count every row. Acceptance test 16.
+
+Also repaired in `tools/log_run.py`: `brow` (unanchored) filed **Brown
+Mechanical Services** under Salon/barber, and `mechanic` (unanchored) then
+filed it under Auto service — it is an HVAC contractor. Surveying and
+freight had no pattern at all, so every land surveyor and trucking company
+logged as `Uncategorized`. Both categories added; the four affected run-17
+rows were corrected.
+
+Acceptance tests are now **16 of 16**. Tests 15 and 16 were each confirmed to
+fail when their fix is reverted, so they discriminate rather than decorate.
+
 ## 8. Remaining limitations, with the recovery already attempted
 
 1. **`WebFetch` returns HTTP 403 for every host through the agent proxy and
