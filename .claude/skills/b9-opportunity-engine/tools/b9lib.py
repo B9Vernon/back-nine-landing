@@ -457,11 +457,25 @@ def duplicate_reason(cand, rec):
     if cand.get('phone') and cand['phone'] == rec.get('phone'):
         return f'same phone as "{rec["name"]}"'
     if cand.get('address_key') and cand['address_key'] == rec.get('address_key'):
-        # Same civic address. In a multi-tenant building that is not enough:
-        # two known, different units are two different businesses. An unknown
-        # unit on either side still matches, so a plain civic address keeps
-        # protecting everything at it.
+        # Same civic address. Whether that means "same business" depends on
+        # what is known about the units, and every other axis has already been
+        # tried above — so reaching here means the civic number is the ONLY
+        # thing these two share.
+        #
+        #   both units known    -> same unit is the same business
+        #   neither unit known  -> the original protection: Vernon Landscape &
+        #                          Stone Supply and Vernon Landscape Centre are
+        #                          both "4620 23 St" and are one target
+        #   exactly one known   -> a multi-tenant building. The civic number
+        #                          alone is not evidence, and treating it as
+        #                          evidence blocked four real prospects in run
+        #                          18: Village Green Shopping Centre matched
+        #                          Chatters Hair Salon (unit 530) — a mall
+        #                          against a shop inside it — and North
+        #                          Okanagan Orthodontics (unit 300) matched
+        #                          Central Barbers. An orthodontist is not a
+        #                          barbershop.
         ua, ub = cand.get('address_unit'), rec.get('address_unit')
-        if not (ua and ub and ua != ub):
+        if (ua == ub) if (ua and ub) else not (ua or ub):
             return f'same street address as "{rec["name"]}" ({rec["address_key"]})'
     return None

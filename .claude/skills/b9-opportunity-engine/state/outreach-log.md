@@ -1885,3 +1885,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] McPherson Maddox Land Surveying | Surveying/geomatics | scott.wemaddox@telus.net | 2026-08-05 | run-17
 - [email created] CSN Frank's Collision Repair Centre | Auto service | info@csnfranks.com | 2026-08-05 | run-17
 - [email created] Wylie's RV Logistics | Transport/freight | wylies@rvlogistics.ca | 2026-08-05 | run-17
+- [email created] NOS Brazilian Jiu-Jitsu & Mixed Martial Arts | Martial arts | nosbjj@gmail.com | 2026-08-09 | run-18
+- [email created] North Okanagan Orthodontics | Dental/ortho | info@northokanaganortho.com | 2026-08-09 | run-18
+- [email created] Willerton Engineering | Engineering | admin@willerton.ca | 2026-08-09 | run-18
+- [email created] Keylight Photography | Professional services | info@keylightphotography.ca | 2026-08-09 | run-18

@@ -30,6 +30,13 @@ DEFAULT_LOG = os.path.join(HERE, '..', 'state', 'outreach-log.md')
 CATEGORY_HINTS = [
     # Surveying and freight had no pattern at all, so every land surveyor and
     # every trucking company in run 17 logged as "Uncategorized".
+    # Must precede School/training: infer_category() reads the subject line as
+    # well as the name, and a subject like "...where your members go after
+    # training" filed NOS Brazilian Jiu-Jitsu under School/training.
+    ('Martial arts', r'\bjiu[- ]?jitsu|karate|taekwondo|martial arts|\bmma\b|'
+                     r'kickbox|\bjudo\b|muay thai|\bdojo\b'),
+    ('Engineering', r'\bengineering\b|\bengineers?\b|geotechnic|structural '
+                    r'design'),
     ('Surveying/geomatics', r'\bsurveyor|surveying|geomatic|geo-survey'),
     ('Transport/freight', r'\bfreight|trucking|transport\b|logistics|'
                           r'\bcourier|carriers?\b|haul(?:age|ing)\b'),

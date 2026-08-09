@@ -145,6 +145,44 @@ rows were corrected.
 Acceptance tests are now **16 of 16**. Tests 15 and 16 were each confirmed to
 fail when their fix is reverted, so they discriminate rather than decorate.
 
+## 7b. Run 18 — the address axis, refined again
+
+Run 17 made the address axis unit-aware in one direction: two KNOWN,
+different units stop colliding. It left the other direction blunt — when one
+side knew its unit and the other did not, the civic number alone still
+counted as proof. Run 18 measured what that costs and found four real
+prospects killed by it in a single run:
+
+| Candidate | Matched against | Reality |
+|---|---|---|
+| Village Green Shopping Centre | Chatters Hair Salon (unit 530) | a mall vs a shop inside it |
+| North Okanagan Orthodontics (unit 300) | Central Barbers | an orthodontist is not a barber |
+| Kal Fitness | Chemac Industries (unit 12) | gym vs industrial firm |
+| End Of The Roll Flooring (unit 101) | Bliss Pilates | two tenants, one plaza |
+
+The rule now reads: **both units known → they must be equal; neither known →
+the civic address still stands on its own; exactly one known → the civic
+number is not evidence and another axis must corroborate.** Every other axis
+is tried before this one, so reaching the address check means the civic
+number is genuinely all the two share.
+
+The protection that mattered survives untouched: Vernon Landscape & Stone
+Supply and Vernon Landscape Centre are both `4620 23 St` with no units
+recorded, and they still collide — as does Rusty Spur Farm Feed & Pet against
+Briteland Holdings, the business it was rebranded from. Acceptance test 15
+now asserts all four directions and fails if the change is reverted.
+
+Also repaired in `tools/log_run.py`: `infer_category()` reads the subject
+line as well as the name, so the subject *"where your members go after
+training"* filed **NOS Brazilian Jiu-Jitsu** under School/training. Added a
+`Martial arts` category ahead of it, and an `Engineering` category —
+Willerton Engineering had logged as `Uncategorized`.
+
+Run 18 delivered 4 prospects from 129 businesses examined across nine
+sweeps. That is thin and it is not a tooling failure: only 9 of the 72
+never-contacted businesses published a verifiable email at all. The coverage
+audit passed on the evidence rather than on an assertion.
+
 ## 8. Remaining limitations, with the recovery already attempted
 
 1. **`WebFetch` returns HTTP 403 for every host through the agent proxy and

@@ -361,15 +361,30 @@ def t15(say):
     assert duplicate_reason(a, b) is None, \
         'two different units in one plaza still collide on address'
 
-    bare = identity('Gamma Co', address='100 Kalamalka Lake Rd')
-    assert duplicate_reason(a, bare), \
-        'a unit-less civic address must still match tenants at it'
+    # Exactly one side knows its unit, and nothing else is shared. Run 18
+    # showed what treating that as a duplicate costs: Village Green Shopping
+    # Centre was matched to Chatters Hair Salon (unit 530) — a mall against a
+    # shop inside it — and North Okanagan Orthodontics (unit 300) to Central
+    # Barbers. Four real prospects, none of them duplicates.
+    mall = identity('Village Green Shopping Centre', address='4900 27 St')
+    shop = identity('Chatters Hair Salon', address='530-4900 27 St')
+    assert duplicate_reason(mall, shop) is None, \
+        'a mall is still being reported as a duplicate of its own tenant'
+
+    # Neither side knows its unit: the original protection has to survive.
+    # Vernon Landscape & Stone Supply and Vernon Landscape Centre are both
+    # "4620 23 St" and went out twice because nothing compared addresses.
+    p = identity('Vernon Landscape & Stone Supply', address='4620 23 St')
+    q = identity('Vernon Landscape Centre', address='4620 23 St')
+    assert duplicate_reason(p, q), \
+        'two unit-less businesses at one civic address must still collide'
 
     same = identity('Delta Co', address='2801 35th Avenue Unit 220')
     other = identity('Delta Company', address='220-2801 35 Ave')
     assert duplicate_reason(same, other), \
         'one unit written two ways must still be one business'
-    say('units compared; unit-less addresses still match everything at them')
+    say('units compared; a lone civic number is evidence only when both '
+        'sides are silent about units')
 
 
 # ---------------------------------------------------------------- 16
