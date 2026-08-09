@@ -1889,3 +1889,13 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] North Okanagan Orthodontics | Dental/ortho | info@northokanaganortho.com | 2026-08-09 | run-18
 - [email created] Willerton Engineering | Engineering | admin@willerton.ca | 2026-08-09 | run-18
 - [email created] Keylight Photography | Professional services | info@keylightphotography.ca | 2026-08-09 | run-18
+- [email created] Aslan Services Ltd | Trades — plumbing/HVAC | FORM https://aslanservices.ca/contact-us/ | 2026-08-09 | run-19
+- [email created] Graphic Enterprises Signs & Designs | Professional services | FORM https://graphicenterprises.ca/contact/ | 2026-08-09 | run-19
+- [email created] Bracken Insurance Services | Accounting/finance | PHONE 250-542-6300 | 2026-08-09 | run-19
+- [email created] Exel Exteriors | Trades — exteriors | FORM https://www.exelexteriors.ca/contact/ | 2026-08-09 | run-19
+- [email created] Hunter Exteriors | Trades — exteriors | PHONE 250-306-6638 | 2026-08-09 | run-19
+- [email created] Rona Vernon | Trades — building | PHONE 250-549-4345 | 2026-08-09 | run-19
+- [email created] City Furniture & Appliances | Home furnishing | PHONE 250-549-3121 | 2026-08-09 | run-19
+- [email created] End2End Roofing | Trades — roofing | PHONE 778-717-2381 | 2026-08-09 | run-19
+- [email created] Xced Plumbing, Heating & A/C | Trades — plumbing/HVAC | PHONE 250-541-7576 | 2026-08-09 | run-19
+- [email created] Equuis Wealth Management | Accounting/finance | PHONE 250-260-1104 | 2026-08-09 | run-19

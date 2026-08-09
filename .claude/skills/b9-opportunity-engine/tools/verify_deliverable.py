@@ -30,7 +30,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from b9lib import (LINK, LOCKED_TV, LOCKED_TV_FAR, normalize,  # noqa: E402
                    normalize_strict, same_business, load_log,
-                   identity, duplicate_reason, load_ledger)
+                   identity, duplicate_reason, load_ledger,
+                   contact_channel)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_LOG = os.path.join(HERE, '..', 'state', 'outreach-log.md')
@@ -76,8 +77,11 @@ def main():
     ap.add_argument('--log', default=DEFAULT_LOG)
     ap.add_argument('--ledger', default=DEFAULT_LEDGER)
     ap.add_argument('--email-only', action='store_true',
-                    help='fail unless every To: line is a real email address '
-                         '(the standing rule since run 12)')
+                    help='fail unless every To: line is a real email address. '
+                         'This was the standing rule for runs 12-18 and is now '
+                         'OPT-IN: it cut prospect counts from 200-250 a run to '
+                         'single digits by discarding every business that '
+                         'publishes a form or a phone number instead.')
     ap.add_argument('--logged-as', metavar='RUN_TAG',
                     help='this file is already logged under RUN_TAG; ignore its '
                          'own rows when checking for log overlap (use when '
@@ -285,24 +289,27 @@ def main():
         print(f'  ....  ledger missing — fell back to name-only matching '
               f'against {len(logged)} logged businesses\n')
 
-    # --- contact quality (informational) ---------------------------------
+    # --- contact channel -------------------------------------------------
+    # Replaces the withdrawn email-only rule of runs 12-18. Every To: line
+    # must declare a channel Neil can act on — a bare email, "FORM <url>" or
+    # "PHONE <number>". An unlabelled contact-page URL is still rejected;
+    # that was the real defect email-only was reaching for. But a business is
+    # no longer discarded merely for publishing a form instead of an address.
     tos = re.findall(r'^To: (.+)$', text, re.M)
-    EMAIL = re.compile(r'[^\s@]+@[^\s@]+\.[a-z]{2,}', re.I)
-    emails = sum(1 for t in tos if EMAIL.search(t))
-    phones = sum(1 for t in tos if re.search(r'\b\d{3}[-.]\d{3}[-.]\d{4}\b', t))
-    print(f'  Contact mix: {emails} with a direct email, {phones} with a phone, '
-          f'{n - emails - phones} form/site only\n')
+    chans = [(t, contact_channel(t)) for t in tos]
+    unusable = [t for t, c in chans if c is None]
+    r.check(not unusable, 'every To: line declares a usable contact channel',
+            f'{len(unusable)} malformed: '
+            + '; '.join(t[:40] for t in unusable[:3]))
+    mix = {c: sum(1 for _, x in chans if x == c)
+           for c in ('email', 'form', 'phone')}
+    print(f"  Channels: {mix['email']} email, {mix['form']} form, "
+          f"{mix['phone']} phone\n")
 
     if args.email_only:
-        bad = [t for t in tos if not EMAIL.search(t)]
+        bad = [t for t, c in chans if c != 'email']
         r.check(not bad, 'every To: line is a real email address',
                 f'{len(bad)} without one: ' + '; '.join(b[:34] for b in bad[:3]))
-        # A To: line carrying an email AND a phone still leaks the phone into
-        # Neil's Gmail To: field, so flag it.
-        noisy = [t for t in tos if EMAIL.search(t)
-                 and re.search(r'\b\d{3}[-.]\d{3}[-.]\d{4}\b', t)]
-        r.check(not noisy, 'To: lines contain the email only, nothing appended',
-                '; '.join(x[:40] for x in noisy[:3]))
 
     return r.render()
 

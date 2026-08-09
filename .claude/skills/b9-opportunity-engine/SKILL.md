@@ -123,9 +123,32 @@ when a run comes in short). Then size the run with
    screen had cleared — they only collided once their real address was
    known.
 3. **Contact Verifier (G)** — `references/storefront-contact-finder.md`.
-   **Email found → keep. No email → drop and move on.** Record the
+   **Keep every business that has ANY verified way to reach it.** Record the
    recipient's name and role, the address, the source URL, and whether it is
    `confirmed` or `reported`. Never pattern-guess an address.
+
+   Three channels, in preference order. The `To:` line declares which:
+
+   | `To:` line | Meaning |
+   |---|---|
+   | `info@business.ca` | a published email — paste straight into Gmail |
+   | `FORM https://business.ca/contact` | no email published; submit the form |
+   | `PHONE 250-555-1234` | no email and no form; this one is a call |
+
+   **The email-only rule of runs 12-18 is withdrawn.** It was introduced
+   because a contact-page URL in a `To:` line is useless when Neil is pasting
+   into Gmail — a real problem, but the fix was labelling the channel, not
+   discarding the business. Measured over the log, runs 2-11 delivered
+   200-250 prospects each at 1-26% email; runs 12-18 delivered 2-20 each at
+   100% email. Run 8 shipped 200 businesses of which **4** had an email; run
+   18 found 72 new businesses and shipped **4**, because 63 of them
+   published a form or a phone number instead of an address. Same town, same
+   engine, one rule.
+
+   Volume comes from this step, not from searching harder. A directory sweep
+   returns a business NAME and its PHONE and WEBSITE in the same result —
+   free. Only an email costs a dedicated per-business search. Never spend
+   that search until the candidate has cleared step 2.
 4. **Trigger & timing (D)** — `references/trigger-timing-monitor.md`. A
    verified, dated reason to write now, or honestly evergreen.
 5. **Partnership Architect (E)** — `references/partnership-angle-matcher.md`.

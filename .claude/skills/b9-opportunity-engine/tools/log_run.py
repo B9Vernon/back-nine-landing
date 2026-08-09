@@ -79,6 +79,8 @@ CATEGORY_HINTS = [
     ('Trades — plumbing/HVAC', r'\bplumb|hvac|air conditioning|heating|'
                                r'\bmechanical\b|refrigerat'),
     ('Trades — roofing', r'\broofing|roofer'),
+    ('Trades — exteriors', r'\bsiding|gutter|eavestrough|\bexteriors?\b|'
+                           r'soffit|fascia|stucco'),
     ('Trades — building', r'\bcontract|construct|renovat|builder|homes\b|carpent|cabinet'),
     ('Trades — excavation', r'\bexcavat|bobcat|paving|asphalt|gravel|concrete'),
     ('Manufacturing', r'\bindustries|manufactur|fabricat|machin|welding|'
@@ -88,14 +90,21 @@ CATEGORY_HINTS = [
     ('Moving/storage', r'\bmoving|storage|mini storage'),
     ('Real estate', r'\brealt|re/max|century 21|property management|strata'),
     ('Legal', r'\blaw\b|lawyer|llp\b|notary|legal'),
-    ('Accounting/finance', r'\baccount|bookkeep|tax\b|mortgage|credit union|insurance|financial'),
+    ('Accounting/finance', r'\baccount|bookkeep|tax\b|mortgage|credit union|'
+                          r'insurance|financial|\bwealth\b|investment'),
     ('Retail', r'\bboutique|clothing|clothier|shop\b|store\b|mercantile|'
                r'gifts?\b|apparel|wear\b|outfitter|consignment|thrift'),
     ('Fitness', r'\bgym\b|fitness|crossfit|yoga|pilates'),
     ('Non-profit/society', r'\bsociety|foundation|association|rotary|legion|'
                            r'club\b|resource centre|friendship centre|chamber of commerce'),
     ('Events/catering', r'\bcatering|caterer|event|rentals\b|party'),
-    ('Professional services', r'\bconsult|marketing|design|print|sign|photograph|IT\b|computer'),
+    # "IT\b" was matching the ordinary word "it" — every pattern here runs
+    # case-insensitively, so a subject line ending "...one room they all fit
+    # in" filed Aslan Services (a five-trade contractor) under Professional
+    # services. IT now has to look like IT.
+    ('Professional services', r'\bconsult|marketing|\bdesign|\bprint|\bsign'
+                              r'|photograph|\bI\.?T\.? (?:services|support|'
+                              r'solutions)\b|information technology|computer'),
 ]
 
 

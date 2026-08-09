@@ -441,6 +441,56 @@ def t16(say):
         f'visible only through the marker, and those still block')
 
 
+# ---------------------------------------------------------------- 17
+@test(17, 'Channel test — form and phone prospects are deliverable')
+def t17(say):
+    """Run 19 regression, and the largest single defect the engine has had.
+
+    Runs 12-18 required every To: line to be an email address. Counted from
+    the log, runs 2-11 delivered 200-250 businesses each at 1-26% email —
+    run 8 shipped 200 with FOUR emails between them, run 11 shipped 250 with
+    four. Every run from 12 on was 100% email and none broke twenty. The
+    engine was not getting worse at finding businesses; it was discarding
+    roughly 95% of what it found.
+
+    So: a labelled form or phone contact must be accepted, an unlabelled
+    contact-page URL must still be refused (that was the real defect the
+    email-only rule was reaching for), and --email-only must remain
+    available for anyone who deliberately wants an email-only file.
+    """
+    from b9lib import contact_channel                       # noqa: PLC0415
+
+    assert contact_channel('info@x.ca') == 'email'
+    assert contact_channel('FORM https://x.ca/contact') == 'form'
+    assert contact_channel('PHONE 250-545-1234') == 'phone'
+    assert contact_channel('PHONE (250) 545-1234') == 'phone'
+    assert contact_channel('https://x.ca/contact') is None, \
+        'a bare contact-page URL must still be refused'
+    assert contact_channel('a@b.ca, 250-545-1234') is None, \
+        'a To: line must not smuggle a phone number in beside the address'
+
+    # Fictional names on purpose: real ones get logged by later runs and then
+    # the duplicate guard fails this fixture for the wrong reason.
+    entries = [('Zzyzx Formonly Trades Ltd', 'FORM https://example.invalid/c',
+                'Trades', 'A body that says nothing at all.'),
+               ('Qqqwerty Phoneonly Exteriors', 'PHONE 250-555-0184',
+                'Crews', 'A body that says nothing at all.')]
+    path = os.path.join(tempfile.gettempdir(), 'b9_t17.txt')
+    sample_file(entries, path)
+    vd = os.path.join(HERE, 'verify_deliverable.py')
+
+    out = run([sys.executable, vd, path]).stdout
+    assert 'FAIL' not in out, \
+        f'form and phone prospects were rejected by the verifier:\n{out}'
+
+    # The old behaviour has to stay reachable on request.
+    out = run([sys.executable, vd, path, '--email-only']).stdout
+    assert 'FAIL  every To: line is a real email address' in out, \
+        '--email-only no longer enforces email-only'
+    say('form and phone deliverable by default; bare URLs still refused; '
+        '--email-only still available opt-in')
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('-v', '--verbose', action='store_true')

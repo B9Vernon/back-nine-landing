@@ -183,6 +183,59 @@ sweeps. That is thin and it is not a tooling failure: only 9 of the 72
 never-contacted businesses published a verifiable email at all. The coverage
 audit passed on the evidence rather than on an assertion.
 
+## 7c. Run 19 — the email-only rule withdrawn
+
+The biggest defect the engine has had, and it was a rule, not a bug. Counted
+from `state/outreach-log.md`:
+
+| run | total | email | phone | form/other | email % |
+|---|---|---|---|---|---|
+| run-2 | 250 | 66 | 36 | 148 | 26% |
+| run-6 | 200 | 10 | 44 | 146 | 5% |
+| run-8 | 200 | **4** | 5 | 191 | **2%** |
+| run-11 | 250 | **4** | 0 | 246 | **1%** |
+| run-12 | 14 | 14 | 0 | 0 | 100% |
+| run-16 | 2 | 2 | 0 | 0 | 100% |
+| run-18 | 4 | 4 | 0 | 0 | 100% |
+
+Run 8 shipped 200 businesses with **four** email addresses between them. Run
+11 shipped 250 with four. Those runs worked because they delivered the phone
+numbers and web forms that most local businesses actually publish.
+
+Run 12 introduced "every `To:` line must be a real email address". Every run
+since was 100% email and none broke twenty. The engine never got worse at
+finding businesses — it acquired a rule that discards roughly 95% of what it
+finds, then honestly reported the remainder.
+
+The rule was answering a real problem: a bare contact-page URL in a `To:`
+line is useless when pasting into Gmail. The fix is to **label the channel**,
+not discard the business.
+
+- `SKILL.md` step 3: "Email found → keep, no email → drop" withdrawn. Keep
+  every business with any verified way to reach it.
+- `b9lib.contact_channel()`: a recipient line is valid as a bare email, as
+  `FORM <url>`, or as `PHONE <number>`. An unlabelled contact-page URL is
+  still refused — that was the genuine defect.
+- `verify_deliverable.py`: checks every recipient line declares a usable
+  channel and prints the mix. `--email-only` survives as **opt-in**.
+- `fit_score.py`: `contact_quality` was scoring the *channel*, so a local
+  shop's main phone line scored below a generic `info@` at a national chain.
+  It now scores how close the contact gets you to a decision, channel-neutral
+  — a business's main line and a role inbox both score 6.
+
+Acceptance test 17 covers all of it and fails if reverted.
+
+Run 19 delivered 10 prospects built **entirely from runs 17 and 18's reject
+piles** — businesses already discovered and deduped, discarded only for
+publishing a form or a phone number. 47 such businesses were recoverable; 19
+had a contact confirmable from a search result, 3 were then caught by the
+duplicate guard on the phone and domain axes, 6 fell below the fit gate.
+
+Also repaired in `tools/log_run.py`: `IT\b` matched the ordinary word "it"
+(patterns run case-insensitively), so a subject ending "…one room they all
+fit in" filed a five-trade contractor under Professional services. Added
+`Trades — exteriors`; added `wealth`/`investment` to Accounting/finance.
+
 ## 8. Remaining limitations, with the recovery already attempted
 
 1. **`WebFetch` returns HTTP 403 for every host through the agent proxy and

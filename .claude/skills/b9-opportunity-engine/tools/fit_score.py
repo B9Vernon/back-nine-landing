@@ -12,7 +12,14 @@ scores every prospect on seven weighted criteria and REJECTS below 65.
     two_way_value         15   what B9 returns, and odds of a reply
     timing                10   a verified reason to write now
     repeatability         10   one-off vs an annual or standing relationship
-    contact_quality       10   named decision-maker > role address > generic
+    contact_quality       10   how close the contact gets you to a decision,
+                               NOT which channel it uses:
+                                 9-10  named decision-maker, any channel
+                                 7-8   direct line or branch-specific inbox
+                                 6     main business line, or a role inbox
+                                       (info@ and "the shop phone" are equal)
+                                 4-5   generic web form, no human attached
+                                 2-3   national or chain queue
 
 Usage:
     # score one prospect

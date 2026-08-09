@@ -336,6 +336,36 @@ def address_key(text):
     return ' '.join(x for x in (num, mid, typ) if x)
 
 
+CHANNEL_FORM = re.compile(r'^FORM\s+(https?://\S+)$')
+CHANNEL_PHONE = re.compile(r'^PHONE\s+(\+?[\d(][\d\-.\s()]{7,}\d)$')
+_BARE_EMAIL = re.compile(r'^[^\s@,;]+@[^\s@,;]+\.[a-z]{2,}$', re.I)
+
+
+def contact_channel(to_line):
+    """Classify a deliverable's To: line as 'email', 'form', 'phone' or None.
+
+    Runs 12-18 required every To: line to be an email address, and the
+    prospect count fell from 200-250 a run to single digits — not because
+    Vernon ran out, but because 74-99% of the businesses runs 2-11 delivered
+    were reached by phone or web form. Run 8 shipped 200 businesses with 4
+    emails between them.
+
+    The rule was a fix for a real problem: a bare contact-page URL sitting in
+    a To: line is useless when the To: line is being pasted into Gmail. The
+    answer is to say which channel each entry is, so Neil can send the emails
+    in one pass, fill the forms in another, and make the calls in a third —
+    not to throw the business away.
+    """
+    to_line = (to_line or '').strip()
+    if _BARE_EMAIL.match(to_line):
+        return 'email'
+    if CHANNEL_FORM.match(to_line):
+        return 'form'
+    if CHANNEL_PHONE.match(to_line):
+        return 'phone'
+    return None
+
+
 def address_unit(text):
     """The unit/suite designator inside an address, or None if there is none.
 
