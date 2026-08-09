@@ -1899,3 +1899,9 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] End2End Roofing | Trades — roofing | PHONE 778-717-2381 | 2026-08-09 | run-19
 - [email created] Xced Plumbing, Heating & A/C | Trades — plumbing/HVAC | PHONE 250-541-7576 | 2026-08-09 | run-19
 - [email created] Equuis Wealth Management | Accounting/finance | PHONE 250-260-1104 | 2026-08-09 | run-19
+- [email created] Great West Equipment | Manufacturing | PHONE 250-549-4232 | 2026-08-09 | run-20
+- [email created] Five Star Awards Ltd | Awards/engraving | PHONE 250-275-2600 | 2026-08-09 | run-20
+- [email created] Andrew Sheret Limited | Industrial supply | PHONE 250-545-1381 | 2026-08-09 | run-20
+- [email created] Western Equipment Ltd | Manufacturing | PHONE 250-545-5499 | 2026-08-09 | run-20
+- [email created] Mertion Excavating | Trades — excavation | info@mertionexcavating.ca | 2026-08-09 | run-20
+- [email created] Mainline Industrial Supplies | Industrial supply | PHONE 250-542-6942 | 2026-08-09 | run-20

@@ -83,6 +83,10 @@ CATEGORY_HINTS = [
                            r'soffit|fascia|stucco'),
     ('Trades — building', r'\bcontract|construct|renovat|builder|homes\b|carpent|cabinet'),
     ('Trades — excavation', r'\bexcavat|bobcat|paving|asphalt|gravel|concrete'),
+    ('Awards/engraving', r'\bawards?\b|trophies|trophy|engrav'),
+    ('Industrial supply', r'industrial supply|industrial supplies|safety '
+                          r'supply|\bwholesale\b|plumbing (?:fixtures|'
+                          r'supplies)|building supply'),
     ('Manufacturing', r'\bindustries|manufactur|fabricat|machin|welding|'
                       r'packaging|equipment\b'),
     ('Landscaping/garden', r'\blandscap|garden|nursery|greenhouse|orchard|farm\b'),
