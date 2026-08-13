@@ -31,3 +31,14 @@ Staleness policy: yields >7 days old flagged; >30 days barred from ACT display.
 | CCJ dividend | ~$0.24/share target by FY2026 (yield <0.5%) | 2024-2026 plan | 2026-07-21 | Cameco disclosure via search | Fact — fails income mandate, excluded |
 | PSK yield | ~3.1-3.4% | 2026-06/07 | 2026-07-21 | tradingeconomics/simplywall.st via search | Fact |
 | IEA data centre electricity demand | 415 TWh (2024) → ~945 TWh (2030 est.) | multi-year | 2026-07-21 | iea.org/reports/electricity-2026 | Fact (primary source, IEA) |
+
+## Run 2026-08-13 (top 3 ideas)
+| Fact | Value | Effective | Retrieved | Source | Label |
+|---|---|---|---|---|---|
+| TSX composite | above 36,500, record streak | 2026-08 | 2026-08-13 | tradingeconomics via search | Fact |
+| BoC rate | 2.25%, 6th hold; priced flat to Apr 2027 | 2026-08 | 2026-08-13 | wowa/investing.com via search | Fact |
+| UMAX price / yield | $13.67 / 13.57-13.93% | 2026-07-31 to 08 | 2026-08-13 | hamiltonetfs/tipranks via search | Fact |
+| HMAX price / NAV / yield | $18.15 / $18.15 / 11.11% | 2026-08-10 | 2026-08-13 | yahoo/hamiltonetfs via search | Fact |
+| CAR.UN discount to NAV | 0.75x NAV (25% disc; was 35.8% Mar) | 2026-08 | 2026-08-13 | seekingalpha/fool via search | Fact |
+| CAPREIT occupancy | 97.1% | 2026 Q2 entry | 2026-08-13 | fool.ca via search | Fact |
+| RS current yield | ~10% | — | — | — | UNVERIFIED — approximate only |

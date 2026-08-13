@@ -20,3 +20,9 @@ sharp rallies even when underlying fully recovers. Acknowledged process miss: pr
 (UMAX/HMAX/QQCL/ARCC) was yield-only, no valuation check — could not source NAV-trend data to
 close the gap; downgraded UMAX/HMAX from ACT to WATCH pending verification. No positions sold;
 investor declined action, decision remains theirs per mandate.
+2026-08-13 | TOP 3 IDEAS | Refreshed after 3-week gap (container was recycled; branch restored
+from origin b625915). TSX now >36,500 (record streak, +3% since Jul 24) — broad market flagged
+expensive. Verified: UMAX $13.67 at NAV yielding 13.6-13.9%; HMAX $18.15 = NAV exactly, 11.11%;
+CAR.UN discount NARROWED 35.8%->25% (re-rating underway, still cheap, 97.1% occupancy).
+Picks: UMAX, HMAX, REIT sector. Held back: QQCL (premium to NAV Jul 26), ENB (at target),
+broad index. RS yield remains unverified — flagged rather than estimated.
