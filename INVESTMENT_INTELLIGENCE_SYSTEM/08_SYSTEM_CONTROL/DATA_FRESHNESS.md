@@ -42,3 +42,14 @@ Staleness policy: yields >7 days old flagged; >30 days barred from ACT display.
 | CAR.UN discount to NAV | 0.75x NAV (25% disc; was 35.8% Mar) | 2026-08 | 2026-08-13 | seekingalpha/fool via search | Fact |
 | CAPREIT occupancy | 97.1% | 2026 Q2 entry | 2026-08-13 | fool.ca via search | Fact |
 | RS current yield | ~10% | — | — | — | UNVERIFIED — approximate only |
+
+## Run 2026-08-13b (BIGY deep dive)
+| Fact | Value | Effective | Retrieved | Source | Label |
+|---|---|---|---|---|---|
+| BIGY NAV/unit | $16.38 | 2026-06-30 | 2026-08-13 | Evolve fact sheet title via search | Fact |
+| BIGY last distribution | $0.3125/unit, twice monthly | 2026-06-30 / 08-21 | 2026-08-13 | Evolve/investing.com via search | Fact |
+| BIGY NAV return ~1yr | -15.25% | ~2026-08 | 2026-08-13 | search aggregation | Fact |
+| BIGY YTD total return | -15.18% | 2026-07-31 | 2026-08-13 | Yahoo Finance via search | Fact — DECIDING NUMBER |
+| BIGY structure | CC on <=50% of portfolio, ~33% leverage | — | 2026-08-13 | evolveetfs via search | Fact |
+| BIGY dist. composition | incl. return of capital; split in Jan tax breakdown | annual | 2026-08-13 | evolveetfs via search | Fact |
+| BIGY exact per-period dist. history | — | — | — | — | UNRESOLVED — math not reconciled |

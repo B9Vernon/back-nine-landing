@@ -26,3 +26,11 @@ expensive. Verified: UMAX $13.67 at NAV yielding 13.6-13.9%; HMAX $18.15 = NAV e
 CAR.UN discount NARROWED 35.8%->25% (re-rating underway, still cheap, 97.1% occupancy).
 Picks: UMAX, HMAX, REIT sector. Held back: QQCL (premium to NAV Jul 26), ENB (at target),
 broad index. RS yield remains unverified — flagged rather than estimated.
+2026-08-13b | DEEP DIVE BIGY (investor challenge) | Tested the yield-trap call against total-return
+evidence rather than structure. Deciding finding: YTD total return -15.18% / ~1yr NAV return
+-15.25% — distributions are already counted in that, so the position is net down despite the
+cheques. Strongest evidence is investor's own account: HYLD (same trade, 12% payout) +61.40% vs
+BIGY (same trade, ~40%+ payout) -7.25% price / ~-15% TR. Classification upgraded to CAPITAL
+CONSUMING (evidence-based). HOLD BUT DO NOT ADD; consolidation review vs HYLD. Preserved a
+conflicting promotional source claiming "no NAV erosion" rather than suppressing it.
+Evolve fact sheet PDF blocked by egress proxy — primary source not obtained.
