@@ -50,3 +50,37 @@ Format per run:
 - [MONITOR] Vernon Ribfest — possible 2026 revival in new format
 - [MONITOR] Via District (Arrowleaf) master-planned development — phase 1 ~2027
 - [MONITOR] Okanagan Fall Wine Festival — 2026 dates unconfirmed
+
+## Run 2026-08-15 — scope: opportunity modules 1/3/4 (first opportunity run since 2026-07-10)
+
+Context: runs 12-20 ran module 2 (partnerships) only. This log went five weeks
+without an entry and three dated windows closed unactioned — Crankworx
+SilverStar (Aug 6-9), GVC Business Excellence Awards nominations (late July),
+Downtown Days (Aug 8). Recorded so the gap is visible in history.
+
+- [ACT NOW] Corporate holiday-party season — buyers choose venues late Aug-Oct
+  for Nov-Dec; B9 absent from every venue directory the search surfaces
+  (Eventective, Tourism Vernon) — package + listings needed this month
+- [ACT NOW] VJH Foundation Charity Classic (17th) — 2025 ran Aug 24 at Predator
+  Ridge, raised $500K; 2026 date unpublished — call 250-558-1362 to confirm,
+  may already have passed
+- [ACT NOW] IPE & Stampede 125th, Armstrong — Sept 2-6 2026 (unverified) — too
+  late for a booth; play is exhibitor/volunteer wind-ups the week after
+- [COMING SOON] Vernon Hiring & Education Expo — Oct 8 2026 (confirmed),
+  Prestige Vernon Lodge — every hiring employer in one room
+- [COMING SOON] Vernon Vipers home opener — Sept 26 2026 (unverified) — Kal
+  Tire Place is <1km away; second contact, already in outreach log
+- [COMING SOON] SilverStar winter season opening — late Nov — weather-day
+  partnership; carried from 2026-07-10 log and still unactioned
+- [COMING SOON] Curling / minor hockey / youth soccer season starts Oct-Dec —
+  wind-up and fundraiser planning begins now; all three already in outreach log
+- [MONITOR] Vernon Active Living Centre — opening fall 2026, date unconfirmed
+- [MONITOR] Vernon Ribfest revival — unconfirmed
+- [MONITOR] Via District (Arrowleaf) — phase 1 ~2027
+- [MONITOR] Okanagan Fall Wine Festival — 2026 dates unconfirmed
+- [MONITOR] VDPAC shows — Queen tribute Sept 13, Raine Maida Sept 16, Crash
+  Test Dummies Nov 10 (confirmed) — context only, low direct value
+
+Source health: WebFetch still HTTP 403 for every host including
+calendar.tourismvernon.com, vernon.ca and vjhfoundation.org. All items above
+derived from search-result text; [UNVERIFIED] items carried from the July run.
