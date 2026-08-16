@@ -84,3 +84,75 @@ Downtown Days (Aug 8). Recorded so the gap is visible in history.
 Source health: WebFetch still HTTP 403 for every host including
 calendar.tourismvernon.com, vernon.ca and vjhfoundation.org. All items above
 derived from search-result text; [UNVERIFIED] items carried from the July run.
+
+## Run 2026-08-16 — scope: opportunity modules 1/3/4 (verification pass on run 21 + new calendar depth)
+
+Context: run 21 was written one day earlier and carried three [UNVERIFIED] and
+two [LIKELY] items. This run verified them rather than re-sweeping the
+calendar. Two run-21 statements were wrong; both are corrected below.
+
+CORRECTIONS TO RUN 21
+- GVC Business Excellence Awards nominations are OPEN until Sept 15 2026 (42nd
+  annual), not "CLOSED late July" as runs 21 and the July log both stated. The
+  July claim was carried forward twice without being checked.
+- SilverStar 2026-27 alpine season opens Dec 11 2026 (to Apr 25 2027), not
+  "late Nov" — three weeks later than assumed.
+- Vernon Active Living Centre completion pushed to Oct 30 2026; registration
+  late 2026; first programs Jan 2027. Leaves MONITOR.
+
+- [ACT NOW] GVC Business Excellence Awards (42nd) — nominate Back Nine, 19
+  categories — nominations close Sept 15 2026; 41st gala was Oct 23 2025 at
+  VDPAC, 42nd date unpublished
+- [ACT NOW] Corporate holiday-party season — now with verified market pricing:
+  Predator Ridge from $75/person + venue fee; Vernon Yacht Club runs a shared
+  "Small Business Christmas Party" (format B9 should copy); B9 still absent
+  from Eventective's 112 Vernon party venues
+- [ACT NOW] VJH Foundation Charity Classic — 2026 date STILL unpublished after
+  two runs of searching; 16th ran Aug 24 2025 at Predator Ridge ($500K) —
+  phone 250-558-1362
+- [COMING SOON] Vernon Winter Carnival — HOST AN OFFICIAL EVENT; event and
+  sponsorship applications close Oct 31 2026; 66th ran Feb 6-15 2026, 67th
+  expected early Feb 2027 — best new find this run, missed by runs on
+  2026-07-10 and 2026-08-15
+- [COMING SOON] Vernon Hiring & Education Expo — Oct 8 2026 CONFIRMED, 11am,
+  Prestige Vernon Lodge, organizer Black Press Media, 35+ exhibitors
+- [COMING SOON] Vernon Vipers home opener — Sept 26 2026 6pm vs West Kelowna
+  CONFIRMED; new signal: club launched a new brand July 20 2026, so sponsor
+  inventory is being rebuilt now
+- [COMING SOON] Vernon Active Living Centre — opens Oct 30 2026; not a
+  competitor (aquatics/fitness); staff party + Active Living Guide angles
+- [COMING SOON] SilverStar — opens Dec 11 2026; the Oct 1-Dec 10 pre-season
+  gap is a new angle the "late Nov" assumption hid
+- [COMING SOON] Club season wind-ups — carried; Vernon Curling Club schedule
+  is behind a member login, so phone rather than search
+- [COMMUNITY] IPE & Stampede Armstrong — Sept 2-6 2026 CONFIRMED (125th,
+  "Shutters Up") — play is the post-event wind-ups
+- [COMMUNITY] Okanagan Fall Wine Festival — Oct 26-27 2026 (upgraded from
+  "dates unconfirmed", MONITOR since July)
+- [COMMUNITY] BC Small Business Week — third full week of October
+- [COMMUNITY] Artsolutely Holiday Market, Vernon Community Arts Centre —
+  daily Nov 29 to Dec 24
+- [COMMUNITY] A Victorian Christmas, Historic O'Keefe Ranch — December
+- [COMMUNITY] Downtown Vernon Association December — free Saturday parking,
+  gift cards at ~100 businesses; check whether B9 is on the gift-card list
+- [SEARCH DEMAND] B9 ranks #1 for "indoor golf simulator Vernon BC" but is
+  absent from Tourism Vernon's "Top Indoor Activities", TripAdvisor's rainy-day
+  list, Okanagan Family Fun's 70+ list and Off Track Travel's 24+ list — same
+  structural gap as the venue directories, second location
+- [SEARCH DEMAND] Local sim competitors: Dante's Golf Lounge at The Rise (2
+  Foresight bays); Vernon Golf & Country Club Trackman runs JAN-MAR ONLY, so
+  VGCC members have no indoor option Oct-Dec
+- [MONITOR] 42nd BEA gala date — late Oct expected, unpublished
+- [MONITOR] Vernon Winter Carnival 2027 dates and theme — unannounced
+- [MONITOR] Via District (Arrowleaf) — phase 1 ~2027
+- [DROPPED] Vernon Ribfest — unconfirmed across three runs with no movement
+
+Module 2 deliberately not run: run 20's coverage audit failed at 66%
+duplicate rate and run 21 recommended pausing cold prospecting; one day is not
+a change in conditions.
+
+Source health 2026-08-16: WebFetch now fails with EGRESS_BLOCKED from the
+network egress proxy rather than HTTP 403 — different mechanism, same result.
+Confirmed blocked: vjhfoundation.org, vernonwintercarnival.com,
+okanaganedge.net. WebSearch remains the only working channel; every asserted
+date was cross-checked across two or more results.
