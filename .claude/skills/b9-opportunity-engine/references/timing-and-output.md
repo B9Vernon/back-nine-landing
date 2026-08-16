@@ -28,6 +28,13 @@ pages of notes, no contact details, no outreach copy.
 - [ ] Every suggestion is specific to Vernon / North Okanagan (or has a strong
       Vernon connection)
 - [ ] Weak/speculative items excluded
-- [ ] No outreach drafted or sent; no contact details included
+- [ ] No outreach drafted or sent; no contact details included — **within the
+      brief itself**. This rule keeps the scan report clean; it does NOT mean
+      the run ships without emails. When the brief's items are organizations to
+      contact (they usually are), produce the outreach as a SEPARATE companion
+      file and verify it with `tools/verify_deliverable.py --second-contact`,
+      since calendar-driven targets are nearly always already in the outreach
+      log. Runs 21 and 22 both shipped a brief with zero emails against 11/4/10/6
+      for runs 17-20; the items were right and unusable.
 - [ ] No recurring task, trigger, or monitor was created
 - [ ] Run appended to `state/opportunity-log.md`

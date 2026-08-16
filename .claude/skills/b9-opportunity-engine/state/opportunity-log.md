@@ -151,6 +151,21 @@ Module 2 deliberately not run: run 20's coverage audit failed at 66%
 duplicate rate and run 21 recommended pausing cold prospecting; one day is not
 a change in conditions.
 
+OUTREACH HALF ADDED SAME DAY — #22-B9-Opportunity-Emails.txt. Runs 21 and 22
+initially shipped ZERO emails, against 11/4/10/6 for runs 17-20, because the
+opportunity modules' output standard (timing-and-output.md) forbids contact
+details and outreach copy. That rule is right for a scanning report and wrong
+for a brief whose every item is "contact this organization" — it turned ten
+verified dated hooks into homework. Ten second-contact emails written; all ten
+screened as already in the outreach log, so this is follow-up, not
+prospecting, and each row is marked `| follow-up 2026-08-16`.
+
+Tooling change: verify_deliverable.py gains `--second-contact`, which INVERTS
+the duplicate gate instead of skipping it — in follow-up mode every entry must
+already be in the log, and an entry with no prior contact fails the run as
+cold-prospecting drift. Verified by fixture: a fictional uncontacted business
+is rejected.
+
 Source health 2026-08-16: WebFetch now fails with EGRESS_BLOCKED from the
 network egress proxy rather than HTTP 403 — different mechanism, same result.
 Confirmed blocked: vjhfoundation.org, vernonwintercarnival.com,

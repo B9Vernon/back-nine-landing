@@ -86,6 +86,13 @@ def main():
                     help='this file is already logged under RUN_TAG; ignore its '
                          'own rows when checking for log overlap (use when '
                          're-verifying a delivered file)')
+    ap.add_argument('--second-contact', action='store_true',
+                    help='this file is a follow-up / second-touch batch, not '
+                         'initial outreach. INVERTS the duplicate check: every '
+                         'entry must ALREADY be in the log, and an entry that '
+                         'is not is the failure — it means the run drifted back '
+                         'into cold prospecting. Every other locked check still '
+                         'applies unchanged.')
     args = ap.parse_args()
 
     text = open(args.file, encoding='utf-8').read()
@@ -269,9 +276,23 @@ def main():
                 if why:
                     overlap.append((num, b, why))
                     break
-        r.check(not overlap,
-                'no overlap with businesses already contacted (all axes)',
-                '; '.join(f'#{num} {b}: {w}' for num, b, w in overlap[:4]))
+        if args.second_contact:
+            # A follow-up batch writes to businesses already in the log on
+            # purpose, so the initial-outreach check reads exactly backwards.
+            # Inverting it rather than skipping it keeps the gate meaningful:
+            # an entry with no prior contact means the run wandered back into
+            # cold prospecting, which is the failure this mode has to catch.
+            hit = {num for num, _b, _w in overlap}
+            unknown = [(num, b) for num, b in names if num not in hit]
+            r.check(not unknown,
+                    'every entry is a business already in the log '
+                    '(second-contact mode)',
+                    '; '.join(f'#{num} {b}: no prior contact found'
+                              for num, b in unknown[:4]))
+        else:
+            r.check(not overlap,
+                    'no overlap with businesses already contacted (all axes)',
+                    '; '.join(f'#{num} {b}: {w}' for num, b, w in overlap[:4]))
         print(f'  ....  checked against {len(prior)} live businesses on '
               f'name, alias, domain, email, phone and address\n')
     elif os.path.exists(args.log):

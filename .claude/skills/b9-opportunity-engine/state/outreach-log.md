@@ -7,14 +7,14 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 
 ## Prior batch (10 invitation emails, 2026-07-11)
 
-- [email created] Prestige Vernon Lodge & Conference Centre | hotel | VernonLodgeEvents@PrestigeHotels.ca | 2026-07-11 | batch-10
+- [email created] Prestige Vernon Lodge & Conference Centre | hotel | VernonLodgeEvents@PrestigeHotels.ca | 2026-07-11 | batch-10 | follow-up 2026-08-16
 - [email created] SilverStar Mountain Resort / Destination Silver Star | ski resort | (see prior email file) | 2026-07-11 | batch-10
 - [email created] Oakwyn Realty Okanagan (Vernon) | realtor | (see prior email file) | 2026-07-11 | batch-10
 - [email created] Okanagan Spirits Craft Distillery | distillery | (see prior email file) | 2026-07-11 | batch-10
-- [email created] Greater Vernon Chamber of Commerce | chamber | events@vernonchamber.ca | 2026-07-11 | batch-10
-- [email created] VJH Foundation | health foundation | (see prior email file) | 2026-07-11 | batch-10
+- [email created] Greater Vernon Chamber of Commerce | chamber | events@vernonchamber.ca | 2026-07-11 | batch-10 | follow-up 2026-08-16
+- [email created] VJH Foundation | health foundation | (see prior email file) | 2026-07-11 | batch-10 | follow-up 2026-08-16
 - [email created] Downtown Vernon Association | business assn | (see prior email file) | 2026-07-11 | batch-10
-- [email created] Vernon Vipers | BCHL team | (see prior email file) | 2026-07-11 | batch-10
+- [email created] Vernon Vipers | BCHL team | (see prior email file) | 2026-07-11 | batch-10 | follow-up 2026-08-16
 - [email created] Crankworx SilverStar | event | (see prior email file) | 2026-07-11 | batch-10
 - [email created] IPE & Stampede (Armstrong) | event | (see prior email file) | 2026-07-11 | batch-10
 
@@ -25,7 +25,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Spallumcheen Golf & Country Club | golf course | info@spallumcheengolf.com | 2026-07-12 | batch-200
 - [email created] Hillview Golf Course | executive golf course | info@hillviewgolf.ca | 2026-07-12 | batch-200
 - [email created] The Rise Resort | golf resort + weddings | info@theriseresort.ca | 2026-07-12 | batch-200
-- [email created] Vernon Golf & Country Club | golf club (est. 1913) | office@vernongolf.com | 2026-07-12 | batch-200
+- [email created] Vernon Golf & Country Club | golf club (est. 1913) | office@vernongolf.com | 2026-07-12 | batch-200 | follow-up 2026-08-16
 - [email created] Divya Sutra Plaza & Conference Centre (ex-Village Green Hotel) | hotel + conference | reservations@divyasutravernon.com | 2026-07-12 | batch-200
 - [email created] Sandman Hotel Vernon | hotel | reservations@sandman.ca | 2026-07-12 | batch-200
 - [email created] Gray Monk Estate Winery | winery, Lake Country | events@graymonk.com | 2026-07-12 | batch-200
@@ -61,8 +61,8 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Sovereign Lake Nordic Club | nordic ski area | gm@sovereignlake.com | 2026-07-12 | batch-200
 - [email created] Vernon Curling & Athletic Club | curling club | vcc@vernoncurlingclub.com | 2026-07-12 | batch-200
 - [email created] Greater Vernon Minor Hockey Assn | youth sports org | administrator@gvmha.com | 2026-07-12 | batch-200
-- [email created] Vernon Yacht Club | private club | office@vernonyachtclub.com | 2026-07-12 | batch-200
-- [email created] Vernon Winter Carnival Society | major festival (Feb) | hello@vernonwintercarnival.com | 2026-07-12 | batch-200
+- [email created] Vernon Yacht Club | private club | office@vernonyachtclub.com | 2026-07-12 | batch-200 | follow-up 2026-08-16
+- [email created] Vernon Winter Carnival Society | major festival (Feb) | hello@vernonwintercarnival.com | 2026-07-12 | batch-200 | follow-up 2026-08-16
 - [email created] Funtastic Sports Society | slo-pitch festival + grants | office@funtastic.org | 2026-07-12 | batch-200
 - [email created] Los Huesos Mexican Restaurant | restaurant, downtown Vernon | loshuesos97@gmail.com | 2026-07-12 | batch-200
 - [email created] Bamboo Beach Fusion Grille | restaurant, downtown | info@bamboobeach.ca | 2026-07-12 | batch-200
@@ -76,7 +76,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Beach Radio 107.5 (Vernon) | radio station | 1075beachradio@gmail.com | 2026-07-12 | batch-200
 - [email created] Sproing Solutions (Creative) | marketing agency, Vernon | hello@sproing.ca | 2026-07-12 | batch-200
 - [email created] Wayside (Press) | printing/signage, Vernon | sales@waysideco.ca | 2026-07-12 | batch-200
-- [email created] Vernon Morning Star | newspaper | rodd.cruikshank@vernonmorningstar.com | 2026-07-12 | batch-200
+- [email created] Vernon Morning Star | newspaper | rodd.cruikshank@vernonmorningstar.com | 2026-07-12 | batch-200 | follow-up 2026-08-16
 - [email created] Castanet Vernon | news site | sales@castanet.net | 2026-07-12 | batch-200
 - [email created] Holiday Inn Express & Suites Vernon | hotel | info@vernonexpress.com | 2026-07-12 | batch-200
 - [email created] Fairfield Inn & Suites by Marriott Vernon | hotel | reserve@fairfieldvernon.com | 2026-07-12 | batch-200
@@ -111,7 +111,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Village Green Shopping Centre | mall (BentallGreenOak) | vgmmarketing@bentallgreenoak.com | 2026-07-12 | batch-200
 - [email created] Mabel Lake Golf & Airpark | golf course, Enderby/Lumby area | proshop@mabellakegolf.com | 2026-07-12 | batch-200
 - [email created] Vernon Farmers' Market | market org | info@vernonfarmersmarket.ca | 2026-07-12 | batch-200
-- [email created] Tourism Vernon (City of Vernon) | destination marketing | tsilverthorn@vernon.ca | 2026-07-12 | batch-200
+- [email created] Tourism Vernon (City of Vernon) | destination marketing | tsilverthorn@vernon.ca | 2026-07-12 | batch-200 | follow-up 2026-08-16
 - [email created] Splatsin Development Corporation | First Nation development corp, Enderby | info@splatsindc.com | 2026-07-12 | batch-200
 - [email created] Okanagan College — Continuing Studies (Vernon campus) | education | cskelowna@okanagan.bc.ca | 2026-07-12 | batch-200
 - [email created] Allan Brooks Nature Centre | nature centre, Vernon | events@abnc.ca | 2026-07-12 | batch-200
@@ -1289,7 +1289,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Turtle Mountain Inn | Local business | Turtle Mountain Inn, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Cypress Guesthouse Vernon | Local business | Cypress Guesthouse, Vernon (site/contact) | 2026-07-25 | run-7
 - [email created] Lakeshore Paradise | Local business | Lakeshore Paradise, Vernon (site/contact) | 2026-07-25 | run-7
-- [email created] Destination Silver Star | Local business | info@destinationsilverstar.com + 250-275-4942 | 2026-07-25 | run-7
+- [email created] Destination Silver Star | Local business | info@destinationsilverstar.com + 250-275-4942 | 2026-07-25 | run-7 | follow-up 2026-08-16
 - [email created] Spirit Lodge at SilverStar | Local business | Spirit Lodge at SilverStar (site/front desk) | 2026-07-25 | run-7
 - [email created] Silver Star Bed and Breakfast | Local business | Silver Star Bed & Breakfast (site/phone) | 2026-07-25 | run-7
 - [email created] Silver Star Ski and Sport | Local business | silverstarskiandsport.com contact page | 2026-07-25 | run-7
