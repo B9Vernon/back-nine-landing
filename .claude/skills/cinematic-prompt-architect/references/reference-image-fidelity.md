@@ -64,7 +64,7 @@ listing it in a negation.
 clip's final frame) as the start frame — the model rarely contradicts its own first frame's
 pixels. Full rules: `references/generation-reliability.md` → Start-frame discipline.
 
-## 3. Golfer placement and orientation (mandatory for every hitting/address/swing shot)
+## 3. Golfer placement and the downrange axis (mandatory for every hitting/address/swing shot)
 
 - The golfer's feet must be planted **on the green turf, inside the hitting area** — never on the
   wood floor, never in the lounge, never outside the bay's turf boundary.
@@ -72,8 +72,37 @@ pixels. Full rules: `references/generation-reliability.md` → Start-frame disci
   **square and oriented toward the flat impact screen** — the screen is always directly ahead of
   the golfer's intended ball flight, never behind them, beside them, or perpendicular to their
   swing plane.
-- State this explicitly rather than assuming the model infers it: name the turf position and name
-  the facing direction ("facing the impact screen," "target line pointing at the screen").
+
+### State the downrange axis in camera terms, not just body terms
+
+"He faces the impact screen" is **not sufficient** and has repeatedly failed in production — the
+model still puts the screen behind the golfer, because nothing told it where the screen sits *in
+the frame*. Camera-relative phrases like "side-rear angle" or "three-quarter view" describe where
+the camera is but leave the screen's position entirely free. Every hitting-scene prompt must
+therefore establish all three of these:
+
+1. **Where the screen sits in the frame** — anchor it to the frame, not the body: "the impact
+   screen fills the far end of the frame beyond him," "the screen is downrange on frame left."
+2. **That the screen is downrange** — say the word: the screen is the target the ball is hit
+   *into*, at the far end of the bay, ahead of the golfer's chest and the direction he aims.
+3. **Which way the ball travels in frame** — "the ball flies away from camera, straight into the
+   impact screen." Ball-flight direction is the single clearest signal of which way is downrange;
+   never leave it unstated in a hitting scene. State it even in clips where the strike already
+   happened ("his ball has just flown downrange into the screen ahead of him").
+
+### Reliable framings for a bay hitting shot
+
+Each of these fixes the screen's position — pick one and state it:
+
+- **Down-the-line (behind the golfer):** camera behind and slightly to one side, the screen
+  filling the frame beyond him, ball flying away from camera into the screen. Safest default.
+- **Face-on side view:** camera perpendicular to the target line, the screen filling frame left
+  (or right), the ball flying across frame into it.
+- **Reverse / hero angle:** camera in front of the golfer, screen **behind the camera** — use only
+  for reaction and finish beats with no ball flight shown, and say that explicitly.
+
+If a prompt shows a ball being struck and does not say where the screen is and where the ball
+goes, **it is not finished** — rewrite it before shipping.
 
 ## 4. Reference-slot budgeting (engine reference-image limits)
 

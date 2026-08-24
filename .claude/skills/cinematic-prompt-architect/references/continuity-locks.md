@@ -41,16 +41,16 @@ duplicate impact surfaces not present in the reference**.
 do not summarize it as a generic bay.** State the exact screen count and shape, the exact turf
 boundary, and what borders the turf. For Back Nine's Bay 1, use this locked geometry:
 
-> Bay 1 is a single rectangular hitting bay. Green artificial turf covers the entire floor from
-> the golfer's hitting position all the way to the base of the back wall — there is no wood floor,
-> gap, or border strip between the turf and the screen. One flat rectangular impact screen is
-> mounted flush and vertical against the centre of the back wall, flanked by two plain charcoal-
-> grey wall sections — the screen is flat, never curved, angled, or free-standing, and it is the
-> only large screen in the hitting area. The separate lounge zone (leather sofa/armchair, massage
-> chairs, high-top table, small wall-mounted TV) is away from the hitting turf and stays out of
-> the shot unless the concept explicitly moves the camera there.
+> Bay 1 is a single rectangular hitting bay. Green artificial turf covers the entire floor,
+> running continuously from the golfer's hitting position all the way to the base of the back
+> wall, meeting the screen wall directly. One flat rectangular impact screen is mounted flush and
+> vertical against the centre of the back wall, flanked on both sides by plain charcoal-grey wall
+> sections — that flat screen is the only screen in the hitting area, and it sits downrange, the
+> target the ball is hit into. The separate lounge zone stays out of hitting-area shots by simply
+> not being mentioned.
 
-Full rules and the golfer-orientation requirement: `references/reference-image-fidelity.md`.
+Full rules, the downrange-axis requirement, and the golfer-orientation requirement:
+`references/reference-image-fidelity.md`.
 
 ## Prop continuity — preserve
 

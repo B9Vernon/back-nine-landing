@@ -50,7 +50,11 @@ reference is attached — lock their exact face, hair, build, and skin tone in w
 describe a location generically ("a golf simulator bay") — state its exact, literal geometry: how
 many screens, whether flat or curved, where the turf starts and ends, what borders it. For every
 hitting/address/swing shot, explicitly place the golfer's feet on the turf inside the hitting area
-and orient their body/target line at the impact screen. The target engine's reference-image cap
+and orient their body/target line at the impact screen. **Orientation must be stated in camera
+terms, not only body terms** — "he faces the screen" repeatedly fails; also say where the screen
+sits in the frame, that it is downrange (the target the ball is hit into), and which way the ball
+travels in frame ("away from camera, into the screen"). A hitting prompt that omits the screen's
+frame position and the ball's flight direction is unfinished. The target engine's reference-image cap
 (e.g. **3 for Higgsfield Cinema Studio 2.5**) must never be silently exceeded — prioritize
 character identity and location geometry references over prop references when slots are tight,
 covering props through literal text instead. Full protocol:

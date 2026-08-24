@@ -21,10 +21,18 @@ shipping. Full rules: `references/reference-image-fidelity.md`.
 - [ ] If the lounge zone is not part of this shot, does the prompt keep it out rather than merging
       it into the hitting-area composition?
 
-## Golfer placement and orientation
+## Golfer placement and the downrange axis
 - [ ] Are the golfer's feet explicitly placed on the turf, inside the hitting area boundary?
 - [ ] Is the golfer's body/target line explicitly oriented toward the flat impact screen for every
       address, swing, or ball-focused beat?
+- [ ] **Is the screen's position stated in FRAME terms** ("fills the far end of the frame beyond
+      him," "downrange on frame left") — not only in body terms like "he faces the screen"?
+- [ ] **Is the screen named as downrange** — the target the ball is hit into?
+- [ ] **Is the ball's flight direction in frame stated** ("flies away from camera into the
+      screen")? Required even for post-strike/finish beats
+      (`references/reference-image-fidelity.md` → downrange axis).
+- [ ] Does the chosen framing (down-the-line / face-on side / reverse hero) match where the prompt
+      says the screen is — with reverse angles used only for no-ball-flight reaction beats?
 
 ## Reference-slot budget
 - [ ] Does the attached-reference count for this clip respect the target engine's maximum (e.g. 3
