@@ -32,11 +32,13 @@ BEFORE proposing names or themes. Preserve what works; improve what doesn't.
 - Clean Sheet: LIGHT white/green corporate look (BOARDROOM CUP)
 - Daylight Fairway: LIGHT solid-green hero band (TWO BALL SOCIAL)
 - Vibrant Coral (Spectacle layer): warm coral+gold+green+blue on white/navy, bright panels, 6-round colour-chip season strip (THE BIRDIE LEAGUE) — first warm/bright identity
+- Brass & Ember (Spectacle layer): DARK espresso/charcoal page, brass-gold lead + peach-copper ember, green secondary, single icy-blue frost note, metallic emblem, 10-tile season rail (THE LONG GAME) — first warm-dark identity
 
 ## Seasonal themes already used
 
 - Summer: short single-round, flexible completion window, smoke-season-proof framing (LAST CALL SHOOTOUT)
 - Summer: smoke-season two-player scramble escape (CLEAR AIR CLASSIC)
+- Winter: long 10-round two-player scramble season, fire-inside/frost-outside framing (THE LONG GAME)
 - Summer: late-night weekly skins for packed summer schedules (AFTER DARK SKINS)
 - Late summer: playoff-race points + finals night (PLAYOFF PUSH)
 - Fall: outdoor-to-indoor transition knockout (FIRST FROST MATCH PLAY)
@@ -149,3 +151,26 @@ _(none yet — record stripped tags, width limits, style quirks here)_
 - Keep next time: warm bright identity reads premium and energetic; colour-chip season strip communicates round
   count instantly; women-only pages need women-forward imagery — never default to the male-golfer stock.
 - Change next time: source/generate real women golfer photos for B9 Vernon to replace the neutral interim images.
+
+### THE LONG GAME — Winter Doubles Scramble Series — 2026-08-24 — league
+- Vernon's request: 2-person scramble league, long, running over the winter, 10 rounds.
+- Concept: a full winter season for two-player teams — ten scramble rounds booked in the team's own windows,
+  team standings across the season, one winning pair. Endurance/partnership framing ("play the long game").
+- Differentiated on purpose from prior builds: CLEAR AIR CLASSIC is also a 2-player scramble but SUMMER and
+  short; TWO BALL SOCIAL is partners but ALTERNATE SHOT; FIRST FROST (Ice Blue) and MOUNTAIN CREW CUP (Alpine
+  Black Diamond) already own the cold/alpine looks. So this one took a warm-dark "Brass & Ember" identity —
+  fire inside vs frost outside — with icy blue used exactly once, in the "courses close" block.
+- New visual devices (not reused from THE BIRDIE LEAGUE): a scramble "How A Scramble Works" 3-step explainer,
+  a 10-tile season rail with the final round in solid brass, and a metallic-emblem hero. On phones the rail
+  wraps 3-3-3-1 so FINAL 10 lands alone — reads as a climax, keep this.
+- Standard approved blocks intact: opening hook, stacked (non-flex) highlight cards, image story, partner/social
+  block, gold prize block (approved fallback + {{PRIZE_DETAILS}}), 3-step registration (verified links +
+  {{FULL_SWING_EVENT_CODE}}), Golf Canada, membership, CLAIM MY SPOT NOW final CTA, footer. Hero CTA is
+  BUILD YOUR TEAM (approved wording, fits a pairs league).
+- Container was recycled mid-session: scratchpad + logo_uris.json were lost and the local clone was stale.
+  Recovered all 21 brand images by extracting the embedded base64 data URIs from the committed builds/*.html.
+  Worth remembering: the committed pages ARE the asset backup.
+- Outcome / Vernon's feedback: pending.
+- Keep next time: warm-dark premium look reads expensive; format explainers help for anything but stroke play.
+- Change next time: no real 2-player/partner action photography yet — the social block reuses the couples/lounge
+  photo. Worth shooting or generating a genuine doubles-in-a-bay image.
