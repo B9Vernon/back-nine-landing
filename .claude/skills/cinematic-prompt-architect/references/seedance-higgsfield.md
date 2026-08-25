@@ -1,7 +1,15 @@
 # Seedance through Higgsfield — Optimization
 
 Default target platform. Unless the user names another platform, optimize every prompt for
-Seedance generation inside the Higgsfield workflow.
+Seedance generation inside the Higgsfield workflow. When the user names a different Higgsfield
+engine (e.g. **Cinema Studio 2.5**), everything here still applies, plus that engine's real
+limits — reference-image cap (3 for Cinema Studio 2.5), start/end-frame support (use it: it is
+the primary geometry lock, `references/generation-reliability.md`), and custom movement/speed-
+ramp controls.
+
+This file governs how prompts are **written**. Whether and when to actually invoke the
+Higgsfield connector and start a paid generation is a separate, explicit-authorization decision —
+see `references/higgsfield-generation-authority.md`.
 
 ## Write prompts that Seedance can interpret reliably
 
@@ -29,6 +37,22 @@ Seedance generation inside the Higgsfield workflow.
   Seedance should preserve them. Do not redesign known references.
 - When an approved logo asset exists, reference or composite it rather than asking the model to
   generate detailed lettering from scratch.
+
+## Writing prompts that actually lock onto attached reference images
+
+Attaching a reference image is not enough on its own — Seedance still needs the prompt text to
+tell it what to preserve from that image, or it will improvise gaps (a different face, an extra
+screen, a wrong turf boundary). For every prompt with attached references:
+
+- **Say what the reference is for, explicitly**, e.g. "match the woman exactly to the attached
+  character reference — same face, hair, build" rather than leaving the image to imply it.
+- **Describe the reference's content in words too**, not just by attachment — restate the face/
+  hair/wardrobe for characters, and the exact room geometry for locations (screen count, screen
+  shape, turf boundary, wall composition). Redundant reinforcement between image and text is what
+  keeps identity and geometry locked; relying on the image alone is a common cause of drift.
+- **Name what must NOT appear** just as explicitly as what must — no second screen, no different
+  face, no extra furniture. Absence-of-invention is a first-class instruction, not an afterthought.
+- Full mandatory protocol for this: `references/reference-image-fidelity.md`.
 
 ## Ball-motion stability on Seedance
 

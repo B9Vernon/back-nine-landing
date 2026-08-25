@@ -6,7 +6,9 @@ reference. Do not rename established references. When names are not yet establis
 the asset clearly and propose a name only when building the asset library (see
 `assets/asset-portfolio-registry.md`).
 
-Include the relevant locks below as **POSITIVE LOCKS** and **NEGATIVE LOCKS** sections in prompts.
+Include the relevant locks below as **POSITIVE LOCKS** in prompts — phrased as the correct state
+to preserve, with residual risks going into the single ~25-word `AVOID:` line
+(`references/generation-reliability.md`).
 
 ## Character continuity — preserve
 
@@ -18,6 +20,12 @@ condition · scale in the environment.
 wardrobe changes · hairstyle changes · missing accessories · facial warping · extra/missing limbs ·
 broken joints · extra/fused fingers · unnatural blinking · glowing eyes · plastic skin.
 
+**When a character reference image is attached, this is a hard identity lock, not a suggestion.**
+Never describe the person generically ("a golfer," "a woman," "a man") — name the exact reference
+asset and lock face/hair/build/skin tone in words. A generated face that doesn't match the
+attached reference is a failed generation, exactly like a duplicated golf ball: reject and
+regenerate with stronger identity wording. Full rules: `references/reference-image-fidelity.md`.
+
 ## Location continuity — preserve
 
 identical room dimensions · walls · doors · windows · simulator-screen placement · turf boundaries ·
@@ -26,7 +34,23 @@ hallway direction.
 
 **Prevent:** moving walls · shifting doors · disappearing windows · changing bay dimensions ·
 altered simulator placement · warped architecture · melted furniture · incorrect room scale ·
-changing logos · changing lighting fixtures.
+changing logos · changing lighting fixtures · **inventing extra screens, projectors, monitors, or
+duplicate impact surfaces not present in the reference**.
+
+**When a location reference image is attached, describe its geometry literally in every prompt —
+do not summarize it as a generic bay.** State the exact screen count and shape, the exact turf
+boundary, and what borders the turf. For Back Nine's Bay 1, use this locked geometry:
+
+> Bay 1 is a single rectangular hitting bay. Green artificial turf covers the entire floor,
+> running continuously from the golfer's hitting position all the way to the base of the back
+> wall, meeting the screen wall directly. One flat rectangular impact screen is mounted flush and
+> vertical against the centre of the back wall, flanked on both sides by plain charcoal-grey wall
+> sections — that flat screen is the only screen in the hitting area, and it sits downrange, the
+> target the ball is hit into. The separate lounge zone stays out of hitting-area shots by simply
+> not being mentioned.
+
+Full rules, the downrange-axis requirement, and the golfer-orientation requirement:
+`references/reference-image-fidelity.md`.
 
 ## Prop continuity — preserve
 
@@ -57,7 +81,9 @@ rotation · final balance · eyeline · ball launch direction · ball exit from 
 
 Don't overcomplicate swing mechanics if it risks distortion — use shorter clips or separate the
 swing phases. At impact, the single ball leaves its original position and continues as the same
-object. Never show one ball on the turf after another launches.
+object. Never show one ball on the turf after another launches. The clubface-to-ball contact must
+be clearly visible and physically correct in every hitting scene — full mandatory rules:
+`references/club-ball-impact.md`.
 
 ## Golf-ball movement (the single ball)
 

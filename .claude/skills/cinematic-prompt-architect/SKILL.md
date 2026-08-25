@@ -38,6 +38,84 @@ out of frame). Never two. Motion blur, trails, reflections, screen graphics, and
 must never create the appearance of a second ball. If fast ball movement is hard to generate
 cleanly, split it into shorter clips rather than risk duplication.
 
+## Reference-image fidelity
+
+Whenever a prompt will be generated with attached character or location reference images
+(`assets/asset-portfolio-registry.md`), those images are literal ground truth, not inspiration.
+Two failures are unacceptable: **identity substitution** (a different-looking person appears
+instead of the attached character) and **facility invention** (the location gains or loses
+features that aren't in the reference — extra screens, curved screens, wrong turf boundaries,
+rearranged walls). Never describe a character generically ("a golfer," "a woman") when a named
+reference is attached — lock their exact face, hair, build, and skin tone in words. Never
+describe a location generically ("a golf simulator bay") — state its exact, literal geometry: how
+many screens, whether flat or curved, where the turf starts and ends, what borders it. For every
+hitting/address/swing shot, explicitly place the golfer's feet on the turf inside the hitting area
+and orient their body/target line at the impact screen. **Orientation must be stated in camera
+terms, not only body terms** — "he faces the screen" repeatedly fails; also say where the screen
+sits in the frame, that it is downrange (the target the ball is hit into), and which way the ball
+travels in frame ("away from camera, into the screen"). A hitting prompt that omits the screen's
+frame position and the ball's flight direction is unfinished. The target engine's reference-image cap
+(e.g. **3 for Higgsfield Cinema Studio 2.5**) must never be silently exceeded — prioritize
+character identity and location geometry references over prop references when slots are tight,
+covering props through literal text instead. Full protocol:
+`references/reference-image-fidelity.md`. Mandatory verification:
+`checklists/reference-fidelity-verification.md`.
+
+## Generation reliability — positive-first prompting (overrides lock-stacking)
+
+Video engines do not process negation reliably: every noun in a prompt makes that thing more
+likely to appear, **even inside a sentence forbidding it**. Stacked negative-lock paragraphs
+("never render a second ball… no extra screens… no bent clubs…") inject the very failures they
+name — this caused extra balls, morphing clubs, and invented geometry in real productions.
+Therefore: describe the correct state positively ("one white golf ball is the only ball in the
+scene"; "the turf runs continuously to the base of the screen"); consolidate all negatives into
+**one `AVOID:` line of ~25 words max** per prompt; keep prompts under ~250 words with locks ≈30%;
+one primary action, one swing-phase window, and one camera move per clip; always state the club's
+orientation (hands on grip, clubhead at ground end) and never generate a full swing in one clip.
+When the engine supports a start-frame image, the start frame — the real facility photo or the
+previous clip's final frame — is the **primary** geometry lock, and every clip delivery names it.
+Full protocol: `references/generation-reliability.md`.
+
+## Visible club-to-ball impact
+
+Whenever a golf club hits a ball, the clip must clearly show the clubface physically contacting
+the single golf ball at the exact impact moment. The ball must never launch early, move early,
+teleport, disappear before impact, remain on the turf after launch, duplicate, be missed by the
+club, or be hidden by excessive blur, a cut, a flash, or an obstructed angle. Preserve correct
+clubface orientation, hand/wrist/arm/body position, one clearly readable contact, realistic
+compression or launch response, realistic speed/spin/trajectory, correct club continuation
+through impact, and exactly one golf ball before, during, and after contact. The club must never
+pass beside, above, below, or through the ball. Choose a camera angle, framing, and shutter
+behaviour that make impact visually readable for every hitting scene; simplify the camera or
+split the swing into shorter clips if reliable contact can't be shown. Full protocol:
+`references/club-ball-impact.md`. Mandatory verification:
+`checklists/club-ball-impact-verification.md`.
+
+## Token-efficient production mode (default)
+
+Apply automatically unless the user requests maximum detail. Create the complete video plan and
+all independent clip prompts in **one response**; use only sections that materially improve
+generation; use established asset references by name instead of re-describing them; use compact
+continuity/distortion/branding/golf-club/single-golf-ball locks; never paste full reference
+documents or protocols into a generation prompt; state the sequence overview once, not per clip;
+skip explanations, diagnosis, alternatives, or commentary unless requested. Never sacrifice
+generation reliability for brevity — always preserve opening-frame, action, camera, lighting,
+physics, transition, final-frame, visible-impact, and single-golf-ball instructions. Full rules:
+`references/token-efficient-production-mode.md`.
+
+## Higgsfield generation authority
+
+By default, produce the production plan and prompts only — **do not** start a paid generation.
+Use the Higgsfield connector only when the user explicitly asks to **generate, render, run, or
+create** the video (or a specific clip); writing, improving, or handing over a prompt is not by
+itself authorization. Once generation is requested: generate **one clip at a time** unless a
+batch is explicitly requested; state the **model** (default **Seedance**), **duration**, **aspect
+ratio**, and the **assets/references** being used before triggering it; never launch extra
+variations without approval; inspect every result before continuing; reject any output with
+distortion, continuity failures, incorrect branding, broken golf clubs, or more than one golf
+ball. Full protocol: `references/higgsfield-generation-authority.md`. Post-generation review:
+`checklists/generation-review.md`.
+
 ## Your role
 
 Act simultaneously as commercial film director, cinematographer, camera operator, editor,
@@ -73,8 +151,15 @@ spectators, or background activity unless requested.
    Simplify any action too complex for stable Seedance generation.
 6. Protect character/prop/club/ball/logo/location continuity (`references/continuity-locks.md`)
    and prevent distortion (`references/distortion-prevention.md`).
-7. Confirm no more than one golf ball can appear.
-8. Return complete, independent, copy-and-paste prompts.
+7. When image references are attached, lock identity and facility geometry literally in words —
+   never let the model guess (`references/reference-image-fidelity.md`).
+8. Apply the generation-reliability rules: positive-first phrasing, one AVOID line, ~250-word
+   budget, one action / one swing-phase window / one camera move per clip, club orientation
+   stated, start frame named (`references/generation-reliability.md`).
+9. Confirm no more than one golf ball can appear.
+10. For any hitting scene, confirm the club-to-ball impact is visible and physically correct
+    (`references/club-ball-impact.md`).
+11. Return complete, independent, copy-and-paste prompts — token-efficient by default.
 
 ## Clip structure — decide it, don't ask
 
@@ -99,10 +184,15 @@ clip's final frame must visually support the next clip's opening frame.
 
 ## How to write a prompt
 
-Use the section framework in `references/prompt-structure.md` (35 sections; include only those
-that improve the generation — no filler). Copy `templates/clip-prompt-template.md` as the
-starting scaffold. Apply the prompt-engineering rules, camera design
-(`references/camera-language.md`), and Seedance rules (`references/seedance-higgsfield.md`).
+Do not use every section automatically. Use the **minimum sections needed to control the clip
+reliably** — see `references/prompt-structure.md` for the full 35-section framework and the
+priority set. At minimum, prioritize: opening frame, chronological action, camera, references,
+physics, lighting, continuity, single-golf-ball protection, distortion prevention, and the final
+frame. Never paste an entire reference document into a generation prompt — use compact lock
+wording (a short restated rule, not full file contents). Copy `templates/clip-prompt-template.md`
+as the starting scaffold and delete every section that doesn't earn its place. Apply camera design
+(`references/camera-language.md`) and Seedance rules (`references/seedance-higgsfield.md`). Keep
+prompts detailed but not overloaded.
 
 ## Output format
 
@@ -122,15 +212,17 @@ NEW ASSETS REQUIRED:
 ```
 
 Then: `CLIP 1 — 0–X SECONDS` followed by its full Seedance/Higgsfield prompt, `CLIP 2 …`, etc.
-Prompts are clean and copy-and-paste — no commentary inside a prompt, no vague language, no
-unexplained shortening. Repeat instructions only where repetition protects continuity, the
-single golf ball, or distortion prevention.
+State the header once, not per clip. Prompts are clean and copy-and-paste — no commentary inside
+a prompt, no vague language, no unexplained shortening. Repeat instructions only where repetition
+protects continuity, the single golf ball, visible impact, or distortion prevention. Deliver the
+full plan and every clip prompt in one response
+(`references/token-efficient-production-mode.md`).
 
 ## Output modes
 
-The user may request Modes A–M (full prompt, enhancement, diagnosis, multiple directions,
+The user may request Modes A–N (full prompt, enhancement, diagnosis, multiple directions,
 platform optimization, compact, JSON, character/location/prop/single-ball master sheets,
-multi-clip sequence, social-media clip system). Definitions and triggers:
+multi-clip sequence, social-media clip system, maximum detail). Definitions and triggers:
 `references/output-modes.md`. Master-sheet templates live in `templates/`.
 
 ## Asset portfolio
@@ -143,8 +235,14 @@ use clear temporary descriptions until approved.
 
 ## Quality control — mandatory before every output
 
-Run `checklists/pre-output-qc.md`. For any golf content, also run
-`checklists/single-ball-verification.md`. Do not return a prompt that fails either.
+Run `checklists/pre-output-qc.md` — including its generation-reliability section (positive-first
+phrasing, single AVOID line, word budget, one action/phase/move, start frame named). For any golf
+content, also run
+`checklists/single-ball-verification.md`. For any hitting scene, also run
+`checklists/club-ball-impact-verification.md`. Whenever image references are attached, also run
+`checklists/reference-fidelity-verification.md`. Do not return a prompt that fails any of these.
+If generation was authorized and run, also run `checklists/generation-review.md` on every result
+before continuing.
 
 ## Absolute final rule
 

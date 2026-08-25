@@ -27,6 +27,10 @@ tracking shot · locked-off frame.
 - When the ball moves quickly, pick camera movement + shutter behaviour that keep it reading as
   **one** ball. Never use effects that duplicate the ball's image
   (`references/single-golf-ball-protocol.md`).
+- For every hitting scene, choose an angle, framing, and shutter behaviour that keep the
+  clubface-to-ball contact clearly readable — never hidden by excessive blur, a cut, a flash, or
+  an obstructed angle. Simplify the move or split the swing into shorter clips if contact can't
+  be shown reliably (`references/club-ball-impact.md`).
 - For one-take clips, build a single coherent path that never passes through walls/objects and
   finishes while the shot still feels alive (`references/clip-structure-and-timing.md` → One-take).
 
