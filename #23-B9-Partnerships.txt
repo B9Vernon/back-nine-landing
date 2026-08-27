@@ -1,0 +1,220 @@
+B9 OPPORTUNITY & PARTNERSHIP ENGINE — RUN #23
+12 partnership approaches — Back Nine Golf Vernon — 2026-08-16
+6 emails, 6 phone calls.
+
+THE HEADLINE: THE TOWN WAS NEVER SATURATED. THE ENGINE WAS BLIND.
+
+Runs 18, 19 and 20 all told you Vernon was running out. Run 20 examined 41
+businesses, hit a 66% duplicate rate, and reported that as evidence the town
+was worked out. You said you drive past hundreds of unfound businesses on the
+way in. You were right and the engine was wrong, and here is the proof:
+
+  addresses held in the ledger      75 of 1,892     (3%)
+  ring recorded                      0 of 1,892     (0%)
+  distance from the facility         0 of 1,892     (0%)
+  distinct streets known                22
+
+The engine holds 1,892 business names and knows what street 22 of them are on.
+It has no spatial memory at all. `references/map-grid-discovery.md` has been
+in the skill since the early runs, listing thirteen Vernon zones to sweep
+street by street — not one of them was ever executed. Every run since #12
+discovered by category ("Vernon roofing companies") or by directory ranking,
+which returns whoever ranks highest, which is the same businesses every time.
+The high duplicate rate was the engine re-finding its own footprints and
+calling it saturation.
+
+WHAT CHANGED THIS RUN
+  74  businesses harvested by sweeping directories that ENUMERATE rather than
+      rank — the DVA member directory by category, the Chamber alpha index,
+      Coldstream and Swan Lake corridors, and the business parks
+  33  never contacted before — a 55% duplicate rate, down from run 20's 66%,
+      on nearly double the sample
+  12  survive contact verification and the re-screen
+
+THE FIND THAT MAKES THE POINT
+
+5000 Silver Star Road is one building in a business park off Pleasant Valley
+Road. Four of its tenants are in this file:
+
+  Unit 101/102   Elements Bus Repair and Parts
+  Unit 103       National Seating & Mobility
+  Unit 202       Alpha Graphicsworks
+  Unit 204       Sky Volleyball Club
+
+Four businesses, one address, none of them ever contacted. A category sweep
+would never surface a bus repair shop, a mobility dealer, a sign printer and
+a volleyball club together, because they have nothing in common except a
+postcode — which is exactly the thing the engine stopped looking at.
+
+And Vernon's industrial park is bounded by 31st Street, 29th Street, 43rd
+Avenue and 45th Avenue. Back Nine sits inside it. The closest ring to your
+own front door is among the least swept ground in the log.
+
+WHAT THE RE-SCREEN CAUGHT
+Two candidates cleared the first screen and failed the second, once their
+verified contact was known:
+  Intermezzo Restaurant & Wine Cellar   already logged under the ampersand form
+  City Furniture Downtown Outlet        same phone line as Value Furniture Store
+Both would have been double-contacts. This is the second pass earning its keep.
+
+SEPTEMBER TONE
+Every email below is written for the turn into September rather than midsummer:
+routines restarting, evenings getting dark early, outdoor golf on its last few
+weeks, club and league seasons opening, and staff-party planning starting now
+for December. That timing is the reason to write, not decoration on top of it.
+
+NOTHING HERE IS OFFERED FREE. Staff nights, group bookings and leagues are all
+quoted. Checked against locked rule 2b by tools/verify_deliverable.py and read
+line by line on top of it.
+
+HOW TO WORK THIS FILE
+  Entries marked PHONE  call the number; the message is your talk track.
+  The six email entries paste straight into Gmail.
+
+Public business contact details only. CASL: business-to-business messages about
+a genuine commercial partnership, sent to published addresses.
+Drafts only — nothing is sent automatically.
+
+---
+
+1. Sky Volleyball Club
+To: info@skyvolleyballclub.ca
+Subject: Same building, opposite seasons
+
+Hi Sky Volleyball Club team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're in unit 204 at 5000 Silver Star Road and I'd never have found you through any of the usual searches, which is a bit absurd given how close we are. September is when your season spins up — tryouts, teams forming, and a parent list that suddenly needs fundraising ideas. That's the part I'd like to talk about: we run tournaments and private bookings that work as club fundraisers, quoted by the group, and a bay night is an easy sell to volleyball parents who are already driving to the same building. Would that be worth ten minutes before your season gets busy?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+2. Elements Bus Repair and Parts Ltd
+To: service@elementsbusrepair.com
+Subject: September is your worst month for an evening off
+
+Hi Elements Bus Repair team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're a few doors from us at 5000 Silver Star Road, and September is the month every bus in the valley needs to be running on the same morning — which makes it the month your crew least gets a normal evening. We're open 24 hours, so a staff night for a shop crew doesn't have to happen at seven on a Friday; it can happen whenever your week actually ends. Those are quoted by the group. We'd love to talk about featuring Elements Bus Repair as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a conversation once the fall rush settles?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+3. Alpha Graphicsworks
+To: alphagraphicsworks@gmail.com
+Subject: We need league shirts. You're two doors down.
+
+Hi Alpha Graphicsworks team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're in unit 202 at 5000 Silver Star Road doing signs, decals and screenprinting, and our winter league season starts in a few weeks — which means shirts, bay decals and a perpetual board, and I'd rather quote that two doors down than out of town. Going the other way, the businesses ordering signage from you in the fall are the same ones booking a room for their December staff night, and that referral is worth setting up properly rather than leaving to chance. Can I get a quote started?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+4. National Seating & Mobility
+To: infover@nsm-seating.com
+Subject: Your Vernon branch has neighbours it's never met
+
+Hi National Seating & Mobility Vernon team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Your branch is in unit 103 at 5000 Silver Star Road, which puts your team about thirty seconds from our door and, as far as I can tell, none of the businesses in that building have ever actually met. September is when everyone's routine restarts, so it seemed a reasonable moment to introduce myself. We run staff evenings and private bookings for teams across the valley, quoted by the group, and being open around the clock means a service team can come in after the last install of the day rather than rushing out at five. Happy to send over how they work if that's of interest?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+5. The HiFi Attic
+To: info@hifiattic.ca
+Subject: The people building a media room in October
+
+Hi The HiFi Attic team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 30th Avenue doing hi-fi and home theatre across the Okanagan, and September is when that phone starts ringing again — nobody plans a media room in July. Here's the overlap worth talking about: the person spending real money on a home theatre before winter is very often the same person pricing a simulator for their basement, and they walk into your shop first. We'd love to talk about featuring The HiFi Attic as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a conversation about pointing customers both directions?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+6. Zelaney Farms
+To: info@zelaneyfarms.ca
+Subject: Your season ends in October. Ours starts.
+
+Hi Zelaney Farms team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You've been farming twenty acres in the Coldstream Valley since 1987, running the farm gate store and the market stall, which means right now you're in the hardest six weeks of your year and then it simply stops. That gap is what I'm writing about. Our season runs the other way round — we're busiest from the moment yours ends — and a crew that has just finished harvest is exactly the group a private booking suits, quoted by the group, at whatever hour a farm day actually finishes. Worth a conversation once the last of it is in?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+7. Signs by Elephant
+To: PHONE 250-558-1142
+Subject: The sign people see before they find the door
+
+Hi Signs by Elephant team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on Okanagan Avenue doing illuminated storefronts and CNC signage, and we're a 24-hour business on an industrial block where the sign is doing most of the work after dark — heading into the shortest days of the year, that matters more than it does in June. I'd want a quote for exterior signage. And the trades and retailers ordering from you are the same crews that lose billable days once winter sets in and spend those days somewhere indoors, which is the conversation going the other way. Worth putting a quote together?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+8. Cherkowski Marsden LLP
+To: PHONE 250-308-0338
+Subject: Client events start again once summer ends
+
+Hi Cherkowski Marsden team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 29th Street doing real estate, wills and business law, which means your client list is largely people who have just bought, sold or built something in this valley. Firms tend to put client events back on the calendar once September arrives and everyone is reachable again, and a bay evening handles a group of a dozen better than a dinner does — nobody is stuck talking to one person all night. Those are quoted by the group, and staff evenings the same. Would an early-autumn conversation about that be useful?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+9. Beyond Beauty Medi Spa
+To: PHONE 250-260-1500
+Subject: Corporate gifting season starts in about six weeks
+
+Hi Beyond Beauty Medi Spa team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're a medi-spa with a clientele that spends properly on itself, and from October onward a good share of Vernon's businesses start looking for client and staff gifts that aren't another bottle of wine. Yours is one of the few things in town that genuinely works as that gift, and so is a block of bay time — which is why pairing them is worth a conversation rather than each of us selling separately into the same list. Would you be open to talking that through before the gifting season lands?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+10. Cedar and Soak
+To: PHONE 250-309-6279
+Subject: Swing in the morning, soak in the afternoon
+
+Hi Cedar and Soak team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You do soak and spa services downtown, and we spend our winters watching people rediscover muscles they forgot about — a golf swing after six months off is hard on shoulders and lower backs, and September is when the outdoor season ends and everyone moves indoors and overdoes it. There's an obvious pairing there for a package sold to the same person, and there's a quieter one too: our slow hours and yours are probably the same weekday afternoons. Worth a conversation about both?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+11. Fisher's Home Hardware
+To: PHONE 250-542-4321
+Subject: Your contractor customers are about to lose their afternoons
+
+Hi Fisher's Home Hardware team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're the independent hardware store on Coldstream Avenue, which means your counter sees the same trades every morning — and from October those crews start losing afternoons to weather and looking for somewhere to put them. A trade rate for your account holders is something you could hand across that counter, and your own staff evenings are quoted by the group. We'd love to talk about featuring Fisher's Home Hardware as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Open to talking it through?
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+12. Meier's Building Products
+To: PHONE 250-545-5405
+Subject: Ten minutes from Coldstream, open when the weather isn't
+
+Hi Meier's Building Products team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You supply building products out of Kalamalka Road in Coldstream, ten minutes from our door, and your account holders are framing and finishing crews heading into the part of the year when a rained-out day costs them a day's billing. A trade rate you can offer those accounts gives them somewhere to put that afternoon, and it costs you nothing to hand over. Your own crew evenings are quoted by the group, and we're open at whatever hour a yard actually finishes. Worth a short conversation before winter?
+
+https://backninegolf.ca/local/vernonbc/

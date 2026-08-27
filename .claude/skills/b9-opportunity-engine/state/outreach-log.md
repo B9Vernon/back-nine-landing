@@ -1905,3 +1905,15 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Western Equipment Ltd | Manufacturing | PHONE 250-545-5499 | 2026-08-09 | run-20
 - [email created] Mertion Excavating | Trades — excavation | info@mertionexcavating.ca | 2026-08-09 | run-20
 - [email created] Mainline Industrial Supplies | Industrial supply | PHONE 250-542-6942 | 2026-08-09 | run-20
+- [email created] Sky Volleyball Club | Non-profit/society | info@skyvolleyballclub.ca | 2026-08-16 | run-23
+- [email created] Elements Bus Repair and Parts Ltd | Auto service | service@elementsbusrepair.com | 2026-08-16 | run-23
+- [email created] Alpha Graphicsworks | Signage/print | alphagraphicsworks@gmail.com | 2026-08-16 | run-23
+- [email created] National Seating & Mobility | Mobility/medical equipment | infover@nsm-seating.com | 2026-08-16 | run-23
+- [email created] The HiFi Attic | Electronics/AV | info@hifiattic.ca | 2026-08-16 | run-23
+- [email created] Zelaney Farms | Agriculture/farm | info@zelaneyfarms.ca | 2026-08-16 | run-23
+- [email created] Signs by Elephant | Signage/print | PHONE 250-558-1142 | 2026-08-16 | run-23
+- [email created] Cherkowski Marsden LLP | Legal | PHONE 250-308-0338 | 2026-08-16 | run-23
+- [email created] Beyond Beauty Medi Spa | Spa/wellness | PHONE 250-260-1500 | 2026-08-16 | run-23
+- [email created] Cedar and Soak | Spa/wellness | PHONE 250-309-6279 | 2026-08-16 | run-23
+- [email created] Fisher's Home Hardware | Hardware/building supply | PHONE 250-542-4321 | 2026-08-16 | run-23
+- [email created] Meier's Building Products | Hardware/building supply | PHONE 250-545-5405 | 2026-08-16 | run-23

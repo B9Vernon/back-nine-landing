@@ -19,6 +19,22 @@ outward in rings:
 0–1 km → 1–2 km → 2–3 km → 3–5 km → 5–10 km → farther only when needed
 (Coldstream, BX, Okanagan Landing, then Armstrong/Lumby/Lake Country).
 
+## Read the zone ledger FIRST
+
+`state/zone-coverage.md` records which zones have actually been swept. Pick an
+UNSWEPT or STALE zone before harvesting, and append a row after the run.
+
+Run 23 found this was the engine's largest defect: only 3% of ledger rows
+carried an address and 0% carried a ring, so the engine could not tell which
+ground it had covered. It fell back on category queries and directory
+*ranking*, which return the same top-ranked businesses every run — and runs
+18-20 read the resulting duplicate rate as the town being saturated. It was
+the engine re-finding its own footprints.
+
+Prefer directories that ENUMERATE (alphabetical indexes, category listings
+whose URLs carry the business name, plaza and business-park tenant lists) over
+directories that RANK. See the method note at the foot of the zone ledger.
+
 ## Method
 
 - Anchor on postal code V1T 5B9 / the facility's address and nearby

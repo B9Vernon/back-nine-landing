@@ -40,6 +40,19 @@ CATEGORY_HINTS = [
     ('Surveying/geomatics', r'\bsurveyor|surveying|geomatic|geo-survey'),
     ('Transport/freight', r'\bfreight|trucking|transport\b|logistics|'
                           r'\bcourier|carriers?\b|haul(?:age|ing)\b'),
+    # Run 23 swept business parks and the Coldstream rural corridor for the
+    # first time, which surfaced six categories the log had never seen. Each
+    # of these must precede the broader pattern that was swallowing it.
+    # Before Medical clinic, which owns "medical".
+    ('Mobility/medical equipment', r'\bmobility\b|\bseating\b|wheelchair|'
+                                   r'\bscooters?\b|stair ?lift|home medical'),
+    # Before Retail, which owns "shop"/"store".
+    ('Electronics/AV', r'hi-?fi\b|home theat|\baudio\b|\bstereo\b|'
+                       r'electronics|\bav\b'),
+    # Before Landscaping/garden, which owns "orchard" and a too-strict
+    # "farm\b" that never matched the plural in "Zelaney Farms".
+    ('Agriculture/farm', r'\bfarms?\b|\borchards?\b|\branch\b|\bproduce\b|'
+                         r'\bapiary\b|\bvineyard'),
     ('Dental/ortho', r'\bdental|dentist|orthodont'),
     ('Veterinary', r'\bveterinar|animal (?:hospital|care)'),
     ('Childcare', r'\bdaycare|day care|child care|childcare|preschool|montessori'),
@@ -48,7 +61,8 @@ CATEGORY_HINTS = [
     # Salon/barber. Every one of these needs a boundary.
     ('Salon/barber', r'\bsalon\b|\bbarber|\bhair\b|\bnails?\b|\besthetic|'
                      r'\blash(?:es)?\b|\bbrows?\b'),
-    ('Spa/wellness', r'\bspa\b|wellness|laser|skin\b|beauty'),
+    ('Spa/wellness', r'\bspa\b|wellness|laser|skin\b|beauty|\bsoak\b|'
+                     r'\bsauna\b|bathhouse|float tank'),
     ('Physio/chiro/massage', r'\bphysio|chiro|massage|\brmt\b|rehab'),
     ('Counselling', r'\bcounsell|counsel|therapy|psycholog|clinical therapy'),
     ('Medical clinic', r'\bclinic|physician|urgent care|pharmac|optometr|'
@@ -74,7 +88,13 @@ CATEGORY_HINTS = [
     # plumbing and heating contractor. In BC trades "<name> Mechanical" is an
     # HVAC firm; "mechanic" is the garage. Keep them apart.
     ('Auto service', r'\bauto|tire|car wash|detail|towing|muffler|collision|'
-                     r'\bmechanics?\b'),
+                     r'\bmechanics?\b|bus repair|fleet (?:repair|service)|'
+                     r'truck repair'),
+    # A hardware dealer is a supplier, not a trade. Without this, Fisher's
+    # Home Hardware landed on "Trades — building" via the word "contractor"
+    # in its own subject line.
+    ('Hardware/building supply', r'home hardware|\bhardware\b|lumber\b|'
+                                 r'building (?:supply|supplies|products|centre)'),
     ('Trades — electrical', r'\belectric'),
     ('Trades — plumbing/HVAC', r'\bplumb|hvac|air conditioning|heating|'
                                r'\bmechanical\b|refrigerat'),
@@ -84,9 +104,13 @@ CATEGORY_HINTS = [
     ('Trades — building', r'\bcontract|construct|renovat|builder|homes\b|carpent|cabinet'),
     ('Trades — excavation', r'\bexcavat|bobcat|paving|asphalt|gravel|concrete'),
     ('Awards/engraving', r'\bawards?\b|trophies|trophy|engrav'),
+    # Before Professional services, whose bare "\bsign" caught sign shops but
+    # labelled them consulting, and missed "Graphicsworks" entirely.
+    ('Signage/print', r'\bsigns?\b|signage|\bgraphics?\b|graphics? ?works|'
+                      r'screen ?print|\bdecals?\b|vinyl wrap|banners?\b'),
     ('Industrial supply', r'industrial supply|industrial supplies|safety '
                           r'supply|\bwholesale\b|plumbing (?:fixtures|'
-                          r'supplies)|building supply'),
+                          r'supplies)|building (?:supply|supplies|products)'),
     ('Manufacturing', r'\bindustries|manufactur|fabricat|machin|welding|'
                       r'packaging|equipment\b'),
     ('Landscaping/garden', r'\blandscap|garden|nursery|greenhouse|orchard|farm\b'),
