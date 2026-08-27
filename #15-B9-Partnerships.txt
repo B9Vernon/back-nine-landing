@@ -1,0 +1,65 @@
+B9 OPPORTUNITY & PARTNERSHIP ENGINE — RUN #15
+3 partnership invitation emails — Back Nine Golf Vernon
+First run through the V2 pipeline.
+
+EVERY PROSPECT CLEARED, IN ORDER:
+  Universal Duplicate Guard  name, alias, core name, website domain, email,
+                             email domain, phone and street address, against
+                             all 1,856 logged businesses
+  Contact Verifier           published email only, source recorded
+  Commercial Fit Scorer      65/100 floor, no score inflated to reach a count
+  Opportunity Red Team       nine questions, reject and replace
+
+REJECTED THIS RUN (11): 1 duplicate caught on street address alone
+(Chambers Transportation Group = Langley Freight Lines, both 600 Waddington
+Dr), 1 duplicate caught at verification (Easthill Physiotherapy), 1 below
+the score gate at 63/100 (Interior TCM Acupuncture), 8 dropped for having no
+published email. Full ledger in state/coverage/run-15.json.
+
+SCORES
+  82/100  Greater Vernon Ringette Association   (named president, annual events)
+  79/100  ODYNN Performance Therapy             (athlete program, strong overlap)
+  70/100  Okanagan Shade & Shutter              (closest ring, homeowner audience)
+
+Geography: closest-first from V1T 5B9. Rings 0-1km, 1-3km, 3-5km and 5-10km
+worked. Kelowna excluded.
+
+NEW WORDING: each email opens with a greeting naming the recipient, then the
+exact sentence "My name is Neil." Locked rules 2a (paid TV placement) and 2b
+(nothing reads as free) still apply.
+
+Drafts only — nothing is sent automatically.
+
+---
+
+1. Greater Vernon Ringette Association
+To: president@vernonringette.com
+Subject: Your teams once the ice comes out
+
+Hi Wayne,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Ringette fills your winter and then the ice comes out, and the months your season winds down are the months our bays are at their busiest. We do a lot of group bookings for associations like yours — team wind-ups, parent socials, coach evenings — and they run just as easily as a fundraiser when a club needs one. Happy to send over how they work. Would you be open to a chat?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+2. ODYNN Performance Therapy
+To: odynnvernon@gmail.com
+Subject: Your Player Performance athletes and our bays
+
+Hi ODYNN team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 32nd Avenue a few minutes from our door, and your Player Performance program is the reason I'm writing. Our bays put objective swing data in front of an athlete on every shot, indoors and year-round, which sits naturally alongside the athletic therapy and osteopathy work you already do. A practitioner rate for your team and a client perk each way would be an easy place to start. We'd love to talk about featuring ODYNN Performance Therapy as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Would that be worth a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+3. Okanagan Shade & Shutter
+To: info@okss.ca
+Subject: About as close as two businesses get
+
+Hi Okanagan Shade & Shutter team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 43rd Street, which puts you about as close to our door as a business in this town gets. Awnings, shutters and retractable screens are what people buy once they've decided to make more of being at home — and we're the version of that evening five minutes away, open whatever hour actually suits. A referral perk each way would work for both of us. We'd love to talk about featuring Okanagan Shade & Shutter as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/

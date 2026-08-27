@@ -1,0 +1,242 @@
+B9 OPPORTUNITY & PARTNERSHIP ENGINE — RUN #17
+11 partnership invitation emails — Back Nine Golf Vernon
+
+WHAT WAS BLOCKING DISCOVERY, AND WHAT CHANGED
+
+Runs 12-16 delivered 14, 14, 20, 3 and 2 prospects. The cause was not a
+shortage of Vernon businesses. Since run 12 every entry needs a verified
+published email, and each one costs a dedicated search — but candidates were
+being checked against the log ONE AT A TIME, after that search had already
+been spent. Most turned out to be businesses already contacted, so the run
+ran out of budget long before it ran out of town.
+
+Two fixes, both made inside the existing engine:
+
+  tools/screen_candidates.py   NEW. Screens an entire harvest against all
+                               1,861 logged businesses at once, on every
+                               duplicate axis, BEFORE a single email search is
+                               spent. Harvest three hundred names, pay only
+                               for the ones that can actually ship.
+
+  b9lib address axis           REPAIRED. A civic address stood for every
+                               tenant in the building, so KAL Fitness
+                               (11-100 Kalamalka Lake Rd) was reported as a
+                               duplicate of Chemac Industries (100 Kalamalka
+                               Lake Rd) — different units, unrelated
+                               businesses. Vernon is full of multi-tenant
+                               plazas, so this was quietly hiding real
+                               prospects. Units are now compared; an address
+                               with no unit still matches everything at it, so
+                               no duplicate protection was traded away.
+
+Kal Fitness is entry 1 in this run because of that second fix.
+
+EVERY PROSPECT CLEARED, IN ORDER:
+  Universal Duplicate Guard  name, alias, core name, website domain, email,
+                             email domain, phone and street address (now
+                             unit-aware), against all 1,861 logged businesses
+  Contact Verifier           published email only, source recorded
+  Commercial Fit Scorer      65/100 floor, no score inflated to reach a count
+  Opportunity Red Team       reject and replace
+
+THE NUMBERS, HONESTLY
+  ~190  businesses examined across 9 street and category sweeps
+    91  survived the duplicate guard on name and address as genuinely new
+    27  had a published email that could actually be verified
+     7  of those 27 were then caught by the guard on axes the name misses,
+        or by ledger rows the guard had been wrongly skipping
+     9  fell below the 65/100 fit gate
+    11  delivered here
+
+The seven caught late are worth naming, because they are exactly the failure
+the guard exists for: North Okanagan Youth Soccer Association (logged as
+"...Soccer Assn"), Fox Plumbing (shares foxandsons.ca with Fox & Sons
+Electrical), Butcher Boys (same email as Butcher Boys Food Market), SpeedPro
+Signs Vernon, Planet Bee Honey Farm, KV Fairglass (shares an inbox with KT
+Fairglass), and Cambium Cider Co. All seven had a verified email and a
+passing fit score, and name matching alone would have double-contacted every
+one of them.
+
+Cambium exposed a THIRD bug, this one already in the engine before today.
+Both the duplicate guard and the deliverable verifier were skipping every
+ledger row that carried a rejection_reason. But this ledger is derived from
+outreach-log.md, which records outreach and nothing else — all 89 marked rows
+have status "email created" and read "duplicate of X — do not contact again".
+Run 7 had already emailed hello@cambiumcider.com and flagged it. The engine
+was set up to re-contact all 89 of them. Both tools now count every row.
+
+REJECTED ON FIT (9)
+  64  Literacy Society of the North Okanagan  (small charity, thin revenue)
+  58  BlueSky Organics                        (B2B soil maker, small staff)
+  58  Happy Harry's Liquidations              (bargain retail, no crew)
+  55  Iron Creek Industries                   (Armstrong, 20km out)
+  54  Splashes Bath & Kitchen Centre          (national support inbox only)
+  54  Zelaney Farms                           (farm gate, small)
+  54  Kirmac Collision Vernon                 (national chain inbox only)
+  52  Rogmay Services Ltd                     (small haul, out at Blue Jay Rd)
+  50  Willems Forest Products                 (Lumby, 25km out)
+
+REJECTED FOR HAVING NO PUBLISHED EMAIL (64). Web pages cannot be read from
+this environment — WebFetch returns HTTP 403 for every host, including
+example.com, and raw curl cannot open a tunnel through the proxy. An address
+therefore has to surface inside search-result text, so a business whose only
+contact is a web form cannot be verified, and is never guessed. Notable
+losses: Bracken Insurance, Summit Financial Planners, Bell Lumber & Pole,
+Great West Equipment, City Furniture & Appliances, Visceral Communication,
+Graphic Enterprises, Rona Vernon, Thermotech Insulation, Phyxter Home
+Services, Mertion Excavating, Sandy's Collision Repairs, Pak-Rat Towing.
+
+MWH Geo-Surveys published a FORMAT — first-name-at-mwhgeo.com — rather than
+an address. That is a guess dressed up as a contact, and the verifier
+rejects it by design.
+
+SCORES
+  77/100  Kal Fitness                              (recovered by the unit fix)
+  71/100  Clark Freightways                        (24/7 shift overlap)
+  71/100  Western Financial Group — Vernon         (branch inbox, owner reach)
+  70/100  Brown Mechanical Services                (40-year firm, real roster)
+  70/100  Magnetsigns Vernon                       (named owner, clean two-way)
+  69/100  OK Builders Supplies                     (contractor account list)
+  68/100  Applewood Heating & Air Conditioning     (round-the-clock schedule)
+  66/100  Russell Shortt Land Surveyors            (frozen-season gap)
+  66/100  McPherson Maddox Land Surveying          (frozen-season gap)
+  65/100  CSN Frank's Collision Repair Centre      (24/7 towing roster)
+  65/100  Wylie's RV Logistics                     (drivers, odd hours)
+
+Geography: closest-first from V1T 5B9. Rings 0-1km, 1-3km, 3-5km and 5-10km
+were worked before anything farther out. Kelowna excluded — Western RV
+Country, Traveland RV and Northern Lite were dropped on that rule alone.
+
+NOTHING IN THESE EMAILS IS OFFERED FREE — YOU ASKED ME TO CONFIRM THIS.
+Every commercial mention is explicitly priced: "we quote them by the group",
+"priced by the hour", "we price them by the bay", "quoted by the hour", "a
+member rate each way", "a trade rate for your account holders". The TV
+placement is sold as paid advertising in the locked wording and never framed
+as a favour. No email says free, complimentary, on us, no charge, our treat,
+a thank-you, or offers to host anyone. This was checked mechanically against
+locked rule 2b by tools/verify_deliverable.py, and then read line by line on
+top of the automated pass.
+
+Drafts only — nothing is sent automatically.
+
+---
+
+1. Kal Fitness
+To: kalfitnessvernon@gmail.com
+Subject: Two Kalamalka Lake Road businesses, one customer
+
+Hi Kal Fitness team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're up the road from us on Kalamalka Lake Road, and your members are the people already booking our bays — swing work and gym work sit in the same half of a person's week. A member rate each way is the simple version: your people get a rate on our simulators, ours get one on your floor. Both of us keep the customer in Vernon instead of losing them down the highway. We'd love to talk about featuring Kal Fitness as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+2. Clark Freightways
+To: info@clarkfreightways.com
+Subject: Your Waddington Drive terminal, five minutes away
+
+Hi Clark Freightways team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on Waddington Drive, which puts your terminal about five minutes from our door. Refrigerated freight runs around the clock and so do we — being open 24/7 is the part most venues can't match when a crew comes off shift at an hour nothing else is open. Driver and warehouse group bookings are straightforward to set up and we quote them by the bay. Would you be open to a conversation about it?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+3. Western Financial Group — Vernon
+To: vernon@westernfg.ca
+Subject: 32nd Avenue, and the owners you already meet
+
+Hi Western Financial Group team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You broker insurance out of 32nd Avenue for a large share of the businesses in this town, which means you sit down with owners at the moment they're thinking hard about the business rather than the weekend. Client appreciation evenings are one of the most common bookings we take, and they run indoors in the months an outdoor version simply isn't possible. We quote them by the group. We'd love to talk about featuring Western Financial Group as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Would you be open to a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+4. Brown Mechanical Services
+To: info@brownmechanical.ca
+Subject: Forty years on Kalamalka Lake Road
+
+Hi Brown Mechanical team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You've run plumbing, heating and refrigeration out of Kalamalka Lake Road since 1984, which is longer than most businesses in this town have existed, and it means a staff roster worth getting into one room. Our bays take a whole crew at once, indoors, year-round, and we quote group bookings by the hour so a service company can plan around on-call. We'd love to talk about featuring Brown Mechanical as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+5. Magnetsigns Vernon
+To: bobshaw@magnetsigns.com
+Subject: Two ways of putting a Vernon business in front of people
+
+Hi Bob,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You put local businesses on portable signs at the roadside; we get the same businesses in front of people who are standing still for two hours. Those are the same customers and neither of us is bidding for the other's budget, so a referral each way would fill gaps neither of us reaches alone. I'd also want to talk about signage for our own building. Would that be worth a chat?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+6. OK Builders Supplies
+To: okbuilders11@shawcable.com
+Subject: Your contractor customers, indoors, in January
+
+Hi OK Builders Supplies team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You sell to the trades out of 25th Avenue, so your account list is full of crews who lose billable days every winter and spend them somewhere. A good number of them already end up in our bays. A trade rate for your account holders would give you something to put on the counter, and we'd handle the booking side of it. We'd love to talk about featuring OK Builders Supplies as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Open to talking it through?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+7. Applewood Heating & Air Conditioning
+To: info@applewoodheating.net
+Subject: Your install season and our odd hours
+
+Hi Applewood Heating team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You run heating and air conditioning out of Kalamalka Lake Road with emergency work around the clock, which is a schedule that makes an ordinary staff event almost impossible to organise. We're open 24/7, so a crew coming off a late job can still get a bay. Group bookings are priced by the hour and odd hours are not a problem at our end. We'd love to talk about featuring Applewood Heating as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a quick chat?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+8. Russell Shortt Land Surveyors
+To: devinc@jrshortt.ca
+Subject: Field crews, and the months the ground freezes
+
+Hi Devin,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Surveying slows when the ground freezes, and that gap is when a field crew has time on its hands and nowhere indoors to spend it. You're on 32nd Street a couple of minutes from us. Our bays take a whole crew at once and we quote them by the hour, so a small firm can do this without it turning into an event to organise. Would you be open to a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+9. McPherson Maddox Land Surveying
+To: scott.wemaddox@telus.net
+Subject: 30th Street, and what a crew does in February
+
+Hi Scott,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 30th Street, close enough that a good share of your staff drive past our door. Survey work thins out through the frozen months and that stretch is our busiest — indoors, year-round, with objective numbers on every shot, which tends to land well with people who measure things for a living. Crew bookings are quoted by the hour. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+10. CSN Frank's Collision Repair Centre
+To: info@csnfranks.com
+Subject: Round-the-clock towing, and a venue that matches it
+
+Hi CSN Frank's team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You run collision repair and 24/7 towing off Highway 97, which means a roster of people working hours most venues in Vernon are simply not open for. We are — round the clock, indoors, all year. Staff bookings for a shop your size work either as a whole-crew night or in shifts, and we price them by the bay so a rota that changes weekly isn't a problem. We'd love to talk about featuring CSN Frank's as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+11. Wylie's RV Logistics
+To: wylies@rvlogistics.ca
+Subject: Your drivers, and somewhere open at 2am
+
+Hi Wylie's team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You move RVs on a schedule that doesn't respect business hours, and drivers finishing a haul land in Vernon at times when there is close to nothing open. We're a 24/7 indoor golf lounge on 31st Street, a few minutes from your yard — that's most of the pitch. Driver bookings work as singles or as a group and we price them by the bay. Would that be worth a conversation?
+
+https://backninegolf.ca/local/vernonbc/
