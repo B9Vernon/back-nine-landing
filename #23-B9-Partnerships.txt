@@ -57,11 +57,26 @@ verified contact was known:
   City Furniture Downtown Outlet        same phone line as Value Furniture Store
 Both would have been double-contacts. This is the second pass earning its keep.
 
-SEPTEMBER TONE
-Every email below is written for the turn into September rather than midsummer:
-routines restarting, evenings getting dark early, outdoor golf on its last few
-weeks, club and league seasons opening, and staff-party planning starting now
-for December. That timing is the reason to write, not decoration on top of it.
+SEPTEMBER TONE — CORRECTED AFTER FIRST DRAFT
+The first draft of this file asserted specific claims about several
+recipients' own operating calendars — a volleyball club's tryout season, a
+bus-repair shop's morning schedule, a farm's harvest window, a stereo shop's
+sales cycle — none of which were verified from any source. That is exactly
+what `references/trigger-timing-monitor.md` already forbids: "Never infer an
+event, a date, an anniversary or a milestone... Do not manufacture urgency in
+the email. Reference the real, verified thing or say nothing about timing at
+all." Guessing at a stranger's business cycle and writing it as fact is a
+rule violation, not a style choice, and it was caught before sending, not
+after.
+
+Every email below now leans only on what's actually known: the calendar date
+itself (heading into September), Back Nine's own verified season (leagues,
+holiday-party bookings), and the general Vernon seasonal pattern already
+documented in trigger-timing-monitor.md (outdoor trades slow down as the
+weather turns — a general trade pattern, not a claim about one business).
+Where the original draft asserted something about a specific recipient's
+calendar, it's now either dropped or turned into a question instead of a
+statement.
 
 NOTHING HERE IS OFFERED FREE. Staff nights, group bookings and leagues are all
 quoted. Checked against locked rule 2b by tools/verify_deliverable.py and read
@@ -79,11 +94,11 @@ Drafts only — nothing is sent automatically.
 
 1. Sky Volleyball Club
 To: info@skyvolleyballclub.ca
-Subject: Same building, opposite seasons
+Subject: Your neighbours two doors down at 5000 Silver Star
 
 Hi Sky Volleyball Club team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're in unit 204 at 5000 Silver Star Road and I'd never have found you through any of the usual searches, which is a bit absurd given how close we are. September is when your season spins up — tryouts, teams forming, and a parent list that suddenly needs fundraising ideas. That's the part I'd like to talk about: we run tournaments and private bookings that work as club fundraisers, quoted by the group, and a bay night is an easy sell to volleyball parents who are already driving to the same building. Would that be worth ten minutes before your season gets busy?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're in unit 204 at 5000 Silver Star Road and I'd never have found you through any of the usual searches, which is a bit absurd given how close we are. I don't know your season or your calendar, so I won't pretend to — but if fundraising is ever something the club is thinking about, we run tournaments and private bookings that work well as club fundraisers, quoted by the group. Worth ten minutes to see if that's useful to you at all?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -91,11 +106,11 @@ https://backninegolf.ca/local/vernonbc/
 
 2. Elements Bus Repair and Parts Ltd
 To: service@elementsbusrepair.com
-Subject: September is your worst month for an evening off
+Subject: A staff night whenever your week actually ends
 
 Hi Elements Bus Repair team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're a few doors from us at 5000 Silver Star Road, and September is the month every bus in the valley needs to be running on the same morning — which makes it the month your crew least gets a normal evening. We're open 24 hours, so a staff night for a shop crew doesn't have to happen at seven on a Friday; it can happen whenever your week actually ends. Those are quoted by the group. We'd love to talk about featuring Elements Bus Repair as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a conversation once the fall rush settles?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're a few doors from us at 5000 Silver Star Road. We're open 24 hours, so a staff night for a shop crew doesn't have to land at seven on a Friday — it can happen whenever your week actually ends, whatever that looks like on your schedule. Those are quoted by the group. We'd love to talk about featuring Elements Bus Repair as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a conversation?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -107,7 +122,7 @@ Subject: We need league shirts. You're two doors down.
 
 Hi Alpha Graphicsworks team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're in unit 202 at 5000 Silver Star Road doing signs, decals and screenprinting, and our winter league season starts in a few weeks — which means shirts, bay decals and a perpetual board, and I'd rather quote that two doors down than out of town. Going the other way, the businesses ordering signage from you in the fall are the same ones booking a room for their December staff night, and that referral is worth setting up properly rather than leaving to chance. Can I get a quote started?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're in unit 202 at 5000 Silver Star Road doing signs, decals and screenprinting, and our winter league starts in a few weeks — which means shirts, bay decals and a perpetual board, and I'd rather quote that two doors down than out of town. Going the other way, some of the businesses ordering signage from you are likely the same ones who book a room for a staff night at some point, and that referral seems worth setting up properly rather than leaving to chance. Can I get a quote started?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -115,11 +130,11 @@ https://backninegolf.ca/local/vernonbc/
 
 4. National Seating & Mobility
 To: infover@nsm-seating.com
-Subject: Your Vernon branch has neighbours it's never met
+Subject: Thirty seconds from your Vernon branch
 
 Hi National Seating & Mobility Vernon team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Your branch is in unit 103 at 5000 Silver Star Road, which puts your team about thirty seconds from our door and, as far as I can tell, none of the businesses in that building have ever actually met. September is when everyone's routine restarts, so it seemed a reasonable moment to introduce myself. We run staff evenings and private bookings for teams across the valley, quoted by the group, and being open around the clock means a service team can come in after the last install of the day rather than rushing out at five. Happy to send over how they work if that's of interest?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Your branch is in unit 103 at 5000 Silver Star Road, which puts your team about thirty seconds from our door — close enough that it seemed worth introducing myself. We run staff evenings and private bookings for teams across the valley, quoted by the group, and being open around the clock means a service team can come in whenever the day actually ends rather than rushing to make it somewhere by five. Happy to send over how they work if that's of interest?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -127,11 +142,11 @@ https://backninegolf.ca/local/vernonbc/
 
 5. The HiFi Attic
 To: info@hifiattic.ca
-Subject: The people building a media room in October
+Subject: The overlap between your customers and a simulator buyer
 
 Hi The HiFi Attic team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 30th Avenue doing hi-fi and home theatre across the Okanagan, and September is when that phone starts ringing again — nobody plans a media room in July. Here's the overlap worth talking about: the person spending real money on a home theatre before winter is very often the same person pricing a simulator for their basement, and they walk into your shop first. We'd love to talk about featuring The HiFi Attic as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a conversation about pointing customers both directions?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 30th Avenue doing hi-fi and home theatre across the Okanagan. Here's the overlap worth talking about: the kind of person spending real money on a home theatre is often the same kind of person who'd consider a simulator for their basement, and they're more likely to walk into your shop first than ours. We'd love to talk about featuring The HiFi Attic as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a conversation about pointing customers both directions?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -139,11 +154,11 @@ https://backninegolf.ca/local/vernonbc/
 
 6. Zelaney Farms
 To: info@zelaneyfarms.ca
-Subject: Your season ends in October. Ours starts.
+Subject: Twenty acres in the Coldstream Valley, ten minutes from our door
 
 Hi Zelaney Farms team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You've been farming twenty acres in the Coldstream Valley since 1987, running the farm gate store and the market stall, which means right now you're in the hardest six weeks of your year and then it simply stops. That gap is what I'm writing about. Our season runs the other way round — we're busiest from the moment yours ends — and a crew that has just finished harvest is exactly the group a private booking suits, quoted by the group, at whatever hour a farm day actually finishes. Worth a conversation once the last of it is in?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You've been farming twenty acres in the Coldstream Valley since 1987, running the farm gate store and the market stall. I don't know your calendar well enough to guess at your slow season, so I'll just ask directly: whenever things do ease up for you and your crew, a private booking is quoted by the group and we're open at whatever hour actually suits a farm schedule. Worth a conversation whenever the timing works for you?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -155,7 +170,7 @@ Subject: The sign people see before they find the door
 
 Hi Signs by Elephant team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on Okanagan Avenue doing illuminated storefronts and CNC signage, and we're a 24-hour business on an industrial block where the sign is doing most of the work after dark — heading into the shortest days of the year, that matters more than it does in June. I'd want a quote for exterior signage. And the trades and retailers ordering from you are the same crews that lose billable days once winter sets in and spend those days somewhere indoors, which is the conversation going the other way. Worth putting a quote together?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on Okanagan Avenue doing illuminated storefronts and CNC signage, and we're a 24-hour business on an industrial block where the sign does most of the work after dark. I'd want a quote for exterior signage. And separately — some of the trades and retailers ordering signage from you are probably the kind of crews who end up with slow indoor days over the winter, which is a conversation going the other way if that's of interest. Worth putting a quote together?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -163,11 +178,11 @@ https://backninegolf.ca/local/vernonbc/
 
 8. Cherkowski Marsden LLP
 To: PHONE 250-308-0338
-Subject: Client events start again once summer ends
+Subject: A different room for a client evening
 
 Hi Cherkowski Marsden team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 29th Street doing real estate, wills and business law, which means your client list is largely people who have just bought, sold or built something in this valley. Firms tend to put client events back on the calendar once September arrives and everyone is reachable again, and a bay evening handles a group of a dozen better than a dinner does — nobody is stuck talking to one person all night. Those are quoted by the group, and staff evenings the same. Would an early-autumn conversation about that be useful?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 29th Street doing real estate, wills and business law. If a client evening or a staff night is ever something you're considering, a bay evening handles a group of a dozen better than a dinner does — nobody is stuck talking to one person all night. Those are quoted by the group. Would that be worth a conversation, whenever the timing suits you?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -175,11 +190,11 @@ https://backninegolf.ca/local/vernonbc/
 
 9. Beyond Beauty Medi Spa
 To: PHONE 250-260-1500
-Subject: Corporate gifting season starts in about six weeks
+Subject: Something better than another bottle of wine
 
 Hi Beyond Beauty Medi Spa team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're a medi-spa with a clientele that spends properly on itself, and from October onward a good share of Vernon's businesses start looking for client and staff gifts that aren't another bottle of wine. Yours is one of the few things in town that genuinely works as that gift, and so is a block of bay time — which is why pairing them is worth a conversation rather than each of us selling separately into the same list. Would you be open to talking that through before the gifting season lands?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're a medi-spa with a clientele that spends properly on itself. Vernon businesses do a fair amount of client and staff gifting later in the year, and yours is one of the few things in town that genuinely works as that gift — so is a block of bay time — which is why pairing the two seems worth a conversation rather than each of us selling separately into the same list. Would you be open to talking that through?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -199,11 +214,11 @@ https://backninegolf.ca/local/vernonbc/
 
 11. Fisher's Home Hardware
 To: PHONE 250-542-4321
-Subject: Your contractor customers are about to lose their afternoons
+Subject: A trade rate for the crews at your counter
 
 Hi Fisher's Home Hardware team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're the independent hardware store on Coldstream Avenue, which means your counter sees the same trades every morning — and from October those crews start losing afternoons to weather and looking for somewhere to put them. A trade rate for your account holders is something you could hand across that counter, and your own staff evenings are quoted by the group. We'd love to talk about featuring Fisher's Home Hardware as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Open to talking it through?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're the independent hardware store on Coldstream Avenue, and trade crews generally see more rained-out or weather-shortened afternoons as the year goes on. A trade rate for your account holders is something you could hand across the counter for exactly those afternoons, and your own staff evenings are quoted by the group. We'd love to talk about featuring Fisher's Home Hardware as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Open to talking it through?
 
 https://backninegolf.ca/local/vernonbc/
 
@@ -215,6 +230,6 @@ Subject: Ten minutes from Coldstream, open when the weather isn't
 
 Hi Meier's Building Products team,
 
-My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You supply building products out of Kalamalka Road in Coldstream, ten minutes from our door, and your account holders are framing and finishing crews heading into the part of the year when a rained-out day costs them a day's billing. A trade rate you can offer those accounts gives them somewhere to put that afternoon, and it costs you nothing to hand over. Your own crew evenings are quoted by the group, and we're open at whatever hour a yard actually finishes. Worth a short conversation before winter?
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You supply building products out of Kalamalka Road in Coldstream, ten minutes from our door. If your account holders are the kind of framing and finishing crews who lose a billable afternoon to weather now and then, a trade rate you can offer them is something to put those afternoons toward, and it costs you nothing to hand over. Your own crew evenings are quoted by the group, and we're open at whatever hour a yard actually finishes. Worth a short conversation?
 
 https://backninegolf.ca/local/vernonbc/

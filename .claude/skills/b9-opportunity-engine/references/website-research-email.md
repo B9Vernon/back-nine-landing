@@ -113,6 +113,32 @@ research depth, tone, and quality. These rules are absolute.
    (see `partnership-angle-matcher.md`) — one angle, not a menu.
 5. Write one concise email: subject + body.
 
+## Never assert the recipient's own calendar (locked, run 23)
+
+Run 23's first draft told a volleyball club its tryout season was starting,
+told a bus-repair shop which month its crews were busiest, told a farm it was
+in its hardest six weeks, and told a stereo shop when its phone starts
+ringing — none of it verified, all of it presented as fact. This is exactly
+what `trigger-timing-monitor.md` already prohibits ("Never infer an event, a
+date, an anniversary or a milestone... Do not manufacture urgency") but the
+rule lived in a file the drafting step wasn't reading against. It is now
+locked here, at the point where the email actually gets written.
+
+- A dated, sourced trigger (an event, an anniversary, a published date) may be
+  stated as fact — that's what module D / `trigger-timing-monitor.md` verifies.
+- Anything about the RECIPIENT's own internal calendar, busy season, sales
+  cycle, or schedule that was not independently confirmed is a guess. Either
+  drop it, or turn it into an explicit question/conditional ("if X is ever
+  something you're planning...", "whenever your slow season lands...").
+  Never write it as a statement of fact about a business you found in a
+  tenant list or directory and have not otherwise verified.
+- A general, already-documented seasonal pattern for the region (the Vernon
+  shape in `trigger-timing-monitor.md` — outdoor trades slowing in fall, for
+  example) may be referenced as a general trend. It may not be presented as
+  something true of the specific recipient unless verified for them.
+- The calendar date itself (what month it currently is) is always fine to
+  reference — that's not a claim about anyone's business.
+
 ## Output format (exact, per business)
 
 Emails only — no research metadata. Do NOT include category, location,

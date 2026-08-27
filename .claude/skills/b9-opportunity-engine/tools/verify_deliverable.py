@@ -167,6 +167,26 @@ def main():
     r.check(not bad, 'no TV wording that reads as a free giveaway',
             '; '.join(bad[:3]))
 
+    # --- unverified claims about the RECIPIENT's own calendar (run 23) --
+    # Run 23 shipped a first draft that told a volleyball club its tryout
+    # season was starting, a bus-repair shop which month it was busiest, and
+    # a farm it was in its hardest six weeks — none of it verified, all of
+    # it stated as fact. This is a heuristic, not a hard gate: "your season",
+    # "your busiest", "you're in the middle of" and similar constructions are
+    # usually a guess dressed as a fact and deserve a human look, but a
+    # legitimately sourced, dated trigger can use the same words. Warn, don't
+    # fail — see the locked rule in website-research-email.md for what's
+    # actually required (drop the claim, hedge it, or verify it first).
+    calendar_claim = re.findall(
+        r"your (?:season|busiest|slowest|slow season|busy season)\b|"
+        r"you'?re (?:in the middle of|heading into|about to)\b|"
+        r"which means (?:right now )?you'?re\b", body_text, re.I)
+    r.warn(not calendar_claim,
+           "no unhedged claim about the recipient's own calendar",
+           f'{len(calendar_claim)} found — eyeball each one: is it a sourced,'
+           f' dated trigger, or a guess? Example: {calendar_claim[0]!r}'
+           if calendar_claim else '')
+
     # --- forbidden signature --------------------------------------------
     sig = re.findall(r'Best regards|Sincerely|Kind regards|Cheers,\s*\nNeil', text)
     r.check(not sig, 'no typed sign-off block', '; '.join(sig[:3]))
