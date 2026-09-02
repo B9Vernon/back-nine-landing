@@ -1,0 +1,127 @@
+B9 LOCAL EVENT CAPTURE - AUGUST 2026
+NO REPEATS: excludes all events and recipients from the previous run
+(Crankworx, BC Day, Beer & Cider Fest, Savour the Sun, BC Minor Baseball,
+and the seven businesses already contacted for those).
+
+
+PROSPECT 001
+
+EVENT: Downtown Sounds! free concert series - Civic Park, Thursday evenings through August, 6:00-7:30pm
+CAMPAIGN ANGLE: The concerts end at 7:30 - give downtown crowds somewhere to carry the evening on instead of heading straight home.
+
+NAME: Keelan Murtagh, Downtown Vernon Association
+EMAIL: keelan@downtownvernon.com
+EMAIL SUBJECT: Somewhere for the Downtown Sounds crowd to go after 7:30
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, the indoor golf lounge here in Vernon, and I've been watching the Downtown Sounds crowds build at Civic Park on Thursday evenings this summer.
+
+One thing I noticed is that the music wraps at 7:30, which is early for a night out. People are already downtown, already in a good mood, and then it just ends. We're set up well for that gap - a group can walk in after the show and keep the evening going indoors, which also works on the nights the air quality is rough.
+
+If it's useful for the remaining August dates, I'd be happy to work out something we could cross-promote, or just have Back Nine on the list of places you point people to when the music stops.
+
+Would you be open to a quick conversation about something like this?
+
+
+PROSPECT 002
+
+EVENT: Wildfire smoke season - Vernon (the July 23 Downtown Sounds concert was cancelled for poor air quality)
+CAMPAIGN ANGLE: Be the indoor backup when smoke or heat takes outdoor plans off the table for guests.
+
+NAME: Prestige Vernon Lodge and Conference Centre
+EMAIL: VernonLodge@PrestigeHotels.ca
+EMAIL SUBJECT: An indoor option for guests when the smoke rolls in
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, an indoor golf lounge here in Vernon, and I'm reaching out because of how this summer has been going - the Downtown Sounds concert got cancelled outright on July 23 for air quality, and that's the kind of day where your front desk starts getting asked what else there is to do.
+
+Guests book Vernon in August for the lake and the patios. When smoke or heat takes that away for a few days, there isn't much indoors to send them to. We're air-conditioned, indoors, and work for a couple or a whole family, so it's a straightforward answer to give someone whose day just got rearranged.
+
+I'd be glad to set up {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for your guests so it's an easy thing for your team to hand out rather than something you have to manage.
+
+Would you be open to a quick conversation about something like this?
+
+
+PROSPECT 003
+
+EVENT: Inaugural Okanagan Open pickleball tournament - Marshall Field, Oct 15-18, with $10,000 in prize money; registration opens Aug 11
+CAMPAIGN ANGLE: Sponsorship and a player social night, while the tournament is still being built in August.
+
+NAME: Vernon Pickleball Association
+EMAIL: vernonpickleball@gmail.com
+EMAIL SUBJECT: Back Nine and the first Okanagan Open
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, the indoor golf lounge in Vernon. I saw the Okanagan Open is running at Marshall Field in October with $10,000 on the line, and that registration opens on the 11th - a first-year tournament of that size is a real thing to pull off.
+
+I'm reaching out now rather than in October because the pieces that matter get decided while you're still building it. There are a couple of ways we could be useful: prize or division sponsorship, or hosting a player social one evening of the tournament, which gives out-of-town players somewhere to go once the courts close.
+
+Happy to look at whichever is actually helpful to you rather than pitching you a package.
+
+Would you be open to a quick conversation about something like this?
+
+
+PROSPECT 004
+
+EVENT: 125th Interior Provincial Exhibition & Stampede - Armstrong, Sept 2-6 (visitors and bookings build through late August)
+CAMPAIGN ANGLE: Give IPE visitors staying in the Vernon area an indoor activity around the fair days.
+
+NAME: Interior Provincial Exhibition & Stampede
+EMAIL: info@armstrongipe.com
+EMAIL SUBJECT: An indoor option for IPE visitors coming through Vernon
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, an indoor golf lounge in Vernon, about twenty minutes down the road from the fairgrounds. With the 125th IPE running September 2-6, I'd guess a good share of your visitors and exhibitors end up staying in Vernon rather than in Armstrong itself.
+
+Fair days are long and mostly outdoors, and families travelling in for several days usually want at least one thing that isn't more sun and more walking. We're an easy indoor stop for an evening, and it works for a mixed group of ages.
+
+If it's useful, I'd be glad to put together something for visitors or exhibitors that you could include in whatever you send out ahead of the fair.
+
+Would you be open to a quick conversation about something like this?
+
+
+PROSPECT 005
+
+EVENT: SilverStar summer village programming - free Saturday Music Series and a late-August Vaz Art paint night
+CAMPAIGN ANGLE: Offer guests a premium Vernon activity when they want something different off the hill.
+
+NAME: Silver Star Stays
+CONTACT FORM: https://silverstarstays.com/contact
+EMAIL SUBJECT: An off-mountain option for your August guests
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, a premium indoor golf lounge down in Vernon. I know your guests have plenty to fill a Saturday with the village music series running, but the rest of an August stay is usually a lot more open.
+
+Most of your bookings are multi-night, and by day two or three people are looking for something that isn't on the mountain. We're a short drive down and work well for a family or a group that wants an evening indoors, particularly on the smoky days we've been getting this summer.
+
+I'd be glad to set up {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for your guests if that's something worth having in your check-in information.
+
+Would you be open to a quick conversation about something like this?
+
+
+PROSPECT 006
+
+EVENT: Late-August visitor traffic and IPE overflow bookings in Vernon
+CAMPAIGN ANGLE: Give guests an easy indoor activity during the last stretch of summer.
+
+NAME: Paradise Lodge (Econo Lodge Vernon)
+EMAIL: econolodge.vernon@gmail.com
+EMAIL SUBJECT: An easy activity to point your late-August guests to
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, an indoor golf lounge here in Vernon. Late August tends to bring a different mix of guests through - people stretching the last of summer, and some travelling through for the IPE in Armstrong the first week of September.
+
+Those guests usually have an evening or a smoky afternoon with nothing planned, and there isn't much indoors in Vernon to point them at. We're a simple answer for that - climate-controlled, good for families or a couple, and close by.
+
+I'd be glad to set up {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for your guests so your front desk has something concrete to offer.
+
+Would you be open to a quick conversation about something like this?
+
+
+ACTION PLAN - SMOKE AND HEAT DAYS (no email required)
+
+This one is better run through channels Back Nine already controls than through
+cold outreach. When air quality drops or a heat warning lands:
+
+- Post to social and Google Business Profile the same morning, not the day after
+- Run it on the in-facility TV screens
+- Send it to the existing customer email list
+- Send a short note to accommodation partners once they are on board, since
+  their front desks field the question first
+
+Verified basis for this angle: the Downtown Sounds concert on July 23, 2026 was
+cancelled due to wildfire smoke air quality.
