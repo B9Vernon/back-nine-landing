@@ -172,5 +172,8 @@ _(none yet — record stripped tags, width limits, style quirks here)_
   Worth remembering: the committed pages ARE the asset backup.
 - Outcome / Vernon's feedback: pending.
 - Keep next time: warm-dark premium look reads expensive; format explainers help for anything but stroke play.
-- Change next time: no real 2-player/partner action photography yet — the social block reuses the couples/lounge
-  photo. Worth shooting or generating a genuine doubles-in-a-bay image.
+- Change next time: no real 2-player/partner action photography yet. Worth shooting or generating a genuine
+  doubles-in-a-bay image.
+- Vernon's feedback (2026-08-24): REMOVED the couples/lounge photo (four people on the lounge couches) from the
+  partner block. The section now runs as a centred text beat between the image story and the gold prize block —
+  reads clean, keep it that way. Treat that photo as not-for-reuse on event pages unless Vernon asks for it.

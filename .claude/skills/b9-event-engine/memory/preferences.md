@@ -53,3 +53,4 @@ dislike, or correction. These override defaults in the references.
   and photos — not visual variants of one event (clarified 2026-07-11).
 - Highlight/feature cards must be stacked blocks, never `display:flex` — flex cards
   stretched on phones in Vernon's portal (fixed permanently in template, 2026-07-11).
+- Do not use the couples/lounge photo (four people seated on the lounge couches) on event pages — Vernon removed it from THE LONG GAME. Ask before reusing it.
