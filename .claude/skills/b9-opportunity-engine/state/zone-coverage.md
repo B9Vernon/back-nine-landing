@@ -36,9 +36,9 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | Swan Lake / Old Kamloops Rd corridor | SWEPT | 2026-08-16 | 4 | campground, market, Castle hotel, Bright Angel |
 | Downtown — 30th Ave core | PARTIAL | 2026-08-16 | 6 | DVA directory by category; storefronts not walked |
 | Downtown — 29th/31st/32nd St cross-blocks | UNSWEPT | — | — | |
-| **Industrial park — 29th-31st St, 43rd-45th Ave** | **UNSWEPT** | — | — | **Back Nine sits inside this zone. Closest ring, least worked.** |
-| 27th Street corridor (Hwy 97) | UNSWEPT | — | — | main commercial spine |
-| 32nd Street corridor | UNSWEPT | — | — | main commercial spine |
+| Industrial park — 29th-31st St, 43rd-45th Ave | PARTIAL | 2026-10-13 | 3 | Bee's Knees (43rd), Silvercrest + Crescent Falls (45th). 3001 43rd Ave is multi-tenant (NAPA, Bushpro) — Bushpro has no findable contact. Many units still unnamed. |
+| 27th Street corridor (Hwy 97) | PARTIAL | 2026-10-13 | 2 | Chamber listings only: 3% Realty, Elevated (27 Ave). KSO, Martin Law, RE/MAX already logged |
+| 32nd Street corridor | PARTIAL | 2026-10-13 | 1 | Strativity (3205 32 St, multi-tenant co-working). Western Financial at 4400 already logged |
 | 43rd / 48th Ave + Anderson Way | PARTIAL | — | — | 3 addresses in ledger, never swept |
 | Village Green Centre + 27th St north | UNSWEPT | — | — | |
 | Polson Place / Hwy 6 East | PARTIAL | 2026-08-16 | 0 | mall tenants are national chains; low yield |
@@ -77,5 +77,17 @@ Directories that **enumerate** beat directories that **rank**:
 - Geo-indexed directories: `vernon-bc.canada-bd.com/establishment/?page=N`,
   `vernon.infoisinfo-ca.com`, `okanagan-local.ca`, `n49.com`
 
+- **City of Vernon business licence register** —
+  `vernon.ca/business/business-licences-permits/search` — about 3,276
+  licensed businesses, searchable by street address. Found run 24. This is
+  the closest thing to a complete street-by-street list of the city; WebFetch
+  cannot read it from this session, so it needs WebSearch-indexed pages or a
+  human with a browser. Licensing: 250-550-3634.
+
 Run 23 harvested 74 names this way and 33 were new — a 55% duplicate rate,
 against run 20's 66% on a sample less than half the size.
+
+Run 24 (Christmas-party targets, 2026-10-13): 62 harvested across the Chamber
+category pages, 27th/32nd St and the industrial park; 34 new; 10 cleared the
+65 fit floor. Every one of the 10 publishes a phone number and no email —
+consistent with the log-wide ~26% email rate.

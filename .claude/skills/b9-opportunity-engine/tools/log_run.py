@@ -100,7 +100,8 @@ CATEGORY_HINTS = [
                                r'\bmechanical\b|refrigerat'),
     ('Trades — roofing', r'\broofing|roofer'),
     ('Trades — exteriors', r'\bsiding|gutter|eavestrough|\bexteriors?\b|'
-                           r'soffit|fascia|stucco'),
+                           r'soffit|fascia|stucco|building envelopes?|'
+                           r'cladding'),
     ('Trades — building', r'\bcontract|construct|renovat|builder|homes\b|carpent|cabinet'),
     ('Trades — excavation', r'\bexcavat|bobcat|paving|asphalt|gravel|concrete'),
     ('Awards/engraving', r'\bawards?\b|trophies|trophy|engrav'),
@@ -116,7 +117,8 @@ CATEGORY_HINTS = [
     ('Landscaping/garden', r'\blandscap|garden|nursery|greenhouse|orchard|farm\b'),
     ('Cleaning/janitorial', r'\bjanitor|cleaning|maid|window cleaning'),
     ('Moving/storage', r'\bmoving|storage|mini storage'),
-    ('Real estate', r'\brealt|re/max|century 21|property management|strata'),
+    ('Real estate', r'\brealt|re/max|century 21|property management|strata|'
+                    r'\bland corp'),
     ('Legal', r'\blaw\b|lawyer|llp\b|notary|legal'),
     ('Accounting/finance', r'\baccount|bookkeep|tax\b|mortgage|credit union|'
                           r'insurance|financial|\bwealth\b|investment'),
@@ -126,6 +128,8 @@ CATEGORY_HINTS = [
     ('Non-profit/society', r'\bsociety|foundation|association|rotary|legion|'
                            r'club\b|resource centre|friendship centre|chamber of commerce'),
     ('Events/catering', r'\bcatering|caterer|event|rentals\b|party'),
+    # Run 24: a co-working floor hosts small firms; it is not a consultancy.
+    ('Co-working/shared office', r'co-?work|\bworkspace\b|shared office'),
     # "IT\b" was matching the ordinary word "it" — every pattern here runs
     # case-insensitively, so a subject line ending "...one room they all fit
     # in" filed Aslan Services (a five-trade contractor) under Professional

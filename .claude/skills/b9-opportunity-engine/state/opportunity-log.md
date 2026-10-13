@@ -171,3 +171,24 @@ network egress proxy rather than HTTP 403 — different mechanism, same result.
 Confirmed blocked: vjhfoundation.org, vernonwintercarnival.com,
 okanaganedge.net. WebSearch remains the only working channel; every asserted
 date was cross-checked across two or more results.
+
+## Run 2026-10-13 — scope: Module 1, Christmas / year-end party targets (run 24)
+
+- [ACT NOW] Corporate holiday-party season — 10 new employers with staff teams
+  (#24-B9-Christmas-Parties.txt, all PHONE) + 8 larger logged employers with
+  emails, second contact (#24b-B9-Christmas-SecondContacts.txt: Tolko, Tekmar,
+  Nixon Wenger, RE/MAX Vernon, Community Futures NO, Keystone PM, KingFisher
+  Boats, Western Financial)
+- [PARTNERSHIP] Strativity Workspace (VantageOne bldg, 3205 32 St) — shared
+  holiday night for co-working members too small to hold their own party
+- [PARTNERSHIP] Community Futures North Okanagan — same shared-night idea for
+  the small businesses it works with
+- CORRECTION: Vernon Hiring & Education Expo "Oct 8 2026 CONFIRMED" (runs 21-22)
+  now returns conflicting dates (an Oct 26 listing, a 2024 Oct 3 edition).
+  Treat as unverified; not used this run.
+- [MONITOR] 42nd Business Excellence Awards finalists — not yet published in
+  search results as of 2026-10-13; 41st gala was Oct 23, 2025
+
+Big-employer note: Kal Tire, Okanagan Spring Brewery, AcuTruss, MNP, BDO and
+the dealerships are in the log with web forms or phone only, not emails, so
+they were not included in the second-contact file.
