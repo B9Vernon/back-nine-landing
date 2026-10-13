@@ -29,7 +29,10 @@ next step, so no warm lead stalls in the inbox.
      as `| declined [date]`. No counter-pitch.
 3. Every draft follows the locked email rules in
    `website-research-email.md`: personal greeting, no signature text, soft
-   close, website link + logo footer.
+   close, website link + logo footer. A reply is by definition a warm
+   contact: never re-introduce Neil ("My name is Neil", "I own Back Nine") —
+   see "Warm contacts — no self-introduction" in that file. Batches verify
+   with `tools/verify_deliverable.py FILE --warm`.
 4. Output in the chat (single reply) or, for batches, a TXT file
    `B9-Replies-[date].txt` in the standard layout.
 

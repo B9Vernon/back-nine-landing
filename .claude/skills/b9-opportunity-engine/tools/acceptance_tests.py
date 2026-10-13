@@ -251,7 +251,19 @@ def t10(say):
         assert r.returncode == 1
         assert 'no typed sign-off block' in r.stdout
         assert 'anti-spam' in r.stdout, r.stdout
-    say('exact sentence enforced; old form, signatures and anti-spam blocks fail')
+        # warm mode (run 25): the cold introduction is the defect
+        warm_bad = os.path.join(d, 'warm_bad.txt')
+        open(warm_bad, 'w', encoding='utf-8').write(
+            f"H\n\n---\n\n1. X Co\nTo: a@b.ca\nSubject: S\n\nHi Sam,\n\n"
+            f"My name is Neil. I own Back Nine Golf. Something?\n\n{LINK}\n")
+        r = run([sys.executable, os.path.join(HERE, 'verify_deliverable.py'),
+                 warm_bad, '--warm', '--log', os.devnull, '--ledger', os.devnull])
+        assert r.returncode == 1 and 'not re-introduced' in r.stdout, r.stdout
+        r = run([sys.executable, os.path.join(HERE, 'verify_deliverable.py'),
+                 warm_bad])
+        assert 'PASS  every email opens "Hi <recipient>," then' in r.stdout, r.stdout
+    say('exact sentence enforced; old form, signatures and anti-spam blocks '
+        'fail; warm mode rejects the cold introduction')
 
 
 # ---------------------------------------------------------------- 11

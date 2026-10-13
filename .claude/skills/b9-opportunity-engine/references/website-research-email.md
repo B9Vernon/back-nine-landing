@@ -21,6 +21,8 @@ research depth, tone, and quality. These rules are absolute.
      (`Hi Triumph Coffee team,` — drop "The", location suffixes, legal
      suffixes, store numbers).
    - Never a bare `Hi,` — the greeting must name who it's for.
+   - **Cold outreach only** — warm contacts (they replied, met Neil, or are a
+     partner) get no introduction at all; see "Warm contacts" below.
    - The introduction is the exact sentence `My name is Neil.` — not
      "I'm Neil", not "I'm Vernon", not "It's Vernon", not "We are Back
      Nine", not any other variation.
@@ -138,6 +140,38 @@ locked here, at the point where the email actually gets written.
   something true of the specific recipient unless verified for them.
 - The calendar date itself (what month it currently is) is always fine to
   reference — that's not a claim about anyone's business.
+
+## Warm contacts — no self-introduction (locked, run 25)
+
+The `My name is Neil.` introduction is for people who have never heard from
+Neil. Run 25 wrote year-end invitations to 32 businesses that had already
+replied to him — most of whom he had met — and opened every one with the
+cold introduction. Neil's ruling:
+
+> "I have already introduced myself to these people and most of them I have
+> met. Don't say I am Neil the owner of Back Nine. They already know that.
+> Re-word the emails' opening to a sentence that we already know each other
+> ... something more professional."
+
+So, for anyone who has replied to Neil, met him, or is an active partner:
+
+- **No introduction.** Not "My name is Neil.", not "I own / run Back Nine",
+  not "the owner of Back Nine". The greeting line stays (`Hi Lisa,`).
+- **Open the way you'd write to someone you know**, then pick up their own
+  reply: "I hope all is well at the studio. I'm following up on the quote I
+  sent on September 19..." / "Good to be back in touch, and congratulations
+  again to you and your brother." Professional, not chummy — no "hey,
+  remember me?"
+- **Only mention an in-person meeting that Gmail shows happened** (a "thanks
+  for coming by today" email, a confirmed time). Otherwise use a line that's
+  true either way: "since we last connected", "good to be back in touch".
+- **Personal details only if they shared them** (Colton's wedding, Travis's
+  procedure, Megan being unwell), and only warmly.
+- Vary the openings across a batch; every other locked rule still applies.
+
+Verify with `tools/verify_deliverable.py FILE --warm` — it fails any
+self-introduction and implies `--second-contact`. The cold rule above is
+unchanged for everyone else.
 
 ## Output format (exact, per business)
 

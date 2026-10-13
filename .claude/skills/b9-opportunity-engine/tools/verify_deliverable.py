@@ -93,7 +93,16 @@ def main():
                          'is not is the failure — it means the run drifted back '
                          'into cold prospecting. Every other locked check still '
                          'applies unchanged.')
+    ap.add_argument('--warm', action='store_true',
+                    help='every recipient already knows Neil — they replied to '
+                         'him, met him, or are an active partner (locked, run '
+                         '25). FLIPS the introduction rule: "My name is Neil." '
+                         'and any "I own / run Back Nine" self-introduction '
+                         'FAIL instead of being required. Implies '
+                         '--second-contact.')
     args = ap.parse_args()
+    if args.warm:
+        args.second_contact = True
 
     text = open(args.file, encoding='utf-8').read()
     r = Report()
@@ -130,15 +139,34 @@ def main():
     # V2 requires the exact introduction sentence "My name is Neil." after a
     # greeting line that names the recipient. The runs 1-14 inline form
     # ("Hey X team, I'm Neil.") is superseded and fails here on purpose.
-    greet = len(re.findall(r'^(?:Hi|Hey|Hello) [^\n,]+,\n\nMy name is Neil\.',
-                           text, re.M))
-    r.check(greet == n, 'every email opens "Hi <recipient>," then '
-                        '"My name is Neil."', f'{greet} of {n}')
     _bodies_early = '\n'.join(m.group(1) for m in re.finditer(
         r'^Subject: [^\n]+\n\n(.+?)\n\nhttps://', text, re.S | re.M))
-    intro = len(re.findall(r'\bMy name is Neil\.', _bodies_early))
-    r.check(intro == n, 'exact introduction sentence present once per email',
-            f'{intro} of {n}')
+    if args.warm:
+        # Run 25: Neil, on a batch to people who had already replied to him
+        # and mostly met him — "I have already introduced myself to these
+        # people... don't say I am Neil the owner of Back Nine, they already
+        # know that." A warm email opens the way you'd write to someone you
+        # know, so the cold-outreach introduction is the defect here.
+        greet = len(re.findall(r'^(?:Hi|Hey|Hello) [^\n,]+,\n\n(?!My name is)',
+                               text, re.M))
+        r.check(greet == n, 'every email opens "Hi <recipient>," (warm: '
+                            'no self-introduction)', f'{greet} of {n}')
+        selfintro = re.findall(
+            r"\bMy name is Neil\b|\bI(?:'m| am) Neil\b|"
+            r"\bI (?:own|run) Back Nine\b|\b(?:the )?owner of Back Nine\b",
+            _bodies_early)
+        r.check(not selfintro, 'warm contact: Neil is not re-introduced '
+                               '(locked, run 25)',
+                f'{len(selfintro)} found, e.g. {selfintro[0]!r}'
+                if selfintro else '')
+    else:
+        greet = len(re.findall(r'^(?:Hi|Hey|Hello) [^\n,]+,\n\nMy name is Neil\.',
+                               text, re.M))
+        r.check(greet == n, 'every email opens "Hi <recipient>," then '
+                            '"My name is Neil."', f'{greet} of {n}')
+        intro = len(re.findall(r'\bMy name is Neil\.', _bodies_early))
+        r.check(intro == n, 'exact introduction sentence present once per email',
+                f'{intro} of {n}')
     old = re.findall(r"I'm Neil\b", text)
     r.check(not old, 'no superseded "I\'m Neil" introduction',
             f'{len(old)} found — rewrite as "My name is Neil."')

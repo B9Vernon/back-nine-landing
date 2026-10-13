@@ -216,3 +216,7 @@ they were not included in the second-contact file.
   The run tag is now always the leading segment.
 - [OUT OF SCOPE] Quilakwa RV Park (Ash, "Let's Connect!") replied warmly but
   is not in the outreach log; flagged in the #25 header for Neil.
+- [REVISED] Neil: these people already know him, so the cold "My name is Neil.
+  I own Back Nine" opening was wrong. All 32 rewritten to open as a note to
+  someone he knows. Locked as "Warm contacts — no self-introduction" in
+  website-research-email.md; verifier gained `--warm`.

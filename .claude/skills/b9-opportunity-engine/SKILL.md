@@ -165,7 +165,9 @@ when a run comes in short). Then size the run with
 8. **Red team (J)** — `references/opportunity-red-team.md`. Nine questions,
    applied to every survivor. Reject and replace, don't ship with a caveat.
 9. **Email** — `references/website-research-email.md` (LOCKED: greeting line
-   naming the recipient, then the exact sentence **"My name is Neil."**, one
+   naming the recipient, then — for COLD outreach only — the exact sentence
+   **"My name is Neil."**; warm contacts who have replied or met Neil get NO
+   self-introduction and are verified with `--warm` (locked, run 25); one
    or two verified specifics, no typed signature, no anti-spam paragraph, no
    phone-call push, website link footer, drafts only).
 10. **Verify — before showing Neil anything** —
