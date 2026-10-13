@@ -192,3 +192,27 @@ date was cross-checked across two or more results.
 Big-employer note: Kal Tire, Okanagan Spring Brewery, AcuTruss, MNP, BDO and
 the dealerships are in the log with web forms or phone only, not emails, so
 they were not included in the second-contact file.
+
+## Run 2026-10-13 — scope: Gmail positive-reply sweep → year-end invitations (run 25)
+
+- [ACT NOW] 32 businesses that replied positively to Neil/Jenna's outreach
+  get a year-end party invitation built on their own reply
+  (#25-B9-Positive-Replies-YearEnd.txt, all email). Source: vernon@backninegolf.ca
+  Sent folder and the replies to it, cross-checked against the outreach log.
+- [ACT NOW] Diversity Dance — Lisa named "a Friday, end of November / start of
+  December" for ~16 (3 adults, older teens); quote sent Sept 19, no reply yet.
+  Entry #1 asks her to pick the Friday.
+- [ACT NOW] SilverStar Mountain Resort — Doug said in July that HR wanted to
+  talk staff offers "later in the fall" and Chris (events) wanted a winter
+  staff tourney. Entry #3.
+- [WARM — DO NOT PITCH] Vernon Vipers — Jenna mid-negotiation on a
+  team-building booking with Stacey (last message Oct 8). MNP — Christmas
+  party booked Dec 11. OK Village Ladies Night booked Dec 2.
+- [LOG] 33 rows now carry `| replied DATE | interested` or `| declined DATE`;
+  the ledger derives `reply_status` and sets `sent_status: confirmed` from
+  them — the first sends the engine can actually prove.
+- [FIX] migrate_ledger.py only split the note on `|` for duplicate rows, so a
+  follow-up marker became part of the run tag ("batch-200 | follow-up ...").
+  The run tag is now always the leading segment.
+- [OUT OF SCOPE] Quilakwa RV Park (Ash, "Let's Connect!") replied warmly but
+  is not in the outreach log; flagged in the #25 header for Neil.

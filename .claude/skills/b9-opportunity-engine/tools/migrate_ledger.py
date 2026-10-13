@@ -20,6 +20,7 @@ Usage:
 import argparse
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -38,14 +39,25 @@ SENT = {'emailed', 'replied', 'interested', 'not interested',
 
 def row_to_record(row):
     note = row.get('note', '')
-    # Rows carrying '| duplicate of "X" — do not contact again' were marked
-    # by hand across runs 12-14. The run tag is the leading segment.
+    # The run tag is always the leading segment of the note. Everything after
+    # it is a hand-appended marker: '| duplicate of "X" — do not contact
+    # again' (runs 12-14), '| follow-up DATE' (run 22 on), and from run 25
+    # '| replied DATE | interested' / '| declined DATE', read from Gmail.
+    # Before run 25 only duplicate rows were split, so a follow-up marker
+    # silently became part of the run tag ("batch-200 | follow-up ...").
     rejection = None
-    run = note
-    if 'duplicate of' in note:
-        run, _, rest = note.partition('|')
-        run = run.strip()
-        rejection = rest.strip() or 'duplicate'
+    run, _, rest = note.partition('|')
+    run, rest = run.strip(), rest.strip()
+    if 'duplicate of' in rest:
+        rejection = rest or 'duplicate'
+    replied = re.search(r'\breplied (\d{4}-\d\d-\d\d)', rest)
+    declined = re.search(r'\bdeclined (\d{4}-\d\d-\d\d)', rest)
+    reply_status = None
+    if declined:
+        reply_status = f'declined {declined.group(1)}'
+    elif replied:
+        word = re.search(r'\breplied [\d-]+ \| (\w[\w-]*)', rest)
+        reply_status = f'{word.group(1) if word else "replied"} {replied.group(1)}'
 
     status = row.get('status', '')
     rec = identity(row['name'], contact=row.get('contact', ''))
@@ -59,11 +71,14 @@ def row_to_record(row):
         'status': status,
         'draft_status': 'created' if status in DRAFTED else None,
         # Nothing has ever been confirmed sent; see dedup-status-memory.md.
-        'sent_status': 'confirmed' if status in SENT and status != 'email created' else None,
+        # A reply on file proves the email went out, whatever the status word.
+        'sent_status': ('confirmed' if (status in SENT and status != 'email created')
+                        or replied else None),
         'source_urls': [],
         'date_checked': row.get('date') or None,
         'run': run or None,
         'rejection_reason': rejection,
+        'reply_status': reply_status,
     })
     return rec
 

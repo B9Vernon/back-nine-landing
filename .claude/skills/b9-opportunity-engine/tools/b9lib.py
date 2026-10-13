@@ -410,7 +410,7 @@ LEDGER_FIELDS = (
     'domain', 'email', 'email_domain', 'phone', 'address_key', 'address_unit',
     'category', 'community', 'ring', 'distance_km',
     'score', 'opportunity_type', 'status', 'draft_status', 'sent_status',
-    'source_urls', 'date_checked', 'run', 'rejection_reason',
+    'source_urls', 'date_checked', 'run', 'rejection_reason', 'reply_status',
 )
 
 
