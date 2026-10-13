@@ -1,0 +1,118 @@
+PROSPECT 001
+
+EVENT: BC Minor Baseball 15U AAA Provincial Championships — Vernon, July 17-20, 2026
+CAMPAIGN ANGLE: Give visiting teams and families something fun to do between games or after the tournament day wraps up.
+
+NAME: Vernon Baseball Association
+EMAIL: info@vernonbaseball.com
+EMAIL SUBJECT: An indoor golf option for 15U AAA Provincial families this week
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, the indoor golf simulator lounge here in Vernon, and I saw the 15U AAA Provincial Championship is running at your diamonds this week.
+
+Tournament weekends mean a lot of downtime for players and parents between games, especially on a hot afternoon or once the day's schedule wraps up. We can put together a simple team night or a family activity block for visiting groups — climate-controlled, easy to book, and something different than sitting around a hotel room.
+
+If it's useful, I can also set up {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for players and families you're already in touch with, so it's an easy thing to mention rather than something you have to manage.
+
+Would you be open to a quick conversation about something like this?
+
+PROSPECT 002
+
+EVENT: BC Minor Baseball 15U AAA Provincial Championships — Vernon, July 17-20, 2026
+CAMPAIGN ANGLE: Give guests an easy local activity while they're in town for the tournament.
+
+NAME: Courtyard Inn Vernon
+EMAIL: info@courtyardinnvernon.ca
+EMAIL SUBJECT: An activity option for baseball families staying with you this week
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, an indoor golf simulator lounge here in Vernon, and I noticed the 15U AAA Provincial Championship is on this week, which likely means some full rooms for you with visiting teams and families.
+
+Tournament stays come with a lot of gaps in the schedule, and not every guest wants another restaurant night or a screen in the room. We're an easy option for something different — golf simulators, a lounge setting, good for a parent group or a family looking to fill an evening.
+
+If it helps, I'd be glad to put together {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for your guests so it's something your front desk can point people to without any extra work on your end.
+
+Would you be open to a quick conversation about something like this?
+
+PROSPECT 003
+
+EVENT: Crankworx SilverStar — August 6-9, 2026
+CAMPAIGN ANGLE: Offer guests a premium off-mountain activity in Vernon during the festival weekend.
+
+NAME: Destination Silver Star
+EMAIL: info@destinationsilverstar.com
+EMAIL SUBJECT: An off-mountain activity for your Crankworx guests, Aug 6-9
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, a premium indoor golf lounge down in Vernon, and I know Crankworx is bringing a big four-day crowd up to SilverStar the weekend of August 6-9.
+
+A lot of your guests will be spectators and families rather than riders, and after a day of watching the Pump Track or Slopestyle in the heat, an evening off the mountain in Vernon is an easy sell — especially for anyone who wants something calmer than another day in the village. We're a short drive down, climate-controlled, and a good fit for a group that's had enough sun for one day.
+
+I'd be glad to put together {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for your Crankworx-week guests if that's useful to have on hand.
+
+Would you be open to a quick conversation about something like this?
+
+PROSPECT 004
+
+EVENT: Crankworx SilverStar — August 6-9, 2026
+CAMPAIGN ANGLE: Offer guests a premium off-mountain activity in Vernon during the festival weekend.
+
+NAME: Silver Star Motel
+EMAIL: bookings@silverstarmotel.com
+EMAIL SUBJECT: A Vernon activity idea for your Crankworx week guests
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, an indoor golf lounge in Vernon, and with Crankworx running at SilverStar August 6-9, I'd guess you're fully booked with festival visitors that week.
+
+Between event sessions, a lot of guests end up looking for something to do off the mountain, especially non-riders in the group. We're a straightforward option — golf simulators, a relaxed lounge, easy to book for a couple or a family heading down to Vernon for the evening.
+
+Happy to set up {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for your guests that week if it's helpful to mention at check-in.
+
+Would you be open to a quick conversation about something like this?
+
+PROSPECT 005
+
+EVENT: BC Day Long Weekend — Monday, August 3, 2026
+CAMPAIGN ANGLE: Give long-weekend visitors an easy local activity while they're in Vernon.
+
+NAME: Tiki Village Inn
+EMAIL: info@tikivillagevernon.com
+EMAIL SUBJECT: An easy activity for your BC Day long weekend guests
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, an indoor golf lounge here in Vernon, and with BC Day long weekend coming up on August 3rd, Vernon tends to fill up with visitors looking for something to do beyond the lake.
+
+If the weather turns or a group's had enough sun for the day, we're an easy alternative close by — simulators, a lounge setting, good for couples, families, or a group of friends on a long weekend. It's the kind of thing that's nice to have on hand to suggest at the desk.
+
+I'd be glad to set up {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for your long weekend guests if that's useful.
+
+Would you be open to a quick conversation about something like this?
+
+PROSPECT 006
+
+EVENT: SilverStar Beer & Cider Fest (Sat, Aug 29) and Savour the Sun Summer Wine & Food Festival (mid-August, date to confirm on destinationsilverstar.com)
+CAMPAIGN ANGLE: Offer festival-weekend guests a daytime off-mountain activity before or after village events.
+
+NAME: Spirit Lodge at Silver Star
+EMAIL: admin@spiritlodgesilverstar.com
+EMAIL SUBJECT: An activity option for your late-August festival guests
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, a premium indoor golf lounge down in Vernon, and I know late August at SilverStar gets busy with the wine and food festival and the Beer & Cider Fest on the 29th.
+
+Festival days are usually built around a few hours in the village, which leaves a gap earlier in the day or on the drive down. We're an easy stop in Vernon for guests who want to fill that time with something different before heading back up the hill for the evening.
+
+I'd be glad to put together {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for your festival-weekend guests if that's useful to have on hand.
+
+Would you be open to a quick conversation about something like this?
+
+PROSPECT 007
+
+EVENT: SilverStar Beer & Cider Fest (Sat, Aug 29) and Savour the Sun Summer Wine & Food Festival (mid-August, date to confirm on destinationsilverstar.com)
+CAMPAIGN ANGLE: Offer festival-weekend guests a daytime off-mountain activity before or after village events.
+
+NAME: Vance Creek Hotel & Conference Centre
+EMAIL: info@skisilverstar.com
+EMAIL SUBJECT: A Vernon activity idea for your late-August festival guests
+EMAIL BODY:
+Hey, I'm Neil. I run Back Nine, an indoor golf lounge in Vernon, and with the wine and food festival and the Beer & Cider Fest both landing at SilverStar in late August, I'd imagine your rooms are filling up for that stretch.
+
+A lot of guests build their day around the village events but still have hours to fill before or after, especially on the drive down. We're a straightforward option in Vernon for a group that wants something different than another patio.
+
+I'd be glad to set up {{PREFERRED_GUEST_DISCOUNT_OR_BONUS}} for your guests that weekend if it's useful.
+
+Would you be open to a quick conversation about something like this?
