@@ -34,8 +34,8 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | Coldstream — Kalamalka Rd corridor | SWEPT | 2026-08-16 | 3 | Meier's, Coldstream Market, Kal Lake Store |
 | Coldstream Valley — rural/agricultural | SWEPT | 2026-08-16 | 2 | Zelaney Farms, Tony's Craft Cidery |
 | Swan Lake / Old Kamloops Rd corridor | SWEPT | 2026-08-16 | 4 | campground, market, Castle hotel, Bright Angel |
-| Downtown — 30th Ave core | PARTIAL | 2026-08-16 | 6 | DVA directory by category; storefronts not walked |
-| Downtown — 29th/31st/32nd St cross-blocks | UNSWEPT | — | — | |
+| Downtown — 30th Ave core | PARTIAL | 2026-10-15 | 6 + run 27 | DVA directory by category; storefronts not walked. Run 27 (year-end): 3005-3334 30th Ave offices (Direct Travel, Teach and Learn, Lake City Law, Compass Law, Sun Valley Dentistry, Bamboo Beach, Anytime Fitness). Most were July batch-200 drafts; Gmail decided warm vs cold. |
+| Downtown — 29th/31st/32nd St cross-blocks | PARTIAL | 2026-10-15 | 4 new | Run 27 worked the office blocks by directory, not on foot: 32nd Ave 2903-3401 (Lighthouse, Culos, Museum, NOYFSS, John Howard, Accent PM, Diamond Dental), 32nd St 2901-3205 (Coldwell Banker, Sproing, Urban Systems), 30th St 3201 (NexusBC), 28th/29th/27th Ave (CMHA, NOFC, Hamlets, Monashee Optometry, ILV, Okanagan Spring). Retail storefronts not walked. |
 | Industrial park — 29th-31st St, 43rd-45th Ave | SWEPT | 2026-10-15 | 14 | Run 26 walked 45th (2700-2900), 43rd (2700-3009), 44th (2800s) and 29th St (4500-4700). Emails found for 14; no email anywhere for Backyard Pleasures, CMQ, Mark IV, OBC, Bushpro. 3201 45 Ave itself: Rise Gymnastics (#10). |
 | 27th Street corridor (Hwy 97) | SWEPT | 2026-10-15 | 3 new | 3600-4900 block: dealerships (Hilltop, Dodge, Bannister GM, Watkin, Hyundai), dental/physio cluster at 4005-4412, World Health. Mostly already logged — run 26 confirmed which were actually emailed. |
 | 32nd Street corridor | SWEPT | 2026-10-15 | 2 new | 3900-4411: hotels (Sandman, Super 8 closed, Prestige), Vernon Square, insurance (Bracken, Johnston Meier), Interior Savings/United Way at 4301. |
@@ -44,7 +44,7 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | Polson Place / Hwy 6 East | PARTIAL | 2026-08-16 | 0 | mall tenants are national chains; low yield |
 | Fruit Union Plaza / Hwy 6 | UNSWEPT | — | — | |
 | 24th-25th St industrial/service | PARTIAL | 2026-10-15 | 2 new | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). |
-| 34th St / Alexis Park Drive | PARTIAL | 2026-10-15 | 1 new | 34th St 3008-4790 only: Pacific Inn, HIE, Color Room, Monarch, Vernon Physio. Alexis Park not walked. |
+| 34th St / Alexis Park Drive | PARTIAL | 2026-10-15 | 2 new | 34th St 3008-4790: Pacific Inn, HIE, Color Room, Monarch, Vernon Physio; run 27 added Flow Physio (3203 34 St). Alexis Park: only Venture Living (4240) so far. |
 | Waddington Drive | PARTIAL | — | — | 2 addresses in ledger |
 | Okanagan Landing Road | UNSWEPT | — | — | |
 | Bella Vista / Westside Rd | UNSWEPT | — | — | |

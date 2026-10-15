@@ -190,6 +190,34 @@ contacts with businesses he has already emailed, decide PER ENTRY:
   confirmed-sent entry that re-introduces Neil, and a first-contact entry
   that doesn't.
 
+## Year-end invitation wording (locked, run 27)
+
+Neil retired the run 24-26 closer ("If a Christmas or year-end night is on
+the list, it's quoted by the group. Worth a quick chat?"). He wanted the email
+to get to the point sooner and to sell the idea: "doing the party at a
+restaurant you only get to chat with a few people, but at B9 you get your own
+private bays and get to see everyone as well as be active or chill in the
+lounges." He also rejected "Can I send you a few dates and a price?" and asked
+for the direct question. The approved shape:
+
+- **Subject:** `Does a year-end party at Back Nine interest you?`
+- **Body order:** intro (cold only) or a warm opener on the earlier note,
+  then the question, word for word or close to it: "Does having your
+  Christmas or year-end party at Back Nine interest you?" The question comes
+  early, not at the end.
+- **Then the contrast,** tailored to the business: at a restaurant the crew
+  sits at separate tables and you leave having talked to a handful of people.
+  Here they get private bays together, everyone is in the same room, and people
+  can jump in and play or just hang out in the lounge.
+- **Then the 24/7 line,** tailored ("so it can start once the last patient's
+  gone", "after the gallery closes"). For shift workers, keep it conditional:
+  "if your people work shifts, ...".
+- **No closing ask.** No "dates and quotes", no "worth a chat?", no "could
+  you pass this on". The question already is the ask.
+- Every other locked rule still applies: nothing free (not even "whenever
+  they're free"), no food or bar, no season or calendar claims, no December
+  pressure, no typed signature.
+
 ## Output format (exact, per business)
 
 Emails only — no research metadata. Do NOT include category, location,

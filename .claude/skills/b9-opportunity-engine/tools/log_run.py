@@ -132,7 +132,11 @@ CATEGORY_HINTS = [
     ('Fitness', r'\bgym\b|fitness|crossfit|yoga|pilates'),
     ('Non-profit/society', r'\bsociety|foundation|association|rotary|legion|'
                            r'club\b|resource centre|friendship centre|chamber of commerce'),
-    ('Events/catering', r'\bcatering|caterer|event|rentals\b|party'),
+    # Run 27: a bare "party" matched Back Nine's own subject line ("Does a
+    # year-end party at Back Nine interest you?") and filed CMHA, TRUE and
+    # Urban Systems as caterers. Only a party BUSINESS counts now.
+    ('Events/catering', r'\bcatering|caterer|event|rentals\b|'
+                        r'party (?:rentals?|supplies|store)'),
     # Run 24: a co-working floor hosts small firms; it is not a consultancy.
     ('Co-working/shared office', r'co-?work|\bworkspace\b|shared office'),
     # "IT\b" was matching the ordinary word "it" — every pattern here runs

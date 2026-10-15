@@ -221,6 +221,31 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-15 — scope: year-end invitations, the next 50 out (downtown ring, run 27)
+
+- [ACT NOW] #27-B9-YearEnd-Ring2.txt — 50 emails, nearest first, from 43rd
+  to 46th Avenue, then downtown and the cross-blocks, then Pleasant Valley,
+  Meadowlark, the BX and Okanagan Landing. Neil picked new wording (example
+  #2): the subject is the question, and the body asks "Does having your
+  Christmas or year-end party at Back Nine interest you?", then gives the
+  restaurant-vs-private-bays contrast and the 24/7 line. No "quoted by the
+  group", no "dates and quotes", no closing ask.
+- [MIX] 29 already emailed in July (Gmail-confirmed, no reply), so no
+  introduction. 21 first contacts: 11 were logged before but never emailed,
+  and 10 are new.
+- [REPLY] H&L Glass (Stefan Schneider) replied to #26 on Oct 15 and is
+  interested: "I will give this some thought and reach out on getting a
+  quote." Logged on the run-2 row.
+- [FIT FLOOR] Rejected below 65 or held back: Silvester Notary, Furmanek,
+  27th St Florist, Kawakubo, Crave, Art Schmidt, Habitat Health, Benefitwest,
+  Solace, Just For You, Two Donkeys, Furniture Emporium, Accentz, Simmons
+  Law, Okanagan Wealth, ACNO, Olympia Cycle, Hugo's. Couldn't confirm a
+  Vernon presence: Peacock (Falkland), Beachcomber, Castanet. Status unclear:
+  Coldstream Meadows (court-ordered land sale), OK Bake House, Everton Ridge.
+- [TOOLS] log_run.py: "party" in Back Nine's own subject line filed four
+  rows as Events/catering. The hint now needs a party BUSINESS, and the four
+  rows are corrected.
+
 ## Run 2026-10-15 — scope: year-end invitations, 50 businesses outward from 3201 45 Ave (run 26)
 
 - [ACT NOW] #26-B9-YearEnd-Around-Back-Nine.txt — 50 emails, nearest first:
