@@ -199,6 +199,10 @@ FREE_MAIL = frozenset((
     'gmail.com', 'shaw.ca', 'telus.net', 'outlook.com', 'hotmail.com',
     'yahoo.ca', 'yahoo.com', 'icloud.com', 'live.ca', 'live.com',
     'protonmail.com', 'me.com', 'aol.com', 'msn.com',
+    # Legacy ISP mailboxes, still common on older Vernon businesses. Run 26
+    # found Cornerstone Dental (shawcable.com) flagged as a duplicate of an
+    # unrelated builders' supply that also used a Shaw mailbox.
+    'shawcable.com', 'shawbiz.ca', 'telusplanet.net', 'hotmail.ca',
 ))
 
 # Domains many genuinely separate decision-makers share. A municipal

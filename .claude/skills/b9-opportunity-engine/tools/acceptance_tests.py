@@ -262,8 +262,31 @@ def t10(say):
         r = run([sys.executable, os.path.join(HERE, 'verify_deliverable.py'),
                  warm_bad])
         assert 'PASS  every email opens "Hi <recipient>," then' in r.stdout, r.stdout
+        # mixed mode (run 26): the rule is decided per entry from the ledger
+        led = os.path.join(d, 'ledger.jsonl')
+        rec = identity('Oldfriend Widgets', contact='hi@oldfriend.example')
+        rec['sent_status'] = 'confirmed'
+        open(led, 'w', encoding='utf-8').write(json.dumps(rec) + '\n')
+        def mixed(body1, body2):
+            f = os.path.join(d, 'mixed.txt')
+            open(f, 'w', encoding='utf-8').write(
+                f"H\n\n---\n\n1. Oldfriend Widgets\nTo: hi@oldfriend.example\n"
+                f"Subject: S\n\nHi Sam,\n\n{body1}\n\n{LINK}\n\n---\n\n"
+                f"2. Brandnew Gadgets\nTo: hi@brandnew.example\nSubject: S\n\n"
+                f"Hi Brandnew Gadgets team,\n\n{body2}\n\n{LINK}\n")
+            return run([sys.executable, os.path.join(HERE, 'verify_deliverable.py'),
+                        f, '--mixed', '--ledger', led])
+        r = mixed('You may remember my note from July. Something?',
+                  'My name is Neil. Something?')
+        assert 'PASS  already-emailed businesses are not re-introduced' in r.stdout \
+            and 'PASS  first-contact entries open with' in r.stdout, r.stdout
+        r = mixed('My name is Neil. Something?', 'Something?')
+        assert r.returncode == 1 \
+            and 'FAIL  already-emailed businesses are not re-introduced' in r.stdout \
+            and 'FAIL  first-contact entries open with' in r.stdout, r.stdout
     say('exact sentence enforced; old form, signatures and anti-spam blocks '
-        'fail; warm mode rejects the cold introduction')
+        'fail; warm mode rejects the cold introduction; mixed mode decides '
+        'per entry')
 
 
 # ---------------------------------------------------------------- 11

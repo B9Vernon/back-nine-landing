@@ -51,6 +51,10 @@ def row_to_record(row):
     if 'duplicate of' in rest:
         rejection = rest or 'duplicate'
     replied = re.search(r'\breplied (\d{4}-\d\d-\d\d)', rest)
+    # Run 26: '| sent DATE (Gmail)' records a send confirmed in Neil's Sent
+    # folder with no reply yet. The log's status word is "email created" for
+    # every row, so this marker is the only proof an email actually went out.
+    sent_marker = re.search(r'\bsent (\d{4}-\d\d-\d\d)', rest)
     declined = re.search(r'\bdeclined (\d{4}-\d\d-\d\d)', rest)
     reply_status = None
     if declined:
@@ -73,7 +77,7 @@ def row_to_record(row):
         # Nothing has ever been confirmed sent; see dedup-status-memory.md.
         # A reply on file proves the email went out, whatever the status word.
         'sent_status': ('confirmed' if (status in SENT and status != 'email created')
-                        or replied else None),
+                        or replied or sent_marker else None),
         'source_urls': [],
         'date_checked': row.get('date') or None,
         'run': run or None,

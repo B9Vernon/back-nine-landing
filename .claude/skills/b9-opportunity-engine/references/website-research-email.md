@@ -173,6 +173,23 @@ Verify with `tools/verify_deliverable.py FILE --warm` — it fails any
 self-introduction and implies `--second-contact`. The cold rule above is
 unchanged for everyone else.
 
+**Mixed batches (run 26).** Neil: "If I have contacted them before then
+don't have the opening sentence saying who I am." When one file mixes first
+contacts with businesses he has already emailed, decide PER ENTRY:
+
+- "Contacted before" means an email Gmail's Sent folder shows going to that
+  business — not a log row. Most log rows are drafts ("email created") or
+  form/phone listings that were never emailed.
+- Record each confirmed send in the log as `| sent DATE (Gmail)` (or
+  `| replied DATE | ...`). The ledger turns that into
+  `sent_status: confirmed`.
+- No reply yet? Open on the earlier note itself ("You may remember my note
+  from July about...", "I wrote to you in July with..."), never "Hi again"
+  with nothing behind it. Met in person? Say where.
+- Verify with `tools/verify_deliverable.py FILE --mixed`: it fails a
+  confirmed-sent entry that re-introduces Neil, and a first-contact entry
+  that doesn't.
+
 ## Output format (exact, per business)
 
 Emails only — no research metadata. Do NOT include category, location,

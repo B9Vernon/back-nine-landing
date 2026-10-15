@@ -100,9 +100,22 @@ def main():
                          'and any "I own / run Back Nine" self-introduction '
                          'FAIL instead of being required. Implies '
                          '--second-contact.')
+    ap.add_argument('--mixed', action='store_true',
+                    help='a batch that mixes first contacts with businesses '
+                         'Neil has already emailed (run 26). Decides the '
+                         'introduction rule PER ENTRY from the ledger: a '
+                         'business with a confirmed send (a "sent DATE" or '
+                         '"replied DATE" marker in the log, read from Gmail) '
+                         'must NOT be re-introduced; every other entry must '
+                         'open with "My name is Neil.". Logged businesses are '
+                         'allowed here, so the cold-outreach overlap check is '
+                         'replaced by this per-entry check.')
     args = ap.parse_args()
     if args.warm:
         args.second_contact = True
+    if args.mixed and (args.warm or args.second_contact):
+        ap.error('--mixed decides warm/cold per entry; do not combine it '
+                 'with --warm or --second-contact')
 
     text = open(args.file, encoding='utf-8').read()
     r = Report()
@@ -141,7 +154,13 @@ def main():
     # ("Hey X team, I'm Neil.") is superseded and fails here on purpose.
     _bodies_early = '\n'.join(m.group(1) for m in re.finditer(
         r'^Subject: [^\n]+\n\n(.+?)\n\nhttps://', text, re.S | re.M))
-    if args.warm:
+    if args.mixed:
+        # Per-entry warm/cold decision happens after the ledger is loaded.
+        greet = len(re.findall(r'^(?:Hi|Hey|Hello) [^\n,]+,\n\n', text, re.M))
+        r.check(greet == n, 'every email opens "Hi <recipient>," (mixed: '
+                            'intro rule checked per entry below)',
+                f'{greet} of {n}')
+    elif args.warm:
         # Run 25: Neil, on a batch to people who had already replied to him
         # and mostly met him — "I have already introduced myself to these
         # people... don't say I am Neil the owner of Back Nine, they already
@@ -313,6 +332,7 @@ def main():
                 if rec.get(axis):
                     idx[axis].setdefault(rec[axis], rec)
         overlap = []
+        matched = {}
         for num, b in names:
             cand = identity(b, contact=tos_by_num.get(num, ''))
             pool = list(by_core.get(cand['core_key'], []))
@@ -323,8 +343,52 @@ def main():
                 why = duplicate_reason(cand, rec)
                 if why:
                     overlap.append((num, b, why))
+                    matched[num] = rec
                     break
-        if args.second_contact:
+        if args.mixed:
+            # Run 26: "If I have contacted them before then don't have the
+            # opening sentence saying who I am." The ledger knows who was
+            # actually emailed only where Gmail confirmed it, so that is the
+            # test — a logged row with no confirmed send is still a first
+            # email and keeps the introduction.
+            bodies_by_num = {}
+            for blk in text.split('\n---\n\n')[1:]:
+                m = re.match(r'(\d+)\.[ ].+?\n\n(?:Hi|Hey|Hello) [^\n,]+,'
+                             r'\n\n(.+?)\n\nhttps://', blk, re.S)
+                if m:
+                    bodies_by_num[m.group(1)] = m.group(2)
+            reintro, missing, warm_n, logged_cold = [], [], 0, []
+            for num, b in names:
+                body = bodies_by_num.get(num, '')
+                rec = matched.get(num)
+                sent = bool(rec and rec.get('sent_status') == 'confirmed')
+                intro = body.startswith('My name is Neil.')
+                selfintro = re.search(
+                    r"\bMy name is Neil\b|\bI(?:'m| am) Neil\b|"
+                    r"\bI (?:own|run) Back Nine\b", body)
+                if sent:
+                    warm_n += 1
+                    if selfintro:
+                        reintro.append(f'#{num} {b}')
+                else:
+                    if rec:
+                        logged_cold.append(f'#{num} {b}')
+                    if not intro:
+                        missing.append(f'#{num} {b}')
+            r.check(not reintro, 'already-emailed businesses are not '
+                                 're-introduced (mixed)',
+                    '; '.join(reintro[:4]))
+            r.check(not missing, 'first-contact entries open with '
+                                 '"My name is Neil." (mixed)',
+                    '; '.join(missing[:4]))
+            r.warn(not logged_cold, 'first-contact entries are all new to '
+                                    'the log',
+                   f'{len(logged_cold)} were logged before by form/phone or '
+                   f'as an unsent draft, with no email on record — '
+                   + '; '.join(logged_cold[:4]))
+            print(f'  ....  mixed batch: {warm_n} already emailed (no intro), '
+                  f'{n - warm_n} first contacts (intro)\n')
+        elif args.second_contact:
             # A follow-up batch writes to businesses already in the log on
             # purpose, so the initial-outreach check reads exactly backwards.
             # Inverting it rather than skipping it keeps the gate meaningful:

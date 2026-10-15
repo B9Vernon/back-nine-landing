@@ -220,3 +220,21 @@ they were not included in the second-contact file.
   I own Back Nine" opening was wrong. All 32 rewritten to open as a note to
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
+
+## Run 2026-10-15 — scope: year-end invitations, 50 businesses outward from 3201 45 Ave (run 26)
+
+- [ACT NOW] #26-B9-YearEnd-Around-Back-Nine.txt — 50 emails, nearest first:
+  #1 is Rise Gymnastics in our own building, #50 is Bannister Honda ~3 km up
+  Highway 97. 19 already emailed (Gmail-confirmed, no reply) get no
+  introduction; 31 first contacts keep "My name is Neil."
+- [LOG] 22 rows now carry `| sent DATE (Gmail)`; Prestige Collision & Glass
+  (logged run-3 by phone only) was in fact emailed Jul 24. Sandman and
+  Holiday Inn Express were each emailed twice in July — excluded.
+- [FIT FLOOR] 9 rejected below 65 (owner-operated or too small for a party
+  room): Namaste, Home For Dinner, Okanagan Synergy, Reset Physio, Dugas Law,
+  A J Machine Works, Snap Fitness, Adamson Chiropractic, Image Studios.
+- [TOOLS] verify_deliverable.py `--mixed`; ledger reads `sent DATE`;
+  shawcable.com and other legacy ISP domains added to FREE_MAIL (it had
+  flagged Cornerstone Dental as a duplicate of a builders' supply).
+- [METHOD] Extended-mode search is what finds emails — see zone-coverage.md.
+

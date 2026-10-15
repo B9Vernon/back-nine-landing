@@ -36,15 +36,15 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | Swan Lake / Old Kamloops Rd corridor | SWEPT | 2026-08-16 | 4 | campground, market, Castle hotel, Bright Angel |
 | Downtown — 30th Ave core | PARTIAL | 2026-08-16 | 6 | DVA directory by category; storefronts not walked |
 | Downtown — 29th/31st/32nd St cross-blocks | UNSWEPT | — | — | |
-| Industrial park — 29th-31st St, 43rd-45th Ave | PARTIAL | 2026-10-13 | 3 | Bee's Knees (43rd), Silvercrest + Crescent Falls (45th). 3001 43rd Ave is multi-tenant (NAPA, Bushpro) — Bushpro has no findable contact. Many units still unnamed. |
-| 27th Street corridor (Hwy 97) | PARTIAL | 2026-10-13 | 2 | Chamber listings only: 3% Realty, Elevated (27 Ave). KSO, Martin Law, RE/MAX already logged |
-| 32nd Street corridor | PARTIAL | 2026-10-13 | 1 | Strativity (3205 32 St, multi-tenant co-working). Western Financial at 4400 already logged |
-| 43rd / 48th Ave + Anderson Way | PARTIAL | — | — | 3 addresses in ledger, never swept |
+| Industrial park — 29th-31st St, 43rd-45th Ave | SWEPT | 2026-10-15 | 14 | Run 26 walked 45th (2700-2900), 43rd (2700-3009), 44th (2800s) and 29th St (4500-4700). Emails found for 14; no email anywhere for Backyard Pleasures, CMQ, Mark IV, OBC, Bushpro. 3201 45 Ave itself: Rise Gymnastics (#10). |
+| 27th Street corridor (Hwy 97) | SWEPT | 2026-10-15 | 3 new | 3600-4900 block: dealerships (Hilltop, Dodge, Bannister GM, Watkin, Hyundai), dental/physio cluster at 4005-4412, World Health. Mostly already logged — run 26 confirmed which were actually emailed. |
+| 32nd Street corridor | SWEPT | 2026-10-15 | 2 new | 3900-4411: hotels (Sandman, Super 8 closed, Prestige), Vernon Square, insurance (Bracken, Johnston Meier), Interior Savings/United Way at 4301. |
+| 43rd / 48th Ave + Anderson Way | SWEPT | 2026-10-15 | 2 new | 48th 2100-3401 (Toyota, Brandt, Genier's, Helmut's, Mediterranean, End of the Roll); Anderson Way 4800-5240 (Westland, Siwoski, Family First, NOMC). |
 | Village Green Centre + 27th St north | UNSWEPT | — | — | |
 | Polson Place / Hwy 6 East | PARTIAL | 2026-08-16 | 0 | mall tenants are national chains; low yield |
 | Fruit Union Plaza / Hwy 6 | UNSWEPT | — | — | |
-| 24th-25th St industrial/service | UNSWEPT | — | — | |
-| 34th St / Alexis Park Drive | UNSWEPT | — | — | |
+| 24th-25th St industrial/service | PARTIAL | 2026-10-15 | 2 new | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). |
+| 34th St / Alexis Park Drive | PARTIAL | 2026-10-15 | 1 new | 34th St 3008-4790 only: Pacific Inn, HIE, Color Room, Monarch, Vernon Physio. Alexis Park not walked. |
 | Waddington Drive | PARTIAL | — | — | 2 addresses in ledger |
 | Okanagan Landing Road | UNSWEPT | — | — | |
 | Bella Vista / Westside Rd | UNSWEPT | — | — | |
@@ -91,3 +91,25 @@ Run 24 (Christmas-party targets, 2026-10-13): 62 harvested across the Chamber
 category pages, 27th/32nd St and the industrial park; 34 new; 10 cleared the
 65 fit floor. Every one of the 10 publishes a phone number and no email —
 consistent with the log-wide ~26% email rate.
+
+## Method note — run 26 (2026-10-15): finding the EMAIL is a search-mode problem
+
+- WebFetch could not reach ANY host from this session (DNS failure on every
+  site, including backninegolf.ca), and the vernon.ca licence register is
+  blocked at the proxy. Discovery and email lookup ran on WebSearch alone.
+- **Standard-mode WebSearch hides email addresses.** Twenty-four
+  per-business lookups in standard mode returned one address; the summarizer
+  said "no email found" even for businesses whose own contact page lists one
+  (Courtview Dental, End of the Roll). **Extended mode** returned the address
+  from the business's own site on ~60% of tries. Use `mode: "extended"` for
+  the per-business email query; keep standard mode for cheap name harvests.
+- Directory searches with `allowed_domains` set to yellowpages.ca,
+  canpages.ca, n49.com, okanagan-local.ca and canada-bd.com enumerate a
+  street well: "Vernon BC "45 Ave" business" returned eight named tenants
+  with unit numbers. Searching a street name without a domain filter returns
+  house listings.
+- **Check Gmail Sent before deciding "new".** Run 26 found a business the
+  engine had logged only by phone (Prestige Collision & Glass) that Neil
+  had in fact emailed, and two the engine thought were single contacts that
+  had been emailed twice (Sandman, Holiday Inn Express).
+

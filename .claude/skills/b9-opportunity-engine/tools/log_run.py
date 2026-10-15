@@ -49,6 +49,9 @@ CATEGORY_HINTS = [
     # Before Retail, which owns "shop"/"store".
     ('Electronics/AV', r'hi-?fi\b|home theat|\baudio\b|\bstereo\b|'
                        r'electronics|\bav\b'),
+    # Run 26: Vernon Communications (telecom/wireless) logged Uncategorized.
+    ('Telecom/wireless', r'\bcommunications\b|\bwireless\b|telecom|'
+                         r'\bcellular\b'),
     # Before Landscaping/garden, which owns "orchard" and a too-strict
     # "farm\b" that never matched the plural in "Zelaney Farms".
     ('Agriculture/farm', r'\bfarms?\b|\borchards?\b|\branch\b|\bproduce\b|'
@@ -67,6 +70,8 @@ CATEGORY_HINTS = [
     ('Counselling', r'\bcounsell|counsel|therapy|psycholog|clinical therapy'),
     ('Medical clinic', r'\bclinic|physician|urgent care|pharmac|optometr|'
                        r'audiolog|hearing|medical|health unit|primary care'),
+    # Run 26: Rise Gymnastics Academy filed as School/training via "academy".
+    ('Fitness', r'gymnastic|cheerleading|\bcheer\b'),
     ('School/training', r'\bschool|academy|tutor|training|lessons|learning|'
                         r'college|music studio|dance\b'),
     ('Arts/culture', r'\bmuseum|gallery|archives|theatre|performing arts|jazz'),
@@ -89,7 +94,7 @@ CATEGORY_HINTS = [
     # HVAC firm; "mechanic" is the garage. Keep them apart.
     ('Auto service', r'\bauto|tire|car wash|detail|towing|muffler|collision|'
                      r'\bmechanics?\b|bus repair|fleet (?:repair|service)|'
-                     r'truck repair'),
+                     r'truck repair|custom trucks?|\bbrakes?\b'),
     # A hardware dealer is a supplier, not a trade. Without this, Fisher's
     # Home Hardware landed on "Trades — building" via the word "contractor"
     # in its own subject line.

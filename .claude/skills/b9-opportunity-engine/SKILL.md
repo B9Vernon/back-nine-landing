@@ -167,7 +167,9 @@ when a run comes in short). Then size the run with
 9. **Email** — `references/website-research-email.md` (LOCKED: greeting line
    naming the recipient, then — for COLD outreach only — the exact sentence
    **"My name is Neil."**; warm contacts who have replied or met Neil get NO
-   self-introduction and are verified with `--warm` (locked, run 25); one
+   self-introduction and are verified with `--warm` (locked, run 25); a
+   batch mixing both is verified with `--mixed`, which decides per entry
+   from sends confirmed in Gmail (run 26); one
    or two verified specifics, no typed signature, no anti-spam paragraph, no
    phone-call push, website link footer, drafts only).
 10. **Verify — before showing Neil anything** —
