@@ -190,6 +190,29 @@ contacts with businesses he has already emailed, decide PER ENTRY:
   confirmed-sent entry that re-introduces Neil, and a first-contact entry
   that doesn't.
 
+## Who to pick for year-end parties (locked, run 27 feedback)
+
+Neil, on #27: "WAY too many societies and non-profit companies. You need to be
+smarter in the companies you choose. Think of golfers and golfing for people.
+Mostly male as well. Not old people and nursing homes. Offices and companies
+with around 30 people and under."
+
+Choose businesses whose staff are the kind of people who golf:
+
+- **Yes:** trades and contractors (electrical, plumbing, HVAC, roofing,
+  excavation, building), auto dealers and shops, equipment and industrial
+  suppliers, manufacturers and machine shops, real estate and mortgage
+  offices, insurance and financial brokers, law and accounting firms,
+  engineering and surveying firms, construction and logistics companies,
+  breweries and distributors, sales offices. Roughly 5-30 staff.
+- **No:** non-profits, societies, foundations, charities, churches, museums
+  and galleries, schools, seniors' residences and care homes, government
+  agencies, health-authority bodies, and 100+ staff organisations.
+- **Use sparingly:** dental, optometry, physio and salon staffs (mostly
+  women, small teams) and retail shops. Only if little else is left nearby.
+- Score "audience_overlap" low (max 8) for anything in the No list, so it
+  fails the 65 floor on its own.
+
 ## Year-end invitation wording (locked, run 27)
 
 Neil retired the run 24-26 closer ("If a Christmas or year-end night is on
