@@ -221,31 +221,38 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
-## Run 2026-10-16 — scope: year-end invitations, 100 golfer-type trades and offices (run 28)
+## Run 2026-10-16 — scope: year-end invitations, 145 never-emailed crews and offices (run 28, redone)
 
-- [ACT NOW] #28-B9-YearEnd-Trades-and-Offices.txt — 100 emails in the #27
-  wording, ordered by area outward from 45th Avenue:
-  - trades and contractors, auto/body/tire shops, towing, trucking, movers
-  - rentals and supply yards, glass/flooring/cabinets, marine, solar,
-    security
-  - small law, accounting, surveying, engineering, mortgage, insurance,
-    real-estate and wealth offices
-  No non-profits, seniors' homes or schools (Neil's #27 rule).
-- [MIX] 29 already emailed (Gmail-confirmed, no reply), so no introduction:
-  26 found by exact address, plus Bertelsen, Valley Marine and Richbuilt,
-  found by domain or an earlier address. 71 first contacts: 34 logged before
-  but never emailed, and 37 new.
-- [LOG] Sent markers added; June backfill rows for DuMoulin Boskovich and
-  Richbuilt; the Pro-Tow June send went on its run-7 row. Valley Marine:
-  Neil met Ryan at the Spall tournament (per his Jun 9 email).
-- [LEFT OUT] Sladen Moore (on #24's phone list), Sussex Superstore branch
-  (same company as #27 First Okanagan), F12 (national inbox), Kelowna and
-  Armstrong firms, solo operators.
-- [REPLIES WAITING] Michele (Vernon Lions) replied Oct 15. Helmut's, CrossFit,
-  SilverStar and MNP are already being handled by Neil.
-- [TOOLS] log_run.py: new hints for trucks/heavy-duty, pools, drywall,
-  forming, earthworks, fencing, CPA and "real estate". "Pacific Interior
-  Trucks" had been filed as Home furnishing.
+- [ACT NOW] #28-B9-YearEnd-New-Crews.txt — 145 first contacts in the #27
+  wording, ordered outward from 45th Avenue, then Coldstream, Armstrong,
+  Lake Country and Lumby, labelled. It replaces the first #28 draft
+  (#28-B9-YearEnd-Trades-and-Offices.txt, never sent, now deleted). Neil:
+  "There is a lot of duplicates in the last run. Find new businesses."
+  - #1-#108: found today; none in the log, in #24-#27 or in Gmail.
+  - #109-#145: the 37 new businesses from the first draft, unchanged.
+- [SHORT] 145 of the 150 asked for: WebSearch hit its 200-call session cap
+  at 108 new. Next: the Lake Country names still to look up
+  (zone-coverage.md), then Armstrong, Lumby and Enderby.
+- [CHECKED] Every address against the log, the #24-#27 files, Gmail Sent by
+  address and domain, and the inbox. Caught Energy Economics Solar (emailed
+  Jul 21).
+- [LOG] The first draft's 64 "follow-up / first email 2026-10-16 (#28
+  year-end)" markers are removed. The factual Gmail sent markers, the June
+  backfill rows (DuMoulin Boskovich, Richbuilt) and Pro-Tow's June send on
+  its run-7 row are kept. 108 run-28 rows added; categories set by hand
+  (log_run inferred 50 as Uncategorized and filed RobotHouse Automation
+  as Auto service).
+- [LEFT OUT] Fox Plumbing (multi-office), Bannister collision (dealer
+  group), Tristar Hydrovacs (Alberta), Prima Contracting (Lower Mainland),
+  M.Cox, Paint Gurus and Osland (Kelowna), All Seasons RV and B&L Security
+  (bad addresses), Raven Hair Studio.
+- [REPLIES WAITING] Michele (Vernon Lions) replied Oct 15: the next executive
+  meeting is Nov 12, and she wants a phone call before it. Neil hasn't
+  answered. Enderby Chamber and H&L Glass replied that they're thinking it
+  over. Helmut's, CrossFit, SilverStar, MNP and Skyride are being handled
+  by Neil.
+- [TOOLS] log_run.py (from the first draft, kept): hints for trucks/heavy-duty,
+  pools, drywall, forming, earthworks, fencing, CPA and "real estate".
 
 ## Run 2026-10-15 — scope: year-end invitations, the next 50 out (downtown ring, run 27)
 

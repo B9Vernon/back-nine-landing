@@ -43,24 +43,24 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | Village Green Centre + 27th St north | UNSWEPT | — | — | |
 | Polson Place / Hwy 6 East | PARTIAL | 2026-08-16 | 0 | mall tenants are national chains; low yield |
 | Fruit Union Plaza / Hwy 6 | UNSWEPT | — | — | |
-| 24th-25th St industrial/service | PARTIAL | 2026-10-16 | 2 + run 28 | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). Run 28: Okanagan Spirits (5204 24 St), Flooring Hub and Monument (26 St), Vernon Truck Center (4700 23 St). |
+| 24th-25th St industrial/service | PARTIAL | 2026-10-16 | 2 + run 28 | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). First #28 draft (never sent): Okanagan Spirits (5204 24 St), Flooring Hub and Monument (26 St), Vernon Truck Center (4700 23 St). |
 | 34th St / Alexis Park Drive | PARTIAL | 2026-10-15 | 2 new | 34th St 3008-4790: Pacific Inn, HIE, Color Room, Monarch, Vernon Physio; run 27 added Flow Physio (3203 34 St). Alexis Park: only Venture Living (4240) so far. |
-| Waddington Drive | PARTIAL | — | — | 2 addresses in ledger |
-| Okanagan Landing Road | UNSWEPT | — | — | |
+| Waddington Drive | PARTIAL | 2026-10-16 | 2 | Run 28 redo: ProSew (740), Combined Mechanical (920). No email found for Fox & Sons (740), Clark Freightways, Trican, Bell Lumber & Pole, BC Fasteners (in log). |
+| Okanagan Landing Road | PARTIAL | 2026-10-16 | 1 | Run 28 redo, by directory: Rotech Motor (6235). Okanagan Recreational Rentals and Creekside Landing already in log; the rest are a church, museum and florist. |
 | Bella Vista / Westside Rd | UNSWEPT | — | — | |
-| Pleasant Valley Rd / 20th St | PARTIAL | 2026-10-16 | 3 | Run 28 by trade directory: Evolution Mechanical (6216), NOR Renovations (6230), Valley Marine (7238), Performance Marine (4801 20 St). Not walked. |
+| Pleasant Valley Rd / 20th St | PARTIAL | 2026-10-16 | 3 | First #28 draft (never sent), by trade directory: Evolution Mechanical (6216), NOR Renovations (6230), Valley Marine (7238), Performance Marine (4801 20 St). Not walked. |
 | BX / Silver Star Road foothills | SWEPT | 2026-07-25 | run-7 | worked heavily; likely stale by 2027 |
-| L&A Cross Road | PARTIAL | — | — | |
+| L&A Cross Road | PARTIAL | 2026-10-16 | 0 | Run 28 redo: Great West Equipment and Donald's in log; Gilmay RV is now at 8129 Highland Pl. No emails published. |
 | 58th Ave / north end | UNSWEPT | — | — | |
 
 ## Ring 10-30 km
 
 | Zone | Status | Last | New found | Notes |
 |---|---|---|---|---|
-| Armstrong core | PARTIAL | — | — | chamber contacted; storefronts not swept |
+| Armstrong core | PARTIAL | 2026-10-16 | 5 | Run 28 redo, by directory: Hancon, North Valley Contracting, Armstrong Auto Recycling, Ironwood Landscaping, Reimer Bros. No email: Quality First Motors, DHW, Armstrong Crane, Tristar (Alberta-based). aschamber.com/directory lists 127 members but masks emails. |
 | Enderby core | PARTIAL | — | — | chamber contacted only |
-| Lumby core | PARTIAL | — | — | chamber contacted only |
-| Lake Country (Main/Woodsdale/Berry) | UNSWEPT | — | — | |
+| Lumby core | PARTIAL | 2026-10-16 | 2 | Run 28 redo, from 411.ca: Rocky Mountain Concrete, Galaxie Powder Coating. Names only: Ivan's Imports, Nagy Cylinder, Coldstream Valley Stucco, Lumby Truck & Car Wash. |
+| Lake Country (Main/Woodsdale/Berry) | PARTIAL | 2026-10-16 | 10 | Run 28 redo: 31 of 32 names were new to the log, the freshest ground left. Emails for Lake Country Crane, Staxon, Max Electric, Lake Country Landscaping, Kapiti, Deano's, ENCO, Pipe Piper, Hewitson, Danish. Still to look up: R&R Hoe, AppleGate, Adrenalin, Home Ready, Immaculate, Venetian, Steve's Plumbing, Viper Electric, Five Star, Virtue, Sierra, Quality Floor, Jennifer Fleming, Emax, BC Surveyors. |
 | Falkland / Cherryville | UNSWEPT | — | — | |
 
 ## Method note — what actually worked in run 23
@@ -137,3 +137,24 @@ consistent with the log-wide ~26% email rate.
 - Check #24's PHONE list too. screen_candidates matched neither "Sladen Moore
   CPA" nor "Sladen Moore LLP" (a run-24 phone row), so grep the run-24 rows
   by hand.
+
+## Method note — run 28 redo (2026-10-16): Vernon trade listings are used up
+
+- Neil rejected the first #28 draft because 63 of its 100 businesses had
+  already been emailed or logged. The redo had to be all-new businesses.
+- **Vernon's directory trades are saturated.** About 70% of the
+  okanagan-local.ca category results were already in the log (roofing 3 of 3,
+  bikes 3 of 5, marine 4 of 4, barbers 4 of 4). Expect about 2 new per
+  category query now, against 5-8 a month ago.
+- **Lake Country is nearly untouched**: 31 of 32 names were new. Armstrong
+  and Lumby are close behind. Go there first next time, then Enderby.
+- Names-only listings: one extended lookup per business finds an email about
+  half the time when the business has its own site, and rarely when it
+  doesn't.
+- **Search budget:** WebSearch stops at 200 calls per session. The redo
+  reached 108 new businesses before hitting it. Plan for about 1.5 searches
+  per business found.
+- **Screen-input bug:** rows with a blank address field (`Name | | email`)
+  split wrongly on `' | '`, so the email landed in the wrong column and the
+  email/domain checks never ran. Name checks still caught most matches.
+  Split on `'|'` and strip each field.
