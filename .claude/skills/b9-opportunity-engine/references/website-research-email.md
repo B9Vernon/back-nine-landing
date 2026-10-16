@@ -189,6 +189,11 @@ contacts with businesses he has already emailed, decide PER ENTRY:
 - Verify with `tools/verify_deliverable.py FILE --mixed`: it fails a
   confirmed-sent entry that re-introduces Neil, and a first-contact entry
   that doesn't.
+- Search Sent by the company's DOMAIN and by every address the log has ever
+  held, not only the one being used now (run 28). Three businesses that
+  looked like first contacts had been emailed at a different address.
+  An old shawbiz.ca inbox, a named person, and a June invitation sent before
+  the engine existed.
 
 ## Who to pick for year-end parties (locked, run 27 feedback)
 

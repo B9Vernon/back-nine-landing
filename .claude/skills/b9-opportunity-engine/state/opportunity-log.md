@@ -221,6 +221,32 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-16 — scope: year-end invitations, 100 golfer-type trades and offices (run 28)
+
+- [ACT NOW] #28-B9-YearEnd-Trades-and-Offices.txt — 100 emails in the #27
+  wording, ordered by area outward from 45th Avenue:
+  - trades and contractors, auto/body/tire shops, towing, trucking, movers
+  - rentals and supply yards, glass/flooring/cabinets, marine, solar,
+    security
+  - small law, accounting, surveying, engineering, mortgage, insurance,
+    real-estate and wealth offices
+  No non-profits, seniors' homes or schools (Neil's #27 rule).
+- [MIX] 29 already emailed (Gmail-confirmed, no reply), so no introduction:
+  26 found by exact address, plus Bertelsen, Valley Marine and Richbuilt,
+  found by domain or an earlier address. 71 first contacts: 34 logged before
+  but never emailed, and 37 new.
+- [LOG] Sent markers added; June backfill rows for DuMoulin Boskovich and
+  Richbuilt; the Pro-Tow June send went on its run-7 row. Valley Marine:
+  Neil met Ryan at the Spall tournament (per his Jun 9 email).
+- [LEFT OUT] Sladen Moore (on #24's phone list), Sussex Superstore branch
+  (same company as #27 First Okanagan), F12 (national inbox), Kelowna and
+  Armstrong firms, solo operators.
+- [REPLIES WAITING] Michele (Vernon Lions) replied Oct 15. Helmut's, CrossFit,
+  SilverStar and MNP are already being handled by Neil.
+- [TOOLS] log_run.py: new hints for trucks/heavy-duty, pools, drywall,
+  forming, earthworks, fencing, CPA and "real estate". "Pacific Interior
+  Trucks" had been filed as Home furnishing.
+
 ## Run 2026-10-15 — scope: year-end invitations, the next 50 out (downtown ring, run 27)
 
 - [ACT NOW] #27-B9-YearEnd-Ring2.txt — 50 emails, nearest first, from 43rd

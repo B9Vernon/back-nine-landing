@@ -38,6 +38,12 @@ CATEGORY_HINTS = [
     ('Engineering', r'\bengineering\b|\bengineers?\b|geotechnic|structural '
                     r'design'),
     ('Surveying/geomatics', r'\bsurveyor|surveying|geomatic|geo-survey'),
+    # Run 28 (golfer-type trades and offices): "Pacific Interior Trucks" hit
+    # Home furnishing's "interior", and drywall, forming, earthworks, fencing,
+    # pools, CPA and "Real Estate" names had no pattern at all.
+    ('Truck/heavy-duty service', r'\btruck (?:center|centre)|\btrucks\b|'
+                                 r'heavy[- ]duty'),
+    ('Pools/spas', r'\bpools?\b'),
     ('Transport/freight', r'\bfreight|trucking|transport\b|logistics|'
                           r'\bcourier|carriers?\b|haul(?:age|ing)\b'),
     # Run 23 swept business parks and the Coldstream rural corridor for the
@@ -106,9 +112,11 @@ CATEGORY_HINTS = [
     ('Trades — roofing', r'\broofing|roofer'),
     ('Trades — exteriors', r'\bsiding|gutter|eavestrough|\bexteriors?\b|'
                            r'soffit|fascia|stucco|building envelopes?|'
-                           r'cladding'),
-    ('Trades — building', r'\bcontract|construct|renovat|builder|homes\b|carpent|cabinet'),
-    ('Trades — excavation', r'\bexcavat|bobcat|paving|asphalt|gravel|concrete'),
+                           r'cladding|\bfenc'),
+    ('Trades — building', r'\bcontract|construct|renovat|builder|homes\b|carpent|cabinet|'
+                          r'drywall|formworks|form ?& ?finish'),
+    ('Trades — excavation', r'\bexcavat|bobcat|paving|asphalt|gravel|concrete|'
+                            r'earthworks'),
     ('Awards/engraving', r'\bawards?\b|trophies|trophy|engrav'),
     # Before Professional services, whose bare "\bsign" caught sign shops but
     # labelled them consulting, and missed "Graphicsworks" entirely.
@@ -123,10 +131,10 @@ CATEGORY_HINTS = [
     ('Cleaning/janitorial', r'\bjanitor|cleaning|maid|window cleaning'),
     ('Moving/storage', r'\bmoving|storage|mini storage'),
     ('Real estate', r'\brealt|re/max|century 21|property management|strata|'
-                    r'\bland corp'),
+                    r'\bland corp|real estate'),
     ('Legal', r'\blaw\b|lawyer|llp\b|notary|legal'),
     ('Accounting/finance', r'\baccount|bookkeep|tax\b|mortgage|credit union|'
-                          r'insurance|financial|\bwealth\b|investment'),
+                          r'insurance|financial|\bwealth\b|investment|\bcpa\b'),
     ('Retail', r'\bboutique|clothing|clothier|shop\b|store\b|mercantile|'
                r'gifts?\b|apparel|wear\b|outfitter|consignment|thrift'),
     ('Fitness', r'\bgym\b|fitness|crossfit|yoga|pilates'),

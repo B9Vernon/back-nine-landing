@@ -35,7 +35,7 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | Coldstream Valley — rural/agricultural | SWEPT | 2026-08-16 | 2 | Zelaney Farms, Tony's Craft Cidery |
 | Swan Lake / Old Kamloops Rd corridor | SWEPT | 2026-08-16 | 4 | campground, market, Castle hotel, Bright Angel |
 | Downtown — 30th Ave core | PARTIAL | 2026-10-15 | 6 + run 27 | DVA directory by category; storefronts not walked. Run 27 (year-end): 3005-3334 30th Ave offices (Direct Travel, Teach and Learn, Lake City Law, Compass Law, Sun Valley Dentistry, Bamboo Beach, Anytime Fitness). Most were July batch-200 drafts; Gmail decided warm vs cold. |
-| Downtown — 29th/31st/32nd St cross-blocks | PARTIAL | 2026-10-15 | 4 new | Run 27 worked the office blocks by directory, not on foot: 32nd Ave 2903-3401 (Lighthouse, Culos, Museum, NOYFSS, John Howard, Accent PM, Diamond Dental), 32nd St 2901-3205 (Coldwell Banker, Sproing, Urban Systems), 30th St 3201 (NexusBC), 28th/29th/27th Ave (CMHA, NOFC, Hamlets, Monashee Optometry, ILV, Okanagan Spring). Retail storefronts not walked. |
+| Downtown — 29th/31st/32nd St cross-blocks | PARTIAL | 2026-10-16 | 4 new + run 28 | Run 27 worked the office blocks by directory, not on foot: 32nd Ave 2903-3401 (Lighthouse, Culos, Museum, NOYFSS, John Howard, Accent PM, Diamond Dental), 32nd St 2901-3205 (Coldwell Banker, Sproing, Urban Systems), 30th St 3201 (NexusBC), 28th/29th/27th Ave (CMHA, NOFC, Hamlets, Monashee Optometry, ILV, Okanagan Spring). Retail storefronts not walked. |
 | Industrial park — 29th-31st St, 43rd-45th Ave | SWEPT | 2026-10-15 | 14 | Run 26 walked 45th (2700-2900), 43rd (2700-3009), 44th (2800s) and 29th St (4500-4700). Emails found for 14; no email anywhere for Backyard Pleasures, CMQ, Mark IV, OBC, Bushpro. 3201 45 Ave itself: Rise Gymnastics (#10). |
 | 27th Street corridor (Hwy 97) | SWEPT | 2026-10-15 | 3 new | 3600-4900 block: dealerships (Hilltop, Dodge, Bannister GM, Watkin, Hyundai), dental/physio cluster at 4005-4412, World Health. Mostly already logged — run 26 confirmed which were actually emailed. |
 | 32nd Street corridor | SWEPT | 2026-10-15 | 2 new | 3900-4411: hotels (Sandman, Super 8 closed, Prestige), Vernon Square, insurance (Bracken, Johnston Meier), Interior Savings/United Way at 4301. |
@@ -43,12 +43,12 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | Village Green Centre + 27th St north | UNSWEPT | — | — | |
 | Polson Place / Hwy 6 East | PARTIAL | 2026-08-16 | 0 | mall tenants are national chains; low yield |
 | Fruit Union Plaza / Hwy 6 | UNSWEPT | — | — | |
-| 24th-25th St industrial/service | PARTIAL | 2026-10-15 | 2 new | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). |
+| 24th-25th St industrial/service | PARTIAL | 2026-10-16 | 2 + run 28 | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). Run 28: Okanagan Spirits (5204 24 St), Flooring Hub and Monument (26 St), Vernon Truck Center (4700 23 St). |
 | 34th St / Alexis Park Drive | PARTIAL | 2026-10-15 | 2 new | 34th St 3008-4790: Pacific Inn, HIE, Color Room, Monarch, Vernon Physio; run 27 added Flow Physio (3203 34 St). Alexis Park: only Venture Living (4240) so far. |
 | Waddington Drive | PARTIAL | — | — | 2 addresses in ledger |
 | Okanagan Landing Road | UNSWEPT | — | — | |
 | Bella Vista / Westside Rd | UNSWEPT | — | — | |
-| Pleasant Valley Rd / 20th St | UNSWEPT | — | — | |
+| Pleasant Valley Rd / 20th St | PARTIAL | 2026-10-16 | 3 | Run 28 by trade directory: Evolution Mechanical (6216), NOR Renovations (6230), Valley Marine (7238), Performance Marine (4801 20 St). Not walked. |
 | BX / Silver Star Road foothills | SWEPT | 2026-07-25 | run-7 | worked heavily; likely stale by 2027 |
 | L&A Cross Road | PARTIAL | — | — | |
 | 58th Ave / north end | UNSWEPT | — | — | |
@@ -113,3 +113,27 @@ consistent with the log-wide ~26% email rate.
   had in fact emailed, and two the engine thought were single contacts that
   had been emailed twice (Sandman, Holiday Inn Express).
 
+
+## Method note — run 28 (2026-10-16): harvest by TRADE, not by street
+
+- Neil's rule from #27 (golfer-type, mostly men, about 30 staff or fewer,
+  no non-profits or seniors) maps onto trade categories better than onto
+  streets. One standard-mode directory search per trade ("electrical
+  contractors Vernon BC", with the five directory domains allowed) returns
+  8-15 named businesses with street addresses. Run 28 used about 25 trades
+  and got 214 names. Addresses cover the main streets: 27th St/Hwy 97,
+  25th Ave, 43rd-48th Ave, Anderson Way, Kalamalka Lake Rd and Pleasant
+  Valley.
+- **One extended search per trade category** ("Vernon BC roofing company
+  email contact") returns 3-8 published addresses at once, mostly from the
+  businesses' own sites. That beats one lookup per business (about 1 email
+  per call). Use per-business extended lookups only to fill gaps.
+  Multi-name OR queries ("A OR B OR C email") return almost nothing.
+- **Check Gmail Sent by DOMAIN and by every address the log ever held**,
+  not just the address being used now. Run 28 found three already-emailed
+  businesses that way (Bertelsen at an old shawbiz.ca address, Valley Marine
+  at ryan@, Richbuilt at darren@), plus June sends the log never recorded
+  (DuMoulin Boskovich, Pro-Tow).
+- Check #24's PHONE list too. screen_candidates matched neither "Sladen Moore
+  CPA" nor "Sladen Moore LLP" (a run-24 phone row), so grep the run-24 rows
+  by hand.
