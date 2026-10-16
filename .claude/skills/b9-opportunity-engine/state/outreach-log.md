@@ -2123,3 +2123,158 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] Burton Tree Service | Landscaping/garden | james@burtontree.ca | 2026-10-16 | run-28
 - [email created] Veach's Septic Service | Trades — septic/pumping | veachssepticservice@gmail.com | 2026-10-16 | run-28
 - [email created] Deep Creek Pools & Ponds Contracting | Trades — building | deep_creek_pools@hotmail.com | 2026-10-16 | run-28
+## Backfill — earlier sends found in Gmail while screening run 29 (logged 2026-10-16)
+
+- [email created] Agar Schneider & Lett | Accounting/finance | admin@cpavernon.ca | 2026-06-15 | backfill-jun | sent 2026-06-15 (Gmail)
+- [email created] Links Lawn & Yard Services | Landscaping/garden | rbiett@linkssnowremoval.com | 2026-07-23 | backfill-jul | sent 2026-07-23 (Gmail)
+- [email created] Window & Door Project Solutions | Trades — exteriors | windowprojectsolutions@gmail.com | 2026-08-01 | backfill-aug | sent 2026-08-01 (Gmail)
+- [email created] Sage Environmental Consulting | Engineering | matt@sageenvironmental.ca | 2026-10-13 | backfill-oct | sent 2026-10-13 (Gmail)
+
+## Run 29 — year-end invitations, 146 never-emailed Vernon and Coldstream crews (2026-10-16)
+
+- [email created] Progress Machine Ltd | Manufacturing | andrew@progressmachine.com | 2026-10-16 | run-29
+- [email created] The Metal Garden | Manufacturing | Themetalgarden@outlook.com | 2026-10-16 | run-29
+- [email created] Horizon Auto Detailing | Auto service | info@horizonautodetailing.ca | 2026-10-16 | run-29
+- [email created] IC's Mobile Detailing | Auto service | Icsmobiledetailing@gmail.com | 2026-10-16 | run-29
+- [email created] Okanagan Tree Service | Landscaping/garden | Arborist@shaw.ca | 2026-10-16 | run-29
+- [email created] Elice's Printopia | Signage/print | info@elicesprintopia.ca | 2026-10-16 | run-29
+- [email created] Jetty Marine | Marine/powersports dealer | info@jettydek.ca | 2026-10-16 | run-29
+- [email created] SPIDEX All Terrain Excavating | Trades — excavation | contact@spidex.ca | 2026-10-16 | run-29
+- [email created] Mike V's Automotive Diagnostic & Repair | Auto service | mikevauto@hotmail.com | 2026-10-16 | run-29
+- [email created] Aqua Source Drilling Ltd | Trades — excavation | aquasourcedrilling@telus.net | 2026-10-16 | run-29
+- [email created] Grillers Meats Vernon | Retail | info@grillersmeats.ca | 2026-10-16 | run-29
+- [email created] Pine Valley Tree Services | Landscaping/garden | info@pinevalleytreeservices.ca | 2026-10-16 | run-29
+- [email created] Prime Quality Construction Inc | Trades — building | info@pqcinc.ca | 2026-10-16 | run-29
+- [email created] NOAS Bookkeeping Accounting & Tax | Accounting/finance | office@taxoptions.ca | 2026-10-16 | run-29
+- [email created] Okanagan Tax & Business Services | Accounting/finance | shawnoktax@shaw.ca | 2026-10-16 | run-29
+- [email created] TWA Studio | Professional services | support@twa.studio | 2026-10-16 | run-29
+- [email created] Wolf Hitch Inc | Manufacturing | info@wolfhitch.ca | 2026-10-16 | run-29
+- [email created] S&S Group Services | Trades — building | info@ssgroupservices.ca | 2026-10-16 | run-29
+- [email created] Blue Valley Painting | Trades — exteriors | info@bluevalleypainting.com | 2026-10-16 | run-29
+- [email created] Morad Remodeling | Trades — building | adam@moradremodeling.com | 2026-10-16 | run-29
+- [email created] Kalamalka Cooling Refrigeration Heating & AC | Trades — plumbing/HVAC | kalamalkacooling@gmail.com | 2026-10-16 | run-29
+- [email created] Wrap A Tac Vinyl | Auto service | ryan@wrapatac.com | 2026-10-16 | run-29
+- [email created] Air Tech Mechanical Vernon | Trades — plumbing/HVAC | info@airtechmechanical.ca | 2026-10-16 | run-29
+- [email created] Unity MMA and Kickboxing | Fitness | unitymma1@gmail.com | 2026-10-16 | run-29
+- [email created] Paradise Dock & Lift | Manufacturing | info@paradisedocklift.com | 2026-10-16 | run-29
+- [email created] E & L Building Contractors | Trades — building | Info@elbuilding.ca | 2026-10-16 | run-29
+- [email created] Westpeak Metal Roofing | Trades — exteriors | Info@Westpeakroofing.ca | 2026-10-16 | run-29
+- [email created] Vernon Stone & Fireplaces Ltd | Manufacturing | vernonstone@telus.net | 2026-10-16 | run-29
+- [email created] Stutters Restorations Vernon | Trades — building | vernon@stutters.com | 2026-10-16 | run-29
+- [email created] Ruckus Mechanical Services | Auto service | office@ruckusmechanical.com | 2026-10-16 | run-29
+- [email created] Yeg Countertops | Manufacturing | contact@yegcountertops.com | 2026-10-16 | run-29
+- [email created] M&K Ready Mix Inc | Trades — excavation | shawn@mandk.ca | 2026-10-16 | run-29
+- [email created] Metal Roofing & Siding Experts (Vernon plant) | Manufacturing | orderdesk@metalexperts.ca | 2026-10-16 | run-29
+- [email created] P5 Millwork and Design | Manufacturing | info@p5millwork.com | 2026-10-16 | run-29
+- [email created] Adriatic Granite & Marble Works | Manufacturing | info@adriaticgranite.com | 2026-10-16 | run-29
+- [email created] Anser Manufacturing Ltd | Manufacturing | anser@shawcable.com | 2026-10-16 | run-29
+- [email created] Castalure Manufacturing Ltd | Manufacturing | info@castalure.com | 2026-10-16 | run-29
+- [email created] Goldcliff Electric | Trades — electrical | goldcliffelectric@telus.net | 2026-10-16 | run-29
+- [email created] D. Wiens Contracting | Trades — building | darrellwiens71@gmail.com | 2026-10-16 | run-29
+- [email created] Vinyl Valley Decks and Railings | Trades — building | mike@vinylvalleydeckandrail.com | 2026-10-16 | run-29
+- [email created] Tag Design Co | Professional services | info@tagdesignco.ca | 2026-10-16 | run-29
+- [email created] Roadie's Got Wood | Landscaping/garden | jerome@roadiesgotwood.ca | 2026-10-16 | run-29
+- [email created] Chapman Sand & Gravel | Trades — excavation | info@chapmansand.com | 2026-10-16 | run-29
+- [email created] Full Throttle Tree Service | Landscaping/garden | fullthrottletreeservice@outlook.com | 2026-10-16 | run-29
+- [email created] Dino Marine | Marine/powersports dealer | marinedino@yahoo.ca | 2026-10-16 | run-29
+- [email created] iClean Roofs Gutters and Windows | Cleaning/janitorial | info@icleanservices.ca | 2026-10-16 | run-29
+- [email created] Avatar Pressure Washing | Cleaning/janitorial | avatarpressurewashing@gmail.com | 2026-10-16 | run-29
+- [email created] Tassie Creek Estates | Trades — building | sales@tassiecreekestates.com | 2026-10-16 | run-29
+- [email created] Lakeside Drywall & Coatings | Trades — building | lakesidedrywallandcoatingsltd@gmail.com | 2026-10-16 | run-29
+- [email created] Haze Heating & Air Conditioning | Trades — plumbing/HVAC | info@hazehvac.ca | 2026-10-16 | run-29
+- [email created] Ductman Heating and Air Conditioning | Trades — plumbing/HVAC | info@ductman.ca | 2026-10-16 | run-29
+- [email created] Canadian Builders Inc | Trades — building | jonathan@canbuild.ca | 2026-10-16 | run-29
+- [email created] GEM Quality Homes | Trades — building | hello@gemqualityhomes.ca | 2026-10-16 | run-29
+- [email created] Godard Excavator & Bobcat Services | Trades — excavation | godardexcavating@hotmail.com | 2026-10-16 | run-29
+- [email created] Unity & Light Electric | Trades — electrical | robb@unityandlight.ca | 2026-10-16 | run-29
+- [email created] HGS Electrical Services | Trades — electrical | contact@hgselectric.ca | 2026-10-16 | run-29
+- [email created] Planet Green BC | Landscaping/garden | priceyvonne7@gmail.com | 2026-10-16 | run-29
+- [email created] Boschtech Plumbing | Trades — plumbing/HVAC | boschtechplumbing@gmail.com | 2026-10-16 | run-29
+- [email created] Bee's Knees Plumbing and Heating | Trades — plumbing/HVAC | Info@beeskneesplumbingandheating.ca | 2026-10-16 | run-29
+- [email created] CE Plumbing & Heating | Trades — plumbing/HVAC | service@ceplumbingheating.ca | 2026-10-16 | run-29
+- [email created] Phillips Painting Services | Trades — exteriors | phillipspainting321@gmail.com | 2026-10-16 | run-29
+- [email created] Owl Painting Company | Trades — exteriors | owlpaintingco@gmail.com | 2026-10-16 | run-29
+- [email created] B & H Painting | Trades — exteriors | BHPAINTING@LIVE.COM | 2026-10-16 | run-29
+- [email created] Gmaster Forming | Trades — building | Gmasterforming@gmail.com | 2026-10-16 | run-29
+- [email created] BADA Quality Renovations | Trades — building | renos@badabathrooms.com | 2026-10-16 | run-29
+- [email created] Summit Building Co | Trades — building | info@summitbuilding.ca | 2026-10-16 | run-29
+- [email created] Realty Renovation | Trades — building | info@realtyrenovation.ca | 2026-10-16 | run-29
+- [email created] D1 Detailing | Auto service | d1detailing@hotmail.com | 2026-10-16 | run-29
+- [email created] Flawless Finishes | Auto service | info@flawlessfinishes.ca | 2026-10-16 | run-29
+- [email created] Blue Door Junk Removal | Waste/hauling | bluedoorjunkremoval@gmail.com | 2026-10-16 | run-29
+- [email created] Tip-It Waste Collection | Waste/hauling | office@tipit.ca | 2026-10-16 | run-29
+- [email created] Jermattev Urethane Solutions | Trades — building | devon@jermattev.ca | 2026-10-16 | run-29
+- [email created] Odyssey Landscaping | Landscaping/garden | info@odysseylandscape.ca | 2026-10-16 | run-29
+- [email created] Vernon Tree Service | Landscaping/garden | hello@vernontreeservice.ca | 2026-10-16 | run-29
+- [email created] Pinnacle Water Pump Service | Trades — excavation | pinnaclewater.bc@gmail.com | 2026-10-16 | run-29
+- [email created] Glass Project Solutions | Trades — exteriors | info@glassprojectsolutions.ca | 2026-10-16 | run-29
+- [email created] Trufuze Inc | Manufacturing | josh@trufuze.ca | 2026-10-16 | run-29
+- [email created] Bear Metals | Manufacturing | lewis.troy@hotmail.com | 2026-10-16 | run-29
+- [email created] JBEZ Welding | Manufacturing | jbezwelding@gmail.com | 2026-10-16 | run-29
+- [email created] Electric Ninja | Trades — electrical | electricninja3@shaw.ca | 2026-10-16 | run-29
+- [email created] Integra Property Inspections | Professional services | leighton@integrapi.ca | 2026-10-16 | run-29
+- [email created] Adam Harris Renovations | Trades — building | adamharrisrenovations@gmail.com | 2026-10-16 | run-29
+- [email created] Vakman Contracting | Trades — building | Mike@vakman.ca | 2026-10-16 | run-29
+- [email created] RISAN Construction | Trades — building | contact@risanconstruction.com | 2026-10-16 | run-29
+- [email created] Onsite Electric | Trades — electrical | codythom@gmail.com | 2026-10-16 | run-29
+- [email created] Climatech Heating and Cooling | Trades — plumbing/HVAC | Climatechvernon@gmail.com | 2026-10-16 | run-29
+- [email created] Heritage Plumbing & Gas Fitting | Trades — plumbing/HVAC | Darienb@Heritage-Plumbing.ca | 2026-10-16 | run-29
+- [email created] Okanagan Fusion Mechanical | Trades — plumbing/HVAC | okfusionmechanical@gmail.com | 2026-10-16 | run-29
+- [email created] OCTO Landscape & Maintenance | Landscaping/garden | ckveenendaal@hotmail.com | 2026-10-16 | run-29
+- [email created] Brookside Lawn & Garden | Landscaping/garden | brooksidelc@outlook.com | 2026-10-16 | run-29
+- [email created] Greenstone Solutions | Landscaping/garden | Justin@greenstonevernon.com | 2026-10-16 | run-29
+- [email created] Hill's Yard Maintenance | Landscaping/garden | kevindeonhill@gmail.com | 2026-10-16 | run-29
+- [email created] Dirty Bird Auto & Boat Detailing | Auto service | jbelair1985@gmail.com | 2026-10-16 | run-29
+- [email created] In-Depth Detailing | Auto service | indepthautodetail@gmail.com | 2026-10-16 | run-29
+- [email created] Artisan Roofing Ltd | Trades — exteriors | Artisanroofingltd@gmail.com | 2026-10-16 | run-29
+- [email created] LMEC Siding Ltd | Trades — exteriors | lmec@telus.net | 2026-10-16 | run-29
+- [email created] Painted Ladies | Trades — exteriors | paintedladiesvernon@gmail.com | 2026-10-16 | run-29
+- [email created] Small Jobs Drywall | Trades — building | kerrythomas24@hotmail.com | 2026-10-16 | run-29
+- [email created] Summit Tiny Homes | Trades — building | info@summittinyhomes.com | 2026-10-16 | run-29
+- [email created] JMG Construction Ltd | Trades — excavation | Jmgconstruction1978@yahoo.ca | 2026-10-16 | run-29
+- [email created] Okanagan Vinyl Fence Supply | Trades — exteriors | Yoswolfe@gmail.com | 2026-10-16 | run-29
+- [email created] Koens Carpentry | Trades — building | KoensCarpentry@gmail.com | 2026-10-16 | run-29
+- [email created] Jaybird's Property Services | Cleaning/janitorial | jaybirdswindowcleaning@gmail.com | 2026-10-16 | run-29
+- [email created] Streaky-Clean Window Cleaning | Cleaning/janitorial | streakyclean2.0@gmail.com | 2026-10-16 | run-29
+- [email created] MadDock Customs | Manufacturing | maddockcustoms@gmail.com | 2026-10-16 | run-29
+- [email created] Distinctive Upholstery & Marine | Marine/powersports dealer | DistinctiveUpholstery@gmail.com | 2026-10-16 | run-29
+- [email created] Vernon Dump Pros | Waste/hauling | vernondumppros@gmail.com | 2026-10-16 | run-29
+- [email created] Escape Home Services | Cleaning/janitorial | escapehomebc@gmail.com | 2026-10-16 | run-29
+- [email created] LIFT Moving | Moving/storage | corybanksnat@gmail.com | 2026-10-16 | run-29
+- [email created] Clear Water Solutions | Trades — plumbing/HVAC | clearmywater@gmail.com | 2026-10-16 | run-29
+- [email created] Vernon Insulation Solutions | Trades — building | vernoninsulation@gmail.com | 2026-10-16 | run-29
+- [email created] Vernon Computer Repair | Electronics/AV | vernoncomputerrepair@gmail.com | 2026-10-16 | run-29
+- [email created] Bry-Tech Electronics Repair | Electronics/AV | brytechelectronics@gmail.com | 2026-10-16 | run-29
+- [email created] IronElk Woodworks | Manufacturing | ironelkwoodworks@gmail.com | 2026-10-16 | run-29
+- [email created] Trout Lodge Custom Woodworks | Manufacturing | davevollmer@gmail.com | 2026-10-16 | run-29
+- [email created] Advanced Onsite Solutions | Trades — septic/pumping | advancedonsite@telus.net | 2026-10-16 | run-29
+- [email created] European Timberframe Corp | Trades — building | info@timberframecorp.com | 2026-10-16 | run-29
+- [email created] Morris Mobile Auto Detailing | Auto service | MorrisMobileDetailing@gmail.com | 2026-10-16 | run-29
+- [email created] Dun-rite Contracting Inc | Trades — building | mike81martel@hotmail.com | 2026-10-16 | run-29
+- [email created] Silver Star Hot Tub Services Ltd | Trades — plumbing/HVAC | sshts@shaw.ca | 2026-10-16 | run-29
+- [email created] Eco Choice Carpet Cleaning | Cleaning/janitorial | info@ecochoicecleaning.ca | 2026-10-16 | run-29
+- [email created] Pristine Carpet Cleaning | Cleaning/janitorial | Pristinecarpetinc@gmail.com | 2026-10-16 | run-29
+- [email created] Crystalline Design & Drafting | Professional services | crdesigndrafting@gmail.com | 2026-10-16 | run-29
+- [email created] Pfitztech Electrical & Data | Trades — electrical | pfitztech@gmail.com | 2026-10-16 | run-29
+- [email created] BilBo TV & Marketing | Professional services | hello@bilbotv.ca | 2026-10-16 | run-29
+- [email created] BX Mechanical | Trades — plumbing/HVAC | info@bxmechanical.com | 2026-10-16 | run-29
+- [email created] Across Town Delivery | Transport/freight | jerry@acrosstowndelivery.com | 2026-10-16 | run-29
+- [email created] Double Time Delivery | Transport/freight | doubletimevernon@gmail.com | 2026-10-16 | run-29
+- [email created] KSP Custom Builders Ltd | Trades — building | Kai.KSPbuilders@gmail.com | 2026-10-16 | run-29
+- [email created] Hey It's Dave Professional Painting | Trades — exteriors | dave@heyitsdavepainting.com | 2026-10-16 | run-29
+- [email created] Fine Line Painting Ltd | Trades — exteriors | FineLinePaintLTD@gmail.com | 2026-10-16 | run-29
+- [email created] Archetype Construction | Trades — building | Jed@archetype-construction.com | 2026-10-16 | run-29
+- [email created] Charge Electrical Services Ltd | Trades — electrical | chris@chargeelectricalservices.ca | 2026-10-16 | run-29
+- [email created] McLean's Electrical Ltd | Trades — electrical | info@mcleanselectrical.com | 2026-10-16 | run-29
+- [email created] Pleasant Valley Trailers | Retail | pvtrailers@gmail.com | 2026-10-16 | run-29
+- [email created] BTE Construction Ltd | Trades — building | bteconstruction@outlook.com | 2026-10-16 | run-29
+- [email created] Blue Collar Junk Removal & Demolition | Waste/hauling | Mike@bluecollarjunkremoval.com | 2026-10-16 | run-29
+- [email created] Coldstream Garage Door | Trades — exteriors | info@coldstreamgaragedoor.com | 2026-10-16 | run-29
+- [email created] BMS Electric | Trades — electrical | info@bms-electric.ca | 2026-10-16 | run-29
+- [email created] Nokomis Landscaping Ltd | Landscaping/garden | nokomis.landscaping@gmail.com | 2026-10-16 | run-29
+- [email created] Restoration Lands Inc | Trades — excavation | info@restorationlands.com | 2026-10-16 | run-29
+- [email created] Wise Wildlife Control Services | Professional services | Pmwise@telus.net | 2026-10-16 | run-29
+- [email created] Blue Rhino Fence | Trades — exteriors | Wyatt@bluerhinofence.ca | 2026-10-16 | run-29
+- [email created] Talon Tree Service | Landscaping/garden | talontrees@gmail.com | 2026-10-16 | run-29
+- [email created] Stirling Peters Construction | Trades — building | Stirling.peters.construction@gmail.com | 2026-10-16 | run-29
+- [email created] MVE Plumbing & Gasfitting | Trades — plumbing/HVAC | mveplumbing@outlook.com | 2026-10-16 | run-29

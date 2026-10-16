@@ -221,6 +221,34 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-16 — scope: year-end invitations, 146 never-emailed Vernon and Coldstream crews (run 29)
+
+- [ACT NOW] #29-B9-YearEnd-Vernon-Crews.txt — 146 first contacts in the #27
+  wording, all Vernon or Coldstream. Neil: "Stay with Vernon area for now.
+  There is thousands of companies out there. Run #29 and find around 200."
+  Ordered outward from 45th Avenue: #1-#10 within a kilometre, #11-#29
+  downtown, 25th Ave and Kalamalka Lake Rd, #30-#48 Hwy 97 N, Highland Pl,
+  Waddington, Okanagan Landing and the edges of town, #49-#135 no storefront
+  ("here in Vernon"), #136-#146 Coldstream.
+- [SHORT] 146, not 200: the 200-search cap per session. Neil can reply to
+  continue; new finds go on as #147 onward.
+- [CHECKED] Every address against the log, the #24-#28 files, Gmail Sent by
+  address and domain, and the inbox. Sent caught Agar Schneider & Lett (Jun
+  15), Links Lawn & Yard (Jul 23), Window & Door Project Solutions (Aug 1)
+  and Sage Environmental (matt@, Oct 13); all four backfilled.
+- [LEFT OUT] About 125 already contacted. Not Vernon: GoPro Pest, Ktown Pest,
+  Greenlii, Billy's Hotshot, TwinTile, Versa-Tile. Chains: Roto-Rooter,
+  Nufloors outlet, Elephant Storage. Closed or solo: BTS Pressure Washing,
+  Vernon Software. Off-brief: Legacy Photography.
+- [WIN] #28 is producing already: Neil sent Fletcher Paine its #28 email at
+  9:15 on Oct 16. An hour later Suzanne (suzanne@fpageotechnical.ca) asked
+  through the website about a party for up to 30, Friday or Saturday, late
+  Nov or early Dec. Neil has answered.
+- [REPLIES WAITING] Michele (Vernon Lions) still waiting on a call time
+  before Nov 12.
+- [LOG] 146 run-29 rows; categories set by name (log_run left 61
+  Uncategorized). Fit 71-79, all above the 65 floor.
+
 ## Run 2026-10-16 — scope: year-end invitations, 155 never-emailed crews and offices (run 28, redone)
 
 - [ACT NOW] #28-B9-YearEnd-New-Crews.txt — 145 first contacts in the #27

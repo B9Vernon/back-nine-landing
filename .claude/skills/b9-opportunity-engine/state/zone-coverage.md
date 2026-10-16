@@ -31,24 +31,24 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | Zone | Status | Last | New found | Notes |
 |---|---|---|---|---|
 | 5000 Silver Star Rd business park | SWEPT | 2026-08-16 | 4 of 4 | one building, four tenants, none previously contacted |
-| Coldstream — Kalamalka Rd corridor | SWEPT | 2026-08-16 | 3 | Meier's, Coldstream Market, Kal Lake Store |
+| Coldstream — Kalamalka Rd corridor | SWEPT | 2026-10-16 | 3 + run 29 | Meier's, Coldstream Market, Kal Lake Store. Run 29, by trade on Facebook (no storefront walk): BMS Electric, Wise Wildlife (10203 Kalamalka Rd), plus Coldstream crews with no street listed: BTE, Blue Collar Junk, Coldstream Garage Door, Nokomis, Restoration Lands (9622 Hill Dr), Blue Rhino Fence, Talon Tree, Stirling Peters (Postill Dr), MVE Plumbing. |
 | Coldstream Valley — rural/agricultural | SWEPT | 2026-08-16 | 2 | Zelaney Farms, Tony's Craft Cidery |
 | Swan Lake / Old Kamloops Rd corridor | SWEPT | 2026-08-16 | 4 | campground, market, Castle hotel, Bright Angel |
 | Downtown — 30th Ave core | PARTIAL | 2026-10-15 | 6 + run 27 | DVA directory by category; storefronts not walked. Run 27 (year-end): 3005-3334 30th Ave offices (Direct Travel, Teach and Learn, Lake City Law, Compass Law, Sun Valley Dentistry, Bamboo Beach, Anytime Fitness). Most were July batch-200 drafts; Gmail decided warm vs cold. |
 | Downtown — 29th/31st/32nd St cross-blocks | PARTIAL | 2026-10-16 | 4 new + run 28 | Run 27 worked the office blocks by directory, not on foot: 32nd Ave 2903-3401 (Lighthouse, Culos, Museum, NOYFSS, John Howard, Accent PM, Diamond Dental), 32nd St 2901-3205 (Coldwell Banker, Sproing, Urban Systems), 30th St 3201 (NexusBC), 28th/29th/27th Ave (CMHA, NOFC, Hamlets, Monashee Optometry, ILV, Okanagan Spring). Retail storefronts not walked. |
-| Industrial park — 29th-31st St, 43rd-45th Ave | SWEPT | 2026-10-15 | 14 | Run 26 walked 45th (2700-2900), 43rd (2700-3009), 44th (2800s) and 29th St (4500-4700). Emails found for 14; no email anywhere for Backyard Pleasures, CMQ, Mark IV, OBC, Bushpro. 3201 45 Ave itself: Rise Gymnastics (#10). |
+| Industrial park — 29th-31st St, 43rd-45th Ave | SWEPT | 2026-10-15 | 14 | Run 26 walked 45th (2700-2900), 43rd (2700-3009), 44th (2800s) and 29th St (4500-4700). Emails found for 14; no email anywhere for Backyard Pleasures, CMQ, Mark IV, OBC, Bushpro. 3201 45 Ave itself: Rise Gymnastics (#10). Run 29, from Facebook pages: Progress Machine (104-4404 29 St), Horizon Detailing and IC's Mobile Detailing (4316 29 St), Okanagan Tree Service (4210 29 St), The Metal Garden (4700 31 St). The walk missed back-unit tenants. |
 | 27th Street corridor (Hwy 97) | SWEPT | 2026-10-15 | 3 new | 3600-4900 block: dealerships (Hilltop, Dodge, Bannister GM, Watkin, Hyundai), dental/physio cluster at 4005-4412, World Health. Mostly already logged — run 26 confirmed which were actually emailed. |
 | 32nd Street corridor | SWEPT | 2026-10-15 | 2 new | 3900-4411: hotels (Sandman, Super 8 closed, Prestige), Vernon Square, insurance (Bracken, Johnston Meier), Interior Savings/United Way at 4301. |
 | 43rd / 48th Ave + Anderson Way | SWEPT | 2026-10-15 | 2 new | 48th 2100-3401 (Toyota, Brandt, Genier's, Helmut's, Mediterranean, End of the Roll); Anderson Way 4800-5240 (Westland, Siwoski, Family First, NOMC). |
 | Village Green Centre + 27th St north | UNSWEPT | — | — | |
 | Polson Place / Hwy 6 East | PARTIAL | 2026-08-16 | 0 | mall tenants are national chains; low yield |
 | Fruit Union Plaza / Hwy 6 | UNSWEPT | — | — | |
-| 24th-25th St industrial/service | PARTIAL | 2026-10-16 | 2 + run 28 | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). First #28 draft (never sent): Okanagan Spirits (5204 24 St), Flooring Hub and Monument (26 St), Vernon Truck Center (4700 23 St). |
+| 24th-25th St industrial/service | PARTIAL | 2026-10-16 | 2 + run 28 | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). First #28 draft (never sent): Okanagan Spirits (5204 24 St), Flooring Hub and Monument (26 St), Vernon Truck Center (4700 23 St). Run 29, 25th Ave 4215-5301: Wrap A Tac and Unity MMA (4215), Paradise Dock & Lift (4311A), Air Tech Mechanical (4315), E & L Building (5301); Jetty Marine (4403 25 St), Mike V's (5401A 26 St). |
 | 34th St / Alexis Park Drive | PARTIAL | 2026-10-15 | 2 new | 34th St 3008-4790: Pacific Inn, HIE, Color Room, Monarch, Vernon Physio; run 27 added Flow Physio (3203 34 St). Alexis Park: only Venture Living (4240) so far. |
-| Waddington Drive | PARTIAL | 2026-10-16 | 2 | Run 28 redo: ProSew (740), Combined Mechanical (920). No email found for Fox & Sons (740), Clark Freightways, Trican, Bell Lumber & Pole, BC Fasteners (in log). |
-| Okanagan Landing Road | PARTIAL | 2026-10-16 | 1 | Run 28 redo, by directory: Rotech Motor (6235). Okanagan Recreational Rentals and Creekside Landing already in log; the rest are a church, museum and florist. |
-| Bella Vista / Westside Rd | UNSWEPT | — | — | |
-| Pleasant Valley Rd / 20th St | PARTIAL | 2026-10-16 | 3 | First #28 draft (never sent), by trade directory: Evolution Mechanical (6216), NOR Renovations (6230), Valley Marine (7238), Performance Marine (4801 20 St). Not walked. |
+| Waddington Drive | PARTIAL | 2026-10-16 | 3 | Run 28 redo: ProSew (740), Combined Mechanical (920). Run 29: M&K Ready Mix (650). No email found for Fox & Sons (740), Clark Freightways, Trican, Bell Lumber & Pole, BC Fasteners (in log). |
+| Okanagan Landing Road | PARTIAL | 2026-10-16 | 2 | Run 28 redo, by directory: Rotech Motor (6235). Run 29: Chapman Sand & Gravel. Okanagan Recreational Rentals and Creekside Landing already in log; the rest are a church, museum and florist. |
+| Bella Vista / Westside Rd | PARTIAL | 2026-10-16 | 1 | Run 29, from Facebook: Full Throttle Tree Service (Westside Rd). Not walked. |
+| Pleasant Valley Rd / 20th St | PARTIAL | 2026-10-16 | 3 | First #28 draft (never sent), by trade directory: Evolution Mechanical (6216), NOR Renovations (6230), Valley Marine (7238), Performance Marine (4801 20 St). Run 29: Metal Roofing & Siding Experts plant (7092 Pleasant Valley Rd). Not walked. |
 | BX / Silver Star Road foothills | SWEPT | 2026-07-25 | run-7 | worked heavily; likely stale by 2027 |
 | L&A Cross Road | PARTIAL | 2026-10-16 | 0 | Run 28 redo: Great West Equipment and Donald's in log; Gilmay RV is now at 8129 Highland Pl. No emails published. |
 | 58th Ave / north end | UNSWEPT | — | — | |
@@ -158,3 +158,26 @@ consistent with the log-wide ~26% email rate.
   split wrongly on `' | '`, so the email landed in the wrong column and the
   email/domain checks never ran. Name checks still caught most matches.
   Split on `'|'` and strip each field.
+
+## Method note — run 29 (2026-10-16): Vernon directories are used up; go to Facebook
+
+- Neil: "Stay with Vernon area for now." Run 29 is Vernon and Coldstream
+  only: 146 first contacts.
+- Directory and own-site queries for Vernon trades now return mostly logged
+  businesses. About 125 of run 29's finds were already in the log or an
+  earlier file, and okanagan-local.ca has nothing new for Vernon.
+- **The best source left is Facebook pages.** A standard search restricted
+  to facebook.com ("Vernon BC [trade] email") surfaces small crews that
+  never list on directories, and the page snippet usually shows the email.
+  78 of run 29's 146 came that way. Own-site queries ("Vernon BC [trade]
+  contact email", okanagan-local.ca blocked) gave 59.
+- About 140 Vernon businesses turned up with no email anywhere (names in
+  the run-29 scratch list, e.g. Artistic Ceramics, Stellar Craft
+  Cabinetry, Black Velvet Chimney Sweeps, Hill & Son Machining).
+- Gmail Sent caught four sends the log never had: Agar Schneider & Lett,
+  Links Lawn & Yard (a different domain from the run-2 "Links Lawn &
+  Landscaping" row), Window & Door Project Solutions, Sage Environmental.
+  All are backfilled. Keep checking Sent by domain AND by the free-mail
+  address before calling anything new.
+- The 200-search cap per session stopped the run at 146 of the ~200 asked
+  for. Continue as #147 onward in a new session.
