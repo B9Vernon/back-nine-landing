@@ -57,8 +57,8 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 
 | Zone | Status | Last | New found | Notes |
 |---|---|---|---|---|
-| Armstrong core | PARTIAL | 2026-10-16 | 5 | Run 28 redo, by directory: Hancon, North Valley Contracting, Armstrong Auto Recycling, Ironwood Landscaping, Reimer Bros. No email: Quality First Motors, DHW, Armstrong Crane, Tristar (Alberta-based). aschamber.com/directory lists 127 members but masks emails. |
-| Enderby core | PARTIAL | — | — | chamber contacted only |
+| Armstrong core | PARTIAL | 2026-10-16 | 10 | Run 28 redo, by directory: Hancon, North Valley Contracting, Armstrong Auto Recycling, Ironwood Landscaping, Reimer Bros; then Blackwell Building Movers, Eagle Rock Plumbing, Dynasty West, Monashee Outdoors, Maddocks. TNJ Plumbing was already emailed Aug 13 (backfilled). No email: Quality First Motors, DHW, Armstrong Crane, Tristar (Alberta-based). aschamber.com/directory lists 127 members but masks emails. |
+| Enderby core | PARTIAL | 2026-10-16 | 3 | Run 28 additions, by okanagan-local.ca: Burton Tree, Veach's Septic, Deep Creek Pools. Good Neighbour Fencing held as spare (old telus address). Starlight Drive-In and a school skipped. |
 | Lumby core | PARTIAL | 2026-10-16 | 2 | Run 28 redo, from 411.ca: Rocky Mountain Concrete, Galaxie Powder Coating. Names only: Ivan's Imports, Nagy Cylinder, Coldstream Valley Stucco, Lumby Truck & Car Wash. |
 | Lake Country (Main/Woodsdale/Berry) | PARTIAL | 2026-10-16 | 10 | Run 28 redo: 31 of 32 names were new to the log, the freshest ground left. Emails for Lake Country Crane, Staxon, Max Electric, Lake Country Landscaping, Kapiti, Deano's, ENCO, Pipe Piper, Hewitson, Danish. Still to look up: R&R Hoe, AppleGate, Adrenalin, Home Ready, Immaculate, Venetian, Steve's Plumbing, Viper Electric, Five Star, Virtue, Sierra, Quality Floor, Jennifer Fleming, Emax, BC Surveyors. |
 | Falkland / Cherryville | UNSWEPT | — | — | |

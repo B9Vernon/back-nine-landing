@@ -221,7 +221,7 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
-## Run 2026-10-16 — scope: year-end invitations, 145 never-emailed crews and offices (run 28, redone)
+## Run 2026-10-16 — scope: year-end invitations, 155 never-emailed crews and offices (run 28, redone)
 
 - [ACT NOW] #28-B9-YearEnd-New-Crews.txt — 145 first contacts in the #27
   wording, ordered outward from 45th Avenue, then Coldstream, Armstrong,
@@ -230,9 +230,15 @@ they were not included in the second-contact file.
   "There is a lot of duplicates in the last run. Find new businesses."
   - #1-#108: found today; none in the log, in #24-#27 or in Gmail.
   - #109-#145: the 37 new businesses from the first draft, unchanged.
-- [SHORT] 145 of the 150 asked for: WebSearch hit its 200-call session cap
-  at 108 new. Next: the Lake Country names still to look up
-  (zone-coverage.md), then Armstrong, Lumby and Enderby.
+- [ADDED] #146-#155 on Neil's request after the 145 went out: MWH
+  Geo-Surveys and Horizon Measurements (Vernon), Blackwell Building Movers,
+  Eagle Rock Plumbing, Dynasty West, Monashee Outdoors, Maddocks (Armstrong),
+  Burton Tree, Veach's Septic, Deep Creek Pools (Enderby). Appended so
+  #1-#145 keep their numbers. Gmail caught TNJ Plumbing (emailed Aug 13 at
+  its gmail address, unknown to the log); backfilled.
+- [NEXT] Lake Country names with no published email (R&R Hoe, Venetian,
+  Steve's, Viper, Five Star, Virtue, Sierra, Immaculate) need a phone or
+  form. Spares: Good Neighbour Fencing, Armstrong Pro IT, Bassani Tech.
 - [CHECKED] Every address against the log, the #24-#27 files, Gmail Sent by
   address and domain, and the inbox. Caught Energy Economics Solar (emailed
   Jul 21).

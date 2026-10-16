@@ -1,6 +1,6 @@
 B9 OPPORTUNITY & PARTNERSHIP ENGINE — RUN #28 (REDONE)
-Year-end parties — 145 crews and offices you've never emailed
-Prepared 2026-10-16. 145 emails, all paste straight into Gmail.
+Year-end parties — 155 crews and offices you've never emailed
+Prepared 2026-10-16. 155 emails, all paste straight into Gmail.
 This replaces the first #28 file, which is deleted.
 
 WHAT'S DIFFERENT FROM THE FIRST #28
@@ -14,31 +14,32 @@ with "My name is Neil."
   #109–#145  The 37 new businesses from the first #28. That file was
              never sent, so they still haven't heard from you. Their
              emails are word for word what you saw in the first #28.
+  #146–#155  10 more you asked for after seeing the file. They're at the
+             end so #1–#145 keep their numbers.
 
-I'M 5 SHORT OF 150
-You asked for 150 new businesses. The search tool stopped me at its limit
-of 200 searches for this session, with 108 found. Adding the 37 from the
-first draft makes 145. If you don't count those 37, I'm 42 short. Reply and
-I'll keep searching. Vernon's trade listings are mostly used up (seven out
-of ten businesses I found were already contacted), so the rest will come
-mainly from Lake Country, Armstrong, Lumby and Enderby, and from
-Vernon offices.
+NOW 155, PAST THE 150
+The first version of this file had 145. The search tool's limit stopped it
+at 108 new finds. You asked for 10 more, and they're #146–#155: two Vernon
+offices, five in Armstrong and three in Enderby. Vernon's trade listings
+are mostly used up (seven out of ten businesses I find there have already
+been contacted), so new ones now come mainly from the towns around it.
 
 WHO'S IN IT
 Your rule from #27: golfers, mostly men, about 30 people or fewer, and no
-societies, non-profits, seniors' homes or schools. All 145 are:
+societies, non-profits, seniors' homes or schools. All 155 are:
   - trades: electrical, plumbing/HVAC, masonry, painting, siding, stucco,
     drywall and ceilings, concrete coatings, excavation, landscaping,
     irrigation, decks and railings, gates and welding, powder coating
   - builders and renovators, trusses, flooring and countertops
   - appliance repair, auto, diesel, RV and auto glass shops
-  - trucking, crane, pile driving, mobile heavy-duty repair
+  - trucking, crane, pile driving, building movers, septic, mobile
+    heavy-duty repair
   - industrial and equipment firms: motors, tarps, mineral processing,
     beverage equipment, electrical wholesale
   - home tech and AV: alarms, automation, phone systems, sound
-  - small offices: architecture, environmental, hydrogeology, appraisal,
-    mortgages, web design
-  - a few bike, Nordic ski and e-bike shops
+  - small offices: architecture, environmental, hydrogeology,
+    geophysics, appraisal, mortgages, web design
+  - a few bike, Nordic ski, e-bike and hunting/fishing shops
 
 THE WORDING
 The version you picked for #27. The subject is the question. Each email
@@ -63,15 +64,20 @@ Starting at 45th Avenue and working outward:
   #97–#106  LAKE COUNTRY / WINFIELD (about 25 minutes away)
   #107–#108 LUMBY (about 25 minutes away)
   #109–#145 The 37 carried over from the first #28, in their old order.
+  #146–#155 ADDED: MWH Geo-Surveys and Horizon Measurements (Vernon),
+            then ARMSTRONG (#148–#152) and ENDERBY (#153–#155, about
+            35 minutes away).
 
 HOW I CHECKED THAT THEY'RE NEW
-Each of the 145 was checked against:
+Each of the 155 was checked against:
   - the engine's log of about 1,980 businesses, by name, address, email
     and website
   - every email in #24, #24b, #25, #26 and #27
   - your Sent folder, by exact address and by company domain
   - your inbox, in case any of them had written to you first
-One was caught: Energy Economics Solar, which you emailed in July. It's out.
+Two were caught: Energy Economics Solar (you emailed it in July) and TNJ
+Plumbing & Heating in Armstrong (you emailed its Gmail address on Aug 13).
+Both are out, and TNJ's send is now in the log.
 
 LEFT OUT ON PURPOSE
   About 70 businesses that came up in today's searches were already in the
@@ -85,6 +91,10 @@ LEFT OUT ON PURPOSE
     (Kelowna), Olameter and Finning (national).
   Bad addresses: All Seasons RV (its listed email belongs to its web host)
     and B&L Security (an old shawcable.com address).
+  Already in the log, found in the second search: Country West Supply,
+    Click-A-Geek, BAR Engineering, McPherson Maddox.
+  Spares if any of #146–#155 bounce: Good Neighbour Fencing (Enderby,
+    an old telus address), Armstrong Pro IT, Bassani Tech.
   Not your crowd: Raven Hair Studio, Vernon Catering (another party venue),
     a cannabis store.
   No email anywhere: Hunter Fire Protection, Baker Signs, Mountainaire,
@@ -104,6 +114,8 @@ to bounce. These look the oldest or most personal:
   #40 Gilmay RV (Craig's address, from an RV dealers' list)
   #24 Ace Appliances, #67 VinDeck, #90 Edison Electric, #104 Pipe Piper
       (from Facebook)
+  #151 Monashee Outdoors (from Facebook), #152 Maddocks (from a contractor
+      directory), #154 Veach's (gmail) and #155 Deep Creek (hotmail)
   #44 Combined Mechanical: the address is Murray Ardell's, the contact
       their site gives for construction work. The email says it's for the
       Vernon crew.
@@ -1864,5 +1876,125 @@ Subject: Does a year-end party at Back Nine interest you?
 Hi Bill,
 
 My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having the Vernon office's Christmas or year-end party at Back Nine interest you? At a restaurant the lawyers and the support staff tend to end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and play or just hang out in the lounge. We're open 24/7, so it can start whenever the office wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+146. MWH Geo-Surveys Ltd
+To: info@mwhgeo.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi MWH Geo-Surveys team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes from your Anderson Way office, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? This one's for the Vernon office. With crews out on surveys, a restaurant table only gets you the handful of colleagues you happened to sit with. Here the whole office gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the field crew's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+147. Horizon Measurements
+To: sales@horizonmeasurements.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Horizon Measurements team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the sales side and the techs end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last unit's out the door.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+148. Blackwell Building Movers
+To: info@blackwellbuildingmovers.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Blackwell team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? Your crew moves whole buildings, and a restaurant party still splits it across separate tables, so you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the last move's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+149. Eagle Rock Plumbing & Heating
+To: admin@eaglerockplumbingandheating.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Eagle Rock team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts the plumbers and the heating techs at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the last service call's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+150. Dynasty West Contracting
+To: grayson@dynastywest.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Grayson,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With crews on residential and agricultural builds, a restaurant table only gets you the handful of people you happened to sit with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+151. Monashee Outdoors
+To: info@monasheeoutdoors.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Monashee Outdoors team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the sales floor and the back room end up at separate tables, and you leave having talked to a handful of people. Here your team gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start once the store's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+152. Maddocks Construction Ltd
+To: info@maddocksconstruction.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Maddocks team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the site crews and the office end up at separate tables, and you leave having talked to a handful of people. Here the whole company gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the crews wrap up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+153. Burton Tree Service
+To: james@burtontree.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi James,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A tree crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been climbing with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, about thirty-five minutes from Enderby, and we're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+154. Veach's Septic Service
+To: veachssepticservice@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Veach's team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the drivers and the office end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's about thirty-five minutes from Enderby, and we're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+155. Deep Creek Pools & Ponds Contracting
+To: deep_creek_pools@hotmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Deep Creek team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A tile crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been setting tile beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about thirty-five minutes from Enderby, and we're open 24/7, so it can start whenever the last pool's done.
 
 https://backninegolf.ca/local/vernonbc/

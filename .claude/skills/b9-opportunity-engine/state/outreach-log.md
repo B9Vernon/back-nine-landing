@@ -1960,12 +1960,13 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 
 - [email created] DuMoulin Boskovich LLP — Vernon | Legal | info@dubo.com | 2026-06-15 | backfill-jun | sent 2026-06-15 (Gmail)
 - [email created] Richbuilt Homes Ltd | Home builder | darren@richbuilt.ca | 2026-06-15 | backfill-jun | sent 2026-06-15 (Gmail)
+- [email created] TNJ Plumbing & Heating — Armstrong | Trades — plumbing/HVAC | tnjplumbingandheating@gmail.com | 2026-08-13 | backfill-aug | sent 2026-08-13 (Gmail)
 
-## Run 28 (redone) — year-end invitations, 145 never-emailed crews and offices (2026-10-16)
+## Run 28 (redone) — year-end invitations, 155 never-emailed crews and offices (2026-10-16)
 
 The first #28 draft was never sent; it was replaced. These 37 were its only
 new businesses and carry over into the redone file as #109-#145. The 108
-new rows after them are #1-#108.
+new rows after them are #1-#108, then #146-#155 (10 added on request).
 
 - [email created] Homestead Drywall | Trades — building | sales@homesteaddrywall.ca | 2026-10-16 | run-28
 - [email created] VP3 Real Estate (Value Plus 3%) | Real estate | info@vp3.ca | 2026-10-16 | run-28
@@ -2112,3 +2113,13 @@ new rows after them are #1-#108.
 - [email created] Danish Construction Inc | Trades — building | office@danishconstruction.ca | 2026-10-16 | run-28
 - [email created] Rocky Mountain Concrete | Trades — building | sales@rockymountainconcrete.ca | 2026-10-16 | run-28
 - [email created] Galaxie Powder Coating | Manufacturing | galaxiepowdercoating@gmail.com | 2026-10-16 | run-28
+- [email created] MWH Geo-Surveys Ltd | Surveying/geomatics | info@mwhgeo.com | 2026-10-16 | run-28
+- [email created] Horizon Measurements | Industrial supply | sales@horizonmeasurements.com | 2026-10-16 | run-28
+- [email created] Blackwell Building Movers | Moving/storage | info@blackwellbuildingmovers.ca | 2026-10-16 | run-28
+- [email created] Eagle Rock Plumbing & Heating | Trades — plumbing/HVAC | admin@eaglerockplumbingandheating.ca | 2026-10-16 | run-28
+- [email created] Dynasty West Contracting | Trades — building | grayson@dynastywest.ca | 2026-10-16 | run-28
+- [email created] Monashee Outdoors | Retail | info@monasheeoutdoors.ca | 2026-10-16 | run-28
+- [email created] Maddocks Construction Ltd | Trades — building | info@maddocksconstruction.com | 2026-10-16 | run-28
+- [email created] Burton Tree Service | Landscaping/garden | james@burtontree.ca | 2026-10-16 | run-28
+- [email created] Veach's Septic Service | Trades — septic/pumping | veachssepticservice@gmail.com | 2026-10-16 | run-28
+- [email created] Deep Creek Pools & Ponds Contracting | Trades — building | deep_creek_pools@hotmail.com | 2026-10-16 | run-28
