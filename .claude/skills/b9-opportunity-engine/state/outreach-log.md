@@ -2278,3 +2278,39 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] Talon Tree Service | Landscaping/garden | talontrees@gmail.com | 2026-10-16 | run-29
 - [email created] Stirling Peters Construction | Trades — building | Stirling.peters.construction@gmail.com | 2026-10-16 | run-29
 - [email created] MVE Plumbing & Gasfitting | Trades — plumbing/HVAC | mveplumbing@outlook.com | 2026-10-16 | run-29
+
+## Run 30 — year-end invitations, 33 never-emailed crews in Vernon, Coldstream, Armstrong/Spallumcheen and Lumby (2026-10-16)
+
+- [email created] HiFi House of Sound | Electronics/AV | info@hifihouseofsound.com | 2026-10-16 | run-30
+- [email created] A1 Bus Ltd | Transport/freight | info@a1bus.ca | 2026-10-16 | run-30
+- [email created] TACK Builders | Trades — building | Tackbuilders@gmail.com | 2026-10-16 | run-30
+- [email created] Canadian Residential Inspection Services | Professional services | c.lorincz@canadianresidential.com | 2026-10-16 | run-30
+- [email created] Pleasant Valley Services | Trades — building | info@pvsvernon.ca | 2026-10-16 | run-30
+- [email created] High Tech Precision | Manufacturing | j_t_hildebrand@hotmail.com | 2026-10-16 | run-30
+- [email created] Clear Vision Window Washing | Cleaning/janitorial | cvwwinfo@gmail.com | 2026-10-16 | run-30
+- [email created] DATS (Digital Action Tracking System) | Professional services | info@getdats.com | 2026-10-16 | run-30
+- [email created] Check Transportation Inc | Transport/freight | greg@checktrans.com | 2026-10-16 | run-30
+- [email created] Silver Star Liquor Store | Retail | info@silverstarliquorstore.ca | 2026-10-16 | run-30
+- [email created] Silverstar Solar | Trades — electrical | info@silverstarsolar.com | 2026-10-16 | run-30
+- [email created] Sierra Water BC | Trades — plumbing/HVAC | rickdubois@shaw.ca | 2026-10-16 | run-30
+- [email created] 28th Avenue Homes Ltd | Trades — building | info@28thavehomes.ca | 2026-10-16 | run-30
+- [email created] OK Assured Tax Ltd | Accounting/finance | okassured@gmail.com | 2026-10-16 | run-30
+- [email created] MCM Renovations | Trades — building | marcusmolloy@hotmail.com | 2026-10-16 | run-30
+- [email created] Meyer Designs Ltd | Professional services | Kelly@MeyerDesigns.ca | 2026-10-16 | run-30
+- [email created] Coldstream Lumber | Hardware/building supply | info@coldstreamlumber.com | 2026-10-16 | run-30
+- [email created] ATS Agri-Trans | Transport/freight | info@agri-trans.ca | 2026-10-16 | run-30
+- [email created] One Stop Automotive Repairs | Auto service | onestopauto@shaw.ca | 2026-10-16 | run-30
+- [email created] Danger Tree Removal | Landscaping/garden | Dangertreeremoval@gmail.com | 2026-10-16 | run-30
+- [email created] Country Tractor (Armstrong) | Industrial supply | sales@countrytractor.ca | 2026-10-16 | run-30
+- [email created] Titan Industrial Plate Processing | Manufacturing | brad@titanprocessing.ca | 2026-10-16 | run-30
+- [email created] Sierra Industries | Manufacturing | sierra.industries2@gmail.com | 2026-10-16 | run-30
+- [email created] J. Armstrong Shapter Inc | Accounting/finance | john@armstrongaccounting.com | 2026-10-16 | run-30
+- [email created] Gambrinus Malting | Manufacturing | info@gambrinusmalting.com | 2026-10-16 | run-30
+- [email created] North Valley Equipment Ltd | Industrial supply | Info@northvalleyequipment.ca | 2026-10-16 | run-30
+- [email created] Armstrong Wine & Brew | Retail | info@armstrongwineandbrew.com | 2026-10-16 | run-30
+- [email created] LNH Equipment Ltd | Industrial supply | lnhequipmentltd@gmail.com | 2026-10-16 | run-30
+- [email created] Sunfire Systems Ltd | Retail | info@sunfiresystems.ca | 2026-10-16 | run-30
+- [email created] RONA Greenridge Ventures Lumby | Hardware/building supply | admin@greenridgeventures.ca | 2026-10-16 | run-30
+- [email created] Backyard Bobcat Service | Trades — excavation | backyardbobcat@hotmail.com | 2026-10-16 | run-30
+- [email created] High Ground Services | Trades — electrical | Highgroundservices@hotmail.com | 2026-10-16 | run-30
+- [email created] Rouck Bros Sawmill Ltd | Manufacturing | drouck@rouckbros.com | 2026-10-16 | run-30

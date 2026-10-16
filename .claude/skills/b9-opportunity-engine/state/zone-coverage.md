@@ -40,9 +40,9 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | 27th Street corridor (Hwy 97) | SWEPT | 2026-10-15 | 3 new | 3600-4900 block: dealerships (Hilltop, Dodge, Bannister GM, Watkin, Hyundai), dental/physio cluster at 4005-4412, World Health. Mostly already logged — run 26 confirmed which were actually emailed. |
 | 32nd Street corridor | SWEPT | 2026-10-15 | 2 new | 3900-4411: hotels (Sandman, Super 8 closed, Prestige), Vernon Square, insurance (Bracken, Johnston Meier), Interior Savings/United Way at 4301. |
 | 43rd / 48th Ave + Anderson Way | SWEPT | 2026-10-15 | 2 new | 48th 2100-3401 (Toyota, Brandt, Genier's, Helmut's, Mediterranean, End of the Roll); Anderson Way 4800-5240 (Westland, Siwoski, Family First, NOMC). |
-| Village Green Centre + 27th St north | UNSWEPT | — | — | |
+| Village Green Centre + 27th St north | PARTIAL | 2026-10-16 | 0 | Run 30: mall tenants are chains (Save-On, Hudson's Bay, CIBC, Browns) and a brow studio. Nothing on brief. |
 | Polson Place / Hwy 6 East | PARTIAL | 2026-08-16 | 0 | mall tenants are national chains; low yield |
-| Fruit Union Plaza / Hwy 6 | UNSWEPT | — | — | |
+| Fruit Union Plaza / Hwy 6 | PARTIAL | 2026-10-16 | 0 | Run 30, Polson/Hwy 6: grocery, salon, pet stores, science centre. Nothing on brief. |
 | 24th-25th St industrial/service | PARTIAL | 2026-10-16 | 2 + run 28 | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). First #28 draft (never sent): Okanagan Spirits (5204 24 St), Flooring Hub and Monument (26 St), Vernon Truck Center (4700 23 St). Run 29, 25th Ave 4215-5301: Wrap A Tac and Unity MMA (4215), Paradise Dock & Lift (4311A), Air Tech Mechanical (4315), E & L Building (5301); Jetty Marine (4403 25 St), Mike V's (5401A 26 St). |
 | 34th St / Alexis Park Drive | PARTIAL | 2026-10-15 | 2 new | 34th St 3008-4790: Pacific Inn, HIE, Color Room, Monarch, Vernon Physio; run 27 added Flow Physio (3203 34 St). Alexis Park: only Venture Living (4240) so far. |
 | Waddington Drive | PARTIAL | 2026-10-16 | 3 | Run 28 redo: ProSew (740), Combined Mechanical (920). Run 29: M&K Ready Mix (650). No email found for Fox & Sons (740), Clark Freightways, Trican, Bell Lumber & Pole, BC Fasteners (in log). |
@@ -51,7 +51,7 @@ Append a row after every prospecting run. A zone is stale after ~6 months.
 | Pleasant Valley Rd / 20th St | PARTIAL | 2026-10-16 | 3 | First #28 draft (never sent), by trade directory: Evolution Mechanical (6216), NOR Renovations (6230), Valley Marine (7238), Performance Marine (4801 20 St). Run 29: Metal Roofing & Siding Experts plant (7092 Pleasant Valley Rd). Not walked. |
 | BX / Silver Star Road foothills | SWEPT | 2026-07-25 | run-7 | worked heavily; likely stale by 2027 |
 | L&A Cross Road | PARTIAL | 2026-10-16 | 0 | Run 28 redo: Great West Equipment and Donald's in log; Gilmay RV is now at 8129 Highland Pl. No emails published. |
-| 58th Ave / north end | UNSWEPT | — | — | |
+| 58th Ave / north end | PARTIAL | 2026-10-16 | 0 | Run 30: RONA, Walmart, Mary Brown's: chains only, no emails. |
 
 ## Ring 10-30 km
 
@@ -181,3 +181,26 @@ consistent with the log-wide ~26% email rate.
   address before calling anything new.
 - The 200-search cap per session stopped the run at 146 of the ~200 asked
   for. Continue as #147 onward in a new session.
+
+## Method note — run 30 (2026-10-16): Vernon is close to saturated; the outer towns are not
+
+- Neil: "Stay in Vernon... Scan all the main streets. Once that is done you
+  can scan this side of Armstrong and lumby, lavington and coldstream."
+- 194 searches gave 33 new fits. In Vernon, about 40 finds were already
+  logged and most others were chains or off-brief retail. Street queries
+  with facebook.com return storefront retail. Own-site queries by
+  industrial road ("Waddington Drive Vernon BC company contact email") give
+  1-2 emails each, but mostly for businesses already logged.
+- Name lookups for the run-29 names-only list failed (0 of 8 unrestricted;
+  about 1 in 4 restricted to facebook.com). Those businesses have no
+  published email; drop the list.
+- Lumby, Armstrong and Spallumcheen trade queries on facebook.com gave 1-2
+  new emails each, nearly all unlogged. Own-site "contact us" queries for
+  Armstrong, Spallumcheen and Coldstream also worked (Shapter, Gambrinus,
+  North Valley Equipment, Coldstream Lumber, Rouck Bros).
+- lumby.ca/major-employers lists Lumby firms with 10+ staff (Gudeit Bros,
+  RJ Schunter, Castle Cheese, D&M Auto Recycling). None has a findable
+  email.
+- Next: continue the Armstrong side (Otter Lake Cross Rd, Larkin, Grandview
+  Flats), Lumby (Mabel Lake Rd, Dure Meadow, Shields), Lavington and
+  Coldstream by trade. Vernon only through new trade terms.

@@ -221,6 +221,26 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-16 — scope: year-end invitations, 33 never-emailed crews, Vernon then Coldstream, Armstrong side and Lumby (run 30)
+
+- [ACT NOW] #30-B9-YearEnd-Vernon-and-Area.txt — 33 first contacts in the #27
+  wording: #1-#14 Vernon, #15-#17 Coldstream, #18-#27 Armstrong and
+  Spallumcheen, #28-#33 Lumby. Neil asked for about 100 and told me to
+  sweep Vernon's main streets first, then this side of Armstrong, Lumby,
+  Lavington and Coldstream.
+- [SHORT] 33, not 100. 194 of 200 searches used. Vernon is close to
+  saturated: about 40 finds were already logged and the rest were mostly
+  chains or off-brief. The outer towns were nearly all new. The next
+  session should continue from #34 there.
+- [CHECKED] Every address against the log, #24-#29, Gmail Sent by address
+  and domain, and the inbox. Nothing caught.
+- [LEFT OUT] Vernon Lawn Care (New Jersey phone), TBHE, Stoneset, Okanagan
+  Contractors (location not confirmed). Mercer Forestry, ValleyWood, Rogers
+  Foods, Tolko (too big). Gorilla, Super Save, Buckerfield's (chains).
+  Sparks on 6 (one person), Steve Bertram (realtor), Wellman Cleaning,
+  Spall Storage, Electric Fat Bike (probably closed).
+- [LOG] 33 run-30 rows; categories set by name. Fit 66-76, all at or above 65.
+
 ## Run 2026-10-16 — scope: year-end invitations, 146 never-emailed Vernon and Coldstream crews (run 29)
 
 - [ACT NOW] #29-B9-YearEnd-Vernon-Crews.txt — 146 first contacts in the #27
