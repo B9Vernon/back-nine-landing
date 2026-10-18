@@ -228,7 +228,7 @@ they were not included in the second-contact file.
 - [SOURCE] July phone/form prospects with addresses found today, plus the
   run-38 spare (Vernon Tech Solutions).
 - [CHECKED] #24-#39, Gmail Sent by address, domain and name, inbox.
-- [LOG] 10 rows tagged "first email (#40)". Fit 69-76.
+- [LOG] 10 rows tagged "first email (#40)". Fit 71-78.
 
 ## Run 2026-10-18 — scope: year-end invitations, 10 more in Vernon, never emailed (run 39)
 
