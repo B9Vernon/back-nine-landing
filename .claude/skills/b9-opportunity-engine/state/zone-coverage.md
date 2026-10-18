@@ -338,3 +338,19 @@ consistent with the log-wide ~26% email rate.
   page (July sources can be stale), Gmail-check by address, domain and
   name, then tag the existing row "first email ADDR DATE (#NN year-end)".
 
+## Method note — run 39 (2026-10-18): domain-first Gmail check on July rows
+
+- Neil: "find 10 more" (after run 38, same Vernon-only scope).
+- Cheapest order: take July phone/form rows that carry a website, search
+  Gmail Sent by DOMAIN first (16 domains per query, with a control), and
+  only then spend a lookup on the survivors. 11 of about 45 domains had
+  been emailed (Jul/Aug, Oct 13, or #28) and are now tagged.
+- Lookups (extended mode) found current emails for about 60% of the rest;
+  a few sites hide the address (Quantum Power, DEUTO).
+- Still unspent in the Vernon July pool: welding/fab shops listed by name
+  only (Arc City, D N R, Mountain Goat, HBL, Bearded Dragon, Mt Ida,
+  Aberdeen Machine), roofers (Laing, Purple Horizon, Silverstar, Skyfix,
+  Kevin's), towing (AAA Brian's, Action Auto, Ultimate), builders (OV
+  Custom, Dressel Built, Bennison, Sticks and Stones), Pack Rat Movers,
+  BAR Engineering, Auger and Seb's, Devon's and Okanagan Quality Roofing.
+
