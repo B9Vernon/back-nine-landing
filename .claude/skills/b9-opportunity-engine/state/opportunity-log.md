@@ -221,6 +221,17 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-18 — scope: year-end invitations, 10 in Vernon, never emailed (run 38)
+
+- [ACT NOW] #38-B9-YearEnd-Vernon-Never-Emailed.txt — 10 first emails in the
+  #27 wording, all Vernon; #1-#3 a few blocks from 45th Ave.
+- [SOURCE] Existing log rows with no email ever sent: 5 July phone/form
+  prospects (addresses found now) and 5 July drafts never sent. Addresses
+  re-checked on own sites, Facebook or directory listings.
+- [CHECKED] #24-#37, Gmail Sent by address, domain and name, inbox.
+- [LOG] 10 rows tagged "first email (#38)"; 33 untracked July/Oct 13 sends
+  tagged "sent (Gmail)". Fit 73-76.
+
 ## Run 2026-10-18 — scope: year-end invitations, Vernon scan then outward, 20 never-emailed (run 37)
 
 - [ACT NOW] #37-B9-YearEnd-Vernon-and-Outward.txt — 20 first contacts in the

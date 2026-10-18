@@ -322,3 +322,19 @@ consistent with the log-wide ~26% email rate.
   and "Coldstream" (Ohio, Victoria AU) all exist elsewhere. Keep a
   candidate only with a BC phone (250/778/236) or a BC street address.
 
+## Method note — run 38 (2026-10-18): Vernon's never-emailed rows, not new searches
+
+- Neil: "Run #38 . Just find 10. The last run is getting a little too far
+  out of vernon." Keep runs to Vernon (and at most Coldstream) unless asked.
+- New Vernon searches are exhausted, so run 38 used the log itself: about
+  1,270 rows have no email on record (July phone/form prospects) and many
+  July drafts carry no send marker. Gmail Sent decides which were emailed.
+- Of about 40 July drafts checked, 33 had in fact been sent (July or the
+  Oct 13 year-end batch) with no marker in the log. All 33 are now tagged
+  "sent DATE (Gmail)". The other drafts and the phone/form rows gave the 10.
+- No contact-form auto-replies in the inbox for Jul-Aug, so the July form
+  prospects were most likely never submitted.
+- Next time: re-verify the address on the business's own site or Facebook
+  page (July sources can be stale), Gmail-check by address, domain and
+  name, then tag the existing row "first email ADDR DATE (#NN year-end)".
+
