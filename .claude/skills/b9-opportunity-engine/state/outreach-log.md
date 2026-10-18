@@ -2508,3 +2508,8 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] NOS BJJ & MMA | Martial arts | shuswapbjj@gmail.com | 2026-10-18 | run-34
 - [email created] Elite Mile Shuttle & Wine Tours | Tour operator | booking@elitemile.com | 2026-10-18 | run-34
 - [email created] Decorworld Benjamin Moore Paint and Window Coverings | Retail | benmoorevernon@gmail.com | 2026-10-18 | run-34
+
+## Run 35 — year-end invitations, 2 never-emailed Vernon landscapers (2026-10-18)
+
+- [email created] WAZA Landscaping | Landscaping/garden | waltozero@hotmail.com | 2026-10-18 | run-35
+- [email created] GardenScape | Landscaping/garden | Figureshawna@hotmail.com | 2026-10-18 | run-35
