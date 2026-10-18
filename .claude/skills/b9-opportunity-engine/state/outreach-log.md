@@ -2314,3 +2314,42 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] Backyard Bobcat Service | Trades — excavation | backyardbobcat@hotmail.com | 2026-10-16 | run-30
 - [email created] High Ground Services | Trades — electrical | Highgroundservices@hotmail.com | 2026-10-16 | run-30
 - [email created] Rouck Bros Sawmill Ltd | Manufacturing | drouck@rouckbros.com | 2026-10-16 | run-30
+
+## Backfill — earlier send found in Gmail while screening run 31 (logged 2026-10-18)
+
+- [email created] OH KIM Sushi & Grill | Restaurant | ohkimeatery@gmail.com | 2026-07-17 | backfill-jul | sent 2026-07-17 (Gmail)
+
+## Run 31 — year-end invitations, 32 never-emailed businesses on the eight streets Neil named, plus nearby Vernon, Armstrong and Lumby (2026-10-18)
+
+- [email created] Fort Asian Food | Grocery/market | fortasianfood@gmail.com | 2026-10-18 | run-31
+- [email created] Rich Tea Vernon | Restaurant/cafe | richteavernon@gmail.com | 2026-10-18 | run-31
+- [email created] Corbett Office Plus | Retail | orderdesk@corbettoffice.com | 2026-10-18 | run-31
+- [email created] Freedom Body Piercing & Tattooing | Tattoo/piercing | info@freedombodyart.com | 2026-10-18 | run-31
+- [email created] Record City | Retail | recordcityvernon@gmail.com | 2026-10-18 | run-31
+- [email created] RAKU Rice & Noodle Bar | Restaurant | raku_restaurant@shaw.ca | 2026-10-18 | run-31
+- [email created] Local Losers Studio/Gallery | Clothing retail | locallosersco@gmail.com | 2026-10-18 | run-31
+- [email created] Canada's Best Value Inn & Suites Vernon | Hotel/motel/B&B | booking@cbvivernon.ca | 2026-10-18 | run-31
+- [email created] The Cracked Pot | Restaurant/cafe | crackedpotcoffee@shawbiz.ca | 2026-10-18 | run-31
+- [email created] Cowboys Choice | Retail | karen@cowboyschoice.ca | 2026-10-18 | run-31
+- [email created] FACTS First Aid Certified Training Systems Ltd | Professional services | info@factsfirstaid.com | 2026-10-18 | run-31
+- [email created] Excellent Edge Pro Shop | Retail | excellentedgeproshop@outlook.com | 2026-10-18 | run-31
+- [email created] Cruise Okanagan | Tour operator | cruiseokanagan@telus.net | 2026-10-18 | run-31
+- [email created] Outboard Waterfront Pub | Pub/bar | contact@outboardpub.com | 2026-10-18 | run-31
+- [email created] Vernon Kung Fu | Martial arts | info@vernonkungfu.ca | 2026-10-18 | run-31
+- [email created] Okanagan Fixwings | Aviation service | ryan@okanaganfixwings.ca | 2026-10-18 | run-31
+- [email created] Blue Mountain Nursery | Landscaping/garden | info@bluemountainnursery.ca | 2026-10-18 | run-31
+- [email created] RE/MAX Armstrong - North Valley | Real estate | admin-e@remaxnorthvalley.com | 2026-10-18 | run-31
+- [email created] Ebenezer's | Retail | info@ebenezers.ca | 2026-10-18 | run-31
+- [email created] Labelpak | Signage/print | sales@labelpakprinting.com | 2026-10-18 | run-31
+- [email created] PostNet Vernon | Signage/print | bc112@postnet.ca | 2026-10-18 | run-31
+- [email created] Latitude Marine | Marine service | info@latitudemarine.ca | 2026-10-18 | run-31
+- [email created] Vantastic Rentals Ltd | Vehicle rental | info@vantasticrentals.com | 2026-10-18 | run-31
+- [email created] MPC Executive RV Rentals and Kal Lake Tours | Tour operator | mpcmaintenanceplus@hotmail.com | 2026-10-18 | run-31
+- [email created] North Okanagan Wild Adventures | Tour operator | info@northokanaganwild.com | 2026-10-18 | run-31
+- [email created] Silver Star Stays | Vacation rental management | info@silverstarstays.com | 2026-10-18 | run-31
+- [email created] Down Under Pipe Inspection Ltd | Trades — plumbing/HVAC | downunderpi@gmail.com | 2026-10-18 | run-31
+- [email created] Easthill Saw Service | Industrial supply | easthillsaw@gmail.com | 2026-10-18 | run-31
+- [email created] HammerDown Earthworks | Trades — excavation | Hammerdownearthworks@gmail.com | 2026-10-18 | run-31
+- [email created] New Branding Iron Pub | Pub/bar | BrandingIronPub@hotmail.com | 2026-10-18 | run-31
+- [email created] Dopamine Strength | Fitness | A24armstrong@gmail.com | 2026-10-18 | run-31
+- [email created] OKanagan Outpost | Clothing retail | theokoutpost@gmail.com | 2026-10-18 | run-31

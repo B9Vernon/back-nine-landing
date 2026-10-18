@@ -221,6 +221,37 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-18 — scope: year-end invitations, Neil's eight main streets in order, 32 never-emailed businesses (run 31)
+
+- [ACT NOW] #31-B9-YearEnd-Street-Scan.txt — 32 first contacts in the #27
+  wording. Neil: "Scan these streets in order... Do not make up emails...
+  find around 100." #1-#7 30th Ave, #8-#10 32nd St / Hwy 97, #11 27th St,
+  #12 25th Ave, #13-#16 Okanagan Landing Rd (with the airport), #17-#18
+  Pleasant Valley Rd (Armstrong end), #19-#29 elsewhere in Vernon, #30-#32
+  Armstrong and Lumby. Highway 6 and Bella Vista Rd had nothing new.
+- [SHORT] 32, not 100. About 155 of 200 searches used; stopped when the
+  searches stopped finding anything new. About 80 of the businesses on
+  the eight streets that publish an email were already logged. Every
+  address came from a page that showed it; none was guessed.
+- [CHECKED] Every address against the log, #24-#30, Gmail Sent by address
+  and domain, and the inbox. Sent caught OH KIM Sushi & Grill (Jul 17);
+  dropped and backfilled.
+- [LEFT OUT] Wells Gray Tours (seniors' coach tours), Expressions of Time
+  (off-brief), Hot Spot on Six (unidentified), Nirvana Cabanas (too small).
+  No email anywhere: Mahoroba, Pulse, Portico, Wedge Cheesery, Kal Sports
+  Bar, The Rice Box, Vernon Secure Self Storage, Vanspen, Vernon
+  Equipment, Aurora Helicopters, Cobbler's Bench, plus the Alignable names.
+- [FLAG] Franchise locations kept (Canada's Best Value Inn, RE/MAX North
+  Valley, PostNet): locally owned, local inboxes; the header says to
+  delete them if national brands should be skipped. RE/MAX admin-e@ may be
+  the Enderby office, so the email says it's for the Armstrong office.
+- [REPLIES] Paradise Dock & Lift (25 staff, answered), Unity & Light (crew
+  in Salmon Arm, answered), Active Living Centre (declined, own event),
+  website forms from Suzanne, Jake and Chelsey (all answered). Michele at
+  the Vernon Lions (Oct 15) is still waiting for call times.
+- [LOG] 32 run-31 rows; categories set by name; OH KIM backfill row.
+  Fit 66-76, all at or above 65.
+
 ## Run 2026-10-16 — scope: year-end invitations, 33 never-emailed crews, Vernon then Coldstream, Armstrong side and Lumby (run 30)
 
 - [ACT NOW] #30-B9-YearEnd-Vernon-and-Area.txt — 33 first contacts in the #27
