@@ -354,3 +354,15 @@ consistent with the log-wide ~26% email rate.
   Custom, Dressel Built, Bennison, Sticks and Stones), Pack Rat Movers,
   BAR Engineering, Auger and Seb's, Devon's and Okanagan Quality Roofing.
 
+## Method note — run 40 (2026-10-18): the Vernon July pool is thinning
+
+- Neil: "find 10 more" (third Vernon-only batch after runs 38-39).
+- 24 lookups gave 9 new addresses plus the spare (Vernon Tech Solutions).
+  About a third of the July names turned out to be outside Vernon
+  (Enderby, Lake Country, Kelowna, Armstrong) and a third had no email.
+- Left in the Vernon July pool, mostly names with no website: welders
+  (Arc City, D N R, Mountain Goat, HBL, Mt Ida, Aberdeen Machine), roofers
+  (Laing, Purple Horizon, Skyfix), towing (Action Auto, Ultimate), Tuck
+  Landscaping, CK Design, BC Fasteners, Sticks and Stones. Expect lower
+  yield; consider a fresh source (e.g. a new Vernon directory) next.
+

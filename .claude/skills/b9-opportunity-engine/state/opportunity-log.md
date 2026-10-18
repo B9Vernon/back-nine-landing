@@ -221,6 +221,15 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-18 — scope: year-end invitations, 10 more in Vernon/Coldstream, never emailed (run 40)
+
+- [ACT NOW] #40-B9-YearEnd-Vernon-Never-Emailed-3.txt — 10 first emails in the
+  #27 wording: 9 Vernon, 1 Coldstream; #1-#2 a few minutes from 45th Ave.
+- [SOURCE] July phone/form prospects with addresses found today, plus the
+  run-38 spare (Vernon Tech Solutions).
+- [CHECKED] #24-#39, Gmail Sent by address, domain and name, inbox.
+- [LOG] 10 rows tagged "first email (#40)". Fit 69-76.
+
 ## Run 2026-10-18 — scope: year-end invitations, 10 more in Vernon, never emailed (run 39)
 
 - [ACT NOW] #39-B9-YearEnd-Vernon-Never-Emailed-2.txt — 10 first emails in the
