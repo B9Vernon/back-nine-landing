@@ -133,7 +133,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Butcher Boys Food Market | independent grocer (est. 1959) | Info@butcherboys.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | follow-up 2026-10-15 (#27 year-end)
 - [email created] Askew's Foods — Armstrong | independent grocer | armstrong@askewsfoods.com | 2026-07-12 | batch-200
 - [email created] Vance Creek Hotel & Conference Centre | hotel, SilverStar village | info@vancecreekhotel.com | 2026-07-12 | batch-200
-- [email created] Baccata Ridge Winery | winery, Grindrod (Enderby) | baccataridgewinery@gmail.com | 2026-07-12 | batch-200
+- [email created] Baccata Ridge Winery | winery, Grindrod (Enderby) | baccataridgewinery@gmail.com | 2026-07-12 | batch-200 | sent 2026-07-15 (Gmail) | follow-up 2026-10-18 (#31 year-end)
 - [email created] Fieldstone Organics | organic granary, Armstrong | info@fieldstoneorganics.ca | 2026-07-12 | batch-200
 - [email created] Salt Fowler Team — RE/MAX Vernon | top realtor team | webinfo@saltfowler.com | 2026-07-12 | batch-200
 - [email created] Turtle Bay Marina & Resort | marina/boat rentals, Lake Country | boatrentals@turtlebaymarina.com | 2026-07-12 | batch-200
@@ -440,7 +440,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Silver Sage Stables | Barn wedding venue | Eventective/venue listing inquiry | 2026-07-16 | run-2
 - [email created] Camo Country | Rustic wedding venue | Venue listing inquiry | 2026-07-16 | run-2
 - [email created] Raven and Steel Farms | Wedding venue | Venue listing inquiry | 2026-07-16 | run-2
-- [email created] Pedego Electric Bikes Oyama (Okanagan Trail Bikes) | E-bike sales & rentals | 250-548-0020 + site booking | 2026-07-16 | run-2
+- [email created] Pedego Electric Bikes Oyama (Okanagan Trail Bikes) | E-bike sales & rentals | 250-548-0020 + site booking | 2026-07-16 | run-2 | first email oyama@pedegocanada.ca 2026-10-18 (#31 year-end)
 - [email created] Make My Fun (MMF) | Games & fun retail | makemyfunvernon@gmail.com | 2026-07-16 | run-2
 - [email created] K&B Hobbies and Games | Hobby store | kbhobbiesgames@gmail.com | 2026-07-16 | run-2
 - [email created] Obsidian Games | Tabletop game store | info@obsidiangames.ca | 2026-07-16 | run-2
@@ -1337,7 +1337,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] The Boarding House Cafe and Bakery | Local business | The Boarding House Cafe & Bakery, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Bean Scene Coffee House Vernon | Local business | Bean Scene Coffee House, Vernon (site/phone) | 2026-07-26 | run-8 | duplicate of "Bean Scene Coffee House" — do not contact again
 - [email created] The Cracked Pot Coffee Emporium | Local business | The Cracked Pot Coffee Emporium, Vernon (site/phone) | 2026-07-26 | run-8
-- [email created] Kin and Pod | Local business | Kin + Pod, Vernon (site/social) | 2026-07-26 | run-8
+- [email created] Kin and Pod | Local business | Kin + Pod, Vernon (site/social) | 2026-07-26 | run-8 | first email kinpodchocolate@gmail.com 2026-10-18 (#31 year-end)
 - [email created] Amplified Coffee | Local business | Amplified Coffee, Vernon (site/social) | 2026-07-26 | run-8
 - [email created] Natures Fare Markets Vernon | Local business | Nature's Fare Markets, 101-4201 25A Ave, Vernon (naturesfare.com/contact-us) | 2026-07-26 | run-8 | duplicate of "Nature's Fare Markets (Vernon HQ + store)" — do not contact again
 - [email created] Gourmet To Go Fine Meats Meals and Catering | Local business | Gourmet To Go, Vernon (site/phone) | 2026-07-26 | run-8
@@ -1461,7 +1461,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Heartwood Homes Ltd | Local business | 128 Ravine Dr, Coldstream (site/phone) | 2026-07-26 | run-8 | duplicate of "Heartwood Homes" — do not contact again
 - [email created] Access Motorsports Lumby | Local business | Access Motorsports, Lumby (site/phone) | 2026-07-26 | run-8
 - [email created] Alices Restaurant Lumby | Local business | Alice's Restaurant, Lumby (site/phone) | 2026-07-26 | run-8
-- [email created] Bloom Wellness Center Lumby | Local business | Bloom Wellness Center, Lumby (site/contact) | 2026-07-26 | run-8
+- [email created] Bloom Wellness Center Lumby | Local business | Bloom Wellness Center, Lumby (site/contact) | 2026-07-26 | run-8 | first email bloomwellness5@gmail.com 2026-10-18 (#31 year-end)
 - [email created] Cherryville Artisans Shop | Local business | Cherryville Artisans Shop (site/contact) | 2026-07-26 | run-8
 - [email created] Connect Coffee House Lumby | Local business | Connect Coffee House, Lumby (site/social) | 2026-07-26 | run-8
 - [email created] Cozy Cabins Lumby | Local business | Cozy Cabins, Lumby (site/contact) | 2026-07-26 | run-8
@@ -1522,7 +1522,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Ashton Creek General Store | Local business | Ashton Creek General Store, Enderby (site/phone) | 2026-07-26 | run-8
 - [email created] Mabel Lake Resort and Airpark | Local business | Mabel Lake Resort & Airpark, Enderby (site/contact) | 2026-07-26 | run-8
 - [email created] Enderby and District Chamber of Commerce | Local business | Enderby & District Chamber of Commerce (enderbychamber.com contact) | 2026-07-26 | run-8 | duplicate of "Enderby & District Chamber of Commerce" — do not contact again
-- [email created] Enderby Rentals | Local business | enderbyrentals.ca + 250-838-7328 | 2026-07-26 | run-8
+- [email created] Enderby Rentals | Local business | info@enderbyrentals.ca | 2026-07-26 | run-8 | sent 2026-08-01 (Gmail) | follow-up 2026-10-18 (#31 year-end)
 - [email created] Fork Seasons | Uncategorized | info@forkseasons.ca | 2026-07-26 | run-9
 - [email created] Lawson Engineering Ltd. | Trades — building | marketing@lawsonengineering.ca | 2026-07-26 | run-9
 - [email created] Cambria Plumbing Ltd | Trades — plumbing/HVAC | cambriaplumbing@outlook.com | 2026-07-26 | run-9
@@ -2353,3 +2353,102 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] New Branding Iron Pub | Pub/bar | BrandingIronPub@hotmail.com | 2026-10-18 | run-31
 - [email created] Dopamine Strength | Fitness | A24armstrong@gmail.com | 2026-10-18 | run-31
 - [email created] OKanagan Outpost | Clothing retail | theokoutpost@gmail.com | 2026-10-18 | run-31
+
+## Run 31, part 2 — year-end invitations to Neil's uploaded list (contacts_export_vernon_40km.csv): 96 new businesses, 3 first emails to July form/phone prospects, 2 follow-ups, Staxon skipped (2026-10-18)
+
+- [email created] Enderby Country Store | Retail | enderbycountrystore@gmail.com | 2026-10-18 | run-31
+- [email created] Huber Construction | Trades — building | info@huberconstructionltd.com | 2026-10-18 | run-31
+- [email created] CS Manufacturing / Cedarshed | Manufacturing | sales@cedarshed.com | 2026-10-18 | run-31
+- [email created] Mountain View Electric | Trades — electrical | info@mtnview.ca | 2026-10-18 | run-31
+- [email created] North Enderby Timber | Manufacturing | sales@netimber.ca | 2026-10-18 | run-31
+- [email created] All Connected Computer and Technical Services | IT/computer repair | sajlake@gmail.com | 2026-10-18 | run-31
+- [email created] BC Log Design | Professional services | info@bclogdesign.ca | 2026-10-18 | run-31
+- [email created] Okanagan Horseback | Tour operator | okhorseback@gmail.com | 2026-10-18 | run-31
+- [email created] Parkview Upholstery | Upholstery/furniture repair | parkvuph@msn.com | 2026-10-18 | run-31
+- [email created] Mara Cottage & Mara Camping | Hotel/motel/B&B | maracottage@live.ca | 2026-10-18 | run-31
+- [email created] Debra van Beers Notary Corporation | Legal | debra@vanbeersnotary.ca | 2026-10-18 | run-31
+- [email created] Okanagan Fertilizer Ltd | Industrial supply | ken@okfert.com | 2026-10-18 | run-31
+- [email created] Chris' Automotive | Auto service | admin@chrisautomotive.ca | 2026-10-18 | run-31
+- [email created] Acera Insurance Lake Country | Professional services | hellolakecountry@acera.ca | 2026-10-18 | run-31
+- [email created] Superior Deck Ltd | Trades — building | superiordeckltd@hotmail.com | 2026-10-18 | run-31
+- [email created] Lake Country Growers Mushrooms | Farm/orchard | info@lcgmushrooms.ca | 2026-10-18 | run-31
+- [email created] Louise Perry — After Dark Distillery | Liquor retail | info@afterdarkdistillery.com | 2026-10-18 | run-31
+- [email created] Asam Shahid — ASAM Orchards | Farm/orchard | asamorchard@gmail.com | 2026-10-18 | run-31
+- [email created] Dorel Krsta — ASG Produce Ltd | Farm/orchard | dkrsta@telus.net | 2026-10-18 | run-31
+- [email created] Kashif Mohammad — KM Orchard | Farm/orchard | kmorchardltd@gmail.com | 2026-10-18 | run-31
+- [email created] Doug Pederson — Pederson Farms | Farm/orchard | pedersonfarms@gmail.com | 2026-10-18 | run-31
+- [email created] Wild Flight Farm | Farm/orchard | office@wildflightfarm.ca | 2026-10-18 | run-31
+- [email created] Greenbush Greenhouses and Farm | Farm/orchard | info@greenbushgreenhouses.ca | 2026-10-18 | run-31
+- [email created] Green Croft Gardens | Farm/orchard | farms@greencroftgardens.com | 2026-10-18 | run-31
+- [email created] Naturally Green Acres Gardens | Farm/orchard | naturallygreenacresgardens@gmail.com | 2026-10-18 | run-31
+- [email created] Rasa Creek Farm | Farm/orchard | admin@rasacreekfarm.com | 2026-10-18 | run-31
+- [email created] Armstrong Apiaries | Farm/orchard | armstrongapiaries@gmail.com | 2026-10-18 | run-31
+- [email created] Angela Bawtree — Ashton Creek Ranch | Farm/orchard | ajbawtree@telus.net | 2026-10-18 | run-31
+- [email created] Arthur Cayford — Cayford Orchard | Farm/orchard | cayfords@telus.net | 2026-10-18 | run-31
+- [email created] Paul Gill — Fruits 'n Blooms | Farm/orchard | a.gill@telus.net | 2026-10-18 | run-31
+- [email created] Cathy Mitchell — Herons Landing Farm | Farm/orchard | heronslandingorders@gmail.com | 2026-10-18 | run-31
+- [email created] Serena Fochler — Hold it Orchard | Farm/orchard | sfochler@hotmail.ca | 2026-10-18 | run-31
+- [email created] Amber Stammler — Indigo Valley Farm | Farm/orchard | amber.stammler@gmail.com | 2026-10-18 | run-31
+- [email created] Kami Johnson — Monte Lake Microgreens | Farm/orchard | montelakemicrogardens@gmail.com | 2026-10-18 | run-31
+- [email created] Okanagan Cliffs Homestead | Farm/orchard | okanagancliffs@gmail.com | 2026-10-18 | run-31
+- [email created] Nana Ondos — Sleepy Hollow Gardens | Farm/orchard | sleepyhollowgardens23@gmail.com | 2026-10-18 | run-31
+- [email created] Smiling Earth Farm | Farm/orchard | smilingearthfarm@gmail.com | 2026-10-18 | run-31
+- [email created] Opal Knorr — Twig Creek Farm | Farm/orchard | mytwigcreekfarm@gmail.com | 2026-10-18 | run-31
+- [email created] Honey Onyx Apiary | Farm/orchard | honeyonyxapiary@gmail.com | 2026-10-18 | run-31
+- [email created] Sproule & Daughters Farm | Farm/orchard | brooke@sproule-daughtersfarm.com | 2026-10-18 | run-31
+- [email created] LaRiviere Farm | Farm/orchard | lariv@shaw.ca | 2026-10-18 | run-31
+- [email created] Curlew Orchard | Farm/orchard | curleworchard@gmail.com | 2026-10-18 | run-31
+- [email created] Elderberry Fields | Farm/orchard | hey@elderberryfields.ca | 2026-10-18 | run-31
+- [email created] Mara Valley Produce | Farm/orchard | maravalleyproduce@gmail.com | 2026-10-18 | run-31
+- [email created] Bee-Yotch Honey | Farm/orchard | beeyotch.honey@gmail.com | 2026-10-18 | run-31
+- [email created] SilverStar Veggies | Farm/orchard | silverstarveggies@gmail.com | 2026-10-18 | run-31
+- [email created] Song Hollow Farm | Farm/orchard | veronica_faulkner@ymail.com | 2026-10-18 | run-31
+- [email created] Orchard Green Farms | Farm/orchard | orchardgreenfarms@gmail.com | 2026-10-18 | run-31
+- [email created] Enderby Dental Centre | Dental/ortho | enderbydentalcentre@gmail.com | 2026-10-18 | run-31
+- [email created] Lower Shuswap Stewardship Society | Non-profit/society | lowershuswap@gmail.com | 2026-10-18 | run-31
+- [email created] Feed Enderby District | Non-profit/society | info@enderbyfoodbank.ca | 2026-10-18 | run-31
+- [email created] Lake Country Food Assistance Society | Non-profit/society | lakecountry.foodbank@gmail.com | 2026-10-18 | run-31
+- [email created] Deep Creek Tool Museum | Non-profit/society | deepcrk@telus.net | 2026-10-18 | run-31
+- [email created] Teddy Bear Tea At Mackie Lake House | Non-profit/society | mackiehousemanager@gmail.com | 2026-10-18 | run-31
+- [email created] Songbird Retreat | Spa/wellness | info@songbirdretreat.com | 2026-10-18 | run-31
+- [email created] Imaginarium | Retail | livewithmoxy@gmail.com | 2026-10-18 | run-31
+- [email created] Green Velvet North Country | Retail | greenvelvetnc@live.ca | 2026-10-18 | run-31
+- [email created] Malleable Mutts | Pet services | malleablemutts@gmail.com | 2026-10-18 | run-31
+- [email created] Jill of All Trades | Trades — building | jillofalltrades8@gmail.com | 2026-10-18 | run-31
+- [email created] Darren Robinson Photography | Photography | darren@darrenrobinsonphotography.com | 2026-10-18 | run-31
+- [email created] Jaime Seward Artist | Artisan/maker | jaimeseward@shaw.ca | 2026-10-18 | run-31
+- [email created] Freida Whales Entertainment | Entertainment | missfreidawhales@gmail.com | 2026-10-18 | run-31
+- [email created] Randy Fehr — Coldstream Games | Retail | sale.coldstreamgames@gmail.com | 2026-10-18 | run-31
+- [email created] Darcy Beauregard — 3D Printifinity | Artisan/maker | dybeauregard@hotmail.com | 2026-10-18 | run-31
+- [email created] Michael Harris — Harcraft Wood Products | Artisan/maker | cigarman274@gmail.com | 2026-10-18 | run-31
+- [email created] Jim Bailey — Mobile Knife Sharpening | Artisan/maker | baileyjim1962@gmail.com | 2026-10-18 | run-31
+- [email created] JDL Wooden Home Decor | Artisan/maker | jdlwoodenhomedecor@gmail.com | 2026-10-18 | run-31
+- [email created] Chris Stock — Designs on Okanagan Street | Clothing retail | christinedstock@gmail.com | 2026-10-18 | run-31
+- [email created] Laurel Fredin — Laurel's Boutique | Clothing retail | contact.laurelsboutique@gmail.com | 2026-10-18 | run-31
+- [email created] Simone Kashuba — ECHT Authentic Austrian | Food vendor | echtaustrian@gmail.com | 2026-10-18 | run-31
+- [email created] Carol Nickel — Fresh Blend Foods | Food vendor | freshblendfoods@gmail.com | 2026-10-18 | run-31
+- [email created] Eileen Thomlinson — Muffins 'n More | Food vendor | muffinsnmore@shaw.ca | 2026-10-18 | run-31
+- [email created] Kathy Preston — Oh for FUDGE Sake | Food vendor | weedogs@hotmail.com | 2026-10-18 | run-31
+- [email created] Roberta Wells — OK Valley Freeze Dried | Food vendor | robertawells30@gmail.com | 2026-10-18 | run-31
+- [email created] Balbir Banger — Samosa Lady | Food vendor | balvir_banger82@hotmail.com | 2026-10-18 | run-31
+- [email created] Rianna Onos — RiRi's Bakery | Food vendor | onosrianna@gmail.com | 2026-10-18 | run-31
+- [email created] Lisa Harris — Beads & Butterflies | Artisan/maker | l69lisaeharris@hotmail.com | 2026-10-18 | run-31
+- [email created] Glenda Jones — Crazy Crafting Ladies | Artisan/maker | luckysabc@yahoo.com | 2026-10-18 | run-31
+- [email created] Patty Skoreyko — Disobedient by Nature | Artisan/maker | patriciarose@telus.net | 2026-10-18 | run-31
+- [email created] Monica Dyck — Divinity Artisan Glass | Artisan/maker | monica.km@hotmail.com | 2026-10-18 | run-31
+- [email created] Cathy Moore — Eagle Rock Pottery | Artisan/maker | eaglerockpotterystudio@gmail.com | 2026-10-18 | run-31
+- [email created] Ingrid Mueller — Magic Acres | Artisan/maker | potterygirl@live.ca | 2026-10-18 | run-31
+- [email created] Bailey McAreavy — Flourishworld Studio | Artisan/maker | oliveandbrambleco@gmail.com | 2026-10-18 | run-31
+- [email created] Joyce Regier — Joyce's Crafts | Artisan/maker | joyceregier@gmail.com | 2026-10-18 | run-31
+- [email created] Christine Kashuba — Artist Christine Kashuba | Artisan/maker | christinekashuba@gmail.com | 2026-10-18 | run-31
+- [email created] Kim Hunter — Kimmy's Creations | Artisan/maker | kdhunter24@hotmail.com | 2026-10-18 | run-31
+- [email created] Laura Bremner — L Creations | Artisan/maker | lbremner@msn.com | 2026-10-18 | run-31
+- [email created] Marilyn Smith — Making Memories | Artisan/maker | marilyns2380@gmail.com | 2026-10-18 | run-31
+- [email created] Mimi Grad — Mimi's Creative Mind | Artisan/maker | mimigrad@gmail.com | 2026-10-18 | run-31
+- [email created] Radiant Creepations | Artisan/maker | debbie1976@hotmail.ca | 2026-10-18 | run-31
+- [email created] Kris Wagner — Sweet Love Soaps | Artisan/maker | sweetlovesoapsbc@gmail.com | 2026-10-18 | run-31
+- [email created] Amanda O'Brian — The Goat Soap Factory | Artisan/maker | thegoatsoapfactory@gmail.com | 2026-10-18 | run-31
+- [email created] Kelly Wright — Two Crazy Dogs | Artisan/maker | kellywright61@yahoo.ca | 2026-10-18 | run-31
+- [email created] Brittany Feaver — Whispering Wick | Artisan/maker | whisperingwickcreations@gmail.com | 2026-10-18 | run-31
+- [email created] Tracee Andrews — Whispers on the Ocean | Artisan/maker | t@traceeandrews.com | 2026-10-18 | run-31
+- [email created] Arielle Friedrich — Wild Witch Craft Co. | Artisan/maker | wildwitchcraftco@outlook.com | 2026-10-18 | run-31

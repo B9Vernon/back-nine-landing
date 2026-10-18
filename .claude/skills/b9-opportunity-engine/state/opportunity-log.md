@@ -251,6 +251,16 @@ they were not included in the second-contact file.
   the Vernon Lions (Oct 15) is still waiting for call times.
 - [LOG] 32 run-31 rows; categories set by name; OH KIM backfill row.
   Fit 66-76, all at or above 65.
+- [PART 2] Neil uploaded contacts_export_vernon_40km.csv (102 rows) and
+  asked for an email to each, in the same file: #33-#133. Staxon skipped
+  (same year-end email sent Oct 16, run 28). Enderby Rentals and Baccata
+  Ridge get follow-ups (Gmail Sent confirmed Aug 1 and Jul 15; both sends
+  now recorded). Kin + Pod, Bloom and Pedego were July form/phone prospects
+  with no email sent, so they get the introduction. #86-#133 break the
+  standing targeting rule (food banks, society, museum, Mackie Lake House,
+  dental, performer, ~40 one-person makers); written because Neil asked
+  for the whole list, flagged in the header for deletion. 96 new rows
+  logged as run-31 under a part-2 header; no fit gate applied to part 2.
 
 ## Run 2026-10-16 — scope: year-end invitations, 33 never-emailed crews, Vernon then Coldstream, Armstrong side and Lumby (run 30)
 
