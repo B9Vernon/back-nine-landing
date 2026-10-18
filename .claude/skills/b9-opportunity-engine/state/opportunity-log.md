@@ -221,6 +221,18 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-18 — scope: year-end invitations, Vernon scan then outward, 20 never-emailed (run 37)
+
+- [ACT NOW] #37-B9-YearEnd-Vernon-and-Outward.txt — 20 first contacts in the
+  #27 wording: #1-#3 Vernon, #4-#5 Coldstream/Lavington, #6-#10 Lake
+  Country, #11-#19 Enderby, #20 North Okanagan.
+- [CHECKED] Log, #24-#36, Gmail Sent by address, domain and name, inbox.
+  Sent caught Chapman Mechanical (Oct 13); dropped and backfilled.
+- [FIX] #36 O'Rourke = Peak Cellars (emailed Jul 13); #36 Lake Country
+  Recreation is in Wisconsin. Both sent; both marked. TC Solutions and
+  Toncar (#36) not yet sent.
+- [LOG] 20 run-37 rows, one backfill, #36 sends tagged; fit 66-76.
+
 ## Run 2026-10-18 — scope: year-end invitations plus larger corporations, 12 never-emailed (run 36)
 
 - [ACT NOW] #36-B9-YearEnd-Larger-Companies-and-Crews.txt — 12 first contacts

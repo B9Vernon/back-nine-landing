@@ -299,3 +299,26 @@ consistent with the log-wide ~26% email rate.
 - Regular crews: Lake Country and Enderby still yield via Facebook and the
   MNBC and BC Wood directories; HomeStars and StarOfService hide emails.
 
+## Method note — run 37 (2026-10-18): Vernon scan, then outward
+
+- Neil: "Run #37 . Give Vernon a good scan then move outward. Find 20 or so"
+- Vernon: about 40 searches on trades and types not tried before
+  (countertops, insulation, fencing, millwrights, paving, automation, boat
+  rentals, recycling, golf shops, forestry, mechanical contractors) and on
+  other directories. About 35 Vernon finds with an email were already
+  logged; 3 new (Ace Mechanical, Interior Recycling, Solutions Forestry).
+  Vernon is effectively exhausted for published emails.
+- Outward: Coldstream, Armstrong and Lumby came back nearly all logged.
+  Lake Country gave 5 and Enderby 9. The best new source was the Shuswap
+  Construction Industry Professionals directory (scip.bc.ca, listings and
+  the 2020/2025 PDFs), which prints emails for Enderby contractors.
+  Falkland, Cherryville, Grindrod and Mara had nothing that fit.
+- Gmail Sent caught Chapman Mechanical (admin@, Oct 13, never logged;
+  backfilled). Search Sent by company NAME as well as domain.
+- Two #36 errors found and marked in the log: O'Rourke Family Estate is
+  Peak Cellars (emailed Jul 13 at info@peakcellars.com), and Lake Country
+  Recreation is in Lake Country, Wisconsin (262 area code).
+- Rule from now on: "Lake Country" (Wisconsin), "Enderby" (Leicestershire)
+  and "Coldstream" (Ohio, Victoria AU) all exist elsewhere. Keep a
+  candidate only with a BC phone (250/778/236) or a BC street address.
+

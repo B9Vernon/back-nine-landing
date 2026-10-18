@@ -37,7 +37,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Farmstrong Cider Company | cidery, Armstrong | info@farmstrongcider.com | 2026-07-12 | batch-200
 - [email created] Village Cheese Company | artisan food, Armstrong | vcheese@villagecheese.com | 2026-07-12 | batch-200
 - [email created] Marten Brewpub | brewpub, downtown Vernon | ORDERS@MartenBrewpub.com | 2026-07-12 | batch-200
-- [email created] Peak Cellars (O'Rourke) | winery, Lake Country | info@peakcellars.com | 2026-07-12 | batch-200
+- [email created] Peak Cellars (O'Rourke) | winery, Lake Country | info@peakcellars.com | 2026-07-12 | batch-200 | sent 2026-07-13 (Gmail) | year-end email 2026-10-18 went to visit@ofestate.com (#36, as O'Rourke Family Estate)
 - [email created] Tolko Industries | forestry HQ Vernon (major employer) | CorporateCommunications@tolko.com | 2026-07-12 | batch-200 | follow-up 2026-10-13
 - [email created] Tekmar Control Systems (Watts) | manufacturing, Vernon | info@tekmarcontrols.com | 2026-07-12 | batch-200 | follow-up 2026-10-13
 - [email created] Watkin Motors Ford | auto dealer (est. 1913), Vernon | info@watkinmotors.com | 2026-07-12 | batch-200
@@ -945,7 +945,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Langley Freight Lines | Local business | 600 Waddington Drive + 250-549-2157 | 2026-07-25 | run-6
 - [email created] Northline Carriers | Local business | 7436 Fleming Road + 250-542-7010 | 2026-07-25 | run-6
 - [email created] R J Fisher Transport | Local business | 3905 17th Avenue + 250-549-4214 | 2026-07-25 | run-6
-- [email created] DCT Chambers Trucking | Local business | dctchambers.com contact page | 2026-07-25 | run-6 | first email operations@dctchambers.com 2026-10-18 (#36 year-end)
+- [email created] DCT Chambers Trucking | Local business | dctchambers.com contact page | 2026-07-25 | run-6 | first email operations@dctchambers.com 2026-10-18 (#36 year-end) | sent 2026-10-18 (Gmail)
 - [email created] Van Kam Freightways Vernon | Local business | vankam.com Vernon terminal page | 2026-07-25 | run-6
 - [email created] ACE Courier Services | Local business | ACE Courier Services Vernon (website/phone) | 2026-07-25 | run-6
 - [email created] Monashee Surveying and Geomatics | Local business | admin@monasheesurveying.com | 2026-07-25 | run-6 | sent 2026-07-26 (Gmail)
@@ -2518,14 +2518,38 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 
 ## Run 36 — year-end invitations, 5 larger companies and 7 crews never emailed (2026-10-18)
 
-- [email created] Associated Environmental Consultants (Vernon office) | Engineering/environmental (larger firm) | inquiries@ae.ca | 2026-10-18 | run-36
-- [email created] PRT Vernon Nursery | Forestry — seedling nursery (larger firm) | prt.vr@prt.com | 2026-10-18 | run-36
-- [email created] Vernon Seed Orchard Company | Forestry — seed orchard | dan@vsoc.ca | 2026-10-18 | run-36
-- [email created] Mercer Forestry Services | Forestry — logging/hauling (larger firm) | MFS@Mercerint.com | 2026-10-18 | run-36
-- [email created] O'Rourke Family Estate | Winery | visit@ofestate.com | 2026-10-18 | run-36
-- [email created] Tri-Lake Electric Ltd | Trades — electrical | r.besinger@hotmail.com | 2026-10-18 | run-36
+- [email created] Associated Environmental Consultants (Vernon office) | Engineering/environmental (larger firm) | inquiries@ae.ca | 2026-10-18 | run-36 | sent 2026-10-18 (Gmail)
+- [email created] PRT Vernon Nursery | Forestry — seedling nursery (larger firm) | prt.vr@prt.com | 2026-10-18 | run-36 | sent 2026-10-18 (Gmail)
+- [email created] Vernon Seed Orchard Company | Forestry — seed orchard | dan@vsoc.ca | 2026-10-18 | run-36 | sent 2026-10-18 (Gmail)
+- [email created] Mercer Forestry Services | Forestry — logging/hauling (larger firm) | MFS@Mercerint.com | 2026-10-18 | run-36 | sent 2026-10-18 (Gmail)
+- [email created] O'Rourke Family Estate | Winery | visit@ofestate.com | 2026-10-18 | run-36 | sent 2026-10-18 (Gmail) | duplicate of "Peak Cellars (O'Rourke)" — emailed 2026-07-13, do not contact again
+- [email created] Tri-Lake Electric Ltd | Trades — electrical | r.besinger@hotmail.com | 2026-10-18 | run-36 | sent 2026-10-18 (Gmail)
 - [email created] TC Solutions | Trades — plumbing/HVAC | Admin@tc-solutions.ca | 2026-10-18 | run-36
-- [email created] Lake Country Recreation | Marine service | lakecountryrec@gmail.com | 2026-10-18 | run-36
-- [email created] Gorilla Contracting Services | Trades — restoration | Darren.gorilla.contracting@gmail.com | 2026-10-18 | run-36
+- [email created] Lake Country Recreation | Marine service | lakecountryrec@gmail.com | 2026-10-18 | run-36 | sent 2026-10-18 (Gmail) | not local: Lake Country, Wisconsin (262 area code), sent in error — do not contact again
+- [email created] Gorilla Contracting Services | Trades — restoration | Darren.gorilla.contracting@gmail.com | 2026-10-18 | run-36 | sent 2026-10-18 (Gmail)
 - [email created] Toncar Contracting | Trades — excavation | toncar1967@yahoo.ca | 2026-10-18 | run-36
-- [email created] Sperlich Log Construction | Trades — building | sales@canadianlogandtimber.com | 2026-10-18 | run-36
+- [email created] Sperlich Log Construction | Trades — building | sales@canadianlogandtimber.com | 2026-10-18 | run-36 | sent 2026-10-18 (Gmail)
+- [email created] Chapman Mechanical Ltd | Trades — plumbing/HVAC | admin@chapmanmechanical.ca | 2026-10-13 | backfill-oct | sent 2026-10-13 (Gmail)
+
+## Run 37 — year-end invitations, 20 never-emailed crews and shops, Vernon first then outward (2026-10-18)
+
+- [email created] Ace Mechanical Plumbing & Heating | Trades — plumbing/HVAC | alvin@acemechanical.ca | 2026-10-18 | run-37
+- [email created] Interior Recycling | Recycling/scrap | info@interiorrecycling.com | 2026-10-18 | run-37
+- [email created] Solutions Forestry Services | Forestry — consulting | info@solutionsforestry.ca | 2026-10-18 | run-37
+- [email created] Rider Ventures | Wildfire/flood crews | info@riderventures.ca | 2026-10-18 | run-37
+- [email created] Lavington Turf Farms | Agriculture/farm — sod | info@lavingtonturf.com | 2026-10-18 | run-37
+- [email created] Okanagan Septic & Excavation | Trades — excavation | Rick@OkanaganSeptic.ca | 2026-10-18 | run-37
+- [email created] Lake Country Plumbing & Gas | Trades — plumbing/HVAC | lcplumbing@shaw.ca | 2026-10-18 | run-37
+- [email created] Royal Window Cleaning | Window cleaning | office@royalwindows.ca | 2026-10-18 | run-37
+- [email created] Lake Country Brewing Co | Brewery | lakecountrybrewingco@gmail.com | 2026-10-18 | run-37
+- [email created] Lake Country Brazilian Jiu-Jitsu | Martial arts | lakecountrybjj@outlook.com | 2026-10-18 | run-37
+- [email created] Baird Bros | Concrete/gravel supply | bairdbros.ca@gmail.com | 2026-10-18 | run-37
+- [email created] Bee-Jay's Excavating | Trades — excavation | dale.beejays@gmail.com | 2026-10-18 | run-37
+- [email created] D Webb Contracting | Trades — excavation | dwebbcon@shaw.ca | 2026-10-18 | run-37
+- [email created] Integrity Drilling | Trades — well drilling | info@integritydrilling.ca | 2026-10-18 | run-37
+- [email created] Cedar Solutions & Millworks | Manufacturing — cedar mill | dwayne@cedarsolutions.ca | 2026-10-18 | run-37
+- [email created] MJK Plumbing & Heating | Trades — plumbing/HVAC | mjkplumbheat@gmail.com | 2026-10-18 | run-37
+- [email created] Canadian 4x4 | Auto service | canadian4x4@outlook.com | 2026-10-18 | run-37
+- [email created] Okanagan Geothermal | Trades — plumbing/HVAC | info@okanagangeothermal.net | 2026-10-18 | run-37
+- [email created] Reimer's Farm Service | Landscape supply/custom farm | info@reimerslandscapesupply.com | 2026-10-18 | run-37
+- [email created] MJ's Stucco & Plaster | Trades — exteriors | mjsstuccoandplaster@hotmail.com | 2026-10-18 | run-37
