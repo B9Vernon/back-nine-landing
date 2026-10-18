@@ -221,6 +221,21 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-18 — scope: year-end invitations, 25 asked for, 18 never-emailed offices and crews (run 32)
+
+- [ACT NOW] #32-B9-YearEnd-Offices-and-Crews.txt — 18 first contacts in the
+  #27 wording: #1-#8 Vernon offices (engineering, environmental, a CIBC
+  Wood Gundy branch), #9-#13 Vernon shops and crews, #14 Coldstream,
+  #15-#16 Armstrong side (incl. Grindrod), #17-#18 Lumby.
+- [SHORT] 18, not 25. About 150 of 200 searches; Vernon trades returned only
+  logged businesses. About 70 finds already contacted.
+- [CHECKED] Log, #24-#31, Gmail Sent by address and domain, inbox. Nothing
+  caught. Vernon Boat Storage dropped (KingFisher Boats, same owner and
+  address); Solymosi team dropped (DLC White House, already emailed).
+- [FLAG] CIBC Wood Gundy (national bank brokerage), Smith & Sons
+  (franchise), Rennie Equipment address spelled "renniequipment" as listed.
+- [LOG] 18 run-32 rows; categories set by name. Fit 66-78.
+
 ## Run 2026-10-18 — scope: year-end invitations, Neil's eight main streets in order, 32 never-emailed businesses (run 31)
 
 - [ACT NOW] #31-B9-YearEnd-Street-Scan.txt — 32 first contacts in the #27

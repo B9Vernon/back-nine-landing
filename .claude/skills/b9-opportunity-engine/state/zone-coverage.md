@@ -228,3 +228,27 @@ consistent with the log-wide ~26% email rate.
 - Next: the main streets are done. What's left in Vernon is side streets
   and home-based crews on Facebook. The Armstrong side, Lumby, Lavington
   and Coldstream are still fresher.
+
+## Method note — run 32 (2026-10-18): Vernon trades are used up; professional lists still work
+
+- Neil: "Run #32. Only find 25 businesses."
+- About 150 searches gave 18 new fits. About 70 finds were already logged.
+  Facebook trade queries for Vernon (roofing, auto, cabinets, masonry,
+  flooring, bikes, barbers, used cars, towing, RV) returned only logged
+  businesses: 0 new out of the last 17 with an email.
+- What still worked: public professional lists that print emails (the
+  Columbia Shuswap Regional District's QEP, surveyor, geotechnical and
+  registered-professional PDFs; the BC agriculture "engineering consultants
+  for agricultural structures" factsheet; the BCFSA mortgage-broker
+  register), plus Cylex and Hotfrog listings, which show an email on
+  roughly 1 listing in 10 and include many businesses not yet logged.
+- Dead ends this run: name lookups (0 of about 15), town business
+  directories (Lumby, Coldstream), the RDNO backflow-tester PDF (not
+  indexed), job postings, Brownbook and opendi. WebFetch can't reach
+  outside sites from this environment, so PDFs can only be read through
+  search snippets.
+- Next: Cylex and Hotfrog category pages for Armstrong, Coldstream and
+  Lumby; other regional-district professional lists. Many good-fit names
+  without emails are saved in the run-32 scratch names list; they would
+  need a phone call or a site visit, not an email.
+

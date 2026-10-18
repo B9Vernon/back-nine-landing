@@ -2452,3 +2452,24 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] Brittany Feaver — Whispering Wick | Artisan/maker | whisperingwickcreations@gmail.com | 2026-10-18 | run-31
 - [email created] Tracee Andrews — Whispers on the Ocean | Artisan/maker | t@traceeandrews.com | 2026-10-18 | run-31
 - [email created] Arielle Friedrich — Wild Witch Craft Co. | Artisan/maker | wildwitchcraftco@outlook.com | 2026-10-18 | run-31
+
+## Run 32 — year-end invitations, 18 never-emailed offices and crews in Vernon, Coldstream, the Armstrong side and Lumby (2026-10-18)
+
+- [email created] Monaghan Engineering & Consulting Ltd | Engineering | admin@meacl.ca | 2026-10-18 | run-32
+- [email created] Ecora Engineering & Environmental (Vernon office) | Engineering | Cevat.catana@ecora.ca | 2026-10-18 | run-32
+- [email created] Triton Environmental Consultants (Vernon office) | Engineering | ksmith@triton-env.com | 2026-10-18 | run-32
+- [email created] CIBC Wood Gundy (Vernon branch) | Accounting/finance | brian.gardiner@cibc.com | 2026-10-18 | run-32
+- [email created] Canyon Wren Consulting Inc | Engineering | mark@canyonwren.ca | 2026-10-18 | run-32
+- [email created] Mountain Pacific Environment Consultants Ltd | Engineering | info@mtn-pac.com | 2026-10-18 | run-32
+- [email created] Bourcet Engineering | Engineering | Brianh@junction.net | 2026-10-18 | run-32
+- [email created] Titan Structural Consulting | Engineering | Titanstructural@shaw.ca | 2026-10-18 | run-32
+- [email created] Kalwood Cabinets | Manufacturing | info@kalwoodcabinets.com | 2026-10-18 | run-32
+- [email created] Pristine Cleaning Systems | Cleaning/janitorial | info@pristinecarpet.ca | 2026-10-18 | run-32
+- [email created] Moore Roofing | Trades — exteriors | Mooreroofingwithsteve@gmail.com | 2026-10-18 | run-32
+- [email created] Torchcraft Roofing | Trades — exteriors | torchcraftroofing@shaw.ca | 2026-10-18 | run-32
+- [email created] Vern & Sonny's Bike and Snow | Retail | Info@vernandsonny.com | 2026-10-18 | run-32
+- [email created] Smith & Sons Coldstream General Contractors | Trades — building | coldstreamadmin@smithandsons.ca | 2026-10-18 | run-32
+- [email created] Accurate Concrete Ltd | Trades — building | russ@accurateconcrete.ca | 2026-10-18 | run-32
+- [email created] Sure Crop Feeds Inc | Manufacturing | orderdesk@surecropfeeds.com | 2026-10-18 | run-32
+- [email created] AAA Okanagan Tree Movers and Bobcat Services | Landscaping/garden | rustyrpm@gmail.com | 2026-10-18 | run-32
+- [email created] Rennie Equipment | Manufacturing | info@renniequipment.com | 2026-10-18 | run-32
