@@ -252,3 +252,22 @@ consistent with the log-wide ~26% email rate.
   without emails are saved in the run-32 scratch names list; they would
   need a phone call or a site visit, not an email.
 
+## Method note — run 33 (2026-10-18): Enderby and Lake Country are fresh
+
+- Neil: "run #33. Find 15".
+- About 65 searches gave 15. Vernon niche trades on facebook.com (irrigation,
+  appliance, hitch, detailing, pools, restoration, roofing) were nearly all
+  logged; about 40 finds already contacted. Armstrong/Lumby/Coldstream
+  facebook.com queries gave 2 new.
+- Phrase the town as "Town, British Columbia" in facebook.com queries; it
+  drops the US and UK namesakes that "Town BC" pulls in.
+- Lake Country and Enderby facebook.com queries returned mostly unlogged
+  businesses with emails (9 of 11 new on the first Lake Country query).
+  Both are inside the 40 km of Neil's uploaded list, so they were used and
+  flagged in the header.
+- Dead ends: name lookups for Armstrong/Spallumcheen trucking and
+  excavating firms, SICA and CHBA member directories (emails hidden), the
+  ASTTBC ROWP registry, US carrier registries (BC carriers are not listed).
+- Next: Lake Country (Winfield, Oyama, Carr's Landing) and Enderby/Grindrod
+  trades on facebook.com with the "British Columbia" phrasing.
+

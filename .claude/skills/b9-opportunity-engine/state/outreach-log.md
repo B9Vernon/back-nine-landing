@@ -2473,3 +2473,21 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] Sure Crop Feeds Inc | Manufacturing | orderdesk@surecropfeeds.com | 2026-10-18 | run-32
 - [email created] AAA Okanagan Tree Movers and Bobcat Services | Landscaping/garden | rustyrpm@gmail.com | 2026-10-18 | run-32
 - [email created] Rennie Equipment | Manufacturing | info@renniequipment.com | 2026-10-18 | run-32
+
+## Run 33 — year-end invitations, 15 never-emailed crews and shops: Vernon, Coldstream, Armstrong, then Enderby and Lake Country (2026-10-18)
+
+- [email created] JV Irrigation | Landscaping/garden | jordanvand@outlook.com | 2026-10-18 | run-33
+- [email created] Urban Oasis Landscaping | Landscaping/garden | bryan.ballard.88@gmail.com | 2026-10-18 | run-33
+- [email created] Paraglide Canada | Tour operator | info@paraglidecanada.com | 2026-10-18 | run-33
+- [email created] OK Valley Barn Builder | Trades — building | okvalleybarnbuilder@gmail.com | 2026-10-18 | run-33
+- [email created] Able Heavy Equipment Contracting | Trades — excavation | gagnebrian1@gmail.com | 2026-10-18 | run-33
+- [email created] Farrow Built | Trades — building | sales@farrowbuilt.ca | 2026-10-18 | run-33
+- [email created] Enderby Auto Body Ltd | Auto service | enderbya@shaw.ca | 2026-10-18 | run-33
+- [email created] Enderby Tattoo Company | Tattoo/piercing | reception@enderbytattoocompany.com | 2026-10-18 | run-33
+- [email created] Concrete Creations | Trades — building | tony@concretecreations.ca | 2026-10-18 | run-33
+- [email created] Taylor's Auto Repair | Auto service | dwayne@taylorsauto.com | 2026-10-18 | run-33
+- [email created] JK Auto Repair | Auto service | contact@jeklefab.com | 2026-10-18 | run-33
+- [email created] Shamrocks Plumbing and Heating | Trades — plumbing/HVAC | shamrocksplumbing@gmail.com | 2026-10-18 | run-33
+- [email created] Aspen Landscaping & Yard Maintenance Ltd | Landscaping/garden | info@aspenlandscaping.ca | 2026-10-18 | run-33
+- [email created] EyesOn Property Care & HVAC Services | Trades — plumbing/HVAC | EyesOn@telus.net | 2026-10-18 | run-33
+- [email created] Orchard View Builders | Trades — building | Jason@orchardviewbuilders.ca | 2026-10-18 | run-33

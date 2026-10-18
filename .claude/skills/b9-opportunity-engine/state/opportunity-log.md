@@ -221,6 +221,17 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-18 — scope: year-end invitations, 15 asked for, 15 never-emailed crews and shops (run 33)
+
+- [ACT NOW] #33-B9-YearEnd-Lake-Country-Enderby.txt — 15 first contacts in the
+  #27 wording: #1-#2 Vernon, #3 Coldstream, #4 Armstrong, #5-#8 Enderby,
+  #9-#15 Lake Country.
+- [SCOPE] Went past the usual area (Enderby, Lake Country) because Vernon and
+  the near towns are nearly all contacted; header says #5-#15 can be deleted.
+- [CHECKED] Log, #24-#32, Gmail Sent by address and domain, inbox. Nothing
+  caught. No new replies since #32.
+- [LOG] 15 run-33 rows; categories set by name. Fit 66-76.
+
 ## Run 2026-10-18 — scope: year-end invitations, 25 asked for, 18 never-emailed offices and crews (run 32)
 
 - [ACT NOW] #32-B9-YearEnd-Offices-and-Crews.txt — 18 first contacts in the
