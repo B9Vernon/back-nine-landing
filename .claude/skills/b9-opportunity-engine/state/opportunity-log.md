@@ -221,6 +221,16 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-18 — scope: year-end invitations, 10 in Vernon only, deep category sweep (run 34)
+
+- [ACT NOW] #34-B9-YearEnd-Vernon-Deep-Dig.txt — 10 Vernon first contacts in
+  the #27 wording: 2 offices, 3 real estate, 2 shops, 3 services.
+- [CHECKED] Log, #24-#33, Gmail Sent by address and domain, inbox. Sent
+  caught Outback Lakeside (Jul 17); dropped and backfilled.
+- [FLAG] John Christmas team is under Royal LePage Downtown (already
+  emailed); Priscilla & Co address is social@.
+- [LOG] 10 run-34 rows plus one backfill; fit 73-76.
+
 ## Run 2026-10-18 — scope: year-end invitations, 15 asked for, 15 never-emailed crews and shops (run 33)
 
 - [ACT NOW] #33-B9-YearEnd-Lake-Country-Enderby.txt — 15 first contacts in the

@@ -2491,3 +2491,20 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] Aspen Landscaping & Yard Maintenance Ltd | Landscaping/garden | info@aspenlandscaping.ca | 2026-10-18 | run-33
 - [email created] EyesOn Property Care & HVAC Services | Trades — plumbing/HVAC | EyesOn@telus.net | 2026-10-18 | run-33
 - [email created] Orchard View Builders | Trades — building | Jason@orchardviewbuilders.ca | 2026-10-18 | run-33
+
+## Backfill — earlier send found in Gmail while screening run 34 (logged 2026-10-18)
+
+- [email created] Outback Lakeside Vacation Homes | Vacation rental management | info@outbacklakeside.com | 2026-07-17 | backfill-jul | sent 2026-07-17 (Gmail)
+
+## Run 34 — year-end invitations, 10 never-emailed Vernon businesses after a deep category sweep (2026-10-18)
+
+- [email created] Lanimedia | Professional services | info@lanimedia.com | 2026-10-18 | run-34
+- [email created] RGR Accounting Rx Inc | Accounting/finance | b.range@accounting-rx.com | 2026-10-18 | run-34
+- [email created] John Christmas Real Estate Group | Real estate | johnchristmaseveryday@gmail.com | 2026-10-18 | run-34
+- [email created] Priscilla & Company (RE/MAX Priscilla) | Real estate | social@okanaganhomes.com | 2026-10-18 | run-34
+- [email created] O'Keefe 3% Realty Inc | Real estate | admin@okeefe3.com | 2026-10-18 | run-34
+- [email created] Vernon Tirecraft | Auto service | info@vernontirecraft.com | 2026-10-18 | run-34
+- [email created] Fermco Party Shoppe | Event rentals | fermco@shaw.ca | 2026-10-18 | run-34
+- [email created] NOS BJJ & MMA | Martial arts | shuswapbjj@gmail.com | 2026-10-18 | run-34
+- [email created] Elite Mile Shuttle & Wine Tours | Tour operator | booking@elitemile.com | 2026-10-18 | run-34
+- [email created] Decorworld Benjamin Moore Paint and Window Coverings | Retail | benmoorevernon@gmail.com | 2026-10-18 | run-34

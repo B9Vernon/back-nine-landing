@@ -271,3 +271,14 @@ consistent with the log-wide ~26% email rate.
 - Next: Lake Country (Winfield, Oyama, Carr's Landing) and Enderby/Grindrod
   trades on facebook.com with the "British Columbia" phrasing.
 
+## Method note — run 34 (2026-10-18): Vernon on Facebook is close to exhausted
+
+- Neil: "run again. Find 10 in Vernon. dig deep."
+- About 35 searches over about 30 categories with "Vernon, British Columbia"
+  restricted to facebook.com. About 60 finds already logged; trades were
+  15 of 15 logged. Gmail Sent caught Outback Lakeside (Jul 17, backfilled).
+- New ones came only from offices, realty groups, a tire shop, a party
+  rental, a BJJ gym, a shuttle company and a paint store.
+- Remaining Vernon names without emails are in the run-34 scratch list;
+  Vernon email yield is now roughly 1 new per 3-4 searches.
+
