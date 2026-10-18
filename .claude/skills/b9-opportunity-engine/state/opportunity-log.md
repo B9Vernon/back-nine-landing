@@ -221,6 +221,19 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-18 — scope: year-end invitations plus larger corporations, 12 never-emailed (run 36)
+
+- [ACT NOW] #36-B9-YearEnd-Larger-Companies-and-Crews.txt — 12 first contacts
+  in the #27 wording: #1-#5 larger companies (DCT Chambers, Associated
+  Environmental, PRT Vernon, Vernon Seed Orchard, Mercer Forestry Lumby),
+  #6-#9 Lake Country, #10-#12 Enderby.
+- [CHECKED] Log, #24-#35, Gmail Sent by address and domain, inbox. Nothing
+  caught. DCT Chambers was a run-6 contact-page row with no email, so it
+  gets the introduction and its row is tagged. No new replies since #31.
+- [FLAG] Most large employers are already logged or publish no email; the
+  header lists them. Branch-office emails say which office they're for.
+- [LOG] 11 run-36 rows plus the DCT tag; categories set by name. Fit 66-76.
+
 ## Run 2026-10-18 — scope: year-end invitations, 10 in Vernon only, deep category sweep (run 34)
 
 - [ACT NOW] #34-B9-YearEnd-Vernon-Deep-Dig.txt — 10 Vernon first contacts in

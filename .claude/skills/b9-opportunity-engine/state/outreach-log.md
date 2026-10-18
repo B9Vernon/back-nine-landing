@@ -945,7 +945,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Langley Freight Lines | Local business | 600 Waddington Drive + 250-549-2157 | 2026-07-25 | run-6
 - [email created] Northline Carriers | Local business | 7436 Fleming Road + 250-542-7010 | 2026-07-25 | run-6
 - [email created] R J Fisher Transport | Local business | 3905 17th Avenue + 250-549-4214 | 2026-07-25 | run-6
-- [email created] DCT Chambers Trucking | Local business | dctchambers.com contact page | 2026-07-25 | run-6
+- [email created] DCT Chambers Trucking | Local business | dctchambers.com contact page | 2026-07-25 | run-6 | first email operations@dctchambers.com 2026-10-18 (#36 year-end)
 - [email created] Van Kam Freightways Vernon | Local business | vankam.com Vernon terminal page | 2026-07-25 | run-6
 - [email created] ACE Courier Services | Local business | ACE Courier Services Vernon (website/phone) | 2026-07-25 | run-6
 - [email created] Monashee Surveying and Geomatics | Local business | admin@monasheesurveying.com | 2026-07-25 | run-6 | sent 2026-07-26 (Gmail)
@@ -2515,3 +2515,17 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] GardenScape | Landscaping/garden | Figureshawna@hotmail.com | 2026-10-18 | run-35
 - [email created] Treetops Spray Inc | Landscaping/garden | treetopsspray@gmail.com | 2026-10-18 | run-35
 - [email created] Turf Surfers Yard Care | Landscaping/garden | turfsurfersyardcare@gmail.com | 2026-10-18 | run-35
+
+## Run 36 — year-end invitations, 5 larger companies and 7 crews never emailed (2026-10-18)
+
+- [email created] Associated Environmental Consultants (Vernon office) | Engineering/environmental (larger firm) | inquiries@ae.ca | 2026-10-18 | run-36
+- [email created] PRT Vernon Nursery | Forestry — seedling nursery (larger firm) | prt.vr@prt.com | 2026-10-18 | run-36
+- [email created] Vernon Seed Orchard Company | Forestry — seed orchard | dan@vsoc.ca | 2026-10-18 | run-36
+- [email created] Mercer Forestry Services | Forestry — logging/hauling (larger firm) | MFS@Mercerint.com | 2026-10-18 | run-36
+- [email created] O'Rourke Family Estate | Winery | visit@ofestate.com | 2026-10-18 | run-36
+- [email created] Tri-Lake Electric Ltd | Trades — electrical | r.besinger@hotmail.com | 2026-10-18 | run-36
+- [email created] TC Solutions | Trades — plumbing/HVAC | Admin@tc-solutions.ca | 2026-10-18 | run-36
+- [email created] Lake Country Recreation | Marine service | lakecountryrec@gmail.com | 2026-10-18 | run-36
+- [email created] Gorilla Contracting Services | Trades — restoration | Darren.gorilla.contracting@gmail.com | 2026-10-18 | run-36
+- [email created] Toncar Contracting | Trades — excavation | toncar1967@yahoo.ca | 2026-10-18 | run-36
+- [email created] Sperlich Log Construction | Trades — building | sales@canadianlogandtimber.com | 2026-10-18 | run-36

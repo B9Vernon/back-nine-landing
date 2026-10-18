@@ -282,3 +282,20 @@ consistent with the log-wide ~26% email rate.
 - Remaining Vernon names without emails are in the run-34 scratch list;
   Vernon email yield is now roughly 1 new per 3-4 searches.
 
+## Method note — run 36 (2026-10-18): larger corporations
+
+- Neil: "Run #36 . Also look for larger corporations ."
+- Big private employers are nearly all logged already (Tolko, Kal Tire,
+  Rogers Foods, Okanagan Spring, Tekmar, McElhanney, Watkin, Vernon Dodge,
+  Nixon Wenger, BDO, MNP, Sparkling Hill, SilverStar). Most of the rest
+  publish only a phone or careers page (Rapid-Span, Gorman Lumby, Dr. Ma's,
+  KPMG, Coldstream Ranch; Westwood Electric and Great West are phone-only rows).
+- Big-company emails that did turn up came from regulator and government
+  lists (WA UTC record for DCT Chambers, BC seed orchard contact list for
+  VSOC), the CSRD QEP list (AE), and Facebook/business listings (Mercer
+  Forestry, PRT).
+- Bryton Marine Group owns KingFisher (already emailed); only a press
+  contact is published. AIM Roads' address is a public road-report inbox.
+- Regular crews: Lake Country and Enderby still yield via Facebook and the
+  MNBC and BC Wood directories; HomeStars and StarOfService hide emails.
+
