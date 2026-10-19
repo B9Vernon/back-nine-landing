@@ -1,0 +1,164 @@
+B9 OPPORTUNITY & PARTNERSHIP ENGINE — RUN #20
+6 partnership approaches — Back Nine Golf Vernon
+5 phone calls, 1 email.
+
+THE HONEST HEADLINE: SIX, AND THE COVERAGE AUDIT FAILED
+
+Run 19 removed the rule that was throwing away 95% of what the engine found,
+and I said the next run should be a large one. It isn't, and I am not going
+to dress that up.
+
+  python3 tools/coverage_ledger.py --run run-20 --audit --asked 25 --delivered 6
+  AUDIT FAILED — only 41 organizations examined for 25 asked.
+  That is not an exhausted search.
+
+The engine's own gate is calling this run short, and it is right. Run 18 was
+allowed to say "Vernon is running out" because it examined 129 businesses
+across nine sweeps and passed the audit on evidence. Run 20 examined 41
+across six. So the correct reading of six prospects is NOT that the town is
+saturated — it is that this run did not search hard enough to make that
+claim. The shortfall is the run's, not Vernon's.
+
+What removing the email-only rule did fix is CONVERSION: eleven of the twelve
+confirmed contacts below are phone numbers, so under the run-12 rule this
+file would have contained ONE entry instead of six. That part worked. Supply
+is now the binding constraint and this run under-supplied it.
+
+The 27 duplicates are worth looking at, because they are the real story:
+
+  Vernon Auto Glass          caught on the PHONE axis — same line as the
+                             already-logged Vernon Glass & Car Care
+  Vernon Doggy Daycare       caught on the PHONE axis — same line as
+                             Fun 4 All Pet Resort
+  A1 Machine & Welding       caught on the DOMAIN axis
+  Apple Auto Glass, AAA Brian's Towing, Vernon Towing, OneWash OKN,
+  Cameron Building Maintenance, Vernon Snow Removal, Hi-Pro Branded
+  Solutions, Edge Imprints, Hy Country Kennels, Wet Spot Grooming,
+  Fun 4 All Pet Resort       all caught by name
+
+Two of those would have been double-contacts under any name-only check, so
+the guard is earning its keep. A 66% duplicate rate is a real signal that
+Vernon is heavily worked — but 41 businesses is far too small a sample to
+conclude anything from, which is exactly why the audit refuses to accept it.
+
+WHAT RUN 20 DID
+  ~41  businesses examined across 6 sweeps (auto glass and towing, exterior
+       and window cleaning, paving/landscaping/snow, embroidery and awards,
+       pet care, welding and industrial supply), plus targeted contact
+       confirmation for businesses recovered from runs 17-18
+    14  never contacted before (27 were already logged — a 66% duplicate
+        rate, which is the real signal about how worked Vernon is)
+    12  had a contact confirmed in a search result — a phone number for
+        eleven of them, an email for one. Under the old rule this run would
+        have delivered ONE.
+     6  cleared the unchanged 65/100 fit gate
+     6  delivered here
+
+REJECTED ON FIT (6), rather than padded in:
+  62  Pressure Perfect Property Services   (small exterior-cleaning crew)
+  61  Hammerhead Exterior Home Cleaning    (same)
+  60  Sandy's Collision Repairs            (body shop, no seasonal hook)
+  59  Hilltop Auto Glass                   (small shop, thin revenue)
+  57  Weldtec                              (Haynes Rd, small, 7km out)
+  54  The Collar Club Vernon               (dog daycare, weak overlap)
+
+NO CONTACT FOUND: Royal Star Transportation, ClearFX Window Cleaners, All
+Seasons Roadway Maintenance, Kalagan Outdoor Design, Good Earth Property
+Services, Bell Lumber & Pole, Pak-Rat Towing (Kelowna).
+
+WHAT ACTUALLY LIMITS THIS NOW
+
+A phone number costs one search per business and comes back about 90% of the
+time. A category sweep returns four to eight businesses with numbers in a
+single search, but three-quarters of those are already logged. So the ceiling
+is: searches per run divided by the duplicate rate. At Vernon's current
+saturation that is roughly one deliverable prospect per three searches.
+
+Getting back to fifty or a hundred a run means one of three things, and they
+are your call:
+  1. Work the 10-30km ring properly — Armstrong, Enderby, Lumby, Coldstream,
+     Falkland, Cherryville. The fit gate currently rejects most of them on
+     distance alone, so the proximity weighting would need revisiting.
+  2. Accept a lower fit floor. At 55 instead of 65 this run delivers 11
+     rather than 6. I have NOT done that on my own initiative.
+  3. Second-contact the businesses already logged, which is a follow-up
+     campaign rather than prospecting, and needs your sent/reply status.
+
+NOTHING HERE IS OFFERED FREE. Every commercial mention is priced: "quoted by
+the group", "quoted by the hour", "a trade rate for your account holders",
+"I'd want a quote". The TV placement is sold as paid advertising in the
+locked wording. Checked by tools/verify_deliverable.py against locked rule 2b
+and read line by line on top of it.
+
+HOW TO WORK THIS FILE
+  Entries marked PHONE  call the number; the message is your talk track.
+  The single email entry pastes straight into Gmail.
+
+Drafts only — nothing is sent automatically.
+
+---
+
+1. Great West Equipment
+To: PHONE 250-549-4232
+Subject: A Vernon head office nobody counts as a big employer
+
+Hi Great West Equipment team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Your head office is here on L&A Cross Road, running branches across BC and the Yukon out of this town, which makes you one of the larger employers most people in Vernon never think of as one. Two things follow. Staff evenings for the Vernon crew are quoted by the group and run indoors year-round, and when branch managers come in from out of town there is somewhere open whatever hour they land, because we run 24/7. We'd love to talk about featuring Great West Equipment as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+2. Five Star Awards Ltd
+To: PHONE 250-275-2600
+Subject: We run leagues. You make trophies.
+
+Hi Five Star Awards team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 27th Street doing trophies and engraving, and we run leagues and tournaments that need exactly that — I'd want a quote for season trophies and a perpetual board. Going the other way, your customers are the clubs and companies in Vernon that hand out awards, and that is the same list booking a room for the evening afterwards. Worth setting that referral up properly rather than leaving it to chance. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+3. Andrew Sheret Limited
+To: PHONE 250-545-1381
+Subject: Your counter customers lose December every year
+
+Hi Andrew Sheret team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You supply plumbing and heating out of Waddington Drive, about five minutes from our door, to most of the trade in this town. Your counter customers are crews who lose billable days every winter and spend them somewhere, so a trade rate for your account holders is something you could hand across the counter. Your own staff evenings are quoted by the group, and odd hours are no trouble for a branch that opens early. We'd love to talk about featuring Andrew Sheret as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Open to talking it through?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+4. Western Equipment Ltd
+To: PHONE 250-545-5499
+Subject: You already sell to everyone we want to reach
+
+Hi Western Equipment team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You sell industrial and safety supply out of Middleton Way, which puts you in front of nearly every crew-based business in the North Okanagan — the same companies we are trying to reach about staff evenings, with no overlap in what either of us sells. A referral each way is the obvious start. Your own team is the other half, and group bookings are quoted by the hour, indoors, whatever the weather is doing. We'd love to talk about featuring Western Equipment as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Would you be open to a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+5. Mertion Excavating
+To: info@mertionexcavating.ca
+Subject: The months your machines are parked
+
+Hi Mertion team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Fifty years of site preparation in this valley means a crew that has worked together a long time and a season that stops dead when the ground freezes. That gap is the whole point. Our bays run indoors year-round, take a whole crew at once and are quoted by the hour, so the one stretch of the year your machines are parked is the one stretch we are easiest to get into. Worth a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+6. Mainline Industrial Supplies
+To: PHONE 250-542-6942
+Subject: Two businesses selling to the same shops
+
+Hi Mainline team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Welding and industrial supply puts you in front of the shops and crews across Vernon that we would like to be reaching about staff evenings, and there is no overlap at all in what either of us sells. A referral each way is straightforward to set up and reaches people neither of us gets to alone. Your own crew bookings are quoted by the hour and run indoors year-round. We'd love to talk about featuring Mainline Industrial Supplies as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a quick chat?
+
+https://backninegolf.ca/local/vernonbc/

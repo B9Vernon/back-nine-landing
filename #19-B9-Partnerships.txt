@@ -1,0 +1,219 @@
+B9 OPPORTUNITY & PARTNERSHIP ENGINE — RUN #19
+10 partnership approaches — Back Nine Golf Vernon
+3 web forms, 7 phone calls, 0 emails — and that is the point.
+
+WHY THE COUNTS COLLAPSED, MEASURED FROM THE LOG
+
+You said the engine used to give you hundreds and now gives you scraps. That
+is exactly right, and here is the cause, counted straight out of
+state/outreach-log.md:
+
+  run        total   email   phone   form|other   email%
+  run-2        250      66      36          148     26%
+  run-3        250      62      61          127     24%
+  run-6        200      10      44          146      5%
+  run-7        200       9      19          172      4%
+  run-8        200       4       5          191      2%
+  run-11       250       4       0          246      1%
+  ------------------------------------------------------
+  run-12        14      14       0            0    100%
+  run-13        20      20       0            0    100%
+  run-14        20      20       0            0    100%
+  run-15         3       3       0            0    100%
+  run-16         2       2       0            0    100%
+  run-17        11      11       0            0    100%
+  run-18         4       4       0            0    100%
+
+Run 8 delivered 200 businesses of which FOUR had an email address. Run 11
+delivered 250 of which FOUR had an email address. Those runs worked because
+they delivered the phone numbers and web forms that most local businesses
+actually publish.
+
+At run 12 a rule was introduced: every To: line must be a real email address.
+Every run since has been 100% email and none has broken twenty. The engine
+never got worse at finding businesses. It got a rule that throws away roughly
+95% of what it finds, and then each run honestly reported the small number
+that survived.
+
+The rule was answering a real problem: a bare contact-page URL sitting in the
+recipient field is useless when you are pasting into Gmail. The fix for that
+is to LABEL the channel, not to discard the business.
+
+WHAT CHANGED, PERMANENTLY
+
+  SKILL.md step 3        "Email found → keep, no email → drop" is withdrawn.
+                         Keep every business with any verified way to reach
+                         it. The recipient line now declares the channel.
+  b9lib.contact_channel  New. A recipient line is valid as a bare email, as
+                         "FORM <url>", or as "PHONE <number>". An unlabelled
+                         contact-page URL is still rejected — that was the
+                         real defect.
+  verify_deliverable.py  Now checks every recipient line declares a usable
+                         channel and prints the mix. --email-only still
+                         exists but is OPT-IN, and its help says what it
+                         costs.
+  fit_score.py           contact_quality was scoring the CHANNEL, so a local
+                         shop's main phone line scored below a generic info@
+                         at a national chain. It now scores how close the
+                         contact gets you to a decision, channel-neutral: a
+                         business's main line and a role inbox both score 6.
+
+HOW TO WORK THIS FILE
+  Entries marked FORM   open the URL, paste the message into the form.
+  Entries marked PHONE  call the number; the message is your talk track.
+
+EVERY PROSPECT STILL CLEARED, IN ORDER:
+  Universal Duplicate Guard  name, alias, core name, domain, email, email
+                             domain, phone and street address against all
+                             1,876 logged businesses. It earned its keep
+                             again this run: Vernon Taxi was caught on the
+                             PHONE axis, sharing a line with the already
+                             logged "Vernon Taxi & Capitol Taxi", and
+                             Bassani Tech on the domain axis.
+  Contact Verifier           every number and URL below came out of a search
+                             result in this session. Nothing is guessed.
+  Commercial Fit Scorer      65/100 floor, unchanged. Six candidates were
+                             rejected below it rather than padded in.
+  Opportunity Red Team       reject and replace
+
+THE FUNNEL
+    47  businesses that runs 17 and 18 discovered, deduped, and then
+        discarded ONLY because they publish a form or a phone number
+    19  of those had a contact confirmed in a search result
+     3  were caught by the duplicate guard on the phone and domain axes
+    16  scored
+     6  rejected below the 65/100 gate — Castle Fuels 64, Ductman 63,
+        Harwood Montessori 60, Probyn Motors 59, Roc-Key's Locksmith 56,
+        Robbie's Instrument Repair 51
+    10  delivered here
+
+WHAT THIS MEANS FOR THE NEXT RUN
+
+This run was built entirely from businesses already sitting in runs 17 and
+18's reject piles. No new searching. The remaining 28 of those 47 need one
+search each to confirm a number, and every category sweep from here on keeps
+roughly three times as many businesses as it did last week, because a phone
+number is published by nearly every business while an address is published
+by about a third.
+
+The honest limit is now search budget per run, not the rules. That is a
+different kind of ceiling and a much higher one.
+
+NOTHING HERE IS OFFERED FREE. Every commercial mention is priced: "quoted by
+the hour", "we quote them by the group", "a trade rate for your account
+holders", "I'd want a quote". The TV placement is sold as paid advertising in
+the locked wording. Checked by tools/verify_deliverable.py against locked
+rule 2b and read line by line on top of it.
+
+Drafts only — nothing is sent automatically.
+
+---
+
+1. Aslan Services Ltd
+To: FORM https://aslanservices.ca/contact-us/
+Subject: Five trades under one roof, and one room they all fit in
+
+Hi Aslan team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You run electrical, plumbing, gas fitting, refrigeration and sheet metal out of 11th Avenue, which is more trades under one roof than almost anyone in Vernon and a bigger crew than most. Getting that many people somewhere at the same time is the hard part of any staff event, and with emergency work running around the clock the timing is the other half. We're open 24/7, so a crew coming off a call at any hour can still get a bay, and we quote group bookings by the hour. Worth a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+2. Graphic Enterprises Signs & Designs
+To: FORM https://graphicenterprises.ca/contact/
+Subject: We're a few doors apart on 45th Avenue
+
+Hi Graphic Enterprises team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're at 2702 45th Avenue and we're at 3201, which makes you about the closest business in Vernon to our door. You do signage, auto wraps and paint protection, and we need all three sooner or later — I'd want a quote for our building and our vehicle. Going the other way, your customers are Vernon businesses, which is exactly who books our bays for corporate evenings, so a referral each way is worth setting up. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+3. Bracken Insurance Services
+To: PHONE 250-542-6300
+Subject: Client evenings, and the months an outdoor one won't work
+
+Hi Bracken team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You write home, business and life cover out of 32nd Street, which means you sit down with Vernon owners and families at the moment they are actually thinking about what matters to them. Client appreciation evenings are one of the most common bookings we take, and they run indoors through the stretch of the year when an outdoor version simply isn't possible. We quote them by the group. We'd love to talk about featuring Bracken Insurance as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Would you be open to a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+4. Exel Exteriors
+To: FORM https://www.exelexteriors.ca/contact/
+Subject: The one staff night a seasonal trade can actually keep
+
+Hi Exel Exteriors team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Gutters, siding and roofing all stop when the weather turns, which leaves a crew with time on its hands at exactly the point in the year our bays are busiest. That is the whole idea — indoors, year-round, a whole crew at once, quoted by the hour. It tends to be the one staff event a seasonal trades company can put in a calendar and actually keep. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+5. Hunter Exteriors
+To: PHONE 250-306-6638
+Subject: Your crew in January, and your customers in December
+
+Hi Hunter Exteriors team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You install siding, roofing and gutters across the North Okanagan, which is work that shuts down for months every winter while the crew still has a winter to get through. Our bays take a whole crew at once, indoors, and we quote them by the hour. Your customers are homeowners partway through spending real money on their house, and that is the same household booking a bay on a winter evening. We'd love to talk about featuring Hunter Exteriors as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Would that be worth a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+6. Rona Vernon
+To: PHONE 250-549-4345
+Subject: Your staff roster and your contractor accounts
+
+Hi Rona Vernon team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You run the biggest building supply floor in town out on 58th Avenue, with a staff roster to match and a contractor account list on top of it. Both halves matter to us. Staff evenings for your own people are quoted by the group, and a trade rate for your account holders is something you could hand over at the counter. The contractors buying from you are the same crews losing billable days every winter. We'd love to talk about featuring Rona Vernon as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Open to talking it through?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+7. City Furniture & Appliances
+To: PHONE 250-549-3121
+Subject: Independent on 31st Avenue, against every chain in town
+
+Hi City Furniture team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You've sold furniture and appliances out of 31st Avenue as an independent for decades, against every national chain that has rolled through Vernon. Your customers are households partway through spending money on making home better, and that is the same decision as booking somewhere to spend a winter evening. A referral each way is the simple version, and your own staff evenings are quoted by the group. We'd love to talk about featuring City Furniture & Appliances as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+8. End2End Roofing
+To: PHONE 778-717-2381
+Subject: Roofing stops in November. We don't.
+
+Hi End2End Roofing team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. Roofing is about the most seasonal trade there is — the work stops when the weather turns and the crew still has a winter in front of it. Our bays run indoors year-round, take a whole crew at once and are quoted by the hour, which makes them one of the few staff events a roofing company can schedule without the forecast deciding it. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+9. Xced Plumbing, Heating & A/C
+To: PHONE 250-541-7576
+Subject: On-call rotations, and a venue that keeps your hours
+
+Hi Xced team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 25th Avenue running plumbing, heating and air conditioning, which means on-call rotations and a crew whose evenings almost never line up. We're open 24/7, so the shift pattern stops being the reason a staff night never happens — a bay can go in at whatever hour actually works, and we quote them by the hour. We'd love to talk about featuring Xced Plumbing as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Would you be open to a chat?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+10. Equuis Wealth Management
+To: PHONE 250-260-1104
+Subject: A business built on long relationships
+
+Hi Equuis team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You do financial and estate planning out of Coldstream Avenue, which is a business built on long relationships rather than transactions — and long relationships are what a client evening is for. Client evenings are a regular booking for us, quoted by the group, indoors and year-round, so the date never depends on the weather. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
