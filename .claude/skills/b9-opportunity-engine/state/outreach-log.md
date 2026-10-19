@@ -528,8 +528,8 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Royal Garden Restaurant | Restaurant | phone 250-545-7866 | 2026-07-19 | run-3
 - [email created] Jealous Pizza N Donair | Restaurant | jealouspizzandonair@gmail.com | 2026-07-19 | run-3
 - [email created] Habibi's Donair | Restaurant | 5100 Anderson Way | 2026-07-19 | run-3
-- [email created] Vernon Towing | Towing (24/7) | vernon@reliabletowing.ca | 2026-07-19 | run-3
-- [email created] Silver Star Tree Service | Tree service | phone 250-550-5308 | 2026-07-19 | run-3
+- [email created] Vernon Towing | Towing (24/7) | vernon@reliabletowing.ca | 2026-07-19 | run-3 | first email admin@vernontowing.ca 2026-10-19 (#41 year-end)
+- [email created] Silver Star Tree Service | Tree service | phone 250-550-5308 | 2026-07-19 | run-3 | sent 2026-07-22 (Gmail) to jim@silverstartree.com
 - [email created] Timberwolf Tree Service | Tree service | timberwolftreeservicebc@gmail.com | 2026-07-19 | run-3 | sent 2026-07-22 (Gmail)
 - [email created] Nolan's Pharmasave | Pharmacy | phone 250-542-4181 | 2026-07-19 | run-3
 - [email created] Royal Canadian Legion Branch 25 | Community org | legion25@shaw.ca | 2026-07-19 | run-3
@@ -929,7 +929,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Leavitt Machinery Vernon | Local business | 801 Waddington Dr Unit 110 + 250-545-5740 | 2026-07-25 | run-6
 - [email created] Bobcat of Vernon | Local business | bobcatofvernon.com + 833-446-6381 | 2026-07-25 | run-6
 - [email created] Nor-Val Equipment Rentals | Local business | nor-val.com contact page | 2026-07-25 | run-6
-- [email created] Blacktop Maintenance Ltd | Local business | blacktopmaintenance.ca + 778-823-3259 | 2026-07-25 | run-6
+- [email created] Blacktop Maintenance Ltd | Local business | blacktopmaintenance.ca + 778-823-3259 | 2026-07-25 | run-6 | first email info@blacktopmaintenance.ca 2026-10-19 (#41 year-end)
 - [email created] Affirmative Contracting Inc | Local business | affirmativecontractinginc@outlook.com (owner) | 2026-07-25 | run-6 | sent 2026-07-26 (Gmail)
 - [email created] North Okanagan Pumping Service | Local business | 250-542-1923 | 2026-07-25 | run-6
 - [email created] Special T Cleaning | Local business | specialtcleaning.ca contact page | 2026-07-25 | run-6
@@ -944,7 +944,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Gilbert Parts | Local business | gilbertparts.ca contact page | 2026-07-25 | run-6
 - [email created] Langley Freight Lines | Local business | 600 Waddington Drive + 250-549-2157 | 2026-07-25 | run-6
 - [email created] Northline Carriers | Local business | 7436 Fleming Road + 250-542-7010 | 2026-07-25 | run-6
-- [email created] R J Fisher Transport | Local business | 3905 17th Avenue + 250-549-4214 | 2026-07-25 | run-6
+- [email created] R J Fisher Transport | Local business | 3905 17th Avenue + 250-549-4214 | 2026-07-25 | run-6 | first email shelby@rjfishertransport.com 2026-10-19 (#41 year-end)
 - [email created] DCT Chambers Trucking | Local business | dctchambers.com contact page | 2026-07-25 | run-6 | first email operations@dctchambers.com 2026-10-18 (#36 year-end) | sent 2026-10-18 (Gmail)
 - [email created] Van Kam Freightways Vernon | Local business | vankam.com Vernon terminal page | 2026-07-25 | run-6
 - [email created] ACE Courier Services | Local business | ACE Courier Services Vernon (website/phone) | 2026-07-25 | run-6
@@ -1015,7 +1015,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Cabana Bar and Kitchen | Local business | cabanabarkitchen@gmail.com | 2026-07-25 | run-6
 - [email created] OV Custom Homes | Local business | OV Custom Homes Vernon (website contact) | 2026-07-25 | run-6 | first email ovcustomhomes@gmail.com 2026-10-18 (#40 year-end)
 - [email created] Dressel Built Homes | Local business | Dressel Built Homes Vernon (website contact) | 2026-07-25 | run-6
-- [email created] Keith Dahlen Construction | Local business | Keith Dahlen Construction Vernon (website contact) | 2026-07-25 | run-6
+- [email created] Keith Dahlen Construction | Local business | Keith Dahlen Construction Vernon (website contact) | 2026-07-25 | run-6 | duplicate of "Keith Construction" (Ken and Colton Dahlen) — in conversation since July, do not contact again
 - [email created] Sticks and Stones Design Group | Local business | Sticks + Stones Design Group Vernon (website contact) | 2026-07-25 | run-6
 - [email created] Bennison Construction Group | Local business | Bennison Construction Group Vernon (website contact) | 2026-07-25 | run-6
 - [email created] Smith and Sons Coldstream | Local business | Smith & Sons Coldstream (website contact) | 2026-07-25 | run-6
@@ -1085,7 +1085,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Arrowsmith Moving and Storage | Local business | Arrowsmith Moving & Storage Vernon (site/phone) | 2026-07-25 | run-6
 - [email created] BigSteelBox Vernon | Local business | BigSteelBox Vernon (site/phone) | 2026-07-25 | run-6
 - [email created] Quick and Easy Moving Vernon | Local business | quickandeasymoving.ca contact page + 778-871-8999 | 2026-07-25 | run-6
-- [email created] Cidel Moving and Storage | Local business | 2101 43 Street, Vernon (site/phone) | 2026-07-25 | run-6
+- [email created] Cidel Moving and Storage | Local business | 2101 43 Street, Vernon (site/phone) | 2026-07-25 | run-6 | duplicate of "Browns Transport" — Cidel was rebranded Browns Transport; emailed 2026-10-16, do not contact again
 - [email created] Vernon Mini Storage | Local business | Vernon Mini Storage (site/phone) | 2026-07-25 | run-6
 - [email created] The Flower Spot | Local business | theflowerspot@live.ca + 250-549-0896 | 2026-07-25 | run-6
 - [email created] Nicholas Alexander Home and Garden | Local business | 6325 Highway 97, Vernon + 250-542-8881 | 2026-07-25 | run-6
@@ -1171,7 +1171,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Dianas Monogramming | Local business | 402-5000 Silver Star Rd, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] SpeedPro Vernon | Local business | speedprocanada.com/vernon contact page | 2026-07-25 | run-7 | duplicate of "SpeedPro Signs Vernon" — do not contact again
 - [email created] Vernon Machine and Welding Ltd | Local business | Vernon Machine & Welding, Vernon (site/phone) | 2026-07-25 | run-7 | probably now Eagle Industries 2018 Ltd, 1801A Kalamalka Lake Rd (#38)
-- [email created] Aberdeen Machine 1997 Ltd | Local business | 740 Fairweather Rd, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Aberdeen Machine 1997 Ltd | Local business | 740 Fairweather Rd, Vernon (site/phone) | 2026-07-25 | run-7 | first email sales@aberdeenmachine.com 2026-10-19 (#41 year-end)
 - [email created] Mt Ida Machine and Welding | Local business | Mt Ida Machine & Welding (site/phone) | 2026-07-25 | run-7
 - [email created] Donalds Machine Works Ltd | Local business | donaldsmachine.ca contact page | 2026-07-25 | run-7 | first email info@donaldsmachine.ca 2026-10-18 (#39 year-end)
 - [email created] Bearded Dragon Welding | Local business | 1404 29 Ave, Vernon (site/phone) | 2026-07-25 | run-7
@@ -1249,7 +1249,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] First Landmark Strata and Property Management | Local business | First Landmark Strata & Property Management, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Century 21 Assurance Realty Vernon | Local business | assurancerealty.c21.ca/vernon-office contact page | 2026-07-25 | run-7
 - [email created] Pinnacle Roofing Vernon | Local business | pinnacleroofing.ca contact page | 2026-07-25 | run-7 | duplicate of "Pinnacle Roofing" — do not contact again
-- [email created] Laing Roofing | Local business | Laing Roofing, Vernon (site/phone) | 2026-07-25 | run-7
+- [email created] Laing Roofing | Local business | Laing Roofing, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Elevated Building Envelopes Ltd" — Laing Roofing (Vernon) Ltd renamed; emailed June 2026, do not contact again
 - [email created] Madge Contracting Ltd | Local business | Madge Contracting Ltd, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Purple Horizon Roofing | Local business | Purple Horizon Roofing, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Silverstar Roofing and Sheetmetal | Local business | Silverstar Roofing & Sheetmetal, Vernon (site/phone) | 2026-07-25 | run-7
@@ -1257,7 +1257,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Community Roofing Co Ltd | Local business | Community Roofing Co. Ltd, Vernon (site/phone) | 2026-07-25 | run-7 | duplicate of "Community Roofing Ltd" — do not contact again
 - [email created] Kevins Roofing Ltd | Local business | Kevin's Roofing Ltd, Vernon (site/phone) | 2026-07-25 | run-7
 - [email created] Norsemen Developments | Local business | Norsemen Developments, Vernon (site/phone) | 2026-07-25 | run-7
-- [email created] Reno One Vernon | Local business | reno1.ca contact page | 2026-07-25 | run-7
+- [email created] Reno One Vernon | Local business | reno1.ca contact page | 2026-07-25 | run-7 | sent 2026-08-01 (Gmail) to sales@reno1.ca
 - [email created] Lake Country Builder Mart | Local business | 3223 Woodsdale Rd, Winfield + 250-766-2118 | 2026-07-25 | run-7
 - [email created] Vernon Tour and Shuttle | Local business | vernontourandshuttle.ca contact page | 2026-07-25 | run-7 | duplicate of "Vernon Tour & Shuttle" — do not contact again
 - [email created] Canadian Craft Tours and Charters | Local business | canadiancraftcharters.com contact page | 2026-07-25 | run-7
@@ -1421,7 +1421,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Pinnacle Equipment Vernon | Local business | dleamc.com/vernon contact page | 2026-07-26 | run-8
 - [email created] Interior Motors Vernon | Local business | Interior Motors, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Savoy Equipment Ltd | Local business | savoyequipment.com Vernon contact page | 2026-07-26 | run-8 | sent 2026-08-01 (Gmail) to info@savoyequipment.com
-- [email created] Vernon Landscape Centre | Local business | 4620 23 St, Vernon (site/phone) | 2026-07-26 | run-8
+- [email created] Vernon Landscape Centre | Local business | 4620 23 St, Vernon (site/phone) | 2026-07-26 | run-8 | sent 2026-07-16 (Gmail) to vernonlandscape@shaw.ca (as Vernon Landscape & Stone Supply)
 - [email created] Vernon Urgent and Primary Care Centre | Local business | Vernon Urgent and Primary Care Centre (site/contact) | 2026-07-26 | run-8
 - [email created] Greater Vernon Museum and Archives | Local business | Greater Vernon Museum & Archives (site/contact) | 2026-07-26 | run-8
 - [email created] Vernon and District Performing Arts Centre | Local business | Vernon & District Performing Arts Centre (site/contact) | 2026-07-26 | run-8 | duplicate of "Vernon & District Performing Arts Centre" — do not contact again
@@ -1457,7 +1457,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Safeway Vernon | Local business | Safeway Vernon (store contact) | 2026-07-26 | run-8
 - [email created] Lavington Superette | Local business | 6015 Highway 6, Coldstream + 250-542-4658 | 2026-07-26 | run-8
 - [email created] Lavington Sand and Gravel Ltd | Local business | Lavington Sand & Gravel Ltd, Coldstream (site/phone) | 2026-07-26 | run-8
-- [email created] Region 8 Electric | Local business | Region 8 Electric, Coldstream (site/phone) | 2026-07-26 | run-8
+- [email created] Region 8 Electric | Local business | Region 8 Electric, Coldstream (site/phone) | 2026-07-26 | run-8 | first email info@region8electric.ca 2026-10-19 (#41 year-end)
 - [email created] Heartwood Homes Ltd | Local business | 128 Ravine Dr, Coldstream (site/phone) | 2026-07-26 | run-8 | duplicate of "Heartwood Homes" — do not contact again
 - [email created] Access Motorsports Lumby | Local business | Access Motorsports, Lumby (site/phone) | 2026-07-26 | run-8
 - [email created] Alices Restaurant Lumby | Local business | Alice's Restaurant, Lumby (site/phone) | 2026-07-26 | run-8
@@ -1844,7 +1844,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] CAN-AM Auto Glass | Auto service | contact@canamautoglass.ca | 2026-07-30 | run-13
 - [email created] City Dance Studio | School/training | info@citydance.ca | 2026-07-30 | run-13 | duplicate of "City Dance Okanagan" — do not contact again
 - [email created] Art Schmidt Optical | Optical/eyewear | info@artschmidt.ca | 2026-07-30 | run-13
-- [email created] All Pro Tree & Landscaping Services | Landscaping/garden | contact@allprotree.ca | 2026-07-30 | run-13
+- [email created] All Pro Tree & Landscaping Services | Landscaping/garden | contact@allprotree.ca | 2026-07-30 | run-13 | sent 2026-07-30 (Gmail)
 - [email created] Vernon Cabinet Center | Trades — building | gregpecka66@yahoo.com | 2026-07-30 | run-13 | duplicate of "Vernon Cabinet Center / Pro Art Cabinets" — do not contact again | sent 2026-07-30 (Gmail)
 - [email created] Edge Apparel & Imprints | Retail | sales@edgeimprints.com | 2026-07-30 | run-13 | duplicate of "Edge Imprints" — do not contact again
 - [email created] A-1 Machine & Welding | Manufacturing | machinery@a1machine.bc.ca | 2026-07-30 | run-13 | duplicate of "A1 Machine & Welding (1986)" — do not contact again
@@ -1880,7 +1880,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Brown Mechanical Services | Trades — plumbing/HVAC | info@brownmechanical.ca | 2026-08-05 | run-17 | sent 2026-10-13 (Gmail) to info@brown-mechanical.ca
 - [email created] Magnetsigns Vernon | Professional services | bobshaw@magnetsigns.com | 2026-08-05 | run-17
 - [email created] OK Builders Supplies | Trades — building | okbuilders11@shawcable.com | 2026-08-05 | run-17
-- [email created] Applewood Heating & Air Conditioning | Trades — plumbing/HVAC | info@applewoodheating.net | 2026-08-05 | run-17
+- [email created] Applewood Heating & Air Conditioning | Trades — plumbing/HVAC | info@applewoodheating.net | 2026-08-05 | run-17 | first email info@applewoodheating.net 2026-10-19 (#41 year-end)
 - [email created] Russell Shortt Land Surveyors | Surveying/geomatics | devinc@jrshortt.ca | 2026-08-05 | run-17
 - [email created] McPherson Maddox Land Surveying | Surveying/geomatics | scott.wemaddox@telus.net | 2026-08-05 | run-17 | first email 2026-10-15 (#26 year-end)
 - [email created] CSN Frank's Collision Repair Centre | Auto service | info@csnfranks.com | 2026-08-05 | run-17
@@ -1890,14 +1890,14 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Willerton Engineering | Engineering | admin@willerton.ca | 2026-08-09 | run-18 | first email 2026-10-15 (#26 year-end)
 - [email created] Keylight Photography | Professional services | info@keylightphotography.ca | 2026-08-09 | run-18
 - [email created] Aslan Services Ltd | Trades — plumbing/HVAC | FORM https://aslanservices.ca/contact-us/ | 2026-08-09 | run-19
-- [email created] Graphic Enterprises Signs & Designs | Professional services | FORM https://graphicenterprises.ca/contact/ | 2026-08-09 | run-19
+- [email created] Graphic Enterprises Signs & Designs | Professional services | FORM https://graphicenterprises.ca/contact/ | 2026-08-09 | run-19 | first email info@graphicenterprises.ca 2026-10-19 (#41 year-end)
 - [email created] Bracken Insurance Services | Accounting/finance | PHONE 250-542-6300 | 2026-08-09 | run-19 | first email 2026-10-15 (#26 year-end)
 - [email created] Exel Exteriors | Trades — exteriors | FORM https://www.exelexteriors.ca/contact/ | 2026-08-09 | run-19
-- [email created] Hunter Exteriors | Trades — exteriors | PHONE 250-306-6638 | 2026-08-09 | run-19
+- [email created] Hunter Exteriors | Trades — exteriors | PHONE 250-306-6638 | 2026-08-09 | run-19 | first email hunterexteriorsvernon@gmail.com 2026-10-19 (#41 year-end)
 - [email created] Rona Vernon | Trades — building | PHONE 250-549-4345 | 2026-08-09 | run-19
 - [email created] City Furniture & Appliances | Home furnishing | PHONE 250-549-3121 | 2026-08-09 | run-19
 - [email created] End2End Roofing | Trades — roofing | PHONE 778-717-2381 | 2026-08-09 | run-19
-- [email created] Xced Plumbing, Heating & A/C | Trades — plumbing/HVAC | PHONE 250-541-7576 | 2026-08-09 | run-19
+- [email created] Xced Plumbing, Heating & A/C | Trades — plumbing/HVAC | PHONE 250-541-7576 | 2026-08-09 | run-19 | first email info@xcedplumbing.com 2026-10-19 (#41 year-end)
 - [email created] Equuis Wealth Management | Accounting/finance | PHONE 250-260-1104 | 2026-08-09 | run-19
 - [email created] Great West Equipment | Manufacturing | PHONE 250-549-4232 | 2026-08-09 | run-20
 - [email created] Five Star Awards Ltd | Awards/engraving | PHONE 250-275-2600 | 2026-08-09 | run-20
@@ -1917,7 +1917,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Cedar and Soak | Spa/wellness | PHONE 250-309-6279 | 2026-08-16 | run-23
 - [email created] Fisher's Home Hardware | Hardware/building supply | PHONE 250-542-4321 | 2026-08-16 | run-23
 - [email created] Meier's Building Products | Hardware/building supply | PHONE 250-545-5405 | 2026-08-16 | run-23
-- [email created] Elevated Building Envelopes Ltd | Trades — exteriors | PHONE 250-542-5544 | 2026-10-13 | run-24
+- [email created] Elevated Building Envelopes Ltd | Trades — exteriors | PHONE 250-542-5544 | 2026-10-13 | run-24 | sent 2026-06-15 (Gmail) to info@elevatedbe.com, and 2026-06-17 to brian@elevatedbe.com
 - [email created] Westwood Electric | Trades — electrical | PHONE 250-542-5481 | 2026-10-13 | run-24
 - [email created] Strativity Workspace | Co-working/shared office | PHONE 250-309-5226 | 2026-10-13 | run-24
 - [email created] Bee's Knees Plumbing, Heating and Air Conditioning | Trades — plumbing/HVAC | PHONE 250-241-5200 | 2026-10-13 | run-24
@@ -2553,3 +2553,9 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] Okanagan Geothermal | Trades — plumbing/HVAC | info@okanagangeothermal.net | 2026-10-18 | run-37
 - [email created] Reimer's Farm Service | Landscape supply/custom farm | info@reimerslandscapesupply.com | 2026-10-18 | run-37
 - [email created] MJ's Stucco & Plaster | Trades — exteriors | mjsstuccoandplaster@hotmail.com | 2026-10-18 | run-37
+
+## Run 41 — year-end invitations, 12 never-emailed Vernon/Coldstream trades (2026-10-19)
+
+- [email created] Pinnacle Concrete Solutions | Trades — building | info@pinnacleconcrete.ca | 2026-10-19 | run-41
+- [email created] Care Systems Services | Trades — plumbing/HVAC | info@caresystems.ca | 2026-10-19 | run-41
+- [email created] Okanagan Line Painting | Trades — exteriors | sales@okanaganlinepainting.ca | 2026-10-19 | run-41

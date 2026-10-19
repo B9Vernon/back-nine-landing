@@ -221,6 +221,19 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-19 — scope: year-end invitations, 12 more in Vernon/Coldstream, never emailed (run 41)
+
+- [ACT NOW] #41-B9-YearEnd-Vernon-Never-Emailed-4.txt — 12 first emails in the
+  #27 wording: 11 Vernon, 1 Coldstream; #1-#2 a few blocks and #3-#4 a few
+  minutes from 45th Ave. Neil asked for 15, then for the 12 found so far.
+- [SOURCE] okanagantradedirectory.ca and the Vernon Chamber directory (3 new
+  businesses), plus 9 July/August phone, form or unsent-draft prospects.
+- [CHECKED] #24-#40, Gmail Sent by address, domain and name, inbox.
+- [LOG] 3 new rows (run-41), 9 rows tagged "first email (#41)", 8 rows
+  corrected from Gmail (5 sends found, 3 duplicates). Fit 71-76.
+- [SPARE] Highridge Homes (ron@highridgehomes.ca), Pryce Landscape Products
+  (prycelandscapeproducts@gmail.com) — Gmail clean, not yet logged.
+
 ## Run 2026-10-18 — scope: year-end invitations, 10 more in Vernon/Coldstream, never emailed (run 40)
 
 - [ACT NOW] #40-B9-YearEnd-Vernon-Never-Emailed-3.txt — 10 first emails in the

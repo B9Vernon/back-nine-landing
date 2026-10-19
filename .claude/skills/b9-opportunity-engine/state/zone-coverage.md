@@ -366,3 +366,21 @@ consistent with the log-wide ~26% email rate.
   Landscaping, CK Design, BC Fasteners, Sticks and Stones. Expect lower
   yield; consider a fresh source (e.g. a new Vernon directory) next.
 
+## Method note — run 41 (2026-10-19): new directory source, Gmail corrections
+
+- Neil: "find 15 more", then "give me the 12" when the session paused.
+- okanagantradedirectory.ca lists Vernon trades by category with addresses
+  and phones, rarely emails. Most of its Vernon names were already on the
+  log; it gave 3 new ones (Pinnacle Concrete, Care Systems, Okanagan Line
+  Painting). The Vernon Chamber construction category was mostly logged.
+- Gmail showed 5 July-list rows had been emailed (Reno One, All Pro Tree,
+  Vernon Landscape Centre, Silver Star Tree, Elevated Building Envelopes in
+  June) and 3 were duplicates (Laing Roofing = Elevated BE, Cidel = Browns
+  Transport, Keith Dahlen = Keith Construction). Check by name AND domain
+  before lookups; June sends predate the log.
+- The Vernon July pool is now close to empty: what's left has no email
+  (Action Auto Towing, HBL, Purple Horizon, Skyfix, Manton Tank, Titan,
+  Chemac, Tuck) or is outside Vernon. Unchecked leads: McCaw's Drilling &
+  Blasting (info@mccawsdrilling.com, 34th St ops office, Calgary head
+  office), Western Equipment Vernon store (vernon@westernequipmentltd.com).
+
