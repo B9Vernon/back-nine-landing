@@ -221,6 +221,19 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-25 — scope: year-end invitations, 5 more in Vernon, never emailed (run 45)
+
+- [ACT NOW] #45-B9-YearEnd-Vernon-Never-Emailed-8.txt — 5 first emails in the
+  #27 wording, all Vernon; #1-#4 downtown, #5 Village Green Centre ("a few
+  minutes from you"). Neil asked for 5.
+- [SOURCE] July rows with no email on file (restaurants, a seafood market, a
+  liquor store); addresses from own sites, Facebook and Okanagan Local.
+- [CHECKED] #24-#44, Gmail Sent by address, domain and name, inbox.
+- [LOG] 5 rows tagged "first email (#45)", Five Fathoms Aug 1 send marked,
+  4 July rows marked not in Vernon, 4 marked taken over / sold. Fit 74.
+- [SPARE] Geordie's Custom Welding (geordie@geordiescustomwelding.ca, own
+  site) — may be one person; Gmail clean.
+
 ## Run 2026-10-25 — scope: year-end invitations, 15 more in Vernon, wider business types, never emailed (run 44)
 
 - [ACT NOW] #44-B9-YearEnd-Vernon-Never-Emailed-7.txt — 15 first emails in the

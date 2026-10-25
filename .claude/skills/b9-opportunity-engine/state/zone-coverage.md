@@ -423,4 +423,9 @@ consistent with the log-wide ~26% email rate.
   Sushi, Fine Kettle of Fish, Liquor Warehouse Vernon, Consignor Sports,
   The Wax Bench, Autosound Plus, Midtown Bistro, Suda, Haveli, Ustaad G76,
   Pennys Towne Barber.
+- Run 45 (5 more): the male-leaning July rows (welders, tattoo, pubs, tire,
+  RV) mostly failed — outside Vernon (Yoshi Sushi is Victoria; Consignor
+  Kamloops; Wax Bench Revelstoke; Anchor Inn Armstrong; Shamrock Kelowna),
+  taken over (Sir Winston's, Mike Rosman RV, Autosound Plus) or no email.
+  The July list holds many non-Vernon rows; verify the town first.
 
