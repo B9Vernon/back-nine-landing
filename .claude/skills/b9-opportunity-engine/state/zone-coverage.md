@@ -384,3 +384,17 @@ consistent with the log-wide ~26% email rate.
   Blasting (info@mccawsdrilling.com, 34th St ops office, Calgary head
   office), Western Equipment Vernon store (vernon@westernequipmentltd.com).
 
+## Method note — run 42 (2026-10-25): category gaps, and the log's July sends
+
+- Neil: "find 25 more". 24 passed; stopped rather than pad.
+- Okanagan Local Vernon categories were already harvested in run 28: nearly
+  every listing with an email is on the log. Category searches for trades the
+  log had few of (cranes, coatings, tents, bus repair, wreckers, irrigation,
+  fireplaces, surveyors, engineers, IT) still mostly hit run 28-32 rows.
+- Gmail found 9 more July/August sends the log hadn't recorded, plus McCaw's
+  in June (not on the log at all). Always check Gmail by name before lookups.
+- Yield this run: about 1 usable new address per 3 lookups. The Vernon pool of
+  never-emailed trades with a published email is close to exhausted. Next
+  options: offices (law, accounting, insurance, realty) with only named-staff
+  addresses, or widening to Coldstream/Lavington/BX/Okanagan Landing streets.
+

@@ -221,6 +221,21 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-25 — scope: year-end invitations, 24 more in Vernon, never emailed (run 42)
+
+- [ACT NOW] #42-B9-YearEnd-Vernon-Never-Emailed-5.txt — 24 first emails in the
+  #27 wording, all Vernon; #1-#2 share Back Nine's street address (3201 45th
+  Ave), #3-#4 a block or a few blocks away. Neil asked for 25; 24 passed.
+- [SOURCE] Category searches the earlier runs hadn't covered (cranes, powder
+  coating, tents, bus repair, wreckers, engineers, designers, accountants,
+  mortgage brokers), the rest of the July list, and the two run-41 spares.
+- [CHECKED] #24-#41, Gmail Sent by address, domain and name, inbox.
+- [LOG] 10 new rows (run-42), 14 rows tagged "first email (#42)", 11 rows
+  corrected from Gmail (6 sends found, 5 duplicates), McCaw's June send
+  backfilled. Fit 73-78.
+- [SPARE] Exel Exteriors (jamie@exelexteriors.ca) — owner-operator, may be one
+  person; Gmail clean, not logged.
+
 ## Run 2026-10-19 — scope: year-end invitations, 12 more in Vernon/Coldstream, never emailed (run 41)
 
 - [ACT NOW] #41-B9-YearEnd-Vernon-Never-Emailed-4.txt — 12 first emails in the
