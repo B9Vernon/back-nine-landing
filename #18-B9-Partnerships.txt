@@ -1,0 +1,165 @@
+B9 OPPORTUNITY & PARTNERSHIP ENGINE — RUN #18
+4 partnership invitation emails — Back Nine Golf Vernon
+
+READ THIS FIRST: THE TOWN IS RUNNING OUT, AND THE NUMBERS SHOW IT
+
+This is a thin run and the reason is not the engine. Vernon has 1,872
+businesses in the outreach log. Run 18 examined 129 more across nine fresh
+sweeps — sports clubs, martial arts, strata and property management,
+architects and engineers, equipment rental, septic, propane and fuel, well
+drilling, wholesale food, veterinary, janitorial, farm and feed, sporting
+goods, aviation, staffing, taxi and shuttle, dental, denturists,
+orthodontics, counselling, bookkeeping, roofing, appliance repair,
+locksmiths, instrument repair, antiques, laundry, self storage, pool and
+spa, upholstery, funeral homes and travel agents — and 72 of those had
+never been contacted.
+
+Only 9 of the 72 published an email address that could be verified. Three of
+those 9 turned out to be businesses already in the log under another name,
+and two more fell below the fit floor.
+
+That leaves 4. Padding it to 25 would mean inventing email addresses or
+dropping the fit floor, and the engine refuses both. The coverage audit
+passed on the evidence — nine sweeps, ten source types, the closest ring
+worked first — which is the difference between "there are only four" and
+"I stopped looking after four".
+
+WHAT WAS FIXED THIS RUN
+
+The duplicate guard was treating a civic address as proof on its own
+whenever one side knew its unit and the other did not. Four real prospects
+were killed by that in this run alone:
+
+  Village Green Shopping Centre   matched Chatters Hair Salon (unit 530)
+                                  — a shopping mall against a shop inside it
+  North Okanagan Orthodontics     matched Central Barbers (unit 300 vs none)
+  Kal Fitness                     matched Chemac Industries (unit 12)
+  End Of The Roll Flooring        matched Bliss Pilates (unit 101 vs none)
+
+None of those pairs is one business. The rule now reads: both units known,
+they must be equal; neither unit known, the civic address still stands as
+evidence; exactly one known, the civic number alone is not enough and some
+other axis has to corroborate. The protection that mattered is untouched —
+Vernon Landscape & Stone Supply and Vernon Landscape Centre are both
+"4620 23 St" with no units recorded, and they still collide. Acceptance
+test 15 covers both directions and fails if the fix is reverted.
+
+North Okanagan Orthodontics is in this run because of that repair. The other
+three turned out to be genuine duplicates on other axes and stayed rejected,
+which is the guard working correctly.
+
+EVERY PROSPECT CLEARED, IN ORDER:
+  Universal Duplicate Guard  name, alias, core name, website domain, email,
+                             email domain, phone and street address, against
+                             all 1,872 logged businesses — screened as a
+                             batch before any verification was spent, then
+                             AGAIN with the final name and verified email
+  Contact Verifier           published email only, source recorded
+  Commercial Fit Scorer      65/100 floor, no score inflated to reach a count
+  Opportunity Red Team       reject and replace
+
+THE FUNNEL
+   129  businesses examined across 9 sweeps and 10 source types
+    72  never contacted before
+     9  published a verifiable email address
+     3  of those 9 were caught by the SECOND screen, after verification —
+        Rencon Rentals (shares sales@rencon.ca with Rencon Equipment
+        Rentals), Rusty Spur Farm Feed & Pet (the rebranded Briteland
+        Holdings, same address 3208 28 St) and Vernon Denture Clinic
+        (already logged under that exact name)
+     2  below the fit gate — Balanced Life Counselling 53/100, Distinctive
+        Upholstery & Marine 57/100
+     4  delivered here
+
+REJECTED FOR HAVING NO PUBLISHED EMAIL (54). Web pages still cannot be read
+from this environment: WebFetch returns HTTP 403 for every host and raw curl
+cannot open a tunnel. An address has to appear inside search-result text, so
+a business reachable only through a contact form cannot be verified and is
+never guessed. Lost this way: Aurora Aviation Group, Vernon Regional Airport,
+Andrew Sheret, Wholesale Club, Royal Star Transportation, Vernon Taxi,
+Capitol Taxi, Crescent Falls Veterinary, Castle Fuels, Jade Mountain Propane,
+Aslan Services, Gorilla Property Services, Reimer's Farm Service, United
+Rentals, Exel Exteriors, Hunter Exteriors, Peddler Emporium, Roc-Key's Locksmith, Robbie's
+Instrument Repair, three self-storage yards, four travel agents and the rest.
+
+OUT OF GEOGRAPHY: Meiklejohn Architects (Kelowna), Riding Engineering
+(Penticton), Econospan Structures (Chase), FuelPro Systems (Kelowna), Fresh
+Air (Kelowna), Good Sorts (Kelowna), JR Drilling (Kamloops), Purity Feed
+(Kamloops), VCA Tri Lake (Lake Country).
+
+Armstrong, Lumby and Enderby were sampled at the 10-20km ring and priced
+honestly rather than padded in: Precision Aluminum scores 54/100 and Meadow
+Valley Meats 48/100, because 20-25km of road costs them most of the
+proximity weighting. They are rejected, not delivered.
+
+SCORES
+  75/100  NOS Brazilian Jiu-Jitsu & MMA   (athletic members, minutes away)
+  68/100  North Okanagan Orthodontics     (two-year family relationships)
+  65/100  Willerton Engineering           (whole office in one building)
+  65/100  Keylight Photography            (genuine two-way, sport + business)
+
+Geography: closest-first from 3201 45th Ave. Rings 0-1km, 1-3km and 3-5km
+worked before anything farther out. Kelowna excluded.
+
+NOTHING IN THESE EMAILS IS OFFERED FREE. Every commercial mention is priced:
+"a member rate each way", "a patient rate", "we quote those by the group",
+"we quote group bookings by the hour", "I'd want a quote". The TV placement
+is sold as paid advertising in the locked wording. Checked mechanically
+against locked rule 2b by tools/verify_deliverable.py and read line by line
+on top of that.
+
+WHAT TO DO ABOUT THE THINNING — this needs your call, not mine:
+  1. The 46 businesses above are real, local and unreachable only because a
+     contact form cannot be submitted from here. They are the largest single
+     pool left in Vernon.
+  2. Widening past 10km brings in Armstrong, Lumby, Enderby and Coldstream,
+     but the fit floor rejects most of them on distance alone. If you want
+     that ring worked, the proximity weighting is the thing to revisit.
+  3. Phone-only businesses have been dropped every run since run 12.
+
+Drafts only — nothing is sent automatically.
+
+---
+
+1. NOS Brazilian Jiu-Jitsu & Mixed Martial Arts
+To: nosbjj@gmail.com
+Subject: Waddington Drive, and where your members go after training
+
+Hi NOS team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on Waddington Drive a few minutes from our door, training people who already organise their week around a sport. That is the same person who books a bay — competitive, comfortable being measured, and looking for somewhere to go on the evenings they are not on the mats. A member rate each way is the simple version: your people get a rate on our simulators, ours get one at your gym. We'd love to talk about featuring NOS as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+2. North Okanagan Orthodontics
+To: info@northokanaganortho.com
+Subject: Your patients see you every month for two years
+
+Hi North Okanagan Orthodontics team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. An orthodontic case runs two years of monthly visits, which gives you a longer running relationship with a Vernon family than almost any other business in town — and those families are exactly who books a bay on a winter evening. A patient rate would give you something worth handing across the desk at an appointment. Your own staff evenings are the other half of it, and we quote those by the group. We'd love to talk about featuring North Okanagan Orthodontics as a partner on the TVs across our facility — 24/7 advertising seen by hundreds of people a week, with a QR code sending the people straight to your website. Would you be open to a conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+3. Willerton Engineering
+To: admin@willerton.ca
+Subject: 28th Street, and a room your whole office fits in
+
+Hi Willerton team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You're on 28th Street a couple of minutes from our door, running a design office rather than a field crew — which means your staff are in one building and can genuinely all leave at the same time. That is usually the hard part of organising anything. Our bays take a whole office at once, indoors, year-round, and we quote group bookings by the hour. Worth a quick conversation?
+
+https://backninegolf.ca/local/vernonbc/
+---
+
+4. Keylight Photography
+To: info@keylightphotography.ca
+Subject: Sport portraits, business branding, and a lit indoor bay
+
+Hi Keylight team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge here in Vernon. You shoot business branding and athlete portraits across Vernon and Kelowna, which is an unusual pair to hold and happens to be exactly the two things we need photographed. We're a lit indoor space with launch monitors running year-round, which is useful for the sport half of your book once the weather closes the outdoor options. Your business clients are also the people we want booking corporate evenings, so a referral each way is worth talking about. I'd want a quote for a shoot of our own facility either way. Would that be worth a chat?
+
+https://backninegolf.ca/local/vernonbc/

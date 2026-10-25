@@ -1,0 +1,441 @@
+# Zone Coverage Ledger
+
+Which ground the engine has actually swept, and when. Created run 23, after a
+ledger audit found the engine had **no spatial memory at all**:
+
+    addresses held      75 of 1,892   (3%)
+    ring recorded        0 of 1,892   (0%)
+    distance recorded    0 of 1,892   (0%)
+    distinct streets    22
+
+`references/map-grid-discovery.md` has listed the Vernon zones since the early
+runs. Not one had ever been executed as a street sweep. Discovery ran on
+category queries ("Vernon roofing companies") and on directory *ranking*, both
+of which return the same top businesses every time — so the duplicate rate
+climbed, and runs 18-20 read that as the town being exhausted. It was the
+engine re-finding its own footprints.
+
+**Read this file before harvesting. Sweep an UNSWEPT or STALE zone first.**
+Append a row after every prospecting run. A zone is stale after ~6 months.
+
+## Status key
+
+| Status | Meaning |
+|---|---|
+| SWEPT | worked street by street, yield recorded |
+| PARTIAL | touched incidentally by a category or directory query, never swept |
+| UNSWEPT | never worked |
+
+## Vernon and area
+
+| Zone | Status | Last | New found | Notes |
+|---|---|---|---|---|
+| 5000 Silver Star Rd business park | SWEPT | 2026-08-16 | 4 of 4 | one building, four tenants, none previously contacted |
+| Coldstream — Kalamalka Rd corridor | SWEPT | 2026-10-16 | 3 + run 29 | Meier's, Coldstream Market, Kal Lake Store. Run 29, by trade on Facebook (no storefront walk): BMS Electric, Wise Wildlife (10203 Kalamalka Rd), plus Coldstream crews with no street listed: BTE, Blue Collar Junk, Coldstream Garage Door, Nokomis, Restoration Lands (9622 Hill Dr), Blue Rhino Fence, Talon Tree, Stirling Peters (Postill Dr), MVE Plumbing. |
+| Coldstream Valley — rural/agricultural | SWEPT | 2026-08-16 | 2 | Zelaney Farms, Tony's Craft Cidery |
+| Swan Lake / Old Kamloops Rd corridor | SWEPT | 2026-08-16 | 4 | campground, market, Castle hotel, Bright Angel |
+| Downtown — 30th Ave core | SWEPT | 2026-10-18 | 6 + run 27 + 7 (run 31) | DVA directory by category; storefronts not walked. Run 27 (year-end): 3005-3334 30th Ave offices (Direct Travel, Teach and Learn, Lake City Law, Compass Law, Sun Valley Dentistry, Bamboo Beach, Anytime Fitness). Most were July batch-200 drafts; Gmail decided warm vs cold. Run 31, both sides by directory and Facebook: Fort Asian Food and Rich Tea (3334), Corbett Office Plus (3306), Freedom Body Piercing (3212), Record City (3127), RAKU (3318), Local Losers (3222); about 20 already logged; OH KIM (3112) caught in Gmail Sent (Jul 17). Ebenezer's (3110 29 Ave) nearby. |
+| Downtown — 29th/31st/32nd St cross-blocks | PARTIAL | 2026-10-16 | 4 new + run 28 | Run 27 worked the office blocks by directory, not on foot: 32nd Ave 2903-3401 (Lighthouse, Culos, Museum, NOYFSS, John Howard, Accent PM, Diamond Dental), 32nd St 2901-3205 (Coldwell Banker, Sproing, Urban Systems), 30th St 3201 (NexusBC), 28th/29th/27th Ave (CMHA, NOFC, Hamlets, Monashee Optometry, ILV, Okanagan Spring). Retail storefronts not walked. |
+| Industrial park — 29th-31st St, 43rd-45th Ave | SWEPT | 2026-10-15 | 14 | Run 26 walked 45th (2700-2900), 43rd (2700-3009), 44th (2800s) and 29th St (4500-4700). Emails found for 14; no email anywhere for Backyard Pleasures, CMQ, Mark IV, OBC, Bushpro. 3201 45 Ave itself: Rise Gymnastics (#10). Run 29, from Facebook pages: Progress Machine (104-4404 29 St), Horizon Detailing and IC's Mobile Detailing (4316 29 St), Okanagan Tree Service (4210 29 St), The Metal Garden (4700 31 St). The walk missed back-unit tenants. |
+| 27th Street corridor (Hwy 97) | SWEPT | 2026-10-18 | 3 + 1 (run 31) | 3600-4900 block: dealerships (Hilltop, Dodge, Bannister GM, Watkin, Hyundai), dental/physio cluster at 4005-4412, World Health. Mostly already logged — run 26 confirmed which were actually emailed. Run 31: FACTS First Aid (4007 27 St); about 14 already logged. |
+| 32nd Street corridor | SWEPT | 2026-10-18 | 2 + 3 (run 31) | 3900-4411: hotels (Sandman, Super 8 closed, Prestige), Vernon Square, insurance (Bracken, Johnston Meier), Interior Savings/United Way at 4301. Run 31, with Hwy 97 N: Canada's Best Value Inn (4006), The Cracked Pot (2101, at VJH), Cowboys Choice (7851 Hwy 97 N); about 18 already logged. |
+| 43rd / 48th Ave + Anderson Way | SWEPT | 2026-10-15 | 2 new | 48th 2100-3401 (Toyota, Brandt, Genier's, Helmut's, Mediterranean, End of the Roll); Anderson Way 4800-5240 (Westland, Siwoski, Family First, NOMC). |
+| Village Green Centre + 27th St north | PARTIAL | 2026-10-16 | 0 | Run 30: mall tenants are chains (Save-On, Hudson's Bay, CIBC, Browns) and a brow studio. Nothing on brief. |
+| Polson Place / Hwy 6 East | SWEPT | 2026-10-18 | 0 | mall tenants are national chains; low yield. Run 31, Hwy 6 end to end: 0 new; about 3 already logged, the rest chains or non-profits; Hot Spot on Six could not be identified. |
+| Fruit Union Plaza / Hwy 6 | SWEPT | 2026-10-18 | 0 | Run 30, Polson/Hwy 6: grocery, salon, pet stores, science centre. Nothing on brief. Run 31: covered by the Hwy 6 scan, nothing new. |
+| 24th-25th St industrial/service | PARTIAL | 2026-10-18 | 2 + run 28 + 2 (run 31) | 5000-5400 block: E.B. Horsman, Torbram, Nedco, A J Machine, Solar Roofing (25 St). First #28 draft (never sent): Okanagan Spirits (5204 24 St), Flooring Hub and Monument (26 St), Vernon Truck Center (4700 23 St). Run 29, 25th Ave 4215-5301: Wrap A Tac and Unity MMA (4215), Paradise Dock & Lift (4311A), Air Tech Mechanical (4315), E & L Building (5301); Jetty Marine (4403 25 St), Mike V's (5401A 26 St). Run 31, 25th Ave end to end: Excellent Edge Pro Shop (5101 25 Ave); about 8 already logged. Vantastic Rentals (3208 24 St). |
+| 34th St / Alexis Park Drive | PARTIAL | 2026-10-15 | 2 new | 34th St 3008-4790: Pacific Inn, HIE, Color Room, Monarch, Vernon Physio; run 27 added Flow Physio (3203 34 St). Alexis Park: only Venture Living (4240) so far. |
+| Waddington Drive | PARTIAL | 2026-10-16 | 3 | Run 28 redo: ProSew (740), Combined Mechanical (920). Run 29: M&K Ready Mix (650). No email found for Fox & Sons (740), Clark Freightways, Trican, Bell Lumber & Pole, BC Fasteners (in log). |
+| Okanagan Landing Road | SWEPT | 2026-10-18 | 2 + 4 (run 31) | Run 28 redo, by directory: Rotech Motor (6235). Run 29: Chapman Sand & Gravel. Okanagan Recreational Rentals and Creekside Landing already in log; the rest are a church, museum and florist. Run 31: Cruise Okanagan (7883), Outboard Waterfront Pub (7673), Vernon Kung Fu (7815), Okanagan Fixwings (6300 Tronson Rd, airport); 5 already logged; Nirvana Cabanas too small. |
+| Bella Vista / Westside Rd | PARTIAL | 2026-10-18 | 1 + 0 (run 31) | Run 29, from Facebook: Full Throttle Tree Service (Westside Rd). Not walked. Run 31, Bella Vista Rd: 0 new; 3 already logged (e.g. Ringo-En Orchards, Planet Bee Honey Farm), the rest clubs, a church and a society. Westside Rd not walked. |
+| Pleasant Valley Rd / 20th St | PARTIAL | 2026-10-18 | 3 + 2 (run 31) | First #28 draft (never sent), by trade directory: Evolution Mechanical (6216), NOR Renovations (6230), Valley Marine (7238), Performance Marine (4801 20 St). Run 29: Metal Roofing & Siding Experts plant (7092 Pleasant Valley Rd). Not walked. Run 31, Pleasant Valley Rd from Vernon to Armstrong: Blue Mountain Nursery (1871, Armstrong), RE/MAX North Valley (6-3495, Armstrong); about 10 already logged (e.g. Armstrong General Store, The Wild Oak Cafe); Vanspen (7092) and Exell Power (6252) have no email. |
+| BX / Silver Star Road foothills | SWEPT | 2026-07-25 | run-7 | worked heavily; likely stale by 2027 |
+| L&A Cross Road | PARTIAL | 2026-10-16 | 0 | Run 28 redo: Great West Equipment and Donald's in log; Gilmay RV is now at 8129 Highland Pl. No emails published. |
+| 58th Ave / north end | PARTIAL | 2026-10-16 | 0 | Run 30: RONA, Walmart, Mary Brown's: chains only, no emails. |
+
+## Ring 10-30 km
+
+| Zone | Status | Last | New found | Notes |
+|---|---|---|---|---|
+| Armstrong core | PARTIAL | 2026-10-16 | 10 | Run 28 redo, by directory: Hancon, North Valley Contracting, Armstrong Auto Recycling, Ironwood Landscaping, Reimer Bros; then Blackwell Building Movers, Eagle Rock Plumbing, Dynasty West, Monashee Outdoors, Maddocks. TNJ Plumbing was already emailed Aug 13 (backfilled). No email: Quality First Motors, DHW, Armstrong Crane, Tristar (Alberta-based). aschamber.com/directory lists 127 members but masks emails. |
+| Enderby core | PARTIAL | 2026-10-16 | 3 | Run 28 additions, by okanagan-local.ca: Burton Tree, Veach's Septic, Deep Creek Pools. Good Neighbour Fencing held as spare (old telus address). Starlight Drive-In and a school skipped. |
+| Lumby core | PARTIAL | 2026-10-16 | 2 | Run 28 redo, from 411.ca: Rocky Mountain Concrete, Galaxie Powder Coating. Names only: Ivan's Imports, Nagy Cylinder, Coldstream Valley Stucco, Lumby Truck & Car Wash. |
+| Lake Country (Main/Woodsdale/Berry) | PARTIAL | 2026-10-16 | 10 | Run 28 redo: 31 of 32 names were new to the log, the freshest ground left. Emails for Lake Country Crane, Staxon, Max Electric, Lake Country Landscaping, Kapiti, Deano's, ENCO, Pipe Piper, Hewitson, Danish. Still to look up: R&R Hoe, AppleGate, Adrenalin, Home Ready, Immaculate, Venetian, Steve's Plumbing, Viper Electric, Five Star, Virtue, Sierra, Quality Floor, Jennifer Fleming, Emax, BC Surveyors. |
+| Falkland / Cherryville | UNSWEPT | — | — | |
+
+## Method note — what actually worked in run 23
+
+Directories that **enumerate** beat directories that **rank**:
+
+- `members.downtownvernon.com/business-directory/Details/<slug>` — names sit
+  in the URL slug, so a category-scoped search returns 8-10 named businesses
+  per query
+- `business.vernonchamber.ca/list/searchalpha/<letter>` — alphabetical index,
+  exhaustive rather than rank-ordered
+- Business-park and plaza tenant lists (leasing sites, LoopNet, developer
+  pages) — surface clusters that share nothing but a postcode
+- Geo-indexed directories: `vernon-bc.canada-bd.com/establishment/?page=N`,
+  `vernon.infoisinfo-ca.com`, `okanagan-local.ca`, `n49.com`
+
+- **City of Vernon business licence register** —
+  `vernon.ca/business/business-licences-permits/search` — about 3,276
+  licensed businesses, searchable by street address. Found run 24. This is
+  the closest thing to a complete street-by-street list of the city; WebFetch
+  cannot read it from this session, so it needs WebSearch-indexed pages or a
+  human with a browser. Licensing: 250-550-3634.
+
+Run 23 harvested 74 names this way and 33 were new — a 55% duplicate rate,
+against run 20's 66% on a sample less than half the size.
+
+Run 24 (Christmas-party targets, 2026-10-13): 62 harvested across the Chamber
+category pages, 27th/32nd St and the industrial park; 34 new; 10 cleared the
+65 fit floor. Every one of the 10 publishes a phone number and no email —
+consistent with the log-wide ~26% email rate.
+
+## Method note — run 26 (2026-10-15): finding the EMAIL is a search-mode problem
+
+- WebFetch could not reach ANY host from this session (DNS failure on every
+  site, including backninegolf.ca), and the vernon.ca licence register is
+  blocked at the proxy. Discovery and email lookup ran on WebSearch alone.
+- **Standard-mode WebSearch hides email addresses.** Twenty-four
+  per-business lookups in standard mode returned one address; the summarizer
+  said "no email found" even for businesses whose own contact page lists one
+  (Courtview Dental, End of the Roll). **Extended mode** returned the address
+  from the business's own site on ~60% of tries. Use `mode: "extended"` for
+  the per-business email query; keep standard mode for cheap name harvests.
+- Directory searches with `allowed_domains` set to yellowpages.ca,
+  canpages.ca, n49.com, okanagan-local.ca and canada-bd.com enumerate a
+  street well: "Vernon BC "45 Ave" business" returned eight named tenants
+  with unit numbers. Searching a street name without a domain filter returns
+  house listings.
+- **Check Gmail Sent before deciding "new".** Run 26 found a business the
+  engine had logged only by phone (Prestige Collision & Glass) that Neil
+  had in fact emailed, and two the engine thought were single contacts that
+  had been emailed twice (Sandman, Holiday Inn Express).
+
+
+## Method note — run 28 (2026-10-16): harvest by TRADE, not by street
+
+- Neil's rule from #27 (golfer-type, mostly men, about 30 staff or fewer,
+  no non-profits or seniors) maps onto trade categories better than onto
+  streets. One standard-mode directory search per trade ("electrical
+  contractors Vernon BC", with the five directory domains allowed) returns
+  8-15 named businesses with street addresses. Run 28 used about 25 trades
+  and got 214 names. Addresses cover the main streets: 27th St/Hwy 97,
+  25th Ave, 43rd-48th Ave, Anderson Way, Kalamalka Lake Rd and Pleasant
+  Valley.
+- **One extended search per trade category** ("Vernon BC roofing company
+  email contact") returns 3-8 published addresses at once, mostly from the
+  businesses' own sites. That beats one lookup per business (about 1 email
+  per call). Use per-business extended lookups only to fill gaps.
+  Multi-name OR queries ("A OR B OR C email") return almost nothing.
+- **Check Gmail Sent by DOMAIN and by every address the log ever held**,
+  not just the address being used now. Run 28 found three already-emailed
+  businesses that way (Bertelsen at an old shawbiz.ca address, Valley Marine
+  at ryan@, Richbuilt at darren@), plus June sends the log never recorded
+  (DuMoulin Boskovich, Pro-Tow).
+- Check #24's PHONE list too. screen_candidates matched neither "Sladen Moore
+  CPA" nor "Sladen Moore LLP" (a run-24 phone row), so grep the run-24 rows
+  by hand.
+
+## Method note — run 28 redo (2026-10-16): Vernon trade listings are used up
+
+- Neil rejected the first #28 draft because 63 of its 100 businesses had
+  already been emailed or logged. The redo had to be all-new businesses.
+- **Vernon's directory trades are saturated.** About 70% of the
+  okanagan-local.ca category results were already in the log (roofing 3 of 3,
+  bikes 3 of 5, marine 4 of 4, barbers 4 of 4). Expect about 2 new per
+  category query now, against 5-8 a month ago.
+- **Lake Country is nearly untouched**: 31 of 32 names were new. Armstrong
+  and Lumby are close behind. Go there first next time, then Enderby.
+- Names-only listings: one extended lookup per business finds an email about
+  half the time when the business has its own site, and rarely when it
+  doesn't.
+- **Search budget:** WebSearch stops at 200 calls per session. The redo
+  reached 108 new businesses before hitting it. Plan for about 1.5 searches
+  per business found.
+- **Screen-input bug:** rows with a blank address field (`Name | | email`)
+  split wrongly on `' | '`, so the email landed in the wrong column and the
+  email/domain checks never ran. Name checks still caught most matches.
+  Split on `'|'` and strip each field.
+
+## Method note — run 29 (2026-10-16): Vernon directories are used up; go to Facebook
+
+- Neil: "Stay with Vernon area for now." Run 29 is Vernon and Coldstream
+  only: 146 first contacts.
+- Directory and own-site queries for Vernon trades now return mostly logged
+  businesses. About 125 of run 29's finds were already in the log or an
+  earlier file, and okanagan-local.ca has nothing new for Vernon.
+- **The best source left is Facebook pages.** A standard search restricted
+  to facebook.com ("Vernon BC [trade] email") surfaces small crews that
+  never list on directories, and the page snippet usually shows the email.
+  78 of run 29's 146 came that way. Own-site queries ("Vernon BC [trade]
+  contact email", okanagan-local.ca blocked) gave 59.
+- About 140 Vernon businesses turned up with no email anywhere (names in
+  the run-29 scratch list, e.g. Artistic Ceramics, Stellar Craft
+  Cabinetry, Black Velvet Chimney Sweeps, Hill & Son Machining).
+- Gmail Sent caught four sends the log never had: Agar Schneider & Lett,
+  Links Lawn & Yard (a different domain from the run-2 "Links Lawn &
+  Landscaping" row), Window & Door Project Solutions, Sage Environmental.
+  All are backfilled. Keep checking Sent by domain AND by the free-mail
+  address before calling anything new.
+- The 200-search cap per session stopped the run at 146 of the ~200 asked
+  for. Continue as #147 onward in a new session.
+
+## Method note — run 30 (2026-10-16): Vernon is close to saturated; the outer towns are not
+
+- Neil: "Stay in Vernon... Scan all the main streets. Once that is done you
+  can scan this side of Armstrong and lumby, lavington and coldstream."
+- 194 searches gave 33 new fits. In Vernon, about 40 finds were already
+  logged and most others were chains or off-brief retail. Street queries
+  with facebook.com return storefront retail. Own-site queries by
+  industrial road ("Waddington Drive Vernon BC company contact email") give
+  1-2 emails each, but mostly for businesses already logged.
+- Name lookups for the run-29 names-only list failed (0 of 8 unrestricted;
+  about 1 in 4 restricted to facebook.com). Those businesses have no
+  published email; drop the list.
+- Lumby, Armstrong and Spallumcheen trade queries on facebook.com gave 1-2
+  new emails each, nearly all unlogged. Own-site "contact us" queries for
+  Armstrong, Spallumcheen and Coldstream also worked (Shapter, Gambrinus,
+  North Valley Equipment, Coldstream Lumber, Rouck Bros).
+- lumby.ca/major-employers lists Lumby firms with 10+ staff (Gudeit Bros,
+  RJ Schunter, Castle Cheese, D&M Auto Recycling). None has a findable
+  email.
+- Next: continue the Armstrong side (Otter Lake Cross Rd, Larkin, Grandview
+  Flats), Lumby (Mabel Lake Rd, Dure Meadow, Shields), Lavington and
+  Coldstream by trade. Vernon only through new trade terms.
+
+## Method note — run 31 (2026-10-18): Neil's eight main streets are about 80% contacted
+
+- Neil: "Scan these streets in order. 30th Avenue * 32nd Street (Highway
+  97) * 27th Street * Highway 6 * 25th Avenue * Okanagan Landing Road *
+  Bella Vista Road * Pleasant Valley Road. Do not make up emails."
+- About 155 searches gave 32 new fits: 18 on the eight streets, 11 found
+  elsewhere in Vernon while scanning, 3 in Armstrong and Lumby. On the
+  eight streets about 80 of the businesses that publish an email were
+  already logged (64 caught by the screen, the rest by eye). Gmail Sent
+  caught one more the log had missed (OH KIM Sushi & Grill, Jul 17).
+- Best source for a single street: the Tourism Vernon directory
+  (vernonbd.esolutionsgroup.ca) with "email" in the query; it prints the
+  address and the email together. Next best: the same street restricted
+  to facebook.com. n49 and Cylex show the odd email, but some listings are
+  years old.
+- Dead ends: chamber directories mask emails, Alignable gives names only,
+  name lookups for small businesses come back empty, and goldbook.ca is
+  not reachable from the search tool.
+- Highway 6 and Bella Vista Road gave nothing new: Highway 6 is chains and
+  non-profits; Bella Vista is orchards, clubs, a church and a society.
+- Next: the main streets are done. What's left in Vernon is side streets
+  and home-based crews on Facebook. The Armstrong side, Lumby, Lavington
+  and Coldstream are still fresher.
+
+## Method note — run 32 (2026-10-18): Vernon trades are used up; professional lists still work
+
+- Neil: "Run #32. Only find 25 businesses."
+- About 150 searches gave 18 new fits. About 70 finds were already logged.
+  Facebook trade queries for Vernon (roofing, auto, cabinets, masonry,
+  flooring, bikes, barbers, used cars, towing, RV) returned only logged
+  businesses: 0 new out of the last 17 with an email.
+- What still worked: public professional lists that print emails (the
+  Columbia Shuswap Regional District's QEP, surveyor, geotechnical and
+  registered-professional PDFs; the BC agriculture "engineering consultants
+  for agricultural structures" factsheet; the BCFSA mortgage-broker
+  register), plus Cylex and Hotfrog listings, which show an email on
+  roughly 1 listing in 10 and include many businesses not yet logged.
+- Dead ends this run: name lookups (0 of about 15), town business
+  directories (Lumby, Coldstream), the RDNO backflow-tester PDF (not
+  indexed), job postings, Brownbook and opendi. WebFetch can't reach
+  outside sites from this environment, so PDFs can only be read through
+  search snippets.
+- Next: Cylex and Hotfrog category pages for Armstrong, Coldstream and
+  Lumby; other regional-district professional lists. Many good-fit names
+  without emails are saved in the run-32 scratch names list; they would
+  need a phone call or a site visit, not an email.
+
+## Method note — run 33 (2026-10-18): Enderby and Lake Country are fresh
+
+- Neil: "run #33. Find 15".
+- About 65 searches gave 15. Vernon niche trades on facebook.com (irrigation,
+  appliance, hitch, detailing, pools, restoration, roofing) were nearly all
+  logged; about 40 finds already contacted. Armstrong/Lumby/Coldstream
+  facebook.com queries gave 2 new.
+- Phrase the town as "Town, British Columbia" in facebook.com queries; it
+  drops the US and UK namesakes that "Town BC" pulls in.
+- Lake Country and Enderby facebook.com queries returned mostly unlogged
+  businesses with emails (9 of 11 new on the first Lake Country query).
+  Both are inside the 40 km of Neil's uploaded list, so they were used and
+  flagged in the header.
+- Dead ends: name lookups for Armstrong/Spallumcheen trucking and
+  excavating firms, SICA and CHBA member directories (emails hidden), the
+  ASTTBC ROWP registry, US carrier registries (BC carriers are not listed).
+- Next: Lake Country (Winfield, Oyama, Carr's Landing) and Enderby/Grindrod
+  trades on facebook.com with the "British Columbia" phrasing.
+
+## Method note — run 34 (2026-10-18): Vernon on Facebook is close to exhausted
+
+- Neil: "run again. Find 10 in Vernon. dig deep."
+- About 35 searches over about 30 categories with "Vernon, British Columbia"
+  restricted to facebook.com. About 60 finds already logged; trades were
+  15 of 15 logged. Gmail Sent caught Outback Lakeside (Jul 17, backfilled).
+- New ones came only from offices, realty groups, a tire shop, a party
+  rental, a BJJ gym, a shuttle company and a paint store.
+- Remaining Vernon names without emails are in the run-34 scratch list;
+  Vernon email yield is now roughly 1 new per 3-4 searches.
+
+## Method note — run 36 (2026-10-18): larger corporations
+
+- Neil: "Run #36 . Also look for larger corporations ."
+- Big private employers are nearly all logged already (Tolko, Kal Tire,
+  Rogers Foods, Okanagan Spring, Tekmar, McElhanney, Watkin, Vernon Dodge,
+  Nixon Wenger, BDO, MNP, Sparkling Hill, SilverStar). Most of the rest
+  publish only a phone or careers page (Rapid-Span, Gorman Lumby, Dr. Ma's,
+  KPMG, Coldstream Ranch; Westwood Electric and Great West are phone-only rows).
+- Big-company emails that did turn up came from regulator and government
+  lists (WA UTC record for DCT Chambers, BC seed orchard contact list for
+  VSOC), the CSRD QEP list (AE), and Facebook/business listings (Mercer
+  Forestry, PRT).
+- Bryton Marine Group owns KingFisher (already emailed); only a press
+  contact is published. AIM Roads' address is a public road-report inbox.
+- Regular crews: Lake Country and Enderby still yield via Facebook and the
+  MNBC and BC Wood directories; HomeStars and StarOfService hide emails.
+
+## Method note — run 37 (2026-10-18): Vernon scan, then outward
+
+- Neil: "Run #37 . Give Vernon a good scan then move outward. Find 20 or so"
+- Vernon: about 40 searches on trades and types not tried before
+  (countertops, insulation, fencing, millwrights, paving, automation, boat
+  rentals, recycling, golf shops, forestry, mechanical contractors) and on
+  other directories. About 35 Vernon finds with an email were already
+  logged; 3 new (Ace Mechanical, Interior Recycling, Solutions Forestry).
+  Vernon is effectively exhausted for published emails.
+- Outward: Coldstream, Armstrong and Lumby came back nearly all logged.
+  Lake Country gave 5 and Enderby 9. The best new source was the Shuswap
+  Construction Industry Professionals directory (scip.bc.ca, listings and
+  the 2020/2025 PDFs), which prints emails for Enderby contractors.
+  Falkland, Cherryville, Grindrod and Mara had nothing that fit.
+- Gmail Sent caught Chapman Mechanical (admin@, Oct 13, never logged;
+  backfilled). Search Sent by company NAME as well as domain.
+- Two #36 errors found and marked in the log: O'Rourke Family Estate is
+  Peak Cellars (emailed Jul 13 at info@peakcellars.com), and Lake Country
+  Recreation is in Lake Country, Wisconsin (262 area code).
+- Rule from now on: "Lake Country" (Wisconsin), "Enderby" (Leicestershire)
+  and "Coldstream" (Ohio, Victoria AU) all exist elsewhere. Keep a
+  candidate only with a BC phone (250/778/236) or a BC street address.
+
+## Method note — run 38 (2026-10-18): Vernon's never-emailed rows, not new searches
+
+- Neil: "Run #38 . Just find 10. The last run is getting a little too far
+  out of vernon." Keep runs to Vernon (and at most Coldstream) unless asked.
+- New Vernon searches are exhausted, so run 38 used the log itself: about
+  1,270 rows have no email on record (July phone/form prospects) and many
+  July drafts carry no send marker. Gmail Sent decides which were emailed.
+- Of about 40 July drafts checked, 33 had in fact been sent (July or the
+  Oct 13 year-end batch) with no marker in the log. All 33 are now tagged
+  "sent DATE (Gmail)". The other drafts and the phone/form rows gave the 10.
+- No contact-form auto-replies in the inbox for Jul-Aug, so the July form
+  prospects were most likely never submitted.
+- Next time: re-verify the address on the business's own site or Facebook
+  page (July sources can be stale), Gmail-check by address, domain and
+  name, then tag the existing row "first email ADDR DATE (#NN year-end)".
+
+## Method note — run 39 (2026-10-18): domain-first Gmail check on July rows
+
+- Neil: "find 10 more" (after run 38, same Vernon-only scope).
+- Cheapest order: take July phone/form rows that carry a website, search
+  Gmail Sent by DOMAIN first (16 domains per query, with a control), and
+  only then spend a lookup on the survivors. 11 of about 45 domains had
+  been emailed (Jul/Aug, Oct 13, or #28) and are now tagged.
+- Lookups (extended mode) found current emails for about 60% of the rest;
+  a few sites hide the address (Quantum Power, DEUTO).
+- Still unspent in the Vernon July pool: welding/fab shops listed by name
+  only (Arc City, D N R, Mountain Goat, HBL, Bearded Dragon, Mt Ida,
+  Aberdeen Machine), roofers (Laing, Purple Horizon, Silverstar, Skyfix,
+  Kevin's), towing (AAA Brian's, Action Auto, Ultimate), builders (OV
+  Custom, Dressel Built, Bennison, Sticks and Stones), Pack Rat Movers,
+  BAR Engineering, Auger and Seb's, Devon's and Okanagan Quality Roofing.
+
+## Method note — run 40 (2026-10-18): the Vernon July pool is thinning
+
+- Neil: "find 10 more" (third Vernon-only batch after runs 38-39).
+- 24 lookups gave 9 new addresses plus the spare (Vernon Tech Solutions).
+  About a third of the July names turned out to be outside Vernon
+  (Enderby, Lake Country, Kelowna, Armstrong) and a third had no email.
+- Left in the Vernon July pool, mostly names with no website: welders
+  (Arc City, D N R, Mountain Goat, HBL, Mt Ida, Aberdeen Machine), roofers
+  (Laing, Purple Horizon, Skyfix), towing (Action Auto, Ultimate), Tuck
+  Landscaping, CK Design, BC Fasteners, Sticks and Stones. Expect lower
+  yield; consider a fresh source (e.g. a new Vernon directory) next.
+
+## Method note — run 41 (2026-10-19): new directory source, Gmail corrections
+
+- Neil: "find 15 more", then "give me the 12" when the session paused.
+- okanagantradedirectory.ca lists Vernon trades by category with addresses
+  and phones, rarely emails. Most of its Vernon names were already on the
+  log; it gave 3 new ones (Pinnacle Concrete, Care Systems, Okanagan Line
+  Painting). The Vernon Chamber construction category was mostly logged.
+- Gmail showed 5 July-list rows had been emailed (Reno One, All Pro Tree,
+  Vernon Landscape Centre, Silver Star Tree, Elevated Building Envelopes in
+  June) and 3 were duplicates (Laing Roofing = Elevated BE, Cidel = Browns
+  Transport, Keith Dahlen = Keith Construction). Check by name AND domain
+  before lookups; June sends predate the log.
+- The Vernon July pool is now close to empty: what's left has no email
+  (Action Auto Towing, HBL, Purple Horizon, Skyfix, Manton Tank, Titan,
+  Chemac, Tuck) or is outside Vernon. Unchecked leads: McCaw's Drilling &
+  Blasting (info@mccawsdrilling.com, 34th St ops office, Calgary head
+  office), Western Equipment Vernon store (vernon@westernequipmentltd.com).
+
+## Method note — run 42 (2026-10-25): category gaps, and the log's July sends
+
+- Neil: "find 25 more". 24 passed; stopped rather than pad.
+- Okanagan Local Vernon categories were already harvested in run 28: nearly
+  every listing with an email is on the log. Category searches for trades the
+  log had few of (cranes, coatings, tents, bus repair, wreckers, irrigation,
+  fireplaces, surveyors, engineers, IT) still mostly hit run 28-32 rows.
+- Gmail found 9 more July/August sends the log hadn't recorded, plus McCaw's
+  in June (not on the log at all). Always check Gmail by name before lookups.
+- Yield this run: about 1 usable new address per 3 lookups. The Vernon pool of
+  never-emailed trades with a published email is close to exhausted. Next
+  options: offices (law, accounting, insurance, realty) with only named-staff
+  addresses, or widening to Coldstream/Lavington/BX/Okanagan Landing streets.
+
+## Method note — run 43 (2026-10-25): Vernon is exhausted
+
+- Neil: "find 20 more". ~110 names screened, 11 passed.
+- Best remaining sources: job postings (employers with crews show up there
+  before they show up in directories) and the CHBA Central Okanagan builder
+  directory. Okanagan Local, okanagantradedirectory, the Vernon Chamber and
+  Facebook trade pages are all but fully on the log (runs 28-34).
+- Gmail found 7 more unlogged sends (realtor teams, accountants, print/sign).
+- Recommendation for any further runs: confirm with Neil whether to widen
+  geography or accept named-staff office addresses before searching.
+
+## Method note — run 44 (2026-10-25): Vernon still has shops and restaurants
+
+- Neil: "Find 15 more in Vernon. theres thousands of Businesses here".
+  Trades and offices are exhausted (run 43), but the July list still holds
+  hundreds of Vernon restaurants, pubs and shops logged with only a phone
+  number or contact form. Those rows are the pool: look each one up, then
+  check Gmail by name and address. Many had in fact been emailed in July
+  without a log tag (8 found this run).
+- Types that fit (mostly-male staff/regulars): pubs, tattoo studios,
+  detailers, independent car dealers, outdoor/bike/ski shops, butchers.
+- Still to look up: Central Barbers, Tommy Gun's, J-DON, Kiki Gardens, Yoshi
+  Sushi, Fine Kettle of Fish, Liquor Warehouse Vernon, Consignor Sports,
+  The Wax Bench, Autosound Plus, Midtown Bistro, Suda, Haveli, Ustaad G76,
+  Pennys Towne Barber.
+- Run 45 (5 more): the male-leaning July rows (welders, tattoo, pubs, tire,
+  RV) mostly failed — outside Vernon (Yoshi Sushi is Victoria; Consignor
+  Kamloops; Wax Bench Revelstoke; Anchor Inn Armstrong; Shamrock Kelowna),
+  taken over (Sir Winston's, Mike Rosman RV, Autosound Plus) or no email.
+  The July list holds many non-Vernon rows; verify the town first.
+- Run 46 (10 more): restaurants on 30th Ave turn over — check the address
+  is still theirs (Dorian's moved; Ustaad G76 took 2916 30th Ave). Remaining
+  untried July rows with likely emails: Bookland, Royal Garden, Farmhouse
+  Pizza, Kala Shoes, Vernon Towne Theatre, Legacy Photography & Framing.
+- Run 47 (10 more): the "email on file, never sent" rows are the richest
+  remaining pool — batch-check their addresses in Gmail (15-20 per query).
+  ~60% had been sent without a log tag. Remaining untried rows with
+  emails include cafes, salons, spas and photographers (mostly outside
+  the target audience). Okanagan Local auto/marine/computer categories
+  are fully used.
+
