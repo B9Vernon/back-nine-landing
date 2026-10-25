@@ -221,6 +221,20 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-25 — scope: year-end invitations, 11 more in Vernon, never emailed (run 43)
+
+- [ACT NOW] #43-B9-YearEnd-Vernon-Never-Emailed-6.txt — 11 first emails in the
+  #27 wording, all Vernon. Neil asked for 20; 11 passed.
+- [SOURCE] Vernon job postings (Job Bank/Indeed/Glassdoor employers), CHBA
+  Central Okanagan builder directory, Fairweather Rd industrial listings,
+  tree services, one July row.
+- [CHECKED] #24-#42, Gmail Sent by address, domain and name, inbox.
+- [LOG] 10 new rows (run-43), 1 row tagged "first email (#43)", 6 rows
+  corrected from Gmail, Sunshine Graphics Oct 13 send backfilled, Kekuli
+  Paint & Drywall marked dissolving. Fit 73.
+- [NEXT] Vernon pool effectively exhausted. Ask Neil before widening to Lake
+  Country / Armstrong / Enderby, or using named-staff office addresses.
+
 ## Run 2026-10-25 — scope: year-end invitations, 24 more in Vernon, never emailed (run 42)
 
 - [ACT NOW] #42-B9-YearEnd-Vernon-Never-Emailed-5.txt — 24 first emails in the

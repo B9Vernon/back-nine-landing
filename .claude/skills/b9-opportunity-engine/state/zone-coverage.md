@@ -398,3 +398,14 @@ consistent with the log-wide ~26% email rate.
   options: offices (law, accounting, insurance, realty) with only named-staff
   addresses, or widening to Coldstream/Lavington/BX/Okanagan Landing streets.
 
+## Method note — run 43 (2026-10-25): Vernon is exhausted
+
+- Neil: "find 20 more". ~110 names screened, 11 passed.
+- Best remaining sources: job postings (employers with crews show up there
+  before they show up in directories) and the CHBA Central Okanagan builder
+  directory. Okanagan Local, okanagantradedirectory, the Vernon Chamber and
+  Facebook trade pages are all but fully on the log (runs 28-34).
+- Gmail found 7 more unlogged sends (realtor teams, accountants, print/sign).
+- Recommendation for any further runs: confirm with Neil whether to widen
+  geography or accept named-staff office addresses before searching.
+

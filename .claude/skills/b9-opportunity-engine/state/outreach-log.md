@@ -48,7 +48,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] VantageOne Credit Union | credit union HQ Vernon | info@vantageone.net | 2026-07-12 | batch-200 | sent 2026-07-13 (Gmail) | follow-up 2026-10-15 (#26 year-end)
 - [email created] RE/MAX Vernon | real estate brokerage | Reception@remaxvernon.com | 2026-07-12 | batch-200 | follow-up 2026-10-13
 - [email created] Century 21 Executives Realty | real estate brokerage | office.administrator@century21.ca | 2026-07-12 | batch-200
-- [email created] Royal LePage Downtown Realty | real estate brokerage | downtownrealty@royallepage.ca | 2026-07-12 | batch-200
+- [email created] Royal LePage Downtown Realty | real estate brokerage | downtownrealty@royallepage.ca | 2026-07-12 | batch-200 | sent 2026-10-13 (Gmail)
 - [email created] Coldwell Banker Executives Realty | real estate brokerage | info@executives-realty.com | 2026-07-12 | batch-200 | sent 2026-07-13 (Gmail) | follow-up 2026-10-15 (#27 year-end)
 - [email created] O'Keefe Ranch | heritage attraction + events venue | events@okeeferanch.ca | 2026-07-12 | batch-200
 - [email created] Davison Orchards | farm attraction, Vernon | info@davisonorchards.ca | 2026-07-12 | batch-200
@@ -135,7 +135,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vance Creek Hotel & Conference Centre | hotel, SilverStar village | info@vancecreekhotel.com | 2026-07-12 | batch-200
 - [email created] Baccata Ridge Winery | winery, Grindrod (Enderby) | baccataridgewinery@gmail.com | 2026-07-12 | batch-200 | sent 2026-07-15 (Gmail) | follow-up 2026-10-18 (#31 year-end)
 - [email created] Fieldstone Organics | organic granary, Armstrong | info@fieldstoneorganics.ca | 2026-07-12 | batch-200
-- [email created] Salt Fowler Team — RE/MAX Vernon | top realtor team | webinfo@saltfowler.com | 2026-07-12 | batch-200
+- [email created] Salt Fowler Team — RE/MAX Vernon | top realtor team | webinfo@saltfowler.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
 - [email created] Turtle Bay Marina & Resort | marina/boat rentals, Lake Country | boatrentals@turtlebaymarina.com | 2026-07-12 | batch-200
 - [email created] Hymers Private Wealth — RBC Dominion Securities | wealth mgmt (Kelowna, serves Okanagan) | rhonda.hymers@rbc.com | 2026-07-12 | batch-200
 - [email created] Ancient Hill Estate Winery | winery, Kelowna-east (~35 km) | info@ancienthillwinery.com | 2026-07-12 | batch-200
@@ -583,7 +583,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Tommy Gun's Barbershop Vernon | Barbershop | Anderson Village | 2026-07-19 | run-3
 - [email created] For Men Only Barbershop | Barbershop | vernonbarbershop.ca | 2026-07-19 | run-3
 - [email created] Central Barbers | Barbershop | 3126 31 Ave | 2026-07-19 | run-3
-- [email created] The Steenkamp Team (Royal LePage) | Real estate | davidsteenkamp@royallepage.ca | 2026-07-19 | run-3
+- [email created] The Steenkamp Team (Royal LePage) | Real estate | davidsteenkamp@royallepage.ca | 2026-07-19 | run-3 | sent 2026-07-24 (Gmail)
 - [email created] Robin Baycroft (RE/MAX Vernon) | Real estate | robin@robinbaycroft.com | 2026-07-19 | run-3
 - [email created] Sundance Martial Arts | Martial arts | sundancemartialarts.com form | 2026-07-19 | run-3
 - [email created] Breakthrough Martial Arts | Martial arts | martialartsvernon.com form | 2026-07-19 | run-3
@@ -619,7 +619,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Culos & Co. Law Corp | Law firm | phone 250-549-7168 | 2026-07-19 | run-3 | sent 2026-07-25 (Gmail) to info@culoslaw.com | follow-up 2026-10-15 (#27 year-end)
 - [email created] True Craft Signs | Signage/printing | truecraftsigns.ca form | 2026-07-19 | run-3 | sent 2026-07-25 (Gmail) to wes@truecraftsigns.ca
 - [email created] Falcon Sign & Awning Co. | Signage | falconsignawning.com form | 2026-07-19 | run-3
-- [email created] Get Colour Copies Printing | Printing | website contact | 2026-07-19 | run-3
+- [email created] Get Colour Copies Printing | Printing | website contact | 2026-07-19 | run-3 | sent 2026-07-25 (Gmail) to getsmartercopies@telus.net
 - [email created] Click-A-Geek | IT/computer repair | clickageekinc.com form | 2026-07-19 | run-3 | sent 2026-07-25 (Gmail) to info@clickageekinc.com
 - [email created] Sweet Caroline's Bakery | Bakery | shop/social | 2026-07-19 | run-3
 - [email created] Classy Canine Grooming | Pet grooming | shop/Facebook | 2026-07-19 | run-3
@@ -687,7 +687,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] The Grounds Guys of Vernon | Landscaping | phone 250-984-7082 | 2026-07-19 | run-3
 - [email created] OPS Vernon | Property maintenance | opsvernon.ca | 2026-07-19 | run-3
 - [email created] Grandsons Landscaping | Landscaping | grandsonslandscaping.com | 2026-07-19 | run-3 | first email dustin@grandsonslandscaping.ca 2026-10-18 (#40 year-end)
-- [email created] Vernon Snow Removal | Snow removal | vernonsnowremoval.com | 2026-07-19 | run-3
+- [email created] Vernon Snow Removal | Snow removal | vernonsnowremoval.com | 2026-07-19 | run-3 | first email info@vernonsnowremoval.com 2026-10-25 (#43 year-end)
 - [email created] Guardian Pest Control | Pest control | phone 778-475-5577 | 2026-07-19 | run-3
 - [email created] Teeter Totter Toys | Toy store | phone 250-503-1234 | 2026-07-19 | run-3
 - [email created] Country Village Gift Shop | Gift shop | 3111 Davison Road | 2026-07-19 | run-3
@@ -710,7 +710,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] C-Lovers Fish & Chips | Restaurant | phone 250-558-0208 | 2026-07-19 | run-3
 - [email created] On The Way Restaurant | Restaurant | 3 Bonneau Rd | 2026-07-19 | run-3
 - [email created] Fine Kettle of Fish | Restaurant | phone 250-545-5665 | 2026-07-19 | run-3
-- [email created] Kekuli Paint and Drywall | Painting/drywall | Facebook | 2026-07-19 | run-3
+- [email created] Kekuli Paint and Drywall | Painting/drywall | Facebook | 2026-07-19 | run-3 | company filed intent to dissolve (BC Registry, 2023-11-30) — do not contact
 - [email created] Above Board Drywall | Drywall | aboveboarddrywall.ca | 2026-07-19 | run-3 | first email office.aboveboarddrywall@gmail.com 2026-10-18 (#40 year-end)
 - [email created] Paladin Renovation Services | Renovation | website/social | 2026-07-19 | run-3
 - [email created] Training House Gym | Gym | 3445 43rd Ave | 2026-07-19 | run-3
@@ -1819,7 +1819,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Padgett Vernon | Uncategorized | vikki@countingbeans.co | 2026-07-28 | run-12
 - [email created] Habitat Health | Uncategorized | info@habitathealth.ca | 2026-07-28 | run-12
 - [email created] Vero Health Naturopathic Care | Pub/bar | info@verocare.ca | 2026-07-28 | run-12
-- [email created] CanAccess Accounting & Business Services | Accounting/finance | info@canaccess.one | 2026-07-28 | run-12
+- [email created] CanAccess Accounting & Business Services | Accounting/finance | info@canaccess.one | 2026-07-28 | run-12 | sent 2026-07-30 (Gmail)
 - [email created] Agile BK | Uncategorized | books@agilebk.com | 2026-07-28 | run-12
 - [email created] Family Resource Centre Society for the North Okanagan | Non-profit/society | info@vernonfrc.ca | 2026-07-28 | run-12
 - [email created] People Place Society | Non-profit/society | manager@peopleplacevernon.ca | 2026-07-28 | run-12 | replied 2026-07-30 | interested | follow-up 2026-10-13 (#25)
@@ -1839,7 +1839,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Okanagan Blinds | Home furnishing | info@okblinds.ca | 2026-07-30 | run-13
 - [email created] Performance Marine | Marine/powersports dealer | performancemarine@shaw.ca | 2026-07-30 | run-13 | sent 2026-07-30 (Gmail)
 - [email created] Riders Edge Suspension | Marine/powersports dealer | info.ridersedge@shaw.ca | 2026-07-30 | run-13
-- [email created] Bosman Accounting | Accounting/finance | tax@bosmanaccounting.ca | 2026-07-30 | run-13
+- [email created] Bosman Accounting | Accounting/finance | tax@bosmanaccounting.ca | 2026-07-30 | run-13 | sent 2026-10-13 (Gmail) to info@bosmanaccounting.com
 - [email created] Apple Auto Glass | Auto service | apple2448@belroncanada.com | 2026-07-30 | run-13
 - [email created] CAN-AM Auto Glass | Auto service | contact@canamautoglass.ca | 2026-07-30 | run-13
 - [email created] City Dance Studio | School/training | info@citydance.ca | 2026-07-30 | run-13 | duplicate of "City Dance Okanagan" — do not contact again
@@ -2573,3 +2573,17 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 - [email created] Highridge Homes | Trades — building | ron@highridgehomes.ca | 2026-10-25 | run-42
 - [email created] Pryce Landscape Products | Landscaping/garden | prycelandscapeproducts@gmail.com | 2026-10-25 | run-42
 - [email created] McCaw's Drilling & Blasting | Trades — excavation | morrow.les@mccawsdrilling.com | 2026-06-18 | backfill-jun | sent 2026-06-18 (Gmail)
+
+## Run 43 — year-end invitations, 11 never-emailed Vernon businesses (2026-10-25)
+
+- [email created] Mormak Equipment | Manufacturing | info@mormak.com | 2026-10-25 | run-43
+- [email created] Piscine Energetics | Manufacturing | info@mysis.com | 2026-10-25 | run-43
+- [email created] Dycor Builders | Trades — building | office@dycorbuilders.com | 2026-10-25 | run-43
+- [email created] Apache Power | Trades — electrical | info@apachepower.ca | 2026-10-25 | run-43
+- [email created] Braden Robertson Construction | Trades — building | brconstruction.ltd@gmail.com | 2026-10-25 | run-43
+- [email created] Legacy Homeworks | Trades — building | info@legacyhomeworks.com | 2026-10-25 | run-43
+- [email created] Doering Building Group | Trades — building | dbghomes@shaw.ca | 2026-10-25 | run-43
+- [email created] Caliber Developments | Trades — building | caliberdevelopments@hotmail.com | 2026-10-25 | run-43
+- [email created] Green Giant Tree Removal | Landscaping/garden | greengianttreeremoval@gmail.com | 2026-10-25 | run-43
+- [email created] Limb Master Tree Service | Landscaping/garden | limbmastertreeservice1@gmail.com | 2026-10-25 | run-43
+- [email created] Sunshine Graphics | Signage/print | info@sunshinegraphics.ca | 2026-10-13 | backfill-oct | sent 2026-10-13 (Gmail)
