@@ -432,4 +432,10 @@ consistent with the log-wide ~26% email rate.
   is still theirs (Dorian's moved; Ustaad G76 took 2916 30th Ave). Remaining
   untried July rows with likely emails: Bookland, Royal Garden, Farmhouse
   Pizza, Kala Shoes, Vernon Towne Theatre, Legacy Photography & Framing.
+- Run 47 (10 more): the "email on file, never sent" rows are the richest
+  remaining pool — batch-check their addresses in Gmail (15-20 per query).
+  ~60% had been sent without a log tag. Remaining untried rows with
+  emails include cafes, salons, spas and photographers (mostly outside
+  the target audience). Okanagan Local auto/marine/computer categories
+  are fully used.
 

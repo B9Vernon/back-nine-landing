@@ -221,6 +221,21 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-25 — scope: year-end invitations, 10 more in Vernon, never emailed (run 47)
+
+- [ACT NOW] #47-B9-YearEnd-Vernon-Never-Emailed-10.txt — 10 first emails in the
+  #27 wording, all Vernon; #1 a couple of blocks away (43rd Ave), #2-#3 a few
+  minutes, #4-#8 downtown. Neil asked for 10.
+- [SOURCE] Every log row with an email already on file, checked by address
+  against Gmail Sent: 202 rows screened in batches; most had been sent in
+  July/August without a log tag. The 10 left were re-verified on own
+  sites, Facebook or directories.
+- [CHECKED] #24-#46, Gmail Sent by address, domain and name, inbox.
+- [LOG] 10 rows tagged "first email (#47)", 23 unlogged July/Aug/Oct sends
+  marked, 2 duplicate rows marked, Bugman marked West Kelowna. Fit 73-75.
+- [NOTE] Ebenezer's was drafted in #31 but never sent (Gmail). Los Huesos:
+  City directory shows loshuesos72@gmail.com vs the 97 address used in #44.
+
 ## Run 2026-10-25 — scope: year-end invitations, 10 more in Vernon, never emailed (run 46)
 
 - [ACT NOW] #46-B9-YearEnd-Vernon-Never-Emailed-9.txt — 10 first emails in the
