@@ -221,6 +221,25 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-25 — scope: year-end invitations, 15 more in Vernon, wider business types, never emailed (run 44)
+
+- [ACT NOW] #44-B9-YearEnd-Vernon-Never-Emailed-7.txt — 15 first emails in the
+  #27 wording, all Vernon; #1-#10 downtown ("a few minutes up from
+  downtown"). Neil asked for 15 ("there's thousands of businesses here").
+- [SOURCE] Widened types inside Vernon, as #31 did: restaurants, pubs, tattoo
+  studios, auto detailers, a car dealer, an outdoor store, a bike shop. All
+  15 were July rows with no email on file (or one never used); addresses
+  from own sites, Facebook/Instagram, Okanagan Local, the City of Vernon
+  business directory, and The Kal's own review replies.
+- [CHECKED] #24-#43, Gmail Sent by address, domain and name, inbox.
+- [LOG] 15 rows tagged "first email (#44)", 8 rows corrected from Gmail
+  (Gentlemen's Shop, Curry Pot, VPO, Eclectic Med, Bushwacker, Wise Guys,
+  Attridge, OHKIM), 6 duplicate rows marked, Squires Four marked closed.
+  Fit 73-76.
+- [SPARE] Village Ski Shop (info@villageskishop.ca, own site) — Silver Star,
+  not Vernon. Kenkraft (kenkraftsalesltd@shaw.ca, dealer directory only) —
+  Coldstream. Both Gmail clean.
+
 ## Run 2026-10-25 — scope: year-end invitations, 11 more in Vernon, never emailed (run 43)
 
 - [ACT NOW] #43-B9-YearEnd-Vernon-Never-Emailed-6.txt — 11 first emails in the

@@ -409,3 +409,18 @@ consistent with the log-wide ~26% email rate.
 - Recommendation for any further runs: confirm with Neil whether to widen
   geography or accept named-staff office addresses before searching.
 
+## Method note — run 44 (2026-10-25): Vernon still has shops and restaurants
+
+- Neil: "Find 15 more in Vernon. theres thousands of Businesses here".
+  Trades and offices are exhausted (run 43), but the July list still holds
+  hundreds of Vernon restaurants, pubs and shops logged with only a phone
+  number or contact form. Those rows are the pool: look each one up, then
+  check Gmail by name and address. Many had in fact been emailed in July
+  without a log tag (8 found this run).
+- Types that fit (mostly-male staff/regulars): pubs, tattoo studios,
+  detailers, independent car dealers, outdoor/bike/ski shops, butchers.
+- Still to look up: Central Barbers, Tommy Gun's, J-DON, Kiki Gardens, Yoshi
+  Sushi, Fine Kettle of Fish, Liquor Warehouse Vernon, Consignor Sports,
+  The Wax Bench, Autosound Plus, Midtown Bistro, Suda, Haveli, Ustaad G76,
+  Pennys Towne Barber.
+
