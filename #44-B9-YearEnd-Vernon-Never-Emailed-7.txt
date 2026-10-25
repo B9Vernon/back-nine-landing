@@ -9,7 +9,7 @@ time I widened the types, the way #31 did: restaurants, pubs, tattoo
 studios, auto detailers, a car dealer, an outdoor store and a bike shop.
 The shops were picked for mostly-male crews and regulars.
 
-All 15 are in Vernon. Ten are downtown (30th Avenue, 29th Street and
+All 15 are in Vernon. Nine are downtown (30th Avenue, 29th Street and
 32nd Street). All 15 were already on the engine's July list, but usually
 with only a phone number or a contact form, and your Sent folder shows no
 email to any of them. Every address was found on the business's own
@@ -21,9 +21,10 @@ a second look".
 WHO'S IN IT
 Same rule as #27–#43: golfers, mostly men, about 30 people or fewer, and
 no societies, non-profits, seniors' homes or schools. No chains.
-  #1–#7    DOWNTOWN RESTAURANTS AND A PUB: a barbecue smokehouse, a
-           Mexican restaurant, a Neapolitan pizzeria, an Italian
-           restaurant, a Greek taverna, a sushi restaurant, a pub
+  #1–#7    RESTAURANTS AND A PUB, ALL DOWNTOWN EXCEPT #5: a barbecue
+           smokehouse, a Mexican restaurant, a Neapolitan pizzeria, an
+           Italian restaurant, a Greek taverna (Anderson Way), a sushi
+           restaurant, a pub
   #8–#10   DOWNTOWN SHOPS: two tattoo studios, an auto detailer
   #11–#15  ELSEWHERE IN VERNON: a pub and liquor store, an auto
            detailer, a car dealer, an outdoor store, a bike shop
@@ -83,8 +84,13 @@ EMAILS WORTH A SECOND LOOK
        pages. The engine had it in July, but nothing was ever sent.
   #4   The Italian Kitchen Company: the hotmail address is from the City
        of Vernon's business directory. Their own site uses a form.
+       Added in #46: it may have closed. Two review sites list it as
+       closed, and Ustaad G76 now gives the same address. Yelp still
+       shows it open.
   #5   Dorian's Greek Taverna: tzatziki123@gmail.com is from the City of
-       Vernon's business directory.
+       Vernon's business directory. Corrected in #46: they moved from
+       downtown to 5460 Anderson Way about two years ago. The email only
+       says you're "a few minutes up from downtown", which is still true.
   #6   Kawakubo: the gmail address on their Facebook page has "hr" in it,
        so it may go to whoever does their hiring.
   #7   The Kal: guestrelations@ is the address their managers give in

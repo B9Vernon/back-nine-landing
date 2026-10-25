@@ -428,4 +428,8 @@ consistent with the log-wide ~26% email rate.
   Kamloops; Wax Bench Revelstoke; Anchor Inn Armstrong; Shamrock Kelowna),
   taken over (Sir Winston's, Mike Rosman RV, Autosound Plus) or no email.
   The July list holds many non-Vernon rows; verify the town first.
+- Run 46 (10 more): restaurants on 30th Ave turn over — check the address
+  is still theirs (Dorian's moved; Ustaad G76 took 2916 30th Ave). Remaining
+  untried July rows with likely emails: Bookland, Royal Garden, Farmhouse
+  Pizza, Kala Shoes, Vernon Towne Theatre, Legacy Photography & Framing.
 

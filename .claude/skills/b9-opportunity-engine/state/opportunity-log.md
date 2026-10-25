@@ -221,6 +221,24 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-10-25 — scope: year-end invitations, 10 more in Vernon, never emailed (run 46)
+
+- [ACT NOW] #46-B9-YearEnd-Vernon-Never-Emailed-9.txt — 10 first emails in the
+  #27 wording, all Vernon; #1-#2 a few blocks away (27th St at 44th Ave), #3
+  a few minutes, #4-#7 downtown. Neil asked for 10.
+- [SOURCE] July rows with no email on file: an appliance store, five
+  restaurants, two pizzerias, a property maintenance crew, a pest control
+  company. Addresses from own sites, Facebook and directories.
+- [CHECKED] #24-#45, Gmail Sent by address, domain and name, inbox.
+- [FIX] #44 header corrected: Dorian's moved to Anderson Way; the Italian
+  Kitchen Company may have closed (Ustaad G76 now lists 2916 30th Ave).
+- [LOG] 10 rows tagged "first email (#46)", 4 unlogged July/Aug sends marked
+  (Pack Rat, Okanagan Quality Roofing, LDR, Vernon Taxi), plus notes on
+  Devon's, The Clove, Fox, Caufields, Ustaad, Italian Kitchen, Dorian's.
+  Fit 73-75.
+- [WARM] Caufields Engraving is Okanagan T-Shirt's sister company (Neil's
+  July shirt order was picked up there) — left for Neil, no cold intro.
+
 ## Run 2026-10-25 — scope: year-end invitations, 5 more in Vernon, never emailed (run 45)
 
 - [ACT NOW] #45-B9-YearEnd-Vernon-Never-Emailed-8.txt — 5 first emails in the
