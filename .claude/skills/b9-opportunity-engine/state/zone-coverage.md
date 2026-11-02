@@ -439,3 +439,17 @@ consistent with the log-wide ~26% email rate.
   the target audience). Okanagan Local auto/marine/computer categories
   are fully used.
 
+## Method note — run 48 (2026-11-02): no info@, and the emailed-once pool
+
+- Neil: "do not make up emails by putting info as the lead word". From run
+  48, no info@ addresses; prefer named, office@, admin@, sales@, contact@,
+  bookings@ or the business's own gmail/shaw address, each with its
+  source written in the header.
+- Never-emailed Vernon businesses with a non-info published address are
+  close to exhausted (~1 in 15 lookups). BBB "near Vernon" category pages
+  are mostly Kelowna firms.
+- Second pool: Vernon businesses emailed once in July/August with a
+  partnership pitch, no reply, never asked about a year-end party. Use the
+  exact address from Gmail Sent, no self-introduction, open with what was
+  written before. Verify still open and still Vernon-based first.
+

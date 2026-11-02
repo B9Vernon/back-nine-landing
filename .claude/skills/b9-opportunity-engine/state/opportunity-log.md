@@ -221,6 +221,29 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-11-02 — scope: year-end invitations, 20 in Vernon: 5 never emailed + 15 emailed once before (run 48)
+
+- [ACT NOW] #48-B9-YearEnd-Vernon-New-and-Asked-Before.txt — Neil asked for ~20
+  in Vernon and "do not make up emails by putting info as the lead word".
+  No info@ address anywhere; each address's source is listed in the file.
+  #1-#5 never emailed (#27 wording, "My name is Neil."). #6-#20 got one
+  July/August partnership or crew-night email, never replied, never asked
+  about a year-end party: no self-introduction, they open "I wrote to you
+  in July/August about ..." (run 26 rule), same address Neil used (no
+  bounce), except Hi-Pro (leah@ from their site; July went to angie@).
+- [SOURCE] ~90 more names screened (BBB, Houzz, Okanagan Local, job
+  postings, July rows). Never-emailed yield was ~1 in 15; most were
+  already emailed, outside Vernon, closed, or info@-only.
+- [CHECKED] #24-#47, Gmail Sent/inbox by address, domain and name; for
+  #6-#20, Gmail shows exactly one prior email and no year-end/Christmas
+  email or reply since. No mailer-daemon bounces since 2026-10-14.
+- [LOG] 1 new row (run-48, T Kruize), 4 rows "first email (#48)", 15 rows
+  "year-end email (#48, second contact)", closures/chain/out-of-town notes
+  on De Vine Vintners, Furniture Emporium, Wise Guys, Okanagan Quality
+  Roofing. Fit 73-76.
+- [NEXT] The emailed-once pool still holds more Vernon businesses whose
+  only July address was info@ (excluded this run per Neil).
+
 ## Run 2026-10-25 — scope: year-end invitations, 10 more in Vernon, never emailed (run 47)
 
 - [ACT NOW] #47-B9-YearEnd-Vernon-Never-Emailed-10.txt — 10 first emails in the
