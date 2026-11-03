@@ -239,7 +239,7 @@ they were not included in the second-contact file.
   OPS Vernon (#46) replied 2026-10-26, "I'll be in touch".
 - [LOG] 10 rows "year-end email (#49, second contact)", 2 replies recorded,
   11 rows marked asked-in-October, Select Roofing (Armstrong), Banner RV
-  (chain), PRT (national) marked. Fit 75-78.
+  (chain), PRT (national) marked. Fit 76-79.
 
 ## Run 2026-11-02 — scope: year-end invitations, 20 in Vernon: 5 never emailed + 15 emailed once before (run 48)
 
