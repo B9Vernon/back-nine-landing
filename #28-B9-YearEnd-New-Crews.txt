@@ -1,0 +1,2000 @@
+B9 OPPORTUNITY & PARTNERSHIP ENGINE — RUN #28 (REDONE)
+Year-end parties — 155 crews and offices you've never emailed
+Prepared 2026-10-16. 155 emails, all paste straight into Gmail.
+This replaces the first #28 file, which is deleted.
+
+WHAT'S DIFFERENT FROM THE FIRST #28
+The first #28 had 100 emails, but 63 of them went to businesses you'd
+already emailed or that the engine had already logged. Those are all gone.
+Nobody in this file has ever had an email from you, so every one opens
+with "My name is Neil."
+
+  #1–#108    108 businesses found today. None is in the engine's log, in
+             #24–#27, or in your Gmail.
+  #109–#145  The 37 new businesses from the first #28. That file was
+             never sent, so they still haven't heard from you. Their
+             emails are word for word what you saw in the first #28.
+  #146–#155  10 more you asked for after seeing the file. They're at the
+             end so #1–#145 keep their numbers.
+
+NOW 155, PAST THE 150
+The first version of this file had 145. The search tool's limit stopped it
+at 108 new finds. You asked for 10 more, and they're #146–#155: two Vernon
+offices, five in Armstrong and three in Enderby. Vernon's trade listings
+are mostly used up (seven out of ten businesses I find there have already
+been contacted), so new ones now come mainly from the towns around it.
+
+WHO'S IN IT
+Your rule from #27: golfers, mostly men, about 30 people or fewer, and no
+societies, non-profits, seniors' homes or schools. All 155 are:
+  - trades: electrical, plumbing/HVAC, masonry, painting, siding, stucco,
+    drywall and ceilings, concrete coatings, excavation, landscaping,
+    irrigation, decks and railings, gates and welding, powder coating
+  - builders and renovators, trusses, flooring and countertops
+  - appliance repair, auto, diesel, RV and auto glass shops
+  - trucking, crane, pile driving, building movers, septic, mobile
+    heavy-duty repair
+  - industrial and equipment firms: motors, tarps, mineral processing,
+    beverage equipment, electrical wholesale
+  - home tech and AV: alarms, automation, phone systems, sound
+  - small offices: architecture, environmental, hydrogeology,
+    geophysics, appraisal, mortgages, web design
+  - a few bike, Nordic ski, e-bike and hunting/fishing shops
+
+THE WORDING
+The version you picked for #27. The subject is the question. Each email
+asks "Does having your Christmas or year-end party at Back Nine interest
+you?", then contrasts a restaurant (separate tables) with private bays,
+then ends on a 24/7 line. Each one is written for its trade and its crew.
+
+HOW THIS FILE IS ORDERED
+Starting at 45th Avenue and working outward:
+  #1–#11    Within about a kilometre: 31st Street, 43rd Avenue, 27th
+            Street, 23rd–25th Street north.
+  #12–#27   Downtown, then south and west Vernon.
+  #28–#37   East Hill, East Vernon Road, Kalamalka Lake Road.
+  #38–#47   North side: Highway 97, Highland Place, Kosmina Road,
+            Waddington Drive, Fairweather Road, Old Kamloops Road.
+  #48–#55   BX, Silver Star Road and the Foothills.
+  #56–#64   Okanagan Landing, Commonage and the rest of town.
+  #65–#87   Crews and offices with no storefront listed. These say "here
+            in Vernon" and claim no distance.
+  #88–#91   COLDSTREAM
+  #92–#96   ARMSTRONG / SPALLUMCHEEN (about 20 minutes away)
+  #97–#106  LAKE COUNTRY / WINFIELD (about 25 minutes away)
+  #107–#108 LUMBY (about 25 minutes away)
+  #109–#145 The 37 carried over from the first #28, in their old order.
+  #146–#155 ADDED: MWH Geo-Surveys and Horizon Measurements (Vernon),
+            then ARMSTRONG (#148–#152) and ENDERBY (#153–#155, about
+            35 minutes away).
+
+HOW I CHECKED THAT THEY'RE NEW
+Each of the 155 was checked against:
+  - the engine's log of about 1,980 businesses, by name, address, email
+    and website
+  - every email in #24, #24b, #25, #26 and #27
+  - your Sent folder, by exact address and by company domain
+  - your inbox, in case any of them had written to you first
+Two were caught: Energy Economics Solar (you emailed it in July) and TNJ
+Plumbing & Heating in Armstrong (you emailed its Gmail address on Aug 13).
+Both are out, and TNJ's send is now in the log.
+
+LEFT OUT ON PURPOSE
+  About 70 businesses that came up in today's searches were already in the
+    log or your Sent folder, e.g. Pleasant Valley Painters, Select Roofing,
+    Vernon Roofing, H&L Glass, Monashee Auto Body, Olympia Cycle, BDM,
+    Wandering Bear, the downtown barbershops and Lake Country Auto.
+  Too big or not really local: Fox Plumbing (also has Kelowna and Kamloops
+    offices), Bannister's collision centre (part of the dealer group),
+    Tristar Hydrovacs (based in Alberta), Prima Contracting (Lower
+    Mainland), M.Cox Construction, The Paint Gurus and Osland Roofing
+    (Kelowna), Olameter and Finning (national).
+  Bad addresses: All Seasons RV (its listed email belongs to its web host)
+    and B&L Security (an old shawcable.com address).
+  Already in the log, found in the second search: Country West Supply,
+    Click-A-Geek, BAR Engineering, McPherson Maddox.
+  Spares if any of #146–#155 bounce: Good Neighbour Fencing (Enderby,
+    an old telus address), Armstrong Pro IT, Bassani Tech.
+  Not your crowd: Raven Hair Studio, Vernon Catering (another party venue),
+    a cannabis store.
+  No email anywhere: Hunter Fire Protection, Baker Signs, Mountainaire,
+    Taylor Refrigeration, Eagle Web Solutions, Bold Media, Quality First
+    Motors, Armstrong Crane, AppleGate Auto, Brad's Renovations,
+    Valleywide, LC Accountants, John Beales, Lake Country Electricians.
+
+EMAILS WORTH A SECOND LOOK
+Each address came from a search result that showed it. For about half of
+the new ones, that result was a directory (okanagan-local.ca, 411, n49) or
+a Facebook page rather than the business's own site. Those are more likely
+to bounce. These look the oldest or most personal:
+  #2  ArborCare (viziamail.com)          #26 Okanagan Diesel (gmail)
+  #6  Interior Communications (shaw)     #47 L & G Contracting (shaw)
+  #23 Lucas Auto (telus)                 #79 Valley Pile Driving (telus)
+  #94 Armstrong Auto Recycling (gmail)   #9  City Electric (branch inbox)
+  #40 Gilmay RV (Craig's address, from an RV dealers' list)
+  #24 Ace Appliances, #67 VinDeck, #90 Edison Electric, #104 Pipe Piper
+      (from Facebook)
+  #151 Monashee Outdoors (from Facebook), #152 Maddocks (from a contractor
+      directory), #154 Veach's (gmail) and #155 Deep Creek (hotmail)
+  #44 Combined Mechanical: the address is Murray Ardell's, the contact
+      their site gives for construction work. The email says it's for the
+      Vernon crew.
+
+A REPLY WAITING FOR YOU
+Michele at the Vernon Lions replied last night to "A year-end thank-you for
+the Vernon Lions". She missed the last two executive meetings. The next one
+is November 12, and she'd like a phone call before then. She asked which
+days and times suit you, and she'll call. She also mentioned that their
+2027 tournament is tentatively May 29 at Vernon Golf & Country Club. You
+haven't answered yet. Her number is in her email.
+The Enderby Chamber (Heather) and H&L Glass (Stefan) also replied, both
+saying they'll think it over. Neither needs an answer.
+
+Same rules as #24–#27: the party is always asked about, never assumed.
+Nothing says December is filling up. Nothing is offered free. No food or
+bar is promised. None of them tells anyone what their own calendar looks
+like.
+
+Public business contact details only. CASL: business-to-business messages
+about a genuine commercial offer, to published addresses.
+Drafts only — nothing is sent automatically.
+
+---
+
+1. CTR Mechanical
+To: ctrmechanical@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi CTR Mechanical team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge about a block from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the crew and the family end up at separate ends of the table, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last service call's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+2. ArborCare Tree Service
+To: arborcarevernon@viziamail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi ArborCare team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a couple of blocks from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the climbers and the ground crew end up at separate tables, and you leave having talked to a handful of people. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+3. Appliance Repair Expert
+To: info@appliancerepairexpert.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Appliance Repair Expert team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few blocks from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? Your techs spend the day in other people's kitchens, and a restaurant party just puts them at a table in another one, talking to whoever sat closest. Here the whole team gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last repair call's wrapped up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+4. Roko Service Ltd
+To: support@rokoservice.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Roko team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few blocks from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the shop and the parts counter end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last wiring job's out the door.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+5. Community Appliance
+To: communityapplianceparts@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Community Appliance team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few blocks from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? A restaurant splits the parts counter and the repair techs across separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the store's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+6. Interior Communications
+To: int_com@shaw.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Interior Communications team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge about a kilometre along 45th Avenue from you. Does having your Christmas or year-end party at Back Nine interest you? You set up the systems that keep a house connected, so you'll appreciate a party that keeps your own crew together. At a restaurant the installers and the office end up at separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last install's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+7. Lake Country Truss Ltd
+To: info@lakecountrytruss.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Lake Country Truss team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge about a kilometre from your yard, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the plant floor, the drivers and the design office end up at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last load's out.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+8. Kelver Coatings Ltd
+To: kelvercoatings@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Kelver Coatings team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge about a kilometre from your shop, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? After a day in the blast booth, a restaurant table where you talk to the same two people isn't much of a party. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the ovens are off.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+9. City Electric Supply Vernon
+To: Vernon417@cityelectricsupply.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi City Electric Supply Vernon team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a couple of minutes from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? This is for the Vernon branch itself. At a restaurant the counter, the warehouse and the drivers end up at separate tables, and you leave having talked to a handful of people. Here the whole branch gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the doors are locked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+10. Livingwood Floors Inc
+To: info@livingwoodfloors.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Livingwood team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a couple of minutes from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts the installers and the showroom at separate tables, and you leave having talked to a handful of people. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last floor's down.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+11. Vernon Auto Glass
+To: info@vernonglass.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Vernon Auto Glass team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the installers and the front desk end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last windshield's in.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+12. BlueGreen Architecture
+To: info@bluegreenarch.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi BlueGreen team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, a few minutes up from downtown. Does having your Christmas or year-end party at Back Nine interest you? An architecture studio spends the year around the same drawings, and a restaurant party puts everyone around the same table without much chance to move. Here the studio gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last drawing set's out.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+13. Roost Solar
+To: info@roostsolar.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Roost Solar team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, a few minutes up from downtown. Does having your Christmas or year-end party at Back Nine interest you? With crews working from Vernon to Kelowna and Kamloops, a restaurant table only gets you the handful of people you happened to sit with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last crew's back from the roof.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+14. JBJ Computer Sales & Service
+To: jbjcomputers@shaw.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi JBJ team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, a few minutes up from downtown. Does having your Christmas or year-end party at Back Nine interest you? You've been fixing Vernon's computers since 1993, so the crew has earned a better night than a restaurant where the bench techs and the counter sit at separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the shop's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+15. Vernon E Ride
+To: vernoneride@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Vernon E Ride team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, a few minutes up from downtown. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the shop and the sales floor end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last bike's tuned and the doors are locked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+16. Wilkins Construction Ltd
+To: brian@wilkinsconstructionltd.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Brian,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, a few minutes up from downtown. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the site crews and the office end up at separate tables, and you leave having talked to a handful of people. Here the whole company gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, whatever the weather's doing on site. We're open 24/7, so it can start whenever the crews wrap up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+17. Spinners Sound Centre
+To: info@spinnerssoundcentre.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Spinners team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, a few minutes up from downtown. Does having your Christmas or year-end party at Back Nine interest you? You know a good room makes the night. At a restaurant the sales floor and the installers end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the store's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+18. Westpro Machinery Inc
+To: sales@westpromachinery.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Westpro team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, a few minutes up from downtown. Does having your Christmas or year-end party at Back Nine interest you? You've been building mineral-processing equipment since 1985, and a restaurant party still puts the engineers, the shop and the office at separate tables, so you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the shop's shut down.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+19. Hewberry Alarms Ltd
+To: hewberryoffice@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Hewberry team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the installers and the monitoring office end up at separate tables, and you leave having talked to a handful of people. Here your team gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. If your people cover calls at all hours, it helps that we're open 24/7: the party can start whenever suits the schedule.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+20. Image Electric Ltd
+To: info@imageelectric.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Image Electric team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With electricians out on EV chargers, solar and service calls all day, a restaurant table only gets you the handful of people you happened to sit with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last van's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+21. RobotHouse Automation Inc
+To: info@robothouse.net
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi RobotHouse team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? You automate everything else, so here's a party that runs itself. At a restaurant the programmers and the installers end up at separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last system's commissioned.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+22. Castle Acoustics Ltd
+To: ken@castleacoustics.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Ken,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? Since 1987 your crews have been putting in the ceilings that keep commercial rooms quiet, and a restaurant party still splits the crew across separate tables, so you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last ceiling's up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+23. Lucas Auto Repairs
+To: lucasaut@telus.net
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Lucas Auto team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the techs and the front counter end up at separate tables, and you leave having talked to a handful of people. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last car's off the hoist.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+24. Ace Appliances
+To: Aceappliancesvernon@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Ace Appliances team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts the techs and the office at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last service call's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+25. Forma Construction
+To: don@formaconstruction.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Don,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With commercial and residential crews on different sites, a restaurant party only gets everyone talking to the people they already work beside. Here the whole company gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, whatever the weather's doing on site. We're open 24/7, so it can start whenever the crews wrap up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+26. Okanagan Diesel Injection Ltd
+To: dieselmeridee@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Okanagan Diesel Injection team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the bench and the counter end up at separate tables, and you leave having talked to a handful of people. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last injector's back in.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+27. Okanagan Telephone Co
+To: info@connectbc.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Okanagan Telephone team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? You keep Vernon businesses connected, so here's a party that keeps your own team together. At a restaurant the techs and the office end up at separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last install's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+28. Okanagan Aquatech Inc
+To: okanaganaquatech@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Okanagan Aquatech team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the installers and the office end up at separate tables, and you leave having talked to a handful of people. Here your team gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last system's in.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+29. Dirt Nerd Earthworks
+To: info@dirtnerd.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Dirt Nerd team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? An excavation crew at a restaurant ends up at separate tables, talking to the same people they've been in the machines beside all year. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last machine's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+30. Bumblebee Stucco Inc
+To: bumblebeestucco@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Bumblebee Stucco team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the crew ends up spread across separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's warm and dry inside, and we're open 24/7, so it can start whenever the last wall's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+31. Form Web Design
+To: contact@formwebdesign.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Form Web Design team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? If your Christmas get-together includes the clients and contractors you work with, a restaurant table only lets you talk to the few people next to you. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever suits you.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+32. PolyGuard Concrete Coatings
+To: mbramall@polyguard.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi PolyGuard team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the installers and the office end up at separate tables, and you leave having talked to a handful of people. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last floor's coated.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+33. Alternative Water Solutions
+To: alternativewater@shaw.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Alternative Water team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts the service techs and the office at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last service call's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+34. Cabin Resource Management
+To: hello@cabinworks.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Cabin Resource Management team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant your team and the people you work with end up at separate tables, and you leave having talked to a handful of them. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the workday's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+35. Linq Flooring
+To: sales@linqflooring.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Linq team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant splits the showroom and the installers across separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the showroom's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+36. Western Water Associates Ltd
+To: info@westernwater.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Western Water team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With hydrogeologists and field staff out on wells and sites, a restaurant table only gets you the handful of colleagues you happened to sit with. Here the whole office gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last field crew's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+37. Printer World International
+To: vernon@printerworld.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Printer World team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the press side and the office end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last job's off the press.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+38. Eckowood Flooring
+To: contact@eckowood.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Eckowood team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes down Highway 97 from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the store and the contractors you supply end up at separate tables, and you leave having talked to a handful of people. Here your team gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the store's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+39. Wholesale Grafix Inc
+To: info@wholesalegrafix.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Wholesale Grafix team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes down Highway 97 from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? Between the sign shop and the wholesale side, a restaurant party splits your people across separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last install's up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+40. Gilmay RV
+To: craig@gilmay.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Craig,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes down Highway 97 from you, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the techs, the fibreglass guys and the front office end up at separate tables, and you leave having talked to a handful of people. Here your whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last trailer's back out the door.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+41. Big Dipper Hot Tub Co
+To: bigdipperhottubs@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Big Dipper team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the delivery crew and the showroom end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last tub's delivered.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+42. Central Tarp Ltd
+To: sales@centraltarp.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Central Tarp team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the shop floor and the sales side end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last cover's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+43. ProSew
+To: sales@prosew.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi ProSew team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts the sewing room and the installers at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last awning's up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+44. Combined Mechanical Contractors
+To: murray.ardell@combinedmechanical.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Murray,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? This one's for the Vernon crew. With fitters and plumbers spread across job sites, a restaurant table only gets you the handful of people you happened to sit with. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the crews wrap up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+45. Mid-Kam Installations Ltd
+To: admin@mid-kam.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Mid-Kam team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? After more than forty years of industrial installs and steel fabrication, your crew knows how a restaurant party goes: separate tables, and a handful of conversations each. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last shift's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+46. Buzz Brite Floor Care
+To: info@buzzbrite.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Buzz Brite team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the crews and the office end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. If your crews clean after everyone else has gone home, it helps that we're open 24/7: the party can start whenever suits the crew.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+47. L & G Contracting
+To: loadngo@shaw.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi L & G team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the crew ends up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last load's dumped.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+48. Stussi Sport
+To: stussisport@shaw.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Stussi Sport team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A Nordic shop's crew can swing a golf club too. At a restaurant the shop and the service bench end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the shop's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+49. Petawatts Auto Marine RV
+To: info@petawatts.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Petawatts team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant your team and the people you work with end up at separate tables, and you leave having talked to a handful of them. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last install's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+50. Forge Electric Ltd
+To: info@forgeelectric.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Forge Electric team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With electricians spread across job sites, a restaurant table only gets you the handful of people you happened to sit with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last van's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+51. Dimension Metal
+To: info@dimensionmetal.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Dimension Metal team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A fab shop at a restaurant ends up at separate tables, and you leave having talked to the same few people you weld beside all day. Here the whole shop gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the torches are off.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+52. Hildebrandt Homes & Construction
+To: ken@hildebrandtconstruction.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Ken,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the framers, the finishers and the office end up at separate tables, and you leave having talked to a handful of people. Here your whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, whatever the weather's doing on site. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+53. GG-Technik Sales & Service
+To: frank@gg-technik.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Frank,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? You keep beverage lines running around the valley, and a restaurant party still puts the service techs and the office at separate tables, so you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last service call's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+54. Image Earthworks
+To: imageearthworks@shaw.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Layne,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? An excavating crew at a restaurant ends up at separate tables, talking to the same people they've run machines beside all year. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last machine's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+55. Dauncey Construction Ltd
+To: info@daunceyconstruction.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Dauncey team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the site crew and the trades you work with end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, whatever the weather's doing on site. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+56. Rotech Motor Ltd
+To: sales@rotech.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Rotech team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the shop floor and the office end up at separate tables, and you leave having talked to a handful of people. Here the whole team gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last motor's on the truck.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+57. KRM Design Ltd
+To: krmdesignltd@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi KRM Design team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the shop and the people you build for end up at separate tables, and you leave having talked to a handful of them. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the CNC's shut off.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+58. Vernon Websites
+To: info@vernonwebsites.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Vernon Websites team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? If your Christmas get-together includes the clients you build sites for, a restaurant table only lets you talk to the few people next to you. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever suits you.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+59. J&S Landscaping Ltd
+To: jslandscapingltd@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi J&S team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A landscaping crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been working beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+60. North Man Contracting
+To: northmancontracting.jb@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi North Man team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the crew ends up spread across separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last window or deck is done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+61. Cove Exteriors
+To: allan@coveexteriors.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Allan,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A siding crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been up the ladders with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last wall's sided.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+62. Atlas Electrical Solutions
+To: msemple@atlas-electric.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Atlas Electrical team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With electricians on residential and commercial jobs around town, a restaurant table only gets you the handful of people you happened to sit with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last van's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+63. 2nd Generation Gate & Metalcraft
+To: 2gmetal@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi 2nd Generation team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the shop and the install crew end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last gate's hung.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+64. Overhead Door Parts Canada
+To: sales@overheaddoorparts.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Overhead Door Parts team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the warehouse and the sales desk end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last order's shipped.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+65. Todd Masonry
+To: keenan@toddmasonry.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Keenan,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A masonry crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been laying stone beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last wall's pointed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+66. Third Generation Painters
+To: brook@thirdgenerationpainters.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Brook,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the painters end up spread across separate tables, and you leave having talked to a handful of people. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last coat's on.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+67. VinDeck Service
+To: vindeckserviceinfo@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi VinDeck team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A decking and railing crew at a restaurant ends up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last railing's in.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+68. Streamline Exteriors
+To: sales@streamlineexteriors.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Streamline team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the siding crews and the office end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the crews are off the ladders.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+69. Maxton Panels
+To: info@maxton.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Maxton team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the showroom, the shop and the installers end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start once the last panel order's out.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+70. McCall Environmental
+To: info@mccallenvironmental.net
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi McCall Environmental team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? This one's for the Vernon office. With technicians out on monitoring jobs, a restaurant table only gets you the handful of colleagues you happened to sit with. Here the whole office gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the field crew's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+71. Elevate Design & Build
+To: info@elevatedrenovations.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Elevate team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the designers, the site crew and the trades you work with end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+72. Bishops Renovations and New Construction
+To: info@bishopsrnc.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Bishops team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the reno crew and the new-build crew end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, whatever the weather's doing on site. We're open 24/7, so it can start whenever the crews wrap up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+73. Copper Fox Interiors
+To: info@copperfoxinteriors.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Copper Fox team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the crew and the trades you bring in end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last kitchen or bathroom's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+74. Duramen
+To: contact@duramen.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Duramen team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the site crew and the subs end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, whatever the weather's doing on site. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+75. Catalyst Home Improvements
+To: ryan@catalystvernon.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Ryan,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A home-improvement crew at a restaurant ends up at separate tables, and you leave having talked to a handful of people. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last job's wrapped up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+76. The Grounds Guys Okanagan
+To: r.riva@groundsguys.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Grounds Guys team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A grounds crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been working beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+77. Seaton Contracting
+To: admin@seatoncontracting.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Seaton team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? Between the surveying side and the septic crews, a restaurant party splits your people across separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last crew's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+78. Woodstyle Homes Ltd
+To: woodstyle@telus.net
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Woodstyle team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the framers, the finishers and the trades you work with end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, whatever the weather's doing on site. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+79. Valley Pile Driving & Marine Construction
+To: valleypiledriving@telus.net
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Valley Pile Driving team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A dock and piling crew at a restaurant ends up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last dock's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+80. On Side Restoration Vernon
+To: info@onside.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi On Side Vernon team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? This one's for the Vernon crew. At a restaurant the techs and the office end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. If your people are on call around the clock, it helps that we're open 24/7: the party can start whenever suits the crew.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+81. Dominion Lending Centres White House Mortgages
+To: deb@debwhite.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Deb,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant your team ends up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last file's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+82. Dedora Schoenne Appraisers
+To: admin@dsappraisers.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Dedora Schoenne team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With appraisers out on inspections all day, a restaurant table only gets you the handful of colleagues you happened to sit with. Here the whole office gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last report's out.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+83. Valley Irrigation Corp
+To: info@valleyirrigation.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Valley Irrigation team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? An irrigation crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been trenching beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+84. Crazy Creek Mechanical
+To: crazycreekmechanical@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Crazy Creek team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? Your mechanics are usually out at machines across the North Okanagan, and a restaurant party still ends up at separate tables, so you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last service truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+85. Pure Air Yard Care
+To: admin@pureairyardcare.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Pure Air team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A yard-care crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been working beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last trailer's unloaded.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+86. Coast Mountain Plumbing
+To: coastmountainplumbco@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Coast Mountain team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts the plumbers at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last service call's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+87. Okanagan Test Rite
+To: oktestrite@yahoo.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Okanagan Test Rite team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With testers out on backflow and fire systems all over town, a restaurant table only gets you the handful of people you happened to sit with. Here the whole team gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last test's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+88. Universal Power Vacuum
+To: info@universalpowervacuum.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Universal Power Vacuum team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A duct-cleaning crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you ride with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last truck's back in Coldstream.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+89. Swan Media Solutions
+To: jim@swanmediasolutions.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Jim,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? If your Christmas get-together includes the contractors you market, a restaurant table only lets you talk to the few people next to you. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever suits you.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+90. Edison Electric Ltd
+To: info@edisonelectric.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Edison Electric team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With electricians spread between new builds, renos and smart-home work, a restaurant table only gets you the handful of people you happened to sit with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last van's back in Coldstream.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+91. Nixon Earthworks
+To: admin@nixonearthworks.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Nixon Earthworks team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? An earthworks crew at a restaurant ends up at separate tables, talking to the same people they've run machines beside all year. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last machine's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+92. Hancon Constructors
+To: info@hanconconstructors.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Hancon team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the site crews and the office end up at separate tables, and you leave having talked to a handful of people. Here the whole company gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes down the highway from Armstrong, and we're open 24/7, so it can start whenever the crews wrap up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+93. North Valley Contracting
+To: info@northvalleycontracting.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi North Valley team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? Between the septic, excavation and landscaping crews, a restaurant party splits your people across separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the last machine's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+94. Armstrong Auto Recycling
+To: recycledautoparts2015@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Armstrong Auto Recycling team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the yard, the shop and the parts counter end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start once the yard's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+95. Ironwood Landscaping
+To: landscapeironwood@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Ironwood team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A landscaping crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been working beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+96. Reimer Bros Trucking
+To: orders@reimerbros.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Reimer Bros team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With drivers on the road and dispatch in the office, a restaurant party only gets you the handful of people you happened to sit with. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. If your drivers run odd hours, it helps that we're open 24/7: the party can start whenever the last truck's in.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+97. Lake Country Crane Ltd
+To: yunick1@telus.net
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Lake Country Crane team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the operators and the riggers end up at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty-five minutes up the highway from Winfield, and we're open 24/7, so it can start whenever the last lift's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+98. Staxon Construction
+To: admin@staxon.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Staxon team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the site crew and the trades you work with end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the crew's done for the day.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+99. Max Electric & Data
+To: info@maxelectricdata.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Max Electric team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With electricians and data techs on different jobs, a restaurant table only gets you the handful of people you happened to sit with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last van's back in Lake Country.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+100. Lake Country Landscaping
+To: lakecountrylandscaping456@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Lake Country Landscaping team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A maintenance crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been working beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last trailer's unloaded.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+101. Kapiti Built Custom Homes & Renovations
+To: info@kapitibuilt.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Kapiti Built team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the crew and the trades you bring in end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last kitchen or basement job's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+102. Deano's Landscaping & Excavating
+To: deanoslandscaping@shaw.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Deano's team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? Between the landscaping and excavating crews, a restaurant party splits your people across separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last machine's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+103. ENCO Construction
+To: info@encoconstruction.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi ENCO team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With painters, carpenters, flooring and drywall all under one roof, a restaurant party splits your crews across separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last job's wrapped up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+104. Pipe Piper Plumbing
+To: info@pipepiperplumbing.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Pipe Piper team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts the plumbers at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last service call's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+105. Hewitson Earthworks
+To: steve@hewitsonearthworks.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Steve,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? An excavation and septic crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been running machines beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, and we're open 24/7, so it can start whenever the last machine's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+106. Danish Construction Inc
+To: office@danishconstruction.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Danish Construction team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the build crew and the reno crew end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, whatever the weather's doing on site. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+107. Rocky Mountain Concrete
+To: sales@rockymountainconcrete.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Rocky Mountain Concrete team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the drivers, the plant and the office end up at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty-five minutes from Lumby, and we're open 24/7, so it can start whenever the last truck's washed out.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+108. Galaxie Powder Coating
+To: galaxiepowdercoating@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Galaxie team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? After a day in the booth, a restaurant table where you talk to the same couple of people isn't much of a party. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty-five minutes from Lumby, and we're open 24/7, so it can start once the oven's off.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+109. Homestead Drywall
+To: sales@homesteaddrywall.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Homestead Drywall team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few blocks along 45th Avenue from you. Does having your Christmas or year-end party at Back Nine interest you? You've had crews on Okanagan jobsites for more than fifty years, and at a restaurant they'd end up at separate tables, with everyone talking to the same few people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last board's hung.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+110. VP3 Real Estate (Value Plus 3%)
+To: info@vp3.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi VP3 team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes from your 27th Street office, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? A brokerage at a restaurant ends up at separate tables, and agents leave having talked to the same few people they always do. Here your agents and staff get private bays together, everyone's in the same room, and people can jump in and play or just hang out in the lounge. We're open 24/7, so it can start after the last showing of the day.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+111. Vernon Truck Center (Pacific Interior Trucks)
+To: info@pacificinteriortrucks.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Vernon Truck Center team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a couple of minutes from your 23rd Street shop, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? A restaurant seats the techs, the parts counter and the front office at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last rig's out of the bay.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+112. 1 & 2 Electric Ltd
+To: info@1and2electric.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi 1 & 2 Electric team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes from your 48th Avenue shop, on 45th. Does having your Christmas or year-end party at Back Nine interest you? With residential, commercial and industrial crews, a restaurant splits you across separate tables, and most people leave having talked to their own crew. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last van's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+113. Country Stone Builders Ltd
+To: roykoch@telus.net
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Roy,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes from your Okanagan Avenue office, on 45th. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant a building crew ends up at separate tables, and you leave having talked to the same few people you see on site every day. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, whatever the weather's doing on site. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+114. Summit Financial Planners (Franz Vickerson)
+To: franz@summitfinancial.bc.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Franz,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes from your 53rd Avenue office, on 45th. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant an office ends up at separate tables, and you leave having talked to whoever sat beside you. Here your planners and staff get private bays together, everyone's in the same room, and people can jump in and play or just hang out in the lounge. It works just as well as a client evening. We're open 24/7, so it can start whenever the last appointment's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+115. Tillicum Electric & Controls Ltd
+To: boris.tillicum@telus.net
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Boris,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes from your 28A Street shop, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the field electricians and the controls side end up at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. If part of your crew is on call for maintenance, our 24/7 hours mean the party can start whenever they're off the clock.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+116. Kiwi Auto
+To: kiwiautovernon@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Kiwi Auto team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes north of your 35th Street shop, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts a shop at separate tables, and you leave having talked to the two or three people beside you. Here your techs get private bays together, everyone's in the same room, and people can jump in and play or just hang out in the lounge. The simulators run proper courses, so the golfers in the shop will feel right at home. We're open 24/7, so it can start once the last Audi's off the hoist.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+117. Okanagan Wealth Advisors (National Bank)
+To: trevor.perepolkin@nbc.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Trevor,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes north of your 30th Avenue office, on 45th. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant an office ends up at separate tables, and you leave having talked to whoever sat next to you. Here your advisors and staff get private bays together, everyone's in the same room, and people can jump in and play or just hang out in the lounge. It works just as well for an evening with clients. We're open 24/7, so it can start whenever the markets close and the office empties out.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+118. Curran Parr Wealth Management (RBC DS)
+To: curranparrwealth@rbc.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Curran Parr team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, a short drive from your Highway 6 office. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant a team ends up at separate tables, and you leave having talked to whoever sat beside you. Here the whole team gets private bays together, everyone's in the same room, and people can jump in and play or just hang out in the lounge. It works just as well for an evening with clients. We're open 24/7, so it can start whenever the office closes.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+119. Reico Construction
+To: reico-construction@hotmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Reico team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts a building crew at separate tables, and you leave having talked to the same few people you see on site. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the tools are put away.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+120. Fletcher Paine Associates
+To: info@fpageotechnical.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Fletcher Paine team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the engineers, the lab and the field techs end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the lab shuts down for the day.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+121. Brentwell Construction
+To: admin@brentwellconstruction.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Brentwell team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, across town from your Kalamalka Lake Road office. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the framers and the project side end up at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the framing crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+122. Higher Level Electric
+To: info@higherlevelelectric.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Higher Level team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A crew that builds home theatres will appreciate a room full of simulator screens, and it beats a restaurant, where everyone ends up at separate tables. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last panel's closed up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+123. Browns Transport
+To: moving@brownstransport.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Browns Transport team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? You've been moving people around the Okanagan since 1975, and a restaurant party would still put the movers, the drivers and the office at separate tables. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last truck's back in the yard.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+124. Imagine Pools & Waterscapes
+To: ron@imaginepools.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Ron,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the builders and the service techs end up at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+125. Evolution Mechanical
+To: info@evolutionmechanical.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Evolution Mechanical team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With mechanics out on job sites all day, a restaurant table only gets you the handful of people you happened to sit with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last service truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+126. Litzenberger Electric
+To: info@litzelectric.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Litzenberger team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? An electrical company that's been in Vernon since 1958 has seen its share of restaurant parties: separate tables, and you leave having talked to the same few people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last van's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+127. Boundary Fencing Ltd
+To: leemunsey@boundaryfencing.biz
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Lee,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A fencing crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you dig post holes with all day. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last panel's up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+128. Oakes Custom Homes Ltd
+To: info@oakescustomhomes.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Oakes team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? After twenty-plus years of building custom homes, your crew knows how a restaurant party goes: separate tables, and a handful of conversations each. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+129. Bear Paw Earthworks
+To: info@bearpawearthworks.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Bear Paw team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With operators and drivers spread across different jobs, a restaurant table only gets you the handful of people beside you. Here the whole family-run crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last machine's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+130. Harries Construction
+To: harriesconstruction@hotmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Harries team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? Thirty-plus years of building in the North Okanagan means a crew that's been to plenty of restaurant parties: separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+131. Avalanche Gutters Ltd
+To: avalanchegutters@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Avalanche Gutters team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue, a short drive from Coldstream. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts the crew at separate tables, and you leave having talked to the same people you spend all day on ladders with. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last run of gutter's hung.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+132. Big M Excavating Ltd
+To: Mike@bigmexcavating.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Mike,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? An excavating crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you see on site. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last machine's parked.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+133. JRO Construction
+To: james@jroconstruction.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi James,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With earthworks and landscaping crews on different jobs, a restaurant table only gets you the handful of people beside you. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+134. OK-PRO Form & Finish
+To: cale@okprosurfacing.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Cale,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A forming crew at a restaurant ends up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last forms are stripped.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+135. JC Formworks
+To: johnny@jcformworks.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Johnny,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant a concrete crew ends up at separate tables, and you leave having talked to the same few people you pour with all day. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last slab's finished.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+136. Do-Itt Drywall
+To: doittdrywall@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Do-Itt team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? After more than thirty years of commercial and residential work, your crew knows how a restaurant party goes: separate tables, and a handful of conversations each. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+137. High Valley Landscaping
+To: valleylandscaping1@outlook.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi High Valley team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A landscaping crew at a restaurant ends up at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. After a year of retaining walls and pavers, the only thing anyone has to lift is a club. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+138. Kalagan Outdoor Design
+To: info@kalaganoutdoordesign.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Kalagan team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the design side and the build crews end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the crews wrap up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+139. Sunterra Custom Homes
+To: admin@sunterracustomhomes.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Sunterra team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the site crews and the office end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the crews wrap up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+140. The Gutter Guy
+To: thegutterguy@shaw.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Gutter Guy crew,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? After a year up on ladders around the North Okanagan, a restaurant table isn't much of a reward. Here your crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last job's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+141. Graydon Security Vernon
+To: vernon@graydonsecurity.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Graydon Security team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant seats the install techs and the office at separate tables, and you leave having talked to a handful of people. Here the whole Vernon team gets private bays together, everyone's in the same room, and people can jump in and play or just hang out in the lounge. We're open 24/7, so it can start whenever the last system's armed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+142. AAA Septic Services
+To: aaasepticservice1@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi AAA Septic team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A crew of drivers and service techs at a restaurant ends up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. Your crew does a job most people won't, and a proper night out is the least it's owed. We're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+143. Affordable Irrigation
+To: affordableirrigationltd@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Otto,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? An irrigation crew at a restaurant ends up at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. The simulators run real courses, so anyone who's spent the year looking at other people's lawns can finally see some fairways. We're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+144. High Energy Custom Marine
+To: highenergycustommarine@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi High Energy team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A marine shop at a restaurant ends up at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the shop wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+145. Murphy Battista LLP Vernon
+To: bill@murphybattista.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Bill,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having the Vernon office's Christmas or year-end party at Back Nine interest you? At a restaurant the lawyers and the support staff tend to end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and play or just hang out in the lounge. We're open 24/7, so it can start whenever the office wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+146. MWH Geo-Surveys Ltd
+To: info@mwhgeo.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi MWH Geo-Surveys team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge a few minutes from your Anderson Way office, on 45th Avenue. Does having your Christmas or year-end party at Back Nine interest you? This one's for the Vernon office. With crews out on surveys, a restaurant table only gets you the handful of colleagues you happened to sit with. Here the whole office gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the field crew's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+147. Horizon Measurements
+To: sales@horizonmeasurements.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Horizon Measurements team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue here in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the sales side and the techs end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. We're open 24/7, so it can start whenever the last unit's out the door.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+148. Blackwell Building Movers
+To: info@blackwellbuildingmovers.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Blackwell team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? Your crew moves whole buildings, and a restaurant party still splits it across separate tables, so you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the last move's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+149. Eagle Rock Plumbing & Heating
+To: admin@eaglerockplumbingandheating.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Eagle Rock team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A restaurant puts the plumbers and the heating techs at separate tables, and you leave having talked to a handful of people. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the last service call's done.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+150. Dynasty West Contracting
+To: grayson@dynastywest.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Grayson,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? With crews on residential and agricultural builds, a restaurant table only gets you the handful of people you happened to sit with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the crew wraps up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+151. Monashee Outdoors
+To: info@monasheeoutdoors.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Monashee Outdoors team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the sales floor and the back room end up at separate tables, and you leave having talked to a handful of people. Here your team gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start once the store's closed.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+152. Maddocks Construction Ltd
+To: info@maddocksconstruction.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Maddocks team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the site crews and the office end up at separate tables, and you leave having talked to a handful of people. Here the whole company gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about twenty minutes from Armstrong, and we're open 24/7, so it can start whenever the crews wrap up.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+153. Burton Tree Service
+To: james@burtontree.ca
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi James,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A tree crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been climbing with. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's indoors and warm, about thirty-five minutes from Enderby, and we're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+154. Veach's Septic Service
+To: veachssepticservice@gmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Veach's team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? At a restaurant the drivers and the office end up at separate tables, and you leave having talked to a handful of people. Here everyone gets private bays together in the same room, and people can jump in and swing or just hang out in the lounge. It's about thirty-five minutes from Enderby, and we're open 24/7, so it can start whenever the last truck's back.
+
+https://backninegolf.ca/local/vernonbc/
+
+---
+
+155. Deep Creek Pools & Ponds Contracting
+To: deep_creek_pools@hotmail.com
+Subject: Does a year-end party at Back Nine interest you?
+
+Hi Deep Creek team,
+
+My name is Neil. I own Back Nine Golf, the 24/7 indoor golf lounge on 45th Avenue in Vernon. Does having your Christmas or year-end party at Back Nine interest you? A tile crew at a restaurant ends up at separate tables, and you leave having talked to the same few people you've been setting tile beside. Here the whole crew gets private bays together, everyone's in the same room, and people can jump in and swing or just hang out in the lounge. It's about thirty-five minutes from Enderby, and we're open 24/7, so it can start whenever the last pool's done.
+
+https://backninegolf.ca/local/vernonbc/
