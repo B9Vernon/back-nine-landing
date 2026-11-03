@@ -221,6 +221,26 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-11-03 — scope: year-end invitations, 10 quality Vernon businesses (run 49)
+
+- [ACT NOW] #49-B9-YearEnd-Vernon-Quality-10.txt — Neil: "find 10 quality
+  businesses". Read as bigger established Vernon teams (10-30+ people, crews
+  or a full office): McCaw's Vernon operations, Swan Lake Landscaping,
+  Sunset West Mechanical, Woolley & Co., Agar Schneider & Lett, Everton
+  Ridge, All Pro Tree, Accurate Fencing, Richbuilt, Reno One.
+- [SOURCE] Log rows with exactly one Gmail-confirmed send (June invitation,
+  July crew/staff night, Aug referral idea), no reply, non-info address.
+  All 10 are second contacts: no self-introduction, opening names the
+  earlier email. Addresses on each business's own site except McCaw's
+  (Neil's own June send, no bounce).
+- [CHECKED] Gmail Sent by address and domain for year-end/Christmas, inbox
+  for replies, #24-#48 files. No mailer-daemon bounces.
+- [REPLIES] T Kruize (#48) replied 2026-11-03, ~7 people, Neil sent a quote.
+  OPS Vernon (#46) replied 2026-10-26, "I'll be in touch".
+- [LOG] 10 rows "year-end email (#49, second contact)", 2 replies recorded,
+  11 rows marked asked-in-October, Select Roofing (Armstrong), Banner RV
+  (chain), PRT (national) marked. Fit 75-78.
+
 ## Run 2026-11-02 — scope: year-end invitations, 20 in Vernon: 5 never emailed + 15 emailed once before (run 48)
 
 - [ACT NOW] #48-B9-YearEnd-Vernon-New-and-Asked-Before.txt — Neil asked for ~20

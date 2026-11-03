@@ -452,4 +452,10 @@ consistent with the log-wide ~26% email rate.
   partnership pitch, no reply, never asked about a year-end party. Use the
   exact address from Gmail Sent, no self-introduction, open with what was
   written before. Verify still open and still Vernon-based first.
+- Run 49 (10 quality): bigger teams come from the "sent once, no reply"
+  rows (~120 Vernon rows). About 1 in 4 of those had in fact been asked
+  about a year-end party in October without a log tag — always check
+  Gmail by address AND domain for "year-end"/"Christmas" first. The
+  search tool's address display drops dots (sales.vernon -> salesvernon);
+  read the thread if the exact address matters.
 
