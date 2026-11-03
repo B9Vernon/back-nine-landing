@@ -75,7 +75,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Swan Lake Market & Garden | market/garden centre | contactus@swanlakemarket.com | 2026-07-12 | batch-200 | first email contactus@swanlakemarket.com 2026-11-02 (#48 year-end)
 - [email created] Beach Radio 107.5 (Vernon) | radio station | 1075beachradio@gmail.com | 2026-07-12 | batch-200
 - [email created] Sproing Solutions (Creative) | marketing agency, Vernon | hello@sproing.ca | 2026-07-12 | batch-200 | sent 2026-07-15 (Gmail) | follow-up 2026-10-15 (#27 year-end)
-- [email created] Wayside (Press) | printing/signage, Vernon | sales@waysideco.ca | 2026-07-12 | batch-200 | sent 2026-07-19 (Gmail) to janine.coubrough@waysideco.ca | replied 2026-07-20 | in-touch
+- [email created] Wayside (Press) | printing/signage, Vernon | sales@waysideco.ca | 2026-07-12 | batch-200 | sent 2026-07-19 (Gmail) to janine.coubrough@waysideco.ca | replied 2026-07-20 | in-touch | supplier: Neil's rack-card printer, leave year-end invite to Neil (checked 2026-11-03)
 - [email created] Vernon Morning Star | newspaper | rodd.cruikshank@vernonmorningstar.com | 2026-07-12 | batch-200 | follow-up 2026-08-16
 - [email created] Castanet Vernon | news site | sales@castanet.net | 2026-07-12 | batch-200
 - [email created] Holiday Inn Express & Suites Vernon | hotel | info@vernonexpress.com | 2026-07-12 | batch-200 | sent 2026-07-15, 2026-07-19 (Gmail)
@@ -95,7 +95,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vernon Silver Star Rotary Club | service club | President@vssrotary.org | 2026-07-12 | batch-200
 - [email created] Vernon Pickleball Association | sports club (large) | vpaoperations6801@gmail.com | 2026-07-12 | batch-200 | replied 2026-08-03 | interested | follow-up 2026-10-13 (#25)
 - [email created] Vernon Search and Rescue | volunteer emergency org | vsarclues@gmail.com | 2026-07-12 | batch-200
-- [email created] Olympia Cycle & Ski | bike/ski shop, Vernon | olympianeil@shaw.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
+- [email created] Olympia Cycle & Ski | bike/ski shop, Vernon | olympianeil@shaw.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | year-end email olympianeil@shaw.ca 2026-11-03 (#50 year-end, second contact)
 - [email created] Sun Country Cycle | bike shop, Vernon | info@suncountrycycle.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | follow-up 2026-10-15 (#27 year-end)
 - [email created] Vernon Teach and Learn | education/toy retailer downtown | info@vernonteachandlearn.com | 2026-07-12 | batch-200 | first email 2026-10-15 (#27 year-end)
 - [email created] EATology | breakfast/lunch + catering, downtown | eatologyvernon@outlook.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
@@ -135,7 +135,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vance Creek Hotel & Conference Centre | hotel, SilverStar village | info@vancecreekhotel.com | 2026-07-12 | batch-200
 - [email created] Baccata Ridge Winery | winery, Grindrod (Enderby) | baccataridgewinery@gmail.com | 2026-07-12 | batch-200 | sent 2026-07-15 (Gmail) | follow-up 2026-10-18 (#31 year-end)
 - [email created] Fieldstone Organics | organic granary, Armstrong | info@fieldstoneorganics.ca | 2026-07-12 | batch-200
-- [email created] Salt Fowler Team — RE/MAX Vernon | top realtor team | webinfo@saltfowler.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
+- [email created] Salt Fowler Team — RE/MAX Vernon | top realtor team | webinfo@saltfowler.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | year-end email webinfo@saltfowler.com 2026-11-03 (#50 year-end, second contact)
 - [email created] Turtle Bay Marina & Resort | marina/boat rentals, Lake Country | boatrentals@turtlebaymarina.com | 2026-07-12 | batch-200
 - [email created] Hymers Private Wealth — RBC Dominion Securities | wealth mgmt (Kelowna, serves Okanagan) | rhonda.hymers@rbc.com | 2026-07-12 | batch-200
 - [email created] Ancient Hill Estate Winery | winery, Kelowna-east (~35 km) | info@ancienthillwinery.com | 2026-07-12 | batch-200
@@ -190,10 +190,10 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vernon Flower Shop | florist | vernonflowers.bc@gmail.com | 2026-07-12 | batch-200
 - [email created] 27th Street Florist | florist, Vernon | 27thst.florist@gmail.com | 2026-07-12 | batch-200
 - [email created] Beachcomber Home Leisure — Vernon | hot tub/leisure retailer | info@bhleisure.com | 2026-07-12 | batch-200
-- [email created] Peacock Landscaping | landscaping, Vernon | info@peacocklandscaping.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
+- [email created] Peacock Landscaping | landscaping, Vernon | info@peacocklandscaping.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | year-end email allyson@peacocklandscaping.ca 2026-11-03 (#50 year-end, second contact)
 - [email created] Swan Lake Landscaping | landscaping | contactus@swanlakelandscaping.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | year-end email contactus@swanlakelandscaping.com 2026-11-03 (#49 year-end, second contact)
-- [email created] Vernon Landscape & Stone Supply | landscape supply yard | vernonlandscape@shaw.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
-- [email created] Customer First Plumbing, Heating & Air | trades, Vernon | info@customerfirstplumbing.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
+- [email created] Vernon Landscape & Stone Supply | landscape supply yard | vernonlandscape@shaw.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | year-end email vernonlandscape@shaw.ca 2026-11-03 (#50 year-end, second contact)
+- [email created] Customer First Plumbing, Heating & Air | trades, Vernon | info@customerfirstplumbing.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | Kelowna-based, serves Vernon (checked 2026-11-03)
 - [email created] Bertelsen Plumbing | plumber, Vernon/Armstrong/Lumby | bertelsenplumbing@shawbiz.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
 - [email created] Blue Collar Installations | electrical contractor, Vernon | info@blue-collar-installations.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | follow-up 2026-10-15 (#27 year-end)
 - [email created] Vernon BC Accounting | accounting firm | info@vernonbcaccounting.ca | 2026-07-12 | batch-200
@@ -204,10 +204,10 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Furniture Emporium | furniture store, Vernon | furnitureemporium@hotmail.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | closing: owner retiring, store shutting at end of August per Castanet (year not confirmed; checked 2026-11-02)
 - [email created] Bekins Moving & Storage — Vernon | movers | sales@bekins.ca | 2026-07-12 | batch-200
 - [email created] Hugo's Moving | movers, Vernon | hugosmoving@gmail.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
-- [email created] Big Guns Roofing | roofing, Vernon/Okanagan | info@biggunsroofing.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
-- [email created] Pinnacle Roofing | roofing, Vernon | sales@pinnacleroofing.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
+- [email created] Big Guns Roofing | roofing, Vernon/Okanagan | info@biggunsroofing.com | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | Kelowna-based (Maple Ridge HQ), serves Vernon (checked 2026-11-03)
+- [email created] Pinnacle Roofing | roofing, Vernon | sales@pinnacleroofing.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | Kelowna-based, serves Vernon (checked 2026-11-03)
 - [email created] Community Roofing Ltd | roofing, Vernon | louis@communityroofing.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | follow-up 2026-10-15 (#27 year-end)
-- [email created] StormProof Roofing | roofing | contact@stormproofroofing.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail)
+- [email created] StormProof Roofing | roofing | contact@stormproofroofing.ca | 2026-07-12 | batch-200 | sent 2026-07-16 (Gmail) | sole proprietor since 2022, too small for quality list (checked 2026-11-03)
 - [email created] Vernon Tech Solutions | IT services, Vernon | info@vernontechs.com | 2026-07-12 | batch-200 | first email email@vernontechs.com 2026-10-18 (#40 year-end)
 - [email created] Wet Spot Grooming & Pet Care | pet grooming, Vernon | wetspotgrooming@outlook.com | 2026-07-12 | batch-200
 - [email created] Mountview Dog Grooming | pet grooming, Vernon | mountviewdoggrooming@gmail.com | 2026-07-12 | batch-200
@@ -340,7 +340,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Devon's Roofing | Roofing contractor | devons-roofing.com contact page | 2026-07-16 | run-2 | not in Vernon: Enderby (checked 2026-10-25)
 - [email created] Okanagan Quality Roofing | Roofing contractor | okanaganqualityroofing.ca contact page | 2026-07-16 | run-2 | sent 2026-07-21 (Gmail) to nailedit@energyeconomics.ca | offices in Armstrong and Kelowna, not Vernon (checked 2026-11-02)
 - [email created] Select Roofing | Roofing contractor | vernonbcroofingcompany.ca contact page | 2026-07-16 | run-2 | sent 2026-07-21 (Gmail) to sales@selectroofers.ca | Armstrong-based, not Vernon (checked 2026-11-03)
-- [email created] NOR Renovations Ltd | Renovations & roofing | norrenovations.com contact page | 2026-07-16 | run-2 | sent 2026-07-21 (Gmail) to norreno@telus.net
+- [email created] NOR Renovations Ltd | Renovations & roofing | norrenovations.com contact page | 2026-07-16 | run-2 | sent 2026-07-21 (Gmail) to norreno@telus.net | year-end email norreno@telus.net 2026-11-03 (#50 year-end, second contact)
 - [email created] Verno Plumbing & Gasfitting | Plumbing | vernoplumbing.ca contact page | 2026-07-16 | run-2
 - [email created] Auger Plumbing and Heating | Plumbing & heating | augerplumbingandheating.ca contact page | 2026-07-16 | run-2 | first email blane@augerplumb.com 2026-10-18 (#40 year-end)
 - [email created] Mr. Rooter Plumbing Vernon | Plumbing | mrrooter.ca/vernon contact page | 2026-07-16 | run-2
@@ -357,7 +357,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Okanagan Business Photography | Commercial photography | kate@mahaits.com (Kate) | 2026-07-16 | run-2
 - [email created] Michelle Beeton Mortgages | Mortgage broker | michellebeeton.com/contact.html | 2026-07-16 | run-2
 - [email created] Kari Gares Mortgage | Mortgage broker | karigares.com contact page | 2026-07-16 | run-2
-- [email created] McKay Wood Mortgage | Mortgage brokers | mckaywood.ca Vernon page | 2026-07-16 | run-2 | sent 2026-07-23 (Gmail) to mckay@mortgagepal.ca
+- [email created] McKay Wood Mortgage | Mortgage brokers | mckaywood.ca Vernon page | 2026-07-16 | run-2 | sent 2026-07-23 (Gmail) to mckay@mortgagepal.ca | not in Vernon: Vancouver (checked 2026-11-03)
 - [email created] Sundance Pool and Spa | Hot tub & pool store | sundancepoolandspa.com/contact | 2026-07-16 | run-2
 - [email created] Blue Haven Pools & Spas | Pools & hot tubs | bluehaven.ca contact page | 2026-07-16 | run-2
 - [email created] Jacuzzi Hot Tubs of Okanagan — Vernon | Hot tub dealer | Jacuzzi dealer page for Vernon | 2026-07-16 | run-2
@@ -530,7 +530,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Habibi's Donair | Restaurant | 5100 Anderson Way | 2026-07-19 | run-3
 - [email created] Vernon Towing | Towing (24/7) | vernon@reliabletowing.ca | 2026-07-19 | run-3 | first email admin@vernontowing.ca 2026-10-19 (#41 year-end)
 - [email created] Silver Star Tree Service | Tree service | phone 250-550-5308 | 2026-07-19 | run-3 | sent 2026-07-22 (Gmail) to jim@silverstartree.com
-- [email created] Timberwolf Tree Service | Tree service | timberwolftreeservicebc@gmail.com | 2026-07-19 | run-3 | sent 2026-07-22 (Gmail)
+- [email created] Timberwolf Tree Service | Tree service | timberwolftreeservicebc@gmail.com | 2026-07-19 | run-3 | sent 2026-07-22 (Gmail) | year-end email timberwolftreeservicebc@gmail.com 2026-11-03 (#50 year-end, second contact)
 - [email created] Nolan's Pharmasave | Pharmacy | phone 250-542-4181 | 2026-07-19 | run-3
 - [email created] Royal Canadian Legion Branch 25 | Community org | legion25@shaw.ca | 2026-07-19 | run-3
 - [email created] Vernon Baseball Association | Sports association | vernonbaseball.com form | 2026-07-19 | run-3
@@ -555,7 +555,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Okanagan PHOTOSTAR | Photo booth | info@OkanaganPHOTOSTAR.com | 2026-07-19 | run-3
 - [email created] Mi Taqueria Mexican Cantina | Restaurant | vernontaqueria.com form | 2026-07-19 | run-3
 - [email created] North Okanagan Paint & Window (Benjamin Moore) | Paint store | store@bmnorthokgn.ca | 2026-07-19 | run-3 | sent 2026-10-13 (Gmail)
-- [email created] Vernon On Site Fencing | Fencing | onsitefencing.com form | 2026-07-19 | run-3 | sent 2026-07-24 (Gmail) to vosf@hotmail.com
+- [email created] Vernon On Site Fencing | Fencing | onsitefencing.com form | 2026-07-19 | run-3 | sent 2026-07-24 (Gmail) to vosf@hotmail.com | year-end email vosf@hotmail.com 2026-11-03 (#50 year-end, second contact)
 - [email created] Modern PURAIR Vernon | Air quality | modernpurair.com form | 2026-07-19 | run-3
 - [email created] Shepherd's Home Hardware (Armstrong) | Hardware | phone 250-546-3002 | 2026-07-19 | run-3
 - [email created] Vernon Outdoors Club | Community club | vernonoutdoorsclub.org form | 2026-07-19 | run-3
@@ -763,7 +763,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vernon Upholstery | Upholstery/furniture repair | phone 250-540-2105 | 2026-07-20 | run-4
 - [email created] Classica Upholstery | Upholstery | classicaupholstery.com form | 2026-07-20 | run-4
 - [email created] deBoersap Refinishing | Furniture refinishing | deboersaprefinishing.ca form | 2026-07-20 | run-4
-- [email created] Fireplace Den & Deck (Okanagan Fireplace Den) | Fireplace/patio retail | sales@okfireplaceden.ca | 2026-07-20 | run-4 | sent 2026-07-25 (Gmail)
+- [email created] Fireplace Den & Deck (Okanagan Fireplace Den) | Fireplace/patio retail | sales@okfireplaceden.ca | 2026-07-20 | run-4 | sent 2026-07-25 (Gmail) | chain: Kelowna and Vernon stores (checked 2026-11-03)
 - [email created] Swan Lake Motors | Auto dealer | phone 250-260-2791 | 2026-07-20 | run-4 | first email joe@swanlakemotors.com 2026-10-25 (#44 year-end)
 - [email created] Vernon Kia | Auto dealer | phone 888-690-5132 | 2026-07-20 | run-4 | first email 2026-10-15 (#26 year-end)
 - [email created] GoMax RV Solutions | RV dealer | website/social | 2026-07-20 | run-4
@@ -952,12 +952,12 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] McElhanney Vernon | Local business | mcelhanney.com Okanagan office page | 2026-07-25 | run-6 | first email 2026-10-15 (#26 year-end)
 - [email created] BAR Engineering Vernon | Local business | bareng.ca/vernon contact page | 2026-07-25 | run-6 | first email info@bareng.ca 2026-10-18 (#40 year-end)
 - [email created] R+A Engineering Ltd | Local business | R+A Engineering Vernon (Chamber listing) | 2026-07-25 | run-6 | first email info@raengineering.ca 2026-10-25 (#42 year-end)
-- [email created] Cubit Consulting | Local business | cubitconsulting.ca contact page | 2026-07-25 | run-6 | sent 2026-08-01 (Gmail) to philipp@cubitconsulting.ca
+- [email created] Cubit Consulting | Local business | cubitconsulting.ca contact page | 2026-07-25 | run-6 | sent 2026-08-01 (Gmail) to philipp@cubitconsulting.ca | year-end email philipp@cubitconsulting.ca 2026-11-03 (#50 year-end, second contact)
 - [email created] Aspire Recruitment Solutions | Local business | aspirehiring.ca + 778-484-0161 | 2026-07-25 | run-6
 - [email created] The Vernon Staffing Group | Local business | vernonstaffing.com contact page | 2026-07-25 | run-6
 - [email created] Bowman Employment Services | Local business | Bowman Employment Services Vernon (website/phone) | 2026-07-25 | run-6
 - [email created] Firebird Consultants Group | Local business | Firebird Consultants Group Vernon (website/phone) | 2026-07-25 | run-6
-- [email created] Optimum Security Vernon | Local business | optimumsecurity.ca Vernon page + 604-644-9229 | 2026-07-25 | run-6 | sent 2026-08-01 (Gmail) to info@optimumsecurity.ca
+- [email created] Optimum Security Vernon | Local business | optimumsecurity.ca Vernon page + 604-644-9229 | 2026-07-25 | run-6 | sent 2026-08-01 (Gmail) to info@optimumsecurity.ca | Vancouver-based, Vernon page only (checked 2026-11-03)
 - [email created] Eyecom Security | Local business | eyecomsecurity.com + 250-801-0850 | 2026-07-25 | run-6 | sent 2026-08-01 (Gmail) to info@eyecomsecurity.com
 - [email created] SafeTech Alarm Systems | Local business | safetechalarms.com Vernon page + 888-939-3733 | 2026-07-25 | run-6
 - [email created] Polson Park Motel | Local business | polsonparkmotel.ca + 250-549-2231 | 2026-07-25 | run-6
@@ -1001,7 +1001,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Waste Connections Vernon | Local business | wasteconnectionscanada.com Kelowna-Vernon page | 2026-07-25 | run-6
 - [email created] Window and Door Solutions Ltd | Local business | windowprojectsolutions.ca + 778-721-0596 | 2026-07-25 | run-6
 - [email created] New Town Windows and Doors | Local business | newtownwindows.ca + 778-401-6628 | 2026-07-25 | run-6 | sent 2026-08-01 (Gmail) to sales@newtownwindows.ca
-- [email created] HTR Windows and Doors | Local business | htrwindows.ca Vernon page | 2026-07-25 | run-6 | sent 2026-08-01 (Gmail) to office@htrwindows.ca
+- [email created] HTR Windows and Doors | Local business | htrwindows.ca Vernon page | 2026-07-25 | run-6 | sent 2026-08-01 (Gmail) to office@htrwindows.ca | chain: several locations (checked 2026-11-03)
 - [email created] Adera Windows Vernon | Local business | aderawindows.ca Vernon page | 2026-07-25 | run-6
 - [email created] Ecoline Windows Vernon | Local business | ecolinewindows.ca Vernon location page | 2026-07-25 | run-6
 - [email created] Station BBQ Smokehouse | Local business | Station BBQ Smokehouse Vernon (website/phone) | 2026-07-25 | run-6 | first email info@stationbbq.com 2026-10-25 (#44 year-end)
@@ -1421,7 +1421,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Pinnacle Equipment Vernon | Local business | dleamc.com/vernon contact page | 2026-07-26 | run-8
 - [email created] Interior Motors Vernon | Local business | Interior Motors, Vernon (site/phone) | 2026-07-26 | run-8
 - [email created] Savoy Equipment Ltd | Local business | savoyequipment.com Vernon contact page | 2026-07-26 | run-8 | sent 2026-08-01 (Gmail) to info@savoyequipment.com
-- [email created] Vernon Landscape Centre | Local business | 4620 23 St, Vernon (site/phone) | 2026-07-26 | run-8 | sent 2026-07-16 (Gmail) to vernonlandscape@shaw.ca (as Vernon Landscape & Stone Supply)
+- [email created] Vernon Landscape Centre | Local business | 4620 23 St, Vernon (site/phone) | 2026-07-26 | run-8 | sent 2026-07-16 (Gmail) to vernonlandscape@shaw.ca (as Vernon Landscape & Stone Supply) | duplicate of "Vernon Landscape & Stone Supply" — do not contact again
 - [email created] Vernon Urgent and Primary Care Centre | Local business | Vernon Urgent and Primary Care Centre (site/contact) | 2026-07-26 | run-8
 - [email created] Greater Vernon Museum and Archives | Local business | Greater Vernon Museum & Archives (site/contact) | 2026-07-26 | run-8
 - [email created] Vernon and District Performing Arts Centre | Local business | Vernon & District Performing Arts Centre (site/contact) | 2026-07-26 | run-8 | duplicate of "Vernon & District Performing Arts Centre" — do not contact again
@@ -1524,10 +1524,10 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Enderby and District Chamber of Commerce | Local business | Enderby & District Chamber of Commerce (enderbychamber.com contact) | 2026-07-26 | run-8 | duplicate of "Enderby & District Chamber of Commerce" — do not contact again
 - [email created] Enderby Rentals | Local business | info@enderbyrentals.ca | 2026-07-26 | run-8 | sent 2026-08-01 (Gmail) | follow-up 2026-10-18 (#31 year-end)
 - [email created] Fork Seasons | Uncategorized | info@forkseasons.ca | 2026-07-26 | run-9
-- [email created] Lawson Engineering Ltd. | Trades — building | marketing@lawsonengineering.ca | 2026-07-26 | run-9 | sent 2026-07-27 (Gmail)
+- [email created] Lawson Engineering Ltd. | Trades — building | marketing@lawsonengineering.ca | 2026-07-26 | run-9 | sent 2026-07-27 (Gmail) | branch: head office Salmon Arm (checked 2026-11-03)
 - [email created] Cambria Plumbing Ltd | Trades — plumbing/HVAC | cambriaplumbing@outlook.com | 2026-07-26 | run-9 | sent 2026-07-27 (Gmail)
 - [email created] Jeryn Contracting | Trades — building | Erynsutherland@icloud.com | 2026-07-26 | run-9 | sent 2026-07-27 (Gmail)
-- [email created] Milestone Fabrication Ltd. | Manufacturing | milestone@shaw.ca | 2026-07-26 | run-9 | sent 2026-07-27 (Gmail)
+- [email created] Milestone Fabrication Ltd. | Manufacturing | milestone@shaw.ca | 2026-07-26 | run-9 | sent 2026-07-27 (Gmail) | not in Vernon: Salmon Arm (checked 2026-11-03)
 - [email created] Twin Anchors Houseboat Vacations | Uncategorized | houseboats@twinanchors.com | 2026-07-26 | run-9
 - [email created] Sicamous Houseboats | Uncategorized | barb.scott@sicamoushouseboats.com | 2026-07-26 | run-9
 - [email created] Bluewater Houseboat Vacations | Uncategorized | info@bluewaterhouseboats.ca | 2026-07-26 | run-9
@@ -1848,7 +1848,7 @@ Format: - [STATUS] Business Name | area/category | contact used | date | note
 - [email created] Vernon Cabinet Center | Trades — building | gregpecka66@yahoo.com | 2026-07-30 | run-13 | duplicate of "Vernon Cabinet Center / Pro Art Cabinets" — do not contact again | sent 2026-07-30 (Gmail)
 - [email created] Edge Apparel & Imprints | Retail | sales@edgeimprints.com | 2026-07-30 | run-13 | duplicate of "Edge Imprints" — do not contact again
 - [email created] A-1 Machine & Welding | Manufacturing | machinery@a1machine.bc.ca | 2026-07-30 | run-13 | duplicate of "A1 Machine & Welding (1986)" — do not contact again
-- [email created] BlueCrow Architecture | Architecture/design | jay@bluecrowarch.ca | 2026-07-30 | run-13 | sent 2026-07-30 (Gmail)
+- [email created] BlueCrow Architecture | Architecture/design | jay@bluecrowarch.ca | 2026-07-30 | run-13 | sent 2026-07-30 (Gmail) | year-end email jay@bluecrowarch.ca 2026-11-03 (#50 year-end, second contact)
 - [email created] Vernon Custom Garage | Garage builder/home improvement | info@vernoncustomgarage.com | 2026-07-30 | run-14 | replied 2026-07-31 | interested | follow-up 2026-10-13 (#25)
 - [email created] Custom Car Concepts | Auto accessories/car audio | customcar@telus.net | 2026-07-30 | run-14
 - [email created] Sun City Auto Parts | Auto service | suncautoparts@gmail.com | 2026-07-30 | run-14
@@ -2126,7 +2126,7 @@ new rows after them are #1-#108, then #146-#155 (10 added on request).
 ## Backfill — earlier sends found in Gmail while screening run 29 (logged 2026-10-16)
 
 - [email created] Agar Schneider & Lett | Accounting/finance | admin@cpavernon.ca | 2026-06-15 | backfill-jun | sent 2026-06-15 (Gmail) | year-end email admin@cpavernon.ca 2026-11-03 (#49 year-end, second contact)
-- [email created] Links Lawn & Yard Services | Landscaping/garden | rbiett@linkssnowremoval.com | 2026-07-23 | backfill-jul | sent 2026-07-23 (Gmail)
+- [email created] Links Lawn & Yard Services | Landscaping/garden | rbiett@linkssnowremoval.com | 2026-07-23 | backfill-jul | sent 2026-07-23 (Gmail) | year-end email rbiett@linkssnowremoval.com 2026-11-03 (#50 year-end, second contact)
 - [email created] Window & Door Project Solutions | Trades — exteriors | windowprojectsolutions@gmail.com | 2026-08-01 | backfill-aug | sent 2026-08-01 (Gmail)
 - [email created] Sage Environmental Consulting | Engineering | matt@sageenvironmental.ca | 2026-10-13 | backfill-oct | sent 2026-10-13 (Gmail) | asked about year-end in Oct 2026 (Gmail)
 

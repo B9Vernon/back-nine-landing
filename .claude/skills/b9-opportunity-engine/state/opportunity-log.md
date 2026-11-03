@@ -221,6 +221,26 @@ they were not included in the second-contact file.
   someone he knows. Locked as "Warm contacts — no self-introduction" in
   website-research-email.md; verifier gained `--warm`.
 
+## Run 2026-11-03 — scope: year-end invitations, 10 more quality Vernon businesses (run 50)
+
+- [ACT NOW] #50-B9-YearEnd-Vernon-Quality-10b.txt — NOR Renovations, Salt
+  Fowler Team, Peacock Landscaping, Vernon On Site Fencing, Olympia Cycle &
+  Ski, Links Lawn & Yard, Vernon Landscape & Stone Supply, Cubit Consulting,
+  BlueCrow Architecture, Timberwolf Tree Service. All second contacts (one
+  July/Aug email, no reply, never asked about a year-end party); no
+  self-introduction; no info@.
+- [SOURCE] Same "sent once" pool as run 49; Peacock re-addressed from info@
+  to allyson@ (on their site). Olympia, Cubit and BlueCrow go to the
+  addresses Neil already used (directory or no public listing).
+- [CHECKED] Gmail Sent by address and domain for year-end/Christmas, inbox
+  for replies, #24-#49 files.
+- [LOG] 10 rows "year-end email (#50, second contact)", 11 rows marked
+  out-of-town / branch / chain / too small, Wayside marked supplier.
+  Fit 75-78.
+- [NEXT] The quality part of the sent-once pool is close to used up. What
+  remains is mostly small shops, restaurants, and firms whose only public
+  address is info@.
+
 ## Run 2026-11-03 — scope: year-end invitations, 10 quality Vernon businesses (run 49)
 
 - [ACT NOW] #49-B9-YearEnd-Vernon-Quality-10.txt — Neil: "find 10 quality
